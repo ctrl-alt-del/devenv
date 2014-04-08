@@ -27,6 +27,38 @@ After the .bash_profile is created, restart the git bash to let the changes take
 
 
 ## Ruby
+Download the lastest Ruby for Windows from here:
+
+http://rubyinstaller.org/downloads/
+
+Choose the appropriate RubyInstaller to download, either x86 or x64 based on your operation system.
+
+Install Ruby on whatever directory you like, for this example, I will pick my directory := /c/usr/bin/ruby
+
+the executable ruby.exe should then be under:
+
+```sh
+<directory>/bin/ruby.exe # /c/usr/bin/ruby/bin/ruby.exe
+```
+
+Run git bash as administrator, then go to the bin of git bash by running: 
+```sh
+cd /usr/bin
+```
+
+Create a symbolic link by running:
+```sh
+ln -s <directory>/bin/ruby.exe ruby.exe # ln -s /c/usr/bin/ruby/bin/ruby.exe ruby.exe
+```
+
+Verify the symbolic link is working properly by running:
+```sh
+ruby -v
+```
+
+if there is error saying ruby is not found on sh.exe, restart the git bash and run above line again.
+
+
 ## Rails
 ## Java
 ## Python
