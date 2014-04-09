@@ -3,17 +3,21 @@ devenv
 
 # Setup dev environment on Windows
 
+## Installation Folder
+Having a folder to centralize all your packages is always good.  In this instruction, all packages will be put or installed inside /c/usr/bin (or "C:\usr\bin") for easy management, create the folder if it is not existed, and feel free to choose your own directory.
+
+
 ## Git
 Download the latest git for Windows from git:
 
 http://git-scm.com/download/win
 
-and install it, keep all the install configuration default.
+and install it under /c/usr/bin/git or whatever directory you chose, keep all the install configuration default.
 
 ### Setup .bash_profile
 After git is installed, let us configure the git bash and have it memorize some convenient shortcuts.
 
-let us navigate to the home directory of git bash by running:
+Open git bash as administrator, and navigate to the home directory of git bash by running:
 ```sh
 cd ~
 ```
@@ -26,7 +30,28 @@ this should create a .bash_profile file if it is not existed yet and inject the 
 After the .bash_profile is created, restart the git bash to let the changes take effect.
 
 
-## Curl
+## Curl (Optional, Curl should come with Git by default.  If it is not, you can download and configure it through following the instruction in below)
+
+Download the latest curl for Windows from here:
+http://curl.haxx.se/download.html
+
+Choose the curl-<version>.zip from source achieve to download.
+
+When it is done, unzip it to the directory your chose, in this example, it would be /c/usr/bin.
+
+Once it is unzipped, rename the unzipped folder to "curl" (without quotes)
+
+Run git bash as administrator, then go to the bin of git bash by running: 
+```sh
+cd /usr/bin
+```
+
+Create a symbolic link by running:
+```sh
+ln -s /c/usr/bin/curl/curl.exe ruby.exe # ln -s /c/usr/bin/ruby/bin/ruby.exe ruby.exe
+```
+
+
 ## Ruby
 Download the latest Ruby for Windows from here:
 
@@ -34,7 +59,7 @@ http://rubyinstaller.org/downloads/
 
 Choose the appropriate RubyInstaller to download, either x86 or x64 based on your operation system.
 
-Install Ruby on whatever directory you like, for this example, I will pick my directory := /c/usr/bin/ruby
+Install Ruby on /c/usr/bin/ruby or whatever directory you chose
 
 the executable ruby.exe should then be under:
 
