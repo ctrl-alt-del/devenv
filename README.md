@@ -4,7 +4,7 @@ devenv
 # Setup dev environment on Windows
 
 ## Installation Folder
-Having a folder to centralize all your packages is always good.  In this instruction, all packages will be put or installed inside /c/usr/bin (or "C:\usr\bin") for easy management, create the folder if it is not existed, and feel free to choose your own directory.
+Having a folder to centralize all your packages is always good.  In this instruction, all packages will be put or installed inside /c/usr/bin (or "C:\usr\bin") for better management. Please create the folder if it is not existed, or feel free to choose your own directory.
 
 
 ## Git
@@ -12,30 +12,32 @@ Download the latest git for Windows from git:
 
 http://git-scm.com/download/win
 
-and install it under /c/usr/bin/git or whatever directory you chose, keep all the install configuration default.
+and install it under /c/usr/bin/git or whatever directory you chose, simply keep all the configuration choices in their default if you don't know what they mean.
 
 ### Setup .bash_profile
 After git is installed, let us configure the git bash and have it memorize some convenient shortcuts.
 
-Open git bash as administrator, and navigate to the home directory of git bash by running:
+Open git bash as administrator by right click on the icon of git bash and select "Run as Administrator".
+
+Navigate to the home directory of your windows by running:
 ```sh
-cd ~
+cd ~ # /c/Users/<YOUR_PC_USER_NAME>
 ```
-then run the bash script on: 
+then run the bash script on the following path of this repository: 
 ```sh
 ./devenv/windows/setup_bash_profile.sh
 ```
-this should create a .bash_profile file if it is not existed yet and inject the shortcuts to the file.
+this should create a .bash_profile file if it is not existed and inject the shortcuts to the file.
 
 After the .bash_profile is created, restart the git bash to let the changes take effect.
 
 
-## Curl (Optional, Curl should come with Git by default.  If it is not, you can download and configure it through following the instruction in below)
+## Curl (Optional, Curl should come with Git by default.  If it is not, you can download and configure it by following the instruction in below)
 
 Download the latest curl for Windows from here:
 http://curl.haxx.se/download.html
 
-Choose the curl-<version>.zip from source achieve to download.
+Choose the curl-[version].zip from source achieve to download.
 
 When it is done, unzip it to the directory your chose, in this example, it would be /c/usr/bin.
 
@@ -48,7 +50,7 @@ cd /usr/bin
 
 Create a symbolic link by running:
 ```sh
-ln -s /c/usr/bin/curl/curl.exe ruby.exe # ln -s /c/usr/bin/ruby/bin/ruby.exe ruby.exe
+ln -s /c/usr/bin/curl/curl.exe curl.exe
 ```
 
 
@@ -59,12 +61,22 @@ http://rubyinstaller.org/downloads/
 
 Choose the appropriate RubyInstaller to download, either x86 or x64 based on your operation system.
 
+Or run the following line if you are in 64-bit system:
+```sh
+curl --remote-name "http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.0.0-p451-x64.exe?direct"
+```
+
+Or run the following line if you are in 32-bit system:
+```sh
+curl --remote-name "http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.0.0-p451.exe?direct"
+```
+
 Install Ruby on /c/usr/bin/ruby or whatever directory you chose
 
 the executable ruby.exe should then be under:
 
 ```sh
-<directory>/bin/ruby.exe # /c/usr/bin/ruby/bin/ruby.exe
+/c/usr/bin/ruby/bin/ruby.exe
 ```
 
 Run git bash as administrator, then go to the bin of git bash by running: 
@@ -74,7 +86,7 @@ cd /usr/bin
 
 Create a symbolic link by running:
 ```sh
-ln -s <directory>/bin/ruby.exe ruby.exe # ln -s /c/usr/bin/ruby/bin/ruby.exe ruby.exe
+ln -s /c/usr/bin/ruby/bin/ruby.exe ruby.exe # ln -s /c/usr/bin/ruby/bin/ruby.exe ruby.exe
 ```
 
 Verify the symbolic link is working properly by running:
