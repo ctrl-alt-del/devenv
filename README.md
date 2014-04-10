@@ -99,6 +99,36 @@ if there is error saying ruby is not found on sh.exe, restart the git bash and r
 
 ## Rails
 ## Java
+ownload the latest Java for Windows from here:
+
+http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html
+
+Choose the appropriate Thread Safe zip to download, either x86 or x64 based on your operation system.
+
+Run the downloaded executable file and install java under: 
+```sh
+/c/usr/bin/java
+```
+Run git bash as administrator, then go to the bin of git bash by running: 
+```sh
+cd /usr/bin
+```
+
+Create a symbolic link by running:
+```sh
+ln -s /c/usr/bin/java/java.exe java.exe
+```
+
+Verify the symbolic link is working properly by running:
+```sh
+which java # should see /usr/bin/java
+```
+
+if there is error saying php is not found on sh.exe, restart the git bash and run above line again.
+
+
+
+
 ## Python
 
 
@@ -117,7 +147,7 @@ Unzip the downloaded file to whatever directory you like, for this example, I wi
 
 the executable php.exe should then be under:
 ```sh
-<directory>/php.exe # /c/usr/bin/php/php.exe
+/c/usr/bin/php/php.exe
 ```
 
 Run git bash as administrator, then go to the bin of git bash by running: 
@@ -127,7 +157,7 @@ cd /usr/bin
 
 Create a symbolic link by running:
 ```sh
-ln -s <directory>/php.exe php.exe # ln -s /c/usr/bin/php/php.exe php.exe
+ln -s /c/usr/bin/php/php.exe php.exe
 ```
 
 Verify the symbolic link is working properly by running:
