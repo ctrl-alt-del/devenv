@@ -4,7 +4,7 @@ devenv
 # About/Disclaimer
 I use both Mac and Windows regularly and sometimes Ubuntu.  Although I mostly use Mac as my coding machine, I am very interested in coding on my Windows machine as well.  After some reseaches as well as trials and errors, I am able to setup the dev environment on my Windows machine and I am pretty happy with it so far.  
 
-I think it may be a good idea to share the setup process with the community, maybe it can save them some time (hopefully :-) ).  This document will be updated piece by piece and I will try my best to describe the process step by step.  Please let me know if you see anything confusing/unclear/wrong or you have any recommendations.  Thank you.
+I think it may be a good idea to share the setup process with the community, hopefully it can save other people some time :-).  This document will be updated piece by piece and I will try my best to describe the process step by step.  Please let me know if you see anything confusing/unclear/wrong or you have any recommendations.  Thank you.
 
 # Setup dev environment on Windows
 
@@ -117,7 +117,7 @@ Choose the appropriate devkit to download, either x86 or x64 based on your opera
 
 Once the download is done, double click on the executable file and install/unzip it to /c/usr/bin/devkit, or whatever directory you chose.
 
-Run git bash as administrator and then runthe following lines one by one: 
+Run git bash as administrator and then run the following lines one by one: 
 ```sh
 cd /c/usr/bin/devkit
 ruby dk.rb init
@@ -128,9 +128,21 @@ If there is no error shows up, the setup is successful.
 
 
 ## Rails
+Verify that Ruby and devkit are installed in your machine:
+```sh
+which ruby
+which gem
+```
 
+Then run following line to install Rails:
+```sh
+gem install rails
+```
 
-
+Once installation is done, verify it through running:
+```sh
+which rails
+```
 
 
 ## Java
@@ -162,9 +174,8 @@ which java # should see /usr/bin/java
 if there is error saying php is not found on sh.exe, restart the git bash and run above line again.
 
 
-
-
 ## Python
+
 
 
 ## PHP
