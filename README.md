@@ -179,6 +179,46 @@ if there is error saying php is not found on sh.exe, restart the git bash and ru
 
 
 ## Python
+There are Python 2.x and Python 3.x available.  This instruction will focus on 2.x, but similar steps can be easily applied to 3.x as well.
+
+Download the Python 2.7.6 for Windows from here:
+https://www.python.org/download/releases/2.7.6
+
+Under the Download tab, choose the appropriate msi file to download, either x86 or x64 based on your operation system.
+
+You can also use the following command to download the 32-bit version:
+```sh
+curl --remote-name https://www.python.org/ftp/python/2.7.6/python-2.7.6.msi
+```
+
+Or use the following command to download the 64-bit version:
+```sh
+curl --remote-name https://www.python.org/ftp/python/2.7.6/python-2.7.6.amd64.msi
+```
+
+Once the msi file is downloaded, double click to install it under /c/usr/bin/python.
+
+the executable python.exe should then be under:
+```sh
+/c/usr/bin/python/python.exe
+```
+
+Run git bash as administrator, then go to the bin of git bash by running: 
+```sh
+cd /usr/bin
+```
+
+Create a symbolic link by running:
+```sh
+ln -s /c/usr/bin/python/python.exe python.exe
+```
+
+Verify the symbolic link is working properly by running:
+```sh
+which python # should see /usr/bin/python
+```
+
+if there is error saying php is not found on sh.exe, restart the git bash and run above line again.
 
 
 ## PHP
