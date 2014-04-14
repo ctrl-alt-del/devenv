@@ -68,12 +68,12 @@ Choose the appropriate RubyInstaller to download, either x86 or x64 based on you
 
 Or run the following line if you are in 64-bit system:
 ```sh
-curl --remote-name "http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.0.0-p451-x64.exe?direct"
+curl --remote-name "http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.0.0-p451-x64.exe"
 ```
 
 Or run the following line if you are in 32-bit system:
 ```sh
-curl --remote-name "http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.0.0-p451.exe?direct"
+curl --remote-name "http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.0.0-p451.exe"
 ```
 
 Install Ruby on /c/usr/bin/ruby or whatever directory you chose
@@ -91,7 +91,7 @@ cd /usr/bin
 
 Create a symbolic link by running:
 ```sh
-ln -s /c/usr/bin/ruby/bin/ruby.exe ruby.exe # ln -s /c/usr/bin/ruby/bin/ruby.exe ruby.exe
+ln -s /c/usr/bin/ruby/bin/ruby.exe ruby.exe
 ```
 
 Verify the symbolic link is working properly by running:
@@ -117,9 +117,13 @@ Choose the appropriate devkit to download, either x86 or x64 based on your opera
 
 Once the download is done, double click on the executable file and install/unzip it to /c/usr/bin/devkit, or whatever directory you chose.
 
-Run git bash as administrator and then run the following lines one by one: 
+Run git bash as administrator and go to the directory of devkit by running: 
 ```sh
 cd /c/usr/bin/devkit
+```
+
+Initialize the devkit and then install it by running:
+```sh
 ruby dk.rb init
 ruby dk.rb install
 ```
@@ -177,19 +181,24 @@ if there is error saying php is not found on sh.exe, restart the git bash and ru
 ## Python
 
 
-
 ## PHP
 Download the latest PHP for Windows from here:
 
 http://windows.php.net/download/
 
 Choose the appropriate Thread Safe zip to download, either x86 or x64 based on your operation system.
-Or use the following:
+
+You can also use the following command to download the 32-bit version:
+```sh
+curl --remote-name http://windows.php.net/downloads/releases/php-5.5.11-Win32-VC11-x86.zip
+```
+
+Or use the following command to download the 64-bit version:
 ```sh
 curl --remote-name http://windows.php.net/downloads/releases/php-5.5.11-Win32-VC11-x64.zip
 ```
 
-Unzip the downloaded file to whatever directory you like, for this example, I will pick my directory := /c/usr/bin/php
+Unzip the downloaded file to /c/usr/bin/php, or whatever directory you chose.
 
 the executable php.exe should then be under:
 ```sh
@@ -228,7 +237,7 @@ if there is error saying php is not found on sh.exe, restart the git bash and ru
 ## PHP
 ## MAMP
 
-# Setup dev environment on Ubuntu
+# Setup dev environment on Ubuntu 12.04 LTS
 
 ## PPA
 ## Git
