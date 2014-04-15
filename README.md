@@ -4,7 +4,7 @@ devenv
 # About/Disclaimer
 I use both Mac and Windows regularly and sometimes Ubuntu.  Although I mostly use Mac as my coding machine, I am very interested in coding on my Windows machine as well.  After some reseaches as well as trials and errors, I am able to setup the dev environment on my Windows machine and I am pretty happy with it so far.  
 
-I think it may be a good idea to share the setup process with the community, hopefully it can save other people some time :-).  This document will be updated piece by piece and I will try my best to describe the process step by step.  Please let me know if you see anything confusing/unclear/wrong or you have any recommendations.  Thank you.
+I think it may be a good idea to share the setup process with the community, and hopefully it can save other people some time :).  This document will be updated piece by piece and I will try my best to describe the process step by step.  Please let me know if you see anything confusing/unclear/wrong or you have any recommendations.  Thank you :).
 
 # Setup dev environment on Windows
 
@@ -264,6 +264,14 @@ if there is error saying php is not found on sh.exe, restart the git bash and ru
 
 
 ## Wamp
+Download the latest PHP for Windows from here:
+
+http://www.wampserver.com/en/
+
+Choose the appropriate Thread Safe zip to download, either x86 or x64 based on your operation system.
+
+install the downloaded file to /c/usr/bin/wamp, or whatever directory you chose. Keep installation configurations default.
+
 
 # Setup dev environment on Mac
 
