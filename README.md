@@ -272,6 +272,27 @@ Choose the appropriate Thread Safe zip to download, either x86 or x64 based on y
 
 install the downloaded file to /c/usr/bin/wamp, or whatever directory you chose. Keep installation configurations default.
 
+## Android SDK
+Download the latest Android SDK for Windows from here:
+
+http://developer.android.com/sdk/index.html
+
+Choose the appropriate Thread Safe zip to download, either x86 or x64 based on your operation system.
+
+unzip the downloaded file to /c/usr/bin/android, or whatever directory you chose.
+
+Navigate to /c/usr/bin/android/ by running:
+```sh
+cd /c/usr/bin/android/
+```
+
+Open the SDK Manager by running:
+```sh
+open SDK\ Manager.exe
+```
+
+Select the latest Android SDK version or any other SDK version as needed, then update.
+
 
 # Setup dev environment on Mac
 
