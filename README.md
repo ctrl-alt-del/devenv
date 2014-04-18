@@ -13,11 +13,19 @@ Having a folder to centralize all your packages is always good.  In this instruc
 
 
 ## Git
-Download the latest git for Windows from git:
+Download the latest git for Windows from the homepage of git:
 
+```sh
+http://git-scm.com/
+```
+
+Or by copying and pasting the following link directly into the address bar of your browser:
+```sh
 http://git-scm.com/download/win
+```
 
-and install it under /c/usr/bin/git or whatever directory you chose, simply keep all the configuration choices in their default if you don't know what they mean.
+Once the file is completely downloaded, install it under /c/usr/bin/git or whatever directory you chose.  Don't worry about the configuration choices available during the installation process, it would be fine to just keep them in default.
+
 
 ### Setup .bash_profile
 After git is installed, let us configure the git bash and have it memorize some convenient shortcuts.
