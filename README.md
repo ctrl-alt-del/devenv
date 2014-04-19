@@ -45,16 +45,14 @@ this should create a .bash_profile file if it is not existed and inject the shor
 After the .bash_profile is created, restart the git bash to let the changes take effect.
 
 
-## Curl (Optional, Curl should come with Git by default.  If it is not, you can download and configure it by following the instruction in below)
+## Curl (Optional, Curl should come with Git by default.  If it is not, you can download and configure it manually by following the instruction in below)
 
 Download the latest curl for Windows from here:
 http://curl.haxx.se/download.html
 
 Choose the curl-[version].zip from source achieve to download.
 
-When it is done, unzip it to the directory your chose, in this example, it would be /c/usr/bin.
-
-Once it is unzipped, rename the unzipped folder to "curl" (without quotes)
+Once it is done, unzip it to /c/usr/bin/curl, or whatever directory your chose.
 
 Run git bash as administrator, then go to the bin of git bash by running: 
 ```sh
