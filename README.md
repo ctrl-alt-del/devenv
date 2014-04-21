@@ -302,6 +302,10 @@ Select the latest Android SDK version or any other SDK version as needed, then u
 
 # Setup dev environment on Mac
 
+## Terminal
+
+Terminal will be used to setup the dev environment on Mac.  To open a terminal prompt, press "command" and "space" key at the same time to open Spotlight, then type in "terminal" (without quotes) and hit return.  A terminal prompt should show up.
+
 ## Homebrew
 ## Git
 ## Curl
