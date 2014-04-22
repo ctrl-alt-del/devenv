@@ -307,6 +307,17 @@ Select the latest Android SDK version or any other SDK version as needed, then u
 Terminal will be used to setup the dev environment on Mac.  To open a terminal prompt, press "command" and "space" key at the same time to open Spotlight, then type in "terminal" (without quotes) and hit return.  A terminal prompt should show up.
 
 ## Homebrew
+
+Homebrew is a package manager for Mac, which I like very much.  You can learn more about it on their website:
+```sh
+http://brew.sh/
+```
+
+To install homebrew, simply open your terminal and running:
+```sh
+ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+```
+
 ## Git
 ## Curl
 ## Ruby
