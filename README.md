@@ -320,7 +320,7 @@ ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 
 ## Git
 
-Mac should have git by default.  You can verify your git version by openning your terminal and running:
+Mac should have Git by default.  You can verify your git version by openning your terminal and running:
 ```sh
 git --version
 ```
@@ -337,6 +337,23 @@ brew install git
 
 
 ## Curl
+
+Mac should have Curl by default.  You can verify your curl version by openning your terminal and running:
+```sh
+curl --version
+```
+
+If curl does not come with your Mac somehow, you can download and follow the installation instruction in their website:
+```sh
+http://curl.haxx.se/download.html
+```
+
+Or you can install it through Homebrew by running:
+```sh
+brew install curl
+```
+
+
 ## Ruby
 ## Rails
 ## Java
