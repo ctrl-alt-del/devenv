@@ -65,7 +65,7 @@ ln -s /c/usr/bin/curl/curl.exe curl.exe
 ```
 
 
-## Ruby
+## Ruby (2.0.0-p451)
 Download the latest Ruby for Windows from here:
 
 http://rubyinstaller.org/downloads/
@@ -355,6 +355,23 @@ brew install curl
 
 
 ## Ruby
+
+Mac should have Ruby by default.  You can verify your curl version by openning your terminal and running:
+```sh
+ruby --version
+```
+
+If ruby does not come with your Mac somehow or you wnat to have a newer version of Ruby, you can download and follow the installation instruction in their website:
+```sh
+https://www.ruby-lang.org/en/downloads/
+```
+
+Or you can install it through Homebrew by running:
+```sh
+brew install ruby
+```
+
+
 ## Rails
 ## Java
 ## Python
