@@ -373,6 +373,13 @@ brew install ruby
 
 
 ## Rails
+
+Once Ruby is installed in your Mac, you can install Rails through terminal by simply running:
+```sh
+gem install rails
+```
+
+
 ## Java
 ## Python
 ## PHP
