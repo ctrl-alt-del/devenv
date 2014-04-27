@@ -138,7 +138,7 @@ If there is no error shows up, the setup is successful.
 
 
 ## Rails
-Verify that Ruby and devkit are installed in your machine:
+To verify both Ruby and devkit are installed in your machine, run the following lines on your git bash:
 ```sh
 which ruby
 which gem
@@ -377,6 +377,11 @@ brew install ruby
 Once Ruby is installed in your Mac, you can install Rails through terminal by simply running:
 ```sh
 gem install rails
+```
+
+Once installation is done, verify it through running:
+```sh
+which rails
 ```
 
 
