@@ -65,7 +65,7 @@ ln -s /c/usr/bin/curl/curl.exe curl.exe
 ```
 
 
-## Ruby (2.0.0-p451)
+## Ruby 2.0.0-p451 (prerequisite for installing Rails)
 Download the latest Ruby for Windows from here:
 
 http://rubyinstaller.org/downloads/
@@ -354,19 +354,20 @@ brew install curl
 ```
 
 
-## Ruby
+## Ruby (prerequisite for installing Rails)
 
 Mac should have Ruby installed by default.  To verify it, you can open your terminal and run:
 ```sh
 ruby --version
 ```
+It should show you the version of your currently installed Ruby. 
 
-If ruby does not come with your Mac somehow or you wnat to have a newer version of Ruby, you can download and follow the installation instruction in their website:
+If ruby does not come with your Mac somehow or you wnat to have a newer version of Ruby, you can download and follow the installation instruction on Ruby's website:
 ```sh
 https://www.ruby-lang.org/en/downloads/
 ```
 
-Or you can install it through Homebrew by running:
+Or you can install the latest version of Ruby through Homebrew by running:
 ```sh
 brew install ruby
 ```
