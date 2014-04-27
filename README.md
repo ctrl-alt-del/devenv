@@ -156,7 +156,7 @@ which rails
 
 
 ## Java
-ownload the latest Java for Windows from here:
+Download the latest Java for Windows from here:
 
 http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html
 
@@ -356,7 +356,7 @@ brew install curl
 
 ## Ruby
 
-Mac should have Ruby by default.  You can verify your curl version by openning your terminal and running:
+Mac should have Ruby installed by default.  To verify it, you can open your terminal and run:
 ```sh
 ruby --version
 ```
