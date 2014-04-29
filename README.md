@@ -411,6 +411,24 @@ java -version
 
 
 ## Python
+
+Mac should have Python installed by default.  To verify it, you can open your terminal and run:
+```sh
+python --version
+```
+It should show you the version of your currently installed Python. 
+
+If Python does not come with your Mac somehow or you wnat to have a newer version of Python, (e.g. Pyhotn 3.x rather than Python 2.7.x), you can download and follow the installation instruction on Python's website:
+```sh
+https://www.python.org/downloads/
+```
+
+Or you can install the latest version of Python through Homebrew by running:
+```sh
+brew install python
+```
+
+
 ## PHP
 ## MAMP
 
