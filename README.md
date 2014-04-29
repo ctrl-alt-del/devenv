@@ -154,6 +154,38 @@ Once installation is done, verify it through running:
 which rails
 ```
 
+## SQLite
+Download the latest SQLite for Windows from the home page of SQLite.org:
+```sh
+http://www.sqlite.org/download.html
+```
+
+Scroll down the page to the "Precompiled Binaries for Windows" section, and download the sqlite-shell and sqlite-dll files.
+
+Or run the following lines on your git bash:
+```sh
+cd ~
+curl --remote-name "http://www.sqlite.org/2014/sqlite-shell-win32-x86-3080403.zip"
+curl --remote-name "http://www.sqlite.org/2014/sqlite-dll-win32-x86-3080403.zip"
+```
+
+Once both files are downloaded, unzip both of them to /c/usr/bin/sqlite, or whatever directory you chose.
+
+Run git bash as administrator, then go to the bin of git bash by running: 
+```sh
+cd /usr/bin
+```
+
+Create a symbolic link by running:
+```sh
+ln -s /c/usr/bin/sqlite/sqlite.exe sqlite.exe
+```
+
+Verified sqlite is installed and properly linked on your machine by running:
+```sh
+sqlite -v
+```
+
 
 ## Java
 Download the latest Java for Windows from here:
