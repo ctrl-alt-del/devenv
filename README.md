@@ -417,6 +417,24 @@ Once installation is done, verify it through running:
 which rails
 ```
 
+## RVM (Optional)
+You may also use RVM to install and manage your Ruby and Rails.  RVM stands for Ruby Version Manager; it is a convenient way to manage multiple versions of Ruby and Rails (e.g. the system default version and the latest version) because sometimes you may want to keep the older version of Ruby to keep the capabililty or whatever.
+
+You may learn more details about RVM on its home page:
+```sh
+https://rvm.io/rvm/install
+```
+
+Or you can install the latest stable version of RVM + Ruby by running:
+```sh
+\curl -sSL https://get.rvm.io | bash -s stable --ruby
+```
+
+Similarly, you can install the latest stable version of RVM + Ruby + Rails by running:
+```sh
+\curl -sSL https://get.rvm.io | bash -s stable --rails
+```
+
 
 ## Java
 
