@@ -9,8 +9,12 @@ I think it may be a good idea to share the setup process with the community, and
 # Setup dev environment on Windows
 
 ## Installation Folder
-Having a folder to centralize all your packages is always good.  In this instruction, all packages will be put or installed inside /c/usr/bin (or "C:\usr\bin") for better management. Please create the folder if it is not existed, or feel free to choose your own directory.
+It is a good idea to centralize all your packages in one folder.  Not only does it help  to better organize your packages, having a dedicated folder for your packages also makes navigating with command line easier.  In this instruction, all packages will be put or installed under /c/usr/bin (a.k.a "C:\usr\bin").  Please create the folder if it is not existed, or feel free to name your own directory. 
 
+If you are familiar with Window's PowerShell, you can create the folder by opening PowerShell and run:
+```sh
+mkdir -p /usr/bin
+```
 
 ## Git
 Download the latest git for Windows from the homepage of git:
