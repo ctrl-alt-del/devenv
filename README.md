@@ -6,6 +6,18 @@ I use both Mac and Windows regularly and sometimes Ubuntu.  Although I mostly us
 
 I think it may be a good idea to share the setup process with the community, and hopefully it can save other people some time :).  This document will be updated piece by piece and I will try my best to describe the process step by step.  Please let me know if you see anything confusing/unclear/wrong or you have any recommendations.  Thank you :).
 
+# Table of Contents
+
+* [Setup dev environment on Windows] (#setup-dev-environment-on-windows)
+	* [Installation Folder] (#installation-folder)
+	* [Git] (#git)
+		* [Setup .bash_profile] (#setup-bash_profile)
+	
+* [Setup dev environment on Mac] (#setup-dev-environment-on-mac)
+
+* [Setup dev environment on Ubuntu 12.04 LTS] (#setup-dev-environment-on-ubuntu-1204-lts)
+
+
 # Setup dev environment on Windows
 
 ## Installation Folder
