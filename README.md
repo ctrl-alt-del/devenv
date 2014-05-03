@@ -28,19 +28,21 @@ If you are familiar with Window's PowerShell, you can create the folder by openi
 mkdir -p /usr/bin
 ```
 
-## Git
-Download the latest git for Windows from the homepage of git:
 
+## Git
+Git is a distributed version control and code management system.  You can learn more detail about it on its home page.
 ```sh
 http://git-scm.com/
 ```
 
-Or by copying and pasting the following link directly into the address bar of your browser:
+Since Git contains many convenient built-in functions as well as a useful bash shell, it is the first software on my list to be installed to setup a dev environment on Windows machines.
+
+You can download the latest git for Windows from its homepage, or by copying and pasting the following link to the address bar of your browser.  The download process should then be automatically started.
 ```sh
 http://git-scm.com/download/win
 ```
 
-Once the file is completely downloaded, install it under /c/usr/bin/git or whatever directory you chose.  Don't worry about the configuration choices available during the installation process, it would be fine to just keep them in default.
+Once the install file is completely downloaded, install it under /c/usr/bin/git or whatever directory you chose.  Don't worry about the configuration choices available during the installation process, it would be fine to just keep them in default.
 
 
 ### Setup .bash_profile
