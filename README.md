@@ -12,6 +12,7 @@ I think it may be a good idea to share the setup process with the community, and
 	* [Installation Folder] (#installation-folder)
 	* [Git] (#git)
 		* [Setup .bash_profile] (#setup-bash_profile)
+	* [Curl] (#curl)
 	
 * [Setup dev environment on Mac] (#setup-dev-environment-on-mac)
 
@@ -63,14 +64,15 @@ this should create a .bash_profile file if it is not existed and inject the shor
 After the .bash_profile is created, restart the git bash to let the changes take effect.
 
 
-## Curl (Optional, Curl should come with Git by default.  If it is not, you can download and configure it manually by following the instruction in below)
+## Curl
+Curl should come with Git by default.  If it is not, you can download and configure it manually by following the instruction on its home page.
+```sh
+http://curl.haxx.se/
+```
 
-Download the latest curl for Windows from here:
-http://curl.haxx.se/download.html
+Choose the `curl-[version].zip` from source achieve to download.
 
-Choose the curl-[version].zip from source achieve to download.
-
-Once it is done, unzip it to /c/usr/bin/curl, or whatever directory your chose.
+Once it is done, unzip it to `/c/usr/bin/curl`, or whatever directory your chose.
 
 Run git bash as administrator, then go to the bin of git bash by running: 
 ```sh
