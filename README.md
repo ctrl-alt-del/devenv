@@ -13,6 +13,7 @@ I think it may be a good idea to share the setup process with the community, and
 	* [Git] (#git)
 		* [Setup .bash_profile] (#setup-bash_profile)
 	* [Curl] (#curl)
+	* [Ruby] (#ruby)
 	
 * [Setup dev environment on Mac] (#setup-dev-environment-on-mac)
 
@@ -85,8 +86,8 @@ ln -s /c/usr/bin/curl/curl.exe curl.exe
 ```
 
 
-## Ruby 2.0.0-p451 (prerequisite for installing Rails)
-Download the latest Ruby for Windows from here:
+## Ruby
+Ruby is the prerequisite for Rails.  You can download the latest Ruby for Windows from here:
 
 http://rubyinstaller.org/downloads/
 
@@ -102,10 +103,9 @@ Or run the following line if you are in 32-bit system:
 curl --remote-name "http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.0.0-p451.exe"
 ```
 
-Install Ruby on /c/usr/bin/ruby or whatever directory you chose
+Install Ruby under /c/usr/bin/ruby or whatever directory you chose
 
 the executable ruby.exe should then be under:
-
 ```sh
 /c/usr/bin/ruby/bin/ruby.exe
 ```
