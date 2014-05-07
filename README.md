@@ -14,6 +14,7 @@ I think it may be a good idea to share the setup process with the community, and
 		* [Setup .bash_profile] (#setup-bash_profile)
 	* [Curl] (#curl)
 	* [Ruby] (#ruby)
+		* [devkit] (#devkit)
 	
 * [Setup dev environment on Mac] (#setup-dev-environment-on-mac)
 
@@ -132,8 +133,8 @@ Once you restarted the git bash and verified ruby is installed on your machine, 
 ruby -v
 ```
 
-## devkit (prerequisite for installing Rails)
-Download the latest devkit for Windows from here:
+### devkit
+devkit is the prerequisite for Rails.  You can download its latest version for Windows from here:
 
 http://rubyinstaller.org/downloads/
 
