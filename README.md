@@ -15,6 +15,7 @@ I think it may be a good idea to share the setup process with the community, and
 	* [Curl] (#curl)
 	* [Ruby] (#ruby)
 		* [devkit] (#devkit)
+	* [Rails] (#rails)
 	
 * [Setup dev environment on Mac] (#setup-dev-environment-on-mac)
 
@@ -159,10 +160,10 @@ If there is no error shows up, the setup is successful.
 
 
 ## Rails
-To verify both Ruby and devkit are installed in your machine, run the following lines on your git bash:
+Ruby and devkit are the prerequisite for Rails.  To verify both Ruby and devkit are installed in your machine, run the following lines on your git bash:
 ```sh
-which ruby
-which gem
+which ruby # should see a path similar to /c/usr/bin/ruby/bin/ruby
+which gem # should see a path similar to /c/usr/bin/devkit/gem
 ```
 
 Then run following line to install Rails:
@@ -170,10 +171,11 @@ Then run following line to install Rails:
 gem install rails
 ```
 
-Once installation is done, verify it through running:
+Once installation is done, verify it by running:
 ```sh
-which rails
+which rails # should see a path similar to /c/usr/bin/rails/rails
 ```
+
 
 ## SQLite
 Download the latest SQLite for Windows from the home page of SQLite.org:
