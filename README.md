@@ -177,6 +177,23 @@ which rails # should see a path similar to /c/usr/bin/rails/rails
 ```
 
 
+### RSpec
+Rails is the prerequisite for RSpec.  To verify Rails is installed in your machine, run the following lines on your git bash:
+```sh
+which rails # should see a path similar to /c/usr/bin/rails/rails
+```
+
+Then run following line to install RSpec:
+```sh
+gem install rspec
+```
+
+Once installation is done, verify it by running:
+```sh
+which rspec
+```
+
+
 ## SQLite
 Download the latest SQLite for Windows from the home page of SQLite.org:
 ```sh
