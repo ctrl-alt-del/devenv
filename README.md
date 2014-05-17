@@ -522,9 +522,24 @@ brew install python
 ## PHP
 ## MAMP
 
-# Setup dev environment on Ubuntu 12.04 LTS
 
-## PPA
+# Setup dev environment on Ubuntu 14.04 LTS
+
+## Tilda
+Tilda is an alternative of the system's default terminal, which I found very useful.  It is optional to you, but some of its additional features are just handy.
+
+You can install Tilda by running:
+```sh
+sudo apt-get install tilda
+```
+
+If it returns an error saying it cannot fetch some archives, simply update the repository and then redo the installation by running:
+```sh
+sudo apt-get update;
+sudo apt-get install tilda
+```
+
+
 ## Git
 ## Curl
 ## Ruby
