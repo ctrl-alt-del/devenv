@@ -540,6 +540,20 @@ sudo apt-get install tilda
 ```
 
 
+## Sublime
+Sublime is a very useful text editor, you can install it through PPA.
+To add the sublime PPA, run:
+```sh
+sudo add-apt-repository ppa:webupd8team/sublime-text-2
+sudo apt-get update
+```
+
+Once the PPA is added and updated, you can install Sublime by running:
+```sh
+sudo apt-get install sublime-text
+```
+
+
 ## Git
 ## Curl
 ## Ruby
