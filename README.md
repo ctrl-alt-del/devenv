@@ -554,6 +554,24 @@ sudo apt-get install sublime-text
 ```
 
 
+## SmartGit
+SmartGit is an open source GUI for Git.  You can learn more about it on its home page:
+```sh
+http://www.syntevo.com/smartgithg/
+```
+
+You can install it through PPA.  To add the sublime PPA, run:
+```sh
+sudo add-apt-repository ppa:eugenesan/ppa
+sudo apt-get update
+```
+
+Once the PPA is added and updated, you can install SmartGit by running:
+```sh
+sudo apt-get install smartgithg
+```
+
+
 ## Git
 ## Curl
 ## Ruby
