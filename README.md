@@ -16,11 +16,14 @@ I think it may be a good idea to share the setup process with the community, and
 	* [Ruby] (#ruby)
 		* [devkit] (#devkit)
 	* [Rails] (#rails)
+		* [RSpec] (#rspec)
 	
 * [Setup dev environment on Mac] (#setup-dev-environment-on-mac)
 
-* [Setup dev environment on Ubuntu 12.04 LTS] (#setup-dev-environment-on-ubuntu-1204-lts)
-
+* [Setup dev environment on Ubuntu 14.04 LTS] (#setup-dev-environment-on-ubuntu-1204-lts)
+	* [Tilda] (#Tilda)
+	* [Sublime Text 2] (#sublime)
+	* [SmartGit] (#smartgit)
 
 # Setup dev environment on Windows
 
