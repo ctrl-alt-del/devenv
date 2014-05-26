@@ -576,6 +576,13 @@ sudo apt-get install smartgithg
 
 
 ## Git
+Git is a version control system, and it should've come with Ubuntu.  In case it is missing on your system, you can install it easily through running:
+```sh
+sudo apt-get update
+sudo apt-get install git
+```
+
+
 ## Curl
 ## Ruby
 ## Rails
