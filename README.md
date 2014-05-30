@@ -586,7 +586,20 @@ sudo apt-get install git
 ## Curl
 ## Ruby
 ## Rails
+
+
 ## Java/OpenJDK
+Java is essential for many applications.  You can install Java JDK by running: 
+```sh
+sudo apt-get install openjdk-7-jdk
+```
+
+Once installation process is done, you can verify the version of Java by running:
+```sh
+java -version
+```
+
+
 ## Python
 ## PHP
 ## LAMP
