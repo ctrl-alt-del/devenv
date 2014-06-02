@@ -24,6 +24,9 @@ I think it may be a good idea to share the setup process with the community, and
 	* [Tilda] (#Tilda)
 	* [Sublime Text 2] (#sublime)
 	* [SmartGit] (#smartgit)
+	* [Git] (#git)
+
+* [Setup dev environment with Chef](#setup-dev-environment-with-chef)
 
 # Setup dev environment on Windows
 
@@ -603,3 +606,4 @@ java -version
 ## Python
 ## PHP
 ## LAMP
+## Setup dev environment with Chef
