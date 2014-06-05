@@ -605,5 +605,18 @@ java -version
 
 ## Python
 ## PHP
+
+
 ## LAMP
+LAMP referes to a software bundle including Linux Apache MySQL PHP. To install the bundle in Ubuntu, you first need to update the repository by running:
+```sh
+sudo apt-get update
+```
+
+Once the update is done, you can install the bundle by running:
+```sh
+sudo apt-get install lamp-server^
+```
+
+
 ## Setup dev environment with Chef
