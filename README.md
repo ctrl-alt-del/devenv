@@ -608,14 +608,14 @@ java -version
 
 
 ## LAMP
-LAMP referes to a software bundle including Linux Apache MySQL PHP. To install the bundle in Ubuntu, you first need to update the repository by running:
+LAMP referes to a software bundle including Linux Apache MySQL PHP. You can learn more about it on Ubuntu's page 
 ```sh
-sudo apt-get update
-```
+https://help.ubuntu.com/14.04/serverguide/lamp-overview.html
+``` 
 
-Once the update is done, you can install the bundle by running:
+You can install LAMP in Ubuntu by running:
 ```sh
-sudo apt-get install lamp-server^
+sudo tasksel install lamp-server
 ```
 
 
