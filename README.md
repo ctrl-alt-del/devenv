@@ -17,6 +17,12 @@ I think it may be a good idea to share the setup process with the community, and
 		* [devkit] (#devkit)
 	* [Rails] (#rails)
 		* [RSpec] (#rspec)
+	* [SQLite] (#sqlite)
+	* [Java] (#java)
+	* [Python] (#python)
+	* [PHP] (#php)
+	* [WAMP] (#wamp)
+	* [Android SDK] (#android_sdk)
 	
 * [Setup dev environment on Mac] (#setup-dev-environment-on-mac)
 
