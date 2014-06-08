@@ -593,6 +593,8 @@ sudo apt-get install git
 
 
 ## Curl
+
+
 ## Ruby
 Since Ruby Version Manager (RVM) is also available for Linux and other Unix-like operation system, you can install Ruby easily through using RVM.  You can learn more about RVM on their home page:
 ```sh
@@ -611,6 +613,22 @@ ruby -v
 
 
 ## Rails
+You can use RVm to install Rails as well.
+
+To install latest stable Rails, you can simply run: 
+```sh
+\curl -sSL https://get.rvm.io | bash -s stable --rails
+```
+
+Or if you already have RVM and Ruby installed, you can install Rails alone by running:
+```sh
+gem install rails
+```
+
+Once installation is done, you can verify it by running:
+```sh
+rails -v
+```
 
 
 ## Java/OpenJDK
