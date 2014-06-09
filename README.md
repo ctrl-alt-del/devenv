@@ -593,6 +593,10 @@ sudo apt-get install git
 
 
 ## Curl
+You can install Curl by running:
+```sh
+sudo apt-get install curl
+```
 
 
 ## Ruby
