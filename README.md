@@ -570,6 +570,15 @@ Once the PPA is added and updated, you can install Sublime by running:
 sudo apt-get install sublime-text
 ```
 
+Once Sublime is successfully installed, you can use it to open a single file by running:
+```sh
+subl <path_to_your_file>
+```
+Or open all files with the current directory by running:
+```sh
+subl .
+```
+
 
 ## SmartGit
 SmartGit is an open source GUI for Git.  You can learn more about it on its home page:
