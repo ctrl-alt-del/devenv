@@ -551,6 +551,11 @@ sudo apt-get update;
 sudo apt-get install tilda
 ```
 
+Once Tilda is successfully installed, you can configure it by running:
+```sh
+tilda -C
+```
+
 
 ## Sublime
 Sublime is a very useful text editor, you can install it through PPA.
