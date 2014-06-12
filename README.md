@@ -612,6 +612,14 @@ You can install Curl by running:
 sudo apt-get install curl
 ```
 
+## OpenSSL
+Ubuntu comes with OpenSSL, but it may need to be upgraded because of the Heartbleed Bug (learn more on: ``http://heartbleed.com/``).  Moreover, newer version of OpenSSL is also required to install the latest Rails.
+
+You can upgrade OpenSSL by running:
+```sh
+sudo apt-get upgrade openssl
+```
+
 
 ## Ruby
 Since Ruby Version Manager (RVM) is also available for Linux and other Unix-like operation system, you can install Ruby easily through using RVM.  You can learn more about RVM on their home page:
