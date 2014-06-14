@@ -116,12 +116,12 @@ Choose the appropriate RubyInstaller to download, either x86 or x64 based on you
 
 Or run the following line if you are in 64-bit system:
 ```sh
-curl --remote-name "http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.0.0-p451-x64.exe"
+curl --remote-name "http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.0.0-p481-x64.exe"
 ```
 
 Or run the following line if you are in 32-bit system:
 ```sh
-curl --remote-name "http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.0.0-p451.exe"
+curl --remote-name "http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.0.0-p481.exe"
 ```
 
 Install Ruby under /c/usr/bin/ruby or whatever directory you chose
