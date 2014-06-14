@@ -1,10 +1,11 @@
 devenv
 ======
 
-## About/Disclaimer
-I use both Mac and Windows regularly and sometimes Ubuntu.  Although I mostly use Mac as my coding machine, I am very interested in coding on my Windows machine as well.  After some reseaches as well as trials and errors, I am able to setup the dev environment on my Windows machine and I am pretty happy with it so far.  
+### About
+I use both Mac and Windows regularly and sometimes Ubuntu.  Although I mostly use Mac as my coding machine, I am very interested in coding on my Windows machine as well.  After some reseaches as well as trials and errors, I am able to setup the dev environment on my Windows machine and I am pretty happy with it so far.  I think it may be a good idea to share the setup process with the community, and hopefully it can save other people some time :).
 
-I think it may be a good idea to share the setup process with the community, and hopefully it can save other people some time :).  This document and bash scripts will be updated piece by piece and I will try my best to describe the process step by step.  Please let me know if you see anything confusing/unclear/wrong or you have any recommendations.  Thank you :).
+### Disclaimer
+This document and bash scripts will be updated piece by piece and I will try my best to describe the process step by step.  Please feel free to let me know if you see anything confusing/unclear/wrong or you have any recommendations.  Thank you :).
 
 # Table of Contents
 
@@ -53,12 +54,12 @@ http://git-scm.com/
 
 Since Git contains many convenient built-in functions as well as a useful bash shell, it is the first software on my list to be installed to setup a dev environment on Windows machines.
 
-You can download the latest git for Windows from its homepage, or by copying and pasting the following link to the address bar of your browser.  The download process should then be automatically started.
+You can download the latest git for Windows from its home page, or by copying and pasting the following link to the address bar of your browser.  The download process should then be automatically started.
 ```sh
 http://git-scm.com/download/win
 ```
 
-Once the install file is completely downloaded, install it under /c/usr/bin/git or whatever directory you chose.  Don't worry about the configuration choices available during the installation process, it would be fine to just keep them in default.
+Once the installation file is downloaded, install it under /c/usr/bin/git or whatever directory you chose.  Don't worry about the configuration choices available during the installation process, it would be fine to just keep them in default.
 
 
 ### Setup .bash_profile
@@ -75,6 +76,12 @@ then run the bash script on the following path of this repository:
 ./devenv/windows/setup_bash_profile.sh
 ```
 this should create a .bash_profile file if it is not existed and inject the shortcuts to the file.
+
+Or if you prefer to create the .bash_profile file manually, you can do so by running:
+```sh
+touch .bash_profile
+```
+and add the scripts to it.
 
 After the .bash_profile is created, restart the git bash to let the changes take effect.
 
