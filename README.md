@@ -87,14 +87,14 @@ After the .bash_profile is created, restart the git bash to let the changes take
 
 
 ## Curl
-Curl should come with Git by default.  If it is not, you can download and configure it manually by following the instruction on its home page.
+Curl should come with Git by default.  If not, you can download and configure it from its home page.
 ```sh
 http://curl.haxx.se/
 ```
 
 Choose the `curl-[version].zip` from source achieve to download.
 
-Once it is done, unzip it to `/c/usr/bin/curl`, or whatever directory your chose.
+Once it is downloaded, unzip it to `/c/usr/bin/curl`, or whatever directory your chose.
 
 Run git bash as administrator, then go to the bin of git bash by running: 
 ```sh
