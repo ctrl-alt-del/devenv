@@ -5,6 +5,11 @@ echo '<<< Installing Tilda...'
 sudo apt-get install tilda
 echo '>>> Tilda has been successfully installed!'
 
+echo '<<< Installing Sublime...'
+sudo add-apt-repository ppa:webupd8team/sublime-text-2
+sudo apt-get update
+echo '>>> Sublime has been successfully installed!'
+
 echo '<<< Installing/Upgrading Git...'
 sudo apt-get upgrade git
 echo '>>> Git has been successfully installed/upgraded!'
