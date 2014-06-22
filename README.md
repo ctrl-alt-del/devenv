@@ -563,6 +563,12 @@ Once Tilda is successfully installed, you can configure it by running:
 tilda -C
 ```
 
+### Oh-My-Zsh
+Oh-My-Zsh is an framework for managing your ZSH configuration.  You can learn more about it on its home page:
+```sh
+https://github.com/robbyrussell/oh-my-zsh
+```
+
 
 ## Sublime
 Sublime is a very useful text editor, you can install it through PPA.
