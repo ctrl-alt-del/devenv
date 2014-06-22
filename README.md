@@ -618,6 +618,13 @@ sudo apt-get update
 sudo apt-get install git
 ```
 
+## Gitk
+Gitk is a graphical user interface for Git.  You can install it by running:
+```sh
+sudo apt-get install gitk
+```
+
+
 
 ## Curl
 You can install Curl by running:
