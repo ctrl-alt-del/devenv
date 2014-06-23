@@ -618,6 +618,16 @@ sudo apt-get update
 sudo apt-get install git
 ```
 
+To upgrade to the latest version of Git, you can either:
+```sh
+sudo apt-get upgrade git
+```
+Or
+```sh
+git clone https://github.com/git/git
+```
+
+
 ## Gitk
 Gitk is a graphical user interface for Git.  You can install it by running:
 ```sh
