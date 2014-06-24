@@ -649,6 +649,12 @@ sudo apt-get install nodejs
 ```
 
 
+### npm
+npm is a tool to manage the packages used by Node.js
+```sh
+sudo apt-get install npm
+```
+
 
 ## Curl
 You can install Curl by running:
