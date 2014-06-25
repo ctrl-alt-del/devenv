@@ -14,6 +14,10 @@ echo '<<< Installing/Upgrading Git...'
 sudo apt-get upgrade git
 echo '>>> Git has been successfully installed/upgraded!'
 
+echo '<<< Installing Gitk...'
+sudo apt-get install gitk
+echo '>>> Gitk has been successfully installed!'
+
 echo '<<< Installing/Upgrading OpenSSL...'
 sudo apt-get upgrade openssl
 echo '>>> OpenSSL has been successfully installed/upgraded!'
