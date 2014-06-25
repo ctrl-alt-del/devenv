@@ -32,6 +32,9 @@ This document and bash scripts will be updated piece by piece and I will try my 
 	* [Sublime Text 2] (#sublime)
 	* [SmartGit] (#smartgit)
 	* [Git] (#git)
+	* [Gitk] (#gitk)
+	* [Node.js] (#node.js)
+		* [npm] (#npm)
 
 * [Setup dev environment with Chef](#setup-dev-environment-with-chef)
 
