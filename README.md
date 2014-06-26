@@ -26,6 +26,22 @@ This document and bash scripts will be updated piece by piece and I will try my 
 	* [Android SDK] (#android_sdk)
 	
 * [Setup dev environment on Mac] (#setup-dev-environment-on-mac)
+	* [Terminal] (#terminal)
+	* [Homebrew] (#homebrew)
+	* [Git] (#git)
+	* [Curl] (#curl)
+	* [Ruby] (#ruby)
+	* [Rails] (#rails)
+	* [RVM] (#rvm-(optional))
+	* [Java] (#java)
+	* [Python] (#python)
+	* [Chrome] (#chrome)
+		* [EditThisCookie] (#editthiscookie)
+		* [REST Console] (#rest-console)
+		* [JSON View] (#json-view)
+	* [PHP] (#php)
+	* [MAMP] (#mamp)
+
 
 * [Setup dev environment on Ubuntu 14.04 LTS] (#setup-dev-environment-on-ubuntu-1204-lts)
 	* [Tilda] (#Tilda)
