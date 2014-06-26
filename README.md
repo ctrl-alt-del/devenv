@@ -570,6 +570,14 @@ Alternatively, you can reach the chrome web store page by visiting:
 https://chrome.google.com/webstore/category/extensions?hl=en-US
 ```
 
+### EditThisCookie
+EditThisCookie is a convenient extension that allow developer to modify cookies of a page in real for development and testing purpose.  To install this extension, you can either search `EditThisCookie` on the chrome web store, or visiting its page on:
+```sh
+https://chrome.google.com/webstore/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg?hl=en-US
+```
+
+To intall the extension, just click on the blue `+ Free` button the top right corner.
+
 ## PHP
 ## MAMP
 
