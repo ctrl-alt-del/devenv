@@ -541,6 +541,19 @@ brew install python
 ```
 
 
+## Chrome
+Chrome is a browser, but it can also be a very useful development tool with some extensions.  You can download Chrome on its home page:
+```sh
+https://www.google.com/intl/en/chrome/browser/
+```
+
+Once Chrome is installed, you can start installing extensions by entering `chrome://extensions/` into the browser address bar and hit return/enter key to enter the extension manager.  Scroll to the bottom of the page and click on `get more extensions` to reach the chrome web store page of extensions.
+
+Alternatively, you can reach the chrome web store page by visiting:
+```sh
+https://chrome.google.com/webstore/category/extensions?hl=en-US
+```
+
 ## PHP
 ## MAMP
 
