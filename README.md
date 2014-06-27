@@ -28,18 +28,18 @@ This document and bash scripts will be updated piece by piece and I will try my 
 * [Setup dev environment on Mac] (#setup-dev-environment-on-mac)
 	* [Terminal] (#terminal)
 	* [Homebrew] (#homebrew)
-	* [Git] (#git)
-	* [Curl] (#curl)
-	* [Ruby] (#ruby)
-	* [Rails] (#rails)
-	* [RVM] (#rvm-(optional))
-	* [Java] (#java)
-	* [Python] (#python)
-	* [Chrome] (#chrome)
-		* [EditThisCookie] (#editthiscookie)
-		* [REST Console] (#rest-console)
-		* [JSON View] (#json-view)
-	* [PHP] (#php)
+	* [Git] (#git-on-mac)
+	* [Curl] (#curl-on-mac)
+	* [Ruby] (#ruby-on-mac)
+	* [Rails] (#rails-on-mac)
+	* [RVM] (#rvm-on-mac
+	* [Java] (#java-on-mac)
+	* [Python] (#python-on-mac)
+	* [Chrome] (#chrome-on-mac)
+		* [EditThisCookie] (#editthiscookie-on-mac)
+		* [REST Console] (#rest-console-on-mac)
+		* [JSON View] (#json-view-on-mac)
+	* [PHP] (#php-on-mac)
 	* [MAMP] (#mamp)
 
 
@@ -428,7 +428,7 @@ To install homebrew, simply open your terminal and running:
 ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 ```
 
-## Git
+## Git on Mac
 
 Mac should have Git by default.  You can verify your git version by openning your terminal and running:
 ```sh
@@ -446,7 +446,7 @@ brew install git
 ```
 
 
-## Curl
+## Curl on Mac
 
 Mac should have Curl by default.  You can verify your curl version by openning your terminal and running:
 ```sh
@@ -464,9 +464,9 @@ brew install curl
 ```
 
 
-## Ruby (prerequisite for installing Rails)
+## Ruby on Mac
 
-Mac should have Ruby installed by default.  To verify it, you can open your terminal and run:
+Mac should have Ruby installed by default and it is the prerequisite for installing Rails.  To verify it, you can open your terminal and run:
 ```sh
 ruby --version
 ```
@@ -483,7 +483,7 @@ brew install ruby
 ```
 
 
-## Rails
+## Rails on Mac
 
 Once Ruby is installed in your Mac, you can install Rails through terminal by simply running:
 ```sh
@@ -495,7 +495,7 @@ Once installation is done, verify it through running:
 which rails
 ```
 
-## RVM (Optional)
+## RVM on Mac
 You may also use RVM to install and manage your Ruby and Rails.  RVM stands for Ruby Version Manager; it is a convenient way to manage multiple versions of Ruby and Rails (e.g. the system default version and the latest version) because sometimes you may want to keep the older version of Ruby to keep the capabililty or whatever.
 
 You may learn more details about RVM on its home page:
@@ -514,7 +514,7 @@ Similarly, you can install the latest stable version of RVM + Ruby + Rails by ru
 ```
 
 
-## Java
+## Java on Mac
 
 Both Java 7 and 8 are available today.  This instruction will focus on Java 7, but the processes are similar to Java 8.
 
@@ -538,7 +538,7 @@ java -version
 ```
 
 
-## Python
+## Python on Mac
 
 Mac should have Python installed by default.  To verify it, you can open your terminal and run:
 ```sh
@@ -557,7 +557,7 @@ brew install python
 ```
 
 
-## Chrome
+## Chrome on Mac
 Chrome is a browser, but it can also be a very useful development tool with some extensions.  You can download Chrome on its home page:
 ```sh
 https://www.google.com/intl/en/chrome/browser/
@@ -570,15 +570,15 @@ Alternatively, you can reach the chrome web store page by visiting:
 https://chrome.google.com/webstore/category/extensions?hl=en-US
 ```
 
-### EditThisCookie
-EditThisCookie is a convenient extension that allow developer to modify cookies of a page in real for development and testing purpose.  To install this extension, you can either search `EditThisCookie` on the chrome web store, or visiting its page on:
+### EditThisCookie on Mac
+EditThisCookie is a cookie manager that allow developer to modify cookies of a page in real for development and testing purpose.  To install this extension, you can either search `EditThisCookie` on the chrome web store, or visiting its page on:
 ```sh
 https://chrome.google.com/webstore/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg?hl=en-US
 ```
 
 To intall the extension, just click on the blue `+ Free` button the top right corner.
 
-## PHP
+## PHP on Mac
 ## MAMP
 
 
