@@ -31,8 +31,8 @@ This document and bash scripts will be updated piece by piece and I will try my 
 	* [Git] (#git-on-mac)
 	* [Curl] (#curl-on-mac)
 	* [Ruby] (#ruby-on-mac)
+	* [RVM] (#rvm-on-mac)
 	* [Rails] (#rails-on-mac)
-	* [RVM] (#rvm-on-mac
 	* [Java] (#java-on-mac)
 	* [Python] (#python-on-mac)
 	* [Chrome] (#chrome-on-mac)
@@ -482,18 +482,8 @@ Or you can install the latest version of Ruby through Homebrew by running:
 brew install ruby
 ```
 
+Or you can use RVM to install Ruby as well, see the next section for instruction.
 
-## Rails on Mac
-
-Once Ruby is installed in your Mac, you can install Rails through terminal by simply running:
-```sh
-gem install rails
-```
-
-Once installation is done, verify it through running:
-```sh
-which rails
-```
 
 ## RVM on Mac
 You may also use RVM to install and manage your Ruby and Rails.  RVM stands for Ruby Version Manager; it is a convenient way to manage multiple versions of Ruby and Rails (e.g. the system default version and the latest version) because sometimes you may want to keep the older version of Ruby to keep the capabililty or whatever.
@@ -511,6 +501,19 @@ Or you can install the latest stable version of RVM + Ruby by running:
 Similarly, you can install the latest stable version of RVM + Ruby + Rails by running:
 ```sh
 \curl -sSL https://get.rvm.io | bash -s stable --rails
+```
+
+
+## Rails on Mac
+
+Once Ruby is installed in your Mac, you can install Rails through terminal by simply running:
+```sh
+gem install rails
+```
+
+Once installation is done, verify it through running:
+```sh
+which rails
 ```
 
 
@@ -641,13 +644,7 @@ sudo apt-get install sublime-text
 ```
 
 Once Sublime is successfully installed, you can use it to open a single file by running:
-```sh
-subl <path_to_your_file>
-```
-Or open all files with the current directory by running:
-```sh
-subl .
-```
+`subl <FILE_PATH>`, or open all files of the current directory by running `subl .`
 
 
 ## SmartGit
