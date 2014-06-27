@@ -586,6 +586,15 @@ https://chrome.google.com/webstore/detail/rest-console/cokgbflfommojglbmbpenpphp
 
 To intall the extension, just click on the blue `+ Free` button the top right corner.
 
+### JSON View on Mac
+JSON View is a tool that parses JSON into a more human readable format.  You can learn more about it on its page on:
+```sh
+https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=en-US
+```
+
+To intall the extension, just click on the blue `+ Free` button the top right corner.
+
+
 ## PHP on Mac
 ## MAMP
 
