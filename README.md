@@ -578,6 +578,14 @@ https://chrome.google.com/webstore/detail/editthiscookie/fngmhnnpilhplaeedifhccc
 
 To intall the extension, just click on the blue `+ Free` button the top right corner.
 
+### REST Console on Mac
+REST Console is an tool for testing HTTP requests on APIs.  You can learn more about it on its page on:
+```sh
+https://chrome.google.com/webstore/detail/rest-console/cokgbflfommojglbmbpenpphppikmonn?hl=en-US
+```
+
+To intall the extension, just click on the blue `+ Free` button the top right corner.
+
 ## PHP on Mac
 ## MAMP
 
