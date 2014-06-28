@@ -445,6 +445,11 @@ Or you can install it through Homebrew by running:
 brew install git
 ```
 
+Once installation is done, you can get the latest version of Git by running:
+```sh
+git clone https://github.com/git/git
+```
+
 
 ## Curl on Mac
 
