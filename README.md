@@ -86,21 +86,14 @@ After git is installed, let us configure the git bash and have it memorize some 
 
 Open git bash as administrator by right click on the icon of git bash and select "Run as Administrator".
 
-Navigate to the home directory of your windows by running:
-```sh
-cd ~ # /c/Users/<YOUR_PC_USER_NAME>
-```
-then run the bash script on the following path of this repository: 
+Navigate to the home directory of your windows by running `cd ~`, and then run the bash script on the following path of this repository: 
 ```sh
 ./devenv/windows/setup_bash_profile.sh
 ```
 this should create a .bash_profile file if it is not existed and inject the shortcuts to the file.
 
 Or if you prefer to create the .bash_profile file manually, you can do so by running:
-```sh
-touch .bash_profile
-```
-and add the scripts to it.
+`touch .bash_profile` on you home directory, and then add the scripts to it.
 
 After the .bash_profile is created, restart the git bash to let the changes take effect.
 
