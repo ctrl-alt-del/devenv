@@ -29,3 +29,10 @@ echo '>>> OpenJDK 7 has been successfully installed!'
 echo '<<< Installing Node.js...'
 sudo apt-get install nodejs
 echo '>>> Node.js has been successfully installed!'
+
+echo '<<< Setting up ~/.bash_profile...'
+local file="setup_bash_profile"
+if [ -f "$file" ] ; then
+    bash ../util/setup_bash_profile.sh
+    echo '>>> ~/.bash_profile has been successfully created!'
+fi
