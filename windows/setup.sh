@@ -11,7 +11,7 @@ echo '>>> Git has been successfully upgraded!'
 echo '<<< Setting up ~/.bash_profile...'
 local file="setup_bash_profile"
 if [ -f "$file" ] ; then
-    ./setup_bash_profile
+    bash ../util/setup_bash_profile.sh
     echo '>>> ~/.bash_profile has been successfully created!'
 fi
 
