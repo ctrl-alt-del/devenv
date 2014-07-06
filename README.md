@@ -47,10 +47,17 @@ This document and bash scripts will be updated piece by piece and I will try my 
 	* [Tilda] (#Tilda)
 	* [Sublime Text 2] (#sublime)
 	* [SmartGit] (#smartgit)
-	* [Git] (#git)
+	* [Git] (#git-on-ubuntu)
 	* [Gitk] (#gitk)
-	* [Node.js] (#node.js)
-		* [npm] (#npm)
+	* [Node.js] (#nodejs-on-ubuntu)
+		* [npm] (#npm-on-ubuntu)
+	* [Curl] (#curl-on-ubuntu)
+	* [OpenSSL] (#openssl-on-ubuntu)
+	* [Ruby] (#ruby-on-ubuntu)
+	* [Rails] (#rails-on-ubuntu)
+	* [Python] (#python-on-ubuntu)
+	* [PHP] (#php-on-ubuntu)
+
 
 * [Setup dev environment with Chef](#setup-dev-environment-with-chef)
 
@@ -663,7 +670,7 @@ sudo apt-get install smartgithg
 ```
 
 
-## Git
+## Git on Ubuntu
 Git is a version control system, and it should've come with Ubuntu.  In case it is missing on your system, you can install it easily through running:
 ```sh
 sudo apt-get update
@@ -687,7 +694,7 @@ sudo apt-get install gitk
 ```
 
 
-## Node.js
+## Node.js on Ubuntu
 Node.js is an platform for Javascript.  You can install Node.js by running:
 ```sh
 sudo apt-get install nodejs
@@ -708,13 +715,13 @@ sudo apt-get install npm
 ```
 
 
-## Curl
+## Curl on Ubuntu
 You can install Curl by running:
 ```sh
 sudo apt-get install curl
 ```
 
-## OpenSSL
+## OpenSSL on Ubuntu
 Ubuntu comes with OpenSSL, but it may need to be upgraded because of the Heartbleed Bug (learn more on: ``http://heartbleed.com/``).  Moreover, newer version of OpenSSL is also required to install the latest Rails.
 
 You can upgrade OpenSSL by running:
@@ -723,7 +730,7 @@ sudo apt-get upgrade openssl
 ```
 
 
-## Ruby
+## Ruby on Ubuntu
 Since Ruby Version Manager (RVM) is also available for Linux and other Unix-like operation system, you can install Ruby easily through using RVM.  You can learn more about RVM on their home page:
 ```sh
 https://rvm.io/
@@ -740,7 +747,7 @@ ruby -v
 ```
 
 
-## Rails
+## Rails on Ubuntu
 You can use RVm to install Rails as well.
 
 To install latest stable Rails, you can simply run: 
@@ -771,8 +778,8 @@ java -version
 ```
 
 
-## Python
-## PHP
+## Python on Ubuntu
+## PHP on Ubuntu
 
 
 ## LAMP
