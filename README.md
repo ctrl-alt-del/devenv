@@ -11,17 +11,17 @@ This document and bash scripts will be updated piece by piece and I will try my 
 
 * [Setup dev environment on Windows] (#setup-dev-environment-on-windows)
 	* [Installation Folder] (#installation-folder)
-	* [Git] (#git)
+	* [Git] (#git-on-windows)
 		* [Setup .bash_profile] (#setup-bash_profile)
-	* [Curl] (#curl)
-	* [Ruby] (#ruby)
+	* [Curl] (#curl-on-windows)
+	* [Ruby] (#ruby-on-windows)
 		* [devkit] (#devkit)
-	* [Rails] (#rails)
+	* [Rails] (#rails-on-windows)
 		* [RSpec] (#rspec)
-	* [SQLite] (#sqlite)
-	* [Java] (#java)
-	* [Python] (#python)
-	* [PHP] (#php)
+	* [SQLite] (#sqlite-on-windows)
+	* [Java] (#java-on-windows)
+	* [Python] (#python-on-windows)
+	* [PHP] (#php-on-windows)
 	* [WAMP] (#wamp)
 	* [Android SDK] (#android_sdk)
 	
@@ -35,10 +35,6 @@ This document and bash scripts will be updated piece by piece and I will try my 
 	* [Rails] (#rails-on-mac)
 	* [Java] (#java-on-mac)
 	* [Python] (#python-on-mac)
-	* [Chrome] (#chrome-on-mac)
-		* [EditThisCookie] (#editthiscookie-on-mac)
-		* [REST Console] (#rest-console-on-mac)
-		* [JSON View] (#json-view-on-mac)
 	* [PHP] (#php-on-mac)
 	* [MAMP] (#mamp)
 
@@ -58,6 +54,12 @@ This document and bash scripts will be updated piece by piece and I will try my 
 	* [Python] (#python-on-ubuntu)
 	* [PHP] (#php-on-ubuntu)
 
+* [General Setup] (#general-setup)
+	* [Chrome] (#chrome)
+		* [EditThisCookie] (#editthiscookie)
+		* [REST Console] (#rest-console)
+		* [JSON View] (#json-view)
+
 
 * [Setup dev environment with Chef](#setup-dev-environment-with-chef)
 
@@ -72,7 +74,7 @@ mkdir -p /usr/bin
 ```
 
 
-## Git
+## Git on Windows
 Git is a distributed version control and code management system.  You can learn more detail about it on its home page.
 ```sh
 http://git-scm.com/
@@ -105,7 +107,7 @@ Or if you prefer to create the .bash_profile file manually, you can do so by run
 After the .bash_profile is created, restart the git bash to let the changes take effect.
 
 
-## Curl
+## Curl on Windows
 Curl should come with Git by default.  If not, you can download and configure it from its home page.
 ```sh
 http://curl.haxx.se/
@@ -126,7 +128,7 @@ ln -s /c/usr/bin/curl/curl.exe curl.exe
 ```
 
 
-## Ruby
+## Ruby on Windows
 Ruby is the prerequisite for Rails.  You can download the latest Ruby for Windows from here:
 
 http://rubyinstaller.org/downloads/
@@ -197,7 +199,7 @@ ruby dk.rb install
 If there is no error shows up, the setup is successful.
 
 
-## Rails
+## Rails on Windows
 Ruby and devkit are the prerequisite for Rails.  To verify both Ruby and devkit are installed in your machine, run the following lines on your git bash:
 ```sh
 which ruby # should see a path similar to /c/usr/bin/ruby/bin/ruby
@@ -232,7 +234,7 @@ which rspec
 ```
 
 
-## SQLite
+## SQLite on Windows
 Download the latest SQLite for Windows from the home page of SQLite.org:
 ```sh
 http://www.sqlite.org/download.html
@@ -265,7 +267,7 @@ sqlite -v
 ```
 
 
-## Java
+## Java on Windows
 Download the latest Java for Windows from here:
 
 http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html
@@ -294,7 +296,7 @@ which java # should see /usr/bin/java
 if there is error saying php is not found on sh.exe, restart the git bash and run above line again.
 
 
-## Python
+## Python on Windows
 There are Python 2.x and Python 3.x available.  This instruction will focus on 2.x, but similar steps can be easily applied to 3.x as well.
 
 Download the Python 2.7.6 for Windows from here:
@@ -337,7 +339,7 @@ which python # should see /usr/bin/python
 if there is error saying php is not found on sh.exe, restart the git bash and run above line again.
 
 
-## PHP
+## PHP on Windows
 Download the latest PHP for Windows from here:
 
 http://windows.php.net/download/
@@ -565,44 +567,6 @@ brew install python
 ```
 
 
-## Chrome on Mac
-Chrome is a browser, but it can also be a very useful development tool with some extensions.  You can download Chrome on its home page:
-```sh
-https://www.google.com/intl/en/chrome/browser/
-```
-
-Once Chrome is installed, you can start installing extensions by entering `chrome://extensions/` into the browser address bar and hit return/enter key to enter the extension manager.  Scroll to the bottom of the page and click on `get more extensions` to reach the chrome web store page of extensions.
-
-Alternatively, you can reach the chrome web store page by visiting:
-```sh
-https://chrome.google.com/webstore/category/extensions?hl=en-US
-```
-
-### EditThisCookie on Mac
-EditThisCookie is a cookie manager that allow developer to modify cookies of a page in real for development and testing purpose.  To install this extension, you can either search `EditThisCookie` on the chrome web store, or visiting its page on:
-```sh
-https://chrome.google.com/webstore/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg?hl=en-US
-```
-
-To intall the extension, just click on the blue `+ Free` button the top right corner.
-
-### REST Console on Mac
-REST Console is an tool for testing HTTP requests on APIs.  You can learn more about it on its page on:
-```sh
-https://chrome.google.com/webstore/detail/rest-console/cokgbflfommojglbmbpenpphppikmonn?hl=en-US
-```
-
-To intall the extension, just click on the blue `+ Free` button the top right corner.
-
-### JSON View on Mac
-JSON View is a tool that parses JSON into a more human readable format.  You can learn more about it on its page on:
-```sh
-https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=en-US
-```
-
-To intall the extension, just click on the blue `+ Free` button the top right corner.
-
-
 ## PHP on Mac
 ## MAMP
 
@@ -793,5 +757,44 @@ You can install LAMP in Ubuntu by running:
 sudo tasksel install lamp-server
 ```
 
+# General Setup
 
-## Setup dev environment with Chef
+## Chrome
+Chrome is a browser, but it can also be a very useful development tool with some extensions.  You can download Chrome on its home page:
+```sh
+https://www.google.com/intl/en/chrome/browser/
+```
+
+Once Chrome is installed, you can start installing extensions by entering `chrome://extensions/` into the browser address bar and hit return/enter key to enter the extension manager.  Scroll to the bottom of the page and click on `get more extensions` to reach the chrome web store page of extensions.
+
+Alternatively, you can reach the chrome web store page by visiting:
+```sh
+https://chrome.google.com/webstore/category/extensions?hl=en-US
+```
+
+### EditThisCookie
+EditThisCookie is a cookie manager that allow developer to modify cookies of a page in real for development and testing purpose.  To install this extension, you can either search `EditThisCookie` on the chrome web store, or visiting its page on:
+```sh
+https://chrome.google.com/webstore/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg?hl=en-US
+```
+
+To intall the extension, just click on the blue `+ Free` button the top right corner.
+
+### REST Console
+REST Console is an tool for testing HTTP requests on APIs.  You can learn more about it on its page on:
+```sh
+https://chrome.google.com/webstore/detail/rest-console/cokgbflfommojglbmbpenpphppikmonn?hl=en-US
+```
+
+To intall the extension, just click on the blue `+ Free` button the top right corner.
+
+### JSON View
+JSON View is a tool that parses JSON into a more human readable format.  You can learn more about it on its page on:
+```sh
+https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=en-US
+```
+
+To intall the extension, just click on the blue `+ Free` button the top right corner.
+
+
+# Setup dev environment with Chef
