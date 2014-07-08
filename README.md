@@ -743,6 +743,14 @@ java -version
 
 
 ## Python on Ubuntu
+Install Python can be very easy with the help from the DeadSnakes PPA:
+```sh
+sudo add-apt-repository ppa:fkrull/deadsnakes
+sudo apt-get update
+sudo apt-get install python2.7
+```
+
+
 ## PHP on Ubuntu
 
 
