@@ -752,6 +752,15 @@ sudo apt-get install python2.7
 
 
 ## PHP on Ubuntu
+PHP is a scripting language for web applications, you can install PHP by running:
+```sh
+sudo apt-get install php5 libapache2-mod-php5 php5-mcrypt
+```
+
+Once installation is done, you can verify it by running:
+```sh
+php -v
+```
 
 
 ## LAMP
