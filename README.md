@@ -695,14 +695,16 @@ sudo apt-get upgrade openssl
 
 
 ## Ruby on Ubuntu
-Since Ruby Version Manager (RVM) is also available for Linux and other Unix-like operation system, you can install Ruby easily through using RVM.  You can learn more about RVM on their home page:
-```sh
-https://rvm.io/
-```
+Since Ruby Version Manager (RVM) is also available for Linux and other Unix-like operation system, you can install Ruby easily through using RVM.  You can learn more about RVM on their home page: `https://rvm.io/`
 
 To install the latest RVM along with the latest stable Ruby, you can simply run: 
 ```sh
 \curl -sSL https://get.rvm.io | bash -s stable 
+```
+
+If you already have RVM setup, you can update it to the latest vevrsion by running:
+```sh
+rvm get stable
 ```
 
 Once installation is done, you can verify it by running:
