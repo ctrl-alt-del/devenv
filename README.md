@@ -510,6 +510,24 @@ Similarly, you can install the latest stable version of RVM + Ruby + Rails by ru
 \curl -sSL https://get.rvm.io | bash -s stable --rails
 ```
 
+To setup the Ruby environment, you can simply check if the Ruby environment is setup by a RVM command:
+```sh
+rvm requirements
+```
+
+While installing gems, the process will automatically generate documants, which can be time consuming.  If you perfer online documents over local generated ones, you can skip the auto documents generating process, which would save you some time.
+
+To disable the process, you can create a gem configuation file by running:
+```sh
+subl ~/.gemrc
+```
+
+and then paste and save the following two lines into `.gemrc`
+```sh
+install: --no-rdoc --no-ri
+update:  --no-rdoc --no-ri
+```
+
 
 ## Rails on Mac
 
