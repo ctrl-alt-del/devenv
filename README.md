@@ -712,6 +712,24 @@ Once installation is done, you can verify it by running:
 ruby -v
 ```
 
+To setup the Ruby environment, you can simply check if the Ruby environment is setup by a RVM command:
+```sh
+rvm requirements
+```
+
+While installing gems, the process will automatically generate documants, which can be time consuming.  If you perfer online documents over local generated ones, you can skip the auto documents generating process, which would save you some time.
+
+To disable the process, you can create a gem configuation file by running:
+```sh
+subl ~/.gemrc
+```
+
+and then paste and save the following two lines into `.gemrc`
+```sh
+install: --no-rdoc --no-ri
+update:  --no-rdoc --no-ri
+```
+
 
 ## Rails on Ubuntu
 You can use RVm to install Rails as well.
