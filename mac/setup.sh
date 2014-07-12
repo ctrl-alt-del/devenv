@@ -15,3 +15,7 @@ if [ -f "$file" ] ; then
     bash ../util/setup_bash_profile.sh
     echo '>>> ~/.bash_profile has been successfully created!'
 fi
+
+echo '<<< Installing RVM and Ruby...'
+\curl -sSL https://get.rvm.io | bash -s stable --ruby
+echo '>>> RVM and Ruby has been successfully installed!'
