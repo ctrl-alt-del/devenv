@@ -40,3 +40,7 @@ fi
 echo '<<< Installing RVM and Ruby...'
 \curl -sSL https://get.rvm.io | bash -s stable --ruby
 echo '>>> RVM and Ruby has been successfully installed!'
+
+echo '<<< Configuring Ruby environment...'
+rvm requirements
+echo '>>> Ruby environment has been successfully configured!'
