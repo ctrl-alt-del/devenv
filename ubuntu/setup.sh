@@ -44,3 +44,7 @@ echo '>>> RVM and Ruby has been successfully installed!'
 echo '<<< Configuring Ruby environment...'
 rvm requirements
 echo '>>> Ruby environment has been successfully configured!'
+
+echo '<<< Installing Rails...'
+gem install rails
+echo '>>> Rails has been successfully installed!'
