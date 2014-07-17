@@ -37,6 +37,7 @@ This document and bash scripts will be updated piece by piece and I will try my 
 	* [Python] (#python-on-mac)
 	* [PHP] (#php-on-mac)
 	* [MAMP] (#mamp)
+	* [Node.js] (#nodejs-on-mac)
 
 
 * [Setup dev environment on Ubuntu 14.04 LTS] (#setup-dev-environment-on-ubuntu-1204-lts)
@@ -588,6 +589,20 @@ brew install python
 ## PHP on Mac
 ## MAMP
 
+## Nodejs on Mac
+Node.js is an platform for Javascript.  You can install Node.js by download the package from its home page:
+```sh
+http://nodejs.org/download/
+```
+
+Once download is completed, double click the file and follow the instruction to complete the installation.
+
+Once installation is done, open a terminal window and verify it by running:
+```sh
+node -v
+npm -v
+```
+You should see the version number of both lines
 
 # Setup dev environment on Ubuntu 14.04 LTS
 
