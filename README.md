@@ -38,6 +38,7 @@ This document and bash scripts will be updated piece by piece and I will try my 
 	* [PHP] (#php-on-mac)
 	* [MAMP] (#mamp)
 	* [Node.js] (#nodejs-on-mac)
+		* [Express] (#express-on-mac)
 
 
 * [Setup dev environment on Ubuntu 14.04 LTS] (#setup-dev-environment-on-ubuntu-1204-lts)
@@ -604,6 +605,17 @@ npm -v
 ```
 You should see the version number of both lines
 
+
+## Express on Mac
+Express is a web development framework for node.js. You can install it by running:
+```sh
+sudo npm install -g express-generator
+```
+
+Once installation is done, open a terminal window and verify it by running:
+```sh
+express --version
+```
 # Setup dev environment on Ubuntu 14.04 LTS
 
 ## Tilda
