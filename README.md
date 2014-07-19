@@ -2,7 +2,7 @@ devenv
 ======
 
 ### About
-I use both Mac and Windows regularly and sometimes Ubuntu.  Although I mostly use Mac as my coding machine, I am very interested in coding on my Windows machine as well.  After some reseaches as well as trials and errors, I am able to setup the dev environment on my Windows machine and I am pretty happy with it so far.  I think it may be a good idea to share the setup process with the community, and hopefully it can save other people some time :).
+I use both Mac and Windows regularly and sometimes Ubuntu as well.  Although I mostly use Mac as my coding machine, I am very interested in coding on my Windows machine as well.  After some reseaches as well as trials and errors, I am able to setup the dev environment on my Windows machine and I am pretty happy with it so far.  I think it may be a good idea to share the setup process with the community, and hopefully it can save other people some time :).
 
 ### Disclaimer
 This document and bash scripts will be updated piece by piece and I will try my best to describe the process step by step.  Please feel free to let me know if you see anything confusing/unclear/wrong or you have any recommendations.  Thank you :).
@@ -68,7 +68,7 @@ This document and bash scripts will be updated piece by piece and I will try my 
 # Setup dev environment on Windows
 
 ## Installation Folder
-It is a good idea to centralize all your packages in one folder.  Not only does it help  to better organize your packages, having a dedicated folder for your packages also makes navigating with command line easier.  In this instruction, all packages will be put or installed under /c/usr/bin (a.k.a "C:\usr\bin").  Please create the folder if it is not existed, or feel free to name your own directory. 
+It is a good idea to centralize all your packages in one folder.  Not only does it help  to better organize your packages, having a dedicated folder for your packages also makes navigating with command line easier.  In this instruction for Windows, all packages will be put or installed under /c/usr/bin (a.k.a "C:\usr\bin").  Please create the folder if it is not existed, and of course, feel free to name your own directory. 
 
 If you are familiar with Window's PowerShell, you can create the folder by opening PowerShell and run:
 ```sh
@@ -77,17 +77,11 @@ mkdir -p /usr/bin
 
 
 ## Git on Windows
-Git is a distributed version control and code management system.  You can learn more detail about it on its home page.
-```sh
-http://git-scm.com/
-```
+Git is a distributed version control and code management system.  You can learn more detail about it on its [homepage](http://git-scm.com/).
 
-Since Git contains many convenient built-in functions as well as a useful bash shell, it is the first software on my list to be installed to setup a dev environment on Windows machines.
+Since Git contains many convenient built-in functions as well as a useful bash shell, it is recommended to be installed firstin order to setup the dev environment on Windows.
 
-You can download the latest git for Windows from its home page, or by copying and pasting the following link to the address bar of your browser.  The download process should then be automatically started.
-```sh
-http://git-scm.com/download/win
-```
+You can download the latest git install file for Windows from [here](http://git-scm.com/download/win)
 
 Once the installation file is downloaded, install it under /c/usr/bin/git or whatever directory you chose.  Don't worry about the configuration choices available during the installation process, it would be fine to just keep them in default.
 
