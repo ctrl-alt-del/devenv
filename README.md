@@ -616,6 +616,20 @@ Once installation is done, open a terminal window and verify it by running:
 ```sh
 express --version
 ```
+
+
+## Nodemon on Mac
+Nodemon is a monitoring plugin that restart node.js application automatically if there is any changes happended to the code.  You can get it by running
+```sh
+sudo npm install -g nodemon
+```
+
+Once installation is done, open a terminal window and verify it by running:
+```sh
+nodemon -v
+```
+
+
 # Setup dev environment on Ubuntu 14.04 LTS
 
 ## Tilda
