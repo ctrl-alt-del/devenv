@@ -68,6 +68,8 @@ write_to_file() {
     ## get GPU ram ##
     alias gpumeminfo='grep -i --color memory /var/log/Xorg.0.log'
 
+    ## keep the Ruby console program (irb) minimal
+    alias irb='irb --simple-prompt'
     ## ==================== ##
 
     ";
