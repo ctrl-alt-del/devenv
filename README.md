@@ -9,7 +9,7 @@ This document and bash scripts will be updated piece by piece and I will try my 
 
 # Table of Contents
 
-* [Setup dev environment on Windows] (#setup-dev-environment-on-windows)
+* [Setup dev environment on Windows](#setup-dev-environment-on-windows)
 	* [Installation Folder](#installation-folder)
 	* [Git](#git-on-windows)
 		* [Setup .bash_profile](#setup-bash_profile)
@@ -39,7 +39,7 @@ This document and bash scripts will be updated piece by piece and I will try my 
 	* [MAMP](#mamp)
 	* [Node.js](#nodejs-on-mac)
 		* [Express](#express-on-mac)
-		* [Nodemon](#nodemon-on-mac)
+		* [Nodemon](#nodemon-on-mac)	
 
 * [Setup dev environment on Ubuntu 14.04 LTS](#setup-dev-environment-on-ubuntu-1204-lts)
 	* [Tilda](#Tilda)
@@ -61,7 +61,12 @@ This document and bash scripts will be updated piece by piece and I will try my 
 		* [EditThisCookie](#editthiscookie)
 		* [REST Console](#rest-console)
 		* [JSON View](#json-view)
-
+		
+* [Setup Android dev environment](#setup-android-dev-enviroment)
+	* [Eclipse](#eclipse)
+	* [ADT](#adt)
+	* [Android SDK](#android-sdk)
+	* [Gradle](#gradle)
 
 * [Setup dev environment with Chef](#setup-dev-environment-with-chef)
 
