@@ -134,45 +134,40 @@ Ruby is the prerequisite for Rails.  You can download the latest Ruby for Window
 
 http://rubyinstaller.org/downloads/
 
-Choose the appropriate RubyInstaller to download, either x86 or x64 based on your operation system.
+Choose the appropriate RubyInstaller to download, either the [x86 installer](http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.0.0-p481.exe) or [x64 installer](http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.0.0-p481-x64.exe) based on your operation system.
 
-Or run the following line if you are in 64-bit system:
+To donwload the installer through command line, you can do so by running:
+For 64-bit system:
 ```sh
 curl --remote-name "http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.0.0-p481-x64.exe"
 ```
 
-Or run the following line if you are in 32-bit system:
+For 32-bit system:
 ```sh
 curl --remote-name "http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.0.0-p481.exe"
 ```
 
 Install Ruby under /c/usr/bin/ruby or whatever directory you chose
 
-the executable ruby.exe should then be under:
-```sh
-/c/usr/bin/ruby/bin/ruby.exe
-```
+Once the installation is done, the executable `ruby.exe` should then be under:
+`/c/usr/bin/ruby/bin`
 
-Run git bash as administrator, then go to the bin of git bash by running: 
+Run git bash as administrator, then create a symbolic link by running:
 ```sh
-cd /usr/bin
-```
-
-Create a symbolic link by running:
-```sh
-ln -s /c/usr/bin/ruby/bin/ruby.exe ruby.exe
+ln -s /c/usr/bin/ruby/bin/ruby.exe /usr/bin/ruby.exe
 ```
 
 Verify the symbolic link is working properly by running:
 ```sh
 which ruby # should see /usr/bin/ruby
+ruby -v # should see 
 ```
 
-if there is error saying ruby is not found on sh.exe, restart the git bash and run above line again.
+If there is error saying ruby is not found on sh.exe, restart the git bash and redo the verification.
 
 Once you restarted the git bash and verified ruby is installed on your machine, you can check its version by running:
 ```sh
-ruby -v
+
 ```
 
 ### devkit
