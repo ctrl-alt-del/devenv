@@ -888,3 +888,46 @@ To intall the extension, just click on the blue `+ Free` button the top right co
 
 
 # Setup dev environment with Chef
+
+# Setup Android dev engviroment
+
+## Eclipse
+Eclipse is an integrated devevelopment environment (IDE) and you can learn more about it on its [homepage](http://www.eclipse.org/).  To use it to develop Android application, I use one of its variant called [Eclipse IDE for Java Developers](http://www.eclipse.org/downloads/packages/eclipse-ide-java-developers/lunar) because it is relatvely smaller than other variants.  You can feel to use the [standard one](http://www.eclipse.org/downloads/packages/eclipse-standard-44/lunar) or other of its variant as well.
+
+
+## ADT
+Once Eclipse is installed, open it and navigate to its Help -> Install New Software.
+
+On the wizard of Install New Software, click on the add button and paste `https://dl-ssl.google.com/android/eclipse/` to `location` and put `Android Development Toolkit plugin` on `name`, then press OK.
+
+Back to the wizard, click on the dropdown list of `Work with`  and select the url item that you just added.
+
+It may take a while for eclipse to get the plugin information, but once the available plugin is displayed, click `Select All` under the displaying section, and then `Next` on the bottom right.  Then follow the instruction to install and plugin and restart Eclipse once the installation is done.
+
+
+## Android SDK
+You can get Android SDK from its [developer page](http://developer.android.com/sdk/index.html) under "Get SDK for an existing IDE".
+
+Once downloaded, unzip and place it in the same folder of eclipse, or whatever folder you like.
+
+Open terminal, then running:
+```sh
+cd <whatever_folder_path>/sdk/tools
+./android sdk
+```
+Once the command lines in above is executed, it should popup an user interface to let you select SDKs and tools to download.
+
+You need the following package from the SDK:
+```sh
+./Tools/Android SDK Tools
+./Tools/Android SDK Build-tools
+./Tools/Android SDK Platform-tools
+./Extra/Android Support Repository
+./Extra/Android Support Library
+./<whatever_API_version>/SDK Platform
+./<whatever_API_version>/ARM EABI v7a System Image
+```
+
+Select those package and click on the "install packages" button on the bottom right, and then follow the instruction to complete the installation.
+
+
