@@ -39,7 +39,7 @@ This document and bash scripts will be updated piece by piece and I will try my 
 	* [MAMP](#mamp)
 	* [Node.js](#nodejs-on-mac)
 		* [Express](#express-on-mac)
-		* [Nodemon](#nodemon-on-mac)	
+		* [Nodemon](#nodemon-on-mac)
 	* [Gradle](#gradle-on-mac)
 
 * [Setup dev environment on Ubuntu 14.04 LTS](#setup-dev-environment-on-ubuntu-1204-lts)
@@ -601,7 +601,7 @@ npm -v
 You should see the version number of both lines
 
 
-## Express on Mac
+### Express on Mac
 Express is a web development framework for node.js. You can install it by running:
 ```sh
 sudo npm install -g express-generator
@@ -613,7 +613,7 @@ express --version
 ```
 
 
-## Nodemon on Mac
+### Nodemon on Mac
 Nodemon is a monitoring plugin that restart node.js application automatically if there is any changes happended to the code.  You can get it by running
 ```sh
 sudo npm install -g nodemon
@@ -947,3 +947,7 @@ You need the following package from the SDK:
 Select those package and click on the "install packages" button on the bottom right, and then follow the instruction to complete the installation.
 
 
+## Gradle
+Gradle is a build tool for project, you can learn more about it on its [homepage](http://www.gradle.org/) 
+
+Depends on you OS, you can find instruction for installing Gradle on [Windows](#gradle-on-windows), [Mac](#gradle-on-mac), and [Ubuntu](#gradle-on-ubuntu),
