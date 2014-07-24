@@ -9,6 +9,11 @@ This document and bash scripts will be updated piece by piece and I will try my 
 
 # Table of Contents
 
+|Tools                 | Windows                 | Mac                  | Ubuntu                 |
+|:-------------------- | :---------------------: | :------------------: | :--------------------: |
+|[Git](#about-git)     | [-->](#git-on-windows)  | [-->](#git-on_mac)   | [-->](#git-on-ubuntu)  |
+|[Curl](#about-curl)   | [-->](#curl-on-windows) | [-->](#curl-on_mac)  | [-->](#curl-on-ubuntu) |
+
 * [Setup dev environment on Windows](#setup-dev-environment-on-windows)
 	* [Installation Folder](#installation-folder)
 	* [Git](#git-on-windows)
