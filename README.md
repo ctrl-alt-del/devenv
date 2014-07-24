@@ -25,6 +25,8 @@ This document and bash scripts will be updated piece by piece and I will try my 
 	* [WAMP](#wamp)
 	* [Android SDK](#android_sdk)
 	
+	* [Gradle](#gradle-on-windows)
+		
 * [Setup dev environment on Mac](#setup-dev-environment-on-mac)
 	* [Terminal](#terminal)
 	* [Homebrew](#homebrew)
@@ -407,6 +409,25 @@ open SDK\ Manager.exe
 ```
 
 Select the latest Android SDK version or any other SDK version as needed, then update.
+
+
+## Gradle on Windows
+Gradle is a build tool for project, you can learn more about it on its [homepage](http://www.gradle.org)
+
+To install Gradle on Windows, you can download its zip file from [here](http://www.gradle.org/downloads) and unzip it to `/c/usr/bin/gradle` or whatever folder you like.
+
+Once the file is unzipped into the proper location, you can run git bash as administrator, then create a symbolic link by running:
+
+```sh
+cd /usr/bin
+ln -s /c/usr/bin/gradle/gradle.exe gradle.exe
+```
+
+Verify the symbolic link is working properly by running:
+```sh
+which gradle # should see /usr/bin/gradle
+gradle -v # should see version number
+```
 
 
 # Setup dev environment on Mac
