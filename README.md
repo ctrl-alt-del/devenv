@@ -40,6 +40,7 @@ This document and bash scripts will be updated piece by piece and I will try my 
 	* [Node.js](#nodejs-on-mac)
 		* [Express](#express-on-mac)
 		* [Nodemon](#nodemon-on-mac)	
+	* [Gradle](#gradle-on-mac)
 
 * [Setup dev environment on Ubuntu 14.04 LTS](#setup-dev-environment-on-ubuntu-1204-lts)
 	* [Tilda](#Tilda)
@@ -621,6 +622,21 @@ sudo npm install -g nodemon
 Once installation is done, open a terminal window and verify it by running:
 ```sh
 nodemon -v
+```
+
+## Gradle on Mac
+Gradle is a build tool for project, you can learn more about it on its [homepage](http://www.gradle.org/) 
+
+To install gradle, the simplest way would be to install it through [Homebrew](#homebrew-on-mac)
+
+Once you have Homebrew, you can install Gradle by running:
+```sh
+brew install gradle
+```
+
+Once installation is donw, you can verify it by running:
+```sh
+gradle -v
 ```
 
 
