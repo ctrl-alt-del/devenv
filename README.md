@@ -28,8 +28,7 @@ This document and bash scripts will be updated piece by piece and I will try my 
 	* [Python](#python-on-windows)
 	* [PHP](#php-on-windows)
 	* [WAMP](#wamp)
-	* [Android SDK](#android_sdk)
-	
+	* [Android SDK](#android-sdk-on-windows)
 	* [Gradle](#gradle-on-windows)
 		
 * [Setup dev environment on Mac](#setup-dev-environment-on-mac)
@@ -394,7 +393,7 @@ Choose the appropriate Thread Safe zip to download, either x86 or x64 based on y
 
 install the downloaded file to /c/usr/bin/wamp, or whatever directory you chose. Keep installation configurations default.
 
-## Android SDK
+## Android SDK on Windows
 Download the latest Android SDK for Windows from here:
 
 http://developer.android.com/sdk/index.html
@@ -653,7 +652,7 @@ nodemon -v
 ## Gradle on Mac
 Gradle is a build tool for project, you can learn more about it on its [homepage](http://www.gradle.org/) 
 
-To install gradle, the simplest way would be to install it through [Homebrew](#homebrew-on-mac)
+To install gradle, the simplest way would be to install it through [Homebrew](#homebrew)
 
 Once you have Homebrew, you can install Gradle by running:
 ```sh
