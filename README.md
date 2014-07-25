@@ -9,10 +9,10 @@ This document and bash scripts will be updated piece by piece and I will try my 
 
 # Table of Contents
 
-|Tools                 | Windows                 | Mac                  | Ubuntu                 |
-|:-------------------- | :---------------------: | :------------------: | :--------------------: |
-|[Git](#about-git)     | [-->](#git-on-windows)  | [-->](#git-on_mac)   | [-->](#git-on-ubuntu)  |
-|[Curl](#about-curl)   | [-->](#curl-on-windows) | [-->](#curl-on_mac)  | [-->](#curl-on-ubuntu) |
+|Tools                 | [Windows 7](#devenv-win7) | Mac 10.9.+           | Ubuntu 14.04           | Fedora 20              |
+|:-------------------- | :-----------------------: | :------------------: | :--------------------: | :--------------------: |
+|[Git](#about-git)     | [-->](#git-on-windows)    | [-->](#git-on-mac)   | [-->](#git-on-ubuntu)  | [   ](#git-on-fedora)  |
+|[Curl](#about-curl)   | [-->](#curl-on-windows)   | [-->](#curl-on-mac)  | [-->](#curl-on-ubuntu) | [   ](#curl-on-fedora) |
 
 * [Setup dev environment on Windows](#setup-dev-environment-on-windows)
 	* [Installation Folder](#installation-folder)
@@ -77,7 +77,7 @@ This document and bash scripts will be updated piece by piece and I will try my 
 
 * [Setup dev environment with Chef](#setup-dev-environment-with-chef)
 
-# Setup dev environment on Windows
+# Setup dev environment on Windows(#devenv-win7)
 
 ## Installation Folder
 It is a good idea to centralize all your packages in one folder.  Not only does it help  to better organize your packages, having a dedicated folder for your packages also makes navigating with command line easier.  In this instruction for Windows, all packages will be put or installed under /c/usr/bin (a.k.a "C:\usr\bin").  Please create the folder if it is not existed, and of course, feel free to name your own directory. 
