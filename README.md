@@ -888,6 +888,15 @@ You can install LAMP in Ubuntu by running:
 sudo tasksel install lamp-server
 ```
 
+
+# Fedora
+
+## Git on Fedora
+```sh
+sudo yum install git-core
+```
+
+
 # General Setup
 
 ## Chrome
