@@ -31,7 +31,7 @@ This document and bash scripts will be updated piece by piece and I will try my 
 	* [Android SDK](#android-sdk-on-windows)
 	* [Gradle](#gradle-on-windows)
 		
-* [Setup dev environment on Mac](#setup-dev-environment-on-mac)
+* [Setup dev environment on Mac](#mac)
 	* [Terminal](#terminal)
 	* [Homebrew](#homebrew)
 	* [Git](#git-on-mac)
@@ -48,7 +48,7 @@ This document and bash scripts will be updated piece by piece and I will try my 
 		* [Nodemon](#nodemon-on-mac)
 	* [Gradle](#gradle-on-mac)
 
-* [Setup dev environment on Ubuntu 14.04 LTS](#setup-dev-environment-on-ubuntu-1204-lts)
+* [Setup dev environment on Ubuntu 14.04 LTS](#ubuntu)
 	* [Tilda](#Tilda)
 	* [Sublime Text 2](#sublime)
 	* [SmartGit](#smartgit)
@@ -62,6 +62,10 @@ This document and bash scripts will be updated piece by piece and I will try my 
 	* [Rails](#rails-on-ubuntu)
 	* [Python](#python-on-ubuntu)
 	* [PHP](#php-on-ubuntu)
+
+* [Setup dev environment on Fedora 20](#fedora)
+	* [Git](#git-on-fedora)
+
 
 * [General Setup](#general-setup)
 	* [Chrome](#chrome)
@@ -77,7 +81,7 @@ This document and bash scripts will be updated piece by piece and I will try my 
 
 * [Setup dev environment with Chef](#setup-dev-environment-with-chef)
 
-# Setup dev environment on Windows(#devenv-win7)
+# Windows
 
 ## Installation Folder
 It is a good idea to centralize all your packages in one folder.  Not only does it help  to better organize your packages, having a dedicated folder for your packages also makes navigating with command line easier.  In this instruction for Windows, all packages will be put or installed under /c/usr/bin (a.k.a "C:\usr\bin").  Please create the folder if it is not existed, and of course, feel free to name your own directory. 
@@ -434,7 +438,7 @@ gradle -v # should see version number
 ```
 
 
-# Setup dev environment on Mac
+# Mac
 
 ## Terminal
 
@@ -665,7 +669,7 @@ gradle -v
 ```
 
 
-# Setup dev environment on Ubuntu 14.04 LTS
+# Ubuntu
 
 ## Tilda
 Tilda is an alternative of the system's default terminal, which I found very useful.  It is optional to you, but some of its additional features are just handy.
