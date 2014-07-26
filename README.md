@@ -9,12 +9,17 @@ This document and bash scripts will be updated piece by piece and I will try my 
 
 # Table of Contents
 
-|Tools                 | [Windows 7](#devenv-win7) | Mac 10.9.+           | Ubuntu 14.04           | Fedora 20              |
-|:-------------------- | :-----------------------: | :------------------: | :--------------------: | :--------------------: |
-|[Git](#about-git)     | [-->](#git-on-windows)    | [-->](#git-on-mac)   | [-->](#git-on-ubuntu)  | [   ](#git-on-fedora)  |
-|[Curl](#about-curl)   | [-->](#curl-on-windows)   | [-->](#curl-on-mac)  | [-->](#curl-on-ubuntu) | [   ](#curl-on-fedora) |
+|Tools                     | [Windows 7](#windows)     | [Mac 10.9.+](#mac)   | [Ubuntu 14.04](#ubuntu) | [Fedora 20](#fedora)   |
+|:------------------------ | :-----------------------: | :------------------: | :---------------------: | :--------------------: |
+|[Git](#about-git)         | [-->](#git-on-windows)    | [-->](#git-on-mac)   | [-->](#git-on-ubuntu)   | [-->](#git-on-fedora)  |
+|[Curl](#about-curl)       | [-->](#curl-on-windows)   | [-->](#curl-on-mac)  | [-->](#curl-on-ubuntu)  | [   ](#curl-on-fedora) |
+|[Ruby](#about-ruby)       | [-->](#ruby-on-windows)   | [-->](#ruby-on-mac)  | [-->](#ruby-on-ubuntu)  | [   ](#ruby-on-fedora) |
+|[devkit](#about-devkit)   | [-->](#devkit)            | [   ](            )  | [   ](               )  | [   ](               ) |
+|[Rails](#about-rails)     | [-->](#rails-on-windows)  | [-->](#rails-on-mac) | [-->](#rails-on-ubuntu) | [   ](#rails-on-fedora)|
 
-* [Setup dev environment on Windows](#setup-dev-environment-on-windows)
+
+
+* [Setup dev environment on Windows](#windows)
 	* [Installation Folder](#installation-folder)
 	* [Git](#git-on-windows)
 		* [Setup .bash_profile](#setup-bash_profile)
