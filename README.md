@@ -101,6 +101,8 @@ You can download the latest git install file for Windows from [here](http://git-
 
 Once the installation file is downloaded, install it under /c/usr/bin/git or whatever directory you chose.  Don't worry about the configuration choices available during the installation process, it would be fine to just keep them in default.
 
+[BACK](#table-of-contents)
+
 
 ### Setup .bash_profile
 After git is installed, let us configure the git bash and have it memorize some convenient shortcuts.
@@ -117,6 +119,8 @@ Or if you prefer to create the .bash_profile file manually, you can do so by run
 `touch .bash_profile` on you home directory, and then add the scripts to it.
 
 After the .bash_profile is created, restart the git bash to let the changes take effect.
+
+[BACK](#table-of-contents)
 
 
 ## Curl on Windows
@@ -138,6 +142,8 @@ Create a symbolic link by running:
 ```sh
 ln -s /c/usr/bin/curl/curl.exe curl.exe
 ```
+
+[BACK](#table-of-contents)
 
 
 ## Ruby on Windows
@@ -180,6 +186,9 @@ Once you restarted the git bash and verified ruby is installed on your machine, 
 ```sh
 
 ```
+
+[BACK](#table-of-contents)
+
 
 ### devkit
 devkit is the prerequisite for Rails.  You can download its latest version for Windows from here:
