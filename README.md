@@ -9,27 +9,29 @@ This document and bash scripts will be updated piece by piece and I will try my 
 
 # Table of Contents
 
-|Tools                     | [Windows 7](#windows)     | [Mac 10.9.+](#mac)   | [Ubuntu 14.04](#ubuntu) | [Fedora 20](#fedora)   |
-|:------------------------ | :-----------------------: | :------------------: | :---------------------: | :--------------------: |
-|[Git](#about-git)         | [-->](#git-on-windows)    | [-->](#git-on-mac)   | [-->](#git-on-ubuntu)   | [-->](#git-on-fedora)  |
-|[Curl](#about-curl)       | [-->](#curl-on-windows)   | [-->](#curl-on-mac)  | [-->](#curl-on-ubuntu)  | [   ](#curl-on-fedora) |
-|[Ruby](#about-ruby)       | [-->](#ruby-on-windows)   | [-->](#ruby-on-mac)  | [-->](#ruby-on-ubuntu)  | [   ](#ruby-on-fedora) |
-|[devkit](#about-devkit)   | [-->](#devkit)            | [   ](            )  | [   ](               )  | [   ](               ) |
-|[Rails](#about-rails)     | [-->](#rails-on-windows)  | [-->](#rails-on-mac) | [-->](#rails-on-ubuntu) | [   ](#rails-on-fedora)|
+|Tools                    | [Windows 7](#windows)     | [Mac 10.9.+](#mac)   | [Ubuntu 14.04](#ubuntu) | [Fedora 20](#fedora)   |
+|:----------------------- | :-----------------------: | :------------------: | :---------------------: | :--------------------: |
+|[Preps](              )  | [   ](       )            | [   ](            )  | [   ](               )  | [   ](               ) |
+|[Terminal](             )| [   ](       )            | [-->](#terminal   )  | [-->](#tilda         )  | [   ](               ) |
+|[Git](#about-git)        | [-->](#git-on-windows)    | [-->](#git-on-mac)   | [-->](#git-on-ubuntu)   | [-->](#git-on-fedora)  |
+|[Curl](#about-curl)      | [-->](#curl-on-windows)   | [-->](#curl-on-mac)  | [-->](#curl-on-ubuntu)  | [   ](#curl-on-fedora) |
+|[Ruby](#about-ruby)      | [-->](#ruby-on-windows)   | [-->](#ruby-on-mac)  | [-->](#ruby-on-ubuntu)  | [   ](#ruby-on-fedora) |
+|[devkit](#about-devkit)  | [-->](#devkit)            | [   ](            )  | [   ](               )  | [   ](               ) |
+|[Rails](#about-rails)    | [-->](#rails-on-windows)  | [-->](#rails-on-mac) | [-->](#rails-on-ubuntu) | [   ](#rails-on-fedora)|
+|[RVM](                )  | [   ](       )            | [   ](            )  | [   ](               )  | [   ](               ) |
+|[Java](#about-java)      | [-->](#java-on-windows)   | [-->](#java-on-mac)  | [   ](#java-on-ubuntu)  | [   ](#java-on-fedora) |
+|[Python](             )  | [   ](       )            | [   ](            )  | [   ](               )  | [   ](               ) |
+|[PHP](                )  | [   ](       )            | [   ](            )  | [   ](               )  | [   ](               ) |
+|[Node.js](            )  | [   ](       )            | [   ](            )  | [   ](               )  | [   ](               ) |
+|[OpenSSL](            )  | [   ](       )            | [   ](            )  | [   ](               )  | [   ](               ) |
+|[Gradle](             )  | [   ](       )            | [   ](            )  | [   ](               )  | [   ](               ) |
 
 
 
 * [Setup dev environment on Windows](#windows)
 	* [Installation Folder](#installation-folder)
-	* [Git](#git-on-windows)
-		* [Setup .bash_profile](#setup-bash_profile)
-	* [Curl](#curl-on-windows)
-	* [Ruby](#ruby-on-windows)
-		* [devkit](#devkit)
-	* [Rails](#rails-on-windows)
-		* [RSpec](#rspec)
+	* [RSpec](#rspec)
 	* [SQLite](#sqlite-on-windows)
-	* [Java](#java-on-windows)
 	* [Python](#python-on-windows)
 	* [PHP](#php-on-windows)
 	* [WAMP](#wamp)
@@ -37,14 +39,8 @@ This document and bash scripts will be updated piece by piece and I will try my 
 	* [Gradle](#gradle-on-windows)
 		
 * [Setup dev environment on Mac](#mac)
-	* [Terminal](#terminal)
 	* [Homebrew](#homebrew)
-	* [Git](#git-on-mac)
-	* [Curl](#curl-on-mac)
-	* [Ruby](#ruby-on-mac)
 	* [RVM](#rvm-on-mac)
-	* [Rails](#rails-on-mac)
-	* [Java](#java-on-mac)
 	* [Python](#python-on-mac)
 	* [PHP](#php-on-mac)
 	* [MAMP](#mamp)
@@ -54,17 +50,13 @@ This document and bash scripts will be updated piece by piece and I will try my 
 	* [Gradle](#gradle-on-mac)
 
 * [Setup dev environment on Ubuntu 14.04 LTS](#ubuntu)
-	* [Tilda](#Tilda)
 	* [Sublime Text 2](#sublime)
 	* [SmartGit](#smartgit)
 	* [Git](#git-on-ubuntu)
 	* [Gitk](#gitk)
 	* [Node.js](#nodejs-on-ubuntu)
 		* [npm](#npm-on-ubuntu)
-	* [Curl](#curl-on-ubuntu)
 	* [OpenSSL](#openssl-on-ubuntu)
-	* [Ruby](#ruby-on-ubuntu)
-	* [Rails](#rails-on-ubuntu)
 	* [Python](#python-on-ubuntu)
 	* [PHP](#php-on-ubuntu)
 
@@ -73,6 +65,7 @@ This document and bash scripts will be updated piece by piece and I will try my 
 
 
 * [General Setup](#general-setup)
+	* [Setup .bash_profile](#setup-bash_profile)
 	* [Chrome](#chrome)
 		* [EditThisCookie](#editthiscookie)
 		* [REST Console](#rest-console)
