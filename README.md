@@ -9,55 +9,45 @@ This document and bash scripts will be updated piece by piece and I will try my 
 
 # Table of Contents
 
-|Tools                       | [Windows 7](#windows)     | [Mac 10.9.+](#mac)   | [Ubuntu 14.04](#ubuntu) | [Fedora 20](#fedora)   |
-|:-------------------------- | :-----------------------: | :------------------: | :---------------------: | :--------------------: |
-|[Preps](#configuration)     | [-->](#configure-windows) | [   ](            )  | [   ](               )  | [   ](               ) |
-|[Terminal](#about-terminal) | [   ](       )            | [-->](#terminal   )  | [-->](#tilda         )  | [   ](               ) |
-|[Git](#about-git)           | [-->](#git-on-windows)    | [-->](#git-on-mac)   | [-->](#git-on-ubuntu)   | [-->](#git-on-fedora)  |
-|[Curl](#about-curl)         | [-->](#curl-on-windows)   | [-->](#curl-on-mac)  | [-->](#curl-on-ubuntu)  | [   ](#curl-on-fedora) |
-|[Ruby](#about-ruby)         | [-->](#ruby-on-windows)   | [-->](#ruby-on-mac)  | [-->](#ruby-on-ubuntu)  | [   ](#ruby-on-fedora) |
-|[devkit](#about-devkit)     | [-->](#devkit)            | [   ](            )  | [   ](               )  | [   ](               ) |
-|[Rails](#about-rails)       | [-->](#rails-on-windows)  | [-->](#rails-on-mac) | [-->](#rails-on-ubuntu) | [   ](#rails-on-fedora)|
-|[RVM](                )     | [   ](       )            | [   ](            )  | [   ](               )  | [   ](               ) |
-|[Java](#about-java)         | [-->](#java-on-windows)   | [-->](#java-on-mac)  | [-->](#java-on-ubuntu)  | [   ](#java-on-fedora) |
-|[Python](             )     | [-->](#python-on-windows) | [-->](#python-on-mac)| [-->](#python-on-ubuntu)| [   ](               ) |
-|[PHP](                )     | [   ](       )            | [   ](            )  | [   ](               )  | [   ](               ) |
-|[Node.js](            )     | [   ](       )            | [   ](            )  | [   ](               )  | [   ](               ) |
-|[OpenSSL](            )     | [   ](       )            | [   ](            )  | [   ](               )  | [   ](               ) |
-|[Gradle](#about-gradle)     | [-->](#gradle-on-windows) | [-->](#gradle-on-mac)| [   ](               )  | [   ](               ) |
-
-
+|Tools                       | [Windows 7](#windows)     | [Mac 10.9.+](#mac)    | [Ubuntu 14.04](#ubuntu) | [Fedora 20](#fedora)   |
+|:-------------------------- | :-----------------------: | :-------------------: | :---------------------: | :--------------------: |
+|[Preps](#configuration)     | [-->](#configure-windows) | [N/A](#)              | [N/A](#)                | [N/A](#)               |
+|[Terminal](#about-terminal) | [   ](       )            | [-->](#terminal   )   | [-->](#tilda         )  | [   ](               ) |
+|[Git](#about-git)           | [-->](#git-on-windows)    | [-->](#git-on-mac)    | [-->](#git-on-ubuntu)   | [-->](#git-on-fedora)  |
+|[Curl](#about-curl)         | [-->](#curl-on-windows)   | [-->](#curl-on-mac)   | [-->](#curl-on-ubuntu)  | [   ](#curl-on-fedora) |
+|[Ruby](#about-ruby)         | [-->](#ruby-on-windows)   | [-->](#ruby-on-mac)   | [-->](#ruby-on-ubuntu)  | [   ](#ruby-on-fedora) |
+|[devkit](#about-devkit)     | [-->](#devkit)            | [N/A](#)              | [N/A](#)                | [N/A](#)               |
+|[Rails](#about-rails)       | [-->](#rails-on-windows)  | [-->](#rails-on-mac)  | [-->](#rails-on-ubuntu) | [   ](#rails-on-fedora)|
+|[RVM](                )     | [   ](       )            | [-->](#rvm-on-mac)    | [   ](               )  | [   ](               ) |
+|[Java](#about-java)         | [-->](#java-on-windows)   | [-->](#java-on-mac)   | [-->](#java-on-ubuntu)  | [   ](#java-on-fedora) |
+|[Python](             )     | [-->](#python-on-windows) | [-->](#python-on-mac) | [-->](#python-on-ubuntu)| [   ](               ) |
+|[PHP](#about-php)           | [-->](#php-on-windows)    | [-->](#php-on-mac)    | [-->](#php-on-ubuntu)   | [   ](               ) |
+|[Node.js](#about-nodejs)    | [   ](       )            | [-->](#nodejs-on-mac) | [-->](#nodejs-on-ubuntu)| [   ](               ) |
+|[npm](#about-npm)           | [   ](       )            | [   ](              ) | [-->](#npm-on-ubuntu)   | [   ](               ) |
+|[Express](#about-express)   | [   ](       )            | [-->](#express-on-mac)| [   ](                 )| [   ](               ) |
+|[Nodemon](#about-nodemon)   | [   ](       )            | [-->](#nodemon-on-mac)| [   ](                 )| [   ](               ) |
+|[OpenSSL](            )     | [   ](       )            | [   ](            )   | [   ](               )  | [   ](               ) |
+|[Gradle](#about-gradle)     | [-->](#gradle-on-windows) | [-->](#gradle-on-mac) | [   ](               )  | [   ](               ) |
+|[WAMP](               )     | [-->](#wamp  )            | [   ](            )   | [   ](               )  | [   ](               ) |
+|[MAMP](               )     | [   ](       )            | [-->](#mamp       )   | [   ](               )  | [   ](               ) |
+|[LAMP](               )     | [   ](       )            | [   ](            )   | [   ](               )  | [   ](               ) |
+|[SQLite](             )     | [-->](#sqlite-on-windows) | [   ](            )   | [   ](               )  | [   ](               ) |
+|[MySQL](              )     | [   ](       )            | [   ](            )   | [   ](               )  | [   ](               ) |
+|[PostgreSQL](         )     | [   ](       )            | [   ](            )   | [   ](               )  | [   ](               ) |
 
 * [Setup dev environment on Windows](#windows)
 	* [RSpec](#rspec)
-	* [SQLite](#sqlite-on-windows)
-	* [PHP](#php-on-windows)
-	* [WAMP](#wamp)
 	* [Android SDK](#android-sdk-on-windows)
-	* [Gradle](#gradle-on-windows)
 		
 * [Setup dev environment on Mac](#mac)
 	* [Homebrew](#homebrew)
-	* [RVM](#rvm-on-mac)
-	* [PHP](#php-on-mac)
-	* [MAMP](#mamp)
-	* [Node.js](#nodejs-on-mac)
-		* [Express](#express-on-mac)
-		* [Nodemon](#nodemon-on-mac)
 
 * [Setup dev environment on Ubuntu 14.04 LTS](#ubuntu)
 	* [Sublime Text 2](#sublime)
 	* [SmartGit](#smartgit)
 	* [Git](#git-on-ubuntu)
 	* [Gitk](#gitk)
-	* [Node.js](#nodejs-on-ubuntu)
-		* [npm](#npm-on-ubuntu)
 	* [OpenSSL](#openssl-on-ubuntu)
-	* [PHP](#php-on-ubuntu)
-
-* [Setup dev environment on Fedora 20](#fedora)
-	* [Git](#git-on-fedora)
-
 
 * [General Setup](#general-setup)
 	* [Setup .bash_profile](#setup-bash_profile)
