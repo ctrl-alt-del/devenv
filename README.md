@@ -9,30 +9,28 @@ This document and bash scripts will be updated piece by piece and I will try my 
 
 # Table of Contents
 
-|Tools                    | [Windows 7](#windows)     | [Mac 10.9.+](#mac)   | [Ubuntu 14.04](#ubuntu) | [Fedora 20](#fedora)   |
-|:----------------------- | :-----------------------: | :------------------: | :---------------------: | :--------------------: |
-|[Preps](              )  | [   ](       )            | [   ](            )  | [   ](               )  | [   ](               ) |
-|[Terminal](             )| [   ](       )            | [-->](#terminal   )  | [-->](#tilda         )  | [   ](               ) |
-|[Git](#about-git)        | [-->](#git-on-windows)    | [-->](#git-on-mac)   | [-->](#git-on-ubuntu)   | [-->](#git-on-fedora)  |
-|[Curl](#about-curl)      | [-->](#curl-on-windows)   | [-->](#curl-on-mac)  | [-->](#curl-on-ubuntu)  | [   ](#curl-on-fedora) |
-|[Ruby](#about-ruby)      | [-->](#ruby-on-windows)   | [-->](#ruby-on-mac)  | [-->](#ruby-on-ubuntu)  | [   ](#ruby-on-fedora) |
-|[devkit](#about-devkit)  | [-->](#devkit)            | [   ](            )  | [   ](               )  | [   ](               ) |
-|[Rails](#about-rails)    | [-->](#rails-on-windows)  | [-->](#rails-on-mac) | [-->](#rails-on-ubuntu) | [   ](#rails-on-fedora)|
-|[RVM](                )  | [   ](       )            | [   ](            )  | [   ](               )  | [   ](               ) |
-|[Java](#about-java)      | [-->](#java-on-windows)   | [-->](#java-on-mac)  | [   ](#java-on-ubuntu)  | [   ](#java-on-fedora) |
-|[Python](             )  | [   ](       )            | [   ](            )  | [   ](               )  | [   ](               ) |
-|[PHP](                )  | [   ](       )            | [   ](            )  | [   ](               )  | [   ](               ) |
-|[Node.js](            )  | [   ](       )            | [   ](            )  | [   ](               )  | [   ](               ) |
-|[OpenSSL](            )  | [   ](       )            | [   ](            )  | [   ](               )  | [   ](               ) |
-|[Gradle](             )  | [   ](       )            | [   ](            )  | [   ](               )  | [   ](               ) |
+|Tools                       | [Windows 7](#windows)     | [Mac 10.9.+](#mac)   | [Ubuntu 14.04](#ubuntu) | [Fedora 20](#fedora)   |
+|:-------------------------- | :-----------------------: | :------------------: | :---------------------: | :--------------------: |
+|[Preps](#configuration)     | [-->](#configure-windows) | [   ](            )  | [   ](               )  | [   ](               ) |
+|[Terminal](#about-terminal) | [   ](       )            | [-->](#terminal   )  | [-->](#tilda         )  | [   ](               ) |
+|[Git](#about-git)           | [-->](#git-on-windows)    | [-->](#git-on-mac)   | [-->](#git-on-ubuntu)   | [-->](#git-on-fedora)  |
+|[Curl](#about-curl)         | [-->](#curl-on-windows)   | [-->](#curl-on-mac)  | [-->](#curl-on-ubuntu)  | [   ](#curl-on-fedora) |
+|[Ruby](#about-ruby)         | [-->](#ruby-on-windows)   | [-->](#ruby-on-mac)  | [-->](#ruby-on-ubuntu)  | [   ](#ruby-on-fedora) |
+|[devkit](#about-devkit)     | [-->](#devkit)            | [   ](            )  | [   ](               )  | [   ](               ) |
+|[Rails](#about-rails)       | [-->](#rails-on-windows)  | [-->](#rails-on-mac) | [-->](#rails-on-ubuntu) | [   ](#rails-on-fedora)|
+|[RVM](                )     | [   ](       )            | [   ](            )  | [   ](               )  | [   ](               ) |
+|[Java](#about-java)         | [-->](#java-on-windows)   | [-->](#java-on-mac)  | [-->](#java-on-ubuntu)  | [   ](#java-on-fedora) |
+|[Python](             )     | [-->](#python-on-windows) | [-->](#python-on-mac)| [-->](#python-on-ubuntu)| [   ](               ) |
+|[PHP](                )     | [   ](       )            | [   ](            )  | [   ](               )  | [   ](               ) |
+|[Node.js](            )     | [   ](       )            | [   ](            )  | [   ](               )  | [   ](               ) |
+|[OpenSSL](            )     | [   ](       )            | [   ](            )  | [   ](               )  | [   ](               ) |
+|[Gradle](#about-gradle)     | [-->](#gradle-on-windows) | [-->](#gradle-on-mac)| [   ](               )  | [   ](               ) |
 
 
 
 * [Setup dev environment on Windows](#windows)
-	* [Installation Folder](#installation-folder)
 	* [RSpec](#rspec)
 	* [SQLite](#sqlite-on-windows)
-	* [Python](#python-on-windows)
 	* [PHP](#php-on-windows)
 	* [WAMP](#wamp)
 	* [Android SDK](#android-sdk-on-windows)
@@ -41,13 +39,11 @@ This document and bash scripts will be updated piece by piece and I will try my 
 * [Setup dev environment on Mac](#mac)
 	* [Homebrew](#homebrew)
 	* [RVM](#rvm-on-mac)
-	* [Python](#python-on-mac)
 	* [PHP](#php-on-mac)
 	* [MAMP](#mamp)
 	* [Node.js](#nodejs-on-mac)
 		* [Express](#express-on-mac)
 		* [Nodemon](#nodemon-on-mac)
-	* [Gradle](#gradle-on-mac)
 
 * [Setup dev environment on Ubuntu 14.04 LTS](#ubuntu)
 	* [Sublime Text 2](#sublime)
@@ -57,7 +53,6 @@ This document and bash scripts will be updated piece by piece and I will try my 
 	* [Node.js](#nodejs-on-ubuntu)
 		* [npm](#npm-on-ubuntu)
 	* [OpenSSL](#openssl-on-ubuntu)
-	* [Python](#python-on-ubuntu)
 	* [PHP](#php-on-ubuntu)
 
 * [Setup dev environment on Fedora 20](#fedora)
@@ -79,9 +74,10 @@ This document and bash scripts will be updated piece by piece and I will try my 
 
 * [Setup dev environment with Chef](#setup-dev-environment-with-chef)
 
-# Windows
 
-## Installation Folder
+#Configuration
+
+## Configure Windows
 It is a good idea to centralize all your packages in one folder.  Not only does it help  to better organize your packages, having a dedicated folder for your packages also makes navigating with command line easier.  In this instruction for Windows, all packages will be put or installed under /c/usr/bin (a.k.a "C:\usr\bin").  Please create the folder if it is not existed, and of course, feel free to name your own directory. 
 
 If you are familiar with Window's PowerShell, you can create the folder by opening PowerShell and run:
@@ -89,6 +85,11 @@ If you are familiar with Window's PowerShell, you can create the folder by openi
 mkdir -p /usr/bin
 ```
 
+
+
+
+
+# Windows
 
 ## Git on Windows
 Git is a distributed version control and code management system.  You can learn more detail about it on its [homepage](http://git-scm.com/).
