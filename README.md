@@ -11,14 +11,14 @@ This document and bash scripts will be updated piece by piece and I will try my 
 
 |Tools                       | [Windows 7](#windows)     | [Mac 10.9.+](#mac)    | [Ubuntu 14.04](#ubuntu) | [Fedora 20](#fedora)   |
 |:-------------------------- | :-----------------------: | :-------------------: | :---------------------: | :--------------------: |
-|[Preps](#configuration)     | [-->](#configure-windows) | [N/A](#)              | [N/A](#)                | [N/A](#)               |
+|[Preps](#configuration)     | [-->](#configure-windows) | N/A                   | N/A                     | N/A                    |
 |[Terminal](#about-terminal) | [   ](       )            | [-->](#terminal   )   | [-->](#tilda         )  | [   ](               ) |
 |[Git](#about-git)           | [-->](#git-on-windows)    | [-->](#git-on-mac)    | [-->](#git-on-ubuntu)   | [-->](#git-on-fedora)  |
 |[Curl](#about-curl)         | [-->](#curl-on-windows)   | [-->](#curl-on-mac)   | [-->](#curl-on-ubuntu)  | [   ](#curl-on-fedora) |
 |[Ruby](#about-ruby)         | [-->](#ruby-on-windows)   | [-->](#ruby-on-mac)   | [-->](#ruby-on-ubuntu)  | [   ](#ruby-on-fedora) |
-|[devkit](#about-devkit)     | [-->](#devkit)            | [N/A](#)              | [N/A](#)                | [N/A](#)               |
+|[devkit](#about-devkit)     | [-->](#devkit)            | N/A                   | N/A                     | N/A                    |
 |[Rails](#about-rails)       | [-->](#rails-on-windows)  | [-->](#rails-on-mac)  | [-->](#rails-on-ubuntu) | [   ](#rails-on-fedora)|
-|[RVM](                )     | [   ](       )            | [-->](#rvm-on-mac)    | [   ](               )  | [   ](               ) |
+|[RVM](#about-rvm)           | N/A                       | [-->](#rvm-on-mac)    | [   ](               )  | [   ](               ) |
 |[Java](#about-java)         | [-->](#java-on-windows)   | [-->](#java-on-mac)   | [-->](#java-on-ubuntu)  | [   ](#java-on-fedora) |
 |[Python](             )     | [-->](#python-on-windows) | [-->](#python-on-mac) | [-->](#python-on-ubuntu)| [   ](               ) |
 |[PHP](#about-php)           | [-->](#php-on-windows)    | [-->](#php-on-mac)    | [-->](#php-on-ubuntu)   | [   ](               ) |
