@@ -87,7 +87,7 @@ You can download the latest git install file for Windows from [here](http://git-
 
 Once the installation file is downloaded, install it under /c/usr/bin/git or whatever directory you chose.  Don't worry about the configuration choices available during the installation process, it would be fine to just keep them in default.
 
-[BACK](#table-of-contents)
+[BACK TO TOP](#table-of-contents)
 
 
 ### Setup .bash_profile
@@ -106,7 +106,7 @@ Or if you prefer to create the .bash_profile file manually, you can do so by run
 
 After the .bash_profile is created, restart the git bash to let the changes take effect.
 
-[BACK](#table-of-contents)
+[BACK TO TOP](#table-of-contents)
 
 
 ## Curl on Windows
@@ -129,7 +129,7 @@ Create a symbolic link by running:
 ln -s /c/usr/bin/curl/curl.exe curl.exe
 ```
 
-[BACK](#table-of-contents)
+[BACK TO TOP](#table-of-contents)
 
 
 ## Ruby on Windows
@@ -173,7 +173,7 @@ Once you restarted the git bash and verified ruby is installed on your machine, 
 
 ```
 
-[BACK](#table-of-contents)
+[BACK TO TOP](#table-of-contents)
 
 
 ### devkit
@@ -200,6 +200,8 @@ ruby dk.rb install
 
 If there is no error shows up, the setup is successful.
 
+[BACK TO TOP](#table-of-contents)
+
 
 ## Rails on Windows
 Ruby and devkit are the prerequisite for Rails.  To verify both Ruby and devkit are installed in your machine, run the following lines on your git bash:
@@ -218,6 +220,8 @@ Once installation is done, verify it by running:
 which rails # should see a path similar to /c/usr/bin/rails/rails
 ```
 
+[BACK TO TOP](#table-of-contents)
+
 
 ### RSpec
 Rails is the prerequisite for RSpec.  To verify Rails is installed in your machine, run the following lines on your git bash:
@@ -234,6 +238,8 @@ Once installation is done, verify it by running:
 ```sh
 which rspec
 ```
+
+[BACK TO TOP](#table-of-contents)
 
 
 ## SQLite on Windows
@@ -268,6 +274,8 @@ Verified sqlite is installed and properly linked on your machine by running:
 sqlite -v
 ```
 
+[BACK TO TOP](#table-of-contents)
+
 
 ## Java on Windows
 Download the latest Java for Windows from here:
@@ -296,6 +304,8 @@ which java # should see /usr/bin/java
 ```
 
 if there is error saying php is not found on sh.exe, restart the git bash and run above line again.
+
+[BACK TO TOP](#table-of-contents)
 
 
 ## Python on Windows
@@ -340,6 +350,9 @@ which python # should see /usr/bin/python
 
 if there is error saying php is not found on sh.exe, restart the git bash and run above line again.
 
+[BACK TO TOP](#table-of-contents)
+
+
 
 ## PHP on Windows
 Download the latest PHP for Windows from here:
@@ -382,6 +395,9 @@ which php # should see /usr/bin/php
 
 if there is error saying php is not found on sh.exe, restart the git bash and run above line again.
 
+[BACK TO TOP](#table-of-contents)
+
+
 
 ## Wamp
 Download the latest PHP for Windows from here:
@@ -413,6 +429,8 @@ open SDK\ Manager.exe
 
 Select the latest Android SDK version or any other SDK version as needed, then update.
 
+[BACK TO TOP](#table-of-contents)
+
 
 ## Gradle on Windows
 Gradle is a build tool for project, you can learn more about it on its [homepage](http://www.gradle.org)
@@ -432,12 +450,17 @@ which gradle # should see /usr/bin/gradle
 gradle -v # should see version number
 ```
 
+[BACK TO TOP](#table-of-contents)
+
 
 # Mac
 
 ## Terminal
 
 Terminal will be used to setup the dev environment on Mac.  To open a terminal prompt, press "command" and "space" key at the same time to open Spotlight, then type in "terminal" (without quotes) and hit return.  A terminal prompt should show up.
+
+[BACK TO TOP](#table-of-contents)
+
 
 ## Homebrew
 
@@ -450,6 +473,9 @@ To install homebrew, simply open your terminal and running:
 ```sh
 ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 ```
+
+[BACK TO TOP](#table-of-contents)
+
 
 ## Git on Mac
 
@@ -473,6 +499,9 @@ Once installation is done, you can get the latest version of Git by running:
 git clone https://github.com/git/git
 ```
 
+[BACK TO TOP](#table-of-contents)
+
+
 
 ## Curl on Mac
 
@@ -490,6 +519,8 @@ Or you can install it through Homebrew by running:
 ```sh
 brew install curl
 ```
+
+[BACK TO TOP](#table-of-contents)
 
 
 ## Ruby on Mac
@@ -511,6 +542,8 @@ brew install ruby
 ```
 
 Or you can use RVM to install Ruby as well, see the next section for instruction.
+
+[BACK TO TOP](#table-of-contents)
 
 
 ## RVM on Mac
@@ -549,6 +582,8 @@ install: --no-rdoc --no-ri
 update:  --no-rdoc --no-ri
 ```
 
+[BACK TO TOP](#table-of-contents)
+
 
 ## Rails on Mac
 
@@ -561,6 +596,8 @@ Once installation is done, verify it through running:
 ```sh
 which rails
 ```
+
+[BACK TO TOP](#table-of-contents)
 
 
 ## Java on Mac
@@ -586,6 +623,8 @@ Once the installation is done, you can verify your Java version by running the f
 java -version
 ```
 
+[BACK TO TOP](#table-of-contents)
+
 
 ## Python on Mac
 
@@ -605,8 +644,14 @@ Or you can install the latest version of Python through Homebrew by running:
 brew install python
 ```
 
+[BACK TO TOP](#table-of-contents)
+
 
 ## PHP on Mac
+
+[BACK TO TOP](#table-of-contents)
+
+
 ## MAMP
 
 ## Nodejs on Mac
@@ -636,6 +681,8 @@ Once installation is done, open a terminal window and verify it by running:
 express --version
 ```
 
+[BACK TO TOP](#table-of-contents)
+
 
 ### Nodemon on Mac
 Nodemon is a monitoring plugin that restart node.js application automatically if there is any changes happended to the code.  You can get it by running
@@ -647,6 +694,9 @@ Once installation is done, open a terminal window and verify it by running:
 ```sh
 nodemon -v
 ```
+
+[BACK TO TOP](#table-of-contents)
+
 
 ## Gradle on Mac
 Gradle is a build tool for project, you can learn more about it on its [homepage](http://www.gradle.org/) 
@@ -662,6 +712,8 @@ Once installation is donw, you can verify it by running:
 ```sh
 gradle -v
 ```
+
+[BACK TO TOP](#table-of-contents)
 
 
 # Ubuntu
@@ -684,6 +736,9 @@ Once Tilda is successfully installed, you can configure it by running:
 ```sh
 tilda -C
 ```
+
+[BACK TO TOP](#table-of-contents)
+
 
 ### Oh-My-Zsh
 Oh-My-Zsh is an framework for managing your ZSH configuration.  You can learn more about it on its home page:
