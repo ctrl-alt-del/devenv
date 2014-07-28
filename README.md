@@ -14,7 +14,7 @@ This document and bash scripts will be updated piece by piece and I will try my 
 |[Preps](#configuration)   | [-->](#configure-windows)    | N/A                      | N/A                         | N/A                         |
 |[Terminal](#terminal)     | N/A                          | [-->](#terminal)         | [-->](#tilda)               | [   ](#guake)               |
 |[Zsh](#zsh)               | [   ](#zsh-on-windows)       | [   ](#zsh-on-mac)       | [   ](#zsh-on-ubuntu)       | [   ](#zsh-on-fedora)       |
-|[Oh-My-Zsh](#oh-my-zsh)   [   ](#oh-my-zsh-on-windows) | [   ](#oh-my-zsh-on-mac) | [   ](#oh-my-zsh-on-ubuntu) | [   ](#oh-my-zsh-on-fedora) |
+|[Oh-My-Zsh](#oh-my-zsh)   | [   ](#oh-my-zsh-on-windows) | [   ](#oh-my-zsh-on-mac) | [   ](#oh-my-zsh-on-ubuntu) | [   ](#oh-my-zsh-on-fedora) |
 |[Homebrew](#homebrew)     | N/A                          | [-->](#homebrew)         | N/A                         | N/A                         |
 |[Sublime](#sublime)       | [   ](#sublime-on-windows)   | [-->](#sublime-on-mac)   | [-->](#sublime-on-ubuntu)   | [   ](#sublime-on-fedora)   |
 |[Git](#git)               | [-->](#git-on-windows)       | [-->](#git-on-mac)       | [-->](#git-on-ubuntu)       | [-->](#git-on-fedora)       |
