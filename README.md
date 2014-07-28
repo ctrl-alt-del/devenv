@@ -16,7 +16,7 @@ This document and bash scripts will be updated piece by piece and I will try my 
 |[Zsh](#about-zsh)             | [   ](#zsh-on-windows)       | [   ](#zsh-on-mac)       | [   ](#zsh-on-ubuntu)       | [   ](#zsh-on-fedora)       |
 |[Oh-My-Zsh](#about-oh-my-zsh) | [   ](#oh-my-zsh-on-windows) | [   ](#oh-my-zsh-on-mac) | [   ](#oh-my-zsh-on-ubuntu) | [   ](#oh-my-zsh-on-fedora) |
 |[Homebrew](#about-homebrew)   | N/A                          | [-->](#homebrew)         | N/A                         | N/A                         |
-|[Sublime](#about-sublime)     | N/A                          | [-->](#sublime-on-mac)   | N/A                         | [-->](#sublime-on-ubuntu)   |
+|[Sublime](#about-sublime)     | [   ](#sublime-on-windows)   | [-->](#sublime-on-mac)   | [-->](#sublime-on-ubuntu)   | [   ](#sublime-on-fedora)   |
 |[Git](#about-git)             | [-->](#git-on-windows)       | [-->](#git-on-mac)       | [-->](#git-on-ubuntu)       | [-->](#git-on-fedora)       |
 |[Gitk](#about-gitk)           | [   ](#gitk-on-windows)      | [   ](#gitk-on-mac)      | [-->](#gitk-on-ubuntu)      | [   ](#gitk-on-fedora)      |
 |[Curl](#about-curl)           | [-->](#curl-on-windows)      | [-->](#curl-on-mac)      | [-->](#curl-on-ubuntu)      | [   ](#curl-on-fedora)      |
