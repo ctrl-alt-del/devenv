@@ -9,44 +9,44 @@ This document and bash scripts will be updated piece by piece and I will try my 
 
 # Table of Contents
 
-|Tools                     | [Windows 7](#windows)        | [Mac 10.9.+](#mac)       | [Ubuntu 14.04](#ubuntu)     | [Fedora 20](#fedora)        |
-|:------------------------ | :--------------------------: | :----------------------: | :-------------------------: | :-------------------------: |
-|[Preps](#configuration)   | [-->](#configure-windows)    | N/A                      | N/A                         | N/A                         |
-|[Terminal](#terminal)     | N/A                          | [-->](#terminal)         | [-->](#tilda)               | [   ](#guake)               |
-|[Zsh](#zsh)               | [   ](#zsh-on-windows)       | [   ](#zsh-on-mac)       | [   ](#zsh-on-ubuntu)       | [   ](#zsh-on-fedora)       |
-|[Oh-My-Zsh](#oh-my-zsh)   | [   ](#oh-my-zsh-on-windows) | [   ](#oh-my-zsh-on-mac) | [   ](#oh-my-zsh-on-ubuntu) | [   ](#oh-my-zsh-on-fedora) |
-|[Homebrew](#homebrew)     | N/A                          | [-->](#homebrew)         | N/A                         | N/A                         |
-|[Sublime](#sublime)       | [   ](#sublime-on-windows)   | [-->](#sublime-on-mac)   | [-->](#sublime-on-ubuntu)   | [   ](#sublime-on-fedora)   |
-|[Git](#git)               | [-->](#git-on-windows)       | [-->](#git-on-mac)       | [-->](#git-on-ubuntu)       | [-->](#git-on-fedora)       |
-|[Gitk](#gitk)             | [   ](#gitk-on-windows)      | [   ](#gitk-on-mac)      | [-->](#gitk-on-ubuntu)      | [   ](#gitk-on-fedora)      |
-|[SmartGit](#smartgit)     | [   ](#smartgit-on-windows)  | [   ](#smartgit-on-mac)  | [-->](#smartgit-on-ubuntu)  | [   ](#smartgit-on-fedora)  |
-|[Curl](#curl)             | [-->](#curl-on-windows)      | [-->](#curl-on-mac)      | [-->](#curl-on-ubuntu)      | [   ](#curl-on-fedora)      |
-|[Ruby](#ruby)             | [-->](#ruby-on-windows)      | [-->](#ruby-on-mac)      | [-->](#ruby-on-ubuntu)      | [   ](#ruby-on-fedora)      |
-|[devkit](#devkit)         | [-->](#devkit)               | N/A                      | N/A                         | N/A                         |
-|[Rails](#rails)           | [-->](#rails-on-windows)     | [-->](#rails-on-mac)     | [-->](#rails-on-ubuntu)     | [   ](#rails-on-fedora)     |
-|[RSpec](#rspec)           | [-->](#rspec-on-windows)     | [   ](#rspec-on-mac)     | [   ](#rspec-on-ubuntu)     | [   ](#rspec-on-fedora)     |
-|[RVM](#rvm)               | N/A                          | [-->](#rvm-on-mac)       | [   ](               )      | [   ](               )      |
-|[Java](#java)             | [-->](#java-on-windows)      | [-->](#java-on-mac)      | [-->](#java-on-ubuntu)      | [   ](#java-on-fedora)      |
-|[Python](#python)         | [-->](#python-on-windows)    | [-->](#python-on-mac)    | [-->](#python-on-ubuntu)    | [   ](               )      |
-|[PHP](#php)               | [-->](#php-on-windows)       | [-->](#php-on-mac)       | [-->](#php-on-ubuntu)       | [   ](               )      |
-|[Node.js](#nodejs)        | [   ](       )               | [-->](#nodejs-on-mac)    | [-->](#nodejs-on-ubuntu)    | [   ](               )      |
-|[npm](#npm)               | [   ](       )               | N/A                      | [-->](#npm-on-ubuntu)       | [   ](               )      |
-|[Express](#express)       | [   ](       )               | [-->](#express-on-mac)   | [   ](                 )    | [   ](               )      |
-|[Nodemon](#nodemon)       | [   ](       )               | [-->](#nodemon-on-mac)   | [   ](                 )    | [   ](               )      |
-|[OpenSSL](#openssl)       | [   ](       )               | [   ](            )      | [-->](#openssl-on-ubuntu)   | [   ](               )      |
-|[Gradle](#gradle)         | [-->](#gradle-on-windows)    | [-->](#gradle-on-mac)    | [   ](               )      | [   ](               )      |
-|[WAMP](#wamp)             | [-->](#wamp  )               | N/A                      | N/A                         | N/A                         |
-|[MAMP](#mamp)             | N/A                          | [-->](#mamp       )      | N/A                         | N/A                         |
-|[LAMP](#lamp)             | N/A                          | N/A                      | [   ](               )      | [   ](               )      |
-|[SQLite](#sqlite)         | [-->](#sqlite-on-windows)    | [   ](            )      | [   ](               )      | [   ](               )      |
-|[MySQL](#mysql)           | [   ](       )               | [   ](            )      | [   ](               )      | [   ](               )      |
-|[PostgreSQL](#postgreSQL) | [   ](       )               | [   ](            )      | [   ](               )      | [   ](               )      |
-|[Chef](#chef)             | [   ](       )               | [   ](            )      | [   ](               )      | [   ](               )      |
+|Tools                       | [Windows 7](#windows)          | [Mac 10.9.+](#mac)        | [Ubuntu 14.04](#ubuntu)     | [Fedora 20](#fedora)        |
+|:-------------------------- | :----------------------------: | :-----------------------: | :-------------------------: | :-------------------------: |
+|[Preps](#configuration)     | [-->](#configure-windows)      | N/A                       | N/A                         | N/A                         |
+|[Terminal](#terminal)       | N/A                            | [-->](#terminal)          | [-->](#tilda)               | [   ](#guake)               |
+|[Zsh](#zsh)                 | [   ](#zsh-on-windows)         | [   ](#zsh-on-mac)        | [   ](#zsh-on-ubuntu)       | [   ](#zsh-on-fedora)       |
+|[Oh-My-Zsh](#oh-my-zsh)     | [   ](#oh-my-zsh-on-windows)   | [   ](#oh-my-zsh-on-mac)  | [   ](#oh-my-zsh-on-ubuntu) | [   ](#oh-my-zsh-on-fedora) |
+|[Homebrew](#homebrew)       | N/A                            | [-->](#homebrew)          | N/A                         | N/A                         |
+|[Sublime](#sublime)         | [   ](#sublime-on-windows)     | [-->](#sublime-on-mac)    | [-->](#sublime-on-ubuntu)   | [   ](#sublime-on-fedora)   |
+|[Git](#git)                 | [-->](#git-on-windows)         | [-->](#git-on-mac)        | [-->](#git-on-ubuntu)       | [-->](#git-on-fedora)       |
+|[Gitk](#gitk)               | [   ](#gitk-on-windows)        | [   ](#gitk-on-mac)       | [-->](#gitk-on-ubuntu)      | [   ](#gitk-on-fedora)      |
+|[SmartGit](#smartgit)       | [   ](#smartgit-on-windows)    | [   ](#smartgit-on-mac)   | [-->](#smartgit-on-ubuntu)  | [   ](#smartgit-on-fedora)  |
+|[Curl](#curl)               | [-->](#curl-on-windows)        | [-->](#curl-on-mac)       | [-->](#curl-on-ubuntu)      | [   ](#curl-on-fedora)      |
+|[Ruby](#ruby)               | [-->](#ruby-on-windows)        | [-->](#ruby-on-mac)       | [-->](#ruby-on-ubuntu)      | [   ](#ruby-on-fedora)      |
+|[devkit](#devkit)           | [-->](#devkit)                 | N/A                       | N/A                         | N/A                         |
+|[Rails](#rails)             | [-->](#rails-on-windows)       | [-->](#rails-on-mac)      | [-->](#rails-on-ubuntu)     | [   ](#rails-on-fedora)     |
+|[RSpec](#rspec)             | [-->](#rspec-on-windows)       | [   ](#rspec-on-mac)      | [   ](#rspec-on-ubuntu)     | [   ](#rspec-on-fedora)     |
+|[RVM](#rvm)                 | N/A                            | [-->](#rvm-on-mac)        | [   ](               )      | [   ](               )      |
+|[Java](#java)               | [-->](#java-on-windows)        | [-->](#java-on-mac)       | [-->](#java-on-ubuntu)      | [   ](#java-on-fedora)      |
+|[Python](#python)           | [-->](#python-on-windows)      | [-->](#python-on-mac)     | [-->](#python-on-ubuntu)    | [   ](               )      |
+|[PHP](#php)                 | [-->](#php-on-windows)         | [-->](#php-on-mac)        | [-->](#php-on-ubuntu)       | [   ](               )      |
+|[Node.js](#nodejs)          | [   ](       )                 | [-->](#nodejs-on-mac)     | [-->](#nodejs-on-ubuntu)    | [   ](               )      |
+|[npm](#npm)                 | [   ](       )                 | N/A                       | [-->](#npm-on-ubuntu)       | [   ](               )      |
+|[Express](#express)         | [   ](       )                 | [-->](#express-on-mac)    | [   ](                 )    | [   ](               )      |
+|[Nodemon](#nodemon)         | [   ](       )                 | [-->](#nodemon-on-mac)    | [   ](                 )    | [   ](               )      |
+|[OpenSSL](#openssl)         | [   ](       )                 | [   ](            )       | [-->](#openssl-on-ubuntu)   | [   ](               )      |
+|[Gradle](#gradle)           | [-->](#gradle-on-windows)      | [-->](#gradle-on-mac)     | [   ](               )      | [   ](               )      |
+|[WAMP](#wamp)               | [-->](#wamp  )                 | N/A                       | N/A                         | N/A                         |
+|[MAMP](#mamp)               | N/A                            | [-->](#mamp       )       | N/A                         | N/A                         |
+|[LAMP](#lamp)               | N/A                            | N/A                       | [   ](               )      | [   ](               )      |
+|[SQLite](#sqlite)           | [-->](#sqlite-on-windows)      | [   ](            )       | [   ](               )      | [   ](               )      |
+|[MySQL](#mysql)             | [   ](       )                 | [   ](            )       | [   ](               )      | [   ](               )      |
+|[PostgreSQL](#postgreSQL)   | [   ](       )                 | [   ](            )       | [   ](               )      | [   ](               )      |
+|[Chef](#chef)               | [   ](       )                 | [   ](            )       | [   ](               )      | [   ](               )      |
+|[Android SDK](#android-sdk) | [   ](#sdk-on-windows)         | [-->](#sdk-on-mac)        | [   ](#sdk-on-ubuntu)       | [   ](#sdk-on-fedora)       |
+|[ADT](#adt)                 | [   ](       )                 | [-->](#adt-on-mac)        | [   ](               )      | [   ](               )      |
+|[Eclipse](#eclipse)         | [   ](#eclipse-on-windows)     | [-->](#eclipse-on-mac)    | [   ](#eclipse-on-ubuntu)   | [   ](#eclipse-on-fedora)   |
 
 
-* [Setup dev environment on Windows](#windows)
-	* [Android SDK](#android-sdk-on-windows)
-		
 * [General Setup](#general-setup)
 	* [Setup .bash_profile](#setup-bash_profile)
 	* [Chrome](#chrome)
@@ -55,9 +55,6 @@ This document and bash scripts will be updated piece by piece and I will try my 
 		* [JSON View](#json-view)
 		
 * [Setup Android dev environment](#setup-android-dev-enviroment)
-	* [Eclipse](#eclipse)
-	* [ADT](#adt)
-	* [Android SDK](#android-sdk)
 	* [Gradle](#gradle)
 
 
@@ -991,11 +988,11 @@ To intall the extension, just click on the blue `+ Free` button the top right co
 
 # Setup Android dev engviroment
 
-## Eclipse
+## Eclipse on Mac
 Eclipse is an integrated devevelopment environment (IDE) and you can learn more about it on its [homepage](http://www.eclipse.org/).  To use it to develop Android application, I use one of its variant called [Eclipse IDE for Java Developers](http://www.eclipse.org/downloads/packages/eclipse-ide-java-developers/lunar) because it is relatvely smaller than other variants.  You can feel to use the [standard one](http://www.eclipse.org/downloads/packages/eclipse-standard-44/lunar) or other of its variant as well.
 
 
-## ADT
+## ADT on Mac
 Once Eclipse is installed, open it and navigate to its Help -> Install New Software.
 
 On the wizard of Install New Software, click on the add button and paste `https://dl-ssl.google.com/android/eclipse/` to `location` and put `Android Development Toolkit plugin` on `name`, then press OK.
@@ -1005,7 +1002,7 @@ Back to the wizard, click on the dropdown list of `Work with`  and select the ur
 It may take a while for eclipse to get the plugin information, but once the available plugin is displayed, click `Select All` under the displaying section, and then `Next` on the bottom right.  Then follow the instruction to install and plugin and restart Eclipse once the installation is done.
 
 
-## Android SDK
+## SDK on Mac
 You can get Android SDK from its [developer page](http://developer.android.com/sdk/index.html) under "Get SDK for an existing IDE".
 
 Once downloaded, unzip and place it in the same folder of eclipse, or whatever folder you like.
