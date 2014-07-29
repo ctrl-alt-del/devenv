@@ -23,6 +23,7 @@ This document and bash scripts will be updated piece by piece and I will try my 
 |[Ruby](#ruby)             | [-->](#ruby-on-windows)      | [-->](#ruby-on-mac)      | [-->](#ruby-on-ubuntu)      | [   ](#ruby-on-fedora)      |
 |[devkit](#devkit)         | [-->](#devkit)               | N/A                      | N/A                         | N/A                         |
 |[Rails](#rails)           | [-->](#rails-on-windows)     | [-->](#rails-on-mac)     | [-->](#rails-on-ubuntu)     | [   ](#rails-on-fedora)     |
+|[RSpec](#rspec)           | [-->](#rspec-on-windows)     | [   ](#rspec-on-mac)     | [   ](#rspec-on-ubuntu)     | [   ](#rspec-on-fedora)     |
 |[RVM](#rvm)               | N/A                          | [-->](#rvm-on-mac)       | [   ](               )      | [   ](               )      |
 |[Java](#java)             | [-->](#java-on-windows)      | [-->](#java-on-mac)      | [-->](#java-on-ubuntu)      | [   ](#java-on-fedora)      |
 |[Python](#python)         | [-->](#python-on-windows)    | [-->](#python-on-mac)    | [-->](#python-on-ubuntu)    | [   ](               )      |
@@ -223,7 +224,7 @@ which rails # should see a path similar to /c/usr/bin/rails/rails
 [BACK TO TOP](#table-of-contents)
 
 
-### RSpec
+### RSpec on Windows
 Rails is the prerequisite for RSpec.  To verify Rails is installed in your machine, run the following lines on your git bash:
 ```sh
 which rails # should see a path similar to /c/usr/bin/rails/rails
