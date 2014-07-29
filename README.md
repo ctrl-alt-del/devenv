@@ -19,6 +19,7 @@ This document and bash scripts will be updated piece by piece and I will try my 
 |[Sublime](#sublime)       | [   ](#sublime-on-windows)   | [-->](#sublime-on-mac)   | [-->](#sublime-on-ubuntu)   | [   ](#sublime-on-fedora)   |
 |[Git](#git)               | [-->](#git-on-windows)       | [-->](#git-on-mac)       | [-->](#git-on-ubuntu)       | [-->](#git-on-fedora)       |
 |[Gitk](#gitk)             | [   ](#gitk-on-windows)      | [   ](#gitk-on-mac)      | [-->](#gitk-on-ubuntu)      | [   ](#gitk-on-fedora)      |
+|[SmartGit](#smartgit)     | [   ](#smartgit-on-windows)  | [   ](#smartgit-on-mac)  | [-->](#smartgit-on-ubuntu)  | [   ](#smartgit-on-fedora)  |
 |[Curl](#curl)             | [-->](#curl-on-windows)      | [-->](#curl-on-mac)      | [-->](#curl-on-ubuntu)      | [   ](#curl-on-fedora)      |
 |[Ruby](#ruby)             | [-->](#ruby-on-windows)      | [-->](#ruby-on-mac)      | [-->](#ruby-on-ubuntu)      | [   ](#ruby-on-fedora)      |
 |[devkit](#devkit)         | [-->](#devkit)               | N/A                      | N/A                         | N/A                         |
@@ -40,16 +41,12 @@ This document and bash scripts will be updated piece by piece and I will try my 
 |[SQLite](#sqlite)         | [-->](#sqlite-on-windows)    | [   ](            )      | [   ](               )      | [   ](               )      |
 |[MySQL](#mysql)           | [   ](       )               | [   ](            )      | [   ](               )      | [   ](               )      |
 |[PostgreSQL](#postgreSQL) | [   ](       )               | [   ](            )      | [   ](               )      | [   ](               )      |
+|[Chef](#chef)             | [   ](       )               | [   ](            )      | [   ](               )      | [   ](               )      |
 
 
 * [Setup dev environment on Windows](#windows)
-	* [RSpec](#rspec)
 	* [Android SDK](#android-sdk-on-windows)
 		
-
-* [Setup dev environment on Ubuntu 14.04 LTS](#ubuntu)
-	* [SmartGit](#smartgit)
-
 * [General Setup](#general-setup)
 	* [Setup .bash_profile](#setup-bash_profile)
 	* [Chrome](#chrome)
@@ -62,8 +59,6 @@ This document and bash scripts will be updated piece by piece and I will try my 
 	* [ADT](#adt)
 	* [Android SDK](#android-sdk)
 	* [Gradle](#gradle)
-
-* [Setup dev environment with Chef](#setup-dev-environment-with-chef)
 
 
 #Configuration
@@ -765,7 +760,7 @@ Once Sublime is successfully installed, you can use it to open a single file by 
 `subl <FILE_PATH>`, or open all files of the current directory by running `subl .`
 
 
-## SmartGit
+## SmartGit on Ubuntu
 SmartGit is an open source GUI for Git.  You can learn more about it on its home page:
 ```sh
 http://www.syntevo.com/smartgithg/
