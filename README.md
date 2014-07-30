@@ -1073,4 +1073,17 @@ Select those package and click on the "install packages" button on the bottom ri
 ## Gradle
 Gradle is a build tool for project, you can learn more about it on its [homepage](http://www.gradle.org/) 
 
-Depends on you OS, you can find instruction for installing Gradle on [Windows](#gradle-on-windows), [Mac](#gradle-on-mac), and [Ubuntu](#gradle-on-ubuntu),
+Depends on you OS, you can find instruction for installing Gradle on [Windows](#gradle-on-windows), [Mac](#gradle-on-mac), and [Ubuntu](#gradle-on-ubuntu).
+
+
+
+# Fedora
+
+## Zsh
+To install Zsh on Fedora, you can do so by running:
+```sh
+sudo yum install zsh
+```
+
+
+## Zsh on Fedora
