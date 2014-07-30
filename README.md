@@ -74,8 +74,16 @@ mkdir -p /usr/bin
 
 
 ## Terminal
+Terminal, sometime also known as the command line interface (cli) is used to interact with computer programs.  You can learn more about it on its [Wiki](http://en.wikipedia.org/wiki/Command-line_interface) page.
+
+
 ## Zsh
+Zsh stands for Z shell is a Unix base interactive login shell.  You can learn more about it on its [Wiki](http://en.wikipedia.org/wiki/Zsh) page.
+
 ## Oh-My-Zsh
+Oh-My-Zsh is an framework for managing your ZSH configuration.  You can learn more about it on its [homepage](http://ohmyz.sh/) as well as its [git repository](https://github.com/robbyrussell/oh-my-zsh)
+
+
 ## Homebrew
 ## Sublime
 ## Git
@@ -772,13 +780,6 @@ tilda -C
 ```
 
 [BACK TO TOP](#table-of-contents)
-
-
-### Oh-My-Zsh
-Oh-My-Zsh is an framework for managing your ZSH configuration.  You can learn more about it on its home page:
-```sh
-https://github.com/robbyrussell/oh-my-zsh
-```
 
 
 ## Sublime on Ubuntu
