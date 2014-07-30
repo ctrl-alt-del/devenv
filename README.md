@@ -12,7 +12,7 @@ This document and bash scripts will be updated piece by piece and I will try my 
 |Tools                       | [Windows 7](#windows)          | [Mac 10.9.+](#mac)        | [Ubuntu 14.04](#ubuntu)     | [Fedora 20](#fedora)        |
 |:-------------------------- | :----------------------------: | :-----------------------: | :-------------------------: | :-------------------------: |
 |[Preps](#configuration)     | [-->](#configure-windows)      | N/A                       | N/A                         | N/A                         |
-|[Terminal](#terminal)       | N/A                            | [-->](#terminal)          | [-->](#tilda)               | [   ](#guake)               |
+|[Terminal](#terminal)       | N/A                            | [-->](#iterm2)             | [-->](#tilda)               | [   ](#guake)               |
 |[Zsh](#zsh)                 | [   ](#zsh-on-windows)         | [   ](#zsh-on-mac)        | [   ](#zsh-on-ubuntu)       | [   ](#zsh-on-fedora)       |
 |[Oh-My-Zsh](#oh-my-zsh)     | [   ](#oh-my-zsh-on-windows)   | [   ](#oh-my-zsh-on-mac)  | [   ](#oh-my-zsh-on-ubuntu) | [   ](#oh-my-zsh-on-fedora) |
 |[Homebrew](#homebrew)       | N/A                            | [-->](#homebrew)          | N/A                         | N/A                         |
@@ -489,9 +489,9 @@ gradle -v # should see version number
 
 # Mac
 
-## Terminal
-
-Terminal will be used to setup the dev environment on Mac.  To open a terminal prompt, press "command" and "space" key at the same time to open Spotlight, then type in "terminal" (without quotes) and hit return.  A terminal prompt should show up.
+## iTerm2
+iTerm2 is essential a terminal armed with more features, which you can download and learn more about it on its [homepage](www.http://iterm2.com/).
+Once the installation package is downloaded, double click to install it.
 
 [BACK TO TOP](#table-of-contents)
 
