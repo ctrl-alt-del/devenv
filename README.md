@@ -69,6 +69,47 @@ mkdir -p /usr/bin
 ```
 
 
+
+
+
+
+## Terminal
+## Zsh
+## Oh-My-Zsh
+## Homebrew
+## Sublime
+## Git
+## Gitk
+## SmartGit
+## Curl
+## Ruby
+## devkit
+## Rails
+## RSpec
+## RVM
+## Java
+## Python
+## PHP
+## Node.js
+## npm
+## Express
+## Nodemon
+## OpenSSL
+## Gradle
+## WAMP
+## MAMP
+## LAMP
+## SQLite
+## MySQL
+## PostgreSQL
+## Chef
+## Android SDK
+## ADT
+## Eclipse
+
+
+
+
 # Windows
 
 ## Git on Windows
