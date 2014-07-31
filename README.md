@@ -1079,6 +1079,12 @@ Depends on you OS, you can find instruction for installing Gradle on [Windows](#
 
 # Fedora
 
+## Guake
+To install Guake on Fedora, you can do so by running:
+```sh
+sudo yum install guake
+```
+
 ## Zsh
 To install Zsh on Fedora, you can do so by running:
 ```sh
