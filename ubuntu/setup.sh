@@ -6,6 +6,14 @@ sudo apt-get install guake
 echo '>>> Guake has been successfully installed!'
 echo ' '
 
+echo '<<< Installing Zsh...'
+sudo apt-get install zsh
+echo '>>> Zsh has been successfully installed!'
+echo ' '
+
+# install oh-my-zsh
+# config oh-my-zsh chsh -s 'which zsh'
+
 echo '<<< Installing/Upgrading Git...'
 sudo apt-get install git-core
 echo '>>> Git has been successfully installed/upgraded!'
