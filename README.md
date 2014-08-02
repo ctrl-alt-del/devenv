@@ -12,7 +12,7 @@ This document and bash scripts will be updated piece by piece and I will try my 
 |Tools                       | [Windows 7](#windows)          | [Mac 10.9.+](#mac)        | [Ubuntu 14.04](#ubuntu)     | [Fedora 20](#fedora)        |
 |:-------------------------- | :----------------------------: | :-----------------------: | :-------------------------: | :-------------------------: |
 |[Preps](#configuration)     | [-->](#configure-windows)      | N/A                       | N/A                         | N/A                         |
-|[Terminal](#terminal)       | N/A                            | [-->](#iterm2)             | [-->](#tilda)               | [   ](#guake)               |
+|[Terminal](#terminal)       | N/A                            | [-->](#iterm2)            | [-->](#tilda)               | [   ](#guake)               |
 |[Zsh](#zsh)                 | [   ](#zsh-on-windows)         | [   ](#zsh-on-mac)        | [   ](#zsh-on-ubuntu)       | [   ](#zsh-on-fedora)       |
 |[Oh-My-Zsh](#oh-my-zsh)     | [   ](#oh-my-zsh-on-windows)   | [   ](#oh-my-zsh-on-mac)  | [   ](#oh-my-zsh-on-ubuntu) | [   ](#oh-my-zsh-on-fedora) |
 |[Homebrew](#homebrew)       | N/A                            | [-->](#homebrew)          | N/A                         | N/A                         |
@@ -81,11 +81,17 @@ Terminal, sometime also known as the command line interface (cli) is used to int
 Zsh stands for Z shell is a Unix base interactive login shell.  You can learn more about it on its [Wiki](http://en.wikipedia.org/wiki/Zsh) page.
 
 ## Oh-My-Zsh
-Oh-My-Zsh is an framework for managing your ZSH configuration.  You can learn more about it on its [homepage](http://ohmyz.sh/) as well as its [git repository](https://github.com/robbyrussell/oh-my-zsh)
+Oh-My-Zsh is an framework for managing your ZSH configuration.  You can learn more about it on its [homepage](http://ohmyz.sh/), or on its [git repository](https://github.com/robbyrussell/oh-my-zsh)
 
 
 ## Homebrew
+Homebrew is a package manager for Mac.  You can learn more about it on its [homepage](http://brew.sh/)
+
+
 ## Sublime
+Sublime is a very useful and convenient text editor.  You can learn more about it on its [homepage](http://www.sublimetext.com/)
+
+
 ## Git
 ## Gitk
 ## SmartGit
@@ -505,12 +511,6 @@ Once the installation package is downloaded, double click to install it.
 
 
 ## Homebrew
-
-Homebrew is a package manager for Mac, which I like very much.  You can learn more about it on their website:
-```sh
-http://brew.sh/
-```
-
 To install homebrew, simply open your terminal and running:
 ```sh
 ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
