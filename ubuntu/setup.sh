@@ -1,9 +1,10 @@
 #! /bin/bash
 echo '==============='
 echo 'Setup starts...'
-echo '<<< Installing Tilda...'
-sudo apt-get install tilda
-echo '>>> Tilda has been successfully installed!'
+echo '<<< Installing Guake...'
+sudo apt-get install guake
+echo '>>> Guake has been successfully installed!'
+echo ' '
 
 echo '<<< Installing Sublime...'
 sudo add-apt-repository ppa:webupd8team/sublime-text-2
