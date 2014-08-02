@@ -821,7 +821,7 @@ sudo apt-get install smartgithg
 Git is a version control system, and it should've come with Ubuntu.  In case it is missing on your system, you can install it easily through running:
 ```sh
 sudo apt-get update
-sudo apt-get install git
+sudo apt-get install git-core
 ```
 
 To upgrade to the latest version of Git, you can either:
