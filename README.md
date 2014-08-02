@@ -880,6 +880,8 @@ sudo apt-get upgrade openssl
 ## Ruby on Ubuntu
 Since Ruby Version Manager (RVM) is also available for Linux and other Unix-like operation system, you can install Ruby easily through using RVM.  You can learn more about RVM on their home page: `https://rvm.io/`
 
+To install RVM and Ruby, you need to have [Curl](#curl-on-ubuntu), follow the instruction to get it if you haven't have it.
+
 To install the latest RVM along with the latest stable Ruby, you can simply run: 
 ```sh
 \curl -sSL https://get.rvm.io | bash -s stable 
@@ -915,7 +917,7 @@ update:  --no-rdoc --no-ri
 
 
 ## Rails on Ubuntu
-You can use RVm to install Rails as well.
+You can use RVM to install Rails as well.
 
 To install latest stable Rails, you can simply run: 
 ```sh
@@ -931,6 +933,8 @@ Once installation is done, you can verify it by running:
 ```sh
 rails -v
 ```
+
+If you come across an error that compliant about no having a Javascript runtime environment, you can resolve it by installing [Node.js](#nodejs-on-ubuntu).
 
 
 ## Java/OpenJDK
