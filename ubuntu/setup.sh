@@ -6,14 +6,15 @@ sudo apt-get install guake
 echo '>>> Guake has been successfully installed!'
 echo ' '
 
+echo '<<< Installing/Upgrading Git...'
+sudo apt-get install git-core
+echo '>>> Git has been successfully installed/upgraded!'
+echo ' '
+
 echo '<<< Installing Sublime...'
 sudo add-apt-repository ppa:webupd8team/sublime-text-2
 sudo apt-get update
 echo '>>> Sublime has been successfully installed!'
-
-echo '<<< Installing/Upgrading Git...'
-sudo apt-get upgrade git
-echo '>>> Git has been successfully installed/upgraded!'
 
 echo '<<< Installing Gitk...'
 sudo apt-get install gitk
