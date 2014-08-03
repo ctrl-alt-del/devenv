@@ -68,9 +68,8 @@ If you are familiar with Window's PowerShell, you can create the folder by openi
 mkdir -p /usr/bin
 ```
 
-
-
-
+## Run as Administrator
+For Windows's default command prompt or PowerShell, you will sometimes need the administrative permission to perform some tasks.  To run as administrator, right click on the `cmd.exe` or `powershell.exe` and select `Run as Administrator` option from the list.
 
 
 ## Terminal
