@@ -34,9 +34,9 @@ This document and bash scripts will be updated piece by piece and I will try my 
 |[Express](#express)         | [   ](       )                 | [-->](#express-on-mac)    | [   ](                 )    | [   ](               )      |
 |[Nodemon](#nodemon)         | [   ](       )                 | [-->](#nodemon-on-mac)    | [   ](                 )    | [   ](               )      |
 |[OpenSSL](#openssl)         | [   ](       )                 | [   ](            )       | [-->](#openssl-on-ubuntu)   | [   ](               )      |
-|[Gradle](#gradle)           | [-->](#gradle-on-windows)      | [-->](#gradle-on-mac)     | [   ](               )      | [   ](               )      |
-|[WAMP](#wamp)               | [-->](#wamp  )                 | N/A                       | N/A                         | N/A                         |
-|[MAMP](#mamp)               | N/A                            | [-->](#mamp       )       | N/A                         | N/A                         |
+|[Gradle](#gradle)           | [-->](#gradle-on-windows)      | [-->](#gradle-on-mac)     | [-->](#gradle-on-ubuntu)    | [   ](               )      |
+|[WAMP](#wamp)               | [-->](#wamp)                   | N/A                       | N/A                         | N/A                         |
+|[MAMP](#mamp)               | N/A                            | [-->](#mamp)              | N/A                         | N/A                         |
 |[LAMP](#lamp)               | N/A                            | N/A                       | [   ](               )      | [   ](               )      |
 |[SQLite](#sqlite)           | [-->](#sqlite-on-windows)      | [   ](            )       | [   ](               )      | [   ](               )      |
 |[MySQL](#mysql)             | [   ](       )                 | [   ](            )       | [   ](               )      | [   ](               )      |
@@ -979,6 +979,27 @@ You can install LAMP in Ubuntu by running:
 ```sh
 sudo tasksel install lamp-server
 ```
+
+## Gradle on Ubuntu
+Thanks to a PPA made by [Cheng-Wei Chien](https://launchpad.net/~cwchien), the installation process of Gradle on Ubuntu is pretty straightforward.
+
+First of all, add the PPA repository:
+```sh
+sudo apt-get-repository ppa:cwchien/gradle
+sudo apt-get update
+```
+
+Secondly, check about which versions are available:
+```sh
+sudo apt-cache search gradle
+```
+
+Lastly, install the version you want:
+```sh
+sudo apt-get install gradle-<__version_number__> # e.g. sudo apt-get install gradle-1.12
+```
+
+[BACK TO TOP](#table-of-contents)
 
 
 # Fedora
