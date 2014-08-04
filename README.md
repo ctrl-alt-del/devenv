@@ -42,7 +42,7 @@ This document and bash scripts will be updated piece by piece and I will try my 
 |[MySQL](#mysql)             | [   ](       )                 | [   ](            )       | [   ](               )      | [   ](               )      |
 |[PostgreSQL](#postgreSQL)   | [   ](       )                 | [   ](            )       | [   ](               )      | [   ](               )      |
 |[Chef](#chef)               | [   ](       )                 | [   ](            )       | [   ](               )      | [   ](               )      |
-|[Android SDK](#android-sdk) | [   ](#sdk-on-windows)         | [-->](#sdk-on-mac)        | [   ](#sdk-on-ubuntu)       | [   ](#sdk-on-fedora)       |
+|[Android SDK](#android-sdk) | [   ](#sdk-on-windows)         | [-->](#sdk-on-mac)        | [-->](#sdk-on-ubuntu)       | [   ](#sdk-on-fedora)       |
 |[ADT](#adt)                 | [   ](       )                 | [-->](#adt-on-mac)        | [   ](               )      | [   ](               )      |
 |[Eclipse](#eclipse)         | [   ](#eclipse-on-windows)     | [-->](#eclipse-on-mac)    | [   ](#eclipse-on-ubuntu)   | [   ](#eclipse-on-fedora)   |
 
@@ -1026,6 +1026,20 @@ Lastly, install the version you want:
 ```sh
 sudo apt-get install gradle-<__version_number__> # e.g. sudo apt-get install gradle-1.12
 ```
+
+[BACK TO TOP](#table-of-contents)
+
+
+## SDK on Ubuntu
+Visit the [developer page](http://developer.android.com/sdk/index.html) and download the [SDK Tool only for Linux 32 and 64 bit](http://dl.google.com/android/android-sdk_r23.0.2-linux.tgz)
+
+Once download is done, unzip it and move it to the `/opt/android-sdk-linux` folder, then add `export ANDROID_HOME=/opt/android-sdk-linux` to the `~/.bash_profile`.
+
+If you are in Linux 64 bit OS, you may also need to install the 32 bit shared libraries.  You can do so by running:
+```sh
+sudo apt-get install libc6:i386 libstdc++6:i386 zlib1g:i386
+```
+
 
 [BACK TO TOP](#table-of-contents)
 
