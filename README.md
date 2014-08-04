@@ -797,6 +797,8 @@ sudo apt-get install sublime-text
 Once Sublime is successfully installed, you can use it to open a single file by running:
 `subl <FILE_PATH>`, or open all files of the current directory by running `subl .`
 
+[BACK TO TOP](#table-of-contents)
+
 
 ## SmartGit on Ubuntu
 SmartGit is an open source GUI for Git.  You can learn more about it on its home page:
@@ -815,6 +817,8 @@ Once the PPA is added and updated, you can install SmartGit by running:
 sudo apt-get install smartgithg
 ```
 
+[BACK TO TOP](#table-of-contents)
+
 
 ## Git on Ubuntu
 Git is a version control system, and it should've come with Ubuntu.  In case it is missing on your system, you can install it easily through running:
@@ -831,6 +835,8 @@ Or
 ```sh
 git clone https://github.com/git/git
 ```
+
+[BACK TO TOP](#table-of-contents)
 
 
 ## Gitk on Ubuntu
@@ -853,12 +859,16 @@ sudo apt-get update
 sudo apt-get install nodejs
 ```
 
+[BACK TO TOP](#table-of-contents)
+
 
 ### npm
 npm is a tool to manage the packages used by Node.js
 ```sh
 sudo apt-get install npm
 ```
+
+[BACK TO TOP](#table-of-contents)
 
 
 ## Curl on Ubuntu
@@ -867,6 +877,9 @@ You can install Curl by running:
 sudo apt-get install curl
 ```
 
+[BACK TO TOP](#table-of-contents)
+
+
 ## OpenSSL on Ubuntu
 Ubuntu comes with OpenSSL, but it may need to be upgraded because of the Heartbleed Bug (learn more on: ``http://heartbleed.com/``).  Moreover, newer version of OpenSSL is also required to install the latest Rails.
 
@@ -874,6 +887,8 @@ You can upgrade OpenSSL by running:
 ```sh
 sudo apt-get upgrade openssl
 ```
+
+[BACK TO TOP](#table-of-contents)
 
 
 ## Ruby on Ubuntu
@@ -914,6 +929,8 @@ install: --no-rdoc --no-ri
 update:  --no-rdoc --no-ri
 ```
 
+[BACK TO TOP](#table-of-contents)
+
 
 ## Rails on Ubuntu
 You can use RVM to install Rails as well.
@@ -935,6 +952,8 @@ rails -v
 
 If you come across an error that compliant about no having a Javascript runtime environment, you can resolve it by installing [Node.js](#nodejs-on-ubuntu).
 
+[BACK TO TOP](#table-of-contents)
+
 
 ## Java/OpenJDK
 Java is essential for many applications.  You can install Java JDK by running: 
@@ -947,6 +966,8 @@ Once installation process is done, you can verify the version of Java by running
 java -version
 ```
 
+[BACK TO TOP](#table-of-contents)
+
 
 ## Python on Ubuntu
 Install Python can be very easy with the help from the DeadSnakes PPA:
@@ -955,6 +976,8 @@ sudo add-apt-repository ppa:fkrull/deadsnakes
 sudo apt-get update
 sudo apt-get install python2.7
 ```
+
+[BACK TO TOP](#table-of-contents)
 
 
 ## PHP on Ubuntu
@@ -968,6 +991,8 @@ Once installation is done, you can verify it by running:
 php -v
 ```
 
+[BACK TO TOP](#table-of-contents)
+
 
 ## LAMP
 LAMP referes to a software bundle including Linux Apache MySQL PHP. You can learn more about it on Ubuntu's page 
@@ -979,6 +1004,9 @@ You can install LAMP in Ubuntu by running:
 ```sh
 sudo tasksel install lamp-server
 ```
+
+[BACK TO TOP](#table-of-contents)
+
 
 ## Gradle on Ubuntu
 Thanks to a PPA made by [Cheng-Wei Chien](https://launchpad.net/~cwchien), the installation process of Gradle on Ubuntu is pretty straightforward.
@@ -1008,6 +1036,8 @@ sudo apt-get install gradle-<__version_number__> # e.g. sudo apt-get install gra
 ```sh
 sudo yum install git-core
 ```
+
+[BACK TO TOP](#table-of-contents)
 
 
 # General Setup
