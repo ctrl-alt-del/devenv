@@ -42,9 +42,9 @@ This document and bash scripts will be updated piece by piece and I will try my 
 |[MySQL](#mysql)             | [   ](       )                 | [   ](            )       | [   ](               )      | [   ](               )      |
 |[PostgreSQL](#postgreSQL)   | [   ](       )                 | [   ](            )       | [   ](               )      | [   ](               )      |
 |[Chef](#chef)               | [   ](       )                 | [   ](            )       | [   ](               )      | [   ](               )      |
-|[Android SDK](#android-sdk) | [   ](#sdk-on-windows)         | [-->](#sdk-on-mac)        | [-->](#sdk-on-ubuntu)       | [   ](#sdk-on-fedora)       |
-|[ADT](#adt)                 | [   ](       )                 | [-->](#adt-on-mac)        | [   ](               )      | [   ](               )      |
-|[Eclipse](#eclipse)         | [   ](#eclipse-on-windows)     | [-->](#eclipse-on-mac)    | [   ](#eclipse-on-ubuntu)   | [   ](#eclipse-on-fedora)   |
+|[Android SDK](#android-sdk) | [-->](#sdk)                    | [-->](#sdk)               | [-->](#sdk)                 | [-->](#sdk)                 |
+|[ADT](#adt)                 | [-->](#adt)                    | [-->](#adt)               | [-->](#adt)                 | [-->](#adt)                 |
+|[Eclipse](#eclipse)         | [-->](#eclipse)                | [-->](#eclipse)           | [   ](#eclipse-on-ubuntu)   | [   ](#eclipse-on-fedora)   |
 
 
 * [General Setup](#general-setup)
@@ -1098,11 +1098,11 @@ To intall the extension, just click on the blue `+ Free` button the top right co
 
 # Setup Android dev engviroment
 
-## Eclipse on Mac
+## Eclipse
 Eclipse is an integrated devevelopment environment (IDE) and you can learn more about it on its [homepage](http://www.eclipse.org/).  To use it to develop Android application, I use one of its variant called [Eclipse IDE for Java Developers](http://www.eclipse.org/downloads/packages/eclipse-ide-java-developers/lunar) because it is relatvely smaller than other variants.  You can feel to use the [standard one](http://www.eclipse.org/downloads/packages/eclipse-standard-44/lunar) or other of its variant as well.
 
 
-## ADT on Mac
+## ADT
 Once Eclipse is installed, open it and navigate to its Help -> Install New Software.
 
 On the wizard of Install New Software, click on the add button and paste `https://dl-ssl.google.com/android/eclipse/` to `location` and put `Android Development Toolkit plugin` on `name`, then press OK.
@@ -1112,7 +1112,7 @@ Back to the wizard, click on the dropdown list of `Work with`  and select the ur
 It may take a while for eclipse to get the plugin information, but once the available plugin is displayed, click `Select All` under the displaying section, and then `Next` on the bottom right.  Then follow the instruction to install and plugin and restart Eclipse once the installation is done.
 
 
-## SDK on Mac
+## SDK
 You can get Android SDK from its [developer page](http://developer.android.com/sdk/index.html) under "Get SDK for an existing IDE".
 
 Once downloaded, unzip and place it in the same folder of eclipse, or whatever folder you like.
