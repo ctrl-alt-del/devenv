@@ -86,12 +86,12 @@ Oh-My-Zsh is an framework for managing your ZSH configuration.  You can learn mo
 ## Homebrew
 Homebrew is a package manager for Mac.  You can learn more about it on its [homepage](http://brew.sh/)
 
-
 ## Sublime
 Sublime is a very useful and convenient text editor.  You can learn more about it on its [homepage](http://www.sublimetext.com/)
 
-
 ## Git
+Git is a distributed version control and code management system.  You can learn more detail about it on its [homepage](http://git-scm.com/).
+
 ## Gitk
 ## SmartGit
 ## Curl
@@ -126,8 +126,6 @@ Sublime is a very useful and convenient text editor.  You can learn more about i
 # Windows
 
 ## Git on Windows
-Git is a distributed version control and code management system.  You can learn more detail about it on its [homepage](http://git-scm.com/).
-
 Since Git contains many convenient built-in functions as well as a useful bash shell, it is recommended to be installed firstin order to setup the dev environment on Windows.
 
 You can download the latest git install file for Windows from [here](http://git-scm.com/download/win)
@@ -1153,11 +1151,16 @@ To install Guake on Fedora, you can do so by running:
 sudo yum install guake
 ```
 
+[BACK TO TOP](#table-of-contents)
+
+
 ## Zsh
 To install Zsh on Fedora, you can do so by running:
 ```sh
 sudo yum install zsh
 ```
+
+[BACK TO TOP](#table-of-contents)
 
 
 ## Zsh on Fedora
