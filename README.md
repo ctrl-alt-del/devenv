@@ -58,9 +58,9 @@ This document and bash scripts will be updated piece by piece and I will try my 
 	* [Gradle](#gradle)
 
 
-#Configuration
+## Configuration
 
-## Configure Windows
+### Configure Windows
 It is a good idea to centralize all your packages in one folder.  Not only does it help  to better organize your packages, having a dedicated folder for your packages also makes navigating with command line easier.  In this instruction for Windows, all packages will be put or installed under /c/usr/bin (a.k.a "C:\usr\bin").  Please create the folder if it is not existed, and of course, feel free to name your own directory. 
 
 If you are familiar with Window's PowerShell, you can create the folder by opening PowerShell and run:
@@ -68,7 +68,7 @@ If you are familiar with Window's PowerShell, you can create the folder by openi
 mkdir -p /usr/bin
 ```
 
-## Run as Administrator
+### Run as Administrator
 For Windows's default command prompt or PowerShell, you will sometimes need the administrative permission to perform some tasks.  To run as administrator, right click on the `cmd.exe` or `powershell.exe` and select `Run as Administrator` option from the list.
 
 
@@ -108,7 +108,13 @@ Git is a distributed version control and code management system.  You can learn 
 ## Express
 ## Nodemon
 ## OpenSSL
+
 ## Gradle
+Gradle is a build tool for project, you can learn more about it on its [homepage](http://www.gradle.org/) 
+
+Depends on you OS, you can find instruction for installing Gradle on [Windows](#gradle-on-windows), [Mac](#gradle-on-mac), and [Ubuntu](#gradle-on-ubuntu).
+
+
 ## WAMP
 ## MAMP
 ## LAMP
@@ -1136,10 +1142,6 @@ You need the following package from the SDK:
 Select those package and click on the "install packages" button on the bottom right, and then follow the instruction to complete the installation.
 
 
-## Gradle
-Gradle is a build tool for project, you can learn more about it on its [homepage](http://www.gradle.org/) 
-
-Depends on you OS, you can find instruction for installing Gradle on [Windows](#gradle-on-windows), [Mac](#gradle-on-mac), and [Ubuntu](#gradle-on-ubuntu).
 
 
 
