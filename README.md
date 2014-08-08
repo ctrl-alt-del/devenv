@@ -29,7 +29,7 @@ This document and bash scripts will be updated piece by piece and I will try my 
 |[Java](#java)               | [-->](#java-on-windows)        | [-->](#java-on-mac)       | [-->](#java-on-ubuntu)      | [   ](#java-on-fedora)      |
 |[Python](#python)           | [-->](#python-on-windows)      | [-->](#python-on-mac)     | [-->](#python-on-ubuntu)    | [   ](               )      |
 |[PHP](#php)                 | [-->](#php-on-windows)         | [-->](#php-on-mac)        | [-->](#php-on-ubuntu)       | [   ](               )      |
-|[Node.js](#nodejs)          | [   ](       )                 | [-->](#nodejs-on-mac)     | [-->](#nodejs-on-ubuntu)    | [   ](               )      |
+|[Node.js](#nodejs)          | [-->](#nodejs)                 | [-->](#nodejs)            | [-->](#nodejs-on-ubuntu)    | [   ](               )      |
 |[npm](#npm)                 | [   ](       )                 | N/A                       | [-->](#npm-on-ubuntu)       | [   ](               )      |
 |[Express](#express)         | [   ](       )                 | [-->](#express-on-mac)    | [   ](                 )    | [   ](               )      |
 |[Nodemon](#nodemon)         | [   ](       )                 | [-->](#nodemon-on-mac)    | [   ](                 )    | [   ](               )      |
@@ -699,7 +699,7 @@ brew install python
 
 ## MAMP
 
-## Nodejs on Mac
+## Nodejs
 Node.js is an platform for Javascript.  You can install Node.js by download the package from its home page:
 ```sh
 http://nodejs.org/download/
