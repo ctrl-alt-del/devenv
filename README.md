@@ -214,14 +214,13 @@ ln -s /c/usr/bin/ruby/bin/ruby.exe /usr/bin/ruby.exe
 Verify the symbolic link is working properly by running:
 ```sh
 which ruby # should see /usr/bin/ruby
-ruby -v # should see 
 ```
 
 If there is error saying ruby is not found on sh.exe, restart the git bash and redo the verification.
 
 Once you restarted the git bash and verified ruby is installed on your machine, you can check its version by running:
 ```sh
-
+ruby -v
 ```
 
 [BACK TO TOP](#table-of-contents)
