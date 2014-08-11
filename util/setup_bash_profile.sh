@@ -1,13 +1,10 @@
 #!/bin/bash
 write_to_file() {
 
-     # initialize a local var
-     local file=".bash_profile"
-
      # check if file exists. If not, create it
-     if [ ! -f "$file" ] ; then
+     if [ ! -f ~/.bash_profile ] ; then
          # if not create the file
-         touch "$file"
+         touch -pv ~/.bash_profile
     fi
 
     content="
@@ -42,7 +39,7 @@ write_to_file() {
     ## Generate sha1
     alias sha1='openssl sha1'
 
-    ## Set vim as default editor 
+    ## Set vim as default editor
     alias vi=vim
     alias svi='sudo vi'
     alias vis='vim \"+set si\"'
