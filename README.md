@@ -12,7 +12,7 @@ This document and bash scripts will be updated piece by piece and I will try my 
 |Tools                       | [Windows 7](#windows)          | [Mac 10.9.+](#mac)        | [Ubuntu 14.04](#ubuntu)     | [Fedora 20](#fedora)        |
 |:-------------------------- | :----------------------------: | :-----------------------: | :-------------------------: | :-------------------------: |
 |[Preps](#configuration)     | [-->](#configure-windows)      | N/A                       | N/A                         | N/A                         |
-|[Terminal](#terminal)       | N/A                            | [-->](#iterm2)            | [-->](#tilda)               | [   ](#guake)               |
+|[Terminal](#terminal)       | N/A                            | [-->](#iterm2)            | [-->](#tilda)               | [-->](#guake)               |
 |[Zsh](#zsh)                 | [   ](#zsh-on-windows)         | [   ](#zsh-on-mac)        | [   ](#zsh-on-ubuntu)       | [   ](#zsh-on-fedora)       |
 |[Oh-My-Zsh](#oh-my-zsh)     | [   ](#oh-my-zsh-on-windows)   | [   ](#oh-my-zsh-on-mac)  | [   ](#oh-my-zsh-on-ubuntu) | [   ](#oh-my-zsh-on-fedora) |
 |[Homebrew](#homebrew)       | N/A                            | [-->](#homebrew)          | N/A                         | N/A                         |
@@ -53,15 +53,13 @@ This document and bash scripts will be updated piece by piece and I will try my 
 		* [EditThisCookie](#editthiscookie)
 		* [REST Console](#rest-console)
 		* [JSON View](#json-view)
-		
-* [Setup Android dev environment](#setup-android-dev-enviroment)
-	* [Gradle](#gradle)
 
+* [Setup Android dev environment](#setup-android-dev-enviroment)
 
 ## Configuration
 
 ### Configure Windows
-It is a good idea to centralize all your packages in one folder.  Not only does it help  to better organize your packages, having a dedicated folder for your packages also makes navigating with command line easier.  In this instruction for Windows, all packages will be put or installed under /c/usr/bin (a.k.a "C:\usr\bin").  Please create the folder if it is not existed, and of course, feel free to name your own directory. 
+It is a good idea to centralize all your packages in one folder.  Not only does it help  to better organize your packages, having a dedicated folder for your packages also makes navigating with command line easier.  In this instruction for Windows, all packages will be put or installed under /c/usr/bin (a.k.a "C:\usr\bin").  Please create the folder if it is not existed, and of course, feel free to name your own directory.
 
 If you are familiar with Window's PowerShell, you can create the folder by opening PowerShell and run:
 ```sh
@@ -110,7 +108,7 @@ Git is a distributed version control and code management system.  You can learn 
 ## OpenSSL
 
 ## Gradle
-Gradle is a build tool for project, you can learn more about it on its [homepage](http://www.gradle.org/) 
+Gradle is a build tool for project, you can learn more about it on its [homepage](http://www.gradle.org/)
 
 Depends on you OS, you can find instruction for installing Gradle on [Windows](#gradle-on-windows), [Mac](#gradle-on-mac), and [Ubuntu](#gradle-on-ubuntu).
 
@@ -179,7 +177,7 @@ Choose the `curl-[version].zip` from source achieve to download.
 
 Once it is downloaded, unzip it to `/c/usr/bin/curl`, or whatever directory your chose.
 
-Run git bash as administrator, then go to the bin of git bash by running: 
+Run git bash as administrator, then go to the bin of git bash by running:
 ```sh
 cd /usr/bin
 ```
@@ -246,7 +244,7 @@ Choose the appropriate devkit to download, either x86 or x64 based on your opera
 
 Once the download is done, double click on the executable file and install/unzip it to /c/usr/bin/devkit, or whatever directory you chose.
 
-Run git bash as administrator and go to the directory of devkit by running: 
+Run git bash as administrator and go to the directory of devkit by running:
 ```sh
 cd /c/usr/bin/devkit
 ```
@@ -318,7 +316,7 @@ curl --remote-name "http://www.sqlite.org/2014/sqlite-dll-win32-x86-3080403.zip"
 
 Once both files are downloaded, unzip both of them to /c/usr/bin/sqlite, or whatever directory you chose.
 
-Run git bash as administrator, then go to the bin of git bash by running: 
+Run git bash as administrator, then go to the bin of git bash by running:
 ```sh
 cd /usr/bin
 ```
@@ -343,11 +341,11 @@ http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.h
 
 Choose the appropriate Thread Safe zip to download, either x86 or x64 based on your operation system.
 
-Run the downloaded executable file and install java under: 
+Run the downloaded executable file and install java under:
 ```sh
 /c/usr/bin/java
 ```
-Run git bash as administrator, then go to the bin of git bash by running: 
+Run git bash as administrator, then go to the bin of git bash by running:
 ```sh
 cd /usr/bin
 ```
@@ -392,7 +390,7 @@ the executable python.exe should then be under:
 /c/usr/bin/python/python.exe
 ```
 
-Run git bash as administrator, then go to the bin of git bash by running: 
+Run git bash as administrator, then go to the bin of git bash by running:
 ```sh
 cd /usr/bin
 ```
@@ -437,7 +435,7 @@ the executable php.exe should then be under:
 /c/usr/bin/php/php.exe
 ```
 
-Run git bash as administrator, then go to the bin of git bash by running: 
+Run git bash as administrator, then go to the bin of git bash by running:
 ```sh
 cd /usr/bin
 ```
@@ -582,7 +580,7 @@ Mac should have Ruby installed by default and it is the prerequisite for install
 ```sh
 ruby --version
 ```
-It should show you the version of your currently installed Ruby. 
+It should show you the version of your currently installed Ruby.
 
 If ruby does not come with your Mac somehow or you wnat to have a newer version of Ruby, you can download and follow the installation instruction on Ruby's website:
 ```sh
@@ -685,7 +683,7 @@ Mac should have Python installed by default.  To verify it, you can open your te
 ```sh
 python --version
 ```
-It should show you the version of your currently installed Python. 
+It should show you the version of your currently installed Python.
 
 If Python does not come with your Mac somehow or you wnat to have a newer version of Python, (e.g. Pyhotn 3.x rather than Python 2.7.x), you can download and follow the installation instruction on Python's website:
 ```sh
@@ -752,7 +750,7 @@ nodemon -v
 
 
 ## Gradle on Mac
-Gradle is a build tool for project, you can learn more about it on its [homepage](http://www.gradle.org/) 
+Gradle is a build tool for project, you can learn more about it on its [homepage](http://www.gradle.org/)
 
 To install gradle, the simplest way would be to install it through [Homebrew](#homebrew)
 
@@ -772,7 +770,7 @@ gradle -v
 # Ubuntu
 
 ## Tilda
-Tilda is an alternative of the system's default terminal, which I found very useful.  It is optional to you, but some of its additional features are just handy.
+Tilda is an alternative of the system's default terminal, which I found some of its additional features are very handy.
 
 You can install Tilda by running:
 ```sh
@@ -781,7 +779,7 @@ sudo apt-get install tilda
 
 If it returns an error saying it cannot fetch some archives, simply update the repository and then redo the installation by running:
 ```sh
-sudo apt-get update;
+sudo apt-get update
 sudo apt-get install tilda
 ```
 
@@ -908,9 +906,9 @@ Since Ruby Version Manager (RVM) is also available for Linux and other Unix-like
 
 To install RVM and Ruby, you need to have [Curl](#curl-on-ubuntu), follow the instruction to get it if you haven't have it.
 
-To install the latest RVM along with the latest stable Ruby, you can simply run: 
+To install the latest RVM along with the latest stable Ruby, you can simply run:
 ```sh
-\curl -sSL https://get.rvm.io | bash -s stable 
+\curl -sSL https://get.rvm.io | bash -s stable
 ```
 
 If you already have RVM setup, you can update it to the latest vevrsion by running:
@@ -947,7 +945,7 @@ update:  --no-rdoc --no-ri
 ## Rails on Ubuntu
 You can use RVM to install Rails as well.
 
-To install latest stable Rails, you can simply run: 
+To install latest stable Rails, you can simply run:
 ```sh
 \curl -sSL https://get.rvm.io | bash -s stable --rails
 ```
@@ -968,7 +966,7 @@ If you come across an error that compliant about no having a Javascript runtime 
 
 
 ## Java/OpenJDK
-Java is essential for many applications.  You can install Java JDK by running: 
+Java is essential for many applications.  You can install Java JDK by running:
 ```sh
 sudo apt-get install openjdk-7-jdk
 ```
@@ -1007,10 +1005,10 @@ php -v
 
 
 ## LAMP
-LAMP referes to a software bundle including Linux Apache MySQL PHP. You can learn more about it on Ubuntu's page 
+LAMP referes to a software bundle including Linux Apache MySQL PHP. You can learn more about it on Ubuntu's page
 ```sh
 https://help.ubuntu.com/14.04/serverguide/lamp-overview.html
-``` 
+```
 
 You can install LAMP in Ubuntu by running:
 ```sh
@@ -1108,10 +1106,9 @@ To intall the extension, just click on the blue `+ Free` button the top right co
 
 # Setup dev environment with Chef
 
-# Setup Android dev engviroment
-
+# Setup Android dev environment
 ## Eclipse
-Eclipse is an integrated devevelopment environment (IDE) and you can learn more about it on its [homepage](http://www.eclipse.org/).  To use it to develop Android application, I use one of its variant called [Eclipse IDE for Java Developers](http://www.eclipse.org/downloads/packages/eclipse-ide-java-developers/lunar) because it is relatvely smaller than other variants.  You can feel to use the [standard one](http://www.eclipse.org/downloads/packages/eclipse-standard-44/lunar) or other of its variant as well.
+Eclipse is an integrated development environment (IDE) and you can learn more about it on its [homepage](http://www.eclipse.org/).  To use it to develop Android application, I use one of its variant called [Eclipse IDE for Java Developers](http://www.eclipse.org/downloads/packages/eclipse-ide-java-developers/lunar) because it is relatvely smaller than other variants.  You can feel to use the [standard one](http://www.eclipse.org/downloads/packages/eclipse-standard-44/lunar) or other of its variant as well.
 
 
 ## ADT
@@ -1119,7 +1116,7 @@ Once Eclipse is installed, open it and navigate to its Help -> Install New Softw
 
 On the wizard of Install New Software, click on the add button and paste `https://dl-ssl.google.com/android/eclipse/` to `location` and put `Android Development Toolkit plugin` on `name`, then press OK.
 
-Back to the wizard, click on the dropdown list of `Work with`  and select the url item that you just added.
+Back to the wizard, click on the drop down list of `Work with`  and select the url item that you just added.
 
 It may take a while for eclipse to get the plugin information, but once the available plugin is displayed, click `Select All` under the displaying section, and then `Next` on the bottom right.  Then follow the instruction to install and plugin and restart Eclipse once the installation is done.
 
