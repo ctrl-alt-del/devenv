@@ -37,7 +37,7 @@ sudo apt-get install openjdk-7-jdk
 echo '>>> OpenJDK 7 has been successfully installed!'
 
 echo '<<< Installing Node.js...'
-sudo apt-get install nodejs
+sudo apt-get install nodejs nodejs-dev npm
 echo '>>> Node.js has been successfully installed!'
 
 echo '<<< Setting up ~/.bash_profile...'
