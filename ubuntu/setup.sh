@@ -40,17 +40,20 @@ echo '<<< Installing Node.js...'
 sudo apt-get install nodejs nodejs-dev npm
 echo '>>> Node.js has been successfully installed!'
 
-echo '<<< Setting up ~/.bash_profile...'
-local file="setup_bash_profile"
-if [ -f "$file" ] ; then
-    bash ../util/setup_bash_profile.sh
-    echo '>>> ~/.bash_profile has been successfully created!'
-fi
-
 echo '<<< Installing Curl...'
 sudo apt-get install curl
 echo '>>> Curl has been successfully installed!'
- 
+
+echo '<<< Setting up ~/.bash_profile...'
+if [ ! -f ./setup_bash_profile.sh ] ; then
+  \curl -O https://raw.githubusercontent.com/ctrl-alt-del/devenv/master/util/setup_bash_profile.sh
+fi
+chmod 755 setup_bash_profile.sh
+bash ./setup_bash_profile.sh
+rm setup_bash_profile.sh
+
+echo '>>> ~/.bash_profile has been successfully created!'
+
 echo '<<< Installing RVM, Ruby, and Rails...'
 \curl -sSL https://get.rvm.io | bash -s stable --rails
 echo '>>> RVM, Ruby, and Rails have been successfully installed!'
