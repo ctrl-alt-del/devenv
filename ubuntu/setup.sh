@@ -1,6 +1,12 @@
 #! /bin/bash
 echo '==============='
 echo 'Setup starts...'
+echo '<<< Upgrading Ubuntu...'
+sudo apt-get update
+sudo apt-get safe-upgrade
+echo '>>> Ubuntu has been successfully upgraded!'
+echo ' '
+
 echo '<<< Installing Guake...'
 sudo apt-get install guake
 echo '>>> Guake has been successfully installed!'
@@ -61,4 +67,3 @@ echo '>>> RVM, Ruby, and Rails have been successfully installed!'
 echo '<<< Configuring Ruby environment...'
 rvm requirements
 echo '>>> Ruby environment has been successfully configured!'
-
