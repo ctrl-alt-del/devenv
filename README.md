@@ -40,7 +40,7 @@ This document and bash scripts will be updated piece by piece and I will try my 
 |[LAMP](#lamp)               | N/A                            | N/A                       | [   ](               )      | [   ](               )      |
 |[SQLite](#sqlite)           | [-->](#sqlite-on-windows)      | [   ](            )       | [   ](               )      | [   ](               )      |
 |[MySQL](#mysql)             | [   ](       )                 | [   ](            )       | [   ](               )      | [   ](               )      |
-|[PostgreSQL](#postgreSQL)   | [   ](       )                 | [   ](            )       | [   ](               )      | [   ](               )      |
+|[PostgreSQL](#postgreSQL)   | [   ](       )                 | [-->](#postgreSQL-on-mac) | [   ](               )      | [   ](               )      |
 |[Chef](#chef)               | [   ](       )                 | [   ](            )       | [   ](               )      | [   ](               )      |
 |[Android SDK](#android-sdk) | [-->](#sdk)                    | [-->](#sdk)               | [-->](#sdk)                 | [-->](#sdk)                 |
 |[ADT](#adt)                 | [-->](#adt)                    | [-->](#adt)               | [-->](#adt)                 | [-->](#adt)                 |
@@ -648,6 +648,8 @@ Once installation is done, verify it through running:
 which rails
 ```
 
+If you encounter issue while running `gem install pg`, you need to install PostgreSQL and you can do so by follow the instruction [here](#postgresql-on-mac)
+
 [BACK TO TOP](#table-of-contents)
 
 
@@ -764,6 +766,13 @@ Once installation is donw, you can verify it by running:
 gradle -v
 ```
 
+[BACK TO TOP](#table-of-contents)
+
+## PostgreSQL on Mac
+```sh
+brew update
+brew install postgresql
+```
 [BACK TO TOP](#table-of-contents)
 
 
