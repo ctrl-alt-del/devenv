@@ -10,11 +10,13 @@ git clone https://github.com/git/git
 echo '>>> Git has been successfully upgraded!'
 
 echo '<<< Setting up ~/.bash_profile...'
-local file="setup_bash_profile"
-if [ -f "$file" ] ; then
-    bash ../util/setup_bash_profile.sh
-    echo '>>> ~/.bash_profile has been successfully created!'
+if [ ! -f ./setup_bash_profile.sh ] ; then
+  \curl -O https://raw.githubusercontent.com/ctrl-alt-del/devenv/master/util/setup_bash_profile.sh
 fi
+chmod 755 setup_bash_profile.sh
+bash ./setup_bash_profile.sh
+rm setup_bash_profile.sh
+echo '>>> ~/.bash_profile has been successfully created!'
 
 echo '<<< Installing RVM and Ruby...'
 \curl -sSL https://get.rvm.io | bash -s stable --ruby
