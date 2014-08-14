@@ -18,14 +18,10 @@ bash ./setup_bash_profile.sh
 rm setup_bash_profile.sh
 echo '>>> ~/.bash_profile has been successfully created!'
 
-echo '<<< Installing RVM and Ruby...'
-\curl -sSL https://get.rvm.io | bash -s stable --ruby
-echo '>>> RVM and Ruby has been successfully installed!'
+echo '<<< Installing RVM, Ruby, and Rails...'
+\curl -sSL https://get.rvm.io | bash -s stable --rails
+echo '>>> RVM, Ruby, and Rails have been successfully installed!'
 
 echo '<<< Configuring Ruby environment...'
 rvm requirements
 echo '>>> Ruby environment has been successfully configured!'
-
-echo '<<< Installing Rails...'
-gem install rails
-echo '>>> Rails has been successfully installed!'
