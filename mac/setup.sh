@@ -25,3 +25,7 @@ echo '>>> RVM, Ruby, and Rails have been successfully installed!'
 echo '<<< Configuring Ruby environment...'
 rvm requirements
 echo '>>> Ruby environment has been successfully configured!'
+
+echo '<<< Installing Node.js...'
+brew install nodejs
+echo '>>> Node.js has been successfully installed!'
