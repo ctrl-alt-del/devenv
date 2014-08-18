@@ -1072,6 +1072,21 @@ sudo yum install git-core
 
 [BACK TO TOP](#table-of-contents)
 
+## SDK on Fedora
+Visit the [developer page](http://developer.android.com/sdk/index.html) and download the [SDK Tool only for Linux 32 and 64 bit](http://dl.google.com/android/android-sdk_r23.0.2-linux.tgz)
+
+Once download is done, unzip it and move it to the `/opt/android-sdk-linux` folder, then add `export ANDROID_HOME=/opt/android-sdk-linux` to the `~/.bash_profile`.
+
+If you are in Linux 64 bit OS, you may also need to install the 32 bit shared libraries.  You can do so by running:
+```sh
+sudo yum install glibc.i686 glibc-devel.i686 libstdc++.i686 zlib-devel.i686 ncurses-devel.i686 libX11-devel.i686 libXrender.i686 libXrandr.i686
+```
+
+
+[BACK TO TOP](#table-of-contents)
+
+
+
 
 # General Setup
 
