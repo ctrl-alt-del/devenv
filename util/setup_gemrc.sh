@@ -2,7 +2,7 @@
 write_to_file() {
 
      if [ ! -f ~/.gemrc ] ; then
-         touch -pv ~/.gemrc
+         touch ~/.gemrc
     fi
 
     content="
@@ -10,7 +10,7 @@ write_to_file() {
     update:  --no-rdoc --no-ri
     ";
 
-    echo "$content" >> "$file";
+    echo "$content" >> ~/.gemrc;
 }
 
 # execute it

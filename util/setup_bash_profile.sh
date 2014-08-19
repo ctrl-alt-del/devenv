@@ -4,7 +4,7 @@ write_to_file() {
      # check if file exists. If not, create it
      if [ ! -f ~/.bash_profile ] ; then
          # if not create the file
-         touch -pv ~/.bash_profile
+         touch ~/.bash_profile
     fi
 
     content="
@@ -71,7 +71,7 @@ write_to_file() {
 
     ";
 
-    echo "$content" >> "$file";
+    echo "$content" >> ~/.bash_profile;
 }
 
 # execute it
