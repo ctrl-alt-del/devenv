@@ -67,3 +67,12 @@ echo '>>> RVM, Ruby, and Rails have been successfully installed!'
 echo '<<< Configuring Ruby environment...'
 rvm requirements
 echo '>>> Ruby environment has been successfully configured!'
+
+echo '<<< Setting up ~/.gemrc...'
+if [ ! -f ./setup_gemrc.sh ] ; then
+  \curl -O https://raw.githubusercontent.com/ctrl-alt-del/devenv/master/util/setup_gemrc.sh
+fi
+chmod 755 setup_gemrc.sh
+bash ./setup_gemrc.sh
+rm setup_gemrc.sh
+echo '>>> ~/.gemrc has been successfully created!'
