@@ -42,7 +42,7 @@ This document and bash scripts will be updated piece by piece and I will try my 
 |[MySQL](#mysql)             | [   ](       )                 | [   ](            )       | [   ](               )      | [   ](               )      |
 |[PostgreSQL](#postgreSQL)   | [   ](       )                 | [-->](#postgreSQL-on-mac) | [   ](               )      | [   ](               )      |
 |[Chef](#chef)               | [   ](       )                 | [   ](            )       | [   ](               )      | [   ](               )      |
-|[Android SDK](#android-sdk) | [-->](#sdk)                    | [-->](#sdk)               | [-->](#sdk)                 | [-->](#sdk)                 |
+|[Android SDK](#android-sdk) | [-->](#sdk-on-windows)         | [-->](#android-sdk)       | [-->](#sdk-on-ubuntu)       | [-->](#sdk)                 |
 |[ADT](#adt)                 | [-->](#adt)                    | [-->](#adt)               | [-->](#adt)                 | [-->](#adt)                 |
 |[Eclipse](#eclipse)         | [-->](#eclipse)                | [-->](#eclipse)           | [   ](#eclipse-on-ubuntu)   | [   ](#eclipse-on-fedora)   |
 
@@ -121,6 +121,31 @@ Depends on you OS, you can find instruction for installing Gradle on [Windows](#
 ## PostgreSQL
 ## Chef
 ## Android SDK
+You can get Android SDK from its [developer page](http://developer.android.com/sdk/index.html) under "Get SDK for an existing IDE".
+
+Once downloaded, unzip and place it in the same folder of eclipse, or whatever folder you like.
+
+Open terminal, then running:
+```sh
+cd <whatever_folder_path>/sdk/tools
+./android sdk
+```
+Once the command lines in above is executed, it should popup an user interface to let you select SDKs and tools to download.
+
+You need the following package from the SDK:
+```sh
+./Tools/Android SDK Tools
+./Tools/Android SDK Build-tools
+./Tools/Android SDK Platform-tools
+./Extra/Android Support Repository
+./Extra/Android Support Library
+./<whatever_API_version>/SDK Platform
+./<whatever_API_version>/ARM EABI v7a System Image
+```
+
+Select those package and click on the "install packages" button on the bottom right, and then follow the instruction to complete the installation.
+
+
 ## ADT
 ## Eclipse
 
@@ -465,7 +490,7 @@ Choose the appropriate Thread Safe zip to download, either x86 or x64 based on y
 
 install the downloaded file to /c/usr/bin/wamp, or whatever directory you chose. Keep installation configurations default.
 
-## Android SDK on Windows
+## SDK on Windows
 Download the latest Android SDK for Windows from here:
 
 http://developer.android.com/sdk/index.html
