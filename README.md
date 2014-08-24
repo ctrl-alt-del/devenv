@@ -120,19 +120,15 @@ Depends on you OS, you can find instruction for installing Gradle on [Windows](#
 ## MySQL
 ## PostgreSQL
 ## Chef
+
 ## Android SDK
-You can get Android SDK from its [developer page](http://developer.android.com/sdk/index.html) under "Get SDK for an existing IDE".
+You can get Android SDK from its [developer page](http://developer.android.com/sdk/index.html) under **Get SDK for an existing IDE**.
 
-Once downloaded, unzip and place it in the same folder of eclipse, or whatever folder you like.
+Once the compressed file is downloaded, unzip it and place it in the same folder of eclipse, or whatever folder you like.
 
-Open terminal, then running:
-```sh
-cd <whatever_folder_path>/sdk/tools
-./android sdk
-```
-Once the command lines in above is executed, it should popup an user interface to let you select SDKs and tools to download.
+Navigate to the SDK folder and open its user interface, which would to let you select SDKs and tools to download.
 
-You need the following package from the SDK:
+You need the following packages from the SDK:
 ```sh
 ./Tools/Android SDK Tools
 ./Tools/Android SDK Build-tools
@@ -144,6 +140,23 @@ You need the following package from the SDK:
 ```
 
 Select those package and click on the "install packages" button on the bottom right, and then follow the instruction to complete the installation.
+
+Details on how to setup the Android SDK on [Windows](#sdk-on-windows), [Mac](#sdk-on-mac), [Ubuntu]() and [Fedora]()
+
+## SDK on Windows
+Choose the appropriate Thread Safe zip to download, either x86 or x64 based on your operation system.
+
+unzip the downloaded file to `/c/usr/bin/android`, or whatever directory you chose.
+
+Navigate to the directory and open the SDK Manager:
+```sh
+cd /c/usr/bin/android/
+open SDK\ Manager.exe
+```
+
+Select the packages listed in [here](#android-sdk) to install.
+
+[BACK TO TOP](#table-of-contents)
 
 
 ## ADT
@@ -490,28 +503,6 @@ Choose the appropriate Thread Safe zip to download, either x86 or x64 based on y
 
 install the downloaded file to /c/usr/bin/wamp, or whatever directory you chose. Keep installation configurations default.
 
-## SDK on Windows
-Download the latest Android SDK for Windows from here:
-
-http://developer.android.com/sdk/index.html
-
-Choose the appropriate Thread Safe zip to download, either x86 or x64 based on your operation system.
-
-unzip the downloaded file to /c/usr/bin/android, or whatever directory you chose.
-
-Navigate to /c/usr/bin/android/ by running:
-```sh
-cd /c/usr/bin/android/
-```
-
-Open the SDK Manager by running:
-```sh
-open SDK\ Manager.exe
-```
-
-Select the latest Android SDK version or any other SDK version as needed, then update.
-
-[BACK TO TOP](#table-of-contents)
 
 
 ## Gradle on Windows
