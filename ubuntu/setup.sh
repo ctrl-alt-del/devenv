@@ -77,7 +77,7 @@ rm setup_gemrc.sh
 echo '>>> ~/.gemrc has been successfully created!'
 
 echo '<<< Configuring synclient...'
-if [ ! -f ./setup_gemrc.sh ] ; then
+if [ ! -f ./setup_synclient.sh ] ; then
   \curl -O https://raw.githubusercontent.com/ctrl-alt-del/devenv/master/util/setup_synclient.sh
 fi
 chmod 755 setup_synclient.sh
