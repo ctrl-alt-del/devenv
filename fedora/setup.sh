@@ -53,3 +53,11 @@ echo '<<< Configuring Ruby environment...'
 rvm requirements
 echo '>>> Ruby environment has been successfully configured!'
 
+echo '<<< Configuring synclient...'
+if [ ! -f ./setup_synclient.sh ] ; then
+  \curl -O https://raw.githubusercontent.com/ctrl-alt-del/devenv/master/util/setup_synclient.sh
+fi
+chmod 755 setup_synclient.sh
+bash ./setup_synclient.sh
+rm setup_synclient.sh
+echo '>>> synclient has been successfully configured!'
