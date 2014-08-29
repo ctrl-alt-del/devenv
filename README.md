@@ -90,6 +90,16 @@ Sublime is a very useful and convenient text editor.  You can learn more about i
 ## Git
 Git is a distributed version control and code management system.  You can learn more detail about it on its [homepage](http://git-scm.com/).
 
+### Git on Windows
+Since Git contains many convenient built-in functions as well as a useful bash shell, it is recommended to be installed first in setting up the dev environment on Windows.
+
+You can download the latest git install file for Windows from [here](http://git-scm.com/download/win)
+
+Once the installation file is downloaded, install it under /c/usr/bin/git or whatever directory you chose.  Don't worry about the configuration choices available during the installation process, it would be fine to just keep them in default.
+
+[BACK TO TOP](#table-of-contents)
+
+
 ## Gitk
 Gitk is an UI for git.
 
@@ -182,44 +192,6 @@ Select the packages listed in [here](#android-sdk) to install.
 
 # Windows
 
-## Git on Windows
-Since Git contains many convenient built-in functions as well as a useful bash shell, it is recommended to be installed firstin order to setup the dev environment on Windows.
-
-You can download the latest git install file for Windows from [here](http://git-scm.com/download/win)
-
-Once the installation file is downloaded, install it under /c/usr/bin/git or whatever directory you chose.  Don't worry about the configuration choices available during the installation process, it would be fine to just keep them in default.
-
-[BACK TO TOP](#table-of-contents)
-
-
-### Setup .bash_profile
-You can configure your shell to have it memorize some convenient shortcuts.
-
-If you are in Windows, you can open git bash as administrator by right click on the icon of git bash and select "Run as Administrator".
-<br><br>
-If you are in Mac or other Unix/Linux-base operating system, just open up your terminal.
-<br><br>
-**Automatic Way**
-<br>
-Copy and paste the following codes to your terminal and hit enter/return to run them:
-```sh
-cd ~
-\curl -O https://raw.githubusercontent.com/ctrl-alt-del/devenv/master/util/setup_bash_profile.sh
-chmod 755 setup_bash_profile.sh
-./setup_bash_profile.sh
-```
-this should create a .bash_profile file if it is not existed and inject the shortcuts to the file.
-<br><br>
-**Manual Way**
-<br>
-If you prefer to create the .bash_profile file manually, you can do so by running:
-`touch -pv ~/.bash_profile` on your terminal, if will create the file if it hasn't been created.  Afterwards, you can open it by running: `sudo vi ~/.bash_profile`and then add the scripts to it.  I use `vi` in this case, but you are free to use whatever editor you like, such as `vim`, `nano`, `gedit`, `subl`, `atom` and etc.
-
-After the .bash_profile is created, restart the git bash to let the changes take effect.
-
-[BACK TO TOP](#table-of-contents)
-
-
 ## Curl on Windows
 Curl should come with Git by default.  If not, you can download and configure it from its home page.
 ```sh
@@ -250,7 +222,7 @@ http://rubyinstaller.org/downloads/
 
 Choose the appropriate RubyInstaller to download, either the [x86 installer](http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.0.0-p481.exe) or [x64 installer](http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.0.0-p481-x64.exe) based on your operation system.
 
-To donwload the installer through command line, you can do so by running:
+To download the installer through command line, you can do so by running:
 For 64-bit system:
 ```sh
 curl --remote-name "http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.0.0-p481-x64.exe"
@@ -561,7 +533,7 @@ ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 
 ## Git on Mac
 
-Mac should have Git by default.  You can verify your git version by openning your terminal and running:
+Mac should have Git by default.  You can verify your git version by opening your terminal and running:
 ```sh
 git --version
 ```
@@ -587,7 +559,7 @@ git clone https://github.com/git/git
 
 ## Curl on Mac
 
-Mac should have Curl by default.  You can verify your curl version by openning your terminal and running:
+Mac should have Curl by default.  You can verify your curl version by opening your terminal and running:
 ```sh
 curl --version
 ```
@@ -613,7 +585,7 @@ ruby --version
 ```
 It should show you the version of your currently installed Ruby.
 
-If ruby does not come with your Mac somehow or you wnat to have a newer version of Ruby, you can download and follow the installation instruction on Ruby's website:
+If ruby does not come with your Mac somehow or you want to have a newer version of Ruby, you can download and follow the installation instruction on Ruby's website:
 ```sh
 https://www.ruby-lang.org/en/downloads/
 ```
@@ -629,7 +601,7 @@ Or you can use RVM to install Ruby as well, see the next section for instruction
 
 
 ## RVM on Mac
-You may also use RVM to install and manage your Ruby and Rails.  RVM stands for Ruby Version Manager; it is a convenient way to manage multiple versions of Ruby and Rails (e.g. the system default version and the latest version) because sometimes you may want to keep the older version of Ruby to keep the capabililty or whatever.
+You may also use RVM to install and manage your Ruby and Rails.  RVM stands for Ruby Version Manager; it is a convenient way to manage multiple versions of Ruby and Rails (e.g. the system default version and the latest version) because sometimes you may want to keep the older version of Ruby to keep the compatibility or whatever.
 
 You may learn more details about RVM on its home page:
 ```sh
@@ -651,9 +623,9 @@ To setup the Ruby environment, you can simply check if the Ruby environment is s
 rvm requirements
 ```
 
-While installing gems, the process will automatically generate documants, which can be time consuming.  If you perfer online documents over local generated ones, you can skip the auto documents generating process, which would save you some time.
+While installing gems, the process will automatically generate documents, which can be time consuming.  If you prefer online documents over local generated ones, you can skip the auto documents generating process, which would save you some time.
 
-To disable the process, you can create a gem configuation file by running:
+To disable the process, you can create a gem configuration file by running:
 ```sh
 subl ~/.gemrc
 ```
@@ -718,7 +690,7 @@ python --version
 ```
 It should show you the version of your currently installed Python.
 
-If Python does not come with your Mac somehow or you wnat to have a newer version of Python, (e.g. Pyhotn 3.x rather than Python 2.7.x), you can download and follow the installation instruction on Python's website:
+If Python does not come with your Mac somehow or you want to have a newer version of Python, (e.g. Python 3.x rather than Python 2.7.x), you can download and follow the installation instruction on Python's website:
 ```sh
 https://www.python.org/downloads/
 ```
@@ -769,7 +741,7 @@ express --version
 
 
 ### Nodemon on Mac
-Nodemon is a monitoring plugin that restart node.js application automatically if there is any changes happended to the code.  You can get it by running
+Nodemon is a monitoring plugin that restart node.js application automatically if there is any changes happened to the code.  You can get it by running
 ```sh
 sudo npm install -g nodemon
 ```
@@ -792,7 +764,7 @@ Once you have Homebrew, you can install Gradle by running:
 brew install gradle
 ```
 
-Once installation is donw, you can verify it by running:
+Once installation is done, you can verify it by running:
 ```sh
 gradle -v
 ```
@@ -951,7 +923,7 @@ To install the latest RVM along with the latest stable Ruby, you can simply run:
 \curl -sSL https://get.rvm.io | bash -s stable
 ```
 
-If you already have RVM setup, you can update it to the latest vevrsion by running:
+If you already have RVM setup, you can update it to the latest version by running:
 ```sh
 rvm get stable
 ```
@@ -966,9 +938,9 @@ To setup the Ruby environment, you can simply check if the Ruby environment is s
 rvm requirements
 ```
 
-While installing gems, the process will automatically generate documants, which can be time consuming.  If you perfer online documents over local generated ones, you can skip the auto documents generating process, which would save you some time.
+While installing gems, the process will automatically generate documents, which can be time consuming.  If you perfer online documents over local generated ones, you can skip the auto documents generating process, which would save you some time.
 
-To disable the process, you can create a gem configuation file by running:
+To disable the process, you can create a gem configuration file by running:
 ```sh
 subl ~/.gemrc
 ```
@@ -1120,6 +1092,34 @@ sudo yum install glibc.i686 glibc-devel.i686 libstdc++.i686 zlib-devel.i686 ncur
 
 
 # General Setup
+
+## Setup .bash_profile
+You can configure your shell to have it memorize some convenient shortcuts.
+
+If you are in Windows, you can open git bash as administrator by right click on the icon of git bash and select "Run as Administrator".
+<br><br>
+If you are in Mac or other Unix/Linux-base operating system, just open up your terminal.
+<br><br>
+**Automatic Way**
+<br>
+Copy and paste the following codes to your terminal and hit enter/return to run them:
+```sh
+cd ~
+\curl -O https://raw.githubusercontent.com/ctrl-alt-del/devenv/master/util/setup_bash_profile.sh
+chmod 755 setup_bash_profile.sh
+./setup_bash_profile.sh
+```
+this should create a .bash_profile file if it is not existed and inject the shortcuts to the file.
+<br><br>
+**Manual Way**
+<br>
+If you prefer to create the .bash_profile file manually, you can do so by running:
+`touch -pv ~/.bash_profile` on your terminal, if will create the file if it hasn't been created.  Afterwards, you can open it by running: `sudo vi ~/.bash_profile`and then add the scripts to it.  I use `vi` in this case, but you are free to use whatever editor you like, such as `vim`, `nano`, `gedit`, `subl`, `atom` and etc.
+
+After the .bash_profile is created, restart the git bash to let the changes take effect.
+
+[BACK TO TOP](#table-of-contents)
+
 
 ## Chrome
 Chrome is a browser, but it can also be a very useful development tool with some extensions.  You can download Chrome on its home page:
