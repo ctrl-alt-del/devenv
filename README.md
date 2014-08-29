@@ -91,8 +91,14 @@ Sublime is a very useful and convenient text editor.  You can learn more about i
 Git is a distributed version control and code management system.  You can learn more detail about it on its [homepage](http://git-scm.com/).
 
 ## Gitk
+Gitk is an UI for git.
+
 ## SmartGit
+Similar to Gitk, SmartGit is an UI for git too, yet it has more functionalities than Gitk.
+
 ## Curl
+## Wget
+
 ## Ruby
 ## devkit
 ## Rails
@@ -126,6 +132,16 @@ You can get Android SDK from its [developer page](http://developer.android.com/s
 
 Once the compressed file is downloaded, unzip it and place it in the same folder of eclipse, or whatever folder you like.
 
+Follow the installation process for your system:
+<br>
+[**Windows**](#sdk-on-windows)
+<br>
+[**Mac**](#sdk-on-mac)
+<br>
+[**Ubuntu**]()
+<br>
+[**Fedora**]()
+
 Navigate to the SDK folder and open its user interface, which would to let you select SDKs and tools to download.
 
 You need the following packages from the SDK:
@@ -141,7 +157,6 @@ You need the following packages from the SDK:
 
 Select those package and click on the "install packages" button on the bottom right, and then follow the instruction to complete the installation.
 
-Details on how to setup the Android SDK on [Windows](#sdk-on-windows), [Mac](#sdk-on-mac), [Ubuntu]() and [Fedora]()
 
 ## SDK on Windows
 Choose the appropriate Thread Safe zip to download, either x86 or x64 based on your operation system.
