@@ -73,6 +73,12 @@ For Windows's default command prompt or PowerShell, you will sometimes need the 
 ## Terminal
 Terminal, sometime also known as the command line interface (cli) is used to interact with computer programs.  You can learn more about it on its [Wiki](http://en.wikipedia.org/wiki/Command-line_interface) page.
 
+For Windows users, we are just going to use the Git Bash that comes with [Git](#git-on-windows).
+
+For Mac users, you can either use the system default terminal, or you can also use [iTerm2](#iterm2), which is an enhanced terminal for Mac.
+
+For Ubuntu, Fedora, and all other Unix/Linux base operating system users, you can either use the system default terminal, or some other terminal applications, such as [Tilda](#tilda) or [Guake](#guake).
+
 
 ## Zsh
 Zsh stands for Z shell is a Unix base interactive login shell.  You can learn more about it on its [Wiki](http://en.wikipedia.org/wiki/Zsh) page.
