@@ -104,7 +104,16 @@ Oh-My-Zsh is an framework for managing your ZSH configuration.  You can learn mo
 
 
 ## Homebrew
-Homebrew is a package manager for Mac.  You can learn more about it on its [homepage](http://brew.sh/)
+Homebrew is a package manager for **Mac**.  You can learn more about it on its [homepage](http://brew.sh/)
+
+Since Mac comes with Ruby by default, you can install Homebrew by running:
+```sh
+ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+```
+
+[BACK TO TOP](#table-of-contents)
+
+
 
 ## Sublime
 Sublime is a very useful and convenient text editor.  You can learn more about it on its [homepage](http://www.sublimetext.com/)
@@ -1233,15 +1242,6 @@ Select those package and click on the "install packages" button on the bottom ri
 To install Guake on Fedora, you can do so by running:
 ```sh
 sudo yum install guake
-```
-
-[BACK TO TOP](#table-of-contents)
-
-
-## Zsh
-To install Zsh on Fedora, you can do so by running:
-```sh
-sudo yum install zsh
 ```
 
 [BACK TO TOP](#table-of-contents)
