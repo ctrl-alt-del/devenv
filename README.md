@@ -83,6 +83,22 @@ For Ubuntu, Fedora, and all other Unix/Linux base operating system users, you ca
 ## Zsh
 Zsh stands for Z shell is a Unix base interactive login shell.  You can learn more about it on its [Wiki](http://en.wikipedia.org/wiki/Zsh) page.
 
+#### Zsh on Ubuntu
+To install Zsh on Ubuntu, you can do so by running:
+```sh
+sudo apt-get update
+sudo apt-get install zsh
+```
+
+#### Zsh on Fedora
+To install Zsh on Fedora, you can do so by running:
+```sh
+sudo yum install zsh
+```
+
+[BACK TO TOP](#table-of-contents)
+
+
 ## Oh-My-Zsh
 Oh-My-Zsh is an framework for managing your ZSH configuration.  You can learn more about it on its [homepage](http://ohmyz.sh/), or on its [git repository](https://github.com/robbyrussell/oh-my-zsh)
 
