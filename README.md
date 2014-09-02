@@ -121,6 +121,12 @@ Sublime is a very useful and convenient text editor.  You can learn more about i
 ## Git
 Git is a distributed version control and code management system.  You can learn more detail about it on its [homepage](http://git-scm.com/).
 
+For details on how to install Git on different operating system, click on:
+* [Windows](#git-on-windows)
+* [Mac](#git-on-mac)
+* [Ubuntu](#git-on-ubuntu)
+* [Fedora](#git-on-fedora)
+
 ### Git on Windows
 Since Git contains many convenient built-in functions as well as a useful bash shell, it is recommended to be installed first in setting up the dev environment on Windows.
 
@@ -128,7 +134,45 @@ You can download the latest git install file for Windows from [here](http://git-
 
 Once the installation file is downloaded, install it under /c/usr/bin/git or whatever directory you chose.  Don't worry about the configuration choices available during the installation process, it would be fine to just keep them in default.
 
+### Git on Mac
+
+Mac should have Git by default.  You can verify your git version by opening your terminal and running:
+```sh
+git --version
+```
+
+If git does not come with your Mac somehow, you can follow the installation instruction in their website:
+```sh
+http://git-scm.com/book/en/Getting-Started-Installing-Git
+```
+
+Or you can install it through [Homebrew](#homebrew) by running:
+```sh
+brew install git
+```
+
+
+### Git on Ubuntu
+Git is a version control system, and it should've come with Ubuntu.  In case it is missing on your system, you can install it easily through running:
+```sh
+sudo apt-get update
+sudo apt-get install git-core
+```
+
+To upgrade to the latest version of Git, you can either:
+```sh
+sudo apt-get upgrade git
+```
+
+
+### Git on Fedora
+```sh
+sudo yum install git-core
+```
+
 [BACK TO TOP](#table-of-contents)
+
+
 
 
 ## Gitk
@@ -562,32 +606,6 @@ ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 [BACK TO TOP](#table-of-contents)
 
 
-## Git on Mac
-
-Mac should have Git by default.  You can verify your git version by opening your terminal and running:
-```sh
-git --version
-```
-
-If git does not come with your Mac somehow, you can follow the installation instruction in their website:
-```sh
-http://git-scm.com/book/en/Getting-Started-Installing-Git
-```
-
-Or you can install it through Homebrew by running:
-```sh
-brew install git
-```
-
-Once installation is done, you can get the latest version of Git by running:
-```sh
-git clone https://github.com/git/git
-```
-
-[BACK TO TOP](#table-of-contents)
-
-
-
 ## Curl on Mac
 
 Mac should have Curl by default.  You can verify your curl version by opening your terminal and running:
@@ -873,25 +891,6 @@ sudo apt-get install smartgithg
 [BACK TO TOP](#table-of-contents)
 
 
-## Git on Ubuntu
-Git is a version control system, and it should've come with Ubuntu.  In case it is missing on your system, you can install it easily through running:
-```sh
-sudo apt-get update
-sudo apt-get install git-core
-```
-
-To upgrade to the latest version of Git, you can either:
-```sh
-sudo apt-get upgrade git
-```
-Or
-```sh
-git clone https://github.com/git/git
-```
-
-[BACK TO TOP](#table-of-contents)
-
-
 ## Gitk on Ubuntu
 Gitk is a graphical user interface for Git.  You can install it by running:
 ```sh
@@ -1098,14 +1097,6 @@ sudo apt-get install libc6:i386 libstdc++6:i386 zlib1g:i386
 
 
 # Fedora
-
-## Git on Fedora
-```sh
-sudo yum install git-core
-```
-
-[BACK TO TOP](#table-of-contents)
-
 ## SDK on Fedora
 Visit the [developer page](http://developer.android.com/sdk/index.html) and download the [SDK Tool only for Linux 32 and 64 bit](http://dl.google.com/android/android-sdk_r23.0.2-linux.tgz)
 
