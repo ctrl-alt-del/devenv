@@ -176,7 +176,16 @@ sudo yum install git-core
 
 
 ## Gitk
-Gitk is an UI for git.
+Gitk is a graphic user interface for git.
+
+### Gitk on Ubuntu
+Gitk is a graphical user interface for Git.  You can install it by running:
+```sh
+sudo apt-get install gitk
+```
+
+[BACK TO TOP](#table-of-contents)
+
 
 ## SmartGit
 Similar to Gitk, SmartGit is an UI for git too, yet it has more functionalities than Gitk.
@@ -889,13 +898,6 @@ sudo apt-get install smartgithg
 ```
 
 [BACK TO TOP](#table-of-contents)
-
-
-## Gitk on Ubuntu
-Gitk is a graphical user interface for Git.  You can install it by running:
-```sh
-sudo apt-get install gitk
-```
 
 
 ## Node.js on Ubuntu
