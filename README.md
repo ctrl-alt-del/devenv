@@ -191,6 +191,55 @@ sudo apt-get install gitk
 Similar to Gitk, SmartGit is an UI for git too, yet it has more functionalities than Gitk.
 
 ## Curl
+Curl is a tool to transfer data from or to a server, you can learn more about it on its [homepage](http://curl.haxx.se/docs/manpage.html).
+
+Curl comes with Mac and some distros of Linux by default.  For Windows, it should comes with the [Git](#git) you installed earlier.  In case Curl is not presented on your operating system, you can follow the instructions below to install it yourself.
+
+* [**Windows**](#curl-on-windows)
+* [**Mac**](#curl-on-mac)
+* [**Ubuntu**](#curl-on-ubuntu)
+* [**Fedora**](#curl-on-fedora)
+
+### Curl on Windows
+Visit the download page of Curl in [here](http://curl.haxx.se/download.html) and download the latest version of `curl-[version].zip` listed under source achieve.
+
+Once it is downloaded, unzip it to `/c/usr/bin/curl`, or whatever directory your chose.
+
+Run git bash as administrator, then create a symbolic link by running:
+```sh
+ln -s /c/usr/bin/curl/curl.exe /usr/bin/curl.exe
+```
+
+
+### Curl on Mac
+Mac should have Curl by default.  You can verify your curl version by opening your terminal and running:
+```sh
+curl --version
+```
+
+If curl does not come with your Mac somehow, you can follow the same instruction of [Windows](#curl-on-windows) to install it on your Mac.
+
+Or you can install it through Homebrew by running:
+```sh
+brew install curl
+```
+
+
+### Curl on Ubuntu
+You can install Curl by running:
+```sh
+sudo apt-get install curl
+```
+
+
+### Curl on Fedora
+You can install Curl by running:
+```sh
+sudo yum install curl
+```
+
+[BACK TO TOP](#table-of-contents)
+
 ## Wget
 
 ## Ruby
@@ -275,29 +324,6 @@ Select the packages listed in [here](#android-sdk) to install.
 
 
 # Windows
-
-## Curl on Windows
-Curl should come with Git by default.  If not, you can download and configure it from its home page.
-```sh
-http://curl.haxx.se/
-```
-
-Choose the `curl-[version].zip` from source achieve to download.
-
-Once it is downloaded, unzip it to `/c/usr/bin/curl`, or whatever directory your chose.
-
-Run git bash as administrator, then go to the bin of git bash by running:
-```sh
-cd /usr/bin
-```
-
-Create a symbolic link by running:
-```sh
-ln -s /c/usr/bin/curl/curl.exe curl.exe
-```
-
-[BACK TO TOP](#table-of-contents)
-
 
 ## Ruby on Windows
 Ruby is the prerequisite for Rails.  You can download the latest Ruby for Windows from here:
@@ -615,26 +641,6 @@ ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 [BACK TO TOP](#table-of-contents)
 
 
-## Curl on Mac
-
-Mac should have Curl by default.  You can verify your curl version by opening your terminal and running:
-```sh
-curl --version
-```
-
-If curl does not come with your Mac somehow, you can download and follow the installation instruction in their website:
-```sh
-http://curl.haxx.se/download.html
-```
-
-Or you can install it through Homebrew by running:
-```sh
-brew install curl
-```
-
-[BACK TO TOP](#table-of-contents)
-
-
 ## Ruby on Mac
 
 Mac should have Ruby installed by default and it is the prerequisite for installing Rails.  To verify it, you can open your terminal and run:
@@ -920,15 +926,6 @@ sudo apt-get install nodejs
 npm is a tool to manage the packages used by Node.js
 ```sh
 sudo apt-get install npm
-```
-
-[BACK TO TOP](#table-of-contents)
-
-
-## Curl on Ubuntu
-You can install Curl by running:
-```sh
-sudo apt-get install curl
 ```
 
 [BACK TO TOP](#table-of-contents)
