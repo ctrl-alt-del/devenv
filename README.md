@@ -243,6 +243,110 @@ sudo yum install curl
 ## Wget
 
 ## Ruby
+### Ruby on Windows
+Ruby is the prerequisite for Rails.  You can download the latest Ruby for Windows from here:
+
+http://rubyinstaller.org/downloads/
+
+Choose the appropriate RubyInstaller to download, either the [x86 installer](http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.0.0-p481.exe) or [x64 installer](http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.0.0-p481-x64.exe) based on your operation system.
+
+To download the installer through command line, you can do so by running:
+For 64-bit system:
+```sh
+curl --remote-name "http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.0.0-p481-x64.exe"
+```
+
+For 32-bit system:
+```sh
+curl --remote-name "http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.0.0-p481.exe"
+```
+
+Install Ruby under /c/usr/bin/ruby or whatever directory you chose
+
+Once the installation is done, the executable `ruby.exe` should then be under:
+`/c/usr/bin/ruby/bin`
+
+Run git bash as administrator, then create a symbolic link by running:
+```sh
+ln -s /c/usr/bin/ruby/bin/ruby.exe /usr/bin/ruby.exe
+```
+
+Verify the symbolic link is working properly by running:
+```sh
+which ruby # should see /usr/bin/ruby
+```
+
+If there is error saying ruby is not found on sh.exe, restart the git bash and redo the verification.
+
+Once you restarted the git bash and verified ruby is installed on your machine, you can check its version by running:
+```sh
+ruby -v
+```
+
+
+
+### Ruby on Mac
+
+Mac should have Ruby installed by default and it is the prerequisite for installing Rails.  To verify it, you can open your terminal and run:
+```sh
+ruby --version
+```
+It should show you the version of your currently installed Ruby.
+
+If ruby does not come with your Mac somehow or you want to have a newer version of Ruby, you can download and follow the installation instruction on Ruby's website:
+```sh
+https://www.ruby-lang.org/en/downloads/
+```
+
+Or you can install the latest version of Ruby through Homebrew by running:
+```sh
+brew install ruby
+```
+
+Or you can use RVM to install Ruby as well, see the next section for instruction.
+
+
+### Ruby on Ubuntu
+Since Ruby Version Manager (RVM) is also available for Linux and other Unix-like operation system, you can install Ruby easily through using RVM.  You can learn more about RVM on their home page: `https://rvm.io/`
+
+To install RVM and Ruby, you need to have [Curl](#curl-on-ubuntu), follow the instruction to get it if you haven't have it.
+
+To install the latest RVM along with the latest stable Ruby, you can simply run:
+```sh
+\curl -sSL https://get.rvm.io | bash -s stable
+```
+
+If you already have RVM setup, you can update it to the latest version by running:
+```sh
+rvm get stable
+```
+
+Once installation is done, you can verify it by running:
+```sh
+ruby -v
+```
+
+To setup the Ruby environment, you can simply check if the Ruby environment is setup by a RVM command:
+```sh
+rvm requirements
+```
+
+While installing gems, the process will automatically generate documents, which can be time consuming.  If you perfer online documents over local generated ones, you can skip the auto documents generating process, which would save you some time.
+
+To disable the process, you can create a gem configuration file by running:
+```sh
+subl ~/.gemrc
+```
+
+and then paste and save the following two lines into `.gemrc`
+```sh
+install: --no-rdoc --no-ri
+update:  --no-rdoc --no-ri
+```
+
+[BACK TO TOP](#table-of-contents)
+
+
 ## devkit
 ## Rails
 ## RSpec
@@ -324,49 +428,6 @@ Select the packages listed in [here](#android-sdk) to install.
 
 
 # Windows
-
-## Ruby on Windows
-Ruby is the prerequisite for Rails.  You can download the latest Ruby for Windows from here:
-
-http://rubyinstaller.org/downloads/
-
-Choose the appropriate RubyInstaller to download, either the [x86 installer](http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.0.0-p481.exe) or [x64 installer](http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.0.0-p481-x64.exe) based on your operation system.
-
-To download the installer through command line, you can do so by running:
-For 64-bit system:
-```sh
-curl --remote-name "http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.0.0-p481-x64.exe"
-```
-
-For 32-bit system:
-```sh
-curl --remote-name "http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.0.0-p481.exe"
-```
-
-Install Ruby under /c/usr/bin/ruby or whatever directory you chose
-
-Once the installation is done, the executable `ruby.exe` should then be under:
-`/c/usr/bin/ruby/bin`
-
-Run git bash as administrator, then create a symbolic link by running:
-```sh
-ln -s /c/usr/bin/ruby/bin/ruby.exe /usr/bin/ruby.exe
-```
-
-Verify the symbolic link is working properly by running:
-```sh
-which ruby # should see /usr/bin/ruby
-```
-
-If there is error saying ruby is not found on sh.exe, restart the git bash and redo the verification.
-
-Once you restarted the git bash and verified ruby is installed on your machine, you can check its version by running:
-```sh
-ruby -v
-```
-
-[BACK TO TOP](#table-of-contents)
-
 
 ### devkit
 devkit is the prerequisite for Rails.  You can download its latest version for Windows from here:
@@ -637,29 +698,6 @@ To install homebrew, simply open your terminal and running:
 ```sh
 ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 ```
-
-[BACK TO TOP](#table-of-contents)
-
-
-## Ruby on Mac
-
-Mac should have Ruby installed by default and it is the prerequisite for installing Rails.  To verify it, you can open your terminal and run:
-```sh
-ruby --version
-```
-It should show you the version of your currently installed Ruby.
-
-If ruby does not come with your Mac somehow or you want to have a newer version of Ruby, you can download and follow the installation instruction on Ruby's website:
-```sh
-https://www.ruby-lang.org/en/downloads/
-```
-
-Or you can install the latest version of Ruby through Homebrew by running:
-```sh
-brew install ruby
-```
-
-Or you can use RVM to install Ruby as well, see the next section for instruction.
 
 [BACK TO TOP](#table-of-contents)
 
@@ -937,47 +975,6 @@ Ubuntu comes with OpenSSL, but it may need to be upgraded because of the Heartbl
 You can upgrade OpenSSL by running:
 ```sh
 sudo apt-get upgrade openssl
-```
-
-[BACK TO TOP](#table-of-contents)
-
-
-## Ruby on Ubuntu
-Since Ruby Version Manager (RVM) is also available for Linux and other Unix-like operation system, you can install Ruby easily through using RVM.  You can learn more about RVM on their home page: `https://rvm.io/`
-
-To install RVM and Ruby, you need to have [Curl](#curl-on-ubuntu), follow the instruction to get it if you haven't have it.
-
-To install the latest RVM along with the latest stable Ruby, you can simply run:
-```sh
-\curl -sSL https://get.rvm.io | bash -s stable
-```
-
-If you already have RVM setup, you can update it to the latest version by running:
-```sh
-rvm get stable
-```
-
-Once installation is done, you can verify it by running:
-```sh
-ruby -v
-```
-
-To setup the Ruby environment, you can simply check if the Ruby environment is setup by a RVM command:
-```sh
-rvm requirements
-```
-
-While installing gems, the process will automatically generate documents, which can be time consuming.  If you perfer online documents over local generated ones, you can skip the auto documents generating process, which would save you some time.
-
-To disable the process, you can create a gem configuration file by running:
-```sh
-subl ~/.gemrc
-```
-
-and then paste and save the following two lines into `.gemrc`
-```sh
-install: --no-rdoc --no-ri
-update:  --no-rdoc --no-ri
 ```
 
 [BACK TO TOP](#table-of-contents)
