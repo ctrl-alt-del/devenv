@@ -283,6 +283,31 @@ Once you restarted the git bash and verified ruby is installed on your machine, 
 ruby -v
 ```
 
+#### devkit
+devkit is the prerequisite for Rails on Windows.  You can download its latest version for Windows from here:
+
+http://rubyinstaller.org/downloads/
+
+Scroll down to "Other Userful Downloads" and it is under "development kit" section.
+
+Choose the appropriate devkit to download, either x86 or x64 based on your operation system.
+
+Once the download is done, double click on the executable file and install/unzip it to /c/usr/bin/devkit, or whatever directory you chose.
+
+Run git bash as administrator and go to the directory of devkit by running:
+```sh
+cd /c/usr/bin/devkit
+```
+
+Initialize the devkit and then install it by running:
+```sh
+ruby dk.rb init
+ruby dk.rb install
+```
+
+If there is no error shows up, the setup is successful.
+
+[BACK TO TOP](#table-of-contents)
 
 
 ### Ruby on Mac
@@ -347,7 +372,6 @@ update:  --no-rdoc --no-ri
 [BACK TO TOP](#table-of-contents)
 
 
-## devkit
 ## Rails
 ## RSpec
 ## RVM
@@ -428,33 +452,6 @@ Select the packages listed in [here](#android-sdk) to install.
 
 
 # Windows
-
-### devkit
-devkit is the prerequisite for Rails.  You can download its latest version for Windows from here:
-
-http://rubyinstaller.org/downloads/
-
-Scroll down to "Other Userful Downloads" and it is under "development kit" section.
-
-Choose the appropriate devkit to download, either x86 or x64 based on your operation system.
-
-Once the download is done, double click on the executable file and install/unzip it to /c/usr/bin/devkit, or whatever directory you chose.
-
-Run git bash as administrator and go to the directory of devkit by running:
-```sh
-cd /c/usr/bin/devkit
-```
-
-Initialize the devkit and then install it by running:
-```sh
-ruby dk.rb init
-ruby dk.rb install
-```
-
-If there is no error shows up, the setup is successful.
-
-[BACK TO TOP](#table-of-contents)
-
 
 ## Rails on Windows
 Ruby and devkit are the prerequisite for Rails.  To verify both Ruby and devkit are installed in your machine, run the following lines on your git bash:
