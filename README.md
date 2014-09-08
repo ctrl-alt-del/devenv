@@ -244,11 +244,7 @@ sudo yum install curl
 
 ## Ruby
 ### Ruby on Windows
-Ruby is the prerequisite for Rails.  You can download the latest Ruby for Windows from here:
-
-http://rubyinstaller.org/downloads/
-
-Choose the appropriate RubyInstaller to download, either the [x86 installer](http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.0.0-p481.exe) or [x64 installer](http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.0.0-p481-x64.exe) based on your operation system.
+You can install Ruby on Windows by using [RubyInstaller](http://rubyinstaller.org/downloads/) with either the [x86 installer](http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.0.0-p481.exe) or [x64 installer](http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.0.0-p481-x64.exe) based on your operation system.
 
 To download the installer through command line, you can do so by running:
 For 64-bit system:
@@ -284,9 +280,7 @@ ruby -v
 ```
 
 #### devkit
-devkit is the prerequisite for Rails on Windows.  You can download its latest version for Windows from here:
-
-http://rubyinstaller.org/downloads/
+devkit is the prerequisite for Rails on Windows.  You can download its latest version for Windows from [here](http://rubyinstaller.org/downloads/).
 
 Scroll down to "Other Userful Downloads" and it is under "development kit" section.
 
