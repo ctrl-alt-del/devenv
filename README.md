@@ -48,11 +48,11 @@ This document and bash scripts will be updated piece by piece and I will try my 
 
 
 * [General Setup](#general-setup)
-	* [Setup .bash_profile](#setup-bash_profile)
-	* [Chrome](#chrome)
-		* [EditThisCookie](#editthiscookie)
-		* [REST Console](#rest-console)
-		* [JSON View](#json-view)
+* [Setup .bash_profile](#setup-bash_profile)
+* [Chrome](#chrome)
+* [EditThisCookie](#editthiscookie)
+* [REST Console](#rest-console)
+* [JSON View](#json-view)
 
 * [Setup Android dev environment](#setup-android-dev-enviroment)
 
@@ -276,7 +276,7 @@ If there is error saying ruby is not found on sh.exe, restart the git bash and r
 
 Once you restarted the git bash and verified ruby is installed on your machine, you can check its version by running:
 ```sh
-ruby -v
+ruby --version
 ```
 
 #### devkit
@@ -305,24 +305,16 @@ If there is no error shows up, the setup is successful.
 
 
 ### Ruby on Mac
-
 Mac should have Ruby installed by default and it is the prerequisite for installing Rails.  To verify it, you can open your terminal and run:
 ```sh
 ruby --version
 ```
 It should show you the version of your currently installed Ruby.
 
-If ruby does not come with your Mac somehow or you want to have a newer version of Ruby, you can download and follow the installation instruction on Ruby's website:
-```sh
-https://www.ruby-lang.org/en/downloads/
-```
-
-Or you can install the latest version of Ruby through Homebrew by running:
-```sh
-brew install ruby
-```
-
-Or you can use RVM to install Ruby as well, see the next section for instruction.
+If Ruby does not come with your Mac somehow or you want to have a newer version of Ruby, you can get it with these approaches:
+1. Download the latest Ruby from its [homepage](https://www.ruby-lang.org/en/downloads/) and install it manually according to its instruction.
+2. Install the latest version of Ruby through Homebrew by running `brew install ruby`.
+3. Use RVM to install Ruby, see the next section for instruction.
 
 
 ### Ruby on Ubuntu
