@@ -243,6 +243,12 @@ sudo yum install curl
 ## Wget
 
 ## Ruby
+
+* [**Windows**](#ruby-on-windows)
+* [**Mac**](#ruby-on-mac)
+* [**Ubuntu**](#ruby-on-ubuntu)
+* [**Fedora**](#ruby-on-fedora)
+
 ### Ruby on Windows
 You can install Ruby on Windows by using [RubyInstaller](http://rubyinstaller.org/downloads/) with either the [x86 installer](http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.0.0-p481.exe) or [x64 installer](http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.0.0-p481-x64.exe) based on your operation system.
 
@@ -314,7 +320,7 @@ It should show you the version of your currently installed Ruby.
 If Ruby does not come with your Mac somehow or you want to have a newer version of Ruby, you can get it with these approaches:
 1. Download the latest Ruby from its [homepage](https://www.ruby-lang.org/en/downloads/) and install it manually according to its instruction.
 2. Install the latest version of Ruby through Homebrew by running `brew install ruby`.
-3. Use RVM to install Ruby, see the next section for instruction.
+3. Use RVM to install Ruby, see the instruction for [**Ubuntu**](#ruby-on-ubuntu).
 
 
 ### Ruby on Ubuntu
@@ -354,6 +360,10 @@ and then paste and save the following two lines into `.gemrc`
 install: --no-rdoc --no-ri
 update:  --no-rdoc --no-ri
 ```
+
+### Ruby on Fedora
+Same as Ubuntu, see the instruction for [**Ubuntu**](#ruby-on-ubuntu).
+
 
 [BACK TO TOP](#table-of-contents)
 
