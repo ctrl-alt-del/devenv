@@ -25,7 +25,6 @@ This document and bash scripts will be updated piece by piece and I will try my 
 |[devkit](#devkit)           | [-->](#devkit)                 | N/A                       | N/A                         | N/A                         |
 |[Rails](#rails)             | [-->](#rails-on-windows)       | [-->](#rails-on-mac)      | [-->](#rails-on-ubuntu)     | [   ](#rails-on-fedora)     |
 |[RSpec](#rspec)             | [-->](#rspec-on-windows)       | [   ](#rspec-on-mac)      | [   ](#rspec-on-ubuntu)     | [   ](#rspec-on-fedora)     |
-|[RVM](#rvm)                 | N/A                            | [-->](#rvm-on-mac)        | [   ](               )      | [   ](               )      |
 |[Java](#java)               | [-->](#java-on-windows)        | [-->](#java-on-mac)       | [-->](#java-on-ubuntu)      | [   ](#java-on-fedora)      |
 |[Python](#python)           | [-->](#python-on-windows)      | [-->](#python-on-mac)     | [-->](#python-on-ubuntu)    | [   ](               )      |
 |[PHP](#php)                 | [-->](#php-on-windows)         | [-->](#php-on-mac)        | [-->](#php-on-ubuntu)       | [   ](               )      |
@@ -325,12 +324,18 @@ If Ruby does not come with your Mac somehow or you want to have a newer version 
 
 ### Ruby on Ubuntu
 Since Ruby Version Manager (RVM) is also available for Linux and other Unix-like operation system, you can install Ruby easily through using RVM.  You can learn more about RVM on their home page: `https://rvm.io/`
+RVM is a convenient way to manage multiple versions of Ruby and Rails (e.g. the system default version and the latest version) because sometimes you may want to keep the older version of Ruby to keep the compatibility or whatever.
 
 To install RVM and Ruby, you need to have [Curl](#curl-on-ubuntu), follow the instruction to get it if you haven't have it.
 
-To install the latest RVM along with the latest stable Ruby, you can simply run:
+To install the latest RVM along with the latest stable RVM + Ruby, you can simply run:
 ```sh
-\curl -sSL https://get.rvm.io | bash -s stable
+\curl -sSL https://get.rvm.io | bash -s stable --ruby
+```
+
+Similarly, you can install the latest stable version of RVM + Ruby + Rails by running:
+```sh
+\curl -sSL https://get.rvm.io | bash -s stable --rails
 ```
 
 If you already have RVM setup, you can update it to the latest version by running:
@@ -695,43 +700,7 @@ ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 [BACK TO TOP](#table-of-contents)
 
 
-## RVM on Mac
-You may also use RVM to install and manage your Ruby and Rails.  RVM stands for Ruby Version Manager; it is a convenient way to manage multiple versions of Ruby and Rails (e.g. the system default version and the latest version) because sometimes you may want to keep the older version of Ruby to keep the compatibility or whatever.
 
-You may learn more details about RVM on its home page:
-```sh
-https://rvm.io/rvm/install
-```
-
-Or you can install the latest stable version of RVM + Ruby by running:
-```sh
-\curl -sSL https://get.rvm.io | bash -s stable --ruby
-```
-
-Similarly, you can install the latest stable version of RVM + Ruby + Rails by running:
-```sh
-\curl -sSL https://get.rvm.io | bash -s stable --rails
-```
-
-To setup the Ruby environment, you can simply check if the Ruby environment is setup by a RVM command:
-```sh
-rvm requirements
-```
-
-While installing gems, the process will automatically generate documents, which can be time consuming.  If you prefer online documents over local generated ones, you can skip the auto documents generating process, which would save you some time.
-
-To disable the process, you can create a gem configuration file by running:
-```sh
-subl ~/.gemrc
-```
-
-and then paste and save the following two lines into `.gemrc`
-```sh
-install: --no-rdoc --no-ri
-update:  --no-rdoc --no-ri
-```
-
-[BACK TO TOP](#table-of-contents)
 
 
 ## Rails on Mac
