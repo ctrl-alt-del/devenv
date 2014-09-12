@@ -374,6 +374,33 @@ Same as Ubuntu, see the instruction for [**Ubuntu**](#ruby-on-ubuntu).
 
 
 ## Rails
+
+* [**Windows**](#rails-on-windows)
+* [**Mac**](#rails-on-mac)
+* [**Ubuntu**](#rails-on-ubuntu)
+* [**Fedora**](#rails-on-fedora)
+
+### Rails on Windows
+Ruby and devkit are the prerequisite for Rails.  To verify both Ruby and devkit are installed in your machine, run the following lines on your git bash:
+```sh
+which ruby # should see a path similar to /c/usr/bin/ruby/bin/ruby
+which gem # should see a path similar to /c/usr/bin/devkit/gem
+```
+
+Then run following line to install Rails:
+```sh
+gem install rails
+```
+
+Once installation is done, verify it by running:
+```sh
+which rails # should see a path similar to /c/usr/bin/rails/rails
+```
+
+[BACK TO TOP](#table-of-contents)
+
+
+
 ## RSpec
 ## RVM
 ## Java
@@ -453,26 +480,6 @@ Select the packages listed in [here](#android-sdk) to install.
 
 
 # Windows
-
-## Rails on Windows
-Ruby and devkit are the prerequisite for Rails.  To verify both Ruby and devkit are installed in your machine, run the following lines on your git bash:
-```sh
-which ruby # should see a path similar to /c/usr/bin/ruby/bin/ruby
-which gem # should see a path similar to /c/usr/bin/devkit/gem
-```
-
-Then run following line to install Rails:
-```sh
-gem install rails
-```
-
-Once installation is done, verify it by running:
-```sh
-which rails # should see a path similar to /c/usr/bin/rails/rails
-```
-
-[BACK TO TOP](#table-of-contents)
-
 
 ### RSpec on Windows
 Rails is the prerequisite for RSpec.  To verify Rails is installed in your machine, run the following lines on your git bash:
