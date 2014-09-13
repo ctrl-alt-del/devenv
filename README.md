@@ -397,6 +397,31 @@ Once installation is done, verify it by running:
 which rails # should see a path similar to /c/usr/bin/rails/rails
 ```
 
+
+## Rails on Mac
+As it is shown [here](#ruby-on-mac) earlier, Mac should have come with Ruby by default.  Therefore, you can install Rails through terminal by simply running:
+```sh
+gem install rails
+```
+
+To install latest stable Rails through RVM, you can simply run:
+```sh
+\curl -sSL https://get.rvm.io | bash -s stable --rails
+```
+
+Once installation is done, verify it through running:
+```sh
+which rails
+```
+
+If you encounter issue while running `gem install pg`, you need to install PostgreSQL and you can do so by follow the instruction [here](#postgresql-on-mac)
+
+
+## Rails on Ubuntu
+Please follow the same instruction of [Mac](#rails-on-mac).
+
+If you come across an error that compliant about no having a Javascript runtime environment, you can resolve it by installing [Node.js](#nodejs-on-ubuntu).
+
 [BACK TO TOP](#table-of-contents)
 
 
@@ -707,26 +732,6 @@ ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 [BACK TO TOP](#table-of-contents)
 
 
-
-
-
-## Rails on Mac
-
-Once Ruby is installed in your Mac, you can install Rails through terminal by simply running:
-```sh
-gem install rails
-```
-
-Once installation is done, verify it through running:
-```sh
-which rails
-```
-
-If you encounter issue while running `gem install pg`, you need to install PostgreSQL and you can do so by follow the instruction [here](#postgresql-on-mac)
-
-[BACK TO TOP](#table-of-contents)
-
-
 ## Java on Mac
 
 Both Java 7 and 8 are available today.  This instruction will focus on Java 7, but the processes are similar to Java 8.
@@ -949,27 +954,6 @@ sudo apt-get upgrade openssl
 [BACK TO TOP](#table-of-contents)
 
 
-## Rails on Ubuntu
-You can use RVM to install Rails as well.
-
-To install latest stable Rails, you can simply run:
-```sh
-\curl -sSL https://get.rvm.io | bash -s stable --rails
-```
-
-Or if you already have RVM and Ruby installed, you can install Rails alone by running:
-```sh
-gem install rails
-```
-
-Once installation is done, you can verify it by running:
-```sh
-rails -v
-```
-
-If you come across an error that compliant about no having a Javascript runtime environment, you can resolve it by installing [Node.js](#nodejs-on-ubuntu).
-
-[BACK TO TOP](#table-of-contents)
 
 
 ## Java/OpenJDK
