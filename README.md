@@ -429,6 +429,32 @@ If you come across an error that compliant about no having a Javascript runtime 
 ## RSpec
 ## RVM
 ## Java
+
+### Java on Mac
+
+Both Java 7 and 8 are available today.  This instruction will focus on Java 7, but the processes are similar to Java 8.
+
+Go to the home page of Oracle to choose the Java SDK version:
+```sh
+http://www.oracle.com/technetwork/java/javase/downloads/index.html?ssSourceSiteId=otnjp
+```
+
+You can also go directly to the download page of Java 7 SDK with following link:
+```sh
+http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html
+```
+
+Scroll down the page to the section of "Java SE Development Kit 7uXX", follow the instruction on there to read and accept the license agreement, then click the download link for "Mac OS X x64".
+
+Once the dmg file is downloaded, double click to start the install process and follow its instruction to complete the process.
+
+Once the installation is done, you can verify your Java version by running the following line on terminal:
+```sh
+java -version
+```
+
+[BACK TO TOP](#table-of-contents)
+
 ## Python
 ## PHP
 ## Node.js
@@ -727,32 +753,6 @@ Once the installation package is downloaded, double click to install it.
 To install homebrew, simply open your terminal and running:
 ```sh
 ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
-```
-
-[BACK TO TOP](#table-of-contents)
-
-
-## Java on Mac
-
-Both Java 7 and 8 are available today.  This instruction will focus on Java 7, but the processes are similar to Java 8.
-
-Go to the home page of Oracle to choose the Java SDK version:
-```sh
-http://www.oracle.com/technetwork/java/javase/downloads/index.html?ssSourceSiteId=otnjp
-```
-
-You can also go directly to the download page of Java 7 SDK with following link:
-```sh
-http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html
-```
-
-Scroll down the page to the section of "Java SE Development Kit 7uXX", follow the instruction on there to read and accept the license agreement, then click the download link for "Mac OS X x64".
-
-Once the dmg file is downloaded, double click to start the install process and follow its instruction to complete the process.
-
-Once the installation is done, you can verify your Java version by running the following line on terminal:
-```sh
-java -version
 ```
 
 [BACK TO TOP](#table-of-contents)
