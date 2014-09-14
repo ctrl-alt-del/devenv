@@ -429,6 +429,34 @@ If you come across an error that compliant about no having a Javascript runtime 
 ## RSpec
 ## RVM
 ## Java
+### Java on Windows
+Download the latest Java for Windows from [Oracle](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html).
+
+Choose the appropriate Thread Safe zip to download, either x86 or x64 based on your operation system.
+
+Run the downloaded executable file and install java under:
+```sh
+/c/usr/bin/java
+```
+Run git bash as administrator, then go to the bin of git bash by running:
+```sh
+cd /usr/bin
+```
+
+Create a symbolic link by running:
+```sh
+ln -s /c/usr/bin/java/java.exe java.exe
+```
+
+Verify the symbolic link is working properly by running:
+```sh
+which java # should see /usr/bin/java
+```
+
+if there is error saying php is not found on sh.exe, restart the git bash and run above line again.
+
+[BACK TO TOP](#table-of-contents)
+
 
 ### Java on Mac
 
@@ -582,37 +610,6 @@ Verified sqlite is installed and properly linked on your machine by running:
 ```sh
 sqlite -v
 ```
-
-[BACK TO TOP](#table-of-contents)
-
-
-## Java on Windows
-Download the latest Java for Windows from here:
-
-http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html
-
-Choose the appropriate Thread Safe zip to download, either x86 or x64 based on your operation system.
-
-Run the downloaded executable file and install java under:
-```sh
-/c/usr/bin/java
-```
-Run git bash as administrator, then go to the bin of git bash by running:
-```sh
-cd /usr/bin
-```
-
-Create a symbolic link by running:
-```sh
-ln -s /c/usr/bin/java/java.exe java.exe
-```
-
-Verify the symbolic link is working properly by running:
-```sh
-which java # should see /usr/bin/java
-```
-
-if there is error saying php is not found on sh.exe, restart the git bash and run above line again.
 
 [BACK TO TOP](#table-of-contents)
 
