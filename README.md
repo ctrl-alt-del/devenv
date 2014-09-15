@@ -483,6 +483,29 @@ java -version
 
 [BACK TO TOP](#table-of-contents)
 
+### Java on Ubuntu
+We will use OpenJDK since it is open source.  You can install OpenJDK by running:
+```sh
+sudo apt-get update
+sudo apt-get install openjdk-7-jdk
+```
+
+Once installation process is done, you can verify the version of Java by running:
+```sh
+java -version
+```
+
+[BACK TO TOP](#table-of-contents)
+
+### Java on Fedora
+Similarily, we will install OpenJDK on Fedora by running:
+```sh
+yum install java-1.7.0-openjdk-devel
+```
+
+[BACK TO TOP](#table-of-contents)
+
+
 ## Python
 ## PHP
 ## Node.js
@@ -951,20 +974,6 @@ sudo apt-get upgrade openssl
 [BACK TO TOP](#table-of-contents)
 
 
-
-
-## Java/OpenJDK
-Java is essential for many applications.  You can install Java JDK by running:
-```sh
-sudo apt-get install openjdk-7-jdk
-```
-
-Once installation process is done, you can verify the version of Java by running:
-```sh
-java -version
-```
-
-[BACK TO TOP](#table-of-contents)
 
 
 ## Python on Ubuntu
