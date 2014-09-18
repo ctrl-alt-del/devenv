@@ -551,6 +551,38 @@ if there is error saying php is not found on sh.exe, restart the git bash and ru
 [BACK TO TOP](#table-of-contents)
 
 
+### Python on Mac
+
+Mac should have Python installed by default.  To verify it, you can open your terminal and run:
+```sh
+python --version
+```
+It should show you the version of your currently installed Python.
+
+If Python does not come with your Mac somehow or you want to have a newer version of Python, (e.g. Python 3.x rather than Python 2.7.x), you can download and follow the installation instruction on Python's website:
+```sh
+https://www.python.org/downloads/
+```
+
+Or you can install the latest version of Python through Homebrew by running:
+```sh
+brew install python
+```
+
+[BACK TO TOP](#table-of-contents)
+
+
+### Python on Ubuntu
+Install Python can be very easy with the help from the DeadSnakes PPA:
+```sh
+sudo add-apt-repository ppa:fkrull/deadsnakes
+sudo apt-get update
+sudo apt-get install python2.7
+```
+
+[BACK TO TOP](#table-of-contents)
+
+
 ## PHP
 ## Node.js
 ## npm
@@ -776,27 +808,6 @@ ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 [BACK TO TOP](#table-of-contents)
 
 
-## Python on Mac
-
-Mac should have Python installed by default.  To verify it, you can open your terminal and run:
-```sh
-python --version
-```
-It should show you the version of your currently installed Python.
-
-If Python does not come with your Mac somehow or you want to have a newer version of Python, (e.g. Python 3.x rather than Python 2.7.x), you can download and follow the installation instruction on Python's website:
-```sh
-https://www.python.org/downloads/
-```
-
-Or you can install the latest version of Python through Homebrew by running:
-```sh
-brew install python
-```
-
-[BACK TO TOP](#table-of-contents)
-
-
 ## PHP on Mac
 
 [BACK TO TOP](#table-of-contents)
@@ -967,19 +978,6 @@ Ubuntu comes with OpenSSL, but it may need to be upgraded because of the Heartbl
 You can upgrade OpenSSL by running:
 ```sh
 sudo apt-get upgrade openssl
-```
-
-[BACK TO TOP](#table-of-contents)
-
-
-
-
-## Python on Ubuntu
-Install Python can be very easy with the help from the DeadSnakes PPA:
-```sh
-sudo add-apt-repository ppa:fkrull/deadsnakes
-sudo apt-get update
-sudo apt-get install python2.7
 ```
 
 [BACK TO TOP](#table-of-contents)
