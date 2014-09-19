@@ -26,7 +26,7 @@ This document and bash scripts will be updated piece by piece and I will try my 
 |[Rails](#rails)             | [-->](#rails-on-windows)       | [-->](#rails-on-mac)      | [-->](#rails-on-ubuntu)     | [   ](#rails-on-fedora)     |
 |[RSpec](#rspec)             | [-->](#rspec-on-windows)       | [   ](#rspec-on-mac)      | [   ](#rspec-on-ubuntu)     | [   ](#rspec-on-fedora)     |
 |[Java](#java)               | [-->](#java-on-windows)        | [-->](#java-on-mac)       | [-->](#java-on-ubuntu)      | [   ](#java-on-fedora)      |
-|[Python](#python)           | [-->](#python-on-windows)      | [-->](#python-on-mac)     | [-->](#python-on-ubuntu)    | [   ](               )      |
+|[Python](#python)           | [-->](#python-on-windows)      | [-->](#python-on-mac)     | [-->](#python-on-ubuntu)    | [-->](#python-on-fedora)    |
 |[PHP](#php)                 | [-->](#php-on-windows)         | [-->](#php-on-mac)        | [-->](#php-on-ubuntu)       | [   ](               )      |
 |[Node.js](#nodejs)          | [-->](#nodejs)                 | [-->](#nodejs)            | [-->](#nodejs-on-ubuntu)    | [   ](               )      |
 |[npm](#npm)                 | [   ](       )                 | N/A                       | [-->](#npm-on-ubuntu)       | [   ](               )      |
@@ -507,6 +507,12 @@ yum install java-1.7.0-openjdk-devel
 
 
 ## Python
+
+* [**Windows**](#python-on-windows)
+* [**Mac**](#python-on-mac)
+* [**Ubuntu**](#python-on-ubuntu)
+* [**Fedora**](#python-on-fedora)
+
 ### Python on Windows
 There are Python 2.x and Python 3.x available.  This instruction will focus on 2.x, but similar steps can be easily applied to 3.x as well.
 
@@ -578,6 +584,15 @@ Install Python can be very easy with the help from the DeadSnakes PPA:
 sudo add-apt-repository ppa:fkrull/deadsnakes
 sudo apt-get update
 sudo apt-get install python2.7
+```
+
+[BACK TO TOP](#table-of-contents)
+
+
+### Python on Fedora
+```sh
+sudo yum update
+sudo yum install python27
 ```
 
 [BACK TO TOP](#table-of-contents)
