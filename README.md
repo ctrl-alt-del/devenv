@@ -1219,4 +1219,22 @@ sudo yum install guake
 [BACK TO TOP](#table-of-contents)
 
 
-## Zsh on Fedora
+## VirtualBox on Fedora
+
+Before all, please run `sudo yum update` to get the latest updates and then restart the computer if there are new updates were installed.
+
+Navigate to the repository directory and add the virtualbox repo
+```sh
+cd /etc/yum.repos.d/
+sudo  wget http://download.virtualbox.org/virtualbox/rpm/fedora/virtualbox.repo
+```
+
+Then, perform another `sudo yum update` and install the reuqired llibraries:
+```sh
+sudo yum install kernel-devel dkms binutils gcc make patch libgomp glibc-headers glibc-devel kernel-headers
+```
+
+Once the libraries are installed, you can install VirtualBox:
+```sh
+sudo yum install VirtualBox-4.3.x86_64
+```
