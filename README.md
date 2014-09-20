@@ -16,7 +16,7 @@ This document and bash scripts will be updated piece by piece and I will try my 
 |[Zsh](#zsh)                 | N/A                            | [   ](#zsh-on-mac)        | [-->](#zsh-on-ubuntu)       | [-->](#zsh-on-fedora)       |
 |[Oh-My-Zsh](#oh-my-zsh)     | [   ](#oh-my-zsh-on-windows)   | [   ](#oh-my-zsh-on-mac)  | [   ](#oh-my-zsh-on-ubuntu) | [   ](#oh-my-zsh-on-fedora) |
 |[Homebrew](#homebrew)       | N/A                            | [-->](#homebrew)          | N/A                         | N/A                         |
-|[Sublime](#sublime)         | [   ](#sublime-on-windows)     | [-->](#sublime-on-mac)    | [-->](#sublime-on-ubuntu)   | [   ](#sublime-on-fedora)   |
+|[Sublime](#sublime)         | [   ](#sublime-on-windows)     | [-->](#sublime-on-mac)    | [-->](#sublime-on-ubuntu)   | [-->](#sublime-on-fedora)   |
 |[Git](#git)                 | [-->](#git-on-windows)         | [-->](#git-on-mac)        | [-->](#git-on-ubuntu)       | [-->](#git-on-fedora)       |
 |[Gitk](#gitk)               | [   ](#gitk-on-windows)        | [   ](#gitk-on-mac)       | [-->](#gitk-on-ubuntu)      | [   ](#gitk-on-fedora)      |
 |[SmartGit](#smartgit)       | [   ](#smartgit-on-windows)    | [   ](#smartgit-on-mac)   | [-->](#smartgit-on-ubuntu)  | [   ](#smartgit-on-fedora)  |
@@ -116,6 +116,40 @@ ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 
 ## Sublime
 Sublime is a very useful and convenient text editor.  You can learn more about it on its [homepage](http://www.sublimetext.com/)
+
+### Sublime on Ubuntu
+Sublime is a very useful text editor, you can install it through PPA.
+To add the sublime PPA, run:
+```sh
+sudo add-apt-repository ppa:webupd8team/sublime-text-2
+sudo apt-get update
+```
+
+Once the PPA is added and updated, you can install Sublime by running:
+```sh
+sudo apt-get install sublime-text
+```
+
+Once Sublime is successfully installed, you can use it to open a single file by running:
+`subl <FILE_PATH>`, or open all files of the current directory by running `subl .`
+
+[BACK TO TOP](#table-of-contents)
+
+
+### Sublime on Fedora
+
+```sh
+wget http://c758482.r82.cf2.rackcdn.com/Sublime\ Text\ 2.0.2\ x64.tar.bz2
+mv Sublime\ Text\ 2.0.2\ x64.tar.bz2 /opt/sublime.tar.bz2
+tar vxjf sublime.tar.bz2
+mv Sublime\ Text\ 2 sublime
+rm -rf sublime.tar.bz2
+sudo ln -s /opt/sublime/sublime_text /usr/bin/subl
+```
+
+[BACK TO TOP](#table-of-contents)
+
+
 
 ## Git
 Git is a distributed version control and code management system.  You can learn more detail about it on its [homepage](http://git-scm.com/).
@@ -919,25 +953,6 @@ Once Tilda is successfully installed, you can configure it by running:
 ```sh
 tilda -C
 ```
-
-[BACK TO TOP](#table-of-contents)
-
-
-## Sublime on Ubuntu
-Sublime is a very useful text editor, you can install it through PPA.
-To add the sublime PPA, run:
-```sh
-sudo add-apt-repository ppa:webupd8team/sublime-text-2
-sudo apt-get update
-```
-
-Once the PPA is added and updated, you can install Sublime by running:
-```sh
-sudo apt-get install sublime-text
-```
-
-Once Sublime is successfully installed, you can use it to open a single file by running:
-`subl <FILE_PATH>`, or open all files of the current directory by running `subl .`
 
 [BACK TO TOP](#table-of-contents)
 
