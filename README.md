@@ -44,6 +44,8 @@ This document and bash scripts will be updated piece by piece and I will try my 
 |[Android SDK](#android-sdk) | [-->](#sdk-on-windows)         | [-->](#android-sdk)       | [-->](#sdk-on-ubuntu)       | [-->](#sdk)                 |
 |[ADT](#adt)                 | [-->](#adt)                    | [-->](#adt)               | [-->](#adt)                 | [-->](#adt)                 |
 |[Eclipse](#eclipse)         | [-->](#eclipse)                | [-->](#eclipse)           | [   ](#eclipse-on-ubuntu)   | [   ](#eclipse-on-fedora)   |
+|[VirtualBox](#virtualbox)   | [   ](#virtualbox)             | [   ](#virtualbox)        | [-->](#virtualbox-on-ubuntu)| [-->](#virtualbox-on-fedora)|
+
 
 
 * [General Setup](#general-setup)
@@ -704,6 +706,41 @@ Select the packages listed in [here](#android-sdk) to install.
 ## Eclipse
 
 
+## VirtualBox
+
+### VirtualBox on Ubuntu
+```sh
+sudo apt-get install virtualbox
+```
+
+[BACK TO TOP](#table-of-contents)
+
+
+### VirtualBox on Fedora
+It requires a little bit more work to install VirtualBox on Fedora.
+
+Before all, please run `sudo yum update` to get the latest updates and then restart the computer if there are new updates were installed.
+
+Navigate to the repository directory and add the virtualbox repo
+```sh
+cd /etc/yum.repos.d/
+sudo  wget http://download.virtualbox.org/virtualbox/rpm/fedora/virtualbox.repo
+```
+
+Then, perform another `sudo yum update` and install the reuqired llibraries:
+```sh
+sudo yum install kernel-devel dkms binutils gcc make patch libgomp glibc-headers glibc-devel kernel-headers
+```
+
+Once the libraries are installed, you can install VirtualBox:
+```sh
+sudo yum install VirtualBox-4.3.x86_64
+```
+
+[BACK TO TOP](#table-of-contents)
+
+
+
 
 
 # Windows
@@ -1218,23 +1255,3 @@ sudo yum install guake
 
 [BACK TO TOP](#table-of-contents)
 
-
-## VirtualBox on Fedora
-
-Before all, please run `sudo yum update` to get the latest updates and then restart the computer if there are new updates were installed.
-
-Navigate to the repository directory and add the virtualbox repo
-```sh
-cd /etc/yum.repos.d/
-sudo  wget http://download.virtualbox.org/virtualbox/rpm/fedora/virtualbox.repo
-```
-
-Then, perform another `sudo yum update` and install the reuqired llibraries:
-```sh
-sudo yum install kernel-devel dkms binutils gcc make patch libgomp glibc-headers glibc-devel kernel-headers
-```
-
-Once the libraries are installed, you can install VirtualBox:
-```sh
-sudo yum install VirtualBox-4.3.x86_64
-```
