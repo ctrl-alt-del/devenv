@@ -117,6 +117,11 @@ ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 
 
 ## Sublime
+
+* [**Ubuntu**](#sublime-on-ubuntu)
+* [**Fedora**](#sublime-on-fedora)
+* [**Configuration**](#sublime-configuration)
+
 Sublime is a very useful and convenient text editor.  You can learn more about it on its [homepage](http://www.sublimetext.com/)
 
 ### Sublime on Ubuntu
@@ -151,6 +156,13 @@ sudo ln -s /opt/sublime/sublime_text /usr/bin/subl
 
 [BACK TO TOP](#table-of-contents)
 
+
+### Sublime Configuration
+#### Package Control
+**Package Control** is the simplest way of install packages to sublime. You can learn about how to install Package Controll from [here](https://sublime.wbond.net/installation#st2).
+
+
+[BACK TO TOP](#table-of-contents)
 
 
 ## Git
