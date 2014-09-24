@@ -673,14 +673,11 @@ You can get Android SDK from its [developer page](http://developer.android.com/s
 Once the compressed file is downloaded, unzip it and place it in the same folder of eclipse, or whatever folder you like.
 
 Follow the installation process for your system:
-<br>
-[**Windows**](#sdk-on-windows)
-<br>
-[**Mac**](#sdk-on-mac)
-<br>
-[**Ubuntu**]()
-<br>
-[**Fedora**]()
+
+* [**Windows**](#sdk-on-windows)
+* [**Mac**](#sdk-on-mac)
+* [**Ubuntu**]()
+* [**Fedora**]()
 
 Navigate to the SDK folder and open its user interface, which would to let you select SDKs and tools to download.
 
@@ -777,6 +774,9 @@ sudo yum install glibc.i686 glibc-devel.i686 libstdc++.i686 zlib-devel.i686 ncur
 
 
 ## VirtualBox
+
+* [**Ubuntu**](#virtualbox-on-ubuntu)
+* [**Fedora**](#virtualbox-on-fedora)
 
 ### VirtualBox on Ubuntu
 ```sh
