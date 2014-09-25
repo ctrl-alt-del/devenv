@@ -182,8 +182,7 @@ You can download the latest git install file for Windows from [here](http://git-
 Once the installation file is downloaded, install it under /c/usr/bin/git or whatever directory you chose.  Don't worry about the configuration choices available during the installation process, it would be fine to just keep them in default.
 
 ### Git on Mac
-
-Mac should have Git by default.  You can verify your git version by opening your terminal and running:
+Git should've come with Mac by default.  You can verify your git version by opening your terminal and running:
 ```sh
 git --version
 ```
@@ -198,18 +197,22 @@ Or you can install it through [Homebrew](#homebrew) by running:
 brew install git
 ```
 
+[BACK TO TOP](#table-of-contents)
+
 
 ### Git on Ubuntu
-Git is a version control system, and it should've come with Ubuntu.  In case it is missing on your system, you can install it easily through running:
+Git should've come with Ubuntu, but if it is not, you can install it easily through running:
 ```sh
 sudo apt-get update
 sudo apt-get install git-core
 ```
 
-To upgrade to the latest version of Git, you can either:
+To upgrade to the latest version of Git, you can do so by running:
 ```sh
 sudo apt-get upgrade git
 ```
+
+[BACK TO TOP](#table-of-contents)
 
 
 ### Git on Fedora
