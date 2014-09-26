@@ -260,6 +260,8 @@ Run git bash as administrator, then create a symbolic link by running:
 ln -s /c/usr/bin/curl/curl.exe /usr/bin/curl.exe
 ```
 
+[BACK TO TOP](#table-of-contents)
+
 
 ### Curl on Mac
 Mac should have Curl by default.  You can verify your curl version by opening your terminal and running:
@@ -274,16 +276,18 @@ Or you can install it through Homebrew by running:
 brew install curl
 ```
 
+[BACK TO TOP](#table-of-contents)
+
 
 ### Curl on Ubuntu
-You can install Curl by running:
 ```sh
 sudo apt-get install curl
 ```
 
+[BACK TO TOP](#table-of-contents)
+
 
 ### Curl on Fedora
-You can install Curl by running:
 ```sh
 sudo yum install curl
 ```
@@ -335,6 +339,9 @@ Once you restarted the git bash and verified ruby is installed on your machine, 
 ruby --version
 ```
 
+If you want to call Ruby from the PowerShell of Windows's default terminal, you need to add Ruby to the system environment vairables.
+
+
 #### devkit
 devkit is the prerequisite for Rails on Windows.  You can download its latest version for Windows from [here](http://rubyinstaller.org/downloads/).
 
@@ -356,6 +363,7 @@ ruby dk.rb install
 ```
 
 If there is no error shows up, the setup is successful.
+
 
 [BACK TO TOP](#table-of-contents)
 
@@ -476,9 +484,6 @@ If you come across an error that compliant about no having a Javascript runtime 
 [BACK TO TOP](#table-of-contents)
 
 
-
-## RSpec
-## RVM
 ## Java
 ### Java on Windows
 Download the latest Java for Windows from [Oracle](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html).
