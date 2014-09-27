@@ -657,6 +657,22 @@ sudo yum install python27
 ## PHP
 ## Node.js
 ## npm
+
+## CoffeeScript
+Before install CoffeeScript, you need to make sure you have [Node.js](#nodejs) and Node Packaged Modules (npm) installed.  To verify that, just run:
+```sh
+node -v
+npm -v
+```
+Both of them should return version number.
+
+To install CoffeeScript, you can do so by running:
+```sh
+npm install -g coffee-script
+```
+You may need root permission to install it.
+
+
 ## Express
 ## Nodemon
 ## OpenSSL
