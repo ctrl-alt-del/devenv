@@ -656,6 +656,29 @@ sudo yum install python27
 
 ## PHP
 ## Node.js
+
+### Node.js on Mac
+To install Node.js, download the pkg file from its [homepage](http://nodejs.org/).
+
+Once download is done, double click the pkg file and follow the instruction to install it into your computer.
+
+Once installtion is done, Node.js and Node Packaged Modules (npm) should be installed.
+
+You can verify them by running:
+```sh
+node -v
+npm -v
+```
+
+Alternatively, you can install Node.js through [Homebrew](#homebrew).
+```sh
+brew intall node
+```
+
+[BACK TO TOP](#table-of-contents)
+
+
+
 ## npm
 
 ## CoffeeScript
