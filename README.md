@@ -28,7 +28,7 @@ This document and bash scripts will be updated piece by piece and I will try my 
 |[Java](#java)               | [-->](#java-on-windows)        | [-->](#java-on-mac)       | [-->](#java-on-ubuntu)      | [   ](#java-on-fedora)      |
 |[Python](#python)           | [-->](#python-on-windows)      | [-->](#python-on-mac)     | [-->](#python-on-ubuntu)    | [-->](#python-on-fedora)    |
 |[PHP](#php)                 | [-->](#php-on-windows)         | [-->](#php-on-mac)        | [-->](#php-on-ubuntu)       | [   ](               )      |
-|[Node.js](#nodejs)          | [-->](#nodejs)                 | [-->](#nodejs)            | [-->](#nodejs-on-ubuntu)    | [   ](               )      |
+|[Node.js](#nodejs)          | [-->](#nodejs)                 | [-->](#nodejs-on-mac)     | [-->](#nodejs-on-ubuntu)    | [   ](               )      |
 |[npm](#npm)                 | [   ](       )                 | N/A                       | [-->](#npm-on-ubuntu)       | [   ](               )      |
 |[Express](#express)         | [   ](       )                 | [-->](#express-on-mac)    | [   ](                 )    | [   ](               )      |
 |[Nodemon](#nodemon)         | [   ](       )                 | [-->](#nodemon-on-mac)    | [   ](                 )    | [   ](               )      |
@@ -656,13 +656,11 @@ sudo yum install python27
 
 ## PHP
 ## Node.js
+To install Node.js, download the install file from its [homepage](http://nodejs.org/).
 
-### Node.js on Mac
-To install Node.js, download the pkg file from its [homepage](http://nodejs.org/).
+Once download is done, double click the file and follow the instruction to install it into your computer.
 
-Once download is done, double click the pkg file and follow the instruction to install it into your computer.
-
-Once installtion is done, Node.js and Node Packaged Modules (npm) should be installed.
+Once installation is done, Node.js and Node Packaged Modules (npm) should be ready on your computer.
 
 You can verify them by running:
 ```sh
@@ -670,6 +668,9 @@ node -v
 npm -v
 ```
 
+
+
+### Node.js on Mac
 Alternatively, you can install Node.js through [Homebrew](#homebrew).
 ```sh
 brew intall node
@@ -695,6 +696,8 @@ npm install -g coffee-script
 ```
 You may need root permission to install it.
 
+
+[BACK TO TOP](#table-of-contents)
 
 ## Express
 ## Nodemon
