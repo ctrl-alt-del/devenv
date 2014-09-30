@@ -679,6 +679,21 @@ brew intall node
 [BACK TO TOP](#table-of-contents)
 
 
+## Node.js on Ubuntu
+Node.js is an platform for Javascript.  You can install Node.js by running:
+```sh
+sudo apt-get install nodejs
+```
+
+If you want to have the latest version of Node.js, you can install it through PPA maintained by Chris Lea.  You can do so by running:
+```sh
+sudo add-apt-repository ppa:chris-lea/node.js
+sudo apt-get update
+sudo apt-get install nodejs
+```
+
+[BACK TO TOP](#table-of-contents)
+
 
 ## npm
 
