@@ -23,7 +23,7 @@ This document and bash scripts will be updated piece by piece and I will try my 
 |[Curl](#curl)               | [-->](#curl-on-windows)        | [-->](#curl-on-mac)       | [-->](#curl-on-ubuntu)      | [   ](#curl-on-fedora)      |
 |[Ruby](#ruby)               | [-->](#ruby-on-windows)        | [-->](#ruby-on-mac)       | [-->](#ruby-on-ubuntu)      | [   ](#ruby-on-fedora)      |
 |[devkit](#devkit)           | [-->](#devkit)                 | N/A                       | N/A                         | N/A                         |
-|[Rails](#rails)             | [-->](#rails-on-windows)       | [-->](#rails-on-mac)      | [-->](#rails-on-ubuntu)     | [   ](#rails-on-fedora)     |
+|[Rails](#rails)             | [-->](#rails-on-windows)       | [-->](#rails-on-mac)      | [-->](#rails-on-ubuntu)     | [-->](#rails-on-fedora)     |
 |[RSpec](#rspec)             | [-->](#rspec-on-windows)       | [   ](#rspec-on-mac)      | [   ](#rspec-on-ubuntu)     | [   ](#rspec-on-fedora)     |
 |[Java](#java)               | [-->](#java-on-windows)        | [-->](#java-on-mac)       | [-->](#java-on-ubuntu)      | [   ](#java-on-fedora)      |
 |[Python](#python)           | [-->](#python-on-windows)      | [-->](#python-on-mac)     | [-->](#python-on-ubuntu)    | [-->](#python-on-fedora)    |
@@ -483,6 +483,11 @@ If you come across an error that compliant about no having a Javascript runtime 
 
 [BACK TO TOP](#table-of-contents)
 
+
+## Rails on Fedora
+Please follow the same instruction of [Mac](#rails-on-mac).
+
+[BACK TO TOP](#table-of-contents)
 
 ## Java
 ### Java on Windows
