@@ -733,7 +733,69 @@ You may need root permission to install it.
 ## Gradle
 Gradle is a build tool for project, you can learn more about it on its [homepage](http://www.gradle.org/)
 
-Depends on you OS, you can find instruction for installing Gradle on [Windows](#gradle-on-windows), [Mac](#gradle-on-mac), and [Ubuntu](#gradle-on-ubuntu).
+* [**Windows**](#gradle-on-windows)
+* [**Mac**](#gradle-on-mac)
+* [**Ubuntu**](#gradle-on-ubuntu)
+
+### Gradle on Windows
+Gradle is a build tool for project, you can learn more about it on its [homepage](http://www.gradle.org)
+
+To install Gradle on Windows, you can download its zip file from [here](http://www.gradle.org/downloads) and unzip it to `/c/usr/bin/gradle` or whatever folder you like.
+
+Once the file is unzipped into the proper location, you can run git bash as administrator, then create a symbolic link by running:
+
+```sh
+cd /usr/bin
+ln -s /c/usr/bin/gradle/gradle.exe gradle.exe
+```
+
+Verify the symbolic link is working properly by running:
+```sh
+which gradle # should see /usr/bin/gradle
+gradle -v # should see version number
+```
+
+[BACK TO TOP](#table-of-contents)
+
+
+### Gradle on Mac
+Gradle is a build tool for project, you can learn more about it on its [homepage](http://www.gradle.org/)
+
+To install gradle, the simplest way would be to install it through [Homebrew](#homebrew)
+
+Once you have Homebrew, you can install Gradle by running:
+```sh
+brew install gradle
+```
+
+Once installation is done, you can verify it by running:
+```sh
+gradle -v
+```
+
+[BACK TO TOP](#table-of-contents)
+
+
+### Gradle on Ubuntu
+Thanks to a PPA made by [Cheng-Wei Chien](https://launchpad.net/~cwchien), the installation process of Gradle on Ubuntu is pretty straightforward.
+
+First of all, add the PPA repository:
+```sh
+sudo apt-get-repository ppa:cwchien/gradle
+sudo apt-get update
+```
+
+Secondly, check about which versions are available:
+```sh
+sudo apt-cache search gradle
+```
+
+Lastly, install the version you want:
+```sh
+sudo apt-get install gradle-<__version_number__> # e.g. sudo apt-get install gradle-1.12
+```
+
+[BACK TO TOP](#table-of-contents)
 
 
 ## WAMP
@@ -1001,28 +1063,6 @@ Choose the appropriate Thread Safe zip to download, either x86 or x64 based on y
 install the downloaded file to /c/usr/bin/wamp, or whatever directory you chose. Keep installation configurations default.
 
 
-
-## Gradle on Windows
-Gradle is a build tool for project, you can learn more about it on its [homepage](http://www.gradle.org)
-
-To install Gradle on Windows, you can download its zip file from [here](http://www.gradle.org/downloads) and unzip it to `/c/usr/bin/gradle` or whatever folder you like.
-
-Once the file is unzipped into the proper location, you can run git bash as administrator, then create a symbolic link by running:
-
-```sh
-cd /usr/bin
-ln -s /c/usr/bin/gradle/gradle.exe gradle.exe
-```
-
-Verify the symbolic link is working properly by running:
-```sh
-which gradle # should see /usr/bin/gradle
-gradle -v # should see version number
-```
-
-[BACK TO TOP](#table-of-contents)
-
-
 # Mac
 
 ## iTerm2
@@ -1092,22 +1132,6 @@ nodemon -v
 [BACK TO TOP](#table-of-contents)
 
 
-## Gradle on Mac
-Gradle is a build tool for project, you can learn more about it on its [homepage](http://www.gradle.org/)
-
-To install gradle, the simplest way would be to install it through [Homebrew](#homebrew)
-
-Once you have Homebrew, you can install Gradle by running:
-```sh
-brew install gradle
-```
-
-Once installation is done, you can verify it by running:
-```sh
-gradle -v
-```
-
-[BACK TO TOP](#table-of-contents)
 
 ## PostgreSQL on Mac
 ```sh
@@ -1195,28 +1219,6 @@ https://help.ubuntu.com/14.04/serverguide/lamp-overview.html
 You can install LAMP in Ubuntu by running:
 ```sh
 sudo tasksel install lamp-server
-```
-
-[BACK TO TOP](#table-of-contents)
-
-
-## Gradle on Ubuntu
-Thanks to a PPA made by [Cheng-Wei Chien](https://launchpad.net/~cwchien), the installation process of Gradle on Ubuntu is pretty straightforward.
-
-First of all, add the PPA repository:
-```sh
-sudo apt-get-repository ppa:cwchien/gradle
-sudo apt-get update
-```
-
-Secondly, check about which versions are available:
-```sh
-sudo apt-cache search gradle
-```
-
-Lastly, install the version you want:
-```sh
-sudo apt-get install gradle-<__version_number__> # e.g. sudo apt-get install gradle-1.12
 ```
 
 [BACK TO TOP](#table-of-contents)
