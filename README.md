@@ -33,7 +33,7 @@ This document and bash scripts will be updated piece by piece and I will try my 
 |[Express](#express)         | [   ](       )                 | [-->](#express-on-mac)    | [   ](                 )    | [   ](               )      |
 |[Nodemon](#nodemon)         | [   ](       )                 | [-->](#nodemon-on-mac)    | [   ](                 )    | [   ](               )      |
 |[OpenSSL](#openssl)         | [   ](       )                 | [   ](            )       | [-->](#openssl-on-ubuntu)   | [   ](               )      |
-|[Gradle](#gradle)           | [-->](#gradle-on-windows)      | [-->](#gradle-on-mac)     | [-->](#gradle-on-ubuntu)    | [   ](               )      |
+|[Gradle](#gradle)           | [-->](#gradle-on-windows)      | [-->](#gradle-on-mac)     | [-->](#gradle-on-ubuntu)    | [-->](#gradle-on-fedora)    |
 |[WAMP](#wamp)               | [-->](#wamp)                   | N/A                       | N/A                         | N/A                         |
 |[MAMP](#mamp)               | N/A                            | [-->](#mamp)              | N/A                         | N/A                         |
 |[LAMP](#lamp)               | N/A                            | N/A                       | [   ](               )      | [   ](               )      |
@@ -777,7 +777,9 @@ gradle -v
 
 
 ### Gradle on Ubuntu
-Thanks to a PPA made by [Cheng-Wei Chien](https://launchpad.net/~cwchien), the installation process of Gradle on Ubuntu is pretty straightforward.
+If you prefer installing Gradle mannually, you can follow the instruction [here](#gradle-on-fedora).
+
+Otherwise, thanks to a PPA made by [Cheng-Wei Chien](https://launchpad.net/~cwchien), the installation process of Gradle on Ubuntu is pretty straightforward.
 
 First of all, add the PPA repository:
 ```sh
@@ -794,6 +796,49 @@ Lastly, install the version you want:
 ```sh
 sudo apt-get install gradle-<__version_number__> # e.g. sudo apt-get install gradle-1.12
 ```
+
+[BACK TO TOP](#table-of-contents)
+
+### Gradle on Fedora
+To install Gradle on Fedora or other Linux/Unix base distro, you need to do so mannually.
+
+First of all, visit the [here](http://www.gradle.org/downloads) and download the version you are interesting.
+
+Once download is done, unzip the file and the move the folder under `/opt`.
+
+Afterwards, configure the PATH to make Gradle available in terminal, and there are multiple way to achieve this:
+
+**Add to ~/.bash_profile**
+The easiest and safest way would be to add the `GRADLE_HOME` to `~/.bash_profile` and export it so that you can just `source ~/.bash_profile` when you need it.
+
+To do so, you first need to determine if `~/.bash_profile` is existed in you system.  If not, you need to create it.
+```sh
+ls ~/.bash_profile # should return the full path if ~/.bash_profile is existed
+touch ~/.bash_profile # if not create the file
+```
+
+Once `~/.bash_profile` is there, open it using `vi` or whatever editor you prefer, and add these two line to the end of the file:
+```sh
+export GRADLE_HOME="/opt/<gradle_folder_name>/bin"
+export PATH=$GRADLE_HOME:$PATH
+```
+`<gradle_folder_name>` is something similar to `gradle-1.12` and etc.
+
+Once you are done adding those lines, save and exist the editor and you are good to go.  Just do `source ~/.bash_profile` before you need to use Gradle.
+
+
+**Add to ~/.bashrc**
+Alternatively, if you use Gradle on a daily basis, you may consider just adding the `GRADLE_HOME` to your `~/.bashrc` because it will then be automatically loaded whenever you open your terminal.
+
+To do so, it is very similar to the instruction of adding it to `~/.bash_profile`, but since `~/.bashrc` always exist, you can just open it with `vi` and add the lines to the end of it.
+```sh
+export GRADLE_HOME="/opt/<gradle_folder_name>/bin"
+export PATH=$GRADLE_HOME:$PATH
+```
+Again, `<gradle_folder_name>` is something similar to `gradle-1.12` and etc.
+
+Once you are done adding those lines, save and exist the editor and you are good to go. Gradle wuold be ready to use whenever you open a terminal.
+
 
 [BACK TO TOP](#table-of-contents)
 
