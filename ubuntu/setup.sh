@@ -84,3 +84,7 @@ chmod 755 setup_synclient.sh
 bash ./setup_synclient.sh
 rm setup_synclient.sh
 echo '>>> synclient has been successfully configured!'
+
+echo '<<< Installing dkms...'
+sudo apt-get install dkms
+echo '>>> dkms has been successfully installed!'
