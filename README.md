@@ -678,7 +678,8 @@ node -v
 npm -v
 ```
 
-
+* [**Mac**](#nodejs-on-mac)
+* [**Ubuntu**](#nodejs-on-ubuntu)
 
 ### Node.js on Mac
 Alternatively, you can install Node.js through [Homebrew](#homebrew).
@@ -905,8 +906,8 @@ Follow the installation process for your system:
 
 * [**Windows**](#sdk-on-windows)
 * [**Mac**](#sdk-on-mac)
-* [**Ubuntu**]()
-* [**Fedora**]()
+* [**Ubuntu**](#sdk-on-ubuntu)
+* [**Fedora**](#sdk-on-fedora)
 
 Navigate to the SDK folder and open its user interface, which would to let you select SDKs and tools to download.
 
