@@ -490,6 +490,13 @@ Please follow the same instruction of [Mac](#rails-on-mac).
 [BACK TO TOP](#table-of-contents)
 
 ## Java
+Both Java 7 and 8 are available today.  This instruction will focus on Java 7, but the processes are similar to Java 8.
+
+* [**Windows**](#java-on-windows)
+* [**Mac**](#java-on-mac)
+* [**Ubuntu**](#java-on-ubuntu)
+* [**Fedora**](#java-on-fedora)
+
 ### Java on Windows
 Download the latest Java for Windows from [Oracle](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html).
 
@@ -520,8 +527,6 @@ if there is error saying php is not found on sh.exe, restart the git bash and ru
 
 
 ### Java on Mac
-
-Both Java 7 and 8 are available today.  This instruction will focus on Java 7, but the processes are similar to Java 8.
 
 Go to the home page of Oracle to choose the Java SDK version:
 ```sh
