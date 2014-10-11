@@ -665,6 +665,77 @@ sudo yum install python27
 
 
 ## PHP
+
+* [**Windows**](#php-on-windows)
+* [**Mac**]()
+* [**Ubuntu**](#php-on-ubuntu)
+* [**Fedora**]()
+
+
+### PHP on Windows
+Download the latest PHP for Windows from here:
+
+http://windows.php.net/download/
+
+Choose the appropriate Thread Safe zip to download, either x86 or x64 based on your operation system.
+
+You can also use the following command to download the 32-bit version:
+```sh
+curl --remote-name http://windows.php.net/downloads/releases/php-5.5.11-Win32-VC11-x86.zip
+```
+
+Or use the following command to download the 64-bit version:
+```sh
+curl --remote-name http://windows.php.net/downloads/releases/php-5.5.11-Win32-VC11-x64.zip
+```
+
+Unzip the downloaded file to /c/usr/bin/php, or whatever directory you chose.
+
+the executable php.exe should then be under:
+```sh
+/c/usr/bin/php/php.exe
+```
+
+Run git bash as administrator, then go to the bin of git bash by running:
+```sh
+cd /usr/bin
+```
+
+Create a symbolic link by running:
+```sh
+ln -s /c/usr/bin/php/php.exe php.exe
+```
+
+Verify the symbolic link is working properly by running:
+```sh
+which php # should see /usr/bin/php
+```
+
+if there is error saying php is not found on sh.exe, restart the git bash and run above line again.
+
+[BACK TO TOP](#table-of-contents)
+
+
+### PHP on Mac
+
+[BACK TO TOP](#table-of-contents)
+
+
+### PHP on Ubuntu
+PHP is a scripting language for web applications, you can install PHP by running:
+```sh
+sudo apt-get install php5 libapache2-mod-php5 php5-mcrypt
+```
+
+Once installation is done, you can verify it by running:
+```sh
+php -v
+```
+
+[BACK TO TOP](#table-of-contents)
+
+
+
 ## Node.js
 To install Node.js, download the install file from its [homepage](http://nodejs.org/).
 
@@ -1064,50 +1135,6 @@ which rspec
 [BACK TO TOP](#table-of-contents)
 
 
-## PHP on Windows
-Download the latest PHP for Windows from here:
-
-http://windows.php.net/download/
-
-Choose the appropriate Thread Safe zip to download, either x86 or x64 based on your operation system.
-
-You can also use the following command to download the 32-bit version:
-```sh
-curl --remote-name http://windows.php.net/downloads/releases/php-5.5.11-Win32-VC11-x86.zip
-```
-
-Or use the following command to download the 64-bit version:
-```sh
-curl --remote-name http://windows.php.net/downloads/releases/php-5.5.11-Win32-VC11-x64.zip
-```
-
-Unzip the downloaded file to /c/usr/bin/php, or whatever directory you chose.
-
-the executable php.exe should then be under:
-```sh
-/c/usr/bin/php/php.exe
-```
-
-Run git bash as administrator, then go to the bin of git bash by running:
-```sh
-cd /usr/bin
-```
-
-Create a symbolic link by running:
-```sh
-ln -s /c/usr/bin/php/php.exe php.exe
-```
-
-Verify the symbolic link is working properly by running:
-```sh
-which php # should see /usr/bin/php
-```
-
-if there is error saying php is not found on sh.exe, restart the git bash and run above line again.
-
-[BACK TO TOP](#table-of-contents)
-
-
 
 ## Wamp
 Download the latest PHP for Windows from here:
@@ -1136,10 +1163,6 @@ ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 
 [BACK TO TOP](#table-of-contents)
 
-
-## PHP on Mac
-
-[BACK TO TOP](#table-of-contents)
 
 
 ## MAMP
@@ -1247,20 +1270,6 @@ Ubuntu comes with OpenSSL, but it may need to be upgraded because of the Heartbl
 You can upgrade OpenSSL by running:
 ```sh
 sudo apt-get upgrade openssl
-```
-
-[BACK TO TOP](#table-of-contents)
-
-
-## PHP on Ubuntu
-PHP is a scripting language for web applications, you can install PHP by running:
-```sh
-sudo apt-get install php5 libapache2-mod-php5 php5-mcrypt
-```
-
-Once installation is done, you can verify it by running:
-```sh
-php -v
 ```
 
 [BACK TO TOP](#table-of-contents)
