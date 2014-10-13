@@ -921,6 +921,17 @@ Once you are done adding those lines, save and exist the editor and you are good
 
 
 ## WAMP
+Download the latest WAMP for Windows from here:
+
+http://www.wampserver.com/en/
+
+Choose the appropriate Thread Safe zip to download, either x86 or x64 based on your operation system.
+
+Install the downloaded file to /c/usr/bin/wamp, or whatever directory you chose. Keep installation configurations default.
+
+[BACK TO TOP](#table-of-contents)
+
+
 ## MAMP
 ## LAMP
 ## SQLite
@@ -1134,16 +1145,6 @@ which rspec
 
 [BACK TO TOP](#table-of-contents)
 
-
-
-## Wamp
-Download the latest PHP for Windows from here:
-
-http://www.wampserver.com/en/
-
-Choose the appropriate Thread Safe zip to download, either x86 or x64 based on your operation system.
-
-install the downloaded file to /c/usr/bin/wamp, or whatever directory you chose. Keep installation configurations default.
 
 
 # Mac
