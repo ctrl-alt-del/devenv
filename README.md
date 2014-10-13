@@ -934,6 +934,20 @@ Install the downloaded file to /c/usr/bin/wamp, or whatever directory you chose.
 
 ## MAMP
 ## LAMP
+
+### LAMP on Ubuntu
+
+### LAMP on Fedora
+Install LAMP stack in Fedora is pretty straightforward.
+```sh
+yum update
+sudo yum install httpd
+sudo yum install mysql mysql-server
+sudo yum install php php-mysql
+```
+You are done! LAMP stack is now installed into your Fedora.
+
+
 ## SQLite
 
 * [**Windows**](#sqlite-on-windows)
