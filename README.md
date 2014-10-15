@@ -36,7 +36,7 @@ This document and bash scripts will be updated piece by piece and I will try my 
 |[Gradle](#gradle)           | [-->](#gradle-on-windows)      | [-->](#gradle-on-mac)     | [-->](#gradle-on-ubuntu)    | [-->](#gradle-on-fedora)    |
 |[WAMP](#wamp)               | [-->](#wamp)                   | N/A                       | N/A                         | N/A                         |
 |[MAMP](#mamp)               | N/A                            | [-->](#mamp)              | N/A                         | N/A                         |
-|[LAMP](#lamp)               | N/A                            | N/A                       | [   ](               )      | [   ](               )      |
+|[LAMP](#lamp)               | N/A                            | N/A                       | [-->](#lamp-on-ubuntu)      | [-->](#lamp-on-fedora)      |
 |[SQLite](#sqlite)           | [-->](#sqlite-on-windows)      | [   ](            )       | [   ](               )      | [   ](               )      |
 |[MySQL](#mysql)             | [   ](       )                 | [   ](            )       | [   ](               )      | [   ](               )      |
 |[PostgreSQL](#postgreSQL)   | [   ](       )                 | [-->](#postgreSQL-on-mac) | [   ](               )      | [   ](               )      |
@@ -935,7 +935,20 @@ Install the downloaded file to /c/usr/bin/wamp, or whatever directory you chose.
 ## MAMP
 ## LAMP
 
+* [**Ubuntu**](#lamp-on-ubuntu)
+* [**Fedora**](#lamp-on-fedora)
+
 ### LAMP on Ubuntu
+Install LAMP stack in Fedora is pretty simple.
+```sh
+sudo apt-get update
+sudo apt-get install apache2
+sudo apt-get install mysql-server libapache2-mod-auth-mysql php5-mysql
+sudo apt-get install php5 libapache2-mod-php5 php5-mcrypt
+```
+
+[BACK TO TOP](#table-of-contents)
+
 
 ### LAMP on Fedora
 Install LAMP stack in Fedora is pretty straightforward.
@@ -946,6 +959,8 @@ sudo yum install mysql mysql-server
 sudo yum install php php-mysql
 ```
 You are done! LAMP stack is now installed into your Fedora.
+
+[BACK TO TOP](#table-of-contents)
 
 
 ## SQLite
