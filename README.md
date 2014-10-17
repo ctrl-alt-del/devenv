@@ -1008,6 +1008,28 @@ sqlite -v
 ## PostgreSQL
 ## Chef
 
+## Eclipse
+Eclipse is an integrated development environment (IDE) and you can learn more about it on its [homepage](http://www.eclipse.org/).  
+
+To use it to develop Android application, I use one of its variant called [Eclipse IDE for Java Developers](http://www.eclipse.org/downloads/packages/eclipse-ide-java-developers/lunar) because it is relatively smaller than other variants.  You can feel to use the [standard one](http://www.eclipse.org/downloads/packages/eclipse-standard-44/lunar) or other of its variant as well.
+
+* [**Ubuntu**](#eclipse-on-ubuntu)
+* [**Fedora**](#eclipse-on-fedora)
+
+### Eclipse on Ubuntu
+```sh
+sudo apt-get install openjdk-7-jdk
+sudo apt-get install eclipse
+```
+
+### Eclipse on Fedora
+```sh
+sudo yum install eclipse
+```
+
+[BACK TO TOP](#table-of-contents)
+
+
 ## Android SDK
 You can get Android SDK from its [developer page](http://developer.android.com/sdk/index.html) under **Get SDK for an existing IDE**.
 
@@ -1111,26 +1133,6 @@ sudo yum install glibc.i686 glibc-devel.i686 libstdc++.i686 zlib-devel.i686 ncur
 
 
 ## ADT
-## Eclipse
-Eclipse is an integrated development environment (IDE) and you can learn more about it on its [homepage](http://www.eclipse.org/).  
-
-To use it to develop Android application, I use one of its variant called [Eclipse IDE for Java Developers](http://www.eclipse.org/downloads/packages/eclipse-ide-java-developers/lunar) because it is relatively smaller than other variants.  You can feel to use the [standard one](http://www.eclipse.org/downloads/packages/eclipse-standard-44/lunar) or other of its variant as well.
-
-* [**Ubuntu**](#eclipse-on-ubuntu)
-* [**Fedora**](#eclipse-on-fedora)
-
-### Eclipse on Ubuntu
-```sh
-sudo apt-get install openjdk-7-jdk
-sudo apt-get install eclipse
-```
-
-### Eclipse on Fedora
-```sh
-sudo yum install eclipse
-```
-
-## ADT
 Once Eclipse is installed, open it and navigate to its Help -> Install New Software.
 
 On the wizard of Install New Software, click on the add button and paste `https://dl-ssl.google.com/android/eclipse/` to `location` and put `Android Development Toolkit plugin` on `name`, then press OK.
@@ -1139,6 +1141,13 @@ Back to the wizard, click on the drop down list of `Work with`  and select the u
 
 It may take a while for eclipse to get the plugin information, but once the available plugin is displayed, click `Select All` under the displaying section, and then `Next` on the bottom right.  Then follow the instruction to install and plugin and restart Eclipse once the installation is done.
 
+Known errors:
+* [src folder empty on creating new Android project](http://stackoverflow.com/questions/22215499/src-folder-empty-on-creating-new-android-project)
+<br>
+Solution: make sure the url used to install the ADT starts with `https`, not `http`.
+
+
+[BACK TO TOP](#table-of-contents)
 
 
 
