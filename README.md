@@ -1058,7 +1058,7 @@ You need the following packages from the SDK:
 Select those package and click on the "install packages" button on the bottom right, and then follow the instruction to complete the installation.
 
 
-## SDK on Windows
+### SDK on Windows
 Choose the appropriate Thread Safe zip to download, either x86 or x64 based on your operation system.
 
 unzip the downloaded file to `/c/usr/bin/android`, or whatever directory you chose.
@@ -1109,7 +1109,8 @@ Visit the [developer page](http://developer.android.com/sdk/index.html) and down
 
 Once download is done, unzip it and move it to the `/opt/android-sdk-linux` folder, then add `export ANDROID_HOME=/opt/android-sdk-linux` to the `~/.bash_profile`.
 
-If you are in Linux 64 bit OS, you may also need to install the 32 bit shared libraries.  You can do so by running:
+#### Compatibility issue on Ubuntu
+If you are in Linux 64 bit OS, you may also need to install the 32 bit shared libraries.
 ```sh
 sudo apt-get install libc6:i386 libstdc++6:i386 zlib1g:i386
 ```
@@ -1119,11 +1120,10 @@ sudo apt-get install libc6:i386 libstdc++6:i386 zlib1g:i386
 
 
 ### SDK on Fedora
-Visit the [developer page](http://developer.android.com/sdk/index.html) and download the [SDK Tool only for Linux 32 and 64 bit](http://dl.google.com/android/android-sdk_r23.0.2-linux.tgz)
+Follow the same instruction as [Ubuntu](#sdk-on-ubuntu)
 
-Once download is done, unzip it and move it to the `/opt/android-sdk-linux` folder, then add `export ANDROID_HOME=/opt/android-sdk-linux` to the `~/.bash_profile`.
-
-If you are in Linux 64 bit OS, you may also need to install the 32 bit shared libraries.  You can do so by running:
+#### Compatibility issue on Fedora
+If you are in Linux 64 bit OS, you may also need to install the 32 bit shared libraries.
 ```sh
 sudo yum install glibc.i686 glibc-devel.i686 libstdc++.i686 zlib-devel.i686 ncurses-devel.i686 libX11-devel.i686 libXrender.i686 libXrandr.i686
 ```
@@ -1141,7 +1141,7 @@ Back to the wizard, click on the drop down list of `Work with`  and select the u
 
 It may take a while for eclipse to get the plugin information, but once the available plugin is displayed, click `Select All` under the displaying section, and then `Next` on the bottom right.  Then follow the instruction to install and plugin and restart Eclipse once the installation is done.
 
-Known errors:
+### ADT known errors
 * [src folder empty on creating new Android project](http://stackoverflow.com/questions/22215499/src-folder-empty-on-creating-new-android-project)
 <br>
 Solution: make sure the url used to install the ADT starts with `https`, not `http`.
