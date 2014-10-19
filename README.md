@@ -787,6 +787,10 @@ sudo apt-get install npm
 
 
 ## CoffeeScript
+
+* [**Mac**](#gradle-on-mac)
+
+### CoffeeScript on Mac
 Before install CoffeeScript, you need to make sure you have [Node.js](#nodejs) and Node Packaged Modules (npm) installed.  To verify that, just run:
 ```sh
 node -v
@@ -802,6 +806,7 @@ You may need root permission to install it.
 
 
 [BACK TO TOP](#table-of-contents)
+
 
 ## Express
 ## Nodemon
@@ -921,9 +926,7 @@ Once you are done adding those lines, save and exist the editor and you are good
 
 
 ## WAMP
-Download the latest WAMP for Windows from here:
-
-http://www.wampserver.com/en/
+Download the latest WAMP for Windows from [here](http://www.wampserver.com/en/)
 
 Choose the appropriate Thread Safe zip to download, either x86 or x64 based on your operation system.
 
@@ -970,10 +973,7 @@ You are done! LAMP stack is now installed into your Fedora.
 * [**Ubuntu**]()
 
 ### SQLite on Windows
-Download the latest SQLite for Windows from the home page of SQLite.org:
-```sh
-http://www.sqlite.org/download.html
-```
+Download the latest SQLite for Windows from [here](http://www.sqlite.org/download.html)
 
 Scroll down the page to the "Precompiled Binaries for Windows" section, and download the sqlite-shell and sqlite-dll files.
 
