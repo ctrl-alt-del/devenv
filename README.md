@@ -174,6 +174,15 @@ For details on how to install Git on different operating system, click on:
 * [Ubuntu](#git-on-ubuntu)
 * [Fedora](#git-on-fedora)
 
+Once Git is installed, you can check about its version using `git -v`.
+
+There are some shortcuts are very convenient as well, you can set them up with following:
+```sh
+git config --global alias.co checkout
+git config --global alias.cm !git add -A && git commit -m
+```
+
+
 ### Git on Windows
 Since Git contains many convenient built-in functions as well as a useful bash shell, it is recommended to be installed first in setting up the dev environment on Windows.
 
