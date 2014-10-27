@@ -6,6 +6,10 @@ Cheatsheet for Regular Expression
 `$` the end of the string and before each line break
 `\A` the start of the string
 `\Z` the end of the string
+`\b` word boundary
+`\B` not word boundary
+`\<` start of word
+`\>` end of word
 
 ## Quantifiers
 `*` 0 or more
