@@ -30,3 +30,11 @@ Cheatsheet for Regular Expression
 `[A-Z]` upper case letter from A to Z
 `[0-9]` digit from 0 to 9
 `\x` group/­sub­pattern number "­x"
+
+## Special Characters
+`\n` new line
+`\r` return
+`\t` tab
+
+## Escape
+`\` escape following character
