@@ -1014,7 +1014,21 @@ sqlite -v
 
 
 ## MySQL
+
 ## PostgreSQL
+PostgreSQL is similar to MySQL and it is the default database used on Heroku.
+
+* [**Mac**](#postgreSQL-on-mac)
+
+### PostgreSQL on Mac
+```sh
+brew update
+brew install postgresql
+```
+[BACK TO TOP](#table-of-contents)
+
+
+
 ## Chef
 
 ## Eclipse
@@ -1287,16 +1301,6 @@ nodemon -v
 [BACK TO TOP](#table-of-contents)
 
 
-
-## PostgreSQL on Mac
-```sh
-brew update
-brew install postgresql
-```
-[BACK TO TOP](#table-of-contents)
-
-
-# Ubuntu
 
 ## Tilda
 Tilda is an alternative of the system's default terminal, which I found some of its additional features are very handy.
