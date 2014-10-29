@@ -13,3 +13,8 @@ chmod changes the permission of a file
 * Read (r OR 4): permission to read a file
 * Write (w OR 2): permission to write  a file
 * Execute (x OR 1): permission to execute a file
+
+### Filesystem
+`df` can be used to check sizes of disks and filesystems
+
+* `-h`: human readable
