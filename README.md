@@ -43,7 +43,7 @@ This document and bash scripts will be updated piece by piece and I will try my 
 |[Chef](#chef)               | [   ](       )                 | [   ](            )       | [   ](               )      | [   ](               )      |
 |[Android SDK](#android-sdk) | [-->](#sdk-on-windows)         | [-->](#android-sdk)       | [-->](#sdk-on-ubuntu)       | [-->](#sdk)                 |
 |[ADT](#adt)                 | [-->](#adt)                    | [-->](#adt)               | [-->](#adt)                 | [-->](#adt)                 |
-|[Eclipse](#eclipse)         | [-->](#eclipse)                | [-->](#eclipse)           | [   ](#eclipse-on-ubuntu)   | [   ](#eclipse-on-fedora)   |
+|[Eclipse](#eclipse)         | [-->](#eclipse)                | [-->](#eclipse-on-mac)    | [   ](#eclipse-on-ubuntu)   | [   ](#eclipse-on-fedora)   |
 |[VirtualBox](#virtualbox)   | [   ](#virtualbox)             | [   ](#virtualbox)        | [-->](#virtualbox-on-ubuntu)| [-->](#virtualbox-on-fedora)|
 
 
@@ -1036,8 +1036,15 @@ Eclipse is an integrated development environment (IDE) and you can learn more ab
 
 To use it to develop Android application, I use one of its variant called [Eclipse IDE for Java Developers](http://www.eclipse.org/downloads/packages/eclipse-ide-java-developers/lunar) because it is relatively smaller than other variants.  You can feel to use the [standard one](http://www.eclipse.org/downloads/packages/eclipse-standard-44/lunar) or other of its variant as well.
 
+* [**Mac**](#eclipse-on-mac)
 * [**Ubuntu**](#eclipse-on-ubuntu)
 * [**Fedora**](#eclipse-on-fedora)
+
+### Eclipse on Mac
+Visit the Eclipse's [homepage](http://www.eclipse.org/downloads) and download the **Eclipse IDE for Java Developers** that fits your system (either 32 or 64 bit)
+
+Once the file is downloaded, unzip it and drag the unziped folder to application, then right click the eclipse icon inside the folder and click open.
+
 
 ### Eclipse on Ubuntu
 ```sh
