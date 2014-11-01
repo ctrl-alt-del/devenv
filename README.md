@@ -676,7 +676,7 @@ sudo yum install python27
 ## PHP
 
 * [**Windows**](#php-on-windows)
-* [**Mac**]()
+* [**Mac**](#php-on-mac)
 * [**Ubuntu**](#php-on-ubuntu)
 * [**Fedora**]()
 
@@ -726,6 +726,7 @@ if there is error saying php is not found on sh.exe, restart the git bash and ru
 
 
 ### PHP on Mac
+PHP is bundled with Mac.
 
 [BACK TO TOP](#table-of-contents)
 
@@ -743,6 +744,9 @@ php -v
 
 [BACK TO TOP](#table-of-contents)
 
+
+### PHP on Fedora
+[BACK TO TOP](#table-of-contents)
 
 
 ## Node.js
@@ -945,6 +949,9 @@ Install the downloaded file to /c/usr/bin/wamp, or whatever directory you chose.
 
 
 ## MAMP
+
+[BACK TO TOP](#table-of-contents)
+
 ## LAMP
 
 * [**Ubuntu**](#lamp-on-ubuntu)
