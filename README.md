@@ -27,7 +27,7 @@ This document and bash scripts will be updated piece by piece and I will try my 
 |[RSpec](#rspec)             | [-->](#rspec-on-windows)       | [   ](#rspec-on-mac)      | [   ](#rspec-on-ubuntu)     | [   ](#rspec-on-fedora)     |
 |[Java](#java)               | [-->](#java-on-windows)        | [-->](#java-on-mac)       | [-->](#java-on-ubuntu)      | [   ](#java-on-fedora)      |
 |[Python](#python)           | [-->](#python-on-windows)      | [-->](#python-on-mac)     | [-->](#python-on-ubuntu)    | [-->](#python-on-fedora)    |
-|[PHP](#php)                 | [-->](#php-on-windows)         | [-->](#php-on-mac)        | [-->](#php-on-ubuntu)       | [   ](               )      |
+|[PHP](#php)                 | [-->](#php-on-windows)         | [-->](#php-on-mac)        | [-->](#php-on-ubuntu)       | [-->](#php-on-fedora)       |
 |[Node.js](#nodejs)          | [-->](#nodejs)                 | [-->](#nodejs-on-mac)     | [-->](#nodejs-on-ubuntu)    | [   ](               )      |
 |[npm](#npm)                 | [   ](       )                 | N/A                       | [-->](#npm-on-ubuntu)       | [   ](               )      |
 |[Express](#express)         | [   ](       )                 | [-->](#express-on-mac)    | [   ](                 )    | [   ](               )      |
@@ -678,7 +678,7 @@ sudo yum install python27
 * [**Windows**](#php-on-windows)
 * [**Mac**](#php-on-mac)
 * [**Ubuntu**](#php-on-ubuntu)
-* [**Fedora**]()
+* [**Fedora**](#php-on-fedora)
 
 
 ### PHP on Windows
@@ -746,6 +746,22 @@ php -v
 
 
 ### PHP on Fedora
+```sh
+sudo yum install php
+```
+
+**Known Issue for Fedora**
+1. None of the mirrors contains the required packages
+<br>
+**Solution**: enable fedora-source
+<br>
+```sh
+yum repolist disabled
+sudo yum-config-manager --enable fedora-source
+sudo yum install php
+```
+
+
 [BACK TO TOP](#table-of-contents)
 
 
