@@ -675,6 +675,8 @@ sudo yum install python27
 
 ## PHP
 
+PHP is a scripting language for web applications.
+
 * [**Windows**](#php-on-windows)
 * [**Mac**](#php-on-mac)
 * [**Ubuntu**](#php-on-ubuntu)
@@ -732,7 +734,7 @@ PHP is bundled with Mac.
 
 
 ### PHP on Ubuntu
-PHP is a scripting language for web applications, you can install PHP by running:
+Installing PHP on Ubuntu is as simple as running:
 ```sh
 sudo apt-get install php5 libapache2-mod-php5 php5-mcrypt
 ```
@@ -746,11 +748,13 @@ php -v
 
 
 ### PHP on Fedora
+Installing PHP on Fedora should be pretty straightforward if you configuration is correct.
 ```sh
 sudo yum install php
 ```
 
 **Known Issue for Fedora**
+<br>
 1. None of the mirrors contains the required packages
 <br>
 **Solution**: enable fedora-source
