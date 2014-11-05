@@ -16,7 +16,7 @@ This document and bash scripts will be updated piece by piece and I will try my 
 |[Zsh](#zsh)                 | N/A                            | [   ](#zsh-on-mac)        | [-->](#zsh-on-ubuntu)       | [-->](#zsh-on-fedora)       |
 |[Oh-My-Zsh](#oh-my-zsh)     | [   ](#oh-my-zsh-on-windows)   | [   ](#oh-my-zsh-on-mac)  | [   ](#oh-my-zsh-on-ubuntu) | [   ](#oh-my-zsh-on-fedora) |
 |[Homebrew](#homebrew)       | N/A                            | [-->](#homebrew)          | N/A                         | N/A                         |
-|[Sublime](#sublime)         | [   ](#sublime-on-windows)     | [-->](#sublime-on-mac)    | [-->](#sublime-on-ubuntu)   | [-->](#sublime-on-fedora)   |
+|[Sublime](#sublime)         | [-->](#sublime-on-windows)     | [-->](#sublime-on-mac)    | [-->](#sublime-on-ubuntu)   | [-->](#sublime-on-fedora)   |
 |[Git](#git)                 | [-->](#git-on-windows)         | [-->](#git-on-mac)        | [-->](#git-on-ubuntu)       | [-->](#git-on-fedora)       |
 |[Gitk](#gitk)               | [   ](#gitk-on-windows)        | [   ](#gitk-on-mac)       | [-->](#gitk-on-ubuntu)      | [   ](#gitk-on-fedora)      |
 |[SmartGit](#smartgit)       | [   ](#smartgit-on-windows)    | [   ](#smartgit-on-mac)   | [-->](#smartgit-on-ubuntu)  | [   ](#smartgit-on-fedora)  |
@@ -117,15 +117,25 @@ ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 
 
 ## Sublime
+Sublime is a very useful text editor.
 
+* [**Windows**](#sublime-on-windows)
 * [**Ubuntu**](#sublime-on-ubuntu)
 * [**Fedora**](#sublime-on-fedora)
 * [**Configuration**](#sublime-configuration)
 
 Sublime is a very useful and convenient text editor.  You can learn more about it on its [homepage](http://www.sublimetext.com/)
 
+### Sublime on Windows
+You can download the executable file from Sublime's [homepage](www.sublimetext.com).
+
+Once the exe file is downloaded, double click to install it.
+
+[BACK TO TOP](#table-of-contents)
+
+
 ### Sublime on Ubuntu
-Sublime is a very useful text editor, you can install it through PPA.
+You can install it on Ubuntu through PPA.
 To add the sublime PPA, run:
 ```sh
 sudo add-apt-repository ppa:webupd8team/sublime-text-2
