@@ -88,3 +88,7 @@ echo '>>> synclient has been successfully configured!'
 echo '<<< Installing dkms...'
 sudo apt-get install dkms
 echo '>>> dkms has been successfully installed!'
+
+echo '<<< Installing gitg...'
+sudo apt-get install gitg
+echo '>>> gitg has been successfully installed!'
