@@ -1,17 +1,17 @@
 #!/bin/bash
 write_to_file() {
 
-     if [ ! -f ~/.gemrc ] ; then
-         touch ~/.gemrc
-    fi
+	if [ ! -f ~/.gemrc ] ; then
+		touch ~/.gemrc
+	fi
 
-    content="
-    install: --no-rdoc --no-ri
-    update:  --no-rdoc --no-ri
-    ";
-
-    echo "$content" >> ~/.gemrc;
+	echo "$1" >> ~/.gemrc;
 }
 
+content="
+install: --no-rdoc --no-ri
+update:  --no-rdoc --no-ri
+";
+
 # execute it
-write_to_file
+write_to_file "$content"
