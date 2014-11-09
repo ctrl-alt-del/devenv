@@ -30,10 +30,7 @@ sudo add-apt-repository ppa:webupd8team/sublime-text-2
 sudo apt-get update
 sudo apt-get install sublime-text
 echo '>>> Sublime has been successfully installed!'
-
-echo '<<< Installing Gitk...'
-sudo apt-get install gitk
-echo '>>> Gitk has been successfully installed!'
+echo ' '
 
 echo '<<< Installing/Upgrading OpenSSL...'
 sudo apt-get upgrade openssl

@@ -19,9 +19,15 @@ sudo yum install git-core
 echo '>>> Git has been successfully installed/upgraded!'
 echo ' '
 
-echo '<<< Installing Gitk...'
-sudo yum install gitk
-echo '>>> Gitk has been successfully installed!'
+echo '<<< Installing Sublime...'
+wget http://c758482.r82.cf2.rackcdn.com/Sublime\ Text\ 2.0.2\ x64.tar.bz2
+tar vxjf Sublime\ Text\ 2.0.2\ x64.tar.bz2
+sudo mv Sublime\ Text\ 2 /opt/sublime
+sudo rm -rf Sublime\ Text\ 2.0.2\ x64
+sudo rm -rf Sublime\ Text\ 2.0.2\ x64.tar.bz2
+sudo ln -s /opt/sublime/sublime_text /usr/bin/subl
+echo '>>> Sublime has been successfully installed!'
+echo ' '
 
 echo '<<< Installing OpenJDK 7...'
 sudo yum install openjdk-7-jdk
