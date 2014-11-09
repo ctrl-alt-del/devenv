@@ -25,6 +25,9 @@ synclient LBCornerButton=0
 synclient PalmDetect=1
 synclient MinSpeed=0.7
 synclient MaxSpeed=1.7
+
+source \$HOME/.rvm/scripts/rvm
+
 ";
 
 # execute it
