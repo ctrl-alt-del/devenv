@@ -45,9 +45,9 @@ echo '<<< Setting up ~/.bash_profile...'
 if [ ! -f ./setup_bash_profile.sh ] ; then
   \curl -O https://raw.githubusercontent.com/ctrl-alt-del/devenv/master/util/setup_bash_profile.sh
 fi
-chmod 755 setup_bash_profile.sh
+sudo chmod 755 setup_bash_profile.sh
 bash ./setup_bash_profile.sh
-rm setup_bash_profile.sh
+sudo rm setup_bash_profile.sh
 
 echo '>>> ~/.bash_profile has been successfully created!'
 
@@ -63,9 +63,9 @@ echo '<<< Configuring synclient...'
 if [ ! -f ./setup_synclient.sh ] ; then
   \curl -O https://raw.githubusercontent.com/ctrl-alt-del/devenv/master/util/setup_synclient.sh
 fi
-chmod 755 setup_synclient.sh
+sudo chmod 755 setup_synclient.sh
 bash ./setup_synclient.sh
-rm setup_synclient.sh
+sudo rm setup_synclient.sh
 echo '>>> synclient has been successfully configured!'
 
 echo '<<< Installing gitg...'
