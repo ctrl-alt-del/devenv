@@ -12,6 +12,11 @@ sudo apt-get install guake
 echo '>>> Guake has been successfully installed!'
 echo ' '
 
+echo '<<< Installing vim...'
+sudo apt-get install vim
+echo '>>> vim has been successfully installed!'
+echo ' '
+
 echo '<<< Installing Zsh...'
 sudo apt-get install zsh
 echo '>>> Zsh has been successfully installed!'
