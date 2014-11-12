@@ -17,9 +17,11 @@ sudo apt-get install vim
 echo '>>> vim has been successfully installed!'
 echo ' '
 
-echo '<<< Installing Zsh...'
+echo '<<< Installing oh-my-zsh...'
 sudo apt-get install zsh
-echo '>>> Zsh has been successfully installed!'
+wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
+sudo chsh -s /usr/bin/zsh
+echo '>>> oh-my-zsh has been successfully installed!'
 echo ' '
 
 # install oh-my-zsh
