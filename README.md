@@ -794,6 +794,7 @@ npm -v
 
 * [**Mac**](#nodejs-on-mac)
 * [**Ubuntu**](#nodejs-on-ubuntu)
+* [**Fedora**](#nodejs-on-fedora)
 
 ### Node.js on Mac
 Alternatively, you can install Node.js through [Homebrew](#homebrew).
@@ -817,6 +818,13 @@ sudo apt-get update
 sudo apt-get install nodejs
 ```
 
+[BACK TO TOP](#table-of-contents)
+
+
+## Node.js on Fedora
+```sh
+sudo yum install nodejs
+```
 [BACK TO TOP](#table-of-contents)
 
 
