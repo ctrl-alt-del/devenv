@@ -12,7 +12,8 @@ This document and bash scripts will be updated piece by piece and I will try my 
 |Tools                       | [Windows 7](#windows)          | [Mac 10.9.+](#mac)        | [Ubuntu 14.04](#ubuntu)     | [Fedora 20](#fedora)        |
 |:-------------------------- | :----------------------------: | :-----------------------: | :-------------------------: | :-------------------------: |
 |[Preps](#configuration)     | [-->](#configure-windows)      | N/A                       | N/A                         | N/A                         |
-|[Terminal](#terminal)       | N/A                            | [-->](#iterm2)            | [-->](#tilda)               | [-->](#guake)               |
+|[iTerm2](#iterm2)           | N/A                            | [-->](#iterm2)            | N/A                         | N/A                         |
+|[Guake](#guake)             | N/A                            | N/A                       | [-->](#guake-on-ubuntu)     | [-->](#guake-on-fedora)     |
 |[Zsh](#zsh)                 | N/A                            | [   ](#zsh-on-mac)        | [-->](#zsh-on-ubuntu)       | [-->](#zsh-on-fedora)       |
 |[Oh-My-Zsh](#oh-my-zsh)     | [   ](#oh-my-zsh-on-windows)   | [   ](#oh-my-zsh-on-mac)  | [   ](#oh-my-zsh-on-ubuntu) | [   ](#oh-my-zsh-on-fedora) |
 |[Homebrew](#homebrew)       | N/A                            | [-->](#homebrew)          | N/A                         | N/A                         |
@@ -1090,6 +1091,24 @@ brew install postgresql
 [BACK TO TOP](#table-of-contents)
 
 
+## Guake
+
+### Guake on Ubuntu
+```sh
+sudo apt-get install guake
+```
+[BACK TO TOP](#table-of-contents)
+
+
+### Guake on Fedora
+To install Guake on Fedora, you can do so by running:
+```sh
+sudo yum install guake
+```
+
+[BACK TO TOP](#table-of-contents)
+
+
 
 ## Chef
 
@@ -1474,17 +1493,3 @@ https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgol
 ```
 
 To intall the extension, just click on the blue `+ Free` button the top right corner.
-
-
-# Setup dev environment with Chef
-
-
-# Fedora
-
-## Guake
-To install Guake on Fedora, you can do so by running:
-```sh
-sudo yum install guake
-```
-
-[BACK TO TOP](#table-of-contents)
