@@ -780,7 +780,7 @@ sudo yum install php
 
 
 ## Node.js
-To install Node.js, download the install file from its [homepage](http://nodejs.org/).
+Node.js is an platform for Javascript.  To install Node.js, download the install file from its [homepage](http://nodejs.org/download).
 
 Once download is done, double click the file and follow the instruction to install it into your computer.
 
@@ -860,6 +860,23 @@ You may need root permission to install it.
 
 
 ## Express
+
+* [**Mac**](#express-on-mac)
+
+### Express on Mac
+Express is a web development framework for node.js. You can install it by running:
+```sh
+sudo npm install -g express-generator
+```
+
+Once installation is done, open a terminal window and verify it by running:
+```sh
+express --version
+```
+
+[BACK TO TOP](#table-of-contents)
+
+
 ## Nodemon
 ## OpenSSL
 
@@ -1308,36 +1325,6 @@ ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 
 
 ## MAMP
-
-## Nodejs
-Node.js is an platform for Javascript.  You can install Node.js by download the package from its home page:
-```sh
-http://nodejs.org/download/
-```
-
-Once download is completed, double click the file and follow the instruction to complete the installation.
-
-Once installation is done, open a terminal window and verify it by running:
-```sh
-node -v
-npm -v
-```
-You should see the version number of both lines
-
-
-### Express on Mac
-Express is a web development framework for node.js. You can install it by running:
-```sh
-sudo npm install -g express-generator
-```
-
-Once installation is done, open a terminal window and verify it by running:
-```sh
-express --version
-```
-
-[BACK TO TOP](#table-of-contents)
-
 
 ### Nodemon on Mac
 Nodemon is a monitoring plugin that restart node.js application automatically if there is any changes happened to the code.  You can get it by running
