@@ -13,6 +13,7 @@ This document and bash scripts will be updated piece by piece and I will try my 
 |:-------------------------- | :----------------------------: | :-----------------------: | :-------------------------: | :-------------------------: |
 |[Preps](#configuration)     | [-->](#configure-windows)      | N/A                       | N/A                         | N/A                         |
 |[iTerm2](#iterm2)           | N/A                            | [-->](#iterm2)            | N/A                         | N/A                         |
+|[Tilda](#tilda)             | N/A                            | N/A                       | [-->](#tilda-on-ubuntu)     | [-->](#tilda)               |
 |[Guake](#guake)             | N/A                            | N/A                       | [-->](#guake-on-ubuntu)     | [-->](#guake-on-fedora)     |
 |[Zsh](#zsh)                 | N/A                            | [   ](#zsh-on-mac)        | [-->](#zsh-on-ubuntu)       | [-->](#zsh-on-fedora)       |
 |[Oh-My-Zsh](#oh-my-zsh)     | [   ](#oh-my-zsh-on-windows)   | [   ](#oh-my-zsh-on-mac)  | [   ](#oh-my-zsh-on-ubuntu) | [   ](#oh-my-zsh-on-fedora) |
@@ -1323,9 +1324,6 @@ which rspec
 [BACK TO TOP](#table-of-contents)
 
 
-
-# Mac
-
 ## iTerm2
 iTerm2 is essential a terminal armed with more features, which you can download and learn more about it on its [homepage](www.http://iterm2.com/).
 Once the installation package is downloaded, double click to install it.
@@ -1363,12 +1361,9 @@ nodemon -v
 ## Tilda
 Tilda is an alternative of the system's default terminal, which I found some of its additional features are very handy.
 
-You can install Tilda by running:
-```sh
-sudo apt-get install tilda
-```
 
-If it returns an error saying it cannot fetch some archives, simply update the repository and then redo the installation by running:
+## Tilda on Ubuntu
+You can install Tilda by running:
 ```sh
 sudo apt-get update
 sudo apt-get install tilda
