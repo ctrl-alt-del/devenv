@@ -880,6 +880,23 @@ express --version
 
 
 ## Nodemon
+Nodemon is a monitoring plugin that restart node.js application automatically if there is any changes happened to the code.
+
+* [**Mac**](#nodemon-on-mac)
+
+### Nodemon on Mac
+```sh
+sudo npm install -g nodemon
+```
+
+Once installation is done, open a terminal window and verify it by running:
+```sh
+nodemon -v
+```
+
+[BACK TO TOP](#table-of-contents)
+
+
 ## OpenSSL
 
 * [**Ubuntu**](#openssl-on-ubuntu)
@@ -1355,21 +1372,6 @@ ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 
 
 ## MAMP
-
-### Nodemon on Mac
-Nodemon is a monitoring plugin that restart node.js application automatically if there is any changes happened to the code.  You can get it by running
-```sh
-sudo npm install -g nodemon
-```
-
-Once installation is done, open a terminal window and verify it by running:
-```sh
-nodemon -v
-```
-
-[BACK TO TOP](#table-of-contents)
-
-
 
 ## Tilda
 Tilda is an alternative of the system's default terminal, which I found some of its additional features are very handy.
