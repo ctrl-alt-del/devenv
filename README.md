@@ -1349,9 +1349,6 @@ sudo yum install VirtualBox-4.3.x86_64
 
 
 
-
-# Windows
-
 ### RSpec on Windows
 Rails is the prerequisite for RSpec.  To verify Rails is installed in your machine, run the following lines on your git bash:
 ```sh
@@ -1388,13 +1385,12 @@ ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 
 
 
-## MAMP
-
 ## Tilda
 Tilda is an alternative of the system's default terminal, which I found some of its additional features are very handy.
 
+* [**Ubuntu**](#tilda-on-ubuntu)
 
-## Tilda on Ubuntu
+### Tilda on Ubuntu
 You can install Tilda by running:
 ```sh
 sudo apt-get update
