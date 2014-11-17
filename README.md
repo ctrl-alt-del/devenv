@@ -990,8 +990,16 @@ Once download is done, unzip the file and the move the folder under `/opt`.
 
 Afterwards, configure the PATH to make Gradle available in terminal, and there are multiple way to achieve this:
 
+**Add Symbolic Link**
+<br>
+The easiest way is to create a symbolic link for Gradle on `/usr/bin`; since `/usr/bin` is the system default path, it will be loaded automatically whenever `.bashrc` is loaded.
+```sh
+sudo ln -s /opt/gradle-1.12/bin/gradle /usr/bin/gradle
+```
+
 **Add to ~/.bash_profile**
-The easiest and safest way would be to add the `GRADLE_HOME` to `~/.bash_profile` and export it so that you can just `source ~/.bash_profile` when you need it.
+<br>
+You can also add the `GRADLE_HOME` to `~/.bash_profile` and export it so that you can just `source ~/.bash_profile` when you need it.
 
 To do so, you first need to determine if `~/.bash_profile` is existed in you system.  If not, you need to create it.
 ```sh
@@ -1010,6 +1018,7 @@ Once you are done adding those lines, save and exist the editor and you are good
 
 
 **Add to ~/.bashrc**
+<br>
 Alternatively, if you use Gradle on a daily basis, you may consider just adding the `GRADLE_HOME` to your `~/.bashrc` because it will then be automatically loaded whenever you open your terminal.
 
 To do so, it is very similar to the instruction of adding it to `~/.bash_profile`, but since `~/.bashrc` always exist, you can just open it with `vi` and add the lines to the end of it.
