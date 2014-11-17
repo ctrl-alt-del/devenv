@@ -1021,6 +1021,14 @@ Again, `<gradle_folder_name>` is something similar to `gradle-1.12` and etc.
 
 Once you are done adding those lines, save and exist the editor and you are good to go. Gradle wuold be ready to use whenever you open a terminal.
 
+Or you can run the script here:
+```sh
+wget https://services.gradle.org/distributions/gradle-1.12-bin.zip
+unzip gradle-1.12-bin.zip
+sudo mv gradle-1.12 /opt
+sudo rm gradle-1.12-bin.zip
+sudo ln -s /opt/gradle-1.12/bin/gradle /usr/bin/gradle
+```
 
 [BACK TO TOP](#table-of-contents)
 
