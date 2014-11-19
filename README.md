@@ -1393,6 +1393,7 @@ ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 Tilda is an alternative of the system's default terminal, which I found some of its additional features are very handy.
 
 * [**Ubuntu**](#tilda-on-ubuntu)
+* [**Fedora**](#tilda-on-fedora)
 
 ### Tilda on Ubuntu
 You can install Tilda by running:
@@ -1404,6 +1405,11 @@ sudo apt-get install tilda
 Once Tilda is successfully installed, you can configure it by running:
 ```sh
 tilda -C
+```
+
+### Tilda on Fedora
+```sh
+sudo yum install tilda
 ```
 
 [BACK TO TOP](#table-of-contents)
