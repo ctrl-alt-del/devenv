@@ -1141,10 +1141,14 @@ brew install postgresql
 
 ## Guake
 
+* [**Ubuntu**](#guake-on-ubuntu)
+* [**Fedora**](#guake-on-fedora)
+
 ### Guake on Ubuntu
 ```sh
 sudo apt-get install guake
 ```
+
 [BACK TO TOP](#table-of-contents)
 
 
