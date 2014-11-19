@@ -15,6 +15,10 @@ chmod changes the permission of a file
 * Execute (x OR 1): permission to execute a file
 
 ### Filesystem
-`df` can be used to check sizes of disks and filesystems
+`df` can be used to check size of filesystems
+`du` can be used to check size of directory
 
 * `-h`: human readable
+* `-c`: grand total value
+
+
