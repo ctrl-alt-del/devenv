@@ -20,12 +20,23 @@ echo '>>> Git has been successfully installed/upgraded!'
 echo ' '
 
 echo '<<< Installing Sublime...'
-wget http://c758482.r82.cf2.rackcdn.com/Sublime\ Text\ 2.0.2\ x64.tar.bz2
-tar vxjf Sublime\ Text\ 2.0.2\ x64.tar.bz2
+
+os_ver=`getconf LONG_BIT`;
+if [ $os_ver = 64 ] ; then
+	echo '64-bit Operating System Detected...';
+  wget http://c758482.r82.cf2.rackcdn.com/Sublime\ Text\ 2.0.2\ x64.tar.bz2
+  tar vxjf Sublime\ Text\ 2.0.2\ x64.tar.bz2
+  sudo rm -rf Sublime\ Text\ 2.0.2\ x64.tar.bz2
+else
+	echo '32-bit Operating System Detected...';
+  wget http://c758482.r82.cf2.rackcdn.com/Sublime\ Text\ 2.0.2.tar.bz2
+  tar vxjf Sublime\ Text\ 2.0.2.tar.bz2
+  sudo rm -rf Sublime\ Text\ 2.0.2.tar.bz2
+fi
+
 sudo mv Sublime\ Text\ 2 /opt/sublime
-sudo rm -rf Sublime\ Text\ 2.0.2\ x64
-sudo rm -rf Sublime\ Text\ 2.0.2\ x64.tar.bz2
 sudo ln -s /opt/sublime/sublime_text /usr/bin/subl
+
 echo '>>> Sublime has been successfully installed!'
 echo ' '
 
