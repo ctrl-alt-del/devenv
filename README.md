@@ -1053,6 +1053,9 @@ Install the downloaded file to /c/usr/bin/wamp, or whatever directory you chose.
 
 
 ## MAMP
+Visit MAMP's download page [here](http://www.mamp.info/en/downloads/) to download the latest version of MAMP.
+
+Once download is done, double click the `.pkg` file to install.
 
 [BACK TO TOP](#table-of-contents)
 
