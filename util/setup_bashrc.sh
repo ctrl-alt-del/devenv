@@ -9,7 +9,9 @@ write_to_file() {
 }
 
 content="
+
 source \$HOME/.rvm/scripts/rvm
+
 ";
 
 # execute it

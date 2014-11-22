@@ -9,6 +9,7 @@ write_to_file() {
 }
 
 content="
+
 synclient TapAndDragGesture=0
 synclient TapButton1=1
 synclient TapButton2=3

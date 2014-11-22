@@ -11,6 +11,7 @@ write_to_file() {
 content="
 install: --no-rdoc --no-ri
 update:  --no-rdoc --no-ri
+
 ";
 
 # execute it
