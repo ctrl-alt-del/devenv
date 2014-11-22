@@ -17,6 +17,11 @@ sudo apt-get install vim
 echo '>>> vim has been successfully installed!'
 echo ' '
 
+echo '<<< Installing/Upgrading Git...'
+sudo apt-get install git
+echo '>>> Git has been successfully installed/upgraded!'
+echo ' '
+
 echo '<<< Installing oh-my-zsh...'
 sudo apt-get install zsh
 wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
@@ -26,11 +31,6 @@ echo ' '
 
 # install oh-my-zsh
 # config oh-my-zsh chsh -s 'which zsh'
-
-echo '<<< Installing/Upgrading Git...'
-sudo apt-get install git-core
-echo '>>> Git has been successfully installed/upgraded!'
-echo ' '
 
 echo '<<< Installing Sublime...'
 sudo add-apt-repository ppa:webupd8team/sublime-text-2
