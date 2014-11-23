@@ -1383,9 +1383,11 @@ Once the installation package is downloaded, double click to install it.
 
 
 ## Homebrew
+Homebrew is a package manager for Mac.
+
 To install homebrew, simply open your terminal and running:
 ```sh
-ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
 [BACK TO TOP](#table-of-contents)
