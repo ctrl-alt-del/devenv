@@ -105,6 +105,40 @@ sudo yum install zsh
 ## Oh-My-Zsh
 Oh-My-Zsh is an framework for managing your ZSH configuration.  You can learn more about it on its [homepage](http://ohmyz.sh/), or on its [git repository](https://github.com/robbyrussell/oh-my-zsh)
 
+* [**Mac**](#oh-my-zsh-on-mac)
+* [**Ubuntu**](#oh-my-zsh-on-ubuntu)
+* [**Fedora**](#oh-my-zsh-on-fedora)
+
+### Oh-My-Zsh on Mac
+According to the README file on [here](https://github.com/robbyrussell/oh-my-zsh#via-curl), installing oh-my-zsh on Mac can be done by executing this line into your terminal.
+```sh
+curl -L http://install.ohmyz.sh | sh
+```
+
+[BACK TO TOP](#table-of-contents)
+
+
+### Oh-My-Zsh on Ubuntu
+```sh
+sudo apt-get install zsh
+sudo apt-get install git
+wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
+sudo chsh -s `which zsh`
+```
+
+[BACK TO TOP](#table-of-contents)
+
+
+### Oh-My-Zsh on Fedora
+```sh
+sudo yum install zsh
+sudo yum install git
+wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
+sudo chsh -s `which zsh`
+```
+
+[BACK TO TOP](#table-of-contents)
+
 
 ## Homebrew
 Homebrew is a package manager for **Mac**.  You can learn more about it on its [homepage](http://brew.sh/)
