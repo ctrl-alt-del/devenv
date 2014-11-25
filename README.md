@@ -40,7 +40,7 @@ This document and bash scripts will be updated piece by piece and I will try my 
 |[MAMP](#mamp)               | N/A                            | [-->](#mamp)              | N/A                         | N/A                         |
 |[LAMP](#lamp)               | N/A                            | N/A                       | [-->](#lamp-on-ubuntu)      | [-->](#lamp-on-fedora)      |
 |[SQLite](#sqlite)           | [-->](#sqlite-on-windows)      | [   ](            )       | [   ](               )      | [   ](               )      |
-|[MySQL](#mysql)             | [   ](       )                 | [   ](            )       | [   ](               )      | [   ](               )      |
+|[MySQL](#mysql)             | [   ](       )                 | [-->](#mysql-on-mac)      | [   ](               )      | [   ](               )      |
 |[PostgreSQL](#postgreSQL)   | [   ](       )                 | [-->](#postgreSQL-on-mac) | [   ](               )      | [   ](               )      |
 |[Chef](#chef)               | [   ](       )                 | [   ](            )       | [   ](               )      | [   ](               )      |
 |[Android SDK](#android-sdk) | [-->](#sdk-on-windows)         | [-->](#android-sdk)       | [-->](#sdk-on-ubuntu)       | [-->](#sdk)                 |
@@ -1128,6 +1128,14 @@ sqlite -v
 
 
 ## MySQL
+
+* [**Mac**](#mysql-on-mac)
+
+### MySQL on Mac
+If you use [Homebrew](#homebrew) as your package manager, installing MySQL is very simple.
+```sh
+brew install mysql
+```
 
 ## PostgreSQL
 PostgreSQL is similar to MySQL and it is the default database used on Heroku.
