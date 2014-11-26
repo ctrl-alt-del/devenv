@@ -582,20 +582,13 @@ if there is error saying php is not found on sh.exe, restart the git bash and ru
 
 
 ### Java on Mac
+For Oracle Java, go to the download page [here](http://www.oracle.com/technetwork/java/javase/downloads/index.html) to choose the JDK version.
 
-Go to the home page of Oracle to choose the Java SDK version:
-```sh
-http://www.oracle.com/technetwork/java/javase/downloads/index.html?ssSourceSiteId=otnjp
-```
-
-You can also go directly to the download page of Java 7 SDK with following link:
-```sh
-http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html
-```
+You can also go directly to the download page of Java 7 JDK in [here](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html)
 
 Scroll down the page to the section of "Java SE Development Kit 7uXX", follow the instruction on there to read and accept the license agreement, then click the download link for "Mac OS X x64".
 
-Once the dmg file is downloaded, double click to start the install process and follow its instruction to complete the process.
+Once the dmg file is downloaded, double click it to start the installation.
 
 Once the installation is done, you can verify your Java version by running the following line on terminal:
 ```sh
@@ -604,8 +597,11 @@ java -version
 
 [BACK TO TOP](#table-of-contents)
 
+
 ### Java on Ubuntu
-We will use OpenJDK since it is open source.  You can install OpenJDK by running:
+To install Oracle Java for Ubuntu, follow the same process for [Mac](#java-on-mac), but download the "Linux x64" or "Linux 32" `tar.gz` file instead.
+
+To install OpenJDK on Ubuntu, you can do so by running:
 ```sh
 sudo apt-get update
 sudo apt-get install openjdk-7-jdk
@@ -618,10 +614,13 @@ java -version
 
 [BACK TO TOP](#table-of-contents)
 
+
 ### Java on Fedora
-Similarily, we will install OpenJDK on Fedora by running:
+To install Oracle Java for Ubuntu, follow the same process for [Mac](#java-on-mac), but download the "Linux x64" or "Linux 32" `rpm` file instead.
+
+Similarily, to install OpenJDK on Fedora, you can do so by running:
 ```sh
-yum install java-1.7.0-openjdk-devel
+sudo yum install java-1.7.0-openjdk-devel
 ```
 
 [BACK TO TOP](#table-of-contents)
