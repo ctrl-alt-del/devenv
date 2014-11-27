@@ -195,7 +195,6 @@ Once Sublime is successfully installed, you can use it to open a single file by 
 wget http://c758482.r82.cf2.rackcdn.com/Sublime\ Text\ 2.0.2\ x64.tar.bz2
 tar vxjf Sublime\ Text\ 2.0.2\ x64.tar.bz2
 sudo mv Sublime\ Text\ 2 /opt/sublime
-sudo rm -rf Sublime\ Text\ 2.0.2\ x64
 sudo rm -rf Sublime\ Text\ 2.0.2\ x64.tar.bz2
 sudo ln -s /opt/sublime/sublime_text /usr/bin/subl
 ```
