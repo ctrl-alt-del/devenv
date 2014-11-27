@@ -45,6 +45,7 @@ This document and bash scripts will be updated piece by piece and I will try my 
 |[Chef](#chef)               | [   ](       )                 | [   ](            )       | [   ](               )      | [   ](               )      |
 |[Android SDK](#android-sdk) | [-->](#sdk-on-windows)         | [-->](#android-sdk)       | [-->](#sdk-on-ubuntu)       | [-->](#sdk)                 |
 |[ADT](#adt)                 | [-->](#adt)                    | [-->](#adt)               | [-->](#adt)                 | [-->](#adt)                 |
+|[Android Studio](#android-studio) | [   ](#android-studio-on-windows) | [   ](#android-studio-on-mac) | [-->](#android-studio-on-ubuntu) | [   ](#android-studio-on-fedora) |
 |[Eclipse](#eclipse)         | [-->](#eclipse)                | [-->](#eclipse-on-mac)    | [   ](#eclipse-on-ubuntu)   | [   ](#eclipse-on-fedora)   |
 |[VirtualBox](#virtualbox)   | [   ](#virtualbox)             | [   ](#virtualbox)        | [-->](#virtualbox-on-ubuntu)| [-->](#virtualbox-on-fedora)|
 
