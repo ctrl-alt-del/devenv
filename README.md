@@ -1405,6 +1405,18 @@ sudo yum install VirtualBox-4.3.x86_64
 [BACK TO TOP](#table-of-contents)
 
 
+## Android Studio
+
+* [**Ubuntu**](#android-studio-on-ubuntu)
+
+### Android Studio on Ubuntu
+```sh
+wget https://dl.google.com/dl/android/studio/ide-zips/0.8.14/android-studio-ide-135.1538390-linux.zip
+unzip android-studio-ide-135.1538390-linux.zip
+sudo mv android-studio /opt/android-studio
+sudo mv -f android-studio-ide-135.1538390-linux.zip ~/Downloads/
+sudo ln -s /opt/android-studio/bin/studio.sh /usr/bin/aso
+```
 
 
 ### RSpec on Windows
