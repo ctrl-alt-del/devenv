@@ -1410,6 +1410,7 @@ sudo yum install VirtualBox-4.3.x86_64
 * [**Ubuntu**](#android-studio-on-ubuntu)
 
 ### Android Studio on Ubuntu
+Donwload and install:
 ```sh
 wget https://dl.google.com/dl/android/studio/ide-zips/0.8.14/android-studio-ide-135.1538390-linux.zip
 unzip android-studio-ide-135.1538390-linux.zip
@@ -1417,6 +1418,29 @@ sudo mv android-studio /opt/android-studio
 sudo mv -f android-studio-ide-135.1538390-linux.zip ~/Downloads/
 sudo ln -s /opt/android-studio/bin/studio.sh /usr/bin/aso
 ```
+
+Setup Desktop Icon:
+```sh
+sudo touch /usr/share/applications/android-studio.desktop
+
+content="
+[Desktop Entry]
+Name=Android Studio
+GenericName=Android IDE
+Type=Application
+Exec=aso %U
+Terminal=false
+Icon=/opt/android-studio/bin/androidstudio.ico
+Comment=Android Studio
+NoDisplay=false
+Categories=Development;IDE
+Keywords=IDE;Android;Studio;Development;IntelliJ
+Name[en]=Android Studio
+";
+
+echo "$content" >> /usr/share/applications/android-studio.desktop;
+```
+
 
 
 ### RSpec on Windows
