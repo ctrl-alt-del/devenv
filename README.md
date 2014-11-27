@@ -279,14 +279,24 @@ sudo yum install git-core
 
 
 
-
 ## Gitk
 Gitk is a graphic user interface for git.
 
+* [**Ubuntu**](#gitk-on-ubuntu)
+* [**Fedora**](#gitk-on-fedora)
+
 ### Gitk on Ubuntu
-Gitk is a graphical user interface for Git.  You can install it by running:
+You can install it by running:
 ```sh
 sudo apt-get install gitk
+```
+
+[BACK TO TOP](#table-of-contents)
+
+
+### Gitk on Fedora
+```sh
+sudo yum install gitk
 ```
 
 [BACK TO TOP](#table-of-contents)
