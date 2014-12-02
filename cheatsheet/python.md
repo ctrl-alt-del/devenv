@@ -70,9 +70,9 @@ else:
 
 
 **Function**
-<br>
+```py
 def myFunction (arg1, arg2='default2', arg3='default3'):
-
+```
 
 **Documentation**
 <br>
@@ -101,12 +101,12 @@ Action to each item on the list, similar to .each in ruby.
 
 
 **Formatted Strings**
-<br>
+```py
 a = 'a'
 b = 'b'
 c = 'c'
 print '%s %s %s' % (a,b,c)
-
+```
 %s string
 %e engineering decimal
 %f floating point
@@ -117,13 +117,12 @@ print '%s %s %s' % (a,b,c)
 r: read
 w: write
 a: append
-
+```py
 f = open(file_dest) // default is read
 f = open(file_dest, 'r')
 f.read()
-
 f.close()
-
+```
 
 **pickle Module**
 Serialization of data
@@ -140,21 +139,22 @@ raise Exception('spam', 'eggs')
 
 
 **Class**
-<br>
+```py
 class parentClass:
   def __init__(self, arg):
-
+```
 
 **Inherit other class**
-<br>
+```py
 class newClass(parentClass):
   def __init__(self):
     Animal.__init__(self, ...)
+```
 
 **multiple inheritance**
-<br>
+```py
 class newClass(parentClass1, parentClass2, parentClass3):
-
+```
 
 **exit(0)**
 <br>
