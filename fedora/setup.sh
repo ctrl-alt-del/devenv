@@ -11,11 +11,8 @@ sudo yum install zsh
 echo '>>> Zsh has been successfully installed!'
 echo ' '
 
-# install oh-my-zsh
-# config oh-my-zsh chsh -s 'which zsh'
-
 echo '<<< Installing/Upgrading Git...'
-sudo yum install git-core
+sudo yum install git
 echo '>>> Git has been successfully installed/upgraded!'
 echo ' '
 
