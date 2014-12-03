@@ -19,8 +19,13 @@ sudo yum install git-core
 echo '>>> Git has been successfully installed/upgraded!'
 echo ' '
 
-echo '<<< Installing Sublime...'
+echo '<<< Installing Oh-My-Zsh...'
+wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
+chsh -s `which zsh`
+echo '>>> Oh-My-Zsh has been successfully installed!'
+echo ' '
 
+echo '<<< Installing Sublime...'
 os_ver=`getconf LONG_BIT`;
 if [ $os_ver = 64 ] ; then
 	echo '64-bit Operating System Detected...';
