@@ -9,6 +9,11 @@ echo '<<< Upgrading Git...'
 git clone https://github.com/git/git
 echo '>>> Git has been successfully upgraded!'
 
+echo '<<< Installing Oh-My-Zsh...'
+wget --no-check-certificate http://install.ohmyz.sh -O - | sh
+echo '>>> Oh-My-Zsh has been successfully installed!'
+echo ' '
+
 echo '<<< Setting up ~/.bash_profile...'
 if [ ! -f ./setup_bash_profile.sh ] ; then
   \curl -O https://raw.githubusercontent.com/ctrl-alt-del/devenv/master/util/setup_bash_profile.sh
