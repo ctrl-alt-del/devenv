@@ -187,16 +187,29 @@ sudo apt-get install sublime-text
 Once Sublime is successfully installed, you can use it to open a single file by running:
 `subl <FILE_PATH>`, or open all files of the current directory by running `subl .`
 
+If you prefer to install Sublime manually, you can follow the instruction for [Fedora](#sublime-on-fedora)
+
 [BACK TO TOP](#table-of-contents)
 
 
 ### Sublime on Fedora
+You can install Sublime manually by copy and paste the following script into terminal:
 
+For 64-bit System:
 ```sh
 wget http://c758482.r82.cf2.rackcdn.com/Sublime\ Text\ 2.0.2\ x64.tar.bz2
 tar vxjf Sublime\ Text\ 2.0.2\ x64.tar.bz2
 sudo mv Sublime\ Text\ 2 /opt/sublime
 sudo rm -rf Sublime\ Text\ 2.0.2\ x64.tar.bz2
+sudo ln -s /opt/sublime/sublime_text /usr/bin/subl
+```
+
+For 32-bit System:
+```sh
+wget http://c758482.r82.cf2.rackcdn.com/Sublime\ Text\ 2.0.2.tar.bz2
+tar vxjf Sublime\ Text\ 2.0.2.tar.bz2
+sudo mv Sublime\ Text\ 2 /opt/sublime
+sudo rm -rf Sublime\ Text\ 2.0.2.tar.bz2
 sudo ln -s /opt/sublime/sublime_text /usr/bin/subl
 ```
 
