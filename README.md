@@ -225,9 +225,8 @@ sudo ln -s /opt/sublime/sublime_text /usr/bin/subl
 
 
 ## Git
-Git is a distributed version control and code management system.  You can learn more detail about it on its [homepage](http://git-scm.com/).
+[Git](http://git-scm.com/) is a distributed version control and code management system.
 
-For details on how to install Git on different operating system, click on:
 * [Windows](#git-on-windows)
 * [Mac](#git-on-mac)
 * [Ubuntu](#git-on-ubuntu)
@@ -272,7 +271,7 @@ brew install git
 Git should've come with Ubuntu, but if it is not, you can install it easily through running:
 ```sh
 sudo apt-get update
-sudo apt-get install git-core
+sudo apt-get install git
 ```
 
 To upgrade to the latest version of Git, you can do so by running:
@@ -319,9 +318,9 @@ sudo yum install gitk
 Similar to Gitk, SmartGit is an UI for git too, yet it has more functionalities than Gitk.
 
 ## Curl
-Curl is a tool to transfer data from or to a server, you can learn more about it on its [homepage](http://curl.haxx.se/docs/manpage.html).
+[Curl](http://curl.haxx.se/docs/manpage.html) is a tool to transfer data from or to a server.
 
-Curl comes with Mac and some distros of Linux by default.  For Windows, it should comes with the [Git](#git) you installed earlier.  In case Curl is not presented on your operating system, you can follow the instructions below to install it yourself.
+Curl comes with Mac and some distros of Linux by default.  For Windows, it should comes with [Git](#git).  In case Curl is not installed on your system, you can follow the instructions below to install it yourself.
 
 * [**Windows**](#curl-on-windows)
 * [**Mac**](#curl-on-mac)
@@ -329,7 +328,7 @@ Curl comes with Mac and some distros of Linux by default.  For Windows, it shoul
 * [**Fedora**](#curl-on-fedora)
 
 ### Curl on Windows
-Visit the download page of Curl in [here](http://curl.haxx.se/download.html) and download the latest version of `curl-[version].zip` listed under source achieve.
+Visit the download page of Curl in [here](http://curl.haxx.se/download.html) to download the latest version of `curl-[version].zip` listed under source achieve.
 
 Once it is downloaded, unzip it to `/c/usr/bin/curl`, or whatever directory your chose.
 
