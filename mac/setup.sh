@@ -5,9 +5,9 @@ echo '<<< Installing Homebrew...'
 ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 echo '>>> Homebrew has been successfully installed!'
 
-echo '<<< Upgrading Git...'
-git clone https://github.com/git/git
-echo '>>> Git has been successfully upgraded!'
+echo '<<< Installing Git...'
+brew install git
+echo '>>> Git has been successfully installed!'
 
 echo '<<< Installing Oh-My-Zsh...'
 wget --no-check-certificate http://install.ohmyz.sh -O - | sh
