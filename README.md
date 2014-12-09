@@ -1148,7 +1148,7 @@ You are done! LAMP stack is now installed into your Fedora.
 
 * [**Windows**](#sqlite-on-windows)
 * [**Mac**]()
-* [**Ubuntu**]()
+* [**Ubuntu**](#sqlite-on-ubuntu)
 
 ### SQLite on Windows
 Download the latest SQLite for Windows from [here](http://www.sqlite.org/download.html)
@@ -1180,6 +1180,16 @@ sqlite -v
 ```
 
 [BACK TO TOP](#table-of-contents)
+
+
+### SQLite on Ubuntu
+```sh
+sudo apt-get install sqlite3 libsqlite3-dev
+```
+
+[BACK TO TOP](#table-of-contents)
+
+
 
 
 ## MySQL
