@@ -284,7 +284,7 @@ sudo apt-get upgrade git
 
 ### Git on Fedora
 ```sh
-sudo yum install git-core
+sudo yum install git
 ```
 
 [BACK TO TOP](#table-of-contents)
@@ -531,6 +531,7 @@ gem install rails
 Once installation is done, verify it by running:
 ```sh
 which rails # should see a path similar to /c/usr/bin/rails/rails
+rails -v # should see the version of rails
 ```
 
 
@@ -548,6 +549,7 @@ To install latest stable Rails through RVM, you can simply run:
 Once installation is done, verify it through running:
 ```sh
 which rails
+rails -v
 ```
 
 If you encounter issue while running `gem install pg`, you need to install PostgreSQL and you can do so by follow the instruction [here](#postgresql-on-mac)
@@ -596,6 +598,7 @@ ln -s /c/usr/bin/java/java.exe java.exe
 Verify the symbolic link is working properly by running:
 ```sh
 which java # should see /usr/bin/java
+java -version
 ```
 
 if there is error saying php is not found on sh.exe, restart the git bash and run above line again.
