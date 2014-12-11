@@ -484,6 +484,11 @@ Once installation is done, you can verify it by running:
 ruby -v
 ```
 
+To select the latest ruby version as the default:
+```sh
+rvm --default <ruby_version>
+```
+
 To setup the Ruby environment, you can simply check if the Ruby environment is setup by a RVM command:
 ```sh
 rvm requirements
