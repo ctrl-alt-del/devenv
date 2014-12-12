@@ -1491,6 +1491,15 @@ Name[en]=Android Studio
 echo "$content" >> /usr/share/applications/android-studio.desktop;
 ```
 
+To setup Android Virtual Machine (AVD) on Ubuntu, you need to first enable CPU virtualization technology on your BIOS.
+
+Afterwards, you need to install Kernel Virtual Machine (KVM)
+```sh
+sudo apt-get install qemu-kvm ubuntu-vm-builder
+```
+
+Once installation is done, restart your computer, and you will now be able to use AVD.
+
 [BACK TO TOP](#table-of-contents)
 
 
