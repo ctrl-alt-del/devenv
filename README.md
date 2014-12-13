@@ -1456,6 +1456,8 @@ Download Android Studio from its home page [here](https://developer.android.com/
 
 Once download is done, unzip it and then move the `.app` file to Application folder.
 
+The newer version of Android Studio for Mac no long comes with Android SDK, therefore, you need to download the SDK seperately from [here](#sdk-on-mac).
+
 [BACK TO TOP](#table-of-contents)
 
 
@@ -1490,6 +1492,8 @@ Name[en]=Android Studio
 
 echo "$content" >> /usr/share/applications/android-studio.desktop;
 ```
+
+The newer version of Android Studio for Linux no long comes with Android SDK, therefore, you need to download the SDK seperately from [here](#sdk-on-ubuntu).
 
 To setup Android Virtual Machine (AVD) on Ubuntu, you need to first enable CPU virtualization technology on your BIOS.
 
