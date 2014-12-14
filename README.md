@@ -20,6 +20,7 @@ This document and bash scripts will be updated piece by piece and I will try my 
 |[Homebrew](#homebrew)       | N/A                            | [-->](#homebrew)          | N/A                         | N/A                         |
 |[Sublime](#sublime)         | [-->](#sublime-on-windows)     | [-->](#sublime-on-mac)    | [-->](#sublime-on-ubuntu)   | [-->](#sublime-on-fedora)   |
 |[Git](#git)                 | [-->](#git-on-windows)         | [-->](#git-on-mac)        | [-->](#git-on-ubuntu)       | [-->](#git-on-fedora)       |
+|[Gitg](#gitg)               | [   ](#gitg-on-windows)        | [   ](#gitg-on-mac)       | [   ](#gitg-on-ubuntu)      | [   ](#gitg-on-fedora)      |
 |[Gitk](#gitk)               | [   ](#gitk-on-windows)        | [   ](#gitk-on-mac)       | [-->](#gitk-on-ubuntu)      | [   ](#gitk-on-fedora)      |
 |[SmartGit](#smartgit)       | [   ](#smartgit-on-windows)    | [   ](#smartgit-on-mac)   | [-->](#smartgit-on-ubuntu)  | [   ](#smartgit-on-fedora)  |
 |[Curl](#curl)               | [-->](#curl-on-windows)        | [-->](#curl-on-mac)       | [-->](#curl-on-ubuntu)      | [   ](#curl-on-fedora)      |
@@ -289,6 +290,17 @@ sudo yum install git
 
 [BACK TO TOP](#table-of-contents)
 
+## Gitg
+Gitg is a graphic user interface for git.
+
+* [**Ubuntu**](#gitk-on-ubuntu)
+
+### Gitg on Ubuntu
+```sh
+sudo apt-get install gitg
+```
+
+[BACK TO TOP](#table-of-contents)
 
 
 ## Gitk
