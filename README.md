@@ -585,6 +585,8 @@ Please follow the same instruction of [Mac](#rails-on-mac).
 
 [BACK TO TOP](#table-of-contents)
 
+
+
 ## Java
 Both Java 7 and 8 are available today.  This instruction will focus on Java 7, but the processes are similar to Java 8.
 
@@ -628,7 +630,7 @@ For Oracle Java, go to the download page [here](http://www.oracle.com/technetwor
 
 You can also go directly to the download page of Java 7 JDK in [here](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html)
 
-Scroll down the page to the section of "Java SE Development Kit 7uXX", follow the instruction on there to read and accept the license agreement, then click the download link for "Mac OS X x64".
+Scroll down the page to the section of "Java SE Development Kit 7uXX" for Java 7; follow the instruction on there to read and accept the license agreement, then click the download link for "Mac OS X x64".
 
 Once the dmg file is downloaded, double click it to start the installation.
 
@@ -720,6 +722,7 @@ ln -s /c/usr/bin/python/python.exe python.exe
 Verify the symbolic link is working properly by running:
 ```sh
 which python # should see /usr/bin/python
+python -V # using uppercase V to see the version of installed python
 ```
 
 if there is error saying php is not found on sh.exe, restart the git bash and run above line again.
