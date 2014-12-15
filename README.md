@@ -643,6 +643,14 @@ java -version
 ### Java on Ubuntu
 To install Oracle Java for Ubuntu, follow the same process for [Mac](#java-on-mac), but download the "Linux x64" or "Linux 32" `tar.gz` file instead.
 
+Alternatively, you can use PPA to install Oracle Java as well.
+```sh
+sudo apt-get install python-software-properties
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt-get update
+sudo apt-get install oracle-java7-installer
+```
+
 To install OpenJDK on Ubuntu, you can do so by running:
 ```sh
 sudo apt-get update
