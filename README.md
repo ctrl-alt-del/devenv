@@ -1461,6 +1461,8 @@ sudo yum install VirtualBox-4.3.x86_64
 ## Android Studio
 Android Studio is a IDE based on IntelliJ IDEA.
 
+Note that the latest version of Android Studio requires Gradle 2.2 and above; therefore, please make sure you have it installed.  You can also follow the instruction of installing Gradle in [here](#gradle).
+
 * [**Windows**](#android-studio-on-windows)
 * [**Mac**](#android-studio-on-mac)
 * [**Ubuntu**](#android-studio-on-ubuntu)
