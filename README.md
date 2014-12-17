@@ -284,8 +284,14 @@ sudo apt-get upgrade git
 
 
 ### Git on Fedora
+To install git on Fedora:
 ```sh
 sudo yum install git
+```
+
+To upgrade git on Fedora:
+```sh
+sudo yum upgrade git
 ```
 
 [BACK TO TOP](#table-of-contents)
