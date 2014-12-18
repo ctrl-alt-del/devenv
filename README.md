@@ -776,6 +776,27 @@ sudo yum install python27
 
 [BACK TO TOP](#table-of-contents)
 
+## Pip
+
+* [**Mac**](#pip-on-mac)
+
+### Pip on Mac
+To install `pip`, you can download its installer file from [here]
+(https://pip.pypa.io/en/latest/installing.html#install-pip)
+
+Once download is completed, you can install `pip` by running:
+```sh
+cd ~/Downloads
+sudo python get-pip.py
+```
+
+You can verify its version by running:
+```sh
+pip -V
+```
+
+[BACK TO TOP](#table-of-contents)
+
 
 ## PHP
 
