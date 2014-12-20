@@ -798,6 +798,20 @@ pip -V
 [BACK TO TOP](#table-of-contents)
 
 
+
+## Django
+
+* [**Mac**](#django-on-mac)
+
+### Django on Mac
+```sh
+sudo pip install django
+```
+
+[BACK TO TOP](#table-of-contents)
+
+
+
 ## PHP
 
 PHP is a scripting language for web applications.
