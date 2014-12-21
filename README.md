@@ -1499,6 +1499,43 @@ sudo yum install VirtualBox-4.3.x86_64
 [BACK TO TOP](#table-of-contents)
 
 
+## PyCharm
+PyCharm is an IDE based on IntelliJ IDEA for Python
+
+* [**Ubuntu**](pycharm-on-ubuntu)
+
+### PyCharm on Ubuntu
+Donwload PyCharm from its home page on [here](http://www.jetbrains.com/pycharm/download/)
+
+Once download is down, unzip it and move it to the `/opt`
+
+make a symbolic link
+
+Setup Desktop Icon:
+```sh
+sudo touch /usr/share/applications/pycharm.desktop
+
+content="
+[Desktop Entry]
+Name=PyCharm
+GenericName=Python IDE
+Type=Application
+Exec=pycharm %U
+Terminal=false
+Icon=/opt/pycharm/bin/pycharm.png
+Comment=PyCharm
+NoDisplay=false
+Categories=Development;IDE
+Keywords=IDE;PyCharm;Development;IntelliJ
+Name[en]=PyCharm
+";
+
+echo "$content" >> /usr/share/applications/pycharm.desktop;
+```
+
+[BACK TO TOP](#table-of-contents)
+
+
 ## Android Studio
 Android Studio is a IDE based on IntelliJ IDEA.
 
