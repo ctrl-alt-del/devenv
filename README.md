@@ -1503,8 +1503,18 @@ sudo yum install VirtualBox-4.3.x86_64
 ## PyCharm
 PyCharm is an IDE based on IntelliJ IDEA for Python
 
+* [**Mac**](pycharm-on-mac)
 * [**Ubuntu**](pycharm-on-ubuntu)
 * [**Fedora**](pycharm-on-fedora)
+
+### PyCharm on Mac
+Donwload PyCharm from its home page on [here](http://www.jetbrains.com/pycharm/download/)
+
+Once download is completed, double click the `.dmg` file and follow the instruction to install.
+
+[BACK TO TOP](#table-of-contents)
+
+
 
 ### PyCharm on Ubuntu
 Donwload PyCharm from its home page on [here](http://www.jetbrains.com/pycharm/download/)
