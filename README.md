@@ -1503,9 +1503,19 @@ sudo yum install VirtualBox-4.3.x86_64
 ## PyCharm
 PyCharm is an IDE based on IntelliJ IDEA for Python
 
+* [**Windows**](pycharm-on-windows)
 * [**Mac**](pycharm-on-mac)
 * [**Ubuntu**](pycharm-on-ubuntu)
 * [**Fedora**](pycharm-on-fedora)
+
+### PyCharm on Windows
+Donwload PyCharm from its home page on [here](http://www.jetbrains.com/pycharm/download/)
+
+Once download is completed, double click the `.exe` file and follow the instruction to install.
+
+
+[BACK TO TOP](#table-of-contents)
+
 
 ### PyCharm on Mac
 Donwload PyCharm from its home page on [here](http://www.jetbrains.com/pycharm/download/)
@@ -1568,7 +1578,7 @@ Note that the latest version of Android Studio requires Gradle 2.2 and above; th
 ### Android Studio on Windows
 Download Android Studio from its home page [here](https://developer.android.com/sdk/installing/studio.html)
 
-Once download is done, unzip it and it is ready to go.
+Once download is done, follow the instruction to install Android Studio and SDK.
 
 [BACK TO TOP](#table-of-contents)
 
