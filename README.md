@@ -1529,9 +1529,12 @@ Once download is completed, double click the `.dmg` file and follow the instruct
 ### PyCharm on Ubuntu
 Donwload PyCharm from its home page on [here](http://www.jetbrains.com/pycharm/download/)
 
-Once download is down, unzip it and move it to the `/opt`
+Once download is down, unzip it and move it to the `/opt/pycharm`
 
 make a symbolic link
+```sh
+sudo ln -s /opt/pycharm/bin/pycharm.sh /usr/bin/pycharm
+```
 
 Setup Desktop Icon:
 ```sh
