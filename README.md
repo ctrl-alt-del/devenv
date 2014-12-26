@@ -1432,7 +1432,7 @@ sudo apt-get install libc6:i386 libstdc++6:i386 zlib1g:i386
 
 
 ### SDK on Fedora
-Follow the same instruction as [Ubuntu](#sdk-on-ubuntu)
+Follow the same instruction as [Ubuntu](#sdk-on-ubuntu).
 
 #### Compatibility issue on Fedora
 If you are in Linux 64 bit OS, you may also need to install the 32 bit shared libraries.
@@ -1445,6 +1445,8 @@ sudo yum install glibc.i686 glibc-devel.i686 libstdc++.i686 zlib-devel.i686 ncur
 
 
 ## ADT
+ADT stands for Android Development Toolkit.  
+
 Once Eclipse is installed, open it and navigate to its Help -> Install New Software.
 
 On the wizard of Install New Software, click on the add button and paste `https://dl-ssl.google.com/android/eclipse/` to `location` and put `Android Development Toolkit plugin` on `name`, then press OK.
@@ -1464,6 +1466,7 @@ Solution: make sure the url used to install the ADT starts with `https`, not `ht
 
 
 ## VirtualBox
+VirtualBox is a tool for setting up virtualization machine.
 
 * [**Ubuntu**](#virtualbox-on-ubuntu)
 * [**Fedora**](#virtualbox-on-fedora)
@@ -1501,7 +1504,7 @@ sudo yum install VirtualBox-4.3.x86_64
 
 
 ## PyCharm
-PyCharm is an IDE based on IntelliJ IDEA for Python
+PyCharm is an IDE based on IntelliJ IDEA for Python development.
 
 * [**Windows**](pycharm-on-windows)
 * [**Mac**](pycharm-on-mac)
@@ -1569,7 +1572,7 @@ Follow the same instruction as [Ubuntu](#pycharm-on-ubuntu).
 
 
 ## Android Studio
-Android Studio is a IDE based on IntelliJ IDEA.
+Android Studio is a IDE based on IntelliJ IDEA for Android development.
 
 Note that the latest version of Android Studio requires Gradle 2.2 and above; therefore, please make sure you have it installed.  You can also follow the instruction of installing Gradle in [here](#gradle).
 
