@@ -270,7 +270,7 @@ brew install git
 
 
 ### Git on Ubuntu
-Git should've come with Ubuntu, but if it is not, you can install it easily through running:
+To install git on Ubuntu:
 ```sh
 sudo apt-get update
 sudo apt-get install git
@@ -301,6 +301,7 @@ sudo yum upgrade git
 Gitg is a graphic user interface for git.
 
 * [**Ubuntu**](#gitk-on-ubuntu)
+* [**Fedora**](#gitk-on-fedora)
 
 ### Gitg on Ubuntu
 ```sh
@@ -308,6 +309,15 @@ sudo apt-get install gitg
 ```
 
 [BACK TO TOP](#table-of-contents)
+
+
+### Gitg on Fedora
+```sh
+sudo yum install gitg
+```
+
+[BACK TO TOP](#table-of-contents)
+
 
 
 ## Gitk
