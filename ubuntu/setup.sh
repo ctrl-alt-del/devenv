@@ -97,3 +97,11 @@ echo '>>> dkms has been successfully installed!'
 echo '<<< Installing gitg...'
 sudo apt-get install gitg
 echo '>>> gitg has been successfully installed!'
+
+echo '<<< Installing pip...'
+\curl -O https://bootstrap.pypa.io/get-pip.py
+chmod 755 get-pip.py
+sudo python get-pip.py
+rm get-pip.py
+echo '>>> pip has been successfully installed!'
+
