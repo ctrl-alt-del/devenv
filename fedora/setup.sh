@@ -84,3 +84,10 @@ echo '>>> synclient has been successfully configured!'
 echo '<<< Installing gitg...'
 sudo yum install gitg
 echo '>>> gitg has been successfully installed!'
+
+echo '<<< Installing pip...'
+\curl -O https://bootstrap.pypa.io/get-pip.py
+chmod 755 get-pip.py
+sudo python get-pip.py
+rm get-pip.py
+echo '>>> pip has been successfully installed!'
