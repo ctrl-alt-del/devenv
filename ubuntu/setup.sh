@@ -105,3 +105,8 @@ sudo python get-pip.py
 rm get-pip.py
 echo '>>> pip has been successfully installed!'
 
+echo '<<< Installing Django...'
+sudo pip install django
+echo '>>> Django has been successfully installed!'
+
+
