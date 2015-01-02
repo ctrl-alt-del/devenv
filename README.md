@@ -65,7 +65,7 @@ This document and bash scripts will be updated piece by piece and I will try my 
 ## Configuration
 
 ### Configure Windows
-It is a good idea to centralize all your packages in one folder.  Not only does it help  to better organize your packages, having a dedicated folder for your packages also makes navigating with command line easier.  In this instruction for Windows, all packages will be put or installed under /c/usr/bin (a.k.a "C:\usr\bin").  Please create the folder if it is not existed, and of course, feel free to name your own directory.
+It is a good idea to centralize all your packages in one folder.  Not only does it help to better organize your packages, having a dedicated folder for your packages also makes navigating with command line easier.  In this instruction for Windows, all packages will be put or installed under /c/usr/bin (a.k.a "C:\usr\bin").  Please create the folder if it is not existed, and of course, feel free to name your own directory.  One popular alternative would be making an `Applications` folder under your personal folder and install all packages in there.  To reach your personal folder, you can do so by simply typing in `%USERPROFILE%` in you folder navigator.
 
 If you are familiar with Window's PowerShell, you can create the folder by opening PowerShell and run:
 ```sh
