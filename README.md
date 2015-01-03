@@ -1761,6 +1761,20 @@ sudo tasksel install lamp-server
 [BACK TO TOP](#table-of-contents)
 
 
+## Redis
+Redis is an open source key-value cache.
+
+[**Ubuntu**](#redis-on-ubuntu)
+
+### Redis on Ubuntu
+```sh
+wget http://download.redis.io/releases/redis-2.8.19.tar.gz
+tar xzf redis-2.8.19.tar.gz
+cd redis-2.8.19
+make
+```
+
+
 # General Setup
 
 ## Setup .bash_profile
