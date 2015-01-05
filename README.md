@@ -1764,7 +1764,14 @@ sudo tasksel install lamp-server
 ## Redis
 Redis is an open source key-value cache.
 
+[**Mac**](#redis-on-mac)
 [**Ubuntu**](#redis-on-ubuntu)
+[**Fedora**](#redis-on-fedora)
+
+### Redis on Mac
+[BACK TO TOP](#table-of-contents)
+
+
 
 ### Redis on Ubuntu
 ```sh
@@ -1773,6 +1780,14 @@ tar xzf redis-2.8.19.tar.gz
 cd redis-2.8.19
 make
 ```
+
+[BACK TO TOP](#table-of-contents)
+
+
+
+### Redis on Fedora
+[BACK TO TOP](#table-of-contents)
+
 
 
 # General Setup
