@@ -1769,6 +1769,9 @@ Redis is an open source key-value cache.
 [**Fedora**](#redis-on-fedora)
 
 ### Redis on Mac
+```sh
+brew install redis
+```
 [BACK TO TOP](#table-of-contents)
 
 
