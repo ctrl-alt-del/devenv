@@ -1789,6 +1789,7 @@ make
 
 
 ### Redis on Fedora
+Follow the same instruction as [Ubuntu](#redis-on-ubuntu)
 [BACK TO TOP](#table-of-contents)
 
 
