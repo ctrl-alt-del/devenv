@@ -1762,6 +1762,16 @@ sudo tasksel install lamp-server
 [BACK TO TOP](#table-of-contents)
 
 
+### LAMP on Fedora
+```sh
+sudo yum update
+sudo yum install httpd # install Apache 2
+sudo yum install mysql mysql-server # install MySQL
+sudo yum install php php-mysql # install PHP
+```
+[BACK TO TOP](#table-of-contents)
+
+
 
 ## Redis
 Redis is an open source key-value cache.
