@@ -41,7 +41,7 @@ This document and bash scripts will be updated piece by piece and I will try my 
 |[MAMP](#mamp)               | N/A                            | [-->](#mamp)              | N/A                         | N/A                         |
 |[LAMP](#lamp)               | N/A                            | N/A                       | [-->](#lamp-on-ubuntu)      | [-->](#lamp-on-fedora)      |
 |[SQLite](#sqlite)           | [-->](#sqlite-on-windows)      | [   ](            )       | [   ](               )      | [   ](               )      |
-|[MySQL](#mysql)             | [   ](       )                 | [-->](#mysql-on-mac)      | [   ](               )      | [   ](               )      |
+|[MySQL](#mysql)             | [   ](       )                 | [-->](#mysql-on-mac)      | [-->](#mysql-on-ubuntu)     | [-->](#mysql-on-fedora)     |
 |[PostgreSQL](#postgreSQL)   | [   ](       )                 | [-->](#postgreSQL-on-mac) | [   ](               )      | [   ](               )      |
 |[Chef](#chef)               | [   ](       )                 | [   ](            )       | [   ](               )      | [   ](               )      |
 |[Android SDK](#android-sdk) | [-->](#sdk-on-windows)         | [-->](#android-sdk)       | [-->](#sdk-on-ubuntu)       | [-->](#sdk)                 |
@@ -1278,12 +1278,33 @@ sudo apt-get install sqlite3 libsqlite3-dev
 ## MySQL
 
 * [**Mac**](#mysql-on-mac)
+* [**Ubuntu**](#mysql-on-ubuntu)
+* [**Fedora**](#mysql-on-fedora)
 
 ### MySQL on Mac
 If you use [Homebrew](#homebrew) as your package manager, installing MySQL is very simple.
 ```sh
 brew install mysql
 ```
+
+[BACK TO TOP](#table-of-contents)
+
+
+### MySQL on Ubuntu
+```sh
+sudo apt-get install mysql-server
+```
+
+[BACK TO TOP](#table-of-contents)
+
+
+### MySQL on Fedora
+```sh
+sudo yum install mysql mysql-server
+```
+
+[BACK TO TOP](#table-of-contents)
+
 
 ## PostgreSQL
 PostgreSQL is similar to MySQL and it is the default database used on Heroku.
