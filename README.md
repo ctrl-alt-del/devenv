@@ -59,7 +59,6 @@ This document and bash scripts will be updated piece by piece and I will try my 
 * [EditThisCookie](#editthiscookie)
 * [REST Console](#rest-console)
 * [JSON View](#json-view)
-
 * [Setup Android dev environment](#setup-android-dev-enviroment)
 
 ## Configuration
@@ -88,6 +87,9 @@ For Ubuntu, Fedora, and all other Unix/Linux base operating system users, you ca
 
 ## Zsh
 Zsh stands for Z shell is a Unix base interactive login shell.  You can learn more about it on its [Wiki](http://en.wikipedia.org/wiki/Zsh) page.
+
+* [**Ubuntu**](#zsh-on-ubuntu)
+* [**Fedora**](#zsh-on-fedora)
 
 #### Zsh on Ubuntu
 To install Zsh on Ubuntu, you can do so by running:
