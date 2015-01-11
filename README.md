@@ -106,6 +106,18 @@ sudo yum install zsh
 
 [BACK TO TOP](#table-of-contents)
 
+## Wget
+`wget` utility is a free, open-source, command-line tool that downloads content from internet
+
+* [**Ubuntu**](#wget-on-ubuntu)
+
+### Wget on Ubuntu
+```sh
+sudo apt-get update
+sudo apt-get install wget
+```
+[BACK TO TOP](#table-of-contents)
+
 
 ## Oh-My-Zsh
 Oh-My-Zsh is an framework for managing your ZSH configuration.  You can learn more about it on its [homepage](http://ohmyz.sh/), or on its [git repository](https://github.com/robbyrussell/oh-my-zsh)
