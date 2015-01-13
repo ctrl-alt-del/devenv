@@ -110,6 +110,7 @@ sudo yum install zsh
 `wget` utility is a free, open-source, command-line tool that downloads content from internet
 
 * [**Ubuntu**](#wget-on-ubuntu)
+* [**Fedora**](#wget-on-fedora)
 
 ### Wget on Ubuntu
 ```sh
@@ -117,6 +118,14 @@ sudo apt-get update
 sudo apt-get install wget
 ```
 [BACK TO TOP](#table-of-contents)
+
+
+### Wget on Fedora
+```sh
+sudo yum install wget
+```
+[BACK TO TOP](#table-of-contents)
+
 
 
 ## Oh-My-Zsh
