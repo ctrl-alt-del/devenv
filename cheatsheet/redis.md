@@ -29,3 +29,21 @@ set x 10
 del x // 1
 del x // 0
 ```
+
+## Expiration
+expire <key> <duration>
+```redis
+set x 5
+expire x 100 // will expire in 100 seconds
+```
+
+## Time Til Deleted
+ttl <key>
+```redis
+set x 5
+ttl x // -1 => meaning the key will never expire
+
+expire x 100 // will expire in 100 seconds
+// wait 100 seconds
+ttl x // -2 => meaning the key does NOT exist
+```
