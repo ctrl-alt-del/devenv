@@ -1850,6 +1850,18 @@ Follow the same instruction as [Ubuntu](#redis-on-ubuntu)
 [BACK TO TOP](#table-of-contents)
 
 
+## Bower
+[**Bower**](http://bower.io) is a package manager for the web.  You need [npm](#npm) in order to install `bower`.
+
+[**Mac**](#bower-on-mac)
+[**Ubuntu**](#bower-on-ubuntu)
+
+### Bower on Mac
+```sh
+npm install -g bower
+```
+[BACK TO TOP](#table-of-contents)
+
 
 # General Setup
 
