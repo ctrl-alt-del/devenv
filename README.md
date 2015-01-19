@@ -1875,6 +1875,14 @@ Follow the same instruction as [Mac](#bower-on-mac).
 
 
 ## jQuery
+
+[**Mac**](#jquery-on-mac)
+
+### jQuery on Mac
+```sh
+bower install jquery
+```
+
 [BACK TO TOP](#table-of-contents)
 
 # General Setup
