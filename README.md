@@ -1855,6 +1855,7 @@ Follow the same instruction as [Ubuntu](#redis-on-ubuntu)
 
 [**Mac**](#bower-on-mac)
 [**Ubuntu**](#bower-on-ubuntu)
+[**Fedora**](#bower-on-fedora)
 
 ### Bower on Mac
 ```sh
@@ -1862,6 +1863,19 @@ npm install -g bower
 ```
 [BACK TO TOP](#table-of-contents)
 
+
+### Bower on Ubuntu
+Follow the same instruction as [Mac](#bower-on-mac).
+[BACK TO TOP](#table-of-contents)
+
+
+### Bower on Fedora
+Follow the same instruction as [Mac](#bower-on-mac).
+[BACK TO TOP](#table-of-contents)
+
+
+## jQuery
+[BACK TO TOP](#table-of-contents)
 
 # General Setup
 
