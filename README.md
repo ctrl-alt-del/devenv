@@ -1877,12 +1877,18 @@ Follow the same instruction as [Mac](#bower-on-mac).
 ## jQuery
 
 [**Mac**](#jquery-on-mac)
+[**Ubuntu**](#jquery-on-ubuntu)
 
 ### jQuery on Mac
+You need [`bower`](#bower) as a prerequisite
 ```sh
 bower install jquery
 ```
+[BACK TO TOP](#table-of-contents)
 
+
+### Bower on Ubuntu
+Follow the same instruction as [Mac](#jquery-on-mac).
 [BACK TO TOP](#table-of-contents)
 
 # General Setup
