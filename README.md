@@ -1950,6 +1950,11 @@ https://chrome.google.com/webstore/detail/rest-console/cokgbflfommojglbmbpenpphp
 
 To intall the extension, just click on the blue `+ Free` button the top right corner.
 
+### Postman
+[Postman](https://chrome.google.com/webstore/detail/postman-rest-client/fdmmgilgnpjigdojojpjoooidkmcomcm?utm_source=chrome-ntp-icon) is similar with REST Console, but it has history of all the requests that you have made.
+
+To intall the extension, just click on the blue `+ Free` button the top right corner.
+
 ### JSON View
 JSON View is a tool that parses JSON into a more human readable format.  You can learn more about it on its page on:
 ```sh
