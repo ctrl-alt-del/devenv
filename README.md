@@ -1931,13 +1931,13 @@ Once Chrome is installed, you can start installing extensions by entering `chrom
 
 Alternatively, you can reach the chrome web store page by visiting:
 ```sh
-https://chrome.google.com/webstore/category/extensions?hl=en-US
+https://chrome.google.com/webstore/category/extensions
 ```
 
 ### EditThisCookie
 EditThisCookie is a cookie manager that allow developer to modify cookies of a page in real for development and testing purpose.  To install this extension, you can either search `EditThisCookie` on the chrome web store, or visiting its page on:
 ```sh
-https://chrome.google.com/webstore/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg?hl=en-US
+https://chrome.google.com/webstore/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg
 ```
 
 To intall the extension, just click on the blue `+ Free` button the top right corner.
@@ -1945,20 +1945,20 @@ To intall the extension, just click on the blue `+ Free` button the top right co
 ### REST Console
 REST Console is an tool for testing HTTP requests on APIs.  You can learn more about it on its page on:
 ```sh
-https://chrome.google.com/webstore/detail/rest-console/cokgbflfommojglbmbpenpphppikmonn?hl=en-US
+https://chrome.google.com/webstore/detail/rest-console/cokgbflfommojglbmbpenpphppikmonn
 ```
 
 To intall the extension, just click on the blue `+ Free` button the top right corner.
 
 ### Postman
-[Postman](https://chrome.google.com/webstore/detail/postman-rest-client/fdmmgilgnpjigdojojpjoooidkmcomcm?utm_source=chrome-ntp-icon) is similar with REST Console, but it has history of all the requests that you have made.
+[Postman](https://chrome.google.com/webstore/detail/postman-rest-client/fdmmgilgnpjigdojojpjoooidkmcomcm) is similar with REST Console, but it has history of all the requests that you have made.
 
 To intall the extension, just click on the blue `+ Free` button the top right corner.
 
 ### JSON View
 JSON View is a tool that parses JSON into a more human readable format.  You can learn more about it on its page on:
 ```sh
-https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=en-US
+https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc
 ```
 
 To intall the extension, just click on the blue `+ Free` button the top right corner.
