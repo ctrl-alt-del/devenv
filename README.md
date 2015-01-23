@@ -1935,18 +1935,12 @@ https://chrome.google.com/webstore/category/extensions
 ```
 
 ### EditThisCookie
-EditThisCookie is a cookie manager that allow developer to modify cookies of a page in real for development and testing purpose.  To install this extension, you can either search `EditThisCookie` on the chrome web store, or visiting its page on:
-```sh
-https://chrome.google.com/webstore/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg
-```
+[EditThisCookie](https://chrome.google.com/webstore/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg) is a cookie manager that allow developer to modify cookies of a page in real for development and testing purpose.
 
 To intall the extension, just click on the blue `+ Free` button the top right corner.
 
 ### REST Console
-REST Console is an tool for testing HTTP requests on APIs.  You can learn more about it on its page on:
-```sh
-https://chrome.google.com/webstore/detail/rest-console/cokgbflfommojglbmbpenpphppikmonn
-```
+[REST Console](https://chrome.google.com/webstore/detail/rest-console/cokgbflfommojglbmbpenpphppikmonn) is an tool for testing HTTP requests on APIs.  It allows user to quickly test a url.
 
 To intall the extension, just click on the blue `+ Free` button the top right corner.
 
@@ -1956,9 +1950,6 @@ To intall the extension, just click on the blue `+ Free` button the top right co
 To intall the extension, just click on the blue `+ Free` button the top right corner.
 
 ### JSON View
-JSON View is a tool that parses JSON into a more human readable format.  You can learn more about it on its page on:
-```sh
-https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc
-```
+[JSON View](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc) is a tool that parses JSON into a more human readable format.
 
 To intall the extension, just click on the blue `+ Free` button the top right corner.
