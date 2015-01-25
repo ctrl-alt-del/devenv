@@ -1850,6 +1850,21 @@ Follow the same instruction as [Ubuntu](#redis-on-ubuntu)
 [BACK TO TOP](#table-of-contents)
 
 
+
+## iPython
+[**iPython**](http://ipython.org/) An enhanced Interactive Python.
+
+[**Mac**](#ipython-on-mac)
+
+### iPython on Mac
+```sh
+sudo pip install ipython gnureadline
+```
+`gnureadline` is strongly recommended because readline will not behave well without it.
+[BACK TO TOP](#table-of-contents)
+
+
+
 ## Bower
 [**Bower**](http://bower.io) is a package manager for the web.  You need [npm](#npm) in order to install `bower`.
 
