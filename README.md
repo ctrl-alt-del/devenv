@@ -834,6 +834,14 @@ pip -V
 
 
 
+### Pip on Ubuntu
+```sh
+sudo apt-get install python-pip
+```
+[BACK TO TOP](#table-of-contents)
+
+
+
 ## Django
 
 * [**Mac**](#django-on-mac)
