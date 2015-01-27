@@ -1872,6 +1872,13 @@ sudo pip install ipython gnureadline
 [BACK TO TOP](#table-of-contents)
 
 
+### iPython on Ubuntu
+```sh
+sudo pip install ipython
+```
+[BACK TO TOP](#table-of-contents)
+
+
 
 ## Bower
 [**Bower**](http://bower.io) is a package manager for the web.  You need [npm](#npm) in order to install `bower`.
