@@ -1863,6 +1863,8 @@ Follow the same instruction as [Ubuntu](#redis-on-ubuntu)
 [**iPython**](http://ipython.org/) An enhanced Interactive Python.
 
 [**Mac**](#ipython-on-mac)
+[**Ubuntu**](#ipython-on-ubuntu)
+[**Fedora**](#ipython-on-fedora)
 
 ### iPython on Mac
 ```sh
@@ -1876,6 +1878,11 @@ sudo pip install ipython gnureadline
 ```sh
 sudo pip install ipython
 ```
+[BACK TO TOP](#table-of-contents)
+
+
+### iPython on Fedora
+Follow the same instruction as [Ubuntu](#ipython-on-ubuntu)
 [BACK TO TOP](#table-of-contents)
 
 
