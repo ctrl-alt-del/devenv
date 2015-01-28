@@ -50,7 +50,8 @@ This document and bash scripts will be updated piece by piece and I will try my 
 |[PyCharm](#pycharm)         | [   ](#pycharm-on-windows)     | [   ](#pycharm-on-mac)    | [-->](#pycharm-on-ubuntu)   | [-->](#pycharm-on-fedora)   |
 |[Android Studio](#android-studio) | [-->](#android-studio-on-windows) | [-->](#android-studio-on-mac) | [-->](#android-studio-on-ubuntu) | [-->](#android-studio-on-fedora) |
 |[Eclipse](#eclipse)         | [-->](#eclipse)                | [-->](#eclipse-on-mac)    | [   ](#eclipse-on-ubuntu)   | [   ](#eclipse-on-fedora)   |
-|[VirtualBox](#virtualbox)   | [   ](#virtualbox)             | [   ](#virtualbox)        | [-->](#virtualbox-on-ubuntu)| [-->](#virtualbox-on-fedora)|
+|[VirtualBox](#virtualbox)   | [   ](#virtualbox-on-windows)  | [   ](#virtualbox-on-mac) | [-->](#virtualbox-on-ubuntu)| [-->](#virtualbox-on-fedora)|
+|[iPython](#ipython)         | [   ](#ipython-on-windows)     | [-->](#ipython-on-mac)    | [-->](#ipython-on-ubuntu)   | [-->](#ipython-on-fedora)   |
 
 
 
@@ -1848,7 +1849,6 @@ tar xzf redis-2.8.19.tar.gz
 cd redis-2.8.19
 make
 ```
-
 [BACK TO TOP](#table-of-contents)
 
 
@@ -1860,7 +1860,7 @@ Follow the same instruction as [Ubuntu](#redis-on-ubuntu)
 
 
 ## iPython
-[**iPython**](http://ipython.org/) An enhanced Interactive Python.
+[**iPython**](http://ipython.org/) An enhanced Interactive Python.  To install `ipython`, you will need to have [`pip`](#pip)
 
 [**Mac**](#ipython-on-mac)
 [**Ubuntu**](#ipython-on-ubuntu)
