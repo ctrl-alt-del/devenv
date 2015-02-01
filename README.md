@@ -92,8 +92,15 @@ For Ubuntu, Fedora, and all other Unix/Linux base operating system users, you ca
 ## Zsh
 Zsh stands for Z shell is a Unix base interactive login shell.  You can learn more about it on its [Wiki](http://en.wikipedia.org/wiki/Zsh) page.
 
+* [**Mac**](#zsh-on-mac)
 * [**Ubuntu**](#zsh-on-ubuntu)
 * [**Fedora**](#zsh-on-fedora)
+
+#### Zsh on Mac
+```sh
+brew install zsh
+```
+
 
 #### Zsh on Ubuntu
 To install Zsh on Ubuntu, you can do so by running:
@@ -101,6 +108,7 @@ To install Zsh on Ubuntu, you can do so by running:
 sudo apt-get update
 sudo apt-get install zsh
 ```
+
 
 #### Zsh on Fedora
 To install Zsh on Fedora, you can do so by running:
