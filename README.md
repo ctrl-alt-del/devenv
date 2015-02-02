@@ -199,17 +199,15 @@ ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 
 
 ## Sublime
-Sublime is a very useful text editor.
+[**Sublime**](http://www.sublimetext.com/) is a very useful and convenient text editor.
 
 * [**Windows**](#sublime-on-windows)
 * [**Ubuntu**](#sublime-on-ubuntu)
 * [**Fedora**](#sublime-on-fedora)
 * [**Configuration**](#sublime-configuration)
 
-Sublime is a very useful and convenient text editor.  You can learn more about it on its [homepage](http://www.sublimetext.com/)
-
 ### Sublime on Windows
-You can download the executable file from Sublime's [homepage](www.sublimetext.com).
+You can download `Sublime` from its [homepage](www.sublimetext.com).
 
 Once the exe file is downloaded, double click to install it.
 
@@ -232,13 +230,12 @@ sudo apt-get install sublime-text
 Once Sublime is successfully installed, you can use it to open a single file by running:
 `subl <FILE_PATH>`, or open all files of the current directory by running `subl .`
 
-If you prefer to install Sublime manually, you can follow the instruction for [Fedora](#sublime-on-fedora)
-
+If you prefer to install Sublime manually, you can follow the instruction for [Fedora](#sublime-on-fedora) instead.
 [BACK TO TOP](#table-of-contents)
 
 
 ### Sublime on Fedora
-You can install Sublime manually by copy and paste the following script into terminal:
+Please make sure you have root permission and then you can install Sublime manually by copy and paste the following script into terminal:
 
 For 64-bit System:
 ```sh
@@ -257,16 +254,14 @@ sudo mv Sublime\ Text\ 2 /opt/sublime
 sudo rm -rf Sublime\ Text\ 2.0.2.tar.bz2
 sudo ln -s /opt/sublime/sublime_text /usr/bin/subl
 ```
-
 [BACK TO TOP](#table-of-contents)
 
 
 ### Sublime Configuration
 #### Package Control
 **Package Control** is the simplest way of install packages to sublime. You can learn about how to install Package Controll from [here](https://sublime.wbond.net/installation#st2).
-
-
 [BACK TO TOP](#table-of-contents)
+
 
 
 ## Git
