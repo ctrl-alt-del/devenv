@@ -265,21 +265,13 @@ sudo ln -s /opt/sublime/sublime_text /usr/bin/subl
 
 
 ## Git
-[Git](http://git-scm.com/) is a distributed version control and code management system.
+[**Git**](http://git-scm.com/) is a distributed version control and code management system.
 
-* [Windows](#git-on-windows)
-* [Mac](#git-on-mac)
-* [Ubuntu](#git-on-ubuntu)
-* [Fedora](#git-on-fedora)
-
-Once Git is installed, you can check about its version using `git -v`.
-
-There are some shortcuts are very convenient as well, you can set them up with following:
-```sh
-git config --global alias.co checkout
-git config --global alias.cm !git add -A && git commit -m
-```
-
+* [**Windows**](#git-on-windows)
+* [**Mac**](#git-on-mac)
+* [**Ubuntu**](#git-on-ubuntu)
+* [**Fedora**](#git-on-fedora)
+* [**Configuration**](#git-configuration)
 
 ### Git on Windows
 Since Git contains many convenient built-in functions as well as a useful bash shell, it is recommended to be installed first in setting up the dev environment on Windows.
@@ -294,16 +286,12 @@ Git should've come with Mac by default.  You can verify your git version by open
 git --version
 ```
 
-If git does not come with your Mac somehow, you can follow the installation instruction in their website:
-```sh
-http://git-scm.com/book/en/Getting-Started-Installing-Git
-```
+If git does not come with your Mac somehow, you can follow their [instruction](http://git-scm.com/book/en/Getting-Started-Installing-Git) to install git manually.
 
 Or you can install it through [Homebrew](#homebrew) by running:
 ```sh
 brew install git
 ```
-
 [BACK TO TOP](#table-of-contents)
 
 
@@ -318,7 +306,6 @@ To upgrade to the latest version of Git, you can do so by running:
 ```sh
 sudo apt-get upgrade git
 ```
-
 [BACK TO TOP](#table-of-contents)
 
 
@@ -332,8 +319,20 @@ To upgrade git on Fedora:
 ```sh
 sudo yum upgrade git
 ```
-
 [BACK TO TOP](#table-of-contents)
+
+
+### Git Configuration
+Once Git is installed, you can check about its version using `git -v`.
+
+There are some shortcuts are very convenient as well, you can set them up with following:
+```sh
+git config --global alias.co checkout
+git config --global alias.cm !git add -A && git commit -m
+```
+[BACK TO TOP](#table-of-contents)
+
+
 
 ## Gitg
 Gitg is a graphic user interface for git.
