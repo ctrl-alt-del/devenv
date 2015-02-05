@@ -344,7 +344,6 @@ Gitg is a graphic user interface for git.
 ```sh
 sudo apt-get install gitg
 ```
-
 [BACK TO TOP](#table-of-contents)
 
 
@@ -352,7 +351,6 @@ sudo apt-get install gitg
 ```sh
 sudo yum install gitg
 ```
-
 [BACK TO TOP](#table-of-contents)
 
 
@@ -364,11 +362,9 @@ Gitk is a graphic user interface for git.
 * [**Fedora**](#gitk-on-fedora)
 
 ### Gitk on Ubuntu
-You can install it by running:
 ```sh
 sudo apt-get install gitk
 ```
-
 [BACK TO TOP](#table-of-contents)
 
 
@@ -376,17 +372,19 @@ sudo apt-get install gitk
 ```sh
 sudo yum install gitk
 ```
-
 [BACK TO TOP](#table-of-contents)
+
 
 
 ## SmartGit
 Similar to Gitk, SmartGit is an UI for git too, yet it has more functionalities than Gitk.
 
+
+
 ## Curl
 [Curl](http://curl.haxx.se/docs/manpage.html) is a tool to transfer data from or to a server.
 
-Curl comes with Mac and some distros of Linux by default.  For Windows, it should comes with [Git](#git).  In case Curl is not installed on your system, you can follow the instructions below to install it yourself.
+Curl comes with Mac and some distros of Linux by default.  For Windows, it should comes with [Git](#git-on-windows).  In case Curl is not installed on your system, you can follow the instructions below to install it yourself.
 
 * [**Windows**](#curl-on-windows)
 * [**Mac**](#curl-on-mac)
@@ -402,7 +400,6 @@ Run git bash as administrator, then create a symbolic link by running:
 ```sh
 ln -s /c/usr/bin/curl/curl.exe /usr/bin/curl.exe
 ```
-
 [BACK TO TOP](#table-of-contents)
 
 
@@ -412,13 +409,12 @@ Mac should have Curl by default.  You can verify your curl version by opening yo
 curl --version
 ```
 
-If curl does not come with your Mac somehow, you can follow the same instruction of [Windows](#curl-on-windows) to install it on your Mac.
+If curl does not come with your Mac somehow, you can follow the same instruction of [Windows](#curl-on-windows) to manually install it on your Mac.
 
 Or you can install it through Homebrew by running:
 ```sh
 brew install curl
 ```
-
 [BACK TO TOP](#table-of-contents)
 
 
@@ -426,7 +422,6 @@ brew install curl
 ```sh
 sudo apt-get install curl
 ```
-
 [BACK TO TOP](#table-of-contents)
 
 
@@ -434,10 +429,13 @@ sudo apt-get install curl
 ```sh
 sudo yum install curl
 ```
-
 [BACK TO TOP](#table-of-contents)
 
+
+
 ## Wget
+
+
 
 ## Ruby
 
