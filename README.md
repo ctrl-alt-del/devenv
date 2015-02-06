@@ -488,7 +488,7 @@ devkit is the prerequisite for Rails on Windows.  You can download its latest ve
 
 Scroll down to "Other Userful Downloads" and it is under "development kit" section.
 
-Choose the appropriate devkit to download, either x86 or x64 based on your operation system.
+Choose the appropriate devkit to download, either [x86](http://cdn.rubyinstaller.org/archives/devkits/DevKit-mingw64-32-4.7.2-20130224-1151-sfx.exe) or [x64](http://cdn.rubyinstaller.org/archives/devkits/DevKit-mingw64-64-4.7.2-20130224-1432-sfx.exe) based on your operation system.
 
 Once the download is done, double click on the executable file and install/unzip it to /c/usr/bin/devkit, or whatever directory you chose.
 
@@ -504,8 +504,6 @@ ruby dk.rb install
 ```
 
 If there is no error shows up, the setup is successful.
-
-
 [BACK TO TOP](#table-of-contents)
 
 
