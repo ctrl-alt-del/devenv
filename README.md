@@ -263,6 +263,29 @@ sudo ln -s /opt/sublime/sublime_text /usr/bin/subl
 [BACK TO TOP](#table-of-contents)
 
 
+#### Setup Desktop Icon:
+```sh
+sudo touch /usr/share/applications/sublime.desktop
+
+content="
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name[en]=Sublime 2.0.2
+Icon=/opt/sublime/Icon/256x256/sublime_text.png
+Exec="/opt/sublime/sublime_text.sh" %f
+Comment=The text editor you will fall in love with
+Categories=GNOME;GTK;Utility;TextEditor;Development;IDE;
+Terminal=false
+GenericName=Text Editor
+
+";
+
+echo "$content" >> /usr/share/applications/sublime.desktop;
+```
+[BACK TO TOP](#table-of-contents)
+
+
 
 ## Git
 [**Git**](http://git-scm.com/) is a distributed version control and code management system.
