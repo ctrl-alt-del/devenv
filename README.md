@@ -539,8 +539,9 @@ It should show you the version of your currently installed Ruby.
 
 If Ruby does not come with your Mac somehow or you want to have a newer version of Ruby, you can get it with these approaches:
 1. Download the latest Ruby from its [homepage](https://www.ruby-lang.org/en/downloads/) and install it manually according to its instruction.
-2. Install the latest version of Ruby through Homebrew by running `brew install ruby`.
+2. Install the latest version of Ruby through [Homebrew](#homebrew) by running `brew install ruby`.
 3. Use RVM to install Ruby, see the instruction for [**Ubuntu**](#ruby-on-ubuntu).
+[BACK TO TOP](#table-of-contents)
 
 
 ### Ruby on Ubuntu
@@ -591,12 +592,13 @@ and then paste and save the following two lines into `.gemrc`
 install: --no-rdoc --no-ri
 update:  --no-rdoc --no-ri
 ```
+[BACK TO TOP](#table-of-contents)
+
 
 ### Ruby on Fedora
 Same as Ubuntu, see the instruction for [**Ubuntu**](#ruby-on-ubuntu).
-
-
 [BACK TO TOP](#table-of-contents)
+
 
 
 ## Rails
