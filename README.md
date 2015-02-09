@@ -625,6 +625,7 @@ Once installation is done, verify it by running:
 which rails # should see a path similar to /c/usr/bin/rails/rails
 rails -v # should see the version of rails
 ```
+[BACK TO TOP](#table-of-contents)
 
 
 ## Rails on Mac
@@ -645,19 +646,18 @@ rails -v
 ```
 
 If you encounter issue while running `gem install pg`, you need to install PostgreSQL and you can do so by follow the instruction [here](#postgresql-on-mac)
+[BACK TO TOP](#table-of-contents)
 
 
 ## Rails on Ubuntu
 Please follow the same instruction of [Mac](#rails-on-mac).
 
 If you come across an error that compliant about no having a Javascript runtime environment, you can resolve it by installing [Node.js](#nodejs-on-ubuntu).
-
 [BACK TO TOP](#table-of-contents)
 
 
 ## Rails on Fedora
 Please follow the same instruction of [Mac](#rails-on-mac).
-
 [BACK TO TOP](#table-of-contents)
 
 
@@ -673,7 +673,7 @@ Both Java 7 and 8 are available today.  This instruction will focus on Java 7, b
 ### Java on Windows
 Download the latest Java for Windows from [Oracle](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html).
 
-Choose the appropriate Thread Safe zip to download, either x86 or x64 based on your operation system.
+Choose the appropriate Thread Safe zip to download, either [Windows x86](http://download.oracle.com/otn-pub/java/jdk/7u75-b13/jdk-7u75-windows-i586.exe) or [Windows x64](http://download.oracle.com/otn-pub/java/jdk/7u75-b13/jdk-7u75-windows-x64.exe) based on your operation system.
 
 Run the downloaded executable file and install java under:
 ```sh
@@ -695,17 +695,14 @@ which java # should see /usr/bin/java
 java -version
 ```
 
-if there is error saying php is not found on sh.exe, restart the git bash and run above line again.
-
+if there is error saying java is not found on sh.exe, restart the git bash and run above line again.
 [BACK TO TOP](#table-of-contents)
 
 
 ### Java on Mac
-For Oracle Java, go to the download page [here](http://www.oracle.com/technetwork/java/javase/downloads/index.html) to choose the JDK version.
+Download the latest Java for Mac from [Oracle](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html).
 
-You can also go directly to the download page of Java 7 JDK in [here](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html)
-
-Scroll down the page to the section of "Java SE Development Kit 7uXX" for Java 7; follow the instruction on there to read and accept the license agreement, then click the download link for "Mac OS X x64".
+Follow the instruction on there to read and accept the license agreement, then click the download link for [Mac OS X x64](http://download.oracle.com/otn-pub/java/jdk/7u75-b13/jdk-7u75-macosx-x64.dmg).
 
 Once the dmg file is downloaded, double click it to start the installation.
 
@@ -713,12 +710,15 @@ Once the installation is done, you can verify your Java version by running the f
 ```sh
 java -version
 ```
-
 [BACK TO TOP](#table-of-contents)
 
 
 ### Java on Ubuntu
-To install Oracle Java for Ubuntu, follow the same process for [Mac](#java-on-mac), but download the "Linux x64" or "Linux 32" `tar.gz` file instead.
+Download the latest Java for Mac from [Oracle](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html).
+
+Follow the instruction on there to read and accept the license agreement, then click the `tar.gz` download link for [Linux x86](http://download.oracle.com/otn-pub/java/jdk/7u75-b13/jdk-7u75-linux-i586.tar.gz) or [Linux x64](http://download.oracle.com/otn-pub/java/jdk/7u75-b13/jdk-7u75-linux-x64.tar.gz) based on your operation system.
+
+Once the dmg file is downloaded, double click it to start the installation.
 
 Alternatively, you can use PPA to install Oracle Java as well.
 ```sh
@@ -728,7 +728,7 @@ sudo apt-get update
 sudo apt-get install oracle-java7-installer
 ```
 
-To install OpenJDK on Ubuntu, you can do so by running:
+If you want to install OpenJDK on Ubuntu, you can do so by running:
 ```sh
 sudo apt-get update
 sudo apt-get install openjdk-7-jdk
@@ -738,19 +738,18 @@ Once installation process is done, you can verify the version of Java by running
 ```sh
 java -version
 ```
-
 [BACK TO TOP](#table-of-contents)
 
 
 ### Java on Fedora
-To install Oracle Java for Ubuntu, follow the same process for [Mac](#java-on-mac), but download the "Linux x64" or "Linux 32" `rpm` file instead.
+To install Oracle Java for Ubuntu, follow the same process for [Ubuntu](#java-on-ubuntu).
 
-Similarily, to install OpenJDK on Fedora, you can do so by running:
+Similarily, if you want to install OpenJDK on Fedora, you can do so by running:
 ```sh
 sudo yum install java-1.7.0-openjdk-devel
 ```
-
 [BACK TO TOP](#table-of-contents)
+
 
 
 ## Python
