@@ -1371,17 +1371,29 @@ sudo yum install mysql mysql-server
 [BACK TO TOP](#table-of-contents)
 
 
+
 ## PostgreSQL
 PostgreSQL is similar to MySQL and it is the default database used on Heroku.
 
-* [**Mac**](#postgreSQL-on-mac)
+* [**Mac**](#postgresql-on-mac)
+* [**Ubuntu**](#postgresql-on-ubuntu)
 
 ### PostgreSQL on Mac
 ```sh
 brew update
 brew install postgresql
 ```
+
 [BACK TO TOP](#table-of-contents)
+
+
+### PostgreSQL on Ubuntu
+```sh
+sudo apt-get install postgresql
+```
+
+[BACK TO TOP](#table-of-contents)
+
 
 
 ## Guake
