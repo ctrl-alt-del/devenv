@@ -227,10 +227,8 @@ Once the PPA is added and updated, you can install Sublime by running:
 sudo apt-get install sublime-text
 ```
 
-Once Sublime is successfully installed, you can use it to open a single file by running:
-`subl <FILE_PATH>`, or open all files of the current directory by running `subl .`
-
 If you prefer to install Sublime manually, you can follow the instruction for [Fedora](#sublime-on-fedora) instead.
+
 [BACK TO TOP](#table-of-contents)
 
 
@@ -258,8 +256,12 @@ sudo ln -s /opt/sublime/sublime_text /usr/bin/subl
 
 
 ### Sublime Configuration
+Once Sublime is successfully installed, you can use it to open a single file by running:
+`subl <FILE_PATH>`, or open all files of the current directory by running `subl .`
+
 #### Package Control
 **Package Control** is the simplest way of install packages to sublime. You can learn about how to install Package Controll from [here](https://sublime.wbond.net/installation#st2).
+
 [BACK TO TOP](#table-of-contents)
 
 
@@ -283,6 +285,7 @@ GenericName=Text Editor
 
 echo "$content" >> /usr/share/applications/sublime.desktop;
 ```
+
 [BACK TO TOP](#table-of-contents)
 
 
