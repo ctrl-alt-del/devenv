@@ -418,7 +418,7 @@ Curl comes with Mac and some distros of Linux by default.  For Windows, it shoul
 * [**Fedora**](#curl-on-fedora)
 
 ### Curl on Windows
-Visit the download page of Curl in [here](http://curl.haxx.se/download.html) to download the latest version of `curl-[version].zip` listed under source achieve.
+Visit [Curl](http://curl.haxx.se/download.html) to download the latest version of [`curl-[version].zip`](http://curl.haxx.se/download/curl-7.40.0.zip).
 
 Once it is downloaded, unzip it to `/c/usr/bin/curl`, or whatever directory your chose.
 
@@ -437,7 +437,7 @@ curl --version
 
 If curl does not come with your Mac somehow, you can follow the same instruction of [Windows](#curl-on-windows) to manually install it on your Mac.
 
-Or you can install it through Homebrew by running:
+Or you can install it through [Homebrew](#homebrew) by running:
 ```sh
 brew install curl
 ```
