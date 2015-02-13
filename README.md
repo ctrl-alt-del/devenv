@@ -901,22 +901,19 @@ PHP is a scripting language for web applications.
 * [**Ubuntu**](#php-on-ubuntu)
 * [**Fedora**](#php-on-fedora)
 
-
 ### PHP on Windows
-Download the latest PHP for Windows from here:
+Download the latest PHP for Windows from [here](http://windows.php.net/download/).
 
-http://windows.php.net/download/
-
-Choose the appropriate Thread Safe zip to download, either x86 or x64 based on your operation system.
+Choose the appropriate Thread Safe zip to download, either [VC11 x86 Thread Safe](http://windows.php.net/downloads/releases/php-5.6.5-Win32-VC11-x86.zip) or [VC11 x64 Thread Safe](http://windows.php.net/downloads/releases/php-5.6.5-Win32-VC11-x64.zip) based on your operation system.
 
 You can also use the following command to download the 32-bit version:
 ```sh
-curl --remote-name http://windows.php.net/downloads/releases/php-5.5.11-Win32-VC11-x86.zip
+curl --remote-name http://windows.php.net/downloads/releases/php-5.6.5-Win32-VC11-x86.zip
 ```
 
 Or use the following command to download the 64-bit version:
 ```sh
-curl --remote-name http://windows.php.net/downloads/releases/php-5.5.11-Win32-VC11-x64.zip
+curl --remote-name http://windows.php.net/downloads/releases/php-5.6.5-Win32-VC11-x64.zip
 ```
 
 Unzip the downloaded file to /c/usr/bin/php, or whatever directory you chose.
