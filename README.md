@@ -651,7 +651,8 @@ which rails
 rails -v
 ```
 
-If you encounter issue while running `gem install pg`, you need to install PostgreSQL and you can do so by follow the instruction [here](#postgresql-on-mac)
+If you encounter issue while running `gem install pg`, you need to install PostgreSQL and you can do so by follow the instruction [here](#postgresql-on-mac).
+
 [BACK TO TOP](#table-of-contents)
 
 
@@ -854,6 +855,7 @@ sudo yum install python27
 ## Pip
 
 * [**Mac**](#pip-on-mac)
+* [**Ubuntu**](#pip-on-ubuntu)
 
 ### Pip on Mac
 To install `pip`, you can download its installer file from [here]
@@ -959,7 +961,6 @@ Once installation is done, you can verify it by running:
 ```sh
 php -v
 ```
-
 [BACK TO TOP](#table-of-contents)
 
 
@@ -980,9 +981,8 @@ yum repolist disabled
 sudo yum-config-manager --enable fedora-source
 sudo yum install php
 ```
-
-
 [BACK TO TOP](#table-of-contents)
+
 
 
 ## Node.js
