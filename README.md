@@ -530,6 +530,7 @@ ruby dk.rb install
 ```
 
 If there is no error shows up, the setup is successful.
+
 [BACK TO TOP](#table-of-contents)
 
 
@@ -544,6 +545,7 @@ If Ruby does not come with your Mac somehow or you want to have a newer version 
 1. Download the latest Ruby from its [homepage](https://www.ruby-lang.org/en/downloads/) and install it manually according to its instruction.
 2. Install the latest version of Ruby through [Homebrew](#homebrew) by running `brew install ruby`.
 3. Use RVM to install Ruby, see the instruction for [**Ubuntu**](#ruby-on-ubuntu).
+
 [BACK TO TOP](#table-of-contents)
 
 
@@ -600,6 +602,7 @@ update:  --no-rdoc --no-ri
 
 ### Ruby on Fedora
 Same as Ubuntu, see the instruction for [**Ubuntu**](#ruby-on-ubuntu).
+
 [BACK TO TOP](#table-of-contents)
 
 
@@ -661,6 +664,7 @@ If you come across an error that compliant about no having a Javascript runtime 
 
 ## Rails on Fedora
 Please follow the same instruction of [Mac](#rails-on-mac).
+
 [BACK TO TOP](#table-of-contents)
 
 
@@ -699,6 +703,7 @@ java -version
 ```
 
 if there is error saying java is not found on sh.exe, restart the git bash and run above line again.
+
 [BACK TO TOP](#table-of-contents)
 
 
@@ -824,7 +829,6 @@ Or you can install the latest version of Python through Homebrew by running:
 ```sh
 brew install python
 ```
-
 [BACK TO TOP](#table-of-contents)
 
 
@@ -835,7 +839,6 @@ sudo add-apt-repository ppa:fkrull/deadsnakes
 sudo apt-get update
 sudo apt-get install python2.7
 ```
-
 [BACK TO TOP](#table-of-contents)
 
 
@@ -844,8 +847,9 @@ sudo apt-get install python2.7
 sudo yum update
 sudo yum install python27
 ```
-
 [BACK TO TOP](#table-of-contents)
+
+
 
 ## Pip
 
@@ -865,9 +869,7 @@ You can verify its version by running:
 ```sh
 pip -V
 ```
-
 [BACK TO TOP](#table-of-contents)
-
 
 
 ### Pip on Ubuntu
@@ -886,7 +888,6 @@ sudo apt-get install python-pip
 ```sh
 sudo pip install django
 ```
-
 [BACK TO TOP](#table-of-contents)
 
 
