@@ -1007,15 +1007,14 @@ Alternatively, you can install Node.js through [Homebrew](#homebrew).
 ```sh
 brew intall node
 ```
-
 [BACK TO TOP](#table-of-contents)
 
 
 ## Node.js on Ubuntu
-Node.js is an platform for Javascript.  You can install Node.js by running:
 ```sh
 sudo apt-get install nodejs
 ```
+[BACK TO TOP](#table-of-contents)
 
 If you want to have the latest version of Node.js, you can install it through PPA maintained by Chris Lea.  You can do so by running:
 ```sh
@@ -1023,23 +1022,27 @@ sudo add-apt-repository ppa:chris-lea/node.js
 sudo apt-get update
 sudo apt-get install nodejs
 ```
-
 [BACK TO TOP](#table-of-contents)
 
 
-## Node.js on Fedora
+### Node.js on Fedora
 ```sh
 sudo yum install nodejs
 ```
 [BACK TO TOP](#table-of-contents)
 
 
-### npm
-npm is a tool to manage the packages used by Node.js
+
+## npm
+npm is a package manager for Node.js
+
+* [**Ubuntu**](#npm-on-ubuntu)
+
+### npm on Ubuntu
+npm is a tool to manage the packages used by [Node.js](#nodejs)
 ```sh
 sudo apt-get install npm
 ```
-
 [BACK TO TOP](#table-of-contents)
 
 
