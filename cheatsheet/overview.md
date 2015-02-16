@@ -35,3 +35,6 @@ Here is an overview of some basic skills that a software engineer may need in hi
 # Version Control System
 [Version Control System (VCS)](http://en.wikipedia.org/wiki/Revision_control)(<- click on the name to see the wiki page for details) is used to keep track of the codes changes.  There are two major VCS: [Subversion](#subversion) and [Git](#git).
 
+## Subversion
+[Subversion (SVN)](http://en.wikipedia.org/wiki/Apache_Subversion) is a centralized [VCS](#version-control-system) contributed by [Apache Foundation](http://en.wikipedia.org/wiki/Apache_Software_Foundation).  You can check the advantages and disadvantages easily online, so this document won't discuss those details in here; SVN has become less and less popular among the developers' community because people find their needs are being better satisfied by [Git](#git)
+
