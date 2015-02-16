@@ -31,3 +31,7 @@ Here is an overview of some basic skills that a software engineer may need in hi
 * [Debugging Tools](#debugging-tools)
 * [Thrid Party Libraries](#third-party-libraries)
 
+
+# Version Control System
+[Version Control System (VCS)](http://en.wikipedia.org/wiki/Revision_control)(<- click on the name to see the wiki page for details) is used to keep track of the codes changes.  There are two major VCS: [Subversion](#subversion) and [Git](#git).
+
