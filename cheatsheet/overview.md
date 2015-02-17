@@ -40,3 +40,7 @@ Here is an overview of some basic skills that a software engineer may need in hi
 
 ## Git
 [Git](http://en.wikipedia.org/wiki/Git_(software)) is a distributed [VCS](#version-control-system) contributed by [Linus Torvalds](http://en.wikipedia.org/wiki/Linus_Torvalds), who is also the creator of [Linux](http://en.wikipedia.org/wiki/Linux_kernel).  It is currently the most widely used VCS among the community.
+
+### SourceTree
+[SourceTree](http://www.sourcetreeapp.com/) is an User Interface (UI) client for [Git](#git).  It enables user to use Git without interacting with the command line interface that came default with Git.
+
