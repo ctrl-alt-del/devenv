@@ -44,3 +44,5 @@ Here is an overview of some basic skills that a software engineer may need in hi
 ### SourceTree
 [SourceTree](http://www.sourcetreeapp.com/) is an User Interface (UI) client for [Git](#git).  It enables user to use Git without interacting with the command line interface that came default with Git.
 
+### Github
+[Github](https://github.com/) is a remote host of [Git](#git), and it also build a community around Git respositories, which makes code sharing and team collaborations much easier.
