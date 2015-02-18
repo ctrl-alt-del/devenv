@@ -1424,6 +1424,9 @@ sudo yum install guake
 
 
 ## Chef
+[BACK TO TOP](#table-of-contents)
+
+
 
 ## Eclipse
 Eclipse is an integrated development environment (IDE) and you can learn more about it on its [homepage](http://www.eclipse.org/).  
@@ -1439,19 +1442,23 @@ Visit the Eclipse's [homepage](http://www.eclipse.org/downloads) and download th
 
 Once the file is downloaded, unzip it and drag the unziped folder to application, then right click the eclipse icon inside the folder and click open.
 
+[BACK TO TOP](#table-of-contents)
+
 
 ### Eclipse on Ubuntu
 ```sh
 sudo apt-get install openjdk-7-jdk
 sudo apt-get install eclipse
 ```
+[BACK TO TOP](#table-of-contents)
+
 
 ### Eclipse on Fedora
 ```sh
 sudo yum install eclipse
 ```
-
 [BACK TO TOP](#table-of-contents)
+
 
 
 ## Android SDK
@@ -1481,7 +1488,6 @@ You need the following packages from the SDK:
 
 Select those package and click on the "install packages" button on the bottom right, and then follow the instruction to complete the installation.
 
-
 ### SDK on Windows
 Choose the appropriate Thread Safe zip to download, either x86 or x64 based on your operation system.
 
@@ -1494,7 +1500,6 @@ open SDK\ Manager.exe
 ```
 
 Select the packages listed in [here](#android-sdk) to install.
-
 
 [BACK TO TOP](#table-of-contents)
 
@@ -1524,7 +1529,6 @@ You need the following package from the SDK:
 
 Select those package and click on the "install packages" button on the bottom right, and then follow the instruction to complete the installation.
 
-
 [BACK TO TOP](#table-of-contents)
 
 
@@ -1538,8 +1542,6 @@ If you are in Linux 64 bit OS, you may also need to install the 32 bit shared li
 ```sh
 sudo apt-get install libc6:i386 libstdc++6:i386 zlib1g:i386
 ```
-
-
 [BACK TO TOP](#table-of-contents)
 
 
@@ -1551,9 +1553,8 @@ If you are in Linux 64 bit OS, you may also need to install the 32 bit shared li
 ```sh
 sudo yum install glibc.i686 glibc-devel.i686 libstdc++.i686 zlib-devel.i686 ncurses-devel.i686 libX11-devel.i686 libXrender.i686 libXrandr.i686
 ```
-
-
 [BACK TO TOP](#table-of-contents)
+
 
 
 ## ADT
@@ -1572,7 +1573,6 @@ It may take a while for eclipse to get the plugin information, but once the avai
 <br>
 Solution: make sure the url used to install the ADT starts with `https`, not `http`.
 
-
 [BACK TO TOP](#table-of-contents)
 
 
@@ -1587,7 +1587,6 @@ VirtualBox is a tool for setting up virtualization machine.
 ```sh
 sudo apt-get install virtualbox
 ```
-
 [BACK TO TOP](#table-of-contents)
 
 
@@ -1611,8 +1610,8 @@ Once the libraries are installed, you can install VirtualBox:
 ```sh
 sudo yum install VirtualBox-4.3.x86_64
 ```
-
 [BACK TO TOP](#table-of-contents)
+
 
 
 ## PyCharm
@@ -1628,7 +1627,6 @@ Donwload PyCharm from its home page on [here](http://www.jetbrains.com/pycharm/d
 
 Once download is completed, double click the `.exe` file and follow the instruction to install.
 
-
 [BACK TO TOP](#table-of-contents)
 
 
@@ -1638,7 +1636,6 @@ Donwload PyCharm from its home page on [here](http://www.jetbrains.com/pycharm/d
 Once download is completed, double click the `.dmg` file and follow the instruction to install.
 
 [BACK TO TOP](#table-of-contents)
-
 
 
 ### PyCharm on Ubuntu
@@ -1672,15 +1669,14 @@ Name[en]=PyCharm
 
 echo "$content" >> /usr/share/applications/pycharm.desktop;
 ```
-
 [BACK TO TOP](#table-of-contents)
-
 
 
 ### PyCharm on Fedora
 Follow the same instruction as [Ubuntu](#pycharm-on-ubuntu).
 
 [BACK TO TOP](#table-of-contents)
+
 
 
 ## Android Studio
@@ -1757,7 +1753,6 @@ Once installation is done, restart your computer, and you will now be able to us
 [BACK TO TOP](#table-of-contents)
 
 
-
 ### Android Studio on Fedora
 Follow the same instruction of [Ubuntu](#android-studio-on-ubuntu).
 
@@ -1765,8 +1760,13 @@ Follow the same instruction of [Ubuntu](#android-studio-on-ubuntu).
 
 
 
+## RSpec
+Rails is the prerequisite for RSpec.
+
+* [**Windows**](#rspec-on-ubuntu)
+
 ### RSpec on Windows
-Rails is the prerequisite for RSpec.  To verify Rails is installed in your machine, run the following lines on your git bash:
+  To verify Rails is installed in your machine, run the following lines on your git bash:
 ```sh
 which rails # should see a path similar to /c/usr/bin/rails/rails
 ```
@@ -1780,8 +1780,8 @@ Once installation is done, verify it by running:
 ```sh
 which rspec
 ```
-
 [BACK TO TOP](#table-of-contents)
+
 
 
 ## iTerm2
@@ -1791,6 +1791,7 @@ Once the installation package is downloaded, double click to install it.
 [BACK TO TOP](#table-of-contents)
 
 
+
 ## Homebrew
 Homebrew is a package manager for Mac.
 
@@ -1798,7 +1799,6 @@ To install homebrew, simply open your terminal and running:
 ```sh
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
-
 [BACK TO TOP](#table-of-contents)
 
 
@@ -1820,21 +1820,23 @@ Once Tilda is successfully installed, you can configure it by running:
 ```sh
 tilda -C
 ```
+[BACK TO TOP](#table-of-contents)
+
 
 ### Tilda on Fedora
 ```sh
 sudo yum install tilda
 ```
-
 [BACK TO TOP](#table-of-contents)
 
 
-## SmartGit on Ubuntu
-SmartGit is an open source GUI for Git.  You can learn more about it on its home page:
-```sh
-http://www.syntevo.com/smartgithg/
-```
 
+## SmartGit
+SmartGit is an open source GUI for Git.  You can learn more about it on its [home page](http://www.syntevo.com/smartgithg/)
+
+[**Ubuntu**](#smartgit-on-ubuntu)
+
+### SmartGit on Ubuntu
 You can install it through PPA.  To add the sublime PPA, run:
 ```sh
 sudo add-apt-repository ppa:eugenesan/ppa
@@ -1845,8 +1847,8 @@ Once the PPA is added and updated, you can install SmartGit by running:
 ```sh
 sudo apt-get install smartgithg
 ```
-
 [BACK TO TOP](#table-of-contents)
+
 
 
 ## LAMP
@@ -1860,7 +1862,6 @@ You can install LAMP in Ubuntu by running:
 ```sh
 sudo tasksel install lamp-server
 ```
-
 [BACK TO TOP](#table-of-contents)
 
 
@@ -1889,7 +1890,6 @@ brew install redis
 [BACK TO TOP](#table-of-contents)
 
 
-
 ### Redis on Ubuntu
 You need to download and install redis mannually on Ubuntu.
 ```sh
@@ -1908,9 +1908,9 @@ rm redis-2.8.19.tar.gz
 [BACK TO TOP](#table-of-contents)
 
 
-
 ### Redis on Fedora
 Follow the same instruction as [Ubuntu](#redis-on-ubuntu)
+
 [BACK TO TOP](#table-of-contents)
 
 
@@ -1927,6 +1927,7 @@ Follow the same instruction as [Ubuntu](#redis-on-ubuntu)
 sudo pip install ipython gnureadline
 ```
 `gnureadline` is strongly recommended because readline will not behave well without it.
+
 [BACK TO TOP](#table-of-contents)
 
 
@@ -1939,6 +1940,7 @@ sudo pip install ipython
 
 ### iPython on Fedora
 Follow the same instruction as [Ubuntu](#ipython-on-ubuntu)
+
 [BACK TO TOP](#table-of-contents)
 
 
@@ -1959,11 +1961,13 @@ npm install -g bower
 
 ### Bower on Ubuntu
 Follow the same instruction as [Mac](#bower-on-mac).
+
 [BACK TO TOP](#table-of-contents)
 
 
 ### Bower on Fedora
 Follow the same instruction as [Mac](#bower-on-mac).
+
 [BACK TO TOP](#table-of-contents)
 
 
@@ -1980,9 +1984,12 @@ bower install jquery
 [BACK TO TOP](#table-of-contents)
 
 
-### Bower on Ubuntu
+### jQuery on Ubuntu
 Follow the same instruction as [Mac](#jquery-on-mac).
+
 [BACK TO TOP](#table-of-contents)
+
+
 
 # General Setup
 
