@@ -1299,7 +1299,7 @@ You are done! LAMP stack is now installed into your Fedora.
 ## SQLite
 
 * [**Windows**](#sqlite-on-windows)
-* [**Mac**]()
+* [**Mac**](#sqlite-on-mac)
 * [**Ubuntu**](#sqlite-on-ubuntu)
 
 ### SQLite on Windows
@@ -1330,7 +1330,13 @@ Verified sqlite is installed and properly linked on your machine by running:
 ```sh
 sqlite -v
 ```
+[BACK TO TOP](#table-of-contents)
 
+
+### SQLite on Mac
+```sh
+brew install sqlite3
+```
 [BACK TO TOP](#table-of-contents)
 
 
