@@ -1997,6 +1997,20 @@ Follow the same instruction as [Mac](#jquery-on-mac).
 
 
 
+## Rust
+[**Rust**](http://www.rust-lang.org) is a system programming language.
+
+[**Mac**](#rust-on-mac)
+
+### Rust on Mac
+Visit its [home page](http://www.rust-lang.org) and download the [install package](https://static.rust-lang.org/dist/rust-nightly-x86_64-apple-darwin.pkg).
+
+After download is done, just double click it to install.
+
+[BACK TO TOP](#table-of-contents)
+
+
+
 # General Setup
 
 ## Setup .bash_profile
