@@ -2007,6 +2007,10 @@ Visit its [home page](http://www.rust-lang.org) and download the [install packag
 
 After download is done, just double click it to install.
 
+If you prefer command line installation, you can do so with:
+```sh
+curl -s https://static.rust-lang.org/rustup.sh | sudo sh
+```
 [BACK TO TOP](#table-of-contents)
 
 
