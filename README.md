@@ -2014,6 +2014,20 @@ curl -s https://static.rust-lang.org/rustup.sh | sudo sh
 [BACK TO TOP](#table-of-contents)
 
 
+### Rust on Ubuntu
+```sh
+curl -s https://static.rust-lang.org/rustup.sh | sudo sh
+```
+[BACK TO TOP](#table-of-contents)
+
+
+### Rust on Fedora
+```sh
+curl -s https://static.rust-lang.org/rustup.sh | sudo sh
+```
+[BACK TO TOP](#table-of-contents)
+
+
 
 # General Setup
 
