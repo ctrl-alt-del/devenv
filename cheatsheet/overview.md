@@ -4,6 +4,9 @@ Overview
 Here is an overview of some basic skills that a software engineer may need in his/her daily work.
 
 # Table of Contents
+* [Types of Programming](#types-of-programming)
+	* [System Programming](#system-programming)
+	* [Application Programming](#application-programming)
 * [Version Control System](#version-control-system)
 	* [Subversion](#subversion)
 	* [Git](#git)
@@ -30,6 +33,17 @@ Here is an overview of some basic skills that a software engineer may need in hi
 	* [Command-line Interface (cli)](#command-line-interface)
 * [Debugging Tools](#debugging-tools)
 * [Thrid Party Libraries](#third-party-libraries)
+
+
+# Types of Programming
+The two major types of programming are [System Programming](#system-programming) and [Application Programming](#application-programming).
+
+## System Programming
+[System Programming](http://en.wikipedia.org/wiki/System_programming) focus on producing software that provides services to **computer hardware**.
+
+## Application Programming
+Application Programming focus on producing software that provides services to **users**.
+
 
 
 # Version Control System
