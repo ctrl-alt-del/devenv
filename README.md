@@ -2001,6 +2001,8 @@ Follow the same instruction as [Mac](#jquery-on-mac).
 [**Rust**](http://www.rust-lang.org) is a system programming language.
 
 [**Mac**](#rust-on-mac)
+[**Ubuntu**](#rust-on-ubuntu)
+[**Fedora**](#rust-on-fedora)
 
 ### Rust on Mac
 Visit its [home page](http://www.rust-lang.org) and download the [install package](https://static.rust-lang.org/dist/rust-nightly-x86_64-apple-darwin.pkg).
