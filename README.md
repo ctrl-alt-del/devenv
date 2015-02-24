@@ -2031,6 +2031,34 @@ curl -s https://static.rust-lang.org/rustup.sh | sudo sh
 
 
 
+## Tree
+
+[**Mac**](#tree-on-mac)
+[**Ubuntu**](#tree-on-ubuntu)
+[**Fedora**](#tree-on-fedora)
+
+### Tree on Mac
+```sh
+brew install tree
+```
+[BACK TO TOP](#table-of-contents)
+
+
+### Tree on Ubuntu
+```sh
+sudo apt-get install tree
+```
+[BACK TO TOP](#table-of-contents)
+
+
+### Tree on Fedora
+```sh
+sudo yum install tree
+```
+[BACK TO TOP](#table-of-contents)
+
+
+
 # General Setup
 
 ## Setup .bash_profile
