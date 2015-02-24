@@ -2032,6 +2032,7 @@ curl -s https://static.rust-lang.org/rustup.sh | sudo sh
 
 
 ## Tree
+[**Tree**](http://mama.indstate.edu/users/ice/tree) is a recursive directory listing tool with nice indentation and color codes.
 
 [**Mac**](#tree-on-mac)
 [**Ubuntu**](#tree-on-ubuntu)
