@@ -1435,6 +1435,7 @@ sudo yum install guake
 * [**Mac**](#chef-on-mac)
 * [**Chef Tools**](#chef-tools)
 	* [**Knife-solo**](#knife-solo)
+	* [**Librarian-Chef**](#librarian-chef)
 
 ### Chef on Mac
 You can install `chef` through `gem`:
@@ -1458,6 +1459,16 @@ curl -L https://www.opscode.com/chef/install.sh | bash
 gem install knife-solo
 ```
 [BACK TO TOP](#table-of-contents)
+
+
+#### Librarian-Chef
+[**Librarian-Chef**](https://github.com/applicationsonline/librarian-chef) is a tool that helps you to manage cookbooks.
+
+```sh
+gem install librarian-chef
+```
+[BACK TO TOP](#table-of-contents)
+
 
 
 ## Eclipse
