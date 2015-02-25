@@ -1430,6 +1430,20 @@ sudo yum install guake
 
 
 ## Chef
+[**Chef**](https://www.chef.io/) is a tool for provisioning servers.
+
+* [**Mac**](#chef-on-mac)
+
+### Chef on Mac
+You can install `chef` through `gem`:
+```sh
+gem install chef
+```
+
+However, a self-contained package is recommended, so you can also install `chef` through this script provided by the creators of `chef`:
+```sh
+curl -L https://www.opscode.com/chef/install.sh | bash
+```
 [BACK TO TOP](#table-of-contents)
 
 
