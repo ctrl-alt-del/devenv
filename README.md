@@ -1433,6 +1433,8 @@ sudo yum install guake
 [**Chef**](https://www.chef.io/) is a tool for provisioning servers.
 
 * [**Mac**](#chef-on-mac)
+* [**Chef Tools**](#chef-tools)
+	* [**Knife-solo**](#knife-solo)
 
 ### Chef on Mac
 You can install `chef` through `gem`:
@@ -1446,6 +1448,16 @@ curl -L https://www.opscode.com/chef/install.sh | bash
 ```
 [BACK TO TOP](#table-of-contents)
 
+
+### Chef Tools
+
+#### Knife-solo
+[**Knife-solo**](http://matschaffer.github.io/knife-solo) contains a set of command line tools that would make using `chef-solo` as easier.
+
+```sh
+gem install knife-solo
+```
+[BACK TO TOP](#table-of-contents)
 
 
 ## Eclipse
