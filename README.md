@@ -1344,9 +1344,7 @@ brew install sqlite3
 ```sh
 sudo apt-get install sqlite3 libsqlite3-dev
 ```
-
 [BACK TO TOP](#table-of-contents)
-
 
 
 
@@ -1361,7 +1359,6 @@ If you use [Homebrew](#homebrew) as your package manager, installing MySQL is ve
 ```sh
 brew install mysql
 ```
-
 [BACK TO TOP](#table-of-contents)
 
 
@@ -1369,7 +1366,6 @@ brew install mysql
 ```sh
 sudo apt-get install mysql-server
 ```
-
 [BACK TO TOP](#table-of-contents)
 
 
@@ -1377,7 +1373,6 @@ sudo apt-get install mysql-server
 ```sh
 sudo yum install mysql mysql-server
 ```
-
 [BACK TO TOP](#table-of-contents)
 
 
@@ -1393,7 +1388,6 @@ PostgreSQL is similar to MySQL and it is the default database used on Heroku.
 brew update
 brew install postgresql
 ```
-
 [BACK TO TOP](#table-of-contents)
 
 
@@ -1401,7 +1395,6 @@ brew install postgresql
 ```sh
 sudo apt-get install postgresql
 ```
-
 [BACK TO TOP](#table-of-contents)
 
 
@@ -1415,7 +1408,6 @@ sudo apt-get install postgresql
 ```sh
 sudo apt-get install guake
 ```
-
 [BACK TO TOP](#table-of-contents)
 
 
@@ -1424,7 +1416,6 @@ To install Guake on Fedora, you can do so by running:
 ```sh
 sudo yum install guake
 ```
-
 [BACK TO TOP](#table-of-contents)
 
 
