@@ -1462,6 +1462,20 @@ gem install librarian-chef
 
 
 
+## Vagrant
+[**Vagrant**](https://www.vagrantup.com) is a tool for building development environment.
+
+* [**Mac**](#vagrant-on-mac)
+
+### Vagrant on Mac
+Visit [Vagrant's download page](https://www.vagrantup.com/downloads.html) and download the `.dmg` file for Mac OS.
+
+Once downloaded, double click to install.
+
+[BACK TO TOP](#table-of-contents)
+
+
+
 ## Eclipse
 Eclipse is an integrated development environment (IDE) and you can learn more about it on its [homepage](http://www.eclipse.org/).  
 
