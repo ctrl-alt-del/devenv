@@ -1466,11 +1466,23 @@ gem install librarian-chef
 [**Vagrant**](https://www.vagrantup.com) is a tool for building development environment.
 
 * [**Mac**](#vagrant-on-mac)
+* [**Ubuntu**](#vagrant-on-ubuntu)
 
 ### Vagrant on Mac
 Visit [Vagrant's download page](https://www.vagrantup.com/downloads.html) and download the `.dmg` file for Mac OS.
 
 Once downloaded, double click to install.
+
+[BACK TO TOP](#table-of-contents)
+
+
+### Vagrant on Ubuntu
+Visit [Vagrant's download page](https://www.vagrantup.com/downloads.html) and download the `.deb` file for Ubuntu.
+
+Once downloaded, naviagate to the download destination, and execute:
+```sh
+sudo dpkg -i <deb_file_name>
+```
 
 [BACK TO TOP](#table-of-contents)
 
