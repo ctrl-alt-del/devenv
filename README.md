@@ -1467,6 +1467,7 @@ gem install librarian-chef
 
 * [**Mac**](#vagrant-on-mac)
 * [**Ubuntu**](#vagrant-on-ubuntu)
+* [**Fedora**](#vagrant-on-fedora)
 
 ### Vagrant on Mac
 Visit [Vagrant's download page](https://www.vagrantup.com/downloads.html) and download the `.dmg` file for Mac OS.
@@ -1484,6 +1485,11 @@ Once downloaded, naviagate to the download destination, and execute:
 sudo dpkg -i <deb_file_name>
 ```
 
+[BACK TO TOP](#table-of-contents)
+
+
+### Vagrant on Fedora
+Follow the same instruction as [Ubuntu](#vagrant-on-ubuntu).
 [BACK TO TOP](#table-of-contents)
 
 
