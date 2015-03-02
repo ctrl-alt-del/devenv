@@ -64,7 +64,22 @@ Application Programming focus on producing software that provides services to **
 ### Bitbucket
 [Bitbucket](https://bitbucket.org) is similar to [Github](#github), but it allows private repository for free.
 
+
+
 # Programming Language
 There are many programming languages nowadays; all of them have their pros and cons.  While evaluating a programming language, it is important to understand its intended usage, and therefore, you can choose the language that suit you the most.  I am only going to list some languages here, feel free to go through the complete list in [here](http://en.wikipedia.org/wiki/Comparison_of_programming_languages).
 
+
+
+# Database
+[Database](http://en.wikipedia.org/wiki/Database) is a collection of data.
+
+## SQL
+[SQL](http://en.wikipedia.org/wiki/SQL) stands for Structure Query Language designed for managing data held in a data structure.
+
+### Rational Database Management System
+[Rational Database Management System (RDBMS)](http://en.wikipedia.org/wiki/Relational_database_management_system) is a database system based on [relational model](http://en.wikipedia.org/wiki/Relational_model).
+
+#### MySQL
+[MySQL](http://en.wikipedia.org/wiki/MySQL) is the most popular open source RDBMS.
 
