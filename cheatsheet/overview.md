@@ -83,3 +83,6 @@ There are many programming languages nowadays; all of them have their pros and c
 #### MySQL
 [MySQL](http://en.wikipedia.org/wiki/MySQL) is the most popular open source RDBMS.
 
+### Object Rational Database Management System
+[Object Rational Database Management System (ORDBMS)](http://en.wikipedia.org/wiki/Object-relational_database) is similar to [Rational Database Management System (RDBMS)](#rational-database-management-system), but with object-oriented model.
+
