@@ -16,7 +16,7 @@ This document and bash scripts will be updated piece by piece and I will try my 
 |[Tilda](#tilda)             | N/A                            | N/A                       | [-->](#tilda-on-ubuntu)     | [-->](#tilda)               |
 |[Guake](#guake)             | N/A                            | N/A                       | [-->](#guake-on-ubuntu)     | [-->](#guake-on-fedora)     |
 |[Zsh](#zsh)                 | N/A                            | [   ](#zsh-on-mac)        | [-->](#zsh-on-ubuntu)       | [-->](#zsh-on-fedora)       |
-|[Oh-My-Zsh](#oh-my-zsh)     | [   ](#oh-my-zsh-on-windows)   | [   ](#oh-my-zsh-on-mac)  | [   ](#oh-my-zsh-on-ubuntu) | [   ](#oh-my-zsh-on-fedora) |
+|[Oh-My-Zsh](#oh-my-zsh)     | [   ](#oh-my-zsh-on-windows)   | [-->](#oh-my-zsh-on-mac)  | [-->](#oh-my-zsh-on-ubuntu) | [-->](#oh-my-zsh-on-fedora) |
 |[Homebrew](#homebrew)       | N/A                            | [-->](#homebrew)          | N/A                         | N/A                         |
 |[Sublime](#sublime)         | [-->](#sublime-on-windows)     | [-->](#sublime-on-mac)    | [-->](#sublime-on-ubuntu)   | [-->](#sublime-on-fedora)   |
 |[Git](#git)                 | [-->](#git-on-windows)         | [-->](#git-on-mac)        | [-->](#git-on-ubuntu)       | [-->](#git-on-fedora)       |
