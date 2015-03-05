@@ -41,7 +41,7 @@ This document and bash scripts will be updated piece by piece and I will try my 
 |[WAMP](#wamp)               | [-->](#wamp)                   | N/A                       | N/A                         | N/A                         |
 |[MAMP](#mamp)               | N/A                            | [-->](#mamp)              | N/A                         | N/A                         |
 |[LAMP](#lamp)               | N/A                            | N/A                       | [-->](#lamp-on-ubuntu)      | [-->](#lamp-on-fedora)      |
-|[SQLite](#sqlite)           | [-->](#sqlite-on-windows)      | [   ](            )       | [   ](               )      | [   ](               )      |
+|[SQLite](#sqlite)           | [-->](#sqlite-on-windows)      | [-->](#sqlite-on-mac)     | [-->](#sqlite-on-ubuntu)    | [   ](#sqlite-on-fedora)    |
 |[MySQL](#mysql)             | [   ](       )                 | [-->](#mysql-on-mac)      | [-->](#mysql-on-ubuntu)     | [-->](#mysql-on-fedora)     |
 |[PostgreSQL](#postgreSQL)   | [   ](       )                 | [-->](#postgreSQL-on-mac) | [   ](               )      | [   ](               )      |
 |[Chef](#chef)               | [   ](       )                 | [   ](            )       | [   ](               )      | [   ](               )      |
