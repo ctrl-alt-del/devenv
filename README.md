@@ -1172,7 +1172,7 @@ Otherwise, thanks to a PPA made by [Cheng-Wei Chien](https://launchpad.net/~cwch
 
 First of all, add the PPA repository:
 ```sh
-sudo apt-get-repository ppa:cwchien/gradle
+sudo add-apt-repository ppa:cwchien/gradle
 sudo apt-get update
 ```
 
