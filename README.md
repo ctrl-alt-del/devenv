@@ -1489,7 +1489,10 @@ sudo dpkg -i <deb_file_name>
 
 
 ### Vagrant on Fedora
-Follow the same instruction as [Ubuntu](#vagrant-on-ubuntu).
+Visit [Vagrant's download page](https://www.vagrantup.com/downloads.html) and download the `.rpm` file for Fedora.
+```sh
+rpm -U vagrant*
+```
 [BACK TO TOP](#table-of-contents)
 
 
