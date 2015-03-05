@@ -1482,9 +1482,8 @@ Visit [Vagrant's download page](https://www.vagrantup.com/downloads.html) and do
 
 Once downloaded, naviagate to the download destination, and execute:
 ```sh
-sudo dpkg -i <deb_file_name>
+sudo dpkg -i vagrant*
 ```
-
 [BACK TO TOP](#table-of-contents)
 
 
