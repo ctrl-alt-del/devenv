@@ -7,6 +7,7 @@ Cheatsheet for Sorting Algorithms
 |Quick Sort         | O(n*log(n)) | O(log(n)) |
 |Bucket Sort        | O(k*n)      |           |
 |Bubble Sort        | O(n*log(n)) | O(1)      |
-|Selection Sort     | O(n*log(n)) | O(1)      |
+|Selection Sort     | O(n^2)      | O(1)      |
+|Tim Sort           | O(n)        | O(n)      |
 
 There is a very helpful [video](https://www.youtube.com/watch?v=kPRA0W1kECg), which visualizes the behaviors of different sorting algorithms.
