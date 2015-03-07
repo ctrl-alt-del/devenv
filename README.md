@@ -80,6 +80,26 @@ mkdir -p /c/usr/bin
 For Windows's default command prompt or PowerShell, you will sometimes need the administrative permission to perform some tasks.  To run as administrator, right click on the `cmd.exe` or `powershell.exe` and select `Run as Administrator` option from the list.
 
 
+
+### Environment Variables
+For Windows users, it is necessary to modified the Environment Variables (EV) so that some applications can be accessed through [terminal](#terminal).
+
+Follow the steps to reach the interface of EV:
+<br>
+Right click `My Computer` -> click `Properties` -> click `Environment Variables`
+
+Whenever a new application is installed and you want to access it through terminal, you can press `New` under the `User variables` section to add the application's path as an enviroment variable.
+
+For `Variable name`, the convention is to use the upper case of the application's name and then concatenate it with `_HOME` (e.g. Python would be `PYTHON_HOME`).
+
+For `Variable value`, just enter the full path of the application.
+
+Once new EV is added, select `Path` row under the `User variables` section, and click the `Edit` button on below.  Go to the end of its `Variable value` and append the name of EV that you just created with a `;` as separator.  Click `OK` and you are done.
+
+[BACK TO TOP](#table-of-contents)
+
+
+
 ## Terminal
 Terminal, sometime also known as the command line interface (cli) is used to interact with computer programs.  You can learn more about it on its [Wiki](http://en.wikipedia.org/wiki/Command-line_interface) page.
 
