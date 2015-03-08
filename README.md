@@ -88,7 +88,7 @@ Follow the steps to reach the interface of EV:
 <br>
 Right click `My Computer` -> click `Properties` -> click `Environment Variables`
 
-Whenever a new application is installed and you want to access it through terminal, you can press `New` under the `User variables` section to add the application's path as an enviroment variable.
+Whenever a new application is installed and you want to access it through terminal, you can press `New` under the `System variables` section to add the application's path as an enviroment variable.
 
 For `Variable name`, the convention is to use the upper case of the application's name and then concatenate it with `_HOME` (e.g. Python would be `PYTHON_HOME`).
 
