@@ -1954,7 +1954,7 @@ sudo yum install tilda
 ## SmartGit
 SmartGit is an open source GUI for Git.  You can learn more about it on its [home page](http://www.syntevo.com/smartgithg/)
 
-[**Ubuntu**](#smartgit-on-ubuntu)
+* [**Ubuntu**](#smartgit-on-ubuntu)
 
 ### SmartGit on Ubuntu
 You can install it through PPA.  To add the sublime PPA, run:
@@ -1974,8 +1974,8 @@ sudo apt-get install smartgithg
 ## LAMP
 LAMP referes to a software bundle including Linux Apache MySQL PHP. You can learn more about its overview in [here](https://help.ubuntu.com/14.04/serverguide/lamp-overview.html).
 
-[**Ubuntu**](#lamp-on-ubuntu)
-[**Fedora**](#lamp-on-fedora)
+* [**Ubuntu**](#lamp-on-ubuntu)
+* [**Fedora**](#lamp-on-fedora)
 
 ### LAMP on Ubuntu
 You can install LAMP in Ubuntu by running:
@@ -1999,9 +1999,9 @@ sudo yum install php php-mysql # install PHP
 ## Redis
 Redis is an open source key-value cache.
 
-[**Mac**](#redis-on-mac)
-[**Ubuntu**](#redis-on-ubuntu)
-[**Fedora**](#redis-on-fedora)
+* [**Mac**](#redis-on-mac)
+* [**Ubuntu**](#redis-on-ubuntu)
+* [**Fedora**](#redis-on-fedora)
 
 ### Redis on Mac
 ```sh
@@ -2038,9 +2038,9 @@ Follow the same instruction as [Ubuntu](#redis-on-ubuntu)
 ## iPython
 [**iPython**](http://ipython.org/) An enhanced Interactive Python.  To install `ipython`, you will need to have [`pip`](#pip)
 
-[**Mac**](#ipython-on-mac)
-[**Ubuntu**](#ipython-on-ubuntu)
-[**Fedora**](#ipython-on-fedora)
+* [**Mac**](#ipython-on-mac)
+* [**Ubuntu**](#ipython-on-ubuntu)
+* [**Fedora**](#ipython-on-fedora)
 
 ### iPython on Mac
 ```sh
@@ -2068,9 +2068,9 @@ Follow the same instruction as [Ubuntu](#ipython-on-ubuntu)
 ## Bower
 [**Bower**](http://bower.io) is a package manager for the web.  You need [npm](#npm) in order to install `bower`.
 
-[**Mac**](#bower-on-mac)
-[**Ubuntu**](#bower-on-ubuntu)
-[**Fedora**](#bower-on-fedora)
+* [**Mac**](#bower-on-mac)
+* [**Ubuntu**](#bower-on-ubuntu)
+* [**Fedora**](#bower-on-fedora)
 
 ### Bower on Mac
 ```sh
@@ -2093,8 +2093,8 @@ Follow the same instruction as [Mac](#bower-on-mac).
 
 ## jQuery
 
-[**Mac**](#jquery-on-mac)
-[**Ubuntu**](#jquery-on-ubuntu)
+* [**Mac**](#jquery-on-mac)
+* [**Ubuntu**](#jquery-on-ubuntu)
 
 ### jQuery on Mac
 You need [`bower`](#bower) as a prerequisite
@@ -2114,9 +2114,9 @@ Follow the same instruction as [Mac](#jquery-on-mac).
 ## Rust
 [**Rust**](http://www.rust-lang.org) is a system programming language.
 
-[**Mac**](#rust-on-mac)
-[**Ubuntu**](#rust-on-ubuntu)
-[**Fedora**](#rust-on-fedora)
+* [**Mac**](#rust-on-mac)
+* [**Ubuntu**](#rust-on-ubuntu)
+* [**Fedora**](#rust-on-fedora)
 
 ### Rust on Mac
 Visit its [home page](http://www.rust-lang.org) and download the [install package](https://static.rust-lang.org/dist/rust-nightly-x86_64-apple-darwin.pkg).
@@ -2148,9 +2148,9 @@ curl -s https://static.rust-lang.org/rustup.sh | sudo sh
 ## Tree
 [**Tree**](http://mama.indstate.edu/users/ice/tree) is a recursive directory listing tool with nice indentation and color codes.
 
-[**Mac**](#tree-on-mac)
-[**Ubuntu**](#tree-on-ubuntu)
-[**Fedora**](#tree-on-fedora)
+* [**Mac**](#tree-on-mac)
+* [**Ubuntu**](#tree-on-ubuntu)
+* [**Fedora**](#tree-on-fedora)
 
 ### Tree on Mac
 ```sh
