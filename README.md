@@ -75,10 +75,13 @@ If you are familiar with Window's PowerShell, you can create the folder by openi
 ```sh
 mkdir -p /c/usr/bin
 ```
+[BACK TO TOP](#table-of-contents)
+
 
 ### Run as Administrator
 For Windows's default command prompt or PowerShell, you will sometimes need the administrative permission to perform some tasks.  To run as administrator, right click on the `cmd.exe` or `powershell.exe` and select `Run as Administrator` option from the list.
 
+[BACK TO TOP](#table-of-contents)
 
 
 ### Environment Variables
@@ -144,6 +147,7 @@ Zsh stands for Z shell is a Unix base interactive login shell.  You can learn mo
 ```sh
 brew install zsh
 ```
+[BACK TO TOP](#table-of-contents)
 
 
 #### Zsh on Ubuntu
@@ -152,6 +156,7 @@ To install Zsh on Ubuntu, you can do so by running:
 sudo apt-get update
 sudo apt-get install zsh
 ```
+[BACK TO TOP](#table-of-contents)
 
 
 #### Zsh on Fedora
@@ -159,8 +164,9 @@ To install Zsh on Fedora, you can do so by running:
 ```sh
 sudo yum install zsh
 ```
-
 [BACK TO TOP](#table-of-contents)
+
+
 
 ## Wget
 `wget` utility is a free, open-source, command-line tool that downloads content from internet
@@ -204,7 +210,6 @@ According to the README file on [here](https://github.com/robbyrussell/oh-my-zsh
 ```sh
 curl -L http://install.ohmyz.sh | sh
 ```
-
 [BACK TO TOP](#table-of-contents)
 
 
@@ -215,7 +220,6 @@ sudo apt-get install git
 wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
 sudo chsh -s `which zsh`
 ```
-
 [BACK TO TOP](#table-of-contents)
 
 
@@ -226,8 +230,8 @@ sudo yum install git
 wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
 sudo chsh -s `which zsh`
 ```
-
 [BACK TO TOP](#table-of-contents)
+
 
 
 ## Homebrew
@@ -237,7 +241,6 @@ Since Mac comes with Ruby by default, you can install Homebrew by running:
 ```sh
 ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 ```
-
 [BACK TO TOP](#table-of-contents)
 
 
@@ -329,7 +332,6 @@ GenericName=Text Editor
 
 echo "$content" >> /usr/share/applications/sublime.desktop;
 ```
-
 [BACK TO TOP](#table-of-contents)
 
 
