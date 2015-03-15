@@ -1722,8 +1722,17 @@ Solution: make sure the url used to install the ADT starts with `https`, not `ht
 ## VirtualBox
 VirtualBox is a tool for setting up virtualization machine.
 
+* [**Windows**](#virtualbox-on-windows)
 * [**Ubuntu**](#virtualbox-on-ubuntu)
 * [**Fedora**](#virtualbox-on-fedora)
+
+### VirtualBox on Windows
+Visit [VirtualBox's download page](https://www.virtualbox.org/wiki/Downloads) and download the `.exe` file for Windows.
+
+Once downloaded, double click to install.
+
+[BACK TO TOP](#table-of-contents)
+
 
 ### VirtualBox on Ubuntu
 The easy way is to use `apt-get`, but it may not be the latest version.
