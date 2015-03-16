@@ -1723,11 +1723,20 @@ Solution: make sure the url used to install the ADT starts with `https`, not `ht
 VirtualBox is a tool for setting up virtualization machine.
 
 * [**Windows**](#virtualbox-on-windows)
+* [**Mac**](#virtualbox-on-mac)
 * [**Ubuntu**](#virtualbox-on-ubuntu)
 * [**Fedora**](#virtualbox-on-fedora)
 
 ### VirtualBox on Windows
 Visit [VirtualBox's download page](https://www.virtualbox.org/wiki/Downloads) and download the `.exe` file for Windows.
+
+Once downloaded, double click to install.
+
+[BACK TO TOP](#table-of-contents)
+
+
+### VirtualBox on Mac
+Visit [VirtualBox's download page](https://www.virtualbox.org/wiki/Downloads) and download the `.dmg` file for Mac.
 
 Once downloaded, double click to install.
 
