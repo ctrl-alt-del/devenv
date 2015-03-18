@@ -2195,7 +2195,16 @@ curl -s https://static.rust-lang.org/rustup.sh | sudo sh
 
 ## Go
 
+* [**Windows**](#go-on-windows)
 * [**Mac**](#go-on-mac)
+
+### Go on Windows
+Visit [Go's download page](https://golang.org/dl/) and download the latest `.msi` file, which is in bold.
+
+Once download is completed, double click the file and follow its instruction to install.  Note that you need to remove any old version of **Go**.
+
+[BACK TO TOP](#table-of-contents)
+
 
 ### Go on Mac
 Visit [Go's download page](https://golang.org/dl/) and download the latest `.pkg` file, which is in bold.
