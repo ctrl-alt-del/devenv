@@ -88,3 +88,7 @@ There are many programming languages nowadays; all of them have their pros and c
 
 #### PostgreSQL
 [PostgreSQL](http://en.wikipedia.org/wiki/PostgreSQL) is the major ORDBMS.
+
+## NoSQL
+[NoSQL](http://en.wikipedia.org/wiki/NoSQL) are databases that store and retrieve data using mechanism other than the ways that used by [RDBMS](#relational-database-management-system).
+
