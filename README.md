@@ -2021,7 +2021,7 @@ sudo apt-get install smartgithg
 
 
 ## LAMP
-LAMP referes to a software bundle including Linux Apache MySQL PHP. You can learn more about its overview in [here](https://help.ubuntu.com/14.04/serverguide/lamp-overview.html).
+LAMP referes to a software bundle including Linux Apache MySQL PHP. You can learn more about it on its [server guide](https://help.ubuntu.com/14.04/serverguide/lamp-overview.html) or [wiki](https://help.ubuntu.com/community/ApacheMySQLPHP).
 
 * [**Ubuntu**](#lamp-on-ubuntu)
 * [**Fedora**](#lamp-on-fedora)
@@ -2030,6 +2030,12 @@ LAMP referes to a software bundle including Linux Apache MySQL PHP. You can lear
 You can install LAMP in Ubuntu by running:
 ```sh
 sudo tasksel install lamp-server
+```
+
+Or alternatively:
+```sh
+sudo apt-get update
+sudo apt-get install lamp-server^
 ```
 [BACK TO TOP](#table-of-contents)
 
