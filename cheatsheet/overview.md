@@ -92,3 +92,6 @@ There are many programming languages nowadays; all of them have their pros and c
 ## NoSQL
 [NoSQL](http://en.wikipedia.org/wiki/NoSQL) are databases that store and retrieve data using mechanism other than the ways that used by [RDBMS](#relational-database-management-system).
 
+### Document Type NoSQL
+[Document Type NoSQL](http://en.wikipedia.org/wiki/NoSQL#Document_store) stores data as a document, usually encode it as XML, YAML, or JSON.
+
