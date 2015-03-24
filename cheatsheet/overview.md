@@ -95,3 +95,6 @@ There are many programming languages nowadays; all of them have their pros and c
 ### Document Type NoSQL
 [Document Type NoSQL](http://en.wikipedia.org/wiki/NoSQL#Document_store) stores data as a document, usually encode it as XML, YAML, or JSON.
 
+#### MongoDB
+[MongoDB](http://en.wikipedia.org/wiki/MongoDB) is one of the popular [Document Type NoSQL](document-type-nosql); it stores data as JSON and binary JSON a.k.a BSON.
+
