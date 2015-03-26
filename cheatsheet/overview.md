@@ -86,8 +86,10 @@ There are many programming languages nowadays; all of them have their pros and c
 ### Object Rational Database Management System
 [Object Rational Database Management System (ORDBMS)](http://en.wikipedia.org/wiki/Object-relational_database) is similar to [Rational Database Management System (RDBMS)](#rational-database-management-system), but with object-oriented model.
 
+
 #### PostgreSQL
 [PostgreSQL](http://en.wikipedia.org/wiki/PostgreSQL) is the major ORDBMS.
+
 
 ## NoSQL
 [NoSQL](http://en.wikipedia.org/wiki/NoSQL) are databases that store and retrieve data using mechanism other than the ways that used by [RDBMS](#relational-database-management-system).
@@ -96,7 +98,7 @@ There are many programming languages nowadays; all of them have their pros and c
 [Document Type NoSQL](http://en.wikipedia.org/wiki/NoSQL#Document_store) stores data as a document, usually encode it as XML, YAML, or JSON.
 
 #### MongoDB
-[MongoDB](http://en.wikipedia.org/wiki/MongoDB) is one of the popular [Document Type NoSQL](document-type-nosql); it stores data as JSON and binary JSON a.k.a BSON.
+[MongoDB](http://en.wikipedia.org/wiki/MongoDB) is one of the popular [Document Type NoSQL](#document-type-nosql); it stores data as JSON and binary JSON a.k.a BSON.
 
 #### CouchDB
 [CouchDB](http://en.wikipedia.org/wiki/CouchDB) is similar to [MongoDB](#mongodb), but it focuses on ease of use.  Another major feature of CouchDB is that it uses [Multi-Version Concurrency Control (MVCC)](http://en.wikipedia.org/wiki/Multiversion_concurrency_control) instead of locking database during concurrent writes.
