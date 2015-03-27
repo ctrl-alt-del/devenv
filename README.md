@@ -1853,15 +1853,19 @@ Android Studio is a IDE based on IntelliJ IDEA for Android development.
 
 Note that the latest version of Android Studio requires Gradle 2.2 and above; therefore, please make sure you have it installed.  You can also follow the instruction of installing Gradle in [here](#gradle).
 
+Also, Android development requires [Java](#java),  please follow its instruction to install the it.
+
 * [**Windows**](#android-studio-on-windows)
 * [**Mac**](#android-studio-on-mac)
 * [**Ubuntu**](#android-studio-on-ubuntu)
 * [**Fedora**](#android-studio-on-fedora)
 
 ### Android Studio on Windows
-Download Android Studio from its home page [here](https://developer.android.com/sdk/installing/studio.html)
+Download Android Studio from its [home page](https://developer.android.com/sdk/installing/studio.html)
 
 Once download is done, follow the instruction to install Android Studio and SDK.
+
+Note that Android Studio requires access to public internet in order to download dependencies and build.  In case that you have denied its access, you can visit `Control Panel` -> `System and Security` -> `Windows Firewall` -> `Allow a program or feature through Windows Firewall` to grant it public internet access permission.
 
 [BACK TO TOP](#table-of-contents)
 
