@@ -1883,14 +1883,14 @@ The newer version of Android Studio for Mac no long comes with Android SDK, ther
 ### Android Studio on Ubuntu
 Donwload and install:
 ```sh
-wget https://dl.google.com/dl/android/studio/ide-zips/0.8.14/android-studio-ide-135.1538390-linux.zip
-unzip android-studio-ide-135.1538390-linux.zip
+wget https://dl.google.com/dl/android/studio/ide-zips/1.1.0/android-studio-ide-135.1740770-linux.zip
+unzip android-studio-ide-135.1740770-linux.zip
 sudo mv android-studio /opt/android-studio
-sudo mv -f android-studio-ide-135.1538390-linux.zip ~/Downloads/
+sudo mv -f android-studio-ide-135.1740770-linux.zip ~/Downloads/
 sudo ln -s /opt/android-studio/bin/studio.sh /usr/bin/aso
 ```
 
-Setup Desktop Icon:
+(Optional for version 1.0.+) Setup Desktop Icon:
 ```sh
 sudo touch /usr/share/applications/android-studio.desktop
 
