@@ -1574,7 +1574,7 @@ rpm -U vagrant*
 ## Eclipse
 Eclipse is an integrated development environment (IDE) and you can learn more about it on its [homepage](http://www.eclipse.org/).  
 
-To use it to develop Android application, I use one of its variant called [Eclipse IDE for Java Developers](http://www.eclipse.org/downloads/packages/eclipse-ide-java-developers/lunar) because it is relatively smaller than other variants.  You can feel to use the [standard one](http://www.eclipse.org/downloads/packages/eclipse-standard-44/lunar) or other of its variant as well.
+Although it is now recommended to use [Android Studio](#android-studio) for Android development, you can use eclipse as your IDE if you prefer to.  I use one of its variant called [Eclipse IDE for Java Developers](http://www.eclipse.org/downloads/packages/eclipse-ide-java-developers/lunar) because it is relatively smaller than other variants.  You can feel to use the [standard one](http://www.eclipse.org/downloads/packages/eclipse-standard-44/lunar) or other of its variant as well.
 
 * [**Mac**](#eclipse-on-mac)
 * [**Ubuntu**](#eclipse-on-ubuntu)
@@ -1590,7 +1590,6 @@ Once the file is downloaded, unzip it and drag the unziped folder to application
 
 ### Eclipse on Ubuntu
 ```sh
-sudo apt-get install openjdk-7-jdk
 sudo apt-get install eclipse
 ```
 [BACK TO TOP](#table-of-contents)
