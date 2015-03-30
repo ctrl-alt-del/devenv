@@ -1376,8 +1376,8 @@ Scroll down the page to the "Precompiled Binaries for Windows" section, and down
 Or run the following lines on your git bash:
 ```sh
 cd ~
-curl --remote-name "http://www.sqlite.org/2014/sqlite-shell-win32-x86-3080403.zip"
-curl --remote-name "http://www.sqlite.org/2014/sqlite-dll-win32-x86-3080403.zip"
+curl --remote-name "http://www.sqlite.org/2015/sqlite-shell-win32-x86-3080803.zip"
+curl --remote-name "http://www.sqlite.org/2015/sqlite-dll-win32-x86-3080803.zip"
 ```
 
 Once both files are downloaded, unzip both of them to /c/usr/bin/sqlite, or whatever directory you chose.
