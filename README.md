@@ -527,6 +527,13 @@ sudo yum install curl
 
 ## Wget
 
+* [**Mac**](#wget-on-mac)
+
+### Wget on Mac
+```sh
+brew install wget
+```
+[BACK TO TOP](#table-of-contents)
 
 
 ## Ruby
