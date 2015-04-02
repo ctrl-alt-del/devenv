@@ -544,17 +544,17 @@ brew install wget
 * [**Fedora**](#ruby-on-fedora)
 
 ### Ruby on Windows
-You can install Ruby on Windows by using [RubyInstaller](http://rubyinstaller.org/downloads/) with either the [x86 installer](http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.1.5.exe) or [x64 installer](http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.1.5-x64.exe) based on your operation system.
+You can install Ruby on Windows by using [RubyInstaller](http://rubyinstaller.org/downloads/) with either the [x86 installer](http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.2.1.exe) or [x64 installer](http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.2.1-x64.exe) based on your operation system.
 
 To download the installer through command line, you can do so by running:
 For 64-bit system:
 ```sh
-curl --remote-name "http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.1.5-x64.exe"
+curl --remote-name "http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.2.1-x64.exe"
 ```
 
 For 32-bit system:
 ```sh
-curl --remote-name "http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.1.5.exe"
+curl --remote-name "http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.2.1.exe"
 ```
 
 Install Ruby under /c/usr/bin/ruby or whatever directory you chose
