@@ -152,7 +152,6 @@ brew install zsh
 
 
 #### Zsh on Ubuntu
-To install Zsh on Ubuntu, you can do so by running:
 ```sh
 sudo apt-get update
 sudo apt-get install zsh
@@ -161,7 +160,6 @@ sudo apt-get install zsh
 
 
 #### Zsh on Fedora
-To install Zsh on Fedora, you can do so by running:
 ```sh
 sudo yum install zsh
 ```
@@ -587,7 +585,7 @@ devkit is the prerequisite for Rails on Windows.  You can download its latest ve
 
 Scroll down to "Other Userful Downloads" and it is under "development kit" section.
 
-Choose the appropriate devkit to download, either [x86](http://cdn.rubyinstaller.org/archives/devkits/DevKit-mingw64-32-4.7.2-20130224-1151-sfx.exe) or [x64](http://cdn.rubyinstaller.org/archives/devkits/DevKit-mingw64-64-4.7.2-20130224-1432-sfx.exe) based on your operation system.
+Choose the appropriate devkit to download, either [x86](http://dl.bintray.com/oneclick/rubyinstaller/DevKit-mingw64-32-4.7.2-20130224-1151-sfx.exe) or [x64](http://dl.bintray.com/oneclick/rubyinstaller/DevKit-mingw64-64-4.7.2-20130224-1432-sfx.exe) based on your operation system.
 
 Once the download is done, double click on the executable file and install/unzip it to /c/usr/bin/devkit, or whatever directory you chose.
 
