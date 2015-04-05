@@ -2266,6 +2266,20 @@ sudo yum install tree
 
 
 
+## Trailer
+[Trailer](http://ptsochantaris.github.io/trailer/) is a Github pull request tracker.
+
+* [**Mac**](#trailer-on-mac)
+
+### Trailer on Mac
+Download the app from its [home page](http://ptsochantaris.github.io/trailer/).
+
+Once download is completed, double click the file to install.
+
+[BACK TO TOP](#table-of-contents)
+
+
+
 # General Setup
 
 ## Setup .bash_profile
