@@ -1483,7 +1483,6 @@ sudo apt-get install guake
 
 
 ### Guake on Fedora
-To install Guake on Fedora, you can do so by running:
 ```sh
 sudo yum install guake
 ```
@@ -2175,7 +2174,7 @@ Follow the same instruction as [Mac](#jquery-on-mac).
 
 
 ## Rust
-[**Rust**](http://www.rust-lang.org) is a system programming language.
+[**Rust**](http://www.rust-lang.org) is an open source system programming language developed by Mozilla.
 
 * [**Mac**](#rust-on-mac)
 * [**Ubuntu**](#rust-on-ubuntu)
@@ -2209,6 +2208,7 @@ curl -s https://static.rust-lang.org/rustup.sh | sudo sh
 
 
 ## Go
+[**Go**](https://golang.org/) is an open source programming language developed by Google.
 
 * [**Windows**](#go-on-windows)
 * [**Mac**](#go-on-mac)
