@@ -2311,17 +2311,14 @@ After the .bash_profile is created, restart the git bash to let the changes take
 
 
 ## Chrome
-Chrome is a browser, but it can also be a very useful development tool with some extensions.  You can download Chrome on its home page:
-```sh
-https://www.google.com/intl/en/chrome/browser/
-```
+[Chrome](https://www.google.com/intl/en/chrome/browser/) is a browser, but it can also be a very useful web development tool with some extensions.
 
-Once Chrome is installed, you can start installing extensions by entering `chrome://extensions/` into the browser address bar and hit return/enter key to enter the extension manager.  Scroll to the bottom of the page and click on `get more extensions` to reach the chrome web store page of extensions.
+Once Chrome is installed, you can start installing extensions by navigating to `chrome://extensions/` on its address bar to enter the extension manager.  Scroll to the bottom of the page and click on `get more extensions` to reach the chrome web store page of extensions.
 
-Alternatively, you can reach the chrome web store page by visiting:
-```sh
-https://chrome.google.com/webstore/category/extensions
-```
+Alternatively, you can visit the [Chrome web store page](https://chrome.google.com/webstore/category/extensions) to get the extensions.
+
+[BACK TO TOP](#table-of-contents)
+
 
 ### EditThisCookie
 [EditThisCookie](https://chrome.google.com/webstore/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg) is a cookie manager that allow developer to modify cookies of a page in real for development and testing purpose.
