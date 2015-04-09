@@ -2011,6 +2011,7 @@ sudo yum install tilda
 SmartGit is an open source GUI for Git.  You can learn more about it on its [home page](http://www.syntevo.com/smartgithg/)
 
 * [**Ubuntu**](#smartgit-on-ubuntu)
+* [**Fedora**](#smartgit-on-fedora)
 
 ### SmartGit on Ubuntu
 You can install it through PPA.  To add the sublime PPA, run:
@@ -2025,6 +2026,12 @@ sudo apt-get install smartgithg
 ```
 [BACK TO TOP](#table-of-contents)
 
+
+### SmartGit on Fedora
+```sh
+sudo yum install smartgithg
+```
+[BACK TO TOP](#table-of-contents)
 
 
 ## LAMP
