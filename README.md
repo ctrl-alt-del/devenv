@@ -1969,7 +1969,7 @@ Once the installation package is downloaded, double click to install it.
 
 
 ## Homebrew
-Homebrew is a package manager for Mac.
+[**Homebrew**](http://brew.sh) is a package manager for Mac.
 
 To install homebrew, simply open your terminal and running:
 ```sh
@@ -2330,17 +2330,29 @@ Alternatively, you can visit the [Chrome web store page](https://chrome.google.c
 
 To intall the extension, just click on the blue `+ Free` button the top right corner.
 
+[BACK TO TOP](#table-of-contents)
+
+
 ### REST Console
 [REST Console](https://chrome.google.com/webstore/detail/rest-console/cokgbflfommojglbmbpenpphppikmonn) is an tool for testing HTTP requests on APIs.  It allows user to quickly test a url.
 
 To intall the extension, just click on the blue `+ Free` button the top right corner.
+
+[BACK TO TOP](#table-of-contents)
+
 
 ### Postman
 [Postman](https://chrome.google.com/webstore/detail/postman-rest-client/fdmmgilgnpjigdojojpjoooidkmcomcm) is similar with REST Console, but it has history of all the requests that you have made.
 
 To intall the extension, just click on the blue `+ Free` button the top right corner.
 
+[BACK TO TOP](#table-of-contents)
+
+
 ### JSON View
 [JSON View](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc) is a tool that parses JSON into a more human readable format.
 
 To intall the extension, just click on the blue `+ Free` button the top right corner.
+
+[BACK TO TOP](#table-of-contents)
+
