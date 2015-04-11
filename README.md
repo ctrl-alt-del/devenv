@@ -1961,8 +1961,9 @@ which rspec
 
 
 ## iTerm2
-iTerm2 is essential a terminal armed with more features, which you can download and learn more about it on its [homepage](www.http://iterm2.com/).
-Once the installation package is downloaded, double click to install it.
+[**iTerm2**](http://iterm2.com) is essential a terminal armed with more features.  You can download it [here](https://iterm2.com/downloads/stable/iTerm2_v2_0.zip).
+
+Once download is completed, unzip the package and double click `.app` file to install it.
 
 [BACK TO TOP](#table-of-contents)
 
