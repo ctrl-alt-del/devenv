@@ -1852,7 +1852,7 @@ Follow the same instruction as [Ubuntu](#pycharm-on-ubuntu).
 
 
 ## Android Studio
-Android Studio is a IDE based on IntelliJ IDEA for Android development.
+[**Android Studio**](https://developer.android.com/sdk/index.html) is a Integrated Development Environment based on IntelliJ IDEA for Android development.
 
 Note that the latest version of Android Studio requires Gradle 2.2 and above; therefore, please make sure you have it installed.  You can also follow the instruction of installing Gradle in [here](#gradle).
 
