@@ -1937,17 +1937,16 @@ Follow the same instruction of [Ubuntu](#android-studio-on-ubuntu).
 
 
 ## RSpec
-Rails is the prerequisite for RSpec.
+[**RSpec**](http://rspec.info) is a Behavior Driven Development tool.  Rails is its prerequisite.
+
+To verify Rails is installed in your machine, you can run:
+```sh
+rails -v # should show the version number
+```
 
 * [**Windows**](#rspec-on-ubuntu)
 
 ### RSpec on Windows
-  To verify Rails is installed in your machine, run the following lines on your git bash:
-```sh
-which rails # should see a path similar to /c/usr/bin/rails/rails
-```
-
-Then run following line to install RSpec:
 ```sh
 gem install rspec
 ```
