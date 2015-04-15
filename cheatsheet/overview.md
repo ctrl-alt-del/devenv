@@ -108,3 +108,6 @@ There are many programming languages nowadays; all of them have their pros and c
 ### Key-value Type NoSQL
 [Key-value Type NoSQL](http://en.wikipedia.org/wiki/NoSQL#Key-value_stores) use Map/Dictionary to store data.
 
+#### Redis
+[Redis](http://en.wikipedia.org/wiki/Redis) stands for REmote DIctionary Server.  It is open source and one of the most popular KV-RAM NoSQL.
+
