@@ -111,3 +111,5 @@ There are many programming languages nowadays; all of them have their pros and c
 #### Redis
 [Redis](http://en.wikipedia.org/wiki/Redis) stands for REmote DIctionary Server.  It is open source and one of the most popular KV-RAM NoSQL.
 
+#### CouchDB
+[CouchDB](http://en.wikipedia.org/wiki/CouchDB) is a document-oriented NoSQL database that uses JSON to store data, JavaScript as its query language using MapReduce, and HTTP for an API.
