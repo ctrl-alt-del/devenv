@@ -1856,7 +1856,7 @@ Follow the same instruction as [Ubuntu](#pycharm-on-ubuntu).
 
 Note that the latest version of Android Studio requires Gradle 2.2 and above; therefore, please make sure you have it installed.  You can also follow the instruction of installing Gradle in [here](#gradle).
 
-Also, Android development requires [Java](#java),  please follow its instruction to install the it.
+Also, Android development requires [Java](#java),  please follow its instruction to install the it.  Note that Android Studio would recommend using Oracle JDK instead of using OpenJDK.
 
 * [**Windows**](#android-studio-on-windows)
 * [**Mac**](#android-studio-on-mac)
