@@ -1787,7 +1787,7 @@ sudo yum install VirtualBox-4.3.x86_64
 
 
 ## PyCharm
-PyCharm is an IDE based on IntelliJ IDEA for Python development.
+[**PyCharm**](http://www.jetbrains.com/pycharm) is an IDE based on IntelliJ IDEA for Python development.
 
 * [**Windows**](pycharm-on-windows)
 * [**Mac**](pycharm-on-mac)
@@ -1819,6 +1819,8 @@ make a symbolic link
 ```sh
 sudo ln -s /opt/pycharm/bin/pycharm.sh /usr/bin/pycharm
 ```
+
+You may skip the process of setting shortcut icon manually since later version of Pychram for Linux does the setup automatically.  However, in case the icon is not generated, you may follow the steps in below to set it up.
 
 Setup Desktop Icon:
 ```sh
