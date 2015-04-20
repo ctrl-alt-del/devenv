@@ -113,3 +113,12 @@ There are many programming languages nowadays; all of them have their pros and c
 
 #### CouchDB
 [CouchDB](http://en.wikipedia.org/wiki/CouchDB) is a document-oriented NoSQL database that uses JSON to store data, JavaScript as its query language using MapReduce, and HTTP for an API.
+
+
+
+# Development Tools
+
+## Integrated Development Environment
+[Integrated Development Environment (IDE)](http://en.wikipedia.org/wiki/Integrated_development_environment) is a tool that aims at maximizing the productivity of software engineers.
+
+ 
