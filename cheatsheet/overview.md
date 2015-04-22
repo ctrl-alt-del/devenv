@@ -122,3 +122,12 @@ There are many programming languages nowadays; all of them have their pros and c
 [Integrated Development Environment (IDE)](http://en.wikipedia.org/wiki/Integrated_development_environment) is a tool that aims at maximizing the productivity of software engineers.
 
 [Eclipse](https://eclipse.org/), [NetBeans](https://netbeans.org/) and [IntelliJ IDEA](https://www.jetbrains.com/idea/) are the amount the most popular ones.  Eclipse and NetBeans are open sources and free.  IntelliJ IDEA has a community version avaliable.
+
+
+## Editor
+Editor is also very popular among developers.  Some of the well-known choices are:
+* [Notepad++]()
+* [gedit]()
+* [Sublime Text]()
+* [Atom]()
+* [vi/vim]()
