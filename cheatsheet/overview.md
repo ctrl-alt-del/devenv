@@ -130,4 +130,9 @@ Editor is also very popular among developers.  Some of the well-known choices ar
 * [gedit]()
 * [Sublime Text]()
 * [Atom]()
+
+## Command-line Interface
+[Command-line Interface (cli)]() is an interface through terminal.  It used to be the main stream way of software development before the Graphic User Interface was introduced to the public.  Nowadays, it still remain to be a popular choice for some developers and professions.  There are two major cli editor:
+
 * [vi/vim]()
+* [Emacs]()
