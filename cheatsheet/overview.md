@@ -126,13 +126,12 @@ There are many programming languages nowadays; all of them have their pros and c
 
 ## Editor
 Editor is also very popular among developers.  Some of the well-known choices are:
-* [Notepad++]()
-* [gedit]()
-* [Sublime Text]()
-* [Atom]()
+* [Notepad++](http://notepad-plus-plus.org)
+* [gedit](https://wiki.gnome.org/Apps/Gedit)
+* [Sublime Text](http://www.sublimetext.com)
+* [Atom](https://atom.io)
 
 ## Command-line Interface
-[Command-line Interface (cli)]() is an interface through terminal.  It used to be the main stream way of software development before the Graphic User Interface was introduced to the public.  Nowadays, it still remain to be a popular choice for some developers and professions.  There are two major cli editor:
-
-* [vi/vim]()
-* [Emacs]()
+[Command-line Interface (cli)](http://en.wikipedia.org/wiki/Command-line_interface) is an interface through terminal.  It used to be the main stream way of software development before the Graphic User Interface was introduced to the public.  Nowadays, it still remain to be a popular choice for some developers and professions.  There are two major cli editor:
+* [Vi IMproved (vim)](http://www.vim.org)
+* [Emacs](https://www.gnu.org/software/emacs)
