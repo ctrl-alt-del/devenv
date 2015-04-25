@@ -1872,6 +1872,8 @@ Once download is done, follow the instruction to install Android Studio and SDK.
 
 Note that Android Studio requires access to public internet in order to download dependencies and build.  In case that you have denied its access, you can visit `Control Panel` -> `System and Security` -> `Windows Firewall` -> `Allow a program or feature through Windows Firewall` to grant it public internet access permission.
 
+Note that Android Virtual Machine (AVD) requires [Intel Hardware Accelerated Execution Manager (Intel HAXM)](https://software.intel.com/en-us/android/articles/intel-hardware-accelerated-execution-manager), which you can get it from Android SDK Manager under `/Extras/Intel x86 Emulator Accelerator (HAXM installer).  The installer should install the Intel HAXM automatically, but it requires manual installation in some occasion.  To install Intel HAXM manually on windows, simply navigate to `<SDK_Directory>\extras\intel\Hardware_Accelerated_Execution_Manager` and execute the `intelhaxm-android.exe` file.
+
 [BACK TO TOP](#table-of-contents)
 
 
