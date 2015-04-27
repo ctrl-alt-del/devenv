@@ -2,7 +2,7 @@ devenv
 ======
 
 ### About
-I use both Mac and Windows regularly and sometimes Ubuntu as well.  Although I mostly use Mac as my coding machine, I am very interested in coding on my Windows machine as well.  After some reseaches as well as trials and errors, I am able to setup the dev environment on my Windows machine and I am pretty happy with it so far.  I think it may be a good idea to share the setup process with the community, and hopefully it can save other people some time :).
+I use both Mac and Windows regularly and sometimes Ubuntu as well.  Although I mostly use Mac as my coding machine, I am very interested in coding on my Windows machine as well.  After some researches as well as trials and errors, I am able to setup the dev environment on my Windows machine and I am pretty happy with it so far.  I think it may be a good idea to share the setup process with the community, and hopefully it can save other people some time :).
 
 ### Disclaimer
 This document and bash scripts will be updated piece by piece and I will try my best to describe the process step by step.  Please feel free to let me know if you see anything confusing/unclear/wrong or you have any recommendations.  Thank you :).
@@ -92,7 +92,7 @@ Follow the steps to reach the interface of EV:
 <br>
 Right click `My Computer` -> click `Properties` -> click `Environment Variables`
 
-Whenever a new application is installed and you want to access it through terminal, you can press `New` under the `System variables` section to add the application's path as an enviroment variable.
+Whenever a new application is installed and you want to access it through terminal, you can press `New` under the `System variables` section to add the application's path as an environment variable.
 
 For `Variable name`, the convention is to use the upper case of the application's name and then concatenate it with `_HOME` (e.g. Python would be `PYTHON_HOME`).
 
@@ -577,13 +577,13 @@ Once you restarted the git bash and verified ruby is installed on your machine, 
 ruby --version
 ```
 
-If you want to call Ruby from the PowerShell of Windows's default terminal, you need to add Ruby to the system environment vairables.
+If you want to call Ruby from the PowerShell of Windows's default terminal, you need to add Ruby to the system environment variables.
 
 
 #### devkit
 devkit is the prerequisite for Rails on Windows.  You can download its latest version for Windows from [here](http://rubyinstaller.org/downloads/).
 
-Scroll down to "Other Userful Downloads" and it is under "development kit" section.
+Scroll down to "Other Useful Downloads" and it is under "development kit" section.
 
 Choose the appropriate devkit to download, either [x86](http://dl.bintray.com/oneclick/rubyinstaller/DevKit-mingw64-32-4.7.2-20130224-1151-sfx.exe) or [x64](http://dl.bintray.com/oneclick/rubyinstaller/DevKit-mingw64-64-4.7.2-20130224-1432-sfx.exe) based on your operation system.
 
@@ -784,7 +784,7 @@ Download the latest Java for Mac from [Oracle](http://www.oracle.com/technetwork
 
 Follow the instruction on there to read and accept the license agreement, then click the download link for [Mac OS X x64](http://download.oracle.com/otn-pub/java/jdk/7u75-b13/jdk-7u75-macosx-x64.dmg).
 
-Once the dmg file is downloaded, double click it to start the installation.
+Once the `dmg` file is downloaded, double click it to start the installation.
 
 Once the installation is done, you can verify your Java version by running the following line on terminal:
 ```sh
@@ -798,7 +798,7 @@ Download the latest Java for Mac from [Oracle](http://www.oracle.com/technetwork
 
 Follow the instruction on there to read and accept the license agreement, then click the `tar.gz` download link for [Linux x86](http://download.oracle.com/otn-pub/java/jdk/7u75-b13/jdk-7u75-linux-i586.tar.gz) or [Linux x64](http://download.oracle.com/otn-pub/java/jdk/7u75-b13/jdk-7u75-linux-x64.tar.gz) based on your operation system.
 
-Once the dmg file is downloaded, double click it to start the installation.
+Once the `tar.gz` file is downloaded, double click it to start the installation.
 
 Alternatively, you can use PPA to install Oracle Java as well.
 ```sh
@@ -824,7 +824,7 @@ java -version
 ### Java on Fedora
 To install Oracle Java for Ubuntu, follow the same process for [Ubuntu](#java-on-ubuntu).
 
-Similarily, if you want to install OpenJDK on Fedora, you can do so by running:
+Similarly, if you want to install OpenJDK on Fedora, you can do so by running:
 ```sh
 sudo yum install java-1.7.0-openjdk-devel
 ```
@@ -844,7 +844,7 @@ There are Python 2.x and Python 3.x available.  This instruction will focus on 2
 
 Download the Python 2.7.9 for Windows from [here](https://www.python.org/downloads/release/python-279).
 
-Under the Download tab, choose the appropriate msi file to download, either x86 or x64 based on your operation system.
+Under the Download tab, choose the appropriate `msi` file to download, either x86 or x64 based on your operation system.
 
 You can also use the following command to download the 32-bit version:
 ```sh
@@ -1076,7 +1076,7 @@ npm -v
 ### Node.js on Mac
 Alternatively, you can install Node.js through [Homebrew](#homebrew).
 ```sh
-brew intall node
+brew install node
 ```
 [BACK TO TOP](#table-of-contents)
 
@@ -1237,7 +1237,7 @@ gradle -v
 
 
 ### Gradle on Ubuntu
-If you prefer installing Gradle mannually, you can follow the instruction [here](#gradle-on-fedora).
+If you prefer installing Gradle manually, you can follow the instruction [here](#gradle-on-fedora).
 
 Otherwise, thanks to a PPA made by [Cheng-Wei Chien](https://launchpad.net/~cwchien), the installation process of Gradle on Ubuntu is pretty straightforward.
 
@@ -1260,7 +1260,7 @@ sudo apt-get install gradle-<__version_number__> # e.g. sudo apt-get install gra
 [BACK TO TOP](#table-of-contents)
 
 ### Gradle on Fedora
-To install Gradle on Fedora or other Linux/Unix base distro, you need to do so mannually.
+To install Gradle on Fedora or other Linux/Unix base distro, you need to do so manually.
 
 First of all, visit the [here](http://www.gradle.org/downloads) and download the version you are interesting.
 
@@ -1306,7 +1306,7 @@ export PATH=$GRADLE_HOME:$PATH
 ```
 Again, `<gradle_folder_name>` is something similar to `gradle-1.12` and etc.
 
-Once you are done adding those lines, save and exist the editor and you are good to go. Gradle wuold be ready to use whenever you open a terminal.
+Once you are done adding those lines, save and exist the editor and you are good to go. Gradle would be ready to use whenever you open a terminal.
 
 Or you can run the script here:
 ```sh
@@ -1559,7 +1559,7 @@ Once downloaded, double click to install.
 ### Vagrant on Ubuntu
 Visit [Vagrant's download page](https://www.vagrantup.com/downloads.html) and download the `.deb` file for Ubuntu.
 
-Once downloaded, naviagate to the download destination, and execute:
+Once downloaded, navigate to the download destination, and execute:
 ```sh
 sudo dpkg -i vagrant*
 ```
@@ -1748,7 +1748,7 @@ Once downloaded, double click to install.
 
 
 ### VirtualBox on Ubuntu
-The easy way is to use `apt-get`, but it may not be prooviding you the latest version.
+The easy way is to use `apt-get`, but it may not be providing you the latest version.
 ```sh
 sudo apt-get install virtualbox
 ```
@@ -1773,7 +1773,7 @@ cd /etc/yum.repos.d/
 sudo  wget http://download.virtualbox.org/virtualbox/rpm/fedora/virtualbox.repo
 ```
 
-Then, perform another `sudo yum update` and install the reuqired llibraries:
+Then, perform another `sudo yum update` and install the required libraries:
 ```sh
 sudo yum install kernel-devel dkms binutils gcc make patch libgomp glibc-headers glibc-devel kernel-headers
 ```
@@ -1795,7 +1795,7 @@ sudo yum install VirtualBox-4.3.x86_64
 * [**Fedora**](pycharm-on-fedora)
 
 ### PyCharm on Windows
-Donwload PyCharm from its home page on [here](http://www.jetbrains.com/pycharm/download/)
+Download PyCharm from its home page on [here](http://www.jetbrains.com/pycharm/download/)
 
 Once download is completed, double click the `.exe` file and follow the instruction to install.
 
@@ -1803,7 +1803,7 @@ Once download is completed, double click the `.exe` file and follow the instruct
 
 
 ### PyCharm on Mac
-Donwload PyCharm from its home page on [here](http://www.jetbrains.com/pycharm/download/)
+Download PyCharm from its home page on [here](http://www.jetbrains.com/pycharm/download/)
 
 Once download is completed, double click the `.dmg` file and follow the instruction to install.
 
@@ -1811,7 +1811,7 @@ Once download is completed, double click the `.dmg` file and follow the instruct
 
 
 ### PyCharm on Ubuntu
-Donwload PyCharm from its home page on [here](http://www.jetbrains.com/pycharm/download/)
+Download PyCharm from its home page on [here](http://www.jetbrains.com/pycharm/download/)
 
 Once download is down, unzip it and move it to the `/opt/pycharm`
 
@@ -1888,7 +1888,7 @@ The newer version of Android Studio for Mac no long comes with Android SDK, ther
 
 
 ### Android Studio on Ubuntu
-Donwload and install:
+Download and install:
 ```sh
 wget https://dl.google.com/dl/android/studio/ide-zips/1.1.0/android-studio-ide-135.1740770-linux.zip
 unzip android-studio-ide-135.1740770-linux.zip
@@ -1919,7 +1919,7 @@ Name[en]=Android Studio
 echo "$content" >> /usr/share/applications/android-studio.desktop;
 ```
 
-The newer version of Android Studio for Linux no long comes with Android SDK, therefore, you need to download the SDK seperately from [here](#sdk-on-ubuntu).
+The newer version of Android Studio for Linux no long comes with Android SDK, therefore, you need to download the SDK separately from [here](#sdk-on-ubuntu).
 
 To setup Android Virtual Machine (AVD) on Ubuntu, you need to first enable CPU virtualization technology on your BIOS.
 
@@ -2082,7 +2082,7 @@ brew install redis
 
 
 ### Redis on Ubuntu
-You need to download and install redis mannually on Ubuntu.
+You need to download and install redis manually on Ubuntu.
 ```sh
 wget http://download.redis.io/releases/redis-2.8.19.tar.gz
 tar xzf redis-2.8.19.tar.gz
@@ -2117,7 +2117,7 @@ Follow the same instruction as [Ubuntu](#redis-on-ubuntu)
 ```sh
 sudo pip install ipython gnureadline
 ```
-`gnureadline` is strongly recommended because readline will not behave well without it.
+`gnureadline` is strongly recommended because `readline` will not behave well without it.
 
 [BACK TO TOP](#table-of-contents)
 
@@ -2334,7 +2334,7 @@ Alternatively, you can visit the [Chrome web store page](https://chrome.google.c
 ### EditThisCookie
 [EditThisCookie](https://chrome.google.com/webstore/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg) is a cookie manager that allow developer to modify cookies of a page in real for development and testing purpose.
 
-To intall the extension, just click on the blue `+ Free` button the top right corner.
+To install the extension, just click on the blue `+ Free` button the top right corner.
 
 [BACK TO TOP](#table-of-contents)
 
@@ -2342,7 +2342,7 @@ To intall the extension, just click on the blue `+ Free` button the top right co
 ### REST Console
 [REST Console](https://chrome.google.com/webstore/detail/rest-console/cokgbflfommojglbmbpenpphppikmonn) is an tool for testing HTTP requests on APIs.  It allows user to quickly test a url.
 
-To intall the extension, just click on the blue `+ Free` button the top right corner.
+To install the extension, just click on the blue `+ Free` button the top right corner.
 
 [BACK TO TOP](#table-of-contents)
 
@@ -2350,7 +2350,7 @@ To intall the extension, just click on the blue `+ Free` button the top right co
 ### Postman
 [Postman](https://chrome.google.com/webstore/detail/postman-rest-client/fdmmgilgnpjigdojojpjoooidkmcomcm) is similar with REST Console, but it has history of all the requests that you have made.
 
-To intall the extension, just click on the blue `+ Free` button the top right corner.
+To install the extension, just click on the blue `+ Free` button the top right corner.
 
 [BACK TO TOP](#table-of-contents)
 
@@ -2358,7 +2358,6 @@ To intall the extension, just click on the blue `+ Free` button the top right co
 ### JSON View
 [JSON View](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc) is a tool that parses JSON into a more human readable format.
 
-To intall the extension, just click on the blue `+ Free` button the top right corner.
+To install the extension, just click on the blue `+ Free` button the top right corner.
 
 [BACK TO TOP](#table-of-contents)
-
