@@ -2194,7 +2194,7 @@ Visit its [home page](http://www.rust-lang.org) and download the [install packag
 
 After download is done, just double click it to install.
 
-If you prefer command line installation, you can do so with:
+If you prefer command line installation and you have read [Rust's disclaimer](http://doc.rust-lang.org/nightly/book/installing-rust.html), you can do so with:
 ```sh
 curl -s https://static.rust-lang.org/rustup.sh | sudo sh
 ```
@@ -2202,6 +2202,7 @@ curl -s https://static.rust-lang.org/rustup.sh | sudo sh
 
 
 ### Rust on Ubuntu
+Read [Rust's disclaimer](http://doc.rust-lang.org/nightly/book/installing-rust.html) and then run:
 ```sh
 curl -s https://static.rust-lang.org/rustup.sh | sudo sh
 ```
@@ -2209,6 +2210,7 @@ curl -s https://static.rust-lang.org/rustup.sh | sudo sh
 
 
 ### Rust on Fedora
+Read [Rust's disclaimer](http://doc.rust-lang.org/nightly/book/installing-rust.html) and then run:
 ```sh
 curl -s https://static.rust-lang.org/rustup.sh | sudo sh
 ```
