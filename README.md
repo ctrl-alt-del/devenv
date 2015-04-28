@@ -105,7 +105,7 @@ Once new EV is added, select `Path` row under the `User variables` section, and 
 
 
 ## Terminal
-[Terminal](http://en.wikipedia.org/wiki/Command-line_interface), sometime also known as the command line interface (cli) is used to interact with computer programs.
+[**Terminal**](http://en.wikipedia.org/wiki/Command-line_interface), sometime also known as the command line interface (cli) is used to interact with computer programs.
 
 * [**Windows**](#terminal-on-windows)
 * [**Mac**](#terminal-on-mac)
@@ -138,7 +138,7 @@ See [Ubuntu](#terminal-on-ubuntu)
 
 
 ## Zsh
-Zsh stands for Z shell is a Unix base interactive login shell.  You can learn more about it on its [Wiki](http://en.wikipedia.org/wiki/Zsh) page.
+[**Z shell (Zsh)**](http://en.wikipedia.org/wiki/Zsh) is a Unix base interactive login shell.
 
 * [**Mac**](#zsh-on-mac)
 * [**Ubuntu**](#zsh-on-ubuntu)
@@ -198,14 +198,14 @@ sudo yum install wget
 
 
 ## Oh-My-Zsh
-Oh-My-Zsh is an framework for managing your ZSH configuration.  You can learn more about it on its [homepage](http://ohmyz.sh/), or on its [git repository](https://github.com/robbyrussell/oh-my-zsh)
+[**Oh-My-Zsh**](http://ohmyz.sh) is an framework for managing your ZSH configuration.  You can learn more about it on its [git repository](https://github.com/robbyrussell/oh-my-zsh)
 
 * [**Mac**](#oh-my-zsh-on-mac)
 * [**Ubuntu**](#oh-my-zsh-on-ubuntu)
 * [**Fedora**](#oh-my-zsh-on-fedora)
 
 ### Oh-My-Zsh on Mac
-According to the README file on [here](https://github.com/robbyrussell/oh-my-zsh#via-curl), installing oh-my-zsh on Mac can be done by executing this line into your terminal.
+According to its [README file](https://github.com/robbyrussell/oh-my-zsh#via-curl), installing oh-my-zsh on Mac can be done by executing this line into your terminal.
 ```sh
 curl -L http://install.ohmyz.sh | sh
 ```
@@ -237,7 +237,7 @@ sudo chsh -s `which zsh`
 
 
 ## Homebrew
-Homebrew is a package manager for **Mac**.  You can learn more about it on its [homepage](http://brew.sh/)
+[**Homebrew**](http://brew.sh/) is a package manager for **Mac**.
 
 Since Mac comes with Ruby by default, you can install Homebrew by running:
 ```sh
@@ -248,7 +248,7 @@ ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 
 
 ## Sublime
-[**Sublime**](http://www.sublimetext.com/) is a very useful and convenient text editor.
+[**Sublime**](http://www.sublimetext.com) is a very useful and convenient text editor.
 
 * [**Windows**](#sublime-on-windows)
 * [**Ubuntu**](#sublime-on-ubuntu)
@@ -339,7 +339,7 @@ echo "$content" >> /usr/share/applications/sublime.desktop;
 
 
 ## Git
-[**Git**](http://git-scm.com/) is a distributed version control and code management system.
+[**Git**](http://git-scm.com) is a distributed version control and code management system.
 
 * [**Windows**](#git-on-windows)
 * [**Mac**](#git-on-mac)
@@ -472,7 +472,7 @@ sudo yum install smartgit
 
 
 ## Curl
-[Curl](http://curl.haxx.se/docs/manpage.html) is a tool to transfer data from or to a server.
+[**Curl**](http://curl.haxx.se/docs/manpage.html) is a tool to transfer data from or to a server.
 
 Curl comes with Mac and some distros of Linux by default.  For Windows, it should comes with [Git](#git-on-windows).  In case Curl is not installed on your system, you can follow the instructions below to install it yourself.
 
