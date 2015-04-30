@@ -2107,7 +2107,7 @@ Follow the same instruction as [Ubuntu](#redis-on-ubuntu)
 
 
 ## iPython
-[**iPython**](http://ipython.org/) An enhanced Interactive Python.  To install `ipython`, you will need to have [`pip`](#pip)
+[**iPython**](http://ipython.org) An enhanced Interactive Python.  To install `ipython`, you will need to have [`pip`](#pip)
 
 * [**Mac**](#ipython-on-mac)
 * [**Ubuntu**](#ipython-on-ubuntu)
@@ -2219,14 +2219,14 @@ curl -s https://static.rust-lang.org/rustup.sh | sudo sh
 
 
 ## Go
-[**Go**](https://golang.org/) is an open source programming language developed by Google.
+[**Go**](https://golang.org) is an open source programming language developed by Google.
 
 * [**Windows**](#go-on-windows)
 * [**Mac**](#go-on-mac)
 * [**Ubuntu**](#go-on-ubuntu)
 
 ### Go on Windows
-Visit [Go's download page](https://golang.org/dl/) and download the latest `.msi` file, which is in bold.
+Visit [Go's download page](https://golang.org/dl) and download the latest `.msi` file, which is in bold.
 
 Once download is completed, double click the file and follow its instruction to install.  Note that you need to remove any old version of **Go**.
 
@@ -2234,7 +2234,7 @@ Once download is completed, double click the file and follow its instruction to 
 
 
 ### Go on Mac
-Visit [Go's download page](https://golang.org/dl/) and download the latest `.pkg` file, which is in bold.
+Visit [Go's download page](https://golang.org/dl) and download the latest `.pkg` file, which is in bold.
 
 Once download is completed, double click the file and follow its instruction to install.  Note that you need to remove any old version of **Go**.
 
