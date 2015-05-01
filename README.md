@@ -2084,17 +2084,17 @@ brew install redis
 ### Redis on Ubuntu
 You need to download and install redis manually on Ubuntu.
 ```sh
-wget http://download.redis.io/releases/redis-2.8.19.tar.gz
-tar xzf redis-2.8.19.tar.gz
-cd redis-2.8.19
+wget http://download.redis.io/releases/redis-stable.tar.gz
+tar xzf redis-stable.tar.gz
+cd redis-stable
 make
 ```
 
 Once installation is done, you can remove the folder and the zip file by running:
 ```sh
 cd ..
-rm -rf redis-2.8.19
-rm redis-2.8.19.tar.gz
+rm -rf redis-stable
+rm redis-stable.tar.gz
 ```
 [BACK TO TOP](#table-of-contents)
 
