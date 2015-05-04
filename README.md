@@ -1191,15 +1191,14 @@ sudo apt-get upgrade openssl
 
 
 ## Gradle
-Gradle is a build tool for project, you can learn more about it on its [homepage](http://www.gradle.org/)
+[**Gradle**](http://www.gradle.org) is a build tool for project.
 
 * [**Windows**](#gradle-on-windows)
 * [**Mac**](#gradle-on-mac)
 * [**Ubuntu**](#gradle-on-ubuntu)
+* [**Fedora**](#gradle-on-fedora)
 
 ### Gradle on Windows
-Gradle is a build tool for project, you can learn more about it on its [homepage](http://www.gradle.org)
-
 To install Gradle on Windows, you can download its zip file from [here](http://www.gradle.org/downloads) and unzip it to `/c/usr/bin/gradle` or whatever folder you like.
 
 Once the file is unzipped into the proper location, you can run git bash as administrator, then create a symbolic link by running:
@@ -1214,7 +1213,6 @@ Verify the symbolic link is working properly by running:
 which gradle # should see /usr/bin/gradle
 gradle -v # should see version number
 ```
-
 [BACK TO TOP](#table-of-contents)
 
 
@@ -1232,7 +1230,6 @@ Once installation is done, you can verify it by running:
 ```sh
 gradle -v
 ```
-
 [BACK TO TOP](#table-of-contents)
 
 
@@ -1256,8 +1253,8 @@ Lastly, install the version you want:
 ```sh
 sudo apt-get install gradle-<__version_number__> # e.g. sudo apt-get install gradle-1.12
 ```
-
 [BACK TO TOP](#table-of-contents)
+
 
 ### Gradle on Fedora
 To install Gradle on Fedora or other Linux/Unix base distro, you need to do so manually.
@@ -1268,15 +1265,15 @@ Once download is done, unzip the file and the move the folder under `/opt`.
 
 Afterwards, configure the PATH to make Gradle available in terminal, and there are multiple way to achieve this:
 
-**Add Symbolic Link**
-<br>
+#### Add Symbolic Link
 The easiest way is to create a symbolic link for Gradle on `/usr/bin`; since `/usr/bin` is the system default path, it will be loaded automatically whenever `.bashrc` is loaded.
 ```sh
 sudo ln -s /opt/gradle-1.12/bin/gradle /usr/bin/gradle
 ```
+[BACK TO TOP](#table-of-contents)
 
-**Add to ~/.bash_profile**
-<br>
+
+#### Add to `~/.bash_profile`
 You can also add the `GRADLE_HOME` to `~/.bash_profile` and export it so that you can just `source ~/.bash_profile` when you need it.
 
 To do so, you first need to determine if `~/.bash_profile` is existed in you system.  If not, you need to create it.
@@ -1294,9 +1291,10 @@ export PATH=$GRADLE_HOME:$PATH
 
 Once you are done adding those lines, save and exist the editor and you are good to go.  Just do `source ~/.bash_profile` before you need to use Gradle.
 
+[BACK TO TOP](#table-of-contents)
 
-**Add to ~/.bashrc**
-<br>
+
+#### Add to `~/.bashrc`
 Alternatively, if you use Gradle on a daily basis, you may consider just adding the `GRADLE_HOME` to your `~/.bashrc` because it will then be automatically loaded whenever you open your terminal.
 
 To do so, it is very similar to the instruction of adding it to `~/.bash_profile`, but since `~/.bashrc` always exist, you can just open it with `vi` and add the lines to the end of it.
@@ -1316,8 +1314,8 @@ sudo mv gradle-1.12 /opt
 sudo rm gradle-1.12-bin.zip
 sudo ln -s /opt/gradle-1.12/bin/gradle /usr/bin/gradle
 ```
-
 [BACK TO TOP](#table-of-contents)
+
 
 
 ## WAMP
@@ -2160,6 +2158,7 @@ Follow the same instruction as [Mac](#bower-on-mac).
 Follow the same instruction as [Mac](#bower-on-mac).
 
 [BACK TO TOP](#table-of-contents)
+
 
 
 ## jQuery
