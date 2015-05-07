@@ -1042,11 +1042,10 @@ sudo yum install php
 ```
 
 **Known Issue for Fedora**
-<br>
+
 1. None of the mirrors contains the required packages
-<br>
+
 **Solution**: enable fedora-source
-<br>
 ```sh
 yum repolist disabled
 sudo yum-config-manager --enable fedora-source
@@ -1497,7 +1496,7 @@ sudo yum install guake
 
 
 ## Chef
-[**Chef**](https://www.chef.io/) is a tool for provisioning servers.
+[**Chef**](https://www.chef.io) is a tool for provisioning servers.
 
 * [**Mac**](#chef-on-mac)
 * [**Chef Tools**](#chef-tools)
@@ -1730,7 +1729,7 @@ Solution: make sure the url used to install the ADT starts with `https`, not `ht
 
 
 ## VirtualBox
-[**VirtualBox**](https://www.virtualbox.org/) is a tool for setting up virtualization machine maintained by Oracle.
+[**VirtualBox**](https://www.virtualbox.org) is a tool for setting up virtualization machine maintained by Oracle.
 
 * [**Windows**](#virtualbox-on-windows)
 * [**Mac**](#virtualbox-on-mac)
