@@ -842,7 +842,7 @@ sudo yum install java-1.7.0-openjdk-devel
 ### Python on Windows
 There are Python 2.x and Python 3.x available.  This instruction will focus on 2.x, but similar steps can be easily applied to 3.x as well.
 
-Download the Python 2.7.9 for Windows from [here](https://www.python.org/downloads/release/python-279).
+Download [Python 2.7.9 for Windows](https://www.python.org/downloads/release/python-279).
 
 Under the Download tab, choose the appropriate `msi` file to download, either x86 or x64 based on your operation system.
 
@@ -892,10 +892,7 @@ python --version
 ```
 It should show you the version of your currently installed Python.
 
-If Python does not come with your Mac somehow or you want to have a newer version of Python, (e.g. Python 3.x rather than Python 2.7.x), you can download and follow the installation instruction on Python's website:
-```sh
-https://www.python.org/downloads/
-```
+If Python does not come with your Mac somehow or you want to have a newer version of Python, (e.g. Python 3.x rather than Python 2.7.x), you can download and follow the installation instruction on [Python's website](https://www.python.org/downloads).
 
 Or you can install the latest version of Python through Homebrew by running:
 ```sh
