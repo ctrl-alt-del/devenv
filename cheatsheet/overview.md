@@ -135,3 +135,10 @@ Editor is also very popular among developers.  Some of the well-known choices ar
 [Command-line Interface (cli)](http://en.wikipedia.org/wiki/Command-line_interface) is an interface through terminal.  It used to be the main stream way of software development before the Graphic User Interface was introduced to the public.  Nowadays, it still remain to be a popular choice for some developers and professions.  There are two major cli editor:
 * [Vi IMproved (vim)](http://www.vim.org)
 * [Emacs](https://www.gnu.org/software/emacs)
+
+
+
+# Thrid Party Libraries
+When you face a problem, it probably was other people's problem and it is very likely that people may have solved it and contributed parts of or completed solution to the community.  Those contributions usually come as source code or libraries.
+
+Nowadays, most of those contribution can be found on coding collaboration communities, such as Github or Bitbucket.  Some organization may also host and guide the development of open source projects, such as Apache and Mozilla.
