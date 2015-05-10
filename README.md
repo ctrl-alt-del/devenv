@@ -2370,3 +2370,8 @@ To install the extension, just click on the blue `+ Free` button the top right c
 To install the extension, just click on the blue `+ Free` button the top right corner.
 
 [BACK TO TOP](#table-of-contents)
+
+
+
+## Flash Issue on older PC
+Newer Flash (version 11 and after) requires SSE2 feature in the CPU, which Intel first introduced on its Pentium 4.  However, AMD and other manufacturers only include such feature on their 64-bit chips.  Therefore, older computers with Pentium 3 or AMD 32-bit chips won't be able to get newer version of Flash to work.
