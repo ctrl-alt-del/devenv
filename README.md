@@ -66,6 +66,7 @@ This document and bash scripts will be updated piece by piece and I will try my 
 * [REST Console](#rest-console)
 * [JSON View](#json-view)
 * [Setup Android dev environment](#setup-android-dev-enviroment)
+* [Flash Issue on older PC](#flash-issue-on-older-pc)
 
 ## Configuration
 
