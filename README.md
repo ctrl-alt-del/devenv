@@ -2050,6 +2050,27 @@ sudo yum install smartgithg
 [BACK TO TOP](#table-of-contents)
 
 
+
+## git-cola
+
+* [**Ubuntu**](#git-cola-on-ubuntu)
+* [**Fedora**](#git-cola-on-fedora)
+
+### git-cola on Ubuntu
+```sh
+sudo apt-get install git-cola
+```
+[BACK TO TOP](#table-of-contents)
+
+
+### git-cola on Fedora
+```sh
+sudo yum install git-cola
+```
+[BACK TO TOP](#table-of-contents)
+
+
+
 ## LAMP
 LAMP referes to a software bundle including Linux Apache MySQL PHP. You can learn more about it on its [server guide](https://help.ubuntu.com/14.04/serverguide/lamp-overview.html) or [wiki](https://help.ubuntu.com/community/ApacheMySQLPHP).
 
