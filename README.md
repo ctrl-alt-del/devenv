@@ -2031,13 +2031,16 @@ Please follow the [instruction](https://github.com/lanoxx/tilda/blob/master/HACK
 
 
 ## SmartGit
-SmartGit is an open source GUI for Git.  You can learn more about it on its [home page](http://www.syntevo.com/smartgithg/)
+[SmartGit](http://www.syntevo.com/smartgithg) is an open source GUI for Git.
 
 * [**Ubuntu**](#smartgit-on-ubuntu)
 * [**Fedora**](#smartgit-on-fedora)
 
 ### SmartGit on Ubuntu
-You can install it through PPA.  To add the sublime PPA, run:
+You can install SmartGit through PPA or do so manually.  
+
+#### Install Through PPA
+To add the SmartGit PPA, run:
 ```sh
 sudo add-apt-repository ppa:eugenesan/ppa
 sudo apt-get update
@@ -2046,6 +2049,15 @@ sudo apt-get update
 Once the PPA is added and updated, you can install SmartGit by running:
 ```sh
 sudo apt-get install smartgithg
+```
+[BACK TO TOP](#table-of-contents)
+
+
+#### Install Through `deb` Package Manager
+```sh
+cd ~/Downloads
+wget http://www.syntevo.com/downloads/smartgit/smartgit-6_5_8.deb
+sudo dpkg -i smartgit-6_5_8.deb
 ```
 [BACK TO TOP](#table-of-contents)
 
