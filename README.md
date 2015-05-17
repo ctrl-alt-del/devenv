@@ -1807,7 +1807,7 @@ sudo yum install VirtualBox-4.3.x86_64
 * [**Fedora**](pycharm-on-fedora)
 
 ### PyCharm on Windows
-Download PyCharm from its home page on [here](http://www.jetbrains.com/pycharm/download/)
+Download [PyCharm](http://www.jetbrains.com/pycharm/download)
 
 Once download is completed, double click the `.exe` file and follow the instruction to install.
 
@@ -1815,7 +1815,7 @@ Once download is completed, double click the `.exe` file and follow the instruct
 
 
 ### PyCharm on Mac
-Download PyCharm from its home page on [here](http://www.jetbrains.com/pycharm/download/)
+Download [PyCharm](http://www.jetbrains.com/pycharm/download)
 
 Once download is completed, double click the `.dmg` file and follow the instruction to install.
 
@@ -1823,9 +1823,9 @@ Once download is completed, double click the `.dmg` file and follow the instruct
 
 
 ### PyCharm on Ubuntu
-Download PyCharm from its home page on [here](http://www.jetbrains.com/pycharm/download/)
+Download [PyCharm](http://www.jetbrains.com/pycharm/download)
 
-Once download is down, unzip it and move it to the `/opt/pycharm`
+Once download is down, unzip it and move it to the `/opt/pycharm`, which may require you to have root permission to do so.
 
 make a symbolic link
 ```sh
