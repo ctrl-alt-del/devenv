@@ -1716,7 +1716,7 @@ sudo yum install glibc.i686 glibc-devel.i686 libstdc++.i686 zlib-devel.i686 ncur
 
 
 ## ADT
-ADT stands for Android Development Toolkit.  
+[**ADT**](http://developer.android.com/tools/help/adt.html) stands for Android Development Toolkit.  
 
 Once Eclipse is installed, open it and navigate to its Help -> Install New Software.
 
@@ -1727,7 +1727,7 @@ Back to the wizard, click on the drop down list of `Work with`  and select the u
 It may take a while for eclipse to get the plugin information, but once the available plugin is displayed, click `Select All` under the displaying section, and then `Next` on the bottom right.  Then follow the instruction to install and plugin and restart Eclipse once the installation is done.
 
 ### ADT known errors
-* [src folder empty on creating new Android project](http://stackoverflow.com/questions/22215499/src-folder-empty-on-creating-new-android-project)
+[src folder empty on creating new Android project](http://stackoverflow.com/questions/22215499/src-folder-empty-on-creating-new-android-project)
 <br>
 Solution: make sure the url used to install the ADT starts with `https`, not `http`.
 
