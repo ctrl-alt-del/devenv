@@ -1726,10 +1726,8 @@ Back to the wizard, click on the drop down list of `Work with`  and select the u
 
 It may take a while for eclipse to get the plugin information, but once the available plugin is displayed, click `Select All` under the displaying section, and then `Next` on the bottom right.  Then follow the instruction to install and plugin and restart Eclipse once the installation is done.
 
-### ADT known errors
-[src folder empty on creating new Android project](http://stackoverflow.com/questions/22215499/src-folder-empty-on-creating-new-android-project)
-<br>
-Solution: make sure the url used to install the ADT starts with `https`, not `http`.
+### Empty src folder on creating new project
+This [issue](http://stackoverflow.com/questions/22215499/src-folder-empty-on-creating-new-android-project) can be resolved by replacing the `http` with `https` on the ADT installation url.
 
 [BACK TO TOP](#table-of-contents)
 
