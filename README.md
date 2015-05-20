@@ -2343,6 +2343,19 @@ Once download is completed, unzip the file and then drag the `.app` file to `App
 
 
 
+## Sail.js
+[**Sail.js**](http://sailsjs.org) is a web framework for [Node.js](#nodejs).  It uses MVP pattern similar to [Rails](#rails).
+
+* [**Mac**](#sailjs-on-mac)
+
+### Sail.js on Mac
+```sh
+npm -g install sails
+```
+[BACK TO TOP](#table-of-contents)
+
+
+
 # General Setup
 
 ## Setup .bash_profile
