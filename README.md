@@ -1066,9 +1066,16 @@ node -v
 npm -v
 ```
 
+* [**Windows**](#nodejs-on-windows)
 * [**Mac**](#nodejs-on-mac)
 * [**Ubuntu**](#nodejs-on-ubuntu)
 * [**Fedora**](#nodejs-on-fedora)
+
+### Node.js on Windows
+Download [Node.js Windows Installer](https://nodejs.org/download) and install it.
+
+[BACK TO TOP](#table-of-contents)
+
 
 ### Node.js on Mac
 Alternatively, you can install Node.js through [Homebrew](#homebrew).
