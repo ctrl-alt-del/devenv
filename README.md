@@ -1091,8 +1091,9 @@ sudo apt-get install nodejs
 ```
 [BACK TO TOP](#table-of-contents)
 
-If you want to have the latest version of Node.js, you can install it through PPA maintained by Chris Lea.  You can do so by running:
+If you want to have the latest version of Node.js, you can install it through [Chris Lea's PPA](https://chrislea.com/2013/03/15/upgrading-from-node-js-0-8-x-to-0-10-0-from-my-ppa).  You can do so by running:
 ```sh
+sudo apt-get install python-software-properties python g++ make
 sudo add-apt-repository ppa:chris-lea/node.js
 sudo apt-get update
 sudo apt-get install nodejs
