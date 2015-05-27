@@ -1690,7 +1690,7 @@ Once downloaded, unzip and place it in the same folder of eclipse, or whatever f
 
 Open terminal, then running:
 ```sh
-cd <whatever_folder_path>/sdk/tools
+cd <unzip_folder_path>/sdk/tools
 ./android sdk
 ```
 Once the command lines in above is executed, it should popup an user interface to let you select SDKs and tools to download.
@@ -1700,10 +1700,11 @@ You need the following package from the SDK:
 ./Tools/Android SDK Tools
 ./Tools/Android SDK Build-tools
 ./Tools/Android SDK Platform-tools
-./Extra/Android Support Repository
-./Extra/Android Support Library
-./<whatever_API_version>/SDK Platform
-./<whatever_API_version>/ARM EABI v7a System Image
+./Extras/Android Support Repository
+./Extras/Android Support Library
+./Extras/Google Play services
+./<API_version>/SDK Platform
+./<API_version>/ARM EABI v7a System Image
 ```
 
 Select those package and click on the "install packages" button on the bottom right, and then follow the instruction to complete the installation.
