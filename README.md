@@ -1526,10 +1526,19 @@ sudo gedit /usr/lib/guake/guake.py
 ## Chef
 [**Chef**](https://www.chef.io) is a tool for provisioning servers.
 
+* [**Windows**](#chef-on-windows)
 * [**Mac**](#chef-on-mac)
 * [**Chef Tools**](#chef-tools)
 	* [**Knife-solo**](#knife-solo)
 	* [**Librarian-Chef**](#librarian-chef)
+
+### Chef on Windows
+Visit [Chef's download page](http://www.chef.io/chef/install) and download the `msi` installer for your specific Windows version.
+
+Once downloaded, double click to install.  Installation details can be found on [here](https://docs.chef.io/install_windows.html#use-msi-installer).
+
+[BACK TO TOP](#table-of-contents)
+
 
 ### Chef on Mac
 You can install `chef` through `gem`:
