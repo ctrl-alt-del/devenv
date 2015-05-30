@@ -1473,11 +1473,12 @@ sudo yum install mysql mysql-server
 
 
 ## PostgreSQL
-PostgreSQL is similar to MySQL and it is the default database used on Heroku.
+[**PostgreSQL**](http://www.enterprisedb.com) is similar to MySQL and it is the default database used on Heroku.
 
 * [**Windows**](#postgresql-on-windows)
 * [**Mac**](#postgresql-on-mac)
 * [**Ubuntu**](#postgresql-on-ubuntu)
+* [**Fedora**](#postgresql-on-fedora)
 
 ### PostgreSQL on Windows
 Visit [PostgreSQL's download page](http://www.enterprisedb.com/products-services-training/pgdownload#windows) and download the `.msi` file for Windows.
@@ -1501,6 +1502,12 @@ sudo apt-get install postgresql
 ```
 [BACK TO TOP](#table-of-contents)
 
+
+### PostgreSQL on Fedora
+```sh
+sudo yum install postgresql
+```
+[BACK TO TOP](#table-of-contents)
 
 
 ## Guake
