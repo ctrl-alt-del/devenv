@@ -338,6 +338,48 @@ echo "$content" >> /usr/share/applications/sublime.desktop;
 [BACK TO TOP](#table-of-contents)
 
 
+#### Setup User Preference
+```sh
+content="
+{
+	"draw_white_space": "all",
+	"font_size": 14.5,
+	"hot_exit": false,
+	"ignored_packages":
+	[
+	"Vintage"
+	],
+	"remember_open_files": false
+}
+
+";
+
+echo "$content" >> ~/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings;
+```
+
+
+#### Setup Keybindings on Mac
+```sh
+content="
+[
+{ 
+	"keys": ["command+i"],
+	"command": "reindent" , 
+	"args": {"single_line": false}
+},
+{ 
+	"keys": ["command+d"], 
+	"command": "run_macro_file", 
+	"args": {"file": "Packages/Default/Delete Line.sublime-macro"} 
+}
+]
+
+";
+
+echo "$content" >> "~/Library/Application Support/Sublime Text 2/Packages/User/Default (Linux).sublime-keymap";
+```
+
+
 
 ## Git
 [**Git**](http://git-scm.com) is a distributed version control and code management system.
