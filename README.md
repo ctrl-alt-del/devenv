@@ -169,7 +169,7 @@ sudo yum install zsh
 
 
 ## Wget
-`wget` utility is a free, open-source, command-line tool that downloads content from internet
+[**Wget**](http://www.gnu.org/software/wget) is a free, open-source, command-line tool that downloads content from internet
 
 * [**Mac**](#wget-on-mac)
 * [**Ubuntu**](#wget-on-ubuntu)
