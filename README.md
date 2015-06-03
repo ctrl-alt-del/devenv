@@ -395,7 +395,10 @@ Since Git contains many convenient built-in functions as well as a useful bash s
 
 You can download the latest git install file for Windows from [here](http://git-scm.com/download/win)
 
-Once the installation file is downloaded, install it under /c/usr/bin/git or whatever directory you chose.  Don't worry about the configuration choices available during the installation process, it would be fine to just keep them in default.
+Once the installation file is downloaded, install it under `/c/usr/bin/git` or whatever directory you chose.  Don't worry about the configuration choices available during the installation process, it would be fine to just keep them in default.
+
+[BACK TO TOP](#table-of-contents)
+
 
 ### Git on Mac
 Git should've come with Mac by default.  You can verify your git version by opening your terminal and running:
