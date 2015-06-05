@@ -7,38 +7,37 @@ Cheatsheet for Python
 * Significant Indentation
 
 ### Data Type
-**Tuple**
-<br>
+
+#### Tuple
 data type only possible with duck typing language.
+```python
 t = 12, "abc", 34534
+```
 
-**List**
-<br>
+
+#### List
+List is as close as array as in other language.
+```python
 l = ['abc', 12, "cde"]
-list is as close as array as in other language.
+```
 
 
-**Set**
-<br>
-it is a list without order and duplicates, and it is extremely good for searching because it is O(1).
-you can convert a list to set using casting.
+#### Set
+Set is a list without order and duplicates, and it is extremely good for searching because it is O(1).  You can convert a list to set using casting.
 
-**Dictionary**
-<br>
-similar to map, key value pair, no order as well.
 
-**Bool**
-<br>
-True, False
-[] is False
-['some', 'thing'] is True
-0 is False
-all other (...,-2,1,1,2,...) is True
+#### Dictionary
+Dictionary is similar to map; it is key value pair, no order as well.
 
-**None**
-<br>
-same as null in Java.
 
+#### Bool
+Bool includes `True`, `False`, and `None`
+
+* `[]` is `False`
+* `['some', 'thing']` is `True`
+* `0` is `False`
+* all others (...,-2,1,1,2,...) are `True`
+* `None` is same as `null` in Java.
 
 
 **Multiple Assignment**
