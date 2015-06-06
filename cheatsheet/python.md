@@ -10,14 +10,14 @@ Cheatsheet for Python
 
 #### Tuple
 data type only possible with duck typing language.
-```python
+```pythonthon
 t = 12, "abc", 34534
 ```
 
 
 #### List
 List is as close as array as in other language.
-```python
+```pythonthon
 l = ['abc', 12, "cde"]
 ```
 
@@ -69,7 +69,7 @@ else:
 
 
 **Function**
-```py
+```python
 def myFunction (arg1, arg2='default2', arg3='default3'):
 ```
 
@@ -100,7 +100,7 @@ Action to each item on the list, similar to .each in ruby.
 
 
 **Formatted Strings**
-```py
+```python
 a = 'a'
 b = 'b'
 c = 'c'
@@ -116,7 +116,7 @@ print '%s %s %s' % (a,b,c)
 r: read
 w: write
 a: append
-```py
+```python
 f = open(file_dest) // default is read
 f = open(file_dest, 'r')
 f.read()
@@ -138,20 +138,20 @@ raise Exception('spam', 'eggs')
 
 
 **Class**
-```py
+```python
 class parentClass:
   def __init__(self, arg):
 ```
 
 **Inherit other class**
-```py
+```python
 class newClass(parentClass):
   def __init__(self):
     Animal.__init__(self, ...)
 ```
 
 **multiple inheritance**
-```py
+```python
 class newClass(parentClass1, parentClass2, parentClass3):
 ```
 
