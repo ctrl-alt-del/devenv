@@ -40,19 +40,22 @@ Bool includes `True`, `False`, and `None`
 * `None` is same as `null` in Java.
 
 
-**Multiple Assignment**
-<br>
+### Multiple Assignment
+```python
 a, b = 0, 1
-==> a = 0
-==> b = 1
+# ==> a = 0
+# ==> b = 1
+```
 
-switching variable is as simple as
+#### Switching Variables
+```python
 a, b = b, a
+```
 
-
-**raw_input**
-<br>
-raw_input take the user input.
+### raw_input
+```python
+raw_input # take the user input.
+```
 
 **for loop**
 Different conditions used to define the loop:
