@@ -77,14 +77,13 @@ else:
 ```
 
 
-
-**Function**
+### Function
 ```python
 def myFunction (arg1, arg2='default2', arg3='default3'):
 ```
 
-**Documentation**
-<br>
+### Documentation
+```python
 def myFunction():
   ```
   the documentation
@@ -92,14 +91,14 @@ def myFunction():
   @type
   @return
   ```
-
+```
 You can also use `epydoc` to create nice looking documentation like java doc
 
-
-Access the documentation
-<br>
+#### Access the documentation
+```pyhton
 myfunction.__doc__
-myFunction?  
+myFunction?
+```
 
 
 **List Comprehensions**
