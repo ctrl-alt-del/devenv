@@ -101,14 +101,15 @@ myFunction?
 ```
 
 
-**List Comprehensions**
-<br>
+### List Comprehensions
 Action to each item on the list, similar to .each in ruby.
+```python
 [item.strip() for (item in list) if (condtion)]
+```
 
 
 
-**Formatted Strings**
+### Formatted Strings
 ```python
 a = 'a'
 b = 'b'
@@ -121,11 +122,12 @@ print '%s %s %s' % (a,b,c)
 %g
 
 
-**File**
+### File
+```python
 r: read
 w: write
 a: append
-```python
+
 f = open(file_dest) // default is read
 f = open(file_dest, 'r')
 f.read()
