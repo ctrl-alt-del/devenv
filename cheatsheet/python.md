@@ -134,15 +134,20 @@ f.read()
 f.close()
 ```
 
-**pickle Module**
+### `pickle` Module
 Serialization of data
 
 
 
-**Exception Handler**
+### Exception Handler
+```python
 try:
+  // Some code
 expect excpetionType:
+  // Some handler
 else:
+  // Other unexpected conditions
+```
 
 **Raising Exception**
 raise Exception('spam', 'eggs')
