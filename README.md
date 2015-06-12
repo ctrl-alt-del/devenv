@@ -338,7 +338,7 @@ echo "$content" >> /usr/share/applications/sublime.desktop;
 [BACK TO TOP](#table-of-contents)
 
 
-#### Setup User Preference
+#### Setup User Preference on Mac
 ```sh
 content="
 {
@@ -355,6 +355,26 @@ content="
 ";
 
 echo "$content" >> ~/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings;
+```
+
+
+#### Setup User Preference on Ubuntu
+```sh
+content="
+{
+	"draw_white_space": "all",
+	"font_size": 14.5,
+	"hot_exit": false,
+	"ignored_packages":
+	[
+	"Vintage"
+	],
+	"remember_open_files": false
+}
+
+";
+
+echo "$content" >> ~/.config/sublime-text-2/Packages/User/Preferences.sublime-settings;
 ```
 
 
@@ -376,7 +396,29 @@ content="
 
 ";
 
-echo "$content" >> "~/Library/Application Support/Sublime Text 2/Packages/User/Default (Linux).sublime-keymap";
+echo "$content" >> "~/Library/Application Support/Sublime Text 2/Packages/User/Default (Mac).sublime-keymap";
+```
+
+
+#### Setup Keybindings on Ubuntu
+```sh
+content="
+[
+{ 
+	"keys": ["ctrl+i"],
+	"command": "reindent" , 
+	"args": {"single_line": false}
+},
+{ 
+	"keys": ["ctrl+d"], 
+	"command": "run_macro_file", 
+	"args": {"file": "Packages/Default/Delete Line.sublime-macro"} 
+}
+]
+
+";
+
+echo "$content" >> "~/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap";
 ```
 
 
