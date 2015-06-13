@@ -257,7 +257,7 @@ ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 * [**Configuration**](#sublime-configuration)
 
 ### Sublime on Windows
-You can download `Sublime` from its [homepage](www.sublimetext.com).
+Download `.exe` installation file from its [homepage](http://www.sublimetext.com).
 
 Once the exe file is downloaded, double click to install it.
 
@@ -307,10 +307,10 @@ sudo ln -s /opt/sublime/sublime_text /usr/bin/subl
 
 ### Sublime Configuration
 Once Sublime is successfully installed, you can use it to open a single file by running:
-`subl <FILE_PATH>`, or open all files of the current directory by running `subl .`
+`subl <FILE_PATH>`, or open all files on current directory by running `subl .`
 
 #### Package Control
-**Package Control** is the simplest way of install packages to sublime. You can learn about how to install Package Controll from [here](https://sublime.wbond.net/installation#st2).
+[**Package Control**](https://sublime.wbond.net/installation#st2) is the simplest way of install packages to sublime.
 
 [BACK TO TOP](#table-of-contents)
 
