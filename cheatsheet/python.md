@@ -153,28 +153,27 @@ else:
 raise Exception('spam', 'eggs')
 
 
-**Class**
+### Class
 ```python
 class parentClass:
   def __init__(self, arg):
 ```
 
-**Inherit other class**
+#### Inherit other class
 ```python
 class newClass(parentClass):
   def __init__(self):
     Animal.__init__(self, ...)
 ```
 
-**multiple inheritance**
+#### multiple inheritance
 ```python
 class newClass(parentClass1, parentClass2, parentClass3):
 ```
 
-**exit(0)**
-<br>
+### Exit Handling
+#### exit(0)
 everything is fine, exit
 
-**exit(1)**
-<br>
+#### exit(1)
 something wrong, but can be gracefully exit
