@@ -2510,10 +2510,18 @@ sudo npm -g install sails
 Open source IPsec implementation for Linux.
 
 * [**Ubuntu**](#openswan-on-ubuntu)
+* [**Fedora**](#openswan-on-fedora)
 
 ### Openswan on Ubuntu
 ```sh
-openswan
+sudo apt-get install openswan
+```
+[BACK TO TOP](#table-of-contents)
+
+
+### Openswan on Fedora
+```sh
+sudo yum install openswan
 ```
 [BACK TO TOP](#table-of-contents)
 
