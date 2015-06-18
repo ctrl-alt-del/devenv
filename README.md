@@ -1429,6 +1429,13 @@ sudo ln -s /opt/gradle-1.12/bin/gradle /usr/bin/gradle
 [BACK TO TOP](#table-of-contents)
 
 
+#### Gradle Configuration on Android
+##### Rquired Plugin
+Declare as Android project and use appropriate plugin
+```gradle
+apply plugin: 'com.android.application'
+```
+
 
 ## WAMP
 Download the latest WAMP for Windows from [here](http://www.wampserver.com/en/)
