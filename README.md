@@ -1431,9 +1431,20 @@ sudo ln -s /opt/gradle-1.12/bin/gradle /usr/bin/gradle
 
 #### Gradle Configuration on Android
 ##### Rquired Plugin
-Declare as Android project and use appropriate plugin
+Declare as Android project and use appropriate plugin:
 ```gradle
 apply plugin: 'com.android.application'
+```
+
+
+##### Add remote repository
+Added maven central as the source of missing repositories
+```gradle
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+}
 ```
 
 
