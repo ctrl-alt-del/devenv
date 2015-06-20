@@ -1448,6 +1448,14 @@ buildscript {
 ```
 
 
+##### Include `/libs/*.jar` files
+To include downloaded jar files in your build:
+```gradle
+dependencies {
+    compile fileTree(dir: 'libs', include: '*.jar')
+}
+```
+
 ## WAMP
 Download the latest WAMP for Windows from [here](http://www.wampserver.com/en/)
 
