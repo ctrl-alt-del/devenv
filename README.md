@@ -1474,6 +1474,17 @@ sourceSets {
 ```
 
 
+##### Enable Multi-dex
+Multi-dex is needed if there is more than 65535 lines of compile methods
+```gradle
+android {
+    defaultConfig {
+        multiDexEnabled true
+    }
+}
+```
+
+
 ## WAMP
 Download the latest WAMP for Windows from [here](http://www.wampserver.com/en/)
 
