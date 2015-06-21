@@ -1456,6 +1456,24 @@ dependencies {
 }
 ```
 
+
+##### Folder Structure
+```gradle
+sourceSets {
+    main {
+        manifest.srcFile 'AndroidManifest.xml'
+        java.srcDirs = ['src']
+        resources.srcDirs = ['src']
+        aidl.srcDirs = ['src']
+        renderscript.srcDirs = ['src']
+        res.srcDirs = ['res']
+        assets.srcDirs = ['assets']
+        jniLibs.srcDirs = ['jniLibs']
+    }
+}
+```
+
+
 ## WAMP
 Download the latest WAMP for Windows from [here](http://www.wampserver.com/en/)
 
