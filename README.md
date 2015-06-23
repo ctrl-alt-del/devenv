@@ -1497,6 +1497,19 @@ android {
 ```
 
 
+##### Define build type
+You may apply different configurations for debug and release version of your app:
+```gradle
+buildTypes {
+    release {
+    }
+
+    debug {
+    }
+}
+```
+
+
 
 ## WAMP
 Download the latest WAMP for Windows from [here](http://www.wampserver.com/en/)
