@@ -1485,6 +1485,19 @@ android {
 ```
 
 
+##### Limit Max dex Memory
+Set incremental dex to true and limit the max dex memory to reduce build time in Android Studio.
+```gradle
+android {
+    dexOptions {
+        incremental true
+        javaMaxHeapSize "4g"
+    }
+}
+```
+
+
+
 ## WAMP
 Download the latest WAMP for Windows from [here](http://www.wampserver.com/en/)
 
