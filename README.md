@@ -1510,6 +1510,21 @@ buildTypes {
 ```
 
 
+##### Define Build Configuration Field
+```gradle
+buildTypes {
+    release {
+        buildConfigField "String", "STRING_FIELD_NAME", "string_field_value"
+        buildConfigField "int", "INTEGER_FIELD_NAME", "-1"
+    }
+
+    debug {
+    	buildConfigField "boolean", "BOOLEAN_FIELD_NAME", "true"
+    }
+}
+```
+
+
 
 ## WAMP
 Download the latest WAMP for Windows from [here](http://www.wampserver.com/en/)
