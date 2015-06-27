@@ -1537,13 +1537,14 @@ Install the downloaded file to /c/usr/bin/wamp, or whatever directory you chose.
 
 
 ## MAMP
-Visit MAMP's download page [here](http://www.mamp.info/en/downloads/) to download the latest version of MAMP.
+[**MAMP**](http://www.mamp.info/en/downloads/) stands for Mac-Apache-MySQL-PHP.
 
 Once download is done, double click the `.pkg` file to install.
 
 [BACK TO TOP](#table-of-contents)
 
 ## LAMP
+[**LAMP**]() stands for Linux-Apache-MySQL-PHP.
 
 * [**Ubuntu**](#lamp-on-ubuntu)
 * [**Fedora**](#lamp-on-fedora)
@@ -1627,6 +1628,7 @@ sudo apt-get install sqlite3 libsqlite3-dev
 
 
 ## MySQL
+[**MySQL**]() is a full stack relational database system.
 
 * [**Mac**](#mysql-on-mac)
 * [**Ubuntu**](#mysql-on-ubuntu)
@@ -1656,7 +1658,7 @@ sudo yum install mysql mysql-server
 
 
 ## PostgreSQL
-[**PostgreSQL**](http://www.enterprisedb.com) is similar to MySQL and it is the default database used on Heroku.
+[**PostgreSQL**](http://www.enterprisedb.com) is similar to MySQL and it is the default database used on [Heroku](http://www.heroku.com).
 
 * [**Windows**](#postgresql-on-windows)
 * [**Mac**](#postgresql-on-mac)
