@@ -238,7 +238,7 @@ sudo chsh -s `which zsh`
 
 
 ## Homebrew
-[**Homebrew**](http://brew.sh/) is a package manager for **Mac**.
+[**Homebrew**](http://brew.sh) is a package manager for **Mac**.
 
 Since Mac comes with Ruby by default, you can install Homebrew by running:
 ```sh
@@ -630,7 +630,7 @@ brew install wget
 * [**Fedora**](#ruby-on-fedora)
 
 ### Ruby on Windows
-You can install Ruby on Windows by using [RubyInstaller](http://rubyinstaller.org/downloads/) with either the [x86 installer](http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.2.1.exe) or [x64 installer](http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.2.1-x64.exe) based on your operation system.
+You can install Ruby on Windows by using [RubyInstaller](http://rubyinstaller.org/downloads) with either the [x86 installer](http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.2.1.exe) or [x64 installer](http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.2.1-x64.exe) based on your operation system.
 
 To download the installer through command line, you can do so by running:
 For 64-bit system:
@@ -669,7 +669,7 @@ If you want to call Ruby from the PowerShell of Windows's default terminal, you 
 
 
 #### devkit
-devkit is the prerequisite for Rails on Windows.  You can download its latest version for Windows from [here](http://rubyinstaller.org/downloads/).
+[**devkit**](http://rubyinstaller.org/downloads) is the prerequisite for Rails on Windows.
 
 Scroll down to "Other Useful Downloads" and it is under "development kit" section.
 
@@ -701,7 +701,7 @@ ruby --version
 It should show you the version of your currently installed Ruby.
 
 If Ruby does not come with your Mac somehow or you want to have a newer version of Ruby, you can get it with these approaches:
-1. Download the latest Ruby from its [homepage](https://www.ruby-lang.org/en/downloads/) and install it manually according to its instruction.
+1. Download the latest Ruby from its [homepage](https://www.ruby-lang.org/en/downloads) and install it manually according to its instruction.
 2. Install the latest version of Ruby through [Homebrew](#homebrew) by running `brew install ruby`.
 3. Use RVM to install Ruby, see the instruction for [**Ubuntu**](#ruby-on-ubuntu).
 
@@ -1060,7 +1060,7 @@ PHP is a scripting language for web applications.
 * [**Fedora**](#php-on-fedora)
 
 ### PHP on Windows
-Download the latest PHP for Windows from [here](http://windows.php.net/download/).
+Download the latest PHP for Windows from [here](http://windows.php.net/download).
 
 Choose the appropriate Thread Safe zip to download, either [VC11 x86 Thread Safe](http://windows.php.net/downloads/releases/php-5.6.7-Win32-VC11-x86.zip) or [VC11 x64 Thread Safe](http://windows.php.net/downloads/releases/php-5.6.7-Win32-VC11-x64.zip) based on your operation system.
 
@@ -1293,7 +1293,7 @@ brew install openssl
 
 
 ### OpenSSL on Ubuntu
-Ubuntu comes with OpenSSL, but it may need to be upgraded because of the [Heartbleed Bug](http://heartbleed.com/).  Moreover, newer version of OpenSSL is also required to install the latest Rails.
+Ubuntu comes with OpenSSL, but it may need to be upgraded because of the [Heartbleed Bug](http://heartbleed.com).  Moreover, newer version of OpenSSL is also required to install the latest Rails.
 
 You can upgrade OpenSSL by running:
 ```sh
@@ -1329,9 +1329,7 @@ gradle -v # should see version number
 
 
 ### Gradle on Mac
-Gradle is a build tool for project, you can learn more about it on its [homepage](http://www.gradle.org/)
-
-To install gradle, the simplest way would be to install it through [Homebrew](#homebrew)
+To install gradle on Mac, the simplest way would be to install it through [Homebrew](#homebrew)
 
 Once you have Homebrew, you can install Gradle by running:
 ```sh
@@ -1527,7 +1525,7 @@ buildTypes {
 
 
 ## WAMP
-[**WAMP**](http://www.wampserver.com/en/) stands for Windows-Apache-MySQL-PHP; it is a stack emulating server behaviors for web application development.
+[**WAMP**](http://www.wampserver.com/en) stands for Windows-Apache-MySQL-PHP; it is a stack emulating server behaviors for web application development.
 
 Choose the appropriate Thread Safe zip to download, either `x86` or `x64` based on your operation system.
 
@@ -1537,7 +1535,7 @@ Install the downloaded file to /c/usr/bin/wamp, or whatever directory you chose.
 
 
 ## MAMP
-[**MAMP**](http://www.mamp.info/en/downloads/) stands for Mac-Apache-MySQL-PHP.
+[**MAMP**](http://www.mamp.info/en/downloads) stands for Mac-Apache-MySQL-PHP.
 
 Once download is done, double click the `.pkg` file to install.
 
@@ -1696,6 +1694,7 @@ sudo yum install postgresql
 
 
 ## Guake
+[**Guake**](http://guake.org) is a terminal for Gnome.
 
 * [**Ubuntu**](#guake-on-ubuntu)
 * [**Fedora**](#guake-on-fedora)
@@ -2301,7 +2300,7 @@ sudo yum install smartgithg
 
 
 ## git-cola
-[**git-cola**](https://git-cola.github.io/) is an open source GUI for git.  Its design aim at making commits and pushes easier than other alternatives.
+[**git-cola**](https://git-cola.github.io) is an open source GUI for git.  Its design aim at making commits and pushes easier than other alternatives.
 
 * [**Ubuntu**](#git-cola-on-ubuntu)
 * [**Fedora**](#git-cola-on-fedora)
