@@ -43,3 +43,7 @@ echo '>>> ~/.gemrc has been successfully created!'
 echo '<<< Installing Node.js...'
 brew install nodejs
 echo '>>> Node.js has been successfully installed!'
+
+echo '<<< Installing Gradle...'
+brew install gradle
+echo '>>> Gradle has been successfully installed!'

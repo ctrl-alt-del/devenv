@@ -1509,6 +1509,8 @@ buildTypes {
 
 
 ##### Define Build Configuration Field
+Build configuration fields can be defined and used for different build types:
+
 ```gradle
 buildTypes {
     release {
