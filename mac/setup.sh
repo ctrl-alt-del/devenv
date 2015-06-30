@@ -51,3 +51,4 @@ echo '>>> Gradle has been successfully installed!'
 echo '<<< Installing Wget...'
 brew install wget
 echo '>>> Wget has been successfully installed!'
+
