@@ -52,3 +52,7 @@ echo '<<< Installing Wget...'
 brew install wget
 echo '>>> Wget has been successfully installed!'
 
+echo '<<< Installing Curl...'
+brew install curl
+echo '>>> Curl has been successfully installed!'
+
