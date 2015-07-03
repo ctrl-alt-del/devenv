@@ -56,3 +56,7 @@ echo '<<< Installing Curl...'
 brew install curl
 echo '>>> Curl has been successfully installed!'
 
+echo '<<< Installing Python...'
+brew install python
+echo '>>> Python has been successfully installed!'
+
