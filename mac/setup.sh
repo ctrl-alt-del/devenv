@@ -60,3 +60,7 @@ echo '<<< Installing Python...'
 brew install python
 echo '>>> Python has been successfully installed!'
 
+echo '<<< Installing OpenSSL...'
+brew install openssl
+echo '>>> OpenSSL has been successfully installed!'
+
