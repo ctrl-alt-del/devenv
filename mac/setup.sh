@@ -64,3 +64,7 @@ echo '<<< Installing OpenSSL...'
 brew install openssl
 echo '>>> OpenSSL has been successfully installed!'
 
+echo '<<< Installing SQLite...'
+brew install sqlite3
+echo '>>> SQLite has been successfully installed!'
+
