@@ -2626,6 +2626,20 @@ sudo yum install openswan
 
 
 
+## Scala
+
+* [**Mac**](#scala-on-mac)
+
+### Scala on Mac
+```sh
+brew install scala
+```
+[BACK TO TOP](#table-of-contents)
+
+
+
+
+
 # General Setup
 
 ## Setup .bash_profile
