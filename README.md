@@ -2633,6 +2633,7 @@ sudo yum install openswan
 ### Scala on Mac
 ```sh
 brew install scala
+brew install sbt
 ```
 [BACK TO TOP](#table-of-contents)
 
