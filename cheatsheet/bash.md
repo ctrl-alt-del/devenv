@@ -15,15 +15,11 @@ chmod changes the permission of a file
 * Execute (x OR 1): permission to execute a file
 
 **Examples**
-* adding `write` permission
-`chmod +w <file_path>`
-
-* removing `execute` permission
-`chmod -x <file_path>`
-
-* setting permission to specific mode (e.g. 755 or 644)
-`chmod 755 <file_path>`
-`chmod 644 <file_path>`
+<br>
+Note that you may need `sudo` permission to perform the following tasks.
+* Adding `write` permission: `chmod +w <file_path>`
+* Removing `execute` permission: `chmod -x <file_path>`
+* Changing permission to a specific value (e.g. 755 or 644): `chmod 755 <file_path>` or `chmod 644 <file_path>`
 
 
 ### Filesystem
