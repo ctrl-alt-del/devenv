@@ -72,3 +72,7 @@ echo '<<< Installing MySQL...'
 brew install mysql
 echo '>>> MySQL has been successfully installed!'
 
+echo '<<< Installing PostgreSQL...'
+brew install postgresql
+echo '>>> PostgreSQL has been successfully installed!'
+
