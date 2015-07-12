@@ -906,6 +906,12 @@ Once installation process is done, you can verify the version of Java by running
 ```sh
 java -version
 ```
+
+It is also recommended to setup `$JAVA_HOME` variable if it hasn't been automatically set up during the installation process.
+```sh
+echo "JAVA_HOME=/usr/lib/jvm/java-7-oracle" >> ~/.bashrc
+```
+Since `~/.bashrc` will be loaded whenever you start a new terminal, `$JAVA_HOME` will be ready as well.
 [BACK TO TOP](#table-of-contents)
 
 

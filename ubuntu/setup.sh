@@ -43,9 +43,12 @@ echo '<<< Installing/Upgrading OpenSSL...'
 sudo apt-get upgrade openssl
 echo '>>> OpenSSL has been successfully installed/upgraded!'
 
-echo '<<< Installing OpenJDK 7...'
-sudo apt-get install openjdk-7-jdk 2>/dev/null 
-echo '>>> OpenJDK 7 has been successfully installed!'
+echo '<<< Installing Oracle Java 7...'
+sudo apt-get install python-software-properties 2>/dev/null 
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt-get update
+sudo apt-get install oracle-java7-installer 2>/dev/null 
+echo '>>> Oracle Java 7 has been successfully installed!'
 
 echo '<<< Installing Node.js...'
 sudo apt-get install nodejs nodejs-dev npm 2>/dev/null 
@@ -108,5 +111,4 @@ echo '>>> pip has been successfully installed!'
 echo '<<< Installing Django...'
 sudo pip install django 2>/dev/null 
 echo '>>> Django has been successfully installed!'
-
 
