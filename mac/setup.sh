@@ -76,3 +76,6 @@ echo '<<< Installing PostgreSQL...'
 brew install postgresql
 echo '>>> PostgreSQL has been successfully installed!'
 
+echo '<<< Installing Redis...'
+brew install redis
+echo '>>> Redis has been successfully installed!'
