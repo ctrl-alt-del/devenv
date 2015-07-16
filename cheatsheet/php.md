@@ -8,9 +8,15 @@ There are some tasks needed to be done to get this idea working:
 * Recognize the HTTP request type
 * retrieve and parse the path info if there is any
 
-## Recognize the HTTP request type
+### Recognize the HTTP request type
 Let say if I call a `http://localhost/products`, the `product.php` should be able to recognize what HTTP type it is and response accordingly.
 ```php
 $method = $_SERVER['REQUEST_METHOD'];
+```
+
+### Parse path info
+To get the parameters of a url, I cut the url with `/` and put all items into an array excpet the first one.
+```php
+$params = explode( "/", substr( @$_SERVER['PATH_INFO'], 1 ) );
 ```
 
