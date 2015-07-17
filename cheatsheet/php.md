@@ -20,3 +20,22 @@ To get the parameters of a url, I cut the url with `/` and put all items into an
 $params = explode( "/", substr( @$_SERVER['PATH_INFO'], 1 ) );
 ```
 
+### Navigate base on HTTP type
+Once we know the HTTP type, we can setup the response.  I use `switch` statement here just to make it a bit cleaner, but `if` statements would work the same way.
+```php
+// $method should get the HTTP type
+switch ( $method ) {
+    case 'HEAD':
+        break;
+    case 'GET':
+        break;
+    case 'POST':
+        break;
+    case 'PUT':
+        break;
+    case 'DELETE':
+        break;
+    default:
+        break;
+}
+```
