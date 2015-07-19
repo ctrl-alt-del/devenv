@@ -116,6 +116,17 @@ Once new EV is added, select `Path` row under the `User variables` section, and 
 ### Terminal on Windows
 We are just going to use the Git Bash that comes with [Git](#git-on-windows).
 
+
+Alternatively, you can try [Cygwin](#cygwin) or [Chocolatey](#Chocolatey).
+
+#### Cygwin
+[**Cygwin**](https://www.cygwin.com)
+
+
+#### Chocolatey
+[**Chocolatey**](https://chocolatey.org)
+
+
 [BACK TO TOP](#table-of-contents)
 
 
