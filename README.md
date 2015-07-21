@@ -1054,6 +1054,12 @@ sudo apt-get install python-pip
 [BACK TO TOP](#table-of-contents)
 
 
+### Pip on Fedora
+```sh
+sudo yum clean all
+sudo yum -y update
+sudo yum install python-pip
+```
 
 ## Django
 
