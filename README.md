@@ -1029,6 +1029,7 @@ sudo yum install python27
 
 * [**Mac**](#pip-on-mac)
 * [**Ubuntu**](#pip-on-ubuntu)
+* [**Fedora**](#pip-on-fedora)
 
 ### Pip on Mac
 To install `pip`, you can download its installer file from [here]
@@ -1060,6 +1061,15 @@ sudo yum clean all
 sudo yum -y update
 sudo yum install python-pip
 ```
+
+Alternatively, we can install `pip` from source code.
+```sh
+curl "https://bootstrap.pypa.io/get-pip.py" -o "get-pip.py"
+sudo python get-pip.py
+```
+[BACK TO TOP](#table-of-contents)
+
+
 
 ## Django
 
