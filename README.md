@@ -1026,6 +1026,12 @@ sudo yum install python27
 
 
 ## Pip
+[**pip**](https://pip.pypa.io/en/stable) is a package control tool for [Python](#python).
+
+Python 2.7.9 and later contain `pip` by default, but you are free to install or upgrade it if it doesn't not come with your python, or you want to have the latest version.
+
+* We can upgrade `pip` on Windows through: `python -m pip install -U pip`
+* We can upgrade `pip` on Linux/Unix base OS through: `sudo pip install -U pip`
 
 * [**Mac**](#pip-on-mac)
 * [**Ubuntu**](#pip-on-ubuntu)
