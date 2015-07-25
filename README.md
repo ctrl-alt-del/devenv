@@ -1068,7 +1068,7 @@ sudo yum -y update
 sudo yum install python-pip
 ```
 
-Alternatively, we can install `pip` from source code.
+Alternatively, we can install `pip` from source code.  This approach works on all Linux/Unix base OS.
 ```sh
 curl "https://bootstrap.pypa.io/get-pip.py" -o "get-pip.py"
 sudo python get-pip.py
@@ -1105,8 +1105,7 @@ Follow the same instruction as [Mac](#django-on-mac).
 
 
 ## PHP
-
-PHP is a scripting language for web applications.
+[**PHP**](https://www.php.net) is a scripting language for web applications.
 
 * [**Windows**](#php-on-windows)
 * [**Mac**](#php-on-mac)
@@ -1272,6 +1271,8 @@ sudo yum install npm
 
 
 ## CoffeeScript
+[**CoffeeScript**](http://coffeescript.org) is a language that compiles into JavaScript.
+
 Before install CoffeeScript, you need to make sure you have [Node.js](#nodejs) and Node Packaged Modules [npm](#npm) installed.  To verify that, just run:
 ```sh
 node -v
