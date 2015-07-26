@@ -1862,6 +1862,14 @@ Once downloaded, navigate to the download destination, and execute:
 ```sh
 sudo dpkg -i vagrant*
 ```
+
+There are some know issues for Vagrant on Ubuntu:
+1. `mount.nfs`: requested NFS version or transport protocol is not supported
+```sh
+sudo apt-get install nfs-kernel-server
+```
+
+
 [BACK TO TOP](#table-of-contents)
 
 
