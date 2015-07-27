@@ -2205,7 +2205,7 @@ sudo ln -s /opt/android-studio/bin/studio.sh /usr/bin/aso
 
 (Optional for version 1.0.+) Setup Desktop Icon:
 ```sh
-sudo touch /usr/share/applications/android-studio.desktop
+sudo touch android-studio.desktop
 
 content="
 [Desktop Entry]
@@ -2222,7 +2222,8 @@ Keywords=IDE;Android;Studio;Development;IntelliJ
 Name[en]=Android Studio
 ";
 
-echo "$content" >> /usr/share/applications/android-studio.desktop;
+echo "$content" >> android-studio.desktop;
+sudo mv android-studio.desktop /usr/share/applications
 ```
 
 The newer version of Android Studio for Linux no long comes with Android SDK, therefore, you need to download the SDK separately from [here](#sdk-on-ubuntu).
