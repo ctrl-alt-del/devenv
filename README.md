@@ -2241,7 +2241,7 @@ There are some known issues for ADB in Ubuntu:
 1. ADB not responding for 64 bit Ubuntu.
 You can solve this issue by installing some 32 bit support libraries:
 ```sh
-sudo apt-get install lib32z1 lib32z1-dev lib32stdc++6libs
+sudo apt-get install lib32z1 lib32z1-dev lib32stdc++6
 ```
 
 
