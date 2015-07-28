@@ -2211,8 +2211,9 @@ content="
 [Desktop Entry]
 Name=Android Studio
 GenericName=Android IDE
+Version=1.3
 Type=Application
-Exec=aso %U
+Exec="/opt/android-studio/bin/androidstudio.icostudio.sh" %f
 Terminal=false
 Icon=/opt/android-studio/bin/androidstudio.ico
 Comment=Android Studio
@@ -2225,6 +2226,8 @@ Name[en]=Android Studio
 echo "$content" >> android-studio.desktop;
 sudo mv android-studio.desktop /usr/share/applications
 ```
+
+Alternatively, you can open Android Studio and click on `Configure` -> `Create Desktop Entry`
 
 The newer version of Android Studio for Linux no long comes with Android SDK, therefore, you need to download the SDK separately from [here](#sdk-on-ubuntu).
 
