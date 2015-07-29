@@ -2229,9 +2229,9 @@ sudo mv android-studio.desktop /usr/share/applications
 
 Alternatively, you can open Android Studio and click on `Configure` -> `Create Desktop Entry`
 
-The newer version of Android Studio for Linux no long comes with Android SDK, therefore, you need to download the SDK separately from [here](#sdk-on-ubuntu).
+The newer version of Android Studio for Linux no long comes with Android SDK, therefore, you need to download the SDK separately.  If you haven't already done so, you can follow the instruction [here](#sdk-on-ubuntu) to setup the Android SDK.
 
-To setup Android Virtual Machine (AVD) on Ubuntu, you need to first enable CPU virtualization technology on your BIOS.
+To setup Android Virtual Machine (AVD) on Ubuntu or to use any type of virtual machine, you need to first enable CPU virtualization technology on your BIOS, this selection is usually named `VT-x` under `Config` tab.
 
 Afterwards, you need to install Kernel Virtual Machine (KVM)
 ```sh
@@ -2246,8 +2246,6 @@ You can solve this issue by installing some 32 bit support libraries:
 ```sh
 sudo apt-get install lib32z1 lib32z1-dev lib32stdc++6
 ```
-
-
 [BACK TO TOP](#table-of-contents)
 
 
