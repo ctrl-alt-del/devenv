@@ -581,7 +581,7 @@ Curl comes with Mac and some distros of Linux by default.  For Windows, it shoul
 * [**Fedora**](#curl-on-fedora)
 
 ### Curl on Windows
-Visit [Curl](http://curl.haxx.se/download.html) to download the latest version of [`curl-[version].zip`](http://curl.haxx.se/download/curl-7.40.0.zip).
+Visit [Curl](http://curl.haxx.se/download.html) to download the latest version of [`curl-[version].zip`](http://curl.haxx.se/download/curl-7.43.0.zip).
 
 Once it is downloaded, unzip it to `/c/usr/bin/curl`, or whatever directory your chose.
 
@@ -2328,7 +2328,7 @@ sudo yum install tilda
 
 
 ### Tilda on Others
-Please follow the [instruction](https://github.com/lanoxx/tilda/blob/master/HACKING.md) to compile and install Tildalol.
+Please follow the [instruction](https://github.com/lanoxx/tilda/blob/master/HACKING.md) to compile and install Tilda.
 
 [BACK TO TOP](#table-of-contents)
 
