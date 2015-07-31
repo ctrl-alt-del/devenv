@@ -2061,7 +2061,11 @@ sudo apt-get install virtualbox
 
 You can download and install the latest version manually.
 
-For Ubuntu 13.04 and above, you can download the [**x86 `deb` file**](http://download.virtualbox.org/virtualbox/4.3.22/virtualbox-4.3_4.3.22-98236~Ubuntu~raring_i386.deb) or [**x64 `deb` file**](http://download.virtualbox.org/virtualbox/4.3.22/virtualbox-4.3_4.3.22-98236~Ubuntu~raring_amd64.deb), navigate to the download destination, and then install it with command: `sudo dpkg -i virtualbox*`.
+For Ubuntu 13.04 and above, you can download: 
+*[**x86 `deb` file**](http://download.virtualbox.org/virtualbox/4.3.30/virtualbox-4.3_4.3.30-101610~Ubuntu~raring_i386.deb)
+*[**x64 `deb` file**](http://download.virtualbox.org/virtualbox/4.3.30/virtualbox-4.3_4.3.30-101610~Ubuntu~raring_amd64.deb)
+
+Once download is completed, navigate to the download destination, and then install it with command: `sudo dpkg -i virtualbox*`.
 
 For other ubuntu version or linux distro, just visit its [download page for Linux](https://www.virtualbox.org/wiki/Linux_Downloads), and download the `deb` or `rpm` file accordingly.
 
