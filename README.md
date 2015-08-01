@@ -2200,10 +2200,10 @@ The newer version of Android Studio for Mac no long comes with Android SDK, ther
 ### Android Studio on Ubuntu
 Download and install:
 ```sh
-wget https://dl.google.com/dl/android/studio/ide-zips/1.2.1.1/android-studio-ide-141.1903250-linux.zip
-unzip android-studio-ide-141.1903250-linux.zip
+wget https://dl.google.com/dl/android/studio/ide-zips/1.3.0.10/android-studio-ide-141.2117773-linux.zip
+unzip android-studio-ide-141.2117773-linux.zip
 sudo mv android-studio /opt/android-studio
-sudo mv -f android-studio-ide-141.1903250-linux.zip ~/Downloads/
+sudo mv -f android-studio-ide-141.2117773-linux.zip ~/Downloads/
 sudo ln -s /opt/android-studio/bin/studio.sh /usr/bin/aso
 ```
 
