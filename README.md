@@ -1193,6 +1193,19 @@ sudo yum install php
 
 
 
+## Composer
+[**Composer**](https://getcomposer.org) is a dependency management tool in PHP.
+
+* [**Mac**](#composer-on-mac)
+
+### Composer on Mac
+```sh
+curl -sS https://getcomposer.org/installer | php
+```
+[BACK TO TOP](#table-of-contents)
+
+
+
 ## Node.js
 Node.js is an platform for Javascript.  To install Node.js, download the install file from its [homepage](http://nodejs.org/download).
 
