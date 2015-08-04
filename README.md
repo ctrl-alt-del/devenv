@@ -1202,6 +1202,10 @@ sudo yum install php
 ```sh
 curl -sS https://getcomposer.org/installer | php
 ```
+move the `composer.phar` to somewhere in your `PATH`, such as `/usr/bin` so that it can be easily accessed.
+```sh
+sudo mv composer.phar /usr/bin
+```
 [BACK TO TOP](#table-of-contents)
 
 
