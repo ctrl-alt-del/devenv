@@ -1218,6 +1218,19 @@ sudo mv composer.phar /usr/bin
 
 
 
+## Laravel
+[**Laravel**](http://laravel.com) is a PHP framework for web application development.
+
+* [**Mac**](#laravel-on-mac)
+
+### Laravel on Mac
+```sh
+composer global require "laravel/installer=~1.1"
+```
+[BACK TO TOP](#table-of-contents)
+
+
+
 ## Node.js
 Node.js is an platform for Javascript.  To install Node.js, download the install file from its [homepage](http://nodejs.org/download).
 
