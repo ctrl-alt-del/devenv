@@ -1221,7 +1221,15 @@ sudo mv composer.phar /usr/bin
 ## Laravel
 [**Laravel**](http://laravel.com) is a PHP framework for web application development.
 
+* [**Windows**](#laravel-on-windows)
 * [**Mac**](#laravel-on-mac)
+
+### Laravel on Windows
+```sh
+composer create-project laravel/laravel {directory} 5.0 --prefer-dist
+```
+[BACK TO TOP](#table-of-contents)
+
 
 ### Laravel on Mac
 ```sh
