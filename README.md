@@ -1238,6 +1238,12 @@ composer global require "laravel/installer=~1.1"
 [BACK TO TOP](#table-of-contents)
 
 
+### Known Issues
+* Not able to build project on remote server
+remote server has limited resources and may not be capable of crawling through remote hosted repositories to search for the latest dependencies, therefore, you need to commit and push your `composer.lock` file as well.  This file contains the exact locations of the dependencies that your project needs.
+[BACK TO TOP](#table-of-contents)
+
+
 
 ## Node.js
 Node.js is an platform for Javascript.  To install Node.js, download the install file from its [homepage](http://nodejs.org/download).
