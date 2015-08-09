@@ -393,15 +393,15 @@ echo "$content" >> ~/.config/sublime-text-2/Packages/User/Preferences.sublime-se
 ```sh
 content="
 [
-{ 
+{
 	"keys": ["command+i"],
-	"command": "reindent" , 
+	"command": "reindent",
 	"args": {"single_line": false}
 },
-{ 
-	"keys": ["command+d"], 
-	"command": "run_macro_file", 
-	"args": {"file": "Packages/Default/Delete Line.sublime-macro"} 
+{
+	"keys": ["command+d"],
+	"command": "run_macro_file",
+	"args": {"file": "Packages/Default/Delete Line.sublime-macro"}
 }
 ]
 
@@ -415,15 +415,15 @@ echo "$content" >> "~/Library/Application Support/Sublime Text 2/Packages/User/D
 ```sh
 content="
 [
-{ 
+{
 	"keys": ["ctrl+i"],
-	"command": "reindent" , 
+	"command": "reindent",
 	"args": {"single_line": false}
 },
-{ 
-	"keys": ["ctrl+d"], 
-	"command": "run_macro_file", 
-	"args": {"file": "Packages/Default/Delete Line.sublime-macro"} 
+{
+	"keys": ["ctrl+d"],
+	"command": "run_macro_file",
+	"args": {"file": "Packages/Default/Delete Line.sublime-macro"}
 }
 ]
 
@@ -1824,7 +1824,7 @@ sudo yum install guake
 
 
 ## Guake Configuration
-Guake is open source and written in python.  Therefore, you can customize it as you wish with default editor, `gedit` of Linux distros by modifying its source file, usually located at `/usr/lib/guake/guake.py`. 
+Guake is open source and written in python.  Therefore, you can customize it as you wish with default editor, `gedit` of Linux distros by modifying its source file, usually located at `/usr/lib/guake/guake.py`.
 ```sh
 sudo gedit /usr/lib/guake/guake.py
 ```
@@ -1935,7 +1935,7 @@ rpm -U vagrant*
 
 
 ## Eclipse
-[**Eclipse**](http://www.eclipse.org) is an integrated development environment (IDE).  
+[**Eclipse**](http://www.eclipse.org) is an integrated development environment (IDE).
 
 Although Google recommendeds [Android Studio](#android-studio) for Android development, you can still use eclipse as your IDE if you prefer to.  I use one of its variant called [Eclipse IDE for Java Developers](http://www.eclipse.org/downloads/packages/eclipse-ide-java-developers/lunasr2) because it is relatively smaller than other variants.  You can to use its [standard package](http://www.eclipse.org/downloads/packages/eclipse-standard-44/lunar) or other variants as well.
 
@@ -2064,7 +2064,7 @@ sudo yum install glibc.i686 glibc-devel.i686 libstdc++.i686 zlib-devel.i686 ncur
 
 
 ## ADT
-[**ADT**](http://developer.android.com/tools/help/adt.html) stands for Android Development Toolkit.  
+[**ADT**](http://developer.android.com/tools/help/adt.html) stands for Android Development Toolkit.
 
 Once Eclipse is installed, open it and navigate to its Help -> Install New Software.
 
@@ -2113,7 +2113,7 @@ sudo apt-get install virtualbox
 
 You can download and install the latest version manually.
 
-For Ubuntu 13.04 and above, you can download: 
+For Ubuntu 13.04 and above, you can download:
 *[**x86 `deb` file**](http://download.virtualbox.org/virtualbox/4.3.30/virtualbox-4.3_4.3.30-101610~Ubuntu~raring_i386.deb)
 *[**x64 `deb` file**](http://download.virtualbox.org/virtualbox/4.3.30/virtualbox-4.3_4.3.30-101610~Ubuntu~raring_amd64.deb)
 
@@ -2397,7 +2397,7 @@ Please follow the [instruction](https://github.com/lanoxx/tilda/blob/master/HACK
 * [**Fedora**](#smartgit-on-fedora)
 
 ### SmartGit on Ubuntu
-You can install SmartGit through PPA or do so manually.  
+You can install SmartGit through PPA or do so manually.
 
 #### Install Through PPA
 To add the SmartGit PPA, run:
