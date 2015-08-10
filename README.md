@@ -2648,7 +2648,7 @@ Once download is completed, double click the file and follow its instruction to 
 
 
 ### Go on Mac
-Visit [Go's download page](https://golang.org/dl) and download the latest `.pkg` file, which is in bold.
+Visit [Go's download page](https://golang.org/dl) and download the latest `.pkg` file.
 
 Once download is completed, double click the file and follow its instruction to install.  Note that you need to remove any old version of **Go**.
 
@@ -2656,7 +2656,11 @@ Once download is completed, double click the file and follow its instruction to 
 
 
 ### Go on Ubuntu
-Visit [Go's source install page](https://golang.org/doc/install/source) and follow there instruction there to install.
+Visit [Go's download page](https://golang.org/dl) and download the latest `.tar.gz` file.
+
+Once download is completed, double click the file and follow its instruction to install.  Note that you need to remove any old version of **Go**.
+
+Alternatively, you can install Go from its source.  To do so, visit [Go's source install page](https://golang.org/doc/install/source) and follow instruction there to install.
 
 [BACK TO TOP](#table-of-contents)
 
