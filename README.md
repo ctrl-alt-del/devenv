@@ -2604,7 +2604,7 @@ Follow the same instruction as [Mac](#jquery-on-mac).
 * [**Fedora**](#rust-on-fedora)
 
 ### Rust on Mac
-Visit its [home page](http://www.rust-lang.org) and download the [install package](https://static.rust-lang.org/dist/rust-nightly-x86_64-apple-darwin.pkg).
+Visit its [home page](http://www.rust-lang.org) and download either the [32 bit](https://static.rust-lang.org/dist/rust-1.2.0-i686-apple-darwin.pkg) or [64 bit](https://static.rust-lang.org/dist/rust-1.2.0-x86_64-apple-darwin.pkg) install package.
 
 After download is done, just double click it to install.
 
@@ -2620,6 +2620,8 @@ Read [Rust's disclaimer](http://doc.rust-lang.org/nightly/book/installing-rust.h
 ```sh
 curl -s https://static.rust-lang.org/rustup.sh | sudo sh
 ```
+
+Alternatively, you can download and install the binary from [here](https://www.rust-lang.org/install.html).
 [BACK TO TOP](#table-of-contents)
 
 
