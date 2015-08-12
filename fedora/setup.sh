@@ -42,9 +42,13 @@ sudo ln -s /opt/sublime/sublime_text /usr/bin/subl
 echo '>>> Sublime has been successfully installed!'
 echo ' '
 
-echo '<<< Installing OpenJDK 7...'
-sudo yum install openjdk-7-jdk
-echo '>>> OpenJDK 7 has been successfully installed!'
+echo '<<< Installing Oracle Java 7...'
+cd /opt
+wget http://download.oracle.com/otn-pub/java/jdk/7u79-b15/jdk-7u79-linux-x64.tar.gz
+sudo tar xvf jdk-7u79-linux-x64.tar.gz
+sudo ln -s /opt/jdk-7u79-linux-x64/bin/java /usr/bin/java
+sudo rm jdk-7u79-linux-x64.tar.gz
+echo '>>> Oracle Java 7 has been successfully installed!'
 
 echo '<<< Installing Node.js...'
 sudo yum install nodejs nodejs-dev npm
