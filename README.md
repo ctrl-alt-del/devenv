@@ -927,7 +927,14 @@ Since `~/.bashrc` will be loaded whenever you start a new terminal, `$JAVA_HOME`
 
 
 ### Java on Fedora
-To install Oracle Java for Ubuntu, follow the same process for [Ubuntu](#java-on-ubuntu).
+To install Oracle Java for Ubuntu, download the `tar.gz` file, move it to `/opt` folder, unzip it, create a symbolic link between the unzipped folder and one of the PATH, such as `usr/bin`.
+```sh
+cd /opt
+wget http://download.oracle.com/otn-pub/java/jdk/7u79-b15/jdk-7u79-linux-x64.tar.gz
+sudo tar xvf jdk-7u79-linux-x64.tar.gz
+sudo ln -s /opt/jdk-7u79-linux-x64/bin/java /usr/bin/java
+sudo rm jdk-7u79-linux-x64.tar.gz
+```
 
 Similarly, if you want to install OpenJDK on Fedora, you can do so by running:
 ```sh
