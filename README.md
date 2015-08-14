@@ -956,24 +956,11 @@ There are Python 2.x and Python 3.x available.  This instruction will focus on 2
 
 Download [Python 2.7.9 for Windows](https://www.python.org/downloads/release/python-279).
 
-Under the Download tab, choose the appropriate `msi` file to download, either x86 or x64 based on your operation system.
+Under the Download tab, choose the appropriate `msi` file to download, either [x86](https://www.python.org/ftp/python/2.7.9/python-2.7.9.msi) or [x64](https://www.python.org/ftp/python/2.7.9/python-2.7.9.amd64.msi) based on your operation system.
 
-You can also use the following command to download the 32-bit version:
-```sh
-curl --remote-name https://www.python.org/ftp/python/2.7.9/python-2.7.9.msi
-```
+Once the `.msi` file is downloaded, double click it to install under a path similar to `/c/usr/bin/python`.
 
-Or use the following command to download the 64-bit version:
-```sh
-curl --remote-name https://www.python.org/ftp/python/2.7.9/python-2.7.9.amd64.msi
-```
-
-Once the `*.msi` file is downloaded, double click it to install under /c/usr/bin/python.
-
-the executable python.exe should then be under:
-```sh
-/c/usr/bin/python/python.exe
-```
+the executable python.exe should then be under: `/c/usr/bin/python/python.exe`
 
 Run git bash as administrator, then go to the bin of git bash by running:
 ```sh
