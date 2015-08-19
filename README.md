@@ -2764,7 +2764,17 @@ sudo yum install openswan
 
 ## Scala
 
+* [**Mac**](#scala-on-windows)
 * [**Mac**](#scala-on-mac)
+* [**Ubuntu**](#scala-on-ubuntu)
+
+### Scala on Windows
+Download the installer from [here](http://www.scala-lang.org/files/archive/scala-2.11.7.msi).
+
+Double click to install.
+
+[BACK TO TOP](#table-of-contents)
+
 
 ### Scala on Mac
 ```sh
