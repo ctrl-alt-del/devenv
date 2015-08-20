@@ -2763,10 +2763,12 @@ sudo yum install openswan
 
 
 ## Scala
+[**Scala**](http://scala-lang.org) is a object-oriented functional programming language.
 
 * [**Mac**](#scala-on-windows)
 * [**Mac**](#scala-on-mac)
 * [**Ubuntu**](#scala-on-ubuntu)
+* [**Fedora**](#scala-on-fedora)
 
 ### Scala on Windows
 Download the installer from [here](http://www.scala-lang.org/files/archive/scala-2.11.7.msi).
@@ -2796,6 +2798,11 @@ sudo apt-get install sbt
 ```
 [BACK TO TOP](#table-of-contents)
 
+
+### Scala on Fedora
+Follow the same instruction as [Ubuntu](#scala-on-ubuntu).
+
+[BACK TO TOP](#table-of-contents)
 
 
 
