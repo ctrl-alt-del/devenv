@@ -2579,8 +2579,14 @@ Follow the same instruction as [Mac](#bower-on-mac).
 
 ## jQuery
 
+* [**Windows**](#jquery-on-windows)
 * [**Mac**](#jquery-on-mac)
 * [**Ubuntu**](#jquery-on-ubuntu)
+
+### jQuery on Windows
+You can download the compressed or uncompressed copies of jQuery files [here](http://jquery.com/download) and include them in your file.
+
+[BACK TO TOP](#table-of-contents)
 
 ### jQuery on Mac
 You need [`bower`](#bower) as a prerequisite
