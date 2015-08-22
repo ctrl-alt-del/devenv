@@ -54,6 +54,7 @@ This document and bash scripts will be updated piece by piece and I will try my 
 |[Redis](#redis)             | [   ](#redis-on-windows)       | [-->](#redis-on-mac)      | [-->](#redis-on-ubuntu)     | [-->](#redis-on-fedora)     |
 |[iPython](#ipython)         | [   ](#ipython-on-windows)     | [-->](#ipython-on-mac)    | [-->](#ipython-on-ubuntu)   | [-->](#ipython-on-fedora)   |
 |[Bower](#bower)             | [   ](#bower-on-windows)       | [-->](#bower-on-mac)      | [-->](#bower-on-ubuntu)     | [-->](#bower-on-fedora)     |
+|[jQuery](#jquery)           | [-->](#jquery-on-windows)      | [-->](#jquery-on-mac)     | [-->](#jquery-on-ubuntu)    | [-->](#jquery-on-fedora)    |
 |[Go](#go)                   | [-->](#go-on-windows)          | [-->](#go-on-mac)         | [-->](#go-on-ubuntu)        | [   ](#go-on-fedora)        |
 |[Android Studio](#android-studio) | [-->](#android-studio-on-windows) | [-->](#android-studio-on-mac) | [-->](#android-studio-on-ubuntu) | [-->](#android-studio-on-fedora) |
 
@@ -2771,7 +2772,7 @@ sudo yum install openswan
 ## Scala
 [**Scala**](http://scala-lang.org) is a object-oriented functional programming language.
 
-* [**Mac**](#scala-on-windows)
+* [**Windows**](#scala-on-windows)
 * [**Mac**](#scala-on-mac)
 * [**Ubuntu**](#scala-on-ubuntu)
 * [**Fedora**](#scala-on-fedora)
