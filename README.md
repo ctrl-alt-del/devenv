@@ -56,6 +56,7 @@ This document and bash scripts will be updated piece by piece and I will try my 
 |[Bower](#bower)             | [   ](#bower-on-windows)       | [-->](#bower-on-mac)      | [-->](#bower-on-ubuntu)     | [-->](#bower-on-fedora)     |
 |[jQuery](#jquery)           | [-->](#jquery-on-windows)      | [-->](#jquery-on-mac)     | [-->](#jquery-on-ubuntu)    | [-->](#jquery-on-fedora)    |
 |[Go](#go)                   | [-->](#go-on-windows)          | [-->](#go-on-mac)         | [-->](#go-on-ubuntu)        | [   ](#go-on-fedora)        |
+|[Scala](#scala)             | [-->](#scala-on-windows)       | [-->](#scala-on-mac)      | [-->](#scala-on-ubuntu)     | [-->](#scala-on-fedora)     |
 |[Android Studio](#android-studio) | [-->](#android-studio-on-windows) | [-->](#android-studio-on-mac) | [-->](#android-studio-on-ubuntu) | [-->](#android-studio-on-fedora) |
 
 
