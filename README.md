@@ -57,6 +57,7 @@ This document and bash scripts will be updated piece by piece and I will try my 
 |[jQuery](#jquery)           | [-->](#jquery-on-windows)      | [-->](#jquery-on-mac)     | [-->](#jquery-on-ubuntu)    | [-->](#jquery-on-fedora)    |
 |[Go](#go)                   | [-->](#go-on-windows)          | [-->](#go-on-mac)         | [-->](#go-on-ubuntu)        | [   ](#go-on-fedora)        |
 |[Scala](#scala)             | [-->](#scala-on-windows)       | [-->](#scala-on-mac)      | [-->](#scala-on-ubuntu)     | [-->](#scala-on-fedora)     |
+|[Sail.js](#sailjs)          | [   ](#sailjs-on-windows)      | [-->](#sailjs-on-mac)     | [-->](#sailjs-on-ubuntu)    | [-->](#sailjs-on-fedora)    |
 |[Android Studio](#android-studio) | [-->](#android-studio-on-windows) | [-->](#android-studio-on-mac) | [-->](#android-studio-on-ubuntu) | [-->](#android-studio-on-fedora) |
 
 
