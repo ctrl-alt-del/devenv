@@ -24,6 +24,8 @@ synclient LBCornerButton=0
 synclient PalmDetect=1
 synclient MinSpeed=0.7
 synclient MaxSpeed=1.7
+synclient VertTwoFingerScroll=1
+synclient HorizTwoFingerScroll=0
 ";
 
 # execute it
