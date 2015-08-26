@@ -26,6 +26,9 @@ synclient MinSpeed=0.7
 synclient MaxSpeed=1.7
 synclient VertTwoFingerScroll=1
 synclient HorizTwoFingerScroll=0
+
+# (Optional) Enable Two-Finger Scrolling for SynPS/2 Synaptics TouchPad
+synclient EmulateTwoFingerMinZ=4
 ";
 
 # execute it
