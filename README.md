@@ -2670,7 +2670,18 @@ Once download is completed, double click the file and follow its instruction to 
 ### Go on Ubuntu
 Visit [Go's download page](https://golang.org/dl) and download the latest `.tar.gz` file.
 
-Once download is completed, double click the file and follow its instruction to install.  Note that you need to remove any old version of **Go**.
+Note that you need to remove any old version of **Go** before installing the latest version.
+
+Once download is completed, unzip the file and rename the unzipped folder as `go`.
+
+Move `go` folder to one of your `$PATH`, the documentation recommends `/usr/local`.  Note that you need root permission to perform this task.
+```sh
+sudo go/ /usr/local
+```
+
+Once the folder is moved append the path of `go` folder to your `$PATH`; in this case, it is `usr/local/go`.
+
+There are couple way of doing it.  The easiest being adding the line `export PATH=$PATH:/usr/local/go/bin` to your `~/.bash_profile` and do `source ~/.bash_profile` when you need it.  You can also add the line to your `~/.bashrc` so that Go will be available whenever you open up a terminal window; or adding the line to `~/.profile` so that it will be ready whenever you sign in to you computer.
 
 Alternatively, you can install Go from its source.  To do so, visit [Go's source install page](https://golang.org/doc/install/source) and follow instruction there to install.
 
