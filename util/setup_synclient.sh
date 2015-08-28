@@ -29,6 +29,10 @@ synclient HorizTwoFingerScroll=0
 
 # (Optional) Enable Two-Finger Scrolling for SynPS/2 Synaptics TouchPad
 synclient EmulateTwoFingerMinZ=4
+
+# (Optional) Enable Two-Finger Scrolling for computer without synclient
+# xinput --set-prop --type=int --format=32 "SynPS/2 Synaptics TouchPad" "Synaptics Two-Finger Pressure" 4
+# xinput --set-prop --type=int --format=8 "SynPS/2 Synaptics TouchPad" "Synaptics Two-Finger Scrolling" 1 0
 ";
 
 # execute it
