@@ -2662,7 +2662,7 @@ Once download is completed, double click the file and follow its instruction to 
 ### Go on Mac
 Visit [Go's download page](https://golang.org/dl) and download the latest `.pkg` file.
 
-Once download is completed, double click the file and follow its instruction to install.  Note that you need to remove any old version of **Go**.
+Once download is completed, couble click the `.pkg` file to install Go on your computer, and then follow the same instruction for [Ubuntu](go-on-ubuntu) to update the `$PATH` on Mac.
 
 [BACK TO TOP](#table-of-contents)
 
