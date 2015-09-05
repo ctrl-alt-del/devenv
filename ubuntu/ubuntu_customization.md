@@ -18,3 +18,5 @@ The easiest fix for those issues is to use `synclient`, which is available since
 Two finger scrolling is disabled by default.  Depending on the version of your touch pad, you can enable two finger scroll either though:
 1. `settings` -> `mouse` -> `touchpad` -> `enable two finger scroll`
 2. open terminal and type in `synclient VertTwoFingerScroll=1`
+
+If your touch pad still has no response to two-finger touch after executing either action in above, your touch pad may be one of those older version touch pad.  To enable two finger scrolling on those device, you need to open terminal and execute the second action listed in above and then also type in `synclient EmulateTwoFingerMinZ=4`.
