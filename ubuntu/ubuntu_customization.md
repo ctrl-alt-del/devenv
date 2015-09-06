@@ -20,3 +20,9 @@ Two finger scrolling is disabled by default.  Depending on the version of your t
 2. open terminal and type in `synclient VertTwoFingerScroll=1`
 
 If your touch pad still has no response to two-finger touch after executing either action in above, your touch pad may be one of those older version touch pad.  To enable two finger scrolling on those device, you need to open terminal and execute the second action listed in above and then also type in `synclient EmulateTwoFingerMinZ=4`.
+
+If `synclient` is not available, you will need to replace `synclient VertTwoFingerScroll=1` and `synclient EmulateTwoFingerMinZ=4` with following lines and execute them in your terminal.
+```sh
+xinput --set-prop --type=int --format=32 "SynPS/2 Synaptics TouchPad" "Synaptics Two-Finger Pressure" 4 #synclient VertTwoFingerScroll=1
+xinput --set-prop --type=int --format=8 "SynPS/2 Synaptics TouchPad" "Synaptics Two-Finger Scrolling" 1 0 #synclient EmulateTwoFingerMinZ=4
+```
