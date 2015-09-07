@@ -2676,7 +2676,7 @@ Once download is completed, unzip the file and rename the unzipped folder as `go
 
 Move `go` folder to one of your `$PATH`, the documentation recommends `/usr/local`.  Note that you need root permission to perform this task.
 ```sh
-sudo go/ /usr/local
+sudo mv go/ /usr/local
 ```
 
 Once the folder is moved append the path of `go` folder to your `$PATH`; in this case, it is `usr/local/go`.
