@@ -2678,11 +2678,18 @@ Move `go` folder to one of your `$PATH`, the documentation recommends `/usr/loca
 ```sh
 sudo mv go/ /usr/local
 ```
-Once the folder is moved, append the path of `go/bin` folder to your `$PATH`; in this case, it is `usr/local/go`.
 
-There are couple way of doing it.  The easiest being adding the line `export PATH=$PATH:/usr/local/go/bin` to your `~/.bash_profile` and do `source ~/.bash_profile` when you need it.  
+Once the folder is moved, you need to append the definition of `$GOROOT` to your `$PATH`.  `$GOROOT` is the path of `go/bin` folder; in this case, it is `usr/local/go/bin`.
+```sh
+export GOROOT=/usr/local/go/bin
+export PATH=$PATH:$GOROOT
+```
 
-You can also add the line to your `~/.bashrc` so that Go will be loaded whenever you open up terminal; or adding the line to `~/.profile` so that it will be ready whenever you sign in to you computer.
+To append `$GOROOT` to your `$PATH`, you can choose either of the following appraches:
+1. The easiest being adding the above code to your `~/.bash_profile` and do `source ~/.bash_profile` when you need it.  
+2. You can add the code to your `~/.bashrc` so that Go will be loaded whenever you open up terminal.
+3. You can add the code to `~/.profile` so that Go will be loaded whenever you sign in to you computer.
+
 
 Alternatively, you can install Go from its source.  To do so, visit [Go's source install page](https://golang.org/doc/install/source) and follow instruction there to install.
 
