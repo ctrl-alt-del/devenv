@@ -55,7 +55,7 @@ This document and bash scripts will be updated piece by piece and I will try my 
 |[iPython](#ipython)         | [   ](#ipython-on-windows)     | [-->](#ipython-on-mac)    | [-->](#ipython-on-ubuntu)   | [-->](#ipython-on-fedora)   |
 |[Bower](#bower)             | [   ](#bower-on-windows)       | [-->](#bower-on-mac)      | [-->](#bower-on-ubuntu)     | [-->](#bower-on-fedora)     |
 |[jQuery](#jquery)           | [-->](#jquery-on-windows)      | [-->](#jquery-on-mac)     | [-->](#jquery-on-ubuntu)    | [-->](#jquery-on-fedora)    |
-|[Go](#go)                   | [-->](#go-on-windows)          | [-->](#go-on-mac)         | [-->](#go-on-ubuntu)        | [   ](#go-on-fedora)        |
+|[Go](#go)                   | [-->](#go-on-windows)          | [-->](#go-on-mac)         | [-->](#go-on-ubuntu)        | [-->](#go-on-fedora)        |
 |[Scala](#scala)             | [-->](#scala-on-windows)       | [-->](#scala-on-mac)      | [-->](#scala-on-ubuntu)     | [-->](#scala-on-fedora)     |
 |[Sail.js](#sailjs)          | [   ](#sailjs-on-windows)      | [-->](#sailjs-on-mac)     | [-->](#sailjs-on-ubuntu)    | [-->](#sailjs-on-fedora)    |
 |[Android Studio](#android-studio) | [-->](#android-studio-on-windows) | [-->](#android-studio-on-mac) | [-->](#android-studio-on-ubuntu) | [-->](#android-studio-on-fedora) |
@@ -2662,7 +2662,7 @@ Once download is completed, double click the file and follow its instruction to 
 ### Go on Mac
 Visit [Go's download page](https://golang.org/dl) and download the latest `.pkg` file.
 
-Once download is completed, couble click the `.pkg` file to install Go on your computer, and then follow the same instruction for [Ubuntu](go-on-ubuntu) to update the `$PATH` on Mac.
+Once download is completed, double click the `.pkg` file to install Go on your computer, and then follow the same instruction for [Ubuntu](go-on-ubuntu) to update the `$PATH` on Mac.
 
 [BACK TO TOP](#table-of-contents)
 
@@ -2686,7 +2686,7 @@ export GOPATH=~/GoPath
 export PATH=$PATH:$GOROOT:$GOPATH
 ```
 
-To append `$GOROOT` and `$GOPATH` to your `$PATH`, you can choose either of the following appraches:
+To append `$GOROOT` and `$GOPATH` to your `$PATH`, you can choose either of the following approaches:
 1. The easiest being adding the above code to your `~/.bash_profile` and do `source ~/.bash_profile` when you need it.  
 2. You can add the code to your `~/.bashrc` so that Go will be loaded whenever you open up terminal.
 3. You can add the code to `~/.profile` so that Go will be loaded whenever you sign in to you computer.
@@ -2718,6 +2718,7 @@ brew install tree
 
 ### Tree on Ubuntu
 ```sh
+sudo apt-get update
 sudo apt-get install tree
 ```
 [BACK TO TOP](#table-of-contents)
