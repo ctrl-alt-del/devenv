@@ -58,6 +58,7 @@ This document and bash scripts will be updated piece by piece and I will try my 
 |[Go](#go)                   | [-->](#go-on-windows)          | [-->](#go-on-mac)         | [-->](#go-on-ubuntu)        | [-->](#go-on-fedora)        |
 |[Scala](#scala)             | [-->](#scala-on-windows)       | [-->](#scala-on-mac)      | [-->](#scala-on-ubuntu)     | [-->](#scala-on-fedora)     |
 |[Sail.js](#sailjs)          | [   ](#sailjs-on-windows)      | [-->](#sailjs-on-mac)     | [-->](#sailjs-on-ubuntu)    | [-->](#sailjs-on-fedora)    |
+|[Tree](#tree)               | [-->](#tree-on-windows)        | [-->](#tree-on-mac)       | [-->](#tree-on-ubuntu)      | [-->](#tree-on-fedora)      |
 |[Android Studio](#android-studio) | [-->](#android-studio-on-windows) | [-->](#android-studio-on-mac) | [-->](#android-studio-on-ubuntu) | [-->](#android-studio-on-fedora) |
 
 
@@ -2705,9 +2706,16 @@ Follow the same instruction as [Ubuntu](#go-on-ubuntu).
 ## Tree
 [**Tree**](http://mama.indstate.edu/users/ice/tree) is a recursive directory listing tool with nice indentation and color codes.
 
+* [**Windows**](#tree-on-windows)
 * [**Mac**](#tree-on-mac)
 * [**Ubuntu**](#tree-on-ubuntu)
 * [**Fedora**](#tree-on-fedora)
+
+### Tree on Mac
+`tree` is a built-in command for Windows.
+
+[BACK TO TOP](#table-of-contents)
+
 
 ### Tree on Mac
 ```sh
