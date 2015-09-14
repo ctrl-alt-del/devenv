@@ -2680,7 +2680,7 @@ Move `go` folder to one of your `$PATH`, the documentation recommends `/usr/loca
 sudo mv go/ /usr/local
 ```
 
-Once the folder is moved, you need to append the definition of `$GOROOT` and `$GOPATH` to your `$PATH`.  `$GOROOT` is the path of `go/bin` folder; in this case, it is `usr/local/go/bin`.  `$GOPATH` is the place that you will be storing all your third-party libraries, and according to the latest documentation of Go, it recommends to put it either under `/home` (for all users) or `~` (for particular user); in this case, it is `~/GoPath`.  To create the `GoPath` folder if it is not yet existed, you can do so by executing `mkdir -p ~/GoPath`.
+Once the folder is moved, you need to append the definition of `$GOROOT` and `$GOPATH` to your `$PATH`.  `$GOROOT` is the path of `go/bin` folder; in this case, it is `usr/local/go/bin`.  `$GOPATH` is the place that you will be storing all your source code, modules, packages and third-party libraries; and according to the latest documentation of Go, it recommends to put it either under `/home` (for all users) or `~` (for particular user); in this case, put it as `~/GoPath`.  To create the `GoPath` folder if it is not yet existed, you can do so by executing `mkdir -p ~/GoPath`.
 ```sh
 export GOROOT=/usr/local/go/bin
 export GOPATH=~/GoPath
