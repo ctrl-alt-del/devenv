@@ -2657,6 +2657,10 @@ Visit [Go's download page](https://golang.org/dl) and download the latest `.msi`
 
 Once download is completed, double click the file and follow its instruction to install.  Note that you need to remove any old version of **Go**.
 
+If you are using git bash, follow the instruction for [Ubuntu](#go-on-ubuntu) to set the `PATH` variables.
+
+You may also edit the environment variables of windows to enable the `go` commands globally.
+
 [BACK TO TOP](#table-of-contents)
 
 
