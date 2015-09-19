@@ -1415,7 +1415,7 @@ sudo apt-get upgrade openssl
 
 
 ## Gradle
-[**Gradle**](http://www.gradle.org) is a build tool for project.
+[**Gradle**](http://www.gradle.org) is a build tool for project.  If you only use gradle for Android development, consider using the gradle wrapper coming with Android Stadio.
 
 * [**Windows**](#gradle-on-windows)
 * [**Mac**](#gradle-on-mac)
@@ -1437,6 +1437,9 @@ Verify the symbolic link is working properly by running:
 which gradle # should see /usr/bin/gradle
 gradle -v # should see version number
 ```
+
+You may also add `%GRADLE_HOME%` to your environment variable with value equals to `C:\usr\bin\gradle`.
+
 [BACK TO TOP](#table-of-contents)
 
 
