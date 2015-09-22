@@ -14,6 +14,14 @@ This cheatsheet is based on the official document, [Effective Go](https://golang
 
 
 ## Commentary
+*. block comments used for package comment, line comment is the norm
+*. add package comment to each package before the `package` clause
+*. `godoc` formats comments
+*. comments are uninterpreted plain text,
+*. avoid HTML or other annotations (e.g. `_this_`); they won't reproduce verbatim
+*. every exported (capitalized) name/method should have a doc comment
+*. start the doc comment with the name/method so that it can be grep easily if needed
+
 
 
 ## Names
