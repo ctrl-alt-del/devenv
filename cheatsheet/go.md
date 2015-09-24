@@ -27,6 +27,13 @@ This cheatsheet is based on the official document, [Effective Go](https://golang
 ## Names
 
 ### Package names
+0. names have semantic effect
+0. package names use single-word, lower case and should be short, concise, and evocative
+0. don't worry collisions,  package name is only the default name for imports
+0. only upper case names are visible outside of its package
+0. package name is the base name of its source directory
+0. constructor can be either `New` or `New` append with the exported name
+
 
 ### Getters
 
