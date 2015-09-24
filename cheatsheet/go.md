@@ -35,7 +35,10 @@ This cheatsheet is based on the official document, [Effective Go](https://golang
 0. constructor can be either `New` or `New` append with the exported name
 
 
-### Getters
+### Getters and Setters
+0. getter should be the upper cased field name, e.g. `Name()` for field `name`
+0. setter should be `Set` append with the upper cased field name, e.g. `SetName()` for field `name`
+
 
 ### Interface names
 
