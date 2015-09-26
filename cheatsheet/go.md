@@ -41,8 +41,14 @@ This cheatsheet is based on the official document, [Effective Go](https://golang
 
 
 ### Interface names
+0. one-method interfaces are named by the method name plus an -er suffix or similar modification to construct an agent noun: `Reader`, `Writer`, `Formatter`, `CloseNotifier` etc
+0. avoid using names that have canonical signatures and meanings, unless it has the same signature and meaning, e.g. `Read`, `Write`, `Close`, `Flush`, `String`
+
 
 ### MixedCaps
+0. use Capitialized Camel Case `MixedCaps` or Camel Case `mixedCaps` to write multiword names.
+
+
 
 
 ## Semicolons
