@@ -52,3 +52,9 @@ This cheatsheet is based on the official document, [Effective Go](https://golang
 
 
 ## Semicolons
+0. use semicolons to terminate a statement, but it is not required on Go in most of the time since it will be automatically inserted
+
+### Rules
+0. the last token before a newline is an identifier (which includes words like `int` and `float64`), a basic literal such as a number or string constant, or one of the tokens
+0. if the newline comes after a token that could end a statement, insert a semicolon
+0. don't put the opening brace of a control structure, e.g. `if`, `for`, `switch`, or `select`) on the next line
