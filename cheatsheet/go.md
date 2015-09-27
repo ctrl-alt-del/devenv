@@ -58,3 +58,28 @@ This cheatsheet is based on the official document, [Effective Go](https://golang
 0. the last token before a newline is an identifier (which includes words like `int` and `float64`), a basic literal such as a number or string constant, or one of the tokens
 0. if the newline comes after a token that could end a statement, insert a semicolon
 0. don't put the opening brace of a control structure, e.g. `if`, `for`, `switch`, or `select`) on the next line
+
+
+
+## Control structures
+0. there is no `do` or `while` loop
+
+### If
+0. avoid unnecessary `else` as much as possible, a.k.a stop the flow early using conditions
+
+
+### Redeclaration and reassignment
+0. value are mutable
+
+
+### For
+0. C `for`: `for init; condition; post { }`
+0. C `while`: `for condition { }`
+0. C `for(;;)`: `for { }`
+0. use an underscore (`_`), blank identifier to discard the unwanted value
+
+### Switch
+
+
+### Type switch
+
