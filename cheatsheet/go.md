@@ -77,8 +77,13 @@ This cheatsheet is based on the official document, [Effective Go](https://golang
 0. C `while`: `for condition { }`
 0. C `for(;;)`: `for { }`
 0. use an underscore (`_`), blank identifier to discard the unwanted value
+0. `for key, value := range array`
+0. `range` breaks out individual Unicode code points by parsing the UTF-8
+
 
 ### Switch
+0.  expressions doesn't need be constants or even integers
+0.  no automatic fall through, but cases can be presented in comma-separated lists
 
 
 ### Type switch
