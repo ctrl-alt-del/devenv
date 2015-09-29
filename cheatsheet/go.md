@@ -25,7 +25,6 @@ This cheatsheet is based on the official document, [Effective Go](https://golang
 
 
 ## Names
-
 ### Package names
 0. names have semantic effect
 0. package names use single-word, lower case and should be short, concise, and evocative
@@ -87,4 +86,8 @@ This cheatsheet is based on the official document, [Effective Go](https://golang
 
 
 ### Type switch
+0. a type switch uses the syntax of a type assertion with the keyword `type` inside the parentheses
+0. reuse the variable name for its type, e.g. `t := t.(type)`
+
+
 
