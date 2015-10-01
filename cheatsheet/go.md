@@ -91,3 +91,15 @@ This cheatsheet is based on the official document, [Effective Go](https://golang
 
 
 
+## Functions
+### Multiple return values
+0. functions and methods can return multiple values
+
+
+### Named result parameters
+0. named result parameters are initialized to the zero values for their types when function begins
+0. if the function executes a return statement with no arguments, the current values of the result parameters are used as the returned values
+
+
+### Defer
+0. 
