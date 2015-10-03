@@ -106,3 +106,13 @@ This cheatsheet is based on the official document, [Effective Go](https://golang
 0. avoid leaking by using `defer` to close file before existing a function
 0. deferred functions are executed in LIFO order
 0. arguments to deferred functions are evaluated when the `defer` executes
+
+
+
+## Data
+
+### Allocation with `new`
+0. two allocation primitives, the built-in functions `new` and `make`
+0. `new` allocates memory, but it does NOT initialize the memory, it only zeros it; `new(T)` returns a pointer to a newly allocated zero value of type `T`
+
+
