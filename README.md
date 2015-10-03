@@ -1793,19 +1793,22 @@ Once downloaded, double click to install.
 brew update
 brew install postgresql
 ```
+
+Alternatively, you can download the `.app` file from [PostgreSQL](http://www.postgresql.org/download/macosx).  Once the file is downloaded, double click it to install.
+
 [BACK TO TOP](#table-of-contents)
 
 
 ### PostgreSQL on Ubuntu
 ```sh
-sudo apt-get install postgresql
+sudo apt-get install postgresql postgresql-contrib
 ```
 [BACK TO TOP](#table-of-contents)
 
 
 ### PostgreSQL on Fedora
 ```sh
-sudo yum install postgresql
+sudo yum install postgresql postgresql-contrib
 ```
 [BACK TO TOP](#table-of-contents)
 
