@@ -114,5 +114,7 @@ This cheatsheet is based on the official document, [Effective Go](https://golang
 ### Allocation with `new`
 0. two allocation primitives, the built-in functions `new` and `make`
 0. `new` allocates memory, but it does NOT initialize the memory, it only zeros it; `new(T)` returns a pointer to a newly allocated zero value of type `T`
+0. data structure can create one with new and get right to work
+0. both `p := new(Object)` and `var v Object` will create a zero value, ready to use `Object` class
 
 
