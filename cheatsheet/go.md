@@ -118,3 +118,8 @@ This cheatsheet is based on the official document, [Effective Go](https://golang
 0. both `p := new(Object)` and `var v Object` will create a zero value, ready to use `Object` class
 
 
+### Constructors and composite literals
+0. a composite literal is an expression that creates a new instance each time it is evaluated
+0. the storage associated with local variable survives after the function returns
+0. the fields of a composite literal are laid out **in order** and **must all be present** unless they are labeled
+0. if a composite literal contains no fields at all, it creates a zero value for the type. The expressions `new(File)` and `&File{}` are equivalent in this case
