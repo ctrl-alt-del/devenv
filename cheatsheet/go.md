@@ -123,3 +123,8 @@ This cheatsheet is based on the official document, [Effective Go](https://golang
 0. the storage associated with local variable survives after the function returns
 0. the fields of a composite literal are laid out **in order** and **must all be present** unless they are labeled
 0. if a composite literal contains no fields at all, it creates a zero value for the type. The expressions `new(File)` and `&File{}` are equivalent in this case
+
+
+### Allocation with `make`
+0. it creates slices, maps, and channels only
+0. it returns an initialized (not zeroed) value of type T (not *T)
