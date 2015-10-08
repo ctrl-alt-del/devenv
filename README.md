@@ -130,16 +130,16 @@ $Env:<variable_name>
 ### Terminal on Windows
 We are just going to use the Git Bash that comes with [Git](#git-on-windows).
 
-
 Alternatively, you can try [Cygwin](#cygwin) or [Chocolatey](#Chocolatey).
 
 #### Cygwin
-[**Cygwin**](https://www.cygwin.com)
+[**Cygwin**](https://www.cygwin.com) is GNU and Open Source tools package manager for Windows.
+
+[BACK TO TOP](#table-of-contents)
 
 
 #### Chocolatey
 [**Chocolatey**](https://chocolatey.org)
-
 
 [BACK TO TOP](#table-of-contents)
 
@@ -1564,9 +1564,9 @@ apply plugin: 'com.android.application'
 Added maven central as the source of missing repositories
 ```gradle
 buildscript {
-    repositories {
-        mavenCentral()
-    }
+	repositories {
+		mavenCentral()
+	}
 }
 ```
 
@@ -1575,7 +1575,7 @@ buildscript {
 To include downloaded jar files in your build:
 ```gradle
 dependencies {
-    compile fileTree(dir: 'libs', include: '*.jar')
+	compile fileTree(dir: 'libs', include: '*.jar')
 }
 ```
 
@@ -1583,16 +1583,16 @@ dependencies {
 ##### Match Folder Structure with Gradle Default Paths
 ```gradle
 sourceSets {
-    main {
-        manifest.srcFile 'AndroidManifest.xml'
-        java.srcDirs = ['src']
-        resources.srcDirs = ['src']
-        aidl.srcDirs = ['src']
-        renderscript.srcDirs = ['src']
-        res.srcDirs = ['res']
-        assets.srcDirs = ['assets']
-        jniLibs.srcDirs = ['jniLibs']
-    }
+	main {
+		manifest.srcFile 'AndroidManifest.xml'
+		java.srcDirs = ['src']
+		resources.srcDirs = ['src']
+		aidl.srcDirs = ['src']
+		renderscript.srcDirs = ['src']
+		res.srcDirs = ['res']
+		assets.srcDirs = ['assets']
+		jniLibs.srcDirs = ['jniLibs']
+	}
 }
 ```
 
@@ -1601,9 +1601,9 @@ sourceSets {
 Multi-dex is needed if there is more than 65535 lines of compile methods
 ```gradle
 android {
-    defaultConfig {
-        multiDexEnabled true
-    }
+	defaultConfig {
+		multiDexEnabled true
+	}
 }
 ```
 
@@ -1612,10 +1612,10 @@ android {
 Set incremental dex to true and limit the max dex memory to reduce build time in Android Studio.
 ```gradle
 android {
-    dexOptions {
-        incremental true
-        javaMaxHeapSize "4g"
-    }
+	dexOptions {
+		incremental true
+		javaMaxHeapSize "4g"
+	}
 }
 ```
 
@@ -1624,11 +1624,11 @@ android {
 You may apply different configurations for debug and release version of your app:
 ```gradle
 buildTypes {
-    release {
-    }
+	release {
+	}
 
-    debug {
-    }
+	debug {
+	}
 }
 ```
 
@@ -1638,14 +1638,14 @@ Build configuration fields can be defined and used for different build types:
 
 ```gradle
 buildTypes {
-    release {
-        buildConfigField "String", "STRING_FIELD_NAME", "string_field_value"
-        buildConfigField "int", "INTEGER_FIELD_NAME", "-1"
-    }
+	release {
+		buildConfigField "String", "STRING_FIELD_NAME", "string_field_value"
+		buildConfigField "int", "INTEGER_FIELD_NAME", "-1"
+	}
 
-    debug {
-    	buildConfigField "boolean", "BOOLEAN_FIELD_NAME", "true"
-    }
+	debug {
+		buildConfigField "boolean", "BOOLEAN_FIELD_NAME", "true"
+	}
 }
 ```
 
@@ -1859,8 +1859,8 @@ sudo gedit /usr/lib/guake/guake.py
 * [**Windows**](#chef-on-windows)
 * [**Mac**](#chef-on-mac)
 * [**Chef Tools**](#chef-tools)
-	* [**Knife-solo**](#knife-solo)
-	* [**Librarian-Chef**](#librarian-chef)
+* [**Knife-solo**](#knife-solo)
+* [**Librarian-Chef**](#librarian-chef)
 
 ### Chef on Windows
 Visit [Chef's download page](http://www.chef.io/chef/install) and download the `msi` installer for your specific Windows version.
