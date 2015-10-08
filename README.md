@@ -91,9 +91,9 @@ For Windows's default command prompt or PowerShell, you will sometimes need the 
 
 
 ### Environment Variables
-For Windows users, it is necessary to modified the Environment Variables (EV) so that some applications can be accessed through [terminal](#terminal).
+For Windows users, it is necessary to modified the Environment Variables (Env) so that some applications can be accessed through [terminal](#terminal).
 
-Follow the steps to reach the interface of EV:
+Follow the steps to reach the interface of Env:
 <br>
 Right click `My Computer` -> click `Properties` -> click `Environment Variables`
 
@@ -103,8 +103,18 @@ For `Variable name`, the convention is to use the upper case of the application'
 
 For `Variable value`, just enter the full path of the application.
 
-Once new EV is added, select `Path` row under the `User variables` section, and click the `Edit` button on below.  Go to the end of its `Variable value` and append the name of EV that you just created with a `;` as separator.  Click `OK` and you are done.
+Once new Env is added, select `Path` row under the `User variables` section, and click the `Edit` button on below.  Go to the end of its `Variable value` and append the name of Env that you just created with a `;` as separator.  Click `OK` and you are done.
 
+Alternatively, you can also use PowerShell script to add and update your Env.
+
+To list all existing Env, open a PowerShell terminal and execute:
+```powershell
+Get-ChildItem Env:
+```
+Or you can just list the particular Env by executing: (replacing <variable_name> with the variable name)
+```powershell
+$Env:<variable_name>
+```
 [BACK TO TOP](#table-of-contents)
 
 
@@ -2665,7 +2675,7 @@ Once download is completed, double click the file and follow its instruction to 
 
 If you are using git bash, follow the instruction for [Ubuntu](#go-on-ubuntu) to set the `PATH` variables.
 
-You may also edit the environment variables of windows to enable the `go` commands globally.
+You may also edit the environment variables of windows to enable the `go` commands on `cmd` or PowerShell.
 
 [BACK TO TOP](#table-of-contents)
 
