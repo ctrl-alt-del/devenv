@@ -128,3 +128,10 @@ This cheatsheet is based on the official document, [Effective Go](https://golang
 ### Allocation with `make`
 0. it creates slices, maps, and channels only
 0. it returns an initialized (not zeroed) value of type T (not *T)
+
+
+### Arrays
+0. arrays are primarily used as the building block for slices
+0. arrays are value; assigning one array to another copies all the elements
+0. passing an array to a function, it will receive a copy of the array, not a pointer to it
+0. the size of an array is part of its type. The types `[10]int` and `[20]int` are distinct
