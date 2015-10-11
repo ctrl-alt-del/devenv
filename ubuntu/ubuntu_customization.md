@@ -13,6 +13,7 @@ Ubuntu may experience issues for some (older) Synaptic TouchPads, such as tappin
 The easiest fix for those issues is to use `synclient`, which is available since Ubuntu 12.04, to configure the touchpad.
 
 * [Enable vertical two finger scroll](#enable-vertical-two-finger-scroll)
+* [Enable two finger tapping as right click](#enable-two-finger-tapping-as-right-click)
 
 ### Enable vertical two finger scroll
 Two finger scrolling is disabled by default.  Depending on the version of your touch pad, you can enable two finger scroll either though:
@@ -25,4 +26,10 @@ If `synclient` is not available, you will need to replace `synclient VertTwoFing
 ```sh
 xinput --set-prop --type=int --format=32 "SynPS/2 Synaptics TouchPad" "Synaptics Two-Finger Pressure" 4 #synclient VertTwoFingerScroll=1
 xinput --set-prop --type=int --format=8 "SynPS/2 Synaptics TouchPad" "Synaptics Two-Finger Scrolling" 1 0 #synclient EmulateTwoFingerMinZ=4
+```
+
+
+### Enable two finger tapping as right click
+```sh
+synclient TapButton2=3
 ```
