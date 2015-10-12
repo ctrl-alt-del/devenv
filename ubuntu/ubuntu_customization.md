@@ -3,7 +3,7 @@ Ubuntu Customization
 Contents and behaviors were tested on both 12.04 and 14.04.
 
 * [TouchPad Issue](#touchpad-issue)
-* Graphic Card Issue
+* [Graphic Card Issue](#graphic-card-issue)
 * Gnome Shell
 * Places Drawer on Files
 
@@ -33,3 +33,9 @@ xinput --set-prop --type=int --format=8 "SynPS/2 Synaptics TouchPad" "Synaptics 
 ```sh
 synclient TapButton2=3
 ```
+
+
+## Graphic Card Issue
+Ubuntu may have compatibility issue with some graphic cards, especially the older Nvidia ones.
+
+Depending on specific chip of your graphic card, you will need either the `nvidia-304`, `nvidia-319`, `nvidia-325` or `nvidia-current` driver updates.
