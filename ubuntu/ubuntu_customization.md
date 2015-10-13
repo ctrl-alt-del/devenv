@@ -39,3 +39,7 @@ synclient TapButton2=3
 Ubuntu may have compatibility issue with some graphic cards, especially the older Nvidia ones.
 
 Depending on specific chip of your graphic card, you will need either the `nvidia-304`, `nvidia-319`, `nvidia-325` or `nvidia-current` driver updates.
+
+A common behavior for graphic card issue is that the screen freezes or black out after login to a user.  It would also be the screen shows losing frames while performing normal tasks.
+
+When one of above behavior happens, the system itself is usually still responding, only the desktop being not responding.
