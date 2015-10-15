@@ -36,7 +36,7 @@ synclient TapButton2=3
 
 
 ## Graphic Card Issue
-Ubuntu may have compatibility issue with some graphic cards, especially the older Nvidia ones.
+Ubuntu may have compatibility issue with some graphic cards, especially the older **Nvidia** ones.
 
 Depending on specific chip of your graphic card, you will need either the `nvidia-304`, `nvidia-319`, `nvidia-325` or `nvidia-current` driver updates.
 
@@ -46,3 +46,7 @@ Some common behaviors for graphic card related issues are:
 0. screen shows distorted images
 
 When one of above behavior happens, the system itself is usually still responding, only the desktop being not responding.
+
+To resolve the issue, you need to remove the current/default graphic card driver (likely a Xorg) and re-install one of the appropriate Nvidia graphic card driver.
+
+To do so, first entering terminal through pressing `ctrl` + `alt` +`F1`, and login with your **administrator credential**.
