@@ -50,3 +50,13 @@ When one of above behavior happens, the system itself is usually still respondin
 To resolve the issue, you need to remove the current/default graphic card driver (likely a Xorg) and re-install one of the appropriate Nvidia graphic card driver.
 
 To do so, first entering terminal through pressing `ctrl` + `alt` +`F1`, and login with your **administrator credential**.
+
+Once login, try using the `nvidia-current` as your first attempt; perform:
+```sh
+sudo apt-get purge nvidia*
+sudo apt-get install nvidia-current
+```
+Once the drivers are installed, reboot your system:
+```sh
+sudo shutdown -r 0
+```
