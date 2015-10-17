@@ -60,3 +60,10 @@ Once the drivers are installed, reboot your system:
 ```sh
 sudo shutdown -r 0
 ```
+
+If `nvidia-current` has no luck, then try `nvidia-325`, `nvidia-319`, `nvidia-304` accordingly.
+```sh
+sudo apt-get purge nvidia*
+sudo apt-get install nvidia-325-update # replace 325 with 319 and 304 in other cases
+sudo shutdown -r 0
+```
