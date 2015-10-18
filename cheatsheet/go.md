@@ -102,9 +102,9 @@ This cheatsheet is based on the official document, [Effective Go](https://golang
 
 
 ### Defer
-0. `defer` schedules a function call immediately before executing function is finished
-0. avoid leaking by using `defer` to close file before existing a function
-0. deferred functions are executed in LIFO order
+0. `defer` schedules a function call immediately before the currently executing function is finished
+0. a good use case would be to avoid leaking by using `defer` to close file before existing a function
+0. deferred functions are executed in **LIFO** order
 0. arguments to deferred functions are evaluated when the `defer` executes
 
 
