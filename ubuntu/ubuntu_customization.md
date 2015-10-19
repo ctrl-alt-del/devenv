@@ -36,7 +36,7 @@ synclient TapButton2=3
 
 
 ## Graphic Card Issue
-Ubuntu may have compatibility issue with some graphic cards, especially the older **Nvidia** ones.
+Ubuntu may have compatibility issue with some older graphic cards, especially the **Nvidia** ones.
 
 Depending on specific chip of your graphic card, you will need either the `nvidia-304`, `nvidia-319`, `nvidia-325` or `nvidia-current` driver updates.
 
@@ -56,6 +56,7 @@ Once login, try using the `nvidia-current` as your first attempt; perform:
 sudo apt-get purge nvidia*
 sudo apt-get install nvidia-current
 ```
+
 Once the drivers are installed, reboot your system:
 ```sh
 sudo shutdown -r 0
@@ -67,3 +68,5 @@ sudo apt-get purge nvidia*
 sudo apt-get install nvidia-325-update # replace 325 with 319 and 304 in other cases
 sudo shutdown -r 0
 ```
+
+If both the `nvidia-325` and `nvidia-319` don't work, the `nvidia-304` will likely work.
