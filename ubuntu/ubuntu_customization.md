@@ -51,7 +51,9 @@ To resolve the issue, you need to remove the current/default graphic card driver
 
 To do so, first entering terminal through pressing `ctrl` + `alt` +`F1`, and login with your **administrator credential**.
 
-Once login, try using the `nvidia-current` as your first attempt; perform:
+The are steps to determine exactly what driver to use base on the chip version you have.  However, it is outside of the scope in here; since there aren't that many drivers, the approach here would be to try the driver one by one.
+
+Once login, try to install the `nvidia-current` as your first attempt by performing:
 ```sh
 sudo apt-get purge nvidia*
 sudo apt-get install nvidia-current
