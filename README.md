@@ -2725,6 +2725,12 @@ Follow the same instruction as [Ubuntu](#go-on-ubuntu).
 [BACK TO TOP](#table-of-contents)
 
 
+#### Godep
+[**Godep**](https://github.com/tools/godep) is an dependency management tool in [Go](#go).
+
+It helps avoid dependency issues and it is especially helpful while deploying a Go project to production.
+
+
 ## Tree
 [**Tree**](http://mama.indstate.edu/users/ice/tree) is a recursive directory listing tool with nice indentation and color codes.
 
