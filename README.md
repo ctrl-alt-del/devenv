@@ -2730,6 +2730,13 @@ Follow the same instruction as [Ubuntu](#go-on-ubuntu).
 
 It helps avoid dependency issues and it is especially helpful while deploying a Go project to production.
 
+To install Godep, you need to install `go` first, then you can get `godep` by:
+```sh
+go get github.com/tools/godep
+```
+[BACK TO TOP](#table-of-contents)
+
+
 
 ## Tree
 [**Tree**](http://mama.indstate.edu/users/ice/tree) is a recursive directory listing tool with nice indentation and color codes.
