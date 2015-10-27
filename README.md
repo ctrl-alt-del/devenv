@@ -71,8 +71,8 @@ This document and bash scripts will be updated piece by piece and I will try my 
 * [Setup Android dev environment](#setup-android-dev-enviroment)
 * [Flash Issue on older PC](#flash-issue-on-older-pc)
 
-* [Go](https://github.com/ctrl-alt-del/devenv/tree/master/go)
-* [Rust](https://github.com/ctrl-alt-del/devenv/tree/master/rust)
+* [Go](https://github.com/ctrl-alt-del/devenv/tree/master/language/go)
+* [Rust](https://github.com/ctrl-alt-del/devenv/tree/master/language/rust)
 
 
 ## Configuration
