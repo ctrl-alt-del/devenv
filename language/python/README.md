@@ -5,7 +5,7 @@ Python
 * [**Mac**](#python-on-mac)
 * [**Ubuntu**](#python-on-ubuntu)
 * [**Fedora**](#python-on-fedora)
-* [`**pip**`](#pip)
+* [**`pip`**](#pip)
 
 ### Python on Windows
 There are Python 2.x and Python 3.x available.  This instruction will focus on 2.x, but similar steps can be easily applied to 3.x as well.
@@ -76,8 +76,8 @@ sudo yum install python27
 
 
 
-## Pip
-[**pip**](https://pip.pypa.io/en/stable) is a package control tool for [Python](#python).
+## `pip`
+[**`pip`**](https://pip.pypa.io/en/stable) is a package control tool for [Python](#python).
 
 Python 2.7.9 and later contain `pip` by default, but you are free to install or upgrade it if it doesn't not come with your python, or you want to have the latest version.
 
