@@ -88,7 +88,7 @@ Python 2.7.9 and later contain `pip` by default, but you are free to install or 
 * [**Ubuntu**](#pip-on-ubuntu)
 * [**Fedora**](#pip-on-fedora)
 
-### Pip on Mac
+### `pip` on Mac
 To install `pip`, you can download its installer file from [here]
 (https://pip.pypa.io/en/latest/installing.html#install-pip)
 
@@ -105,14 +105,14 @@ pip -V
 [BACK TO TOP](#table-of-contents)
 
 
-### Pip on Ubuntu
+### `pip` on Ubuntu
 ```sh
 sudo apt-get install python-pip
 ```
 [BACK TO TOP](#table-of-contents)
 
 
-### Pip on Fedora
+### `pip` on Fedora
 ```sh
 sudo yum clean all
 sudo yum -y update
