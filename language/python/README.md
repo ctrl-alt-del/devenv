@@ -34,7 +34,9 @@ which python # should see /usr/bin/python
 python -V # using uppercase V to see the version of installed python
 ```
 
-if there is error saying php is not found on sh.exe, restart the git bash and run above line again.
+if there is error saying python is not found on sh.exe, restart the git bash and run above line again.
+
+In order to make `python` available across `cmd.exe` and `PowerShell.exe`, we need to add the root directory of Python and its `\Scripts` folder as environment variables.
 
 [BACK TO TOP](#table-of-contents)
 
