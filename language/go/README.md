@@ -5,6 +5,9 @@ Go
 * [**Windows**](#go-on-windows)
 * [**Mac**](#go-on-mac)
 * [**Ubuntu**](#go-on-ubuntu)
+* [**Godep**](#godep)
+
+
 
 ### Go on Windows
 Visit [Go's download page](https://golang.org/dl) and download the latest `.msi` file, which is in bold.
@@ -18,12 +21,14 @@ You may also edit the environment variables of windows to enable the `go` comman
 [BACK TO TOP](#table-of-contents)
 
 
+
 ### Go on Mac
 Visit [Go's download page](https://golang.org/dl) and download the latest `.pkg` file.
 
 Once download is completed, double click the `.pkg` file to install Go on your computer, and then follow the same instruction for [Ubuntu](go-on-ubuntu) to update the `$PATH` on Mac.
 
 [BACK TO TOP](#table-of-contents)
+
 
 
 ### Go on Ubuntu
@@ -57,13 +62,15 @@ Alternatively, you can install Go from its source.  To do so, visit [Go's source
 [BACK TO TOP](#table-of-contents)
 
 
+
 ### Go on Fedora
 Follow the same instruction as [Ubuntu](#go-on-ubuntu).
 
 [BACK TO TOP](#table-of-contents)
 
 
-#### Godep
+
+## Godep
 [**Godep**](https://github.com/tools/godep) is an dependency management tool in [Go](#go).
 
 It helps avoid dependency issues and it is especially helpful while deploying a Go project to production.
@@ -78,3 +85,8 @@ To use `godep`, navigate to the root directory of your Go project and then execu
 `-r` is for re-directing your dependencies to the ones that managed by `godep`.
 
 [BACK TO TOP](#table-of-contents)
+
+### Useful packages
+```sh
+
+```
