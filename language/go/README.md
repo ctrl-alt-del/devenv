@@ -88,5 +88,7 @@ To use `godep`, navigate to the root directory of your Go project and then execu
 
 ### Useful packages
 ```sh
-
+go get github.com/mattn/go-sqlite3
+go get github.com/alexcesaro/mail/gomail
+go get github.com/twinj/uuid
 ```
