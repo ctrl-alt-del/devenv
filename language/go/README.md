@@ -6,6 +6,7 @@ Go
 * [**Mac**](#go-on-mac)
 * [**Ubuntu**](#go-on-ubuntu)
 * [**Godep**](#godep)
+* [**Beego Framework**](#beego-framework)
 
 
 
@@ -91,4 +92,12 @@ To use `godep`, navigate to the root directory of your Go project and then execu
 go get github.com/mattn/go-sqlite3
 go get github.com/alexcesaro/mail/gomail
 go get github.com/twinj/uuid
+```
+
+
+
+## Beego Framework
+```sh
+go get github.com/astaxie/beego
+go get github.com/beego/bee
 ```
