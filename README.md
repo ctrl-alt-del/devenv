@@ -524,6 +524,37 @@ git config --global alias.cm !git add -A && git commit -m
 
 
 
+### Git Theme
+The theme of Git can be easily modified on the `/Git/etc/profile.d/git-prompt.sh` file.
+
+One example theme would be:
+```sh
+PS1='\[\033]0;$MSYSTEM:${PWD//[^[:ascii:]]/?}\007\]' # set window title
+PS1="$PS1"'\[\033[1;32m\]'       # change to bold green
+PS1="$PS1"'→ '                 # add an right arrow
+PS1="$PS1"'\[\033[1;36m'       # change to bold cyan
+PS1="$PS1"'\w'                 # current working directory
+if test -z "$WINELOADERNOEXEC"
+then
+	GIT_EXEC_PATH="$(git --exec-path 2>/dev/null)"
+	COMPLETION_PATH="${GIT_EXEC_PATH%/libexec/git-core}"
+	COMPLETION_PATH="${COMPLETION_PATH%/lib/git-core}"
+	COMPLETION_PATH="$COMPLETION_PATH/share/git/completion"
+	if test -f "$COMPLETION_PATH/git-prompt.sh"
+	then
+		. "$COMPLETION_PATH/git-completion.bash"
+		. "$COMPLETION_PATH/git-prompt.sh"
+		PS1="$PS1"'\[\033[1;31m\]'  # change color to bold red
+		PS1="$PS1"'`__git_ps1`'   # bash function
+
+	fi
+fi
+PS1="$PS1"'\[\033[0m\]'        # change color
+PS1="$PS1"' '                 # prompt: always space
+```
+[BACK TO TOP](#table-of-contents)
+
+
 ## Gitg
 Gitg is a graphic user interface for git.
 
