@@ -523,6 +523,10 @@ git config --global alias.cm !git add -A && git commit -m
 [BACK TO TOP](#table-of-contents)
 
 
+### GCC Support
+I use [**TDM-GCC**](http://tdm-gcc.tdragon.net) to fullfill my `gcc` needs so that I can keep using Git-bash.
+
+
 
 ### Git Theme
 The theme of Git can be easily modified on the `/Git/etc/profile.d/git-prompt.sh` file.
