@@ -524,7 +524,8 @@ git config --global alias.cm !git add -A && git commit -m
 
 
 ### GCC Support
-I use [**TDM-GCC**](http://tdm-gcc.tdragon.net) to fullfill my `gcc` needs so that I can keep using Git-bash.
+`gcc`, or [GNU Complier Collection](https://gcc.gnu.org/) is a tricky part for Windows users.  Often times, only the binaries are provided along with other projects, such as [Cygwin](http://sourceware.org/cygwin), [mingw-w64](http://mingw-w64.org) or  
+I use [**TDM-GCC**](http://tdm-gcc.tdragon.net) to fulfill my `gcc` needs so that I can keep using Git-bash.
 
 
 
