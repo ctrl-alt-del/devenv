@@ -7,16 +7,16 @@ Ruby
 * [**Fedora**](#ruby-on-fedora)
 
 ### Ruby on Windows
-You can install Ruby on Windows by using [RubyInstaller](http://rubyinstaller.org/downloads) with either the [x86 installer](http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.2.2.exe) or [x64 installer](http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.2.2-x64.exe) based on your operation system.
+You can install Ruby on Windows by using [RubyInstaller](http://rubyinstaller.org/downloads) with either the [x86 installer](http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.2.3.exe) or [x64 installer](http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.2.3-x64.exe) based on your operation system.
 
-Install Ruby under /c/usr/bin/ruby or whatever directory you chose
+Install Ruby under `~/Applications/Ruby` or whatever directory you chose
 
 Once the installation is done, the executable `ruby.exe` should then be under:
-`/c/usr/bin/ruby/bin`
+`~/Applications/Ruby/bin`
 
 Run git bash as administrator, then create a symbolic link by running:
 ```sh
-ln -s /c/usr/bin/ruby/bin/ruby.exe /usr/bin/ruby.exe
+ln -s ~/Applications/Ruby/bin/ruby.exe /usr/bin/ruby.exe
 ```
 
 Verify the symbolic link is working properly by running:
@@ -31,7 +31,7 @@ Once you restarted the git bash and verified ruby is installed on your machine, 
 ruby --version
 ```
 
-If you want to call Ruby from the PowerShell of Windows's default terminal, you need to add Ruby to the system environment variables.
+If you want to call Ruby from the PowerShell of Windows's default terminal, you need to add `~/Applications/Ruby/bin` as `%RUBY_HOME%` to the system environment variables.
 
 
 #### devkit
