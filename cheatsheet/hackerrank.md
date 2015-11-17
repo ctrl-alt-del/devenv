@@ -3,6 +3,7 @@ Hacker Rank
 
 * [Algorithms](#algorithms)
   * [Strings](#strings)
+    * [Funny String](#funny-string)
     * [Two Strings](#two-strings)
 * [Java](#java)
   * [Strings](#strings)
@@ -11,6 +12,31 @@ Hacker Rank
 
 ## Algorithms
 ### Strings
+#### Funny String
+```java
+public static boolean isFunnyString(String str) {
+     char[] strArray = str.toCharArray();
+     int l = strArray.length;
+     if (l == 0) {
+         return false;
+     }
+
+     if (l == 1 || l == 2) {
+         return true;
+     }
+
+     int mid = (l + 1)/2;
+     for (int i = 1; i <= mid; i++) {
+         if (Math.abs(strArray[i] - strArray[i-1]) != Math.abs(strArray[l-i] - strArray[l-i-1])) {
+             return false;
+         }
+     }
+     return true;
+ }
+```
+
+
+
 #### Two Strings
 The goal is to determine if there is a substring that appears in both give strings.
 
