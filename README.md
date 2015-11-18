@@ -464,6 +464,13 @@ You can download the latest git install file for Windows from [here](http://git-
 
 Once the installation file is downloaded, install it under `/c/usr/bin/git` or whatever directory you chose.  Don't worry about the configuration choices available during the installation process, it would be fine to just keep them in default.
 
+There is a known problem for git bash not remembering command history correctly.
+
+To resolve it, you can execute the follow lines in your bash:
+```sh
+touch ~/.bash_profile
+echo "PROMPT_COMMAND='history -a'" >> "~/.bash_profile"
+```
 [BACK TO TOP](#table-of-contents)
 
 
