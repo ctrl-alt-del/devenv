@@ -4,6 +4,7 @@ Hacker Rank
 * [Algorithms](#algorithms)
   * [Strings](#strings)
     * [Funny String](#funny-string)
+    * [Pangrams](#pangrams)
     * [Two Strings](#two-strings)
 * [Java](#java)
   * [Strings](#strings)
@@ -33,6 +34,35 @@ public static boolean isFunnyString(String str) {
      }
      return true;
  }
+```
+
+
+
+### Pangrams
+```java
+public static boolean isPangram(String str) {
+    int l = str.length();
+    if (l < 26) {
+        return false;
+    }
+
+    boolean[] alphabets = new boolean[26];
+    String x = str.toLowerCase();
+    int count = 0;
+    int index = 0;
+    for (int i = 0; i < l; i++) {
+        index = x.charAt(i) - 'a';
+        if (index >= 0 && !alphabets[index]) {
+            alphabets[index] = true;
+            count++;
+        }
+
+        if (count == 26) {
+            return true;
+        }
+    }
+    return false;
+}
 ```
 
 
