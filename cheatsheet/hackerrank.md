@@ -6,6 +6,7 @@ Hacker Rank
     * [Funny String](#funny-string)
     * [Pangrams](#pangrams)
     * [Alternating Characters](#alternating-characters)
+    * [Anagram](#anagram)
     * [Two Strings](#two-strings)
 * [Java](#java)
   * [Strings](#strings)
@@ -85,6 +86,34 @@ public static int getAlternatingCharCount(String str) {
         }
     }
     return count > 0 ? count - 1 : count;
+}
+```
+
+
+
+#### Anagram
+```java
+public static int getAnagramChangeCount(String str) {
+    int l = str.length();
+    if (l % 2 != 0) {
+        return -1;
+    }
+
+    int count = 0;
+    int[] charCounts = new int[26];
+    for (int i = 0; i < l / 2; i++) {
+        charCounts[str.charAt(i) - 'a']++;
+    }
+    for (int i = l / 2; i < l; i++) {
+        charCounts[str.charAt(i) - 'a']--;
+    }
+
+    for (int i = 0; i < 26; i++) {
+        if (charCounts[i] > 0) {
+            count = count + charCounts[i];
+        }
+    }
+    return count;
 }
 ```
 
