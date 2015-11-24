@@ -19,8 +19,11 @@ Hacker Rank
 #### Funny String
 ```java
 public static boolean isFunnyString(String str) {
-     char[] strArray = str.toCharArray();
-     int l = strArray.length;
+     if (str == null) {
+         return false;
+     }
+
+     int l = str.length;
      if (l == 0) {
          return false;
      }
@@ -29,6 +32,7 @@ public static boolean isFunnyString(String str) {
          return true;
      }
 
+     char[] strArray = str.toCharArray();
      int mid = (l + 1)/2;
      for (int i = 1; i <= mid; i++) {
          if (Math.abs(strArray[i] - strArray[i-1]) != Math.abs(strArray[l-i] - strArray[l-i-1])) {
@@ -41,7 +45,7 @@ public static boolean isFunnyString(String str) {
 
 
 
-### Pangrams
+#### Pangrams
 ```java
 public static boolean isPangram(String str) {
     int l = str.length();
