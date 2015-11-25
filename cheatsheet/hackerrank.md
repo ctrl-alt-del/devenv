@@ -48,6 +48,10 @@ public static boolean isFunnyString(String str) {
 #### Pangrams
 ```java
 public static boolean isPangram(String str) {
+    if (str == null) {
+        return false;
+    }
+
     int l = str.length();
     if (l < 26) {
         return false;
@@ -99,6 +103,10 @@ public static int getAlternatingCharCount(String str) {
 #### Anagram
 ```java
 public static int getAnagramChangeCount(String str) {
+    if (str == null) {
+        return false;
+    }
+
     int l = str.length();
     if (l % 2 != 0) {
         return -1;
@@ -130,6 +138,10 @@ The goal is to determine if there is a substring that appears in both give strin
 Since a `char` is the minimum unit of a substring, we just need to know if the two strings share any common characters.
 ```java
 public static boolean hasCommonChar(String str1, String str2) {
+    if (str1 == null || str2 == null) {
+        return false;
+    }
+
     String shorterStr;
     String longerStr;
     if (str1.length() < str2.length()) {
@@ -182,7 +194,7 @@ public static boolean isPalindrome (String str) {
 #### Java Anagrams
 ```java
 public static boolean isAnagram(String str1, String str2) {
-    if (str1.length() != str2.length()) {
+    if (str1 == null || str2 == null || str1.length() != str2.length()) {
         return false;
     }
 
