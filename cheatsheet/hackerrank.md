@@ -13,6 +13,9 @@ Hacker Rank
     * [Java String Reverse](#java-string-reverse)
     * [Java Anagrams](#java-anagrams)
     * [Java String Compare](#java-string-compare)
+* [Others](#others)
+  * [Phone Number to Strings](#phone-number-to-strings)
+
 
 
 
@@ -271,5 +274,54 @@ public static boolean isLexiSmaller(String str1, String str2) {
         }
     }
     return false;
+}
+```
+
+
+
+## Others
+### Phone Number to Strings
+```java
+public static void main(String[] args) {
+    HashMap<Integer, String> mPool = new HashMap<>();
+    mPool.put(0, "");
+    mPool.put(1, "");
+    mPool.put(2, "abc");
+    mPool.put(3, "def");
+    mPool.put(4, "ghi");
+    mPool.put(5, "jkl");
+    mPool.put(6, "mno");
+    mPool.put(7, "pqrs");
+    mPool.put(8, "tuv");
+    mPool.put(9, "wxyz");
+    String phoneNumber = "123456789";
+    List<String> combinations = getNumber2String(phoneNumber, mPool);
+    for (String opt : combinations) {
+        System.out.println(opt);
+    }
+}
+
+public static List<String> getNumber2String(String str, HashMap<Integer, String> mPool) {
+    if (str.length() == 0) return Collections.emptyList();
+
+    List<String> results = new ArrayList<>();
+    String digit2String = mPool.get(Integer.valueOf(str.substring(0, 1)));
+    digit2String = digit2String.length() == 0 ? " " : digit2String;
+    char[] currentDigitChars = digit2String.toCharArray();
+    if (str.length() == 1) {
+        for (char ch : currentDigitChars) {
+            results.add(ch + "");
+        }
+    } else {
+        String nextStr = str.substring(1);
+        List<String> suffixes = getNumber2String(nextStr, mPool);
+
+        for (char ch : currentDigitChars) {
+            for (String suffix : suffixes) {
+                results.add(ch + suffix);
+            }
+        }
+    }
+    return results;
 }
 ```
