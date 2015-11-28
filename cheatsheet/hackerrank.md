@@ -283,17 +283,17 @@ public static boolean isLexiSmaller(String str1, String str2) {
 ### Phone Number to Strings
 ```java
 public static void main(String[] args) {
-    HashMap<Integer, String> mPool = new HashMap<>();
-    mPool.put(0, "");
-    mPool.put(1, "");
-    mPool.put(2, "abc");
-    mPool.put(3, "def");
-    mPool.put(4, "ghi");
-    mPool.put(5, "jkl");
-    mPool.put(6, "mno");
-    mPool.put(7, "pqrs");
-    mPool.put(8, "tuv");
-    mPool.put(9, "wxyz");
+    HashMap<String, String> mPool = new HashMap<>();
+    mPool.put("0", "");
+    mPool.put("1", "");
+    mPool.put("2", "abc");
+    mPool.put("3", "def");
+    mPool.put("4", "ghi");
+    mPool.put("5", "jkl");
+    mPool.put("6", "mno");
+    mPool.put("7", "pqrs");
+    mPool.put("8", "tuv");
+    mPool.put("9", "wxyz");
     String phoneNumber = "123456789";
     List<String> combinations = getNumber2String(phoneNumber, mPool);
     for (String opt : combinations) {
@@ -301,11 +301,11 @@ public static void main(String[] args) {
     }
 }
 
-public static List<String> getNumber2String(String str, HashMap<Integer, String> mPool) {
+public static List<String> getNumber2String(String str, HashMap<String, String> mPool) {
     if (str.length() == 0) return Collections.emptyList();
 
     List<String> results = new ArrayList<>();
-    String digit2String = mPool.get(Integer.valueOf(str.substring(0, 1)));
+    String digit2String = mPool.get(str.substring(0, 1));
     digit2String = digit2String.length() == 0 ? " " : digit2String;
     char[] currentDigitChars = digit2String.toCharArray();
     if (str.length() == 1) {
