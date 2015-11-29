@@ -295,13 +295,13 @@ public static void main(String[] args) {
     mPool.put("8", "tuv");
     mPool.put("9", "wxyz");
     String phoneNumber = "123456789";
-    List<String> combinations = getNumber2String(phoneNumber, mPool);
+    List<String> combinations = getNumber2Strings(phoneNumber, mPool);
     for (String opt : combinations) {
         System.out.println(opt);
     }
 }
 
-public static List<String> getNumber2String(String str, HashMap<String, String> mPool) {
+public static List<String> getNumber2Strings(String str, HashMap<String, String> mPool) {
     if (str.length() == 0) return Collections.emptyList();
 
     List<String> results = new ArrayList<>();
@@ -310,12 +310,11 @@ public static List<String> getNumber2String(String str, HashMap<String, String> 
     char[] currentDigitChars = digit2String.toCharArray();
     if (str.length() == 1) {
         for (char ch : currentDigitChars) {
-            results.add(ch + "");
+            results.add(String.valueOf(ch));
         }
     } else {
         String nextStr = str.substring(1);
-        List<String> suffixes = getNumber2String(nextStr, mPool);
-
+        List<String> suffixes = getNumber2Strings(nextStr, mPool);
         for (char ch : currentDigitChars) {
             for (String suffix : suffixes) {
                 results.add(ch + suffix);
