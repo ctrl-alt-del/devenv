@@ -14,18 +14,13 @@ Download [Python 2.7.9 for Windows](https://www.python.org/downloads/release/pyt
 
 Under the Download tab, choose the appropriate `msi` file to download, either [x86](https://www.python.org/ftp/python/2.7.9/python-2.7.9.msi) or [x64](https://www.python.org/ftp/python/2.7.9/python-2.7.9.amd64.msi) based on your operation system.
 
-Once the `.msi` file is downloaded, double click it to install under a path similar to `/c/usr/bin/python`.
+Once the `.msi` file is downloaded, double click it to install under a path similar to `~/Applications/Python`.
 
-the executable python.exe should then be under: `/c/usr/bin/python/python.exe`
+the executable python.exe should then be under: `~/Applications/Python/python.exe`
 
-Run git bash as administrator, then go to the bin of git bash by running:
+Run git bash as administrator, then create a symbolic link by running:
 ```sh
-cd /usr/bin
-```
-
-Create a symbolic link by running:
-```sh
-ln -s /c/usr/bin/python/python.exe python.exe
+ln -s ~/Applications/Python/python.exe /usr/bin/python.exe
 ```
 
 Verify the symbolic link is working properly by running:
@@ -33,7 +28,6 @@ Verify the symbolic link is working properly by running:
 which python # should see /usr/bin/python
 python -V # using uppercase V to see the version of installed python
 ```
-
 if there is error saying python is not found on sh.exe, restart the git bash and run above line again.
 
 In order to make `python` available across `cmd.exe` and `PowerShell.exe`, we need to add the root directory of Python and its `\Scripts` folder as environment variables.
@@ -41,8 +35,8 @@ In order to make `python` available across `cmd.exe` and `PowerShell.exe`, we ne
 [BACK TO TOP](#table-of-contents)
 
 
-### Python on Mac
 
+### Python on Mac
 Mac should have Python installed by default.  To verify it, you can open your terminal and run:
 ```sh
 python --version
@@ -58,6 +52,7 @@ brew install python
 [BACK TO TOP](#table-of-contents)
 
 
+
 ### Python on Ubuntu
 Install Python can be very easy with the help from the DeadSnakes PPA:
 ```sh
@@ -66,6 +61,7 @@ sudo apt-get update
 sudo apt-get install python2.7
 ```
 [BACK TO TOP](#table-of-contents)
+
 
 
 ### Python on Fedora
