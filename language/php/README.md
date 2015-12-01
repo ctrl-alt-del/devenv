@@ -23,21 +23,11 @@ Or use the following command to download the 64-bit version:
 curl --remote-name http://windows.php.net/downloads/releases/php-5.6.13-Win32-VC11-x64.zip
 ```
 
-Unzip the downloaded file to /c/usr/bin/php, or whatever directory you chose.
+Unzip the downloaded file to `~/Applications/PHP`, or whatever directory you chose, and the executable `php.exe` should then be under: `~/Applications/PHP/php.exe`
 
-the executable php.exe should then be under:
+Run git bash as administrator, then create a symbolic link by running:
 ```sh
-/c/usr/bin/php/php.exe
-```
-
-Run git bash as administrator, then go to the bin of git bash by running:
-```sh
-cd /usr/bin
-```
-
-Create a symbolic link by running:
-```sh
-ln -s /c/usr/bin/php/php.exe php.exe
+ln -s ~/Applications/PHP/php.exe /usr/bin/php.exe
 ```
 
 Verify the symbolic link is working properly by running:
