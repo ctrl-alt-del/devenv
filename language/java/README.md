@@ -13,16 +13,11 @@ Download the latest Java for Windows from [Oracle](http://www.oracle.com/technet
 
 Choose the appropriate Thread Safe zip to download, either [Windows x86](http://download.oracle.com/otn-pub/java/jdk/7u79-b15/jdk-7u79-windows-i586.exe) or [Windows x64](http://download.oracle.com/otn-pub/java/jdk/7u79-b15/jdk-7u79-windows-x64.exe) based on your operation system.
 
-Run the downloaded executable file and install java under `~/Applications/java`, create the folder if it is not yet existed.
+Run the downloaded executable file and install java under `~/Applications/Java`, create the folder if it is not yet existed.
 
-Run git bash as administrator, then go to the bin of git bash by running:
+Run git bash as administrator, then create a symbolic link by running:
 ```sh
-cd /usr/bin
-```
-
-Create a symbolic link by running:
-```sh
-ln -s ~/Applications/java/java.exe java.exe
+ln -s ~/Applications/Java/java.exe /usr/bin/java.exe
 ```
 
 Verify the symbolic link is working properly by running:
@@ -33,7 +28,7 @@ java -version
 
 if there is error saying java is not found on sh.exe, restart the git bash and run above line again.
 
-Alternatively, you can also add `~/Applications/java` as `%JAVA_HOME%` on the Windows environment variables list.
+Alternatively, you can also add `~/Applications/Java` as `%JAVA_HOME%` on the Windows environment variables list.
 
 [BACK TO TOP](#table-of-contents)
 
