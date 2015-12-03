@@ -15,6 +15,7 @@ Hacker Rank
     * [Java String Compare](#java-string-compare)
 * [Others](#others)
   * [Phone Number to Strings](#phone-number-to-strings)
+  * [Find All Capitalized Letter Combinations](#find-all-capitalized-letter-combinations)
 
 
 
@@ -322,5 +323,32 @@ public static List<String> getNumber2Strings(String str, HashMap<String, String>
         }
     }
     return results;
+}
+```
+
+
+
+### Find All Capitalized Letter Combinations
+```java
+public static void main(String[] args) {
+    unveilCode("abc", 0);
+}
+
+public static void unveilCode(String str, int n) {
+    int l = str.length();
+    char lastChar = str.charAt(l - 1);
+    if (Character.toUpperCase(lastChar) == lastChar) {
+        return;
+    }
+
+    char[] chars;
+    String code;
+    for (int i = n; i < l; i++) {
+        chars =  = str.toCharArray();
+        chars[i] = Character.toUpperCase(chars[i]);
+        code = new String(chars);
+        System.out.println(code);
+        unveilCode(code, i + 1);
+    }
 }
 ```
