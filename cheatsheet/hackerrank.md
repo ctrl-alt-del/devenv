@@ -341,12 +341,14 @@ public static void unveilCode(String str, int n) {
         return;
     }
 
-    char[] chars;
+    char[] chars = str.toCharArray();
+    char tempChar;
     String code;
     for (int i = n; i < l; i++) {
-        chars =  = str.toCharArray();
+        tempChar = chars[i];
         chars[i] = Character.toUpperCase(chars[i]);
         code = new String(chars);
+        chars[i] = tempChar;
         System.out.println(code);
         unveilCode(code, i + 1);
     }
