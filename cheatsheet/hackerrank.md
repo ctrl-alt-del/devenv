@@ -331,26 +331,25 @@ public static List<String> getNumber2Strings(String str, HashMap<String, String>
 ### Find All Capitalized Letter Combinations
 ```java
 public static void main(String[] args) {
-    unveilCode("abc", 0);
+  unveilCode("abc".toCharArray(), 0);
 }
 
-public static void unveilCode(String str, int n) {
-    int l = str.length();
-    char lastChar = str.charAt(l - 1);
+public static void unveilCode(char[] chars, int n) {
+    int l = chars.length;
+    char lastChar = chars[l - 1];
     if (Character.toUpperCase(lastChar) == lastChar) {
         return;
     }
 
-    char[] chars = str.toCharArray();
     char tempChar;
-    String code;
     for (int i = n; i < l; i++) {
         tempChar = chars[i];
+
         chars[i] = Character.toUpperCase(chars[i]);
-        code = new String(chars);
+        System.out.println(chars);
+        unveilCode(chars, i + 1);
+
         chars[i] = tempChar;
-        System.out.println(code);
-        unveilCode(code, i + 1);
     }
 }
 ```
