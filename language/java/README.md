@@ -48,7 +48,7 @@ java -version
 
 
 ### Java on Ubuntu
-#### Oracle JDK Method 1
+#### Oracle JDK Method Manually
 Download the latest Java for Ubuntu from [Oracle](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html).
 
 Follow the instruction on there to read and accept the license agreement, then click the `tar.gz` download link for [Linux x86](http://download.oracle.com/otn-pub/java/jdk/7u79-b15/jdk-7u79-linux-i586.tar.gz) or [Linux x64](http://download.oracle.com/otn-pub/java/jdk/7u79-b15/jdk-7u79-linux-x64.tar.gz) based on your operation system.
@@ -63,13 +63,15 @@ echo "JAVA_HOME=/usr/lib/jvm/java-7-oracle" >> ~/.profile
 Since `~/.bashrc` will be loaded whenever you start a new terminal, `$JAVA_HOME` will be ready as well.
 
 
-#### Oracle JDK Method 2
-Alternatively, you can use PPA to install Oracle Java as well.
+#### Oracle JDK Method Automatically
+Alternatively, you can use PPA to install Oracle JDK as well.
 ```sh
 sudo apt-get install python-software-properties
 sudo add-apt-repository ppa:webupd8team/java
 sudo apt-get update
 sudo apt-get install oracle-java7-installer
+sudo apt-get install oracle-java7-set-default
+sudo apt-get autoremove
 ```
 
 
