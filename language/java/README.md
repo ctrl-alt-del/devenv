@@ -48,12 +48,22 @@ java -version
 
 
 ### Java on Ubuntu
+#### Oracle JDK Method 1
 Download the latest Java for Ubuntu from [Oracle](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html).
 
 Follow the instruction on there to read and accept the license agreement, then click the `tar.gz` download link for [Linux x86](http://download.oracle.com/otn-pub/java/jdk/7u79-b15/jdk-7u79-linux-i586.tar.gz) or [Linux x64](http://download.oracle.com/otn-pub/java/jdk/7u79-b15/jdk-7u79-linux-x64.tar.gz) based on your operation system.
 
-Once the `tar.gz` file is downloaded, double click it to start the installation.
+Once the `tar.gz` file is downloaded, double click it to unzip the file, and move it to `/usr/lib/jvm/`
 
+It is also recommended to setup `$JAVA_HOME` variable if it hasn't been automatically set up during the installation process.
+```sh
+echo "JAVA_HOME=/usr/lib/jvm/java-7-oracle" >> ~/.bashrc
+echo "JAVA_HOME=/usr/lib/jvm/java-7-oracle" >> ~/.profile
+```
+Since `~/.bashrc` will be loaded whenever you start a new terminal, `$JAVA_HOME` will be ready as well.
+
+
+#### Oracle JDK Method 2
 Alternatively, you can use PPA to install Oracle Java as well.
 ```sh
 sudo apt-get install python-software-properties
@@ -62,7 +72,8 @@ sudo apt-get update
 sudo apt-get install oracle-java7-installer
 ```
 
-#### OpenJDK
+
+#### Open JDK
 If you want to install OpenJDK on Ubuntu, you can do so by running:
 ```sh
 sudo apt-get update
@@ -73,13 +84,6 @@ Once installation process is done, you can verify the version of Java by running
 ```sh
 java -version
 ```
-
-It is also recommended to setup `$JAVA_HOME` variable if it hasn't been automatically set up during the installation process.
-```sh
-echo "JAVA_HOME=/usr/lib/jvm/java-7-oracle" >> ~/.bashrc
-echo "JAVA_HOME=/usr/lib/jvm/java-7-oracle" >> ~/.profile
-```
-Since `~/.bashrc` will be loaded whenever you start a new terminal, `$JAVA_HOME` will be ready as well.
 [BACK TO TOP](#table-of-contents)
 
 
