@@ -27,8 +27,6 @@ This document and bash scripts will be updated piece by piece and I will try my 
 |[Curl](#curl)               | [-->](#curl-on-windows)        | [-->](#curl-on-mac)       | [-->](#curl-on-ubuntu)      | [   ](#curl-on-fedora)      |
 |[devkit](#devkit)           | [-->](#devkit)                 | N/A                       | N/A                         | N/A                         |
 |[RSpec](#rspec)             | [-->](#rspec-on-windows)       | [   ](#rspec-on-mac)      | [   ](#rspec-on-ubuntu)     | [   ](#rspec-on-fedora)     |
-|[Node.js](#nodejs)          | [-->](#nodejs)                 | [-->](#nodejs-on-mac)     | [-->](#nodejs-on-ubuntu)    | [   ](               )      |
-|[npm](#npm)                 | [   ](       )                 | N/A                       | [-->](#npm-on-ubuntu)       | [   ](               )      |
 |[Express](#express)         | [   ](       )                 | [-->](#express-on-mac)    | [   ](                 )    | [   ](               )      |
 |[Nodemon](#nodemon)         | [   ](       )                 | [-->](#nodemon-on-mac)    | [   ](                 )    | [   ](               )      |
 |[OpenSSL](#openssl)         | [   ](       )                 | [   ](            )       | [-->](#openssl-on-ubuntu)   | [   ](               )      |
@@ -793,83 +791,6 @@ composer global require "laravel/installer=~1.1"
 ### Known Issues
 * Not able to build project on remote server
 remote server has limited resources and may not be capable of crawling through remote hosted repositories to search for the latest dependencies, therefore, you need to commit and push your `composer.lock` file as well.  This file contains the exact locations of the dependencies that your project needs.
-[BACK TO TOP](#table-of-contents)
-
-
-
-## Node.js
-Node.js is an platform for Javascript.  To install Node.js, download the install file from its [homepage](http://nodejs.org/download).
-
-Once download is done, double click the file and follow the instruction to install it into your computer.
-
-Once installation is done, Node.js and Node Packaged Modules (npm) should be ready on your computer.
-
-You can verify them by running:
-```sh
-node -v
-npm -v
-```
-
-* [**Windows**](#nodejs-on-windows)
-* [**Mac**](#nodejs-on-mac)
-* [**Ubuntu**](#nodejs-on-ubuntu)
-* [**Fedora**](#nodejs-on-fedora)
-
-### Node.js on Windows
-Download [Node.js Windows Installer](https://nodejs.org/download) and install it.
-
-[BACK TO TOP](#table-of-contents)
-
-
-### Node.js on Mac
-Alternatively, you can install Node.js through [Homebrew](#homebrew).
-```sh
-brew install node
-```
-[BACK TO TOP](#table-of-contents)
-
-
-## Node.js on Ubuntu
-```sh
-sudo apt-get install nodejs
-```
-[BACK TO TOP](#table-of-contents)
-
-If you want to have the latest version of Node.js, you can install it through [Chris Lea's PPA](https://chrislea.com/2013/03/15/upgrading-from-node-js-0-8-x-to-0-10-0-from-my-ppa).  You can do so by running:
-```sh
-sudo apt-get install python-software-properties python g++ make
-sudo add-apt-repository ppa:chris-lea/node.js
-sudo apt-get update
-sudo apt-get install nodejs
-```
-[BACK TO TOP](#table-of-contents)
-
-
-### Node.js on Fedora
-```sh
-sudo yum install nodejs
-```
-[BACK TO TOP](#table-of-contents)
-
-
-
-## npm
-npm is a package manager for [Node.js](#nodejs)
-
-* [**Ubuntu**](#npm-on-ubuntu)
-* [**Fedora**](#npm-on-fedora)
-
-### npm on Ubuntu
-```sh
-sudo apt-get install npm
-```
-[BACK TO TOP](#table-of-contents)
-
-
-### npm on Fedora
-```sh
-sudo yum install npm
-```
 [BACK TO TOP](#table-of-contents)
 
 
