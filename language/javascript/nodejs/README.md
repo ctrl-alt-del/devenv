@@ -52,24 +52,3 @@ sudo apt-get install nodejs
 sudo yum install nodejs
 ```
 [BACK TO TOP](#table-of-contents)
-
-
-
-## npm
-npm is a package manager for [Node.js](#nodejs)
-
-* [**Ubuntu**](#npm-on-ubuntu)
-* [**Fedora**](#npm-on-fedora)
-
-### npm on Ubuntu
-```sh
-sudo apt-get install npm
-```
-[BACK TO TOP](#table-of-contents)
-
-
-### npm on Fedora
-```sh
-sudo yum install npm
-```
-[BACK TO TOP](#table-of-contents)
