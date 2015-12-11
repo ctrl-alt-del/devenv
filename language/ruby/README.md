@@ -56,7 +56,7 @@ ruby dk.rb install
 
 If there is no error shows up, the setup is successful.
 
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
 ### Ruby on Mac
@@ -71,7 +71,7 @@ If Ruby does not come with your Mac somehow or you want to have a newer version 
 2. Install the latest version of Ruby through [Homebrew](#homebrew) by running `brew install ruby`.
 3. Use RVM to install Ruby, see the instruction for [**Ubuntu**](#ruby-on-ubuntu).
 
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
 ### Ruby on Ubuntu
@@ -122,10 +122,10 @@ and then paste and save the following two lines into `.gemrc`
 install: --no-rdoc --no-ri
 update:  --no-rdoc --no-ri
 ```
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
 ### Ruby on Fedora
 Same as Ubuntu, see the instruction for [**Ubuntu**](#ruby-on-ubuntu).
 
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)

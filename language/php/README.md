@@ -37,13 +37,13 @@ which php # should see /usr/bin/php
 
 if there is error saying php is not found on sh.exe, restart the git bash and run above line again.
 
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
 ### PHP on Mac
 PHP is bundled with Mac.
 
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
 ### PHP on Ubuntu
@@ -56,7 +56,7 @@ Once installation is done, you can verify it by running:
 ```sh
 php -v
 ```
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
 ### PHP on Fedora
@@ -75,7 +75,7 @@ yum repolist disabled
 sudo yum-config-manager --enable fedora-source
 sudo yum install php
 ```
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
 
@@ -89,7 +89,7 @@ sudo yum install php
 The easiest way to install composer on windows in using the [installer](https://getcomposer.org/Composer-Setup.exe).
 
 However, you can also install it mannually on git bash following the same instruction as [Mac](composer-on-mac).
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
 ### Composer on Mac
@@ -100,4 +100,4 @@ move the `composer.phar` to somewhere in your `PATH`, such as `/usr/bin` so that
 ```sh
 sudo mv composer.phar /usr/bin
 ```
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)

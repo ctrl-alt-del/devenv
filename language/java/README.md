@@ -30,7 +30,7 @@ if there is error saying java is not found on sh.exe, restart the git bash and r
 
 Alternatively, you can also add `~/Applications/Java` as `%JAVA_HOME%` on the Windows environment variables list.
 
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
 ### Java on Mac
@@ -44,7 +44,7 @@ Once the installation is done, you can verify your Java version by running the f
 ```sh
 java -version
 ```
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
 ### Java on Ubuntu
@@ -86,7 +86,7 @@ Once installation process is done, you can verify the version of Java by running
 ```sh
 java -version
 ```
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
 ### Java on Fedora
@@ -103,4 +103,4 @@ Similarly, if you want to install OpenJDK on Fedora, you can do so by running:
 ```sh
 sudo yum install java-1.7.0-openjdk-devel
 ```
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)

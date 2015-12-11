@@ -32,7 +32,7 @@ if there is error saying python is not found on sh.exe, restart the git bash and
 
 In order to make `python` available across `cmd.exe` and `PowerShell.exe`, we need to add the root directory of Python and its `\Scripts` folder as environment variables.
 
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
 
@@ -49,7 +49,7 @@ Or you can install the latest version of Python through Homebrew by running:
 ```sh
 brew install python
 ```
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
 
@@ -60,7 +60,7 @@ sudo add-apt-repository ppa:fkrull/deadsnakes
 sudo apt-get update
 sudo apt-get install python2.7
 ```
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
 
@@ -69,7 +69,7 @@ sudo apt-get install python2.7
 sudo yum update
 sudo yum install python27
 ```
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
 
@@ -100,14 +100,14 @@ You can verify its version by running:
 ```sh
 pip -V
 ```
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
 ### `pip` on Ubuntu
 ```sh
 sudo apt-get install python-pip
 ```
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
 ### `pip` on Fedora
@@ -122,4 +122,4 @@ Alternatively, we can install `pip` from source code.  This approach works on al
 curl "https://bootstrap.pypa.io/get-pip.py" -o "get-pip.py"
 sudo python get-pip.py
 ```
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)

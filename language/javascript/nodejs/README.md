@@ -20,7 +20,7 @@ npm -v
 ### Node.js on Windows
 Download [Node.js Windows Installer](https://nodejs.org/download) and install it.
 
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
 ### Node.js on Mac
@@ -28,14 +28,14 @@ Alternatively, you can install Node.js through [Homebrew](#homebrew).
 ```sh
 brew install node
 ```
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
 ## Node.js on Ubuntu
 ```sh
 sudo apt-get install nodejs
 ```
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 If you want to have the latest version of Node.js, you can install it through [Chris Lea's PPA](https://chrislea.com/2013/03/15/upgrading-from-node-js-0-8-x-to-0-10-0-from-my-ppa).  You can do so by running:
 ```sh
@@ -44,11 +44,11 @@ sudo add-apt-repository ppa:chris-lea/node.js
 sudo apt-get update
 sudo apt-get install nodejs
 ```
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
 ### Node.js on Fedora
 ```sh
 sudo yum install nodejs
 ```
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
