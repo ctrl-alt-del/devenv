@@ -28,7 +28,6 @@ This document and bash scripts will be updated piece by piece and I will try my 
 |[devkit](#devkit)           | [-->](#devkit)                 | N/A                       | N/A                         | N/A                         |
 |[RSpec](#rspec)             | [-->](#rspec-on-windows)       | [   ](#rspec-on-mac)      | [   ](#rspec-on-ubuntu)     | [   ](#rspec-on-fedora)     |
 |[Express](#express)         | [   ](       )                 | [-->](#express-on-mac)    | [   ](                 )    | [   ](               )      |
-|[Nodemon](#nodemon)         | [   ](       )                 | [-->](#nodemon-on-mac)    | [   ](                 )    | [   ](               )      |
 |[OpenSSL](#openssl)         | [   ](       )                 | [   ](            )       | [-->](#openssl-on-ubuntu)   | [   ](               )      |
 |[Gradle](#gradle)           | [-->](#gradle-on-windows)      | [-->](#gradle-on-mac)     | [-->](#gradle-on-ubuntu)    | [-->](#gradle-on-fedora)    |
 |[WAMP](#wamp)               | [-->](#wamp)                   | N/A                       | N/A                         | N/A                         |
@@ -812,23 +811,6 @@ express --version
 
 [BACK TO TOP](#table-of-contents)
 
-
-## Nodemon
-Nodemon is a monitoring plugin that restart node.js application automatically if there is any changes happened to the code.
-
-* [**Mac**](#nodemon-on-mac)
-
-### Nodemon on Mac
-```sh
-sudo npm install -g nodemon
-```
-
-Once installation is done, open a terminal window and verify it by running:
-```sh
-nodemon -v
-```
-
-[BACK TO TOP](#table-of-contents)
 
 
 ## OpenSSL
