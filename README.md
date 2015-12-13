@@ -64,6 +64,12 @@ This document and bash scripts will be updated piece by piece and I will try my 
 * [Flash Issue on older PC](#flash-issue-on-older-pc)
 
 * [Go](https://github.com/ctrl-alt-del/devenv/tree/master/language/go)
+* [Java](https://github.com/ctrl-alt-del/devenv/tree/master/language/java)
+* [JavaScript](https://github.com/ctrl-alt-del/devenv/tree/master/language/javascript)
+	* [NodeJS](https://github.com/ctrl-alt-del/devenv/tree/master/language/javascript/nodejs)
+		* [CoffeeScript](https://github.com/ctrl-alt-del/devenv/tree/master/language/javascript/nodejs/coffeescript)
+		* [nodemon](https://github.com/ctrl-alt-del/devenv/tree/master/language/javascript/nodejs/coffeescript/nodemon)
+		* [npm](https://github.com/ctrl-alt-del/devenv/tree/master/language/javascript/nodejs/coffeescript/npm)
 * [PHP](https://github.com/ctrl-alt-del/devenv/tree/master/language/php)
 * [Python](https://github.com/ctrl-alt-del/devenv/tree/master/language/python)
 * [Ruby](https://github.com/ctrl-alt-del/devenv/tree/master/language/ruby)
