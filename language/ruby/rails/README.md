@@ -1,7 +1,6 @@
-Frameworks
-==========
-
-## Rails
+Rails
+=====
+[Rails](http://rubyonrails.org) is an open-source web framework for [Ruby](https://github.com/ctrl-alt-del/devenv/tree/master/language/ruby).
 
 * [**Windows**](#rails-on-windows)
 * [**Mac**](#rails-on-mac)
@@ -9,10 +8,10 @@ Frameworks
 * [**Fedora**](#rails-on-fedora)
 
 ### Rails on Windows
-Ruby and devkit are the prerequisite for Rails.  To verify both Ruby and devkit are installed in your machine, run the following lines on your git bash:
+Ruby and `devkit` are the prerequisite for Rails.  To verify both Ruby and `devkit` are installed in your machine, run the following lines on your git bash:
 ```sh
-which ruby # should see a path similar to /c/usr/bin/ruby/bin/ruby
-which gem # should see a path similar to /c/usr/bin/devkit/gem
+which ruby # should see a path similar to ~/Applications/ruby/bin/ruby
+which gem # should see a path similar to ~/Applications/devkit/gem
 ```
 
 Then run following line to install Rails:
@@ -22,10 +21,10 @@ gem install rails
 
 Once installation is done, verify it by running:
 ```sh
-which rails # should see a path similar to /c/usr/bin/rails/rails
+which rails # should see a path similar to ~/Applications/rails/rails
 rails -v # should see the version of rails
 ```
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
 ## Rails on Mac
@@ -47,17 +46,17 @@ rails -v
 
 If you encounter issue while running `gem install pg`, you need to install PostgreSQL and you can do so by follow the instruction [here](#postgresql-on-mac).
 
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
 ## Rails on Ubuntu
 Please follow the same instruction of [Mac](#rails-on-mac).
 
 If you come across an error that compliant about no having a Javascript runtime environment, you can resolve it by installing [Node.js](#nodejs-on-ubuntu).
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
 ## Rails on Fedora
 Please follow the same instruction of [Mac](#rails-on-mac).
 
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
