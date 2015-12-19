@@ -9,9 +9,20 @@ npm -v
 ```
 Both of them should return version number.
 
+* [**Windows**](#sailjs-on-windows)
 * [**Mac**](#sailjs-on-mac)
 * [**Ubuntu**](#sailjs-on-ubuntu)
 * [**Fedora**](#sailjs-on-fedora)
+
+### Sail.js on Windows
+Right click on `cmd.exe`, `PowerShell.exe`, or `git-bash.exe` and select `Run as administrator`.
+
+Given that you have `node` and `npm` properly install, you can install Sail.js with:
+```sh
+npm -g install sails
+```
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
+
 
 ### Sail.js on Mac
 ```sh
