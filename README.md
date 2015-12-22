@@ -47,8 +47,6 @@ This document and bash scripts will be updated piece by piece and I will try my 
 |[iPython](#ipython)         | [   ](#ipython-on-windows)     | [-->](#ipython-on-mac)    | [-->](#ipython-on-ubuntu)   | [-->](#ipython-on-fedora)   |
 |[Bower](#bower)             | [   ](#bower-on-windows)       | [-->](#bower-on-mac)      | [-->](#bower-on-ubuntu)     | [-->](#bower-on-fedora)     |
 |[jQuery](#jquery)           | [-->](#jquery-on-windows)      | [-->](#jquery-on-mac)     | [-->](#jquery-on-ubuntu)    | [-->](#jquery-on-fedora)    |
-|[Scala](#scala)             | [-->](#scala-on-windows)       | [-->](#scala-on-mac)      | [-->](#scala-on-ubuntu)     | [-->](#scala-on-fedora)     |
-|[Sail.js](#sailjs)          | [   ](#sailjs-on-windows)      | [-->](#sailjs-on-mac)     | [-->](#sailjs-on-ubuntu)    | [-->](#sailjs-on-fedora)    |
 |[Tree](#tree)               | [-->](#tree-on-windows)        | [-->](#tree-on-mac)       | [-->](#tree-on-ubuntu)      | [-->](#tree-on-fedora)      |
 |[Android Studio](#android-studio) | [-->](#android-studio-on-windows) | [-->](#android-studio-on-mac) | [-->](#android-studio-on-ubuntu) | [-->](#android-studio-on-fedora) |
 
@@ -69,11 +67,14 @@ This document and bash scripts will be updated piece by piece and I will try my 
 	* [NodeJS](https://github.com/ctrl-alt-del/devenv/tree/master/language/javascript/nodejs)
 		* [CoffeeScript](https://github.com/ctrl-alt-del/devenv/tree/master/language/javascript/nodejs/coffeescript)
 		* [nodemon](https://github.com/ctrl-alt-del/devenv/tree/master/language/javascript/nodejs/coffeescript/nodemon)
-		* [npm](https://github.com/ctrl-alt-del/devenv/tree/master/language/javascript/nodejs/coffeescript/npm)
+		* [npm](https://github.com/ctrl-alt-del/devenv/tree/master/language/javascript/nodejs/npm)
+		* [Sail.js](https://github.com/ctrl-alt-del/devenv/tree/master/language/javascript/nodejs/sailjs)
 * [PHP](https://github.com/ctrl-alt-del/devenv/tree/master/language/php)
 * [Python](https://github.com/ctrl-alt-del/devenv/tree/master/language/python)
 * [Ruby](https://github.com/ctrl-alt-del/devenv/tree/master/language/ruby)
+	* [Rails](https://github.com/ctrl-alt-del/devenv/tree/master/language/ruby/rails)
 * [Rust](https://github.com/ctrl-alt-del/devenv/tree/master/language/rust)
+* [Scala](https://github.com/ctrl-alt-del/devenv/tree/master/language/scala)
 
 
 ## Configuration
