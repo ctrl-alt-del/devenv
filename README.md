@@ -43,7 +43,6 @@ This document and bash scripts will be updated piece by piece and I will try my 
 |[PyCharm](#pycharm)         | [   ](#pycharm-on-windows)     | [   ](#pycharm-on-mac)    | [-->](#pycharm-on-ubuntu)   | [-->](#pycharm-on-fedora)   |
 |[Eclipse](#eclipse)         | [-->](#eclipse)                | [-->](#eclipse-on-mac)    | [   ](#eclipse-on-ubuntu)   | [   ](#eclipse-on-fedora)   |
 |[VirtualBox](#virtualbox)   | [   ](#virtualbox-on-windows)  | [   ](#virtualbox-on-mac) | [-->](#virtualbox-on-ubuntu)| [-->](#virtualbox-on-fedora)|
-|[Redis](#redis)             | [   ](#redis-on-windows)       | [-->](#redis-on-mac)      | [-->](#redis-on-ubuntu)     | [-->](#redis-on-fedora)     |
 |[iPython](#ipython)         | [   ](#ipython-on-windows)     | [-->](#ipython-on-mac)    | [-->](#ipython-on-ubuntu)   | [-->](#ipython-on-fedora)   |
 |[Bower](#bower)             | [   ](#bower-on-windows)       | [-->](#bower-on-mac)      | [-->](#bower-on-ubuntu)     | [-->](#bower-on-fedora)     |
 |[jQuery](#jquery)           | [-->](#jquery-on-windows)      | [-->](#jquery-on-mac)     | [-->](#jquery-on-ubuntu)    | [-->](#jquery-on-fedora)    |
@@ -1915,45 +1914,6 @@ sudo apt-get install lamp-server^
 sudo yum update
 sudo yum install httpd mysql php php-mysql
 ```
-[BACK TO TOP](#table-of-contents)
-
-
-
-## Redis
-Redis is an open source key-value cache.
-
-* [**Mac**](#redis-on-mac)
-* [**Ubuntu**](#redis-on-ubuntu)
-* [**Fedora**](#redis-on-fedora)
-
-### Redis on Mac
-```sh
-brew install redis
-```
-[BACK TO TOP](#table-of-contents)
-
-
-### Redis on Ubuntu
-You need to download and install redis manually on Ubuntu.
-```sh
-wget http://download.redis.io/releases/redis-stable.tar.gz
-tar xzf redis-stable.tar.gz
-cd redis-stable
-make
-```
-
-Once installation is done, you can remove the folder and the zip file by running:
-```sh
-cd ..
-rm -rf redis-stable
-rm redis-stable.tar.gz
-```
-[BACK TO TOP](#table-of-contents)
-
-
-### Redis on Fedora
-Follow the same instruction as [Ubuntu](#redis-on-ubuntu)
-
 [BACK TO TOP](#table-of-contents)
 
 
