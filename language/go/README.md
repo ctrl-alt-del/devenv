@@ -19,7 +19,7 @@ If you are using git bash, follow the instruction for [Ubuntu](#go-on-ubuntu) to
 
 You may also edit the environment variables of windows to enable the `go` commands on `cmd` or PowerShell.
 
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
 
@@ -28,7 +28,7 @@ Visit [Go's download page](https://golang.org/dl) and download the latest `.pkg`
 
 Once download is completed, double click the `.pkg` file to install Go on your computer, and then follow the same instruction for [Ubuntu](go-on-ubuntu) to update the `$PATH` on Mac.
 
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
 
@@ -60,14 +60,14 @@ To append `$GOROOT` and `$GOPATH` to your `$PATH`, you can choose either of the 
 
 Alternatively, you can install Go from its source.  To do so, visit [Go's source install page](https://golang.org/doc/install/source) and follow instruction there to install.
 
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
 
 ### Go on Fedora
 Follow the same instruction as [Ubuntu](#go-on-ubuntu).
 
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
 
@@ -85,7 +85,7 @@ To use `godep`, navigate to the root directory of your Go project and then execu
 
 `-r` is for re-directing your dependencies to the ones that managed by `godep`.
 
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 ### Useful packages
 ```sh

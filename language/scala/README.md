@@ -12,7 +12,7 @@ Download the installer from [here](http://www.scala-lang.org/files/archive/scala
 
 Double click to install.
 
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
 ### Scala on Mac
@@ -20,7 +20,7 @@ Double click to install.
 brew install scala
 brew install sbt
 ```
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
 ### Scala on Ubuntu
@@ -33,10 +33,10 @@ echo "deb http://dl.bintray.com/sbt/debian /" | sudo tee -a /etc/apt/sources.lis
 sudo apt-get update
 sudo apt-get install sbt
 ```
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
 ### Scala on Fedora
 Follow the same instruction as [Ubuntu](#scala-on-ubuntu).
 
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)

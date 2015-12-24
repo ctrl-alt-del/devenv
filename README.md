@@ -76,6 +76,9 @@ This document and bash scripts will be updated piece by piece and I will try my 
 * [Scala](https://github.com/ctrl-alt-del/devenv/tree/master/language/scala)
 
 
+* [Redis](https://github.com/ctrl-alt-del/devenv/tree/master/database/redis)
+
+
 ## Configuration
 
 ### Configure Windows
