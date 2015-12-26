@@ -33,7 +33,6 @@ This document and bash scripts will be updated piece by piece and I will try my 
 |[WAMP](#wamp)               | [-->](#wamp)                   | N/A                       | N/A                         | N/A                         |
 |[MAMP](#mamp)               | N/A                            | [-->](#mamp)              | N/A                         | N/A                         |
 |[LAMP](#lamp)               | N/A                            | N/A                       | [-->](#lamp-on-ubuntu)      | [-->](#lamp-on-fedora)      |
-|[SQLite](#sqlite)           | [-->](#sqlite-on-windows)      | [-->](#sqlite-on-mac)     | [-->](#sqlite-on-ubuntu)    | [   ](#sqlite-on-fedora)    |
 |[MySQL](#mysql)             | [   ](       )                 | [-->](#mysql-on-mac)      | [-->](#mysql-on-ubuntu)     | [-->](#mysql-on-fedora)     |
 |[PostgreSQL](#postgreSQL)   | [   ](       )                 | [-->](#postgreSQL-on-mac) | [   ](               )      | [   ](               )      |
 |[Chef](#chef)               | [   ](       )                 | [-->](#chef-on-mac)       | [   ](               )      | [   ](               )      |
@@ -60,6 +59,7 @@ This document and bash scripts will be updated piece by piece and I will try my 
 * [Setup Android dev environment](#setup-android-dev-enviroment)
 * [Flash Issue on older PC](#flash-issue-on-older-pc)
 
+## Language
 * [Go](https://github.com/ctrl-alt-del/devenv/tree/master/language/go)
 * [Java](https://github.com/ctrl-alt-del/devenv/tree/master/language/java)
 * [JavaScript](https://github.com/ctrl-alt-del/devenv/tree/master/language/javascript)
@@ -75,8 +75,9 @@ This document and bash scripts will be updated piece by piece and I will try my 
 * [Rust](https://github.com/ctrl-alt-del/devenv/tree/master/language/rust)
 * [Scala](https://github.com/ctrl-alt-del/devenv/tree/master/language/scala)
 
-
+## Database
 * [Redis](https://github.com/ctrl-alt-del/devenv/tree/master/database/redis)
+* [SQLite](https://github.com/ctrl-alt-del/devenv/tree/master/database/sqlite)
 
 
 ## Configuration
@@ -1116,58 +1117,6 @@ sudo yum install php php-mysql
 ```
 You are done! LAMP stack is now installed into your Fedora.
 
-[BACK TO TOP](#table-of-contents)
-
-
-## SQLite
-[**SQLite**](http://www.sqlite.org) is an embedded database system.
-
-* [**Windows**](#sqlite-on-windows)
-* [**Mac**](#sqlite-on-mac)
-* [**Ubuntu**](#sqlite-on-ubuntu)
-
-### SQLite on Windows
-Download the latest SQLite for Windows from [here](http://www.sqlite.org/download.html)
-
-Scroll down the page to the "Precompiled Binaries for Windows" section, and download the sqlite-shell and sqlite-dll files.
-
-Or run the following lines on your git bash:
-```sh
-cd ~
-curl --remote-name "http://www.sqlite.org/2015/sqlite-shell-win32-x86-3081000.zip"
-curl --remote-name "http://www.sqlite.org/2015/sqlite-dll-win32-x86-3081000.zip"
-```
-
-Once both files are downloaded, unzip both of them to /c/usr/bin/sqlite, or whatever directory you chose.
-
-Run git bash as administrator, then go to the bin of git bash by running:
-```sh
-cd /usr/bin
-```
-
-Create a symbolic link by running:
-```sh
-ln -s /c/usr/bin/sqlite/sqlite.exe sqlite.exe
-```
-
-Verified sqlite is installed and properly linked on your machine by running:
-```sh
-sqlite -v
-```
-[BACK TO TOP](#table-of-contents)
-
-
-### SQLite on Mac
-```sh
-brew install sqlite3
-```
-[BACK TO TOP](#table-of-contents)
-
-
-### SQLite on Ubuntu
-```sh
-sudo apt-get install sqlite3 libsqlite3-dev
-```
 [BACK TO TOP](#table-of-contents)
 
 
