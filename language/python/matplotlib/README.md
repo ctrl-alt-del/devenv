@@ -26,7 +26,7 @@ Once `numpy` is installed, you can use PyCharm's auto complete import feature to
 
 
 ### matplotlib on Mac
-To install `matplotlib` on Mac, you need `pip` as the prerequisite; to install `pip`, you can do so by following the instruction in [here](https://github.com/ctrl-alt-del/devenv/tree/master/language/python#pip).
+To install `matplotlib` on Mac, you need `pip` as the prerequisite; to install `pip`, you can do so by following the instruction in [here](https://github.com/ctrl-alt-del/devenv/tree/master/language/python/pip).
 ```sh
 pip install matplotlib
 ```
