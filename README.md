@@ -1121,36 +1121,6 @@ You are done! LAMP stack is now installed into your Fedora.
 
 
 
-## MySQL
-[**MySQL**]() is a full stack relational database system.
-
-* [**Mac**](#mysql-on-mac)
-* [**Ubuntu**](#mysql-on-ubuntu)
-* [**Fedora**](#mysql-on-fedora)
-
-### MySQL on Mac
-If you use [Homebrew](#homebrew) as your package manager, installing MySQL is very simple.
-```sh
-brew install mysql
-```
-[BACK TO TOP](#table-of-contents)
-
-
-### MySQL on Ubuntu
-```sh
-sudo apt-get install mysql-server
-```
-[BACK TO TOP](#table-of-contents)
-
-
-### MySQL on Fedora
-```sh
-sudo yum install mysql mysql-server
-```
-[BACK TO TOP](#table-of-contents)
-
-
-
 ## PostgreSQL
 [**PostgreSQL**](http://www.enterprisedb.com) is similar to MySQL and it is the default database used on [Heroku](http://www.heroku.com).
 
