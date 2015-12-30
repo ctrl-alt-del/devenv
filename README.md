@@ -1121,47 +1121,6 @@ You are done! LAMP stack is now installed into your Fedora.
 
 
 
-## PostgreSQL
-[**PostgreSQL**](http://www.enterprisedb.com) is similar to MySQL and it is the default database used on [Heroku](http://www.heroku.com).
-
-* [**Windows**](#postgresql-on-windows)
-* [**Mac**](#postgresql-on-mac)
-* [**Ubuntu**](#postgresql-on-ubuntu)
-* [**Fedora**](#postgresql-on-fedora)
-
-### PostgreSQL on Windows
-Visit [PostgreSQL's download page](http://www.enterprisedb.com/products-services-training/pgdownload#windows) and download the `.msi` file for Windows.
-
-Once downloaded, double click to install.
-
-[BACK TO TOP](#table-of-contents)
-
-
-### PostgreSQL on Mac
-```sh
-brew update
-brew install postgresql
-```
-
-Alternatively, you can download the `.app` file from [PostgreSQL](http://www.postgresql.org/download/macosx).  Once the file is downloaded, double click it to install.
-
-[BACK TO TOP](#table-of-contents)
-
-
-### PostgreSQL on Ubuntu
-```sh
-sudo apt-get install postgresql postgresql-contrib
-```
-[BACK TO TOP](#table-of-contents)
-
-
-### PostgreSQL on Fedora
-```sh
-sudo yum install postgresql postgresql-contrib
-```
-[BACK TO TOP](#table-of-contents)
-
-
 ## Guake
 [**Guake**](http://guake.org) is a terminal for Gnome.
 
