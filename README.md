@@ -1631,29 +1631,6 @@ Follow the same instruction of [Ubuntu](#android-studio-on-ubuntu).
 
 
 
-## RSpec
-[**RSpec**](http://rspec.info) is a Behavior Driven Development tool.  Rails is its prerequisite.
-
-To verify Rails is installed in your machine, you can run:
-```sh
-rails -v # should show the version number
-```
-
-* [**Windows**](#rspec-on-ubuntu)
-
-### RSpec on Windows
-```sh
-gem install rspec
-```
-
-Once installation is done, verify it by running:
-```sh
-which rspec
-```
-[BACK TO TOP](#table-of-contents)
-
-
-
 ## iTerm2
 [**iTerm2**](http://iterm2.com) is essential a terminal armed with more features.  You can download it [here](https://iterm2.com/downloads/stable/iTerm2_v2_0.zip).
 
