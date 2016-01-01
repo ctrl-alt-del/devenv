@@ -26,15 +26,12 @@ This document and bash scripts will be updated piece by piece and I will try my 
 |[Wget](#wget)               | [   ](#wget-on-windows)        | [   ](#wget-on-mac)       | [-->](#wget-on-ubuntu)      | [-->](#wget-on-fedora)      |
 |[Curl](#curl)               | [-->](#curl-on-windows)        | [-->](#curl-on-mac)       | [-->](#curl-on-ubuntu)      | [   ](#curl-on-fedora)      |
 |[devkit](#devkit)           | [-->](#devkit)                 | N/A                       | N/A                         | N/A                         |
-|[RSpec](#rspec)             | [-->](#rspec-on-windows)       | [   ](#rspec-on-mac)      | [   ](#rspec-on-ubuntu)     | [   ](#rspec-on-fedora)     |
 |[Express](#express)         | [   ](       )                 | [-->](#express-on-mac)    | [   ](                 )    | [   ](               )      |
 |[OpenSSL](#openssl)         | [   ](       )                 | [   ](            )       | [-->](#openssl-on-ubuntu)   | [   ](               )      |
 |[Gradle](#gradle)           | [-->](#gradle-on-windows)      | [-->](#gradle-on-mac)     | [-->](#gradle-on-ubuntu)    | [-->](#gradle-on-fedora)    |
 |[WAMP](#wamp)               | [-->](#wamp)                   | N/A                       | N/A                         | N/A                         |
 |[MAMP](#mamp)               | N/A                            | [-->](#mamp)              | N/A                         | N/A                         |
 |[LAMP](#lamp)               | N/A                            | N/A                       | [-->](#lamp-on-ubuntu)      | [-->](#lamp-on-fedora)      |
-|[MySQL](#mysql)             | [   ](       )                 | [-->](#mysql-on-mac)      | [-->](#mysql-on-ubuntu)     | [-->](#mysql-on-fedora)     |
-|[PostgreSQL](#postgreSQL)   | [   ](       )                 | [-->](#postgreSQL-on-mac) | [   ](               )      | [   ](               )      |
 |[Chef](#chef)               | [   ](       )                 | [-->](#chef-on-mac)       | [   ](               )      | [   ](               )      |
 |[Vagrant](#Vagrant)         | [-->](#vagrant-on-windows)     | [-->](#vagrant-on-mac)    | [-->](#vagrant-on-ubuntu)   | [-->](#vagrant-on-fedora)   |
 |[Android SDK](#android-sdk) | [-->](#sdk-on-windows)         | [-->](#android-sdk)       | [-->](#sdk-on-ubuntu)       | [-->](#sdk)                 |
@@ -70,12 +67,17 @@ This document and bash scripts will be updated piece by piece and I will try my 
 		* [Sail.js](https://github.com/ctrl-alt-del/devenv/tree/master/language/javascript/nodejs/sailjs)
 * [PHP](https://github.com/ctrl-alt-del/devenv/tree/master/language/php)
 * [Python](https://github.com/ctrl-alt-del/devenv/tree/master/language/python)
+	* [matplotlib](https://github.com/ctrl-alt-del/devenv/tree/master/language/python/matplotlib)
+	* [pip](https://github.com/ctrl-alt-del/devenv/tree/master/language/python/pip)
 * [Ruby](https://github.com/ctrl-alt-del/devenv/tree/master/language/ruby)
 	* [Rails](https://github.com/ctrl-alt-del/devenv/tree/master/language/ruby/rails)
+	* [rspec](https://github.com/ctrl-alt-del/devenv/tree/master/language/ruby/rspec)
 * [Rust](https://github.com/ctrl-alt-del/devenv/tree/master/language/rust)
 * [Scala](https://github.com/ctrl-alt-del/devenv/tree/master/language/scala)
 
 ## Database
+* [MySQL](https://github.com/ctrl-alt-del/devenv/tree/master/database/mysql)
+* [PostgreSQL](https://github.com/ctrl-alt-del/devenv/tree/master/database/postgresql)
 * [Redis](https://github.com/ctrl-alt-del/devenv/tree/master/database/redis)
 * [SQLite](https://github.com/ctrl-alt-del/devenv/tree/master/database/sqlite)
 
