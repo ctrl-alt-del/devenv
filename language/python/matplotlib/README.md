@@ -8,18 +8,9 @@ matplotlib
 * [**Fedora**](#matplotlib-on-fedora)
 
 ### matplotlib on Windows
-There is currently no matplotlib installer for Windows; users need to to install each package individually by themselves.  The The easiest alternative that I found is to take advantage of the auto import feature of PyCharm, and let it automatically search, download and install all dependencies.  However, this approach requires users to install [`numpy`](http://www.numpy.org) package manually as the prerequisite.
+There is currently no `matplotlib` installer for Windows; users need to to install each package individually by themselves.  The The easiest alternative that I found is to take advantage of the auto import feature of PyCharm, and let it automatically search, download and install all dependencies.  However, this approach requires users to install [`numpy`](http://www.numpy.org) package manually as the prerequisite.
 
-To install `numpy` manually on Windows, you need to have python and Microsoft Visual C++ 9.0 pre-installed; if you haven't install `python`, you can do so by following the instruction in [here](https://github.com/ctrl-alt-del/devenv/tree/master/language/python).
-
-To install Microsoft Visual C++ 9.0, download the package [here](http://aka.ms/vcpython27) and double click the downloaded file to install it.
-
-To download `numpy`, you can either click  [here](http://sourceforge.net/projects/numpy/files/NumPy/1.10.2/numpy-1.10.2.zip/download), or navigate to its [download page](http://www.scipy.org/scipylib/download.html) and select the proper package for your operating system.
-
-Once the zip file is downloaded, unzip it.  Open either `cmd.exe`, `PowerShell.exe` or `git-bash.exe`, navigate to the unzipped folder and run the following script:
-```sh
-python setup.py install
-```
+You can follow the instruction [here](https://github.com/ctrl-alt-del/devenv/tree/master/language/python/numpy) to install `numpy` manually on Windows.
 
 Once `numpy` is installed, you can use PyCharm's auto complete import feature to install the rest of the dependencies required by `matplotlib`.
 
