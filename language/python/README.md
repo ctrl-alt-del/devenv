@@ -9,9 +9,9 @@ Python
 ### Python on Windows
 There are Python 2.x and Python 3.x available.  This instruction will focus on 2.x, but similar steps can be easily applied to 3.x as well.
 
-Download [Python 2.7.9 for Windows](https://www.python.org/downloads/release/python-279).
+Download [Python 2.7.11 for Windows](https://www.python.org/downloads/release/python-279).
 
-Under the Download tab, choose the appropriate `msi` file to download, either [x86](https://www.python.org/ftp/python/2.7.9/python-2.7.9.msi) or [x64](https://www.python.org/ftp/python/2.7.9/python-2.7.9.amd64.msi) based on your operation system.
+Under the Download tab, choose the appropriate `msi` file to download, either [x86](https://www.python.org/ftp/python/2.7.11/python-2.7.11.msi) or [x64](https://www.python.org/ftp/python/2.7.11/python-2.7.11.amd64.msi) based on your operation system.
 
 Once the `.msi` file is downloaded, double click it to install under a path similar to `~/Applications/Python`.
 

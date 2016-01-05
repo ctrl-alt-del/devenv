@@ -1,6 +1,6 @@
 numpy
 =====
-
+[NumPy](http://www.numpy.org) is the fundamental package for scientific computing with Python.
 
 ### numpy on Windows
 There two ways of installing `numpy`:
