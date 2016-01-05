@@ -26,7 +26,6 @@ This document and bash scripts will be updated piece by piece and I will try my 
 |[Wget](#wget)               | [   ](#wget-on-windows)        | [   ](#wget-on-mac)       | [-->](#wget-on-ubuntu)      | [-->](#wget-on-fedora)      |
 |[Curl](#curl)               | [-->](#curl-on-windows)        | [-->](#curl-on-mac)       | [-->](#curl-on-ubuntu)      | [   ](#curl-on-fedora)      |
 |[devkit](#devkit)           | [-->](#devkit)                 | N/A                       | N/A                         | N/A                         |
-|[Express](#express)         | [   ](       )                 | [-->](#express-on-mac)    | [   ](                 )    | [   ](               )      |
 |[OpenSSL](#openssl)         | [   ](       )                 | [   ](            )       | [-->](#openssl-on-ubuntu)   | [   ](               )      |
 |[Gradle](#gradle)           | [-->](#gradle-on-windows)      | [-->](#gradle-on-mac)     | [-->](#gradle-on-ubuntu)    | [-->](#gradle-on-fedora)    |
 |[WAMP](#wamp)               | [-->](#wamp)                   | N/A                       | N/A                         | N/A                         |
@@ -802,25 +801,6 @@ composer global require "laravel/installer=~1.1"
 ### Known Issues
 * Not able to build project on remote server
 remote server has limited resources and may not be capable of crawling through remote hosted repositories to search for the latest dependencies, therefore, you need to commit and push your `composer.lock` file as well.  This file contains the exact locations of the dependencies that your project needs.
-[BACK TO TOP](#table-of-contents)
-
-
-
-## Express
-
-* [**Mac**](#express-on-mac)
-
-### Express on Mac
-Express is a web development framework for node.js. You can install it by running:
-```sh
-sudo npm install -g express-generator
-```
-
-Once installation is done, open a terminal window and verify it by running:
-```sh
-express --version
-```
-
 [BACK TO TOP](#table-of-contents)
 
 
