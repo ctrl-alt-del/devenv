@@ -40,7 +40,6 @@ This document and bash scripts will be updated piece by piece and I will try my 
 |[VirtualBox](#virtualbox)   | [   ](#virtualbox-on-windows)  | [   ](#virtualbox-on-mac) | [-->](#virtualbox-on-ubuntu)| [-->](#virtualbox-on-fedora)|
 |[iPython](#ipython)         | [   ](#ipython-on-windows)     | [-->](#ipython-on-mac)    | [-->](#ipython-on-ubuntu)   | [-->](#ipython-on-fedora)   |
 |[Bower](#bower)             | [   ](#bower-on-windows)       | [-->](#bower-on-mac)      | [-->](#bower-on-ubuntu)     | [-->](#bower-on-fedora)     |
-|[jQuery](#jquery)           | [-->](#jquery-on-windows)      | [-->](#jquery-on-mac)     | [-->](#jquery-on-ubuntu)    | [-->](#jquery-on-fedora)    |
 |[Tree](#tree)               | [-->](#tree-on-windows)        | [-->](#tree-on-mac)       | [-->](#tree-on-ubuntu)      | [-->](#tree-on-fedora)      |
 |[Android Studio](#android-studio) | [-->](#android-studio-on-windows) | [-->](#android-studio-on-mac) | [-->](#android-studio-on-ubuntu) | [-->](#android-studio-on-fedora) |
 
@@ -1810,32 +1809,6 @@ Follow the same instruction as [Mac](#bower-on-mac).
 
 ### Bower on Fedora
 Follow the same instruction as [Mac](#bower-on-mac).
-
-[BACK TO TOP](#table-of-contents)
-
-
-
-## jQuery
-
-* [**Windows**](#jquery-on-windows)
-* [**Mac**](#jquery-on-mac)
-* [**Ubuntu**](#jquery-on-ubuntu)
-
-### jQuery on Windows
-You can download the compressed or uncompressed copies of jQuery files [here](http://jquery.com/download) and include them in your file.
-
-[BACK TO TOP](#table-of-contents)
-
-### jQuery on Mac
-You need [`bower`](#bower) as a prerequisite
-```sh
-bower install jquery
-```
-[BACK TO TOP](#table-of-contents)
-
-
-### jQuery on Ubuntu
-Follow the same instruction as [Mac](#jquery-on-mac).
 
 [BACK TO TOP](#table-of-contents)
 
