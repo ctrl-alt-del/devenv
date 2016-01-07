@@ -41,7 +41,6 @@ This document and bash scripts will be updated piece by piece and I will try my 
 |[iPython](#ipython)         | [   ](#ipython-on-windows)     | [-->](#ipython-on-mac)    | [-->](#ipython-on-ubuntu)   | [-->](#ipython-on-fedora)   |
 |[Bower](#bower)             | [   ](#bower-on-windows)       | [-->](#bower-on-mac)      | [-->](#bower-on-ubuntu)     | [-->](#bower-on-fedora)     |
 |[Tree](#tree)               | [-->](#tree-on-windows)        | [-->](#tree-on-mac)       | [-->](#tree-on-ubuntu)      | [-->](#tree-on-fedora)      |
-|[Android Studio](#android-studio) | [-->](#android-studio-on-windows) | [-->](#android-studio-on-mac) | [-->](#android-studio-on-ubuntu) | [-->](#android-studio-on-fedora) |
 
 
 
@@ -1510,112 +1509,6 @@ echo "$content" >> /usr/share/applications/pycharm.desktop;
 
 ### PyCharm on Fedora
 Follow the same instruction as [Ubuntu](#pycharm-on-ubuntu).
-
-[BACK TO TOP](#table-of-contents)
-
-
-
-## Android Studio
-[**Android Studio**](https://developer.android.com/sdk/index.html) is a Integrated Development Environment based on IntelliJ IDEA for Android development.
-
-Note that the latest version of Android Studio requires Gradle 2.2 and above; therefore, please make sure you have it installed.  You can also follow the instruction of installing Gradle in [here](#gradle).
-
-Also, Android development requires [Java](#java),  please follow its instruction to install the it.  Note that Android Studio would recommend using Oracle JDK instead of using OpenJDK.
-
-* [**Windows**](#android-studio-on-windows)
-* [**Mac**](#android-studio-on-mac)
-* [**Ubuntu**](#android-studio-on-ubuntu)
-* [**Fedora**](#android-studio-on-fedora)
-
-### Android Studio on Windows
-Download Android Studio from its [home page](https://developer.android.com/sdk/installing/studio.html)
-
-Once download is done, follow the instruction to install Android Studio and SDK.
-
-Note that Android Studio requires access to public internet in order to download dependencies and build.  In case that you have denied its access, you can visit `Control Panel` -> `System and Security` -> `Windows Firewall` -> `Allow a program or feature through Windows Firewall` to grant it public internet access permission.
-
-Note that Android Virtual Machine (AVD) requires [Intel Hardware Accelerated Execution Manager (Intel HAXM)](https://software.intel.com/en-us/android/articles/intel-hardware-accelerated-execution-manager), which you can get it from Android SDK Manager under `/Extras/Intel x86 Emulator Accelerator (HAXM installer).  The installer should install the Intel HAXM automatically, but it requires manual installation in some occasion.  To install Intel HAXM manually on windows, simply navigate to `<SDK_Directory>\extras\intel\Hardware_Accelerated_Execution_Manager` and execute the `intelhaxm-android.exe` file.
-
-[BACK TO TOP](#table-of-contents)
-
-
-### Android Studio on Mac
-Download Android Studio from its home page [here](https://developer.android.com/sdk/installing/studio.html)
-
-Once download is done, unzip it and then move the `.app` file to Application folder.
-
-The newer version of Android Studio for Mac no long comes with Android SDK, therefore, you need to download the SDK seperately from [here](#sdk-on-mac).
-
-[BACK TO TOP](#table-of-contents)
-
-
-### Android Studio on Ubuntu
-Download and install:
-```sh
-wget https://dl.google.com/dl/android/studio/ide-zips/1.3.0.10/android-studio-ide-141.2117773-linux.zip
-unzip android-studio-ide-141.2117773-linux.zip
-sudo mv android-studio /opt/android-studio
-sudo mv -f android-studio-ide-141.2117773-linux.zip ~/Downloads/
-sudo ln -s /opt/android-studio/bin/studio.sh /usr/bin/aso
-```
-
-(Optional for version 1.0.+) Setup Desktop Icon:
-```sh
-sudo touch android-studio.desktop
-
-content="
-[Desktop Entry]
-Name=Android Studio
-GenericName=Android IDE
-Version=1.3
-Type=Application
-Exec="/opt/android-studio/bin/androidstudio.icostudio.sh" %f
-Terminal=false
-Icon=/opt/android-studio/bin/androidstudio.ico
-Comment=Android Studio
-NoDisplay=false
-Categories=Development;IDE
-Keywords=IDE;Android;Studio;Development;IntelliJ
-Name[en]=Android Studio
-";
-
-echo "$content" >> android-studio.desktop;
-sudo mv android-studio.desktop /usr/share/applications
-```
-
-Alternatively, you can open Android Studio and click on `Configure` -> `Create Desktop Entry`
-
-The newer version of Android Studio for Linux no long comes with Android SDK, therefore, you need to download the SDK separately.  If you haven't already done so, you can follow the instruction [here](#sdk-on-ubuntu) to setup the Android SDK.
-
-To setup Android Virtual Machine (AVD) on Ubuntu or to use any type of virtual machine, you need to first enable CPU virtualization technology on your BIOS, this selection is usually named `VT-x` under `Config` tab.
-
-Afterwards, you need to install Kernel Virtual Machine (KVM)
-```sh
-sudo apt-get install qemu-kvm ubuntu-vm-builder
-```
-
-Once installation is done, restart your computer, and you will now be able to use AVD.
-
-There are some known issues for ADB in Ubuntu:
-1. ADB not responding for 64 bit Ubuntu.
-You can solve this issue by installing some 32 bit support libraries:
-```sh
-sudo apt-get install lib32z1 lib32z1-dev lib32stdc++6
-```
-[BACK TO TOP](#table-of-contents)
-
-
-### Android Studio on Fedora
-Follow the same instruction of [Ubuntu](#android-studio-on-ubuntu).
-
-[BACK TO TOP](#table-of-contents)
-
-
-
-## iTerm2
-[**iTerm2**](http://iterm2.com) is essential a terminal armed with more features.  You can download it [here](https://iterm2.com/downloads/stable/iTerm2_v2_0.zip).
-
-Once download is completed, unzip the package and double click `.app` file to install it.
 
 [BACK TO TOP](#table-of-contents)
 
