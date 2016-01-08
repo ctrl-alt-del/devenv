@@ -36,7 +36,6 @@ This document and bash scripts will be updated piece by piece and I will try my 
 |[Android SDK](#android-sdk) | [-->](#sdk-on-windows)         | [-->](#android-sdk)       | [-->](#sdk-on-ubuntu)       | [-->](#sdk)                 |
 |[ADT](#adt)                 | [-->](#adt)                    | [-->](#adt)               | [-->](#adt)                 | [-->](#adt)                 |
 |[PyCharm](#pycharm)         | [   ](#pycharm-on-windows)     | [   ](#pycharm-on-mac)    | [-->](#pycharm-on-ubuntu)   | [-->](#pycharm-on-fedora)   |
-|[Eclipse](#eclipse)         | [-->](#eclipse)                | [-->](#eclipse-on-mac)    | [   ](#eclipse-on-ubuntu)   | [   ](#eclipse-on-fedora)   |
 |[VirtualBox](#virtualbox)   | [   ](#virtualbox-on-windows)  | [   ](#virtualbox-on-mac) | [-->](#virtualbox-on-ubuntu)| [-->](#virtualbox-on-fedora)|
 |[iPython](#ipython)         | [   ](#ipython-on-windows)     | [-->](#ipython-on-mac)    | [-->](#ipython-on-ubuntu)   | [-->](#ipython-on-fedora)   |
 |[Bower](#bower)             | [   ](#bower-on-windows)       | [-->](#bower-on-mac)      | [-->](#bower-on-ubuntu)     | [-->](#bower-on-fedora)     |
@@ -1228,38 +1227,6 @@ sudo apt-get install nfs-kernel-server
 Visit [Vagrant's download page](https://www.vagrantup.com/downloads.html) and download the `.rpm` file for Fedora.
 ```sh
 rpm -U vagrant*
-```
-[BACK TO TOP](#table-of-contents)
-
-
-
-## Eclipse
-[**Eclipse**](http://www.eclipse.org) is an integrated development environment (IDE).
-
-Although Google recommendeds [Android Studio](#android-studio) for Android development, you can still use eclipse as your IDE if you prefer to.  I use one of its variant called [Eclipse IDE for Java Developers](http://www.eclipse.org/downloads/packages/eclipse-ide-java-developers/lunasr2) because it is relatively smaller than other variants.  You can to use its [standard package](http://www.eclipse.org/downloads/packages/eclipse-standard-44/lunar) or other variants as well.
-
-* [**Mac**](#eclipse-on-mac)
-* [**Ubuntu**](#eclipse-on-ubuntu)
-* [**Fedora**](#eclipse-on-fedora)
-
-### Eclipse on Mac
-Visit the [Eclipse's download page](http://www.eclipse.org/downloads) and download the **Eclipse IDE for Java Developers** that fits your system (either 32 or 64 bit)
-
-Once the file is downloaded, unzip it and drag the unziped folder to application, then right click the eclipse icon inside the folder and click open.
-
-[BACK TO TOP](#table-of-contents)
-
-
-### Eclipse on Ubuntu
-```sh
-sudo apt-get install eclipse
-```
-[BACK TO TOP](#table-of-contents)
-
-
-### Eclipse on Fedora
-```sh
-sudo yum install eclipse
 ```
 [BACK TO TOP](#table-of-contents)
 
