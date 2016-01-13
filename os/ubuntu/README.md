@@ -1,6 +1,8 @@
-Ubuntu Customization
-====================
-Contents and behaviors were tested on both 12.04 and 14.04.
+Ubuntu
+======
+
+# Customization
+Note: Contents and behaviors were tested on both 12.04 and 14.04.
 
 * [TouchPad Issue](#touchpad-issue)
 * [Graphic Card Issue](#graphic-card-issue)
