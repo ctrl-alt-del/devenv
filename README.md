@@ -1307,7 +1307,7 @@ Select those package and click on the "install packages" button on the bottom ri
 ### SDK on Ubuntu
 Visit the [developer page](http://developer.android.com/sdk/index.html) and download the [SDK Tool only for Linux 32 and 64 bit](http://dl.google.com/android/android-sdk_r23.0.2-linux.tgz)
 
-Once download is done, unzip it and move it to the `/opt/android-sdk-linux` folder, then add `export ANDROID_HOME=/opt/android-sdk-linux` to the `~/.bash_profile`.
+Once download is done, unzip it and move it to the `/opt/android-sdk-linux` folder, then add `export ANDROID_HOME=/opt/android-sdk-linux`, `export ANDROID_TOOLS="$ANDROID_HOME/platform-tools":"$ANDROID_HOME/tools"` to the `~/.bash_profile`.
 
 #### Compatibility issue on Ubuntu
 If you are in Linux 64 bit OS, you may also need to install the 32 bit shared libraries.
