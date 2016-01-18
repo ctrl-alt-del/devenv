@@ -9,6 +9,7 @@ Also, Android development requires [Java](#java),  please follow its instruction
 * [**Windows**](#android-studio-on-windows)
 * [**Mac**](#android-studio-on-mac)
 * [**Ubuntu**](#android-studio-on-ubuntu)
+  *[Known Issues](#known-issues)
 * [**Fedora**](#android-studio-on-fedora)
 
 ### Android Studio on Windows
@@ -82,8 +83,13 @@ sudo apt-get install qemu-kvm ubuntu-vm-builder
 
 Once installation is done, restart your computer, and you will now be able to use AVD.
 
+
+
+#### Known Issues
 There are some known issues for ADB in Ubuntu:
-1. -ADB not responding to 64 bit Ubuntu.- (Deprecated since ver. 23.1.0)
+
+1. **~~ADB not responding to 64 bit Ubuntu.~~ (Deprecated since ver. 23.1.0)**
+
 You can solve this issue by installing some 32 bit support libraries:
 ```sh
 sudo apt-get install lib32z1 lib32z1-dev lib32stdc++6
@@ -92,12 +98,14 @@ sudo apt-get install lib32z1 lib32z1-dev lib32stdc++6
 
 
 
-2. ADB not responding to 32 bit Ubuntu.
+2. **ADB not responding to 32 bit Ubuntu.**
+
 Since ver. 23.1.0, the ADB and all other platform tools will only work on 64 bit system.
 
 The only option for users with 32 bit system would be to use the ver. 23.0.1, which is the latest 32 bit compatible platform tools package.
 
 This issue has been asked and confirmed on [here](https://code.google.com/p/android/issues/detail?id=196866).
+
 [BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
