@@ -9,10 +9,10 @@ Also, Android development requires [Java](#java),  please follow its instruction
 * [**Windows**](#android-studio-on-windows)
 * [**Mac**](#android-studio-on-mac)
 * [**Ubuntu**](#android-studio-on-ubuntu)
-  *[Known Issues](#known-issues)
+  * [**Known Issues**](#known-issues)
 * [**Fedora**](#android-studio-on-fedora)
 
-### Android Studio on Windows
+## Android Studio on Windows
 Download Android Studio from its [home page](https://developer.android.com/sdk/installing/studio.html)
 
 Once download is done, follow the instruction to install Android Studio and SDK.
@@ -24,17 +24,17 @@ Note that Android Virtual Machine (AVD) requires [Intel Hardware Accelerated Exe
 [BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
-### Android Studio on Mac
+## Android Studio on Mac
 Download Android Studio from its home page [here](https://developer.android.com/sdk/installing/studio.html)
 
 Once download is done, unzip it and then move the `.app` file to Application folder.
 
-The newer version of Android Studio for Mac no long comes with Android SDK, therefore, you need to download the SDK seperately from [here](#sdk-on-mac).
+The newer version of Android Studio for Mac no long comes with Android SDK, therefore, you need to download the SDK separately from [here](#sdk-on-mac).
 
 [BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
-### Android Studio on Ubuntu
+## Android Studio on Ubuntu
 Download and install:
 ```sh
 wget https://dl.google.com/dl/android/studio/ide-zips/1.3.0.10/android-studio-ide-141.2117773-linux.zip
@@ -85,7 +85,7 @@ Once installation is done, restart your computer, and you will now be able to us
 
 
 
-#### Known Issues
+### Known Issues
 There are some known issues for ADB in Ubuntu:
 
 1. **~~ADB not responding to 64 bit Ubuntu.~~ (Deprecated since ver. 23.1.0)**
@@ -109,16 +109,7 @@ This issue has been asked and confirmed on [here](https://code.google.com/p/andr
 [BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
-### Android Studio on Fedora
+## Android Studio on Fedora
 Follow the same instruction of [Ubuntu](#android-studio-on-ubuntu).
-
-[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
-
-
-
-## iTerm2
-[**iTerm2**](http://iterm2.com) is essential a terminal armed with more features.  You can download it [here](https://iterm2.com/downloads/stable/iTerm2_v2_0.zip).
-
-Once download is completed, unzip the package and double click `.app` file to install it.
 
 [BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
