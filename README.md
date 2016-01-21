@@ -16,7 +16,6 @@ This document and bash scripts will be updated piece by piece and I will try my 
 |[Tilda](#tilda)             | N/A                            | N/A                       | [-->](#tilda-on-ubuntu)     | [-->](#tilda)               |
 |[Guake](#guake)             | N/A                            | N/A                       | [-->](#guake-on-ubuntu)     | [-->](#guake-on-fedora)     |
 |[Zsh](#zsh)                 | N/A                            | [   ](#zsh-on-mac)        | [-->](#zsh-on-ubuntu)       | [-->](#zsh-on-fedora)       |
-|[Oh-My-Zsh](#oh-my-zsh)     | [   ](#oh-my-zsh-on-windows)   | [-->](#oh-my-zsh-on-mac)  | [-->](#oh-my-zsh-on-ubuntu) | [-->](#oh-my-zsh-on-fedora) |
 |[Homebrew](#homebrew)       | N/A                            | [-->](#homebrew)          | N/A                         | N/A                         |
 |[Sublime](#sublime)         | [-->](#sublime-on-windows)     | [-->](#sublime-on-mac)    | [-->](#sublime-on-ubuntu)   | [-->](#sublime-on-fedora)   |
 |[Git](#git)                 | [-->](#git-on-windows)         | [-->](#git-on-mac)        | [-->](#git-on-ubuntu)       | [-->](#git-on-fedora)       |
@@ -233,45 +232,6 @@ sudo apt-get install wget
 ### Wget on Fedora
 ```sh
 sudo yum install wget
-```
-[BACK TO TOP](#table-of-contents)
-
-
-
-## Oh-My-Zsh
-[**Oh-My-Zsh**](http://ohmyz.sh) is an framework for managing your ZSH configuration.  You can learn more about it on its [git repository](https://github.com/robbyrussell/oh-my-zsh)
-
-* [**Mac**](#oh-my-zsh-on-mac)
-* [**Ubuntu**](#oh-my-zsh-on-ubuntu)
-* [**Fedora**](#oh-my-zsh-on-fedora)
-
-### Oh-My-Zsh on Mac
-According to its [README file](https://github.com/robbyrussell/oh-my-zsh#via-curl), installing oh-my-zsh on Mac can be done by executing this line into your terminal.
-```sh
-curl -L http://install.ohmyz.sh | sh
-```
-[BACK TO TOP](#table-of-contents)
-
-
-### Oh-My-Zsh on Ubuntu
-You need [Git](git-on-ubuntu) and [Zsh](zsh-on-ubuntu) as the prerequisites.
-
-Once you have installed the prerequisites, you can:
-```sh
-wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
-sudo chsh -s `which zsh`
-```
-[BACK TO TOP](#table-of-contents)
-
-
-### Oh-My-Zsh on Fedora
-You need [Git](git-on-fedora) and [Zsh](zsh-on-fedora) as the prerequisites.
-
-Once you have installed the prerequisites, you can:
-
-```sh
-wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
-sudo chsh -s `which zsh`
 ```
 [BACK TO TOP](#table-of-contents)
 
