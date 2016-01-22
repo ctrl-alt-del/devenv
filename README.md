@@ -34,7 +34,6 @@ This document and bash scripts will be updated piece by piece and I will try my 
 |[Vagrant](#Vagrant)         | [-->](#vagrant-on-windows)     | [-->](#vagrant-on-mac)    | [-->](#vagrant-on-ubuntu)   | [-->](#vagrant-on-fedora)   |
 |[Android SDK](#android-sdk) | [-->](#sdk-on-windows)         | [-->](#android-sdk)       | [-->](#sdk-on-ubuntu)       | [-->](#sdk)                 |
 |[ADT](#adt)                 | [-->](#adt)                    | [-->](#adt)               | [-->](#adt)                 | [-->](#adt)                 |
-|[PyCharm](#pycharm)         | [   ](#pycharm-on-windows)     | [   ](#pycharm-on-mac)    | [-->](#pycharm-on-ubuntu)   | [-->](#pycharm-on-fedora)   |
 |[VirtualBox](#virtualbox)   | [   ](#virtualbox-on-windows)  | [   ](#virtualbox-on-mac) | [-->](#virtualbox-on-ubuntu)| [-->](#virtualbox-on-fedora)|
 |[iPython](#ipython)         | [   ](#ipython-on-windows)     | [-->](#ipython-on-mac)    | [-->](#ipython-on-ubuntu)   | [-->](#ipython-on-fedora)   |
 |[Bower](#bower)             | [   ](#bower-on-windows)       | [-->](#bower-on-mac)      | [-->](#bower-on-ubuntu)     | [-->](#bower-on-fedora)     |
@@ -1379,73 +1378,6 @@ Once the libraries are installed, you can install VirtualBox:
 ```sh
 sudo yum install VirtualBox-4.3.x86_64
 ```
-[BACK TO TOP](#table-of-contents)
-
-
-
-## PyCharm
-[**PyCharm**](http://www.jetbrains.com/pycharm) is an IDE based on IntelliJ IDEA for Python development.
-
-* [**Windows**](pycharm-on-windows)
-* [**Mac**](pycharm-on-mac)
-* [**Ubuntu**](pycharm-on-ubuntu)
-* [**Fedora**](pycharm-on-fedora)
-
-### PyCharm on Windows
-Download [PyCharm](http://www.jetbrains.com/pycharm/download)
-
-Once download is completed, double click the `.exe` file and follow the instruction to install.
-
-[BACK TO TOP](#table-of-contents)
-
-
-### PyCharm on Mac
-Download [PyCharm](http://www.jetbrains.com/pycharm/download)
-
-Once download is completed, double click the `.dmg` file and follow the instruction to install.
-
-[BACK TO TOP](#table-of-contents)
-
-
-### PyCharm on Ubuntu
-Download [PyCharm](http://www.jetbrains.com/pycharm/download)
-
-Once download is down, unzip it and move it to the `/opt/pycharm`, which may require you to have root permission to do so.
-
-make a symbolic link
-```sh
-sudo ln -s /opt/pycharm/bin/pycharm.sh /usr/bin/pycharm
-```
-
-You may skip the process of setting shortcut icon manually since later version of Pychram for Linux does the setup automatically.  However, in case the icon is not generated, you may follow the steps in below to set it up.
-
-Setup Desktop Icon:
-```sh
-sudo touch /usr/share/applications/pycharm.desktop
-
-content="
-[Desktop Entry]
-Name=PyCharm
-GenericName=Python IDE
-Type=Application
-Exec="/opt/pycharm/bin/pycharm.sh" %f
-Terminal=false
-Icon=/opt/pycharm/bin/pycharm.png
-Comment=PyCharm
-NoDisplay=false
-Categories=Development;IDE
-Keywords=IDE;PyCharm;Development;IntelliJ
-Name[en]=PyCharm
-";
-
-echo "$content" >> /usr/share/applications/pycharm.desktop;
-```
-[BACK TO TOP](#table-of-contents)
-
-
-### PyCharm on Fedora
-Follow the same instruction as [Ubuntu](#pycharm-on-ubuntu).
-
 [BACK TO TOP](#table-of-contents)
 
 
