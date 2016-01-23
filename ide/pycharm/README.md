@@ -12,6 +12,8 @@ Download [PyCharm](http://www.jetbrains.com/pycharm/download)
 
 Once download is completed, double click the `.exe` file and follow the instruction to install.
 
+It is recommended to install `Pycharm` under the `~/Applications` directory.
+
 [BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
@@ -26,7 +28,7 @@ Once download is completed, double click the `.dmg` file and follow the instruct
 ### PyCharm on Ubuntu
 Download [PyCharm](http://www.jetbrains.com/pycharm/download)
 
-Once download is down, unzip it and move it to the `/opt/pycharm`, which may require you to have root permission to do so.
+Once download is down, unzip the `.tar.gz` file and rename it to `pycharm`, then move it to the `/opt`, which may require you to have root permission to do so.
 
 make a symbolic link
 ```sh
