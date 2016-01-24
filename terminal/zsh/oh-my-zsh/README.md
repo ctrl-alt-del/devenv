@@ -15,23 +15,27 @@ curl -L http://install.ohmyz.sh | sh
 
 
 ### Oh-My-Zsh on Ubuntu
-You need [Git](#git-on-ubuntu) and [Zsh](zsh-on-ubuntu) as the prerequisites.
+You need [Git](#git-on-ubuntu) and [Zsh](#zsh-on-ubuntu) as the prerequisites.
+```sh
+sudo apt-get install git
+sudo apt-get install zsh
+```
 
 Once you have installed the prerequisites, you can:
 ```sh
 wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
-sudo chsh -s `which zsh`
+chsh -s `which zsh`
 ```
 [BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
 ### Oh-My-Zsh on Fedora
 You need [Git](#git-on-fedora) and [Zsh](#zsh-on-fedora) as the prerequisites.
-
-Once you have installed the prerequisites, you can:
-
 ```sh
-wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
-sudo chsh -s `which zsh`
+sudo yum install git
+sudo yum install zsh
 ```
+
+Then follow the same instruction as [Ubuntu](#oh-my-zsh-on-ubuntu).
+
 [BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
