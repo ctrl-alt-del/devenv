@@ -13,7 +13,7 @@ Since Git contains many convenient built-in functions as well as a useful bash s
 
 You can download the latest git install file for Windows from [here](http://git-scm.com/download/win)
 
-Once the installation file is downloaded, install it under `/c/usr/bin/git` or whatever directory you chose.  Don't worry about the configuration choices available during the installation process, it would be fine to just keep them in default.
+Once the installation file is downloaded, install it under `%USERPROFILE%/Applications/Git` or whatever directory you chose.  Don't worry about the configuration choices available during the installation process, it would be fine to just keep them in default.
 
 There is a known problem for git bash not remembering command history correctly.
 
@@ -22,7 +22,7 @@ To resolve it, you can execute the follow lines in your bash:
 touch ~/.bash_profile
 echo "PROMPT_COMMAND='history -a'" >> "~/.bash_profile"
 ```
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
 ### Git on Mac
@@ -33,11 +33,11 @@ git --version
 
 If git does not come with your Mac somehow, you can follow their [instruction](http://git-scm.com/book/en/Getting-Started-Installing-Git) to install git manually.
 
-Or you can install it through [Homebrew](#homebrew) by running:
+Or you can install it through [Homebrew](https://github.com/ctrl-alt-del/devenv#homebrew) by running:
 ```sh
 brew install git
 ```
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
 ### Git on Ubuntu
@@ -51,7 +51,7 @@ To upgrade to the latest version of Git, you can do so by running:
 ```sh
 sudo apt-get upgrade git
 ```
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
 ### Git on Fedora
@@ -64,7 +64,7 @@ To upgrade git on Fedora:
 ```sh
 sudo yum upgrade git
 ```
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
 ### Git Configuration
@@ -75,4 +75,4 @@ There are some shortcuts are very convenient as well, you can set them up with f
 git config --global alias.co checkout
 git config --global alias.cm !git add -A && git commit -m
 ```
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
