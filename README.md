@@ -492,27 +492,6 @@ There are two escape sequences: `\033[<code>m` or `\e[<code>m`
 
 
 
-## Gitk
-Gitk is a graphic user interface for git.
-
-* [**Ubuntu**](#gitk-on-ubuntu)
-* [**Fedora**](#gitk-on-fedora)
-
-### Gitk on Ubuntu
-```sh
-sudo apt-get install gitk
-```
-[BACK TO TOP](#table-of-contents)
-
-
-### Gitk on Fedora
-```sh
-sudo yum install gitk
-```
-[BACK TO TOP](#table-of-contents)
-
-
-
 ## SmartGit
 Similar to Gitk, SmartGit is an UI for git too, yet it has more functionalities than Gitk.  However, it is not free.
 
