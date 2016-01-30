@@ -9,11 +9,11 @@ Similar to Gitk, SmartGit is an UI for git too, yet it has more functionalities 
 ```sh
 sudo apt-get install smartgit
 ```
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
 ### SmartGit on Fedora
 ```sh
 sudo yum install smartgit
 ```
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)

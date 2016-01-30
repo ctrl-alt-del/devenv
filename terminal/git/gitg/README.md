@@ -9,11 +9,11 @@ Gitg is a graphic user interface for git.
 ```sh
 sudo apt-get install gitg
 ```
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
 ### Gitg on Fedora
 ```sh
 sudo yum install gitg
 ```
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)

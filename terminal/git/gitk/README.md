@@ -9,11 +9,11 @@ Gitk is a graphic user interface for git.
 ```sh
 sudo apt-get install gitk
 ```
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
 ### Gitk on Fedora
 ```sh
 sudo yum install gitk
 ```
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
