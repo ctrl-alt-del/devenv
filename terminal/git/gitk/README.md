@@ -1,6 +1,6 @@
 Gitk
 ====
-Gitk is a graphic user interface for git.
+[Gitk](https://git-scm.com/docs/gitk) is a graphic user interface for and shipped along with git.
 
 * [**Ubuntu**](#gitk-on-ubuntu)
 * [**Fedora**](#gitk-on-fedora)

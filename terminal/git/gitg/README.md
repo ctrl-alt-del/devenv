@@ -1,6 +1,6 @@
 Gitg
 ====
-Gitg is a graphic user interface for git.
+[Gitg](https://wiki.gnome.org/Apps/Gitg) is a graphic user interface for git.
 
 * [**Ubuntu**](#gitk-on-ubuntu)
 * [**Fedora**](#gitk-on-fedora)
