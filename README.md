@@ -14,7 +14,6 @@ This document and bash scripts will be updated piece by piece and I will try my 
 |[Preps](#configuration)     | [-->](#configure-windows)      | N/A                       | N/A                         | N/A                         |
 |[iTerm2](#iterm2)           | N/A                            | [-->](#iterm2)            | N/A                         | N/A                         |
 |[Tilda](#tilda)             | N/A                            | N/A                       | [-->](#tilda-on-ubuntu)     | [-->](#tilda)               |
-|[Guake](#guake)             | N/A                            | N/A                       | [-->](#guake-on-ubuntu)     | [-->](#guake-on-fedora)     |
 |[Zsh](#zsh)                 | N/A                            | [   ](#zsh-on-mac)        | [-->](#zsh-on-ubuntu)       | [-->](#zsh-on-fedora)       |
 |[Homebrew](#homebrew)       | N/A                            | [-->](#homebrew)          | N/A                         | N/A                         |
 |[Sublime](#sublime)         | [-->](#sublime-on-windows)     | [-->](#sublime-on-mac)    | [-->](#sublime-on-ubuntu)   | [-->](#sublime-on-fedora)   |
@@ -919,36 +918,6 @@ sudo yum install php php-mysql
 ```
 You are done! LAMP stack is now installed into your Fedora.
 
-[BACK TO TOP](#table-of-contents)
-
-
-
-## Guake
-[**Guake**](http://guake.org) is a terminal for Gnome.
-
-* [**Ubuntu**](#guake-on-ubuntu)
-* [**Fedora**](#guake-on-fedora)
-* [**Configuration**](#guake-configuration)
-
-### Guake on Ubuntu
-```sh
-sudo apt-get install guake
-```
-[BACK TO TOP](#table-of-contents)
-
-
-### Guake on Fedora
-```sh
-sudo yum install guake
-```
-[BACK TO TOP](#table-of-contents)
-
-
-## Guake Configuration
-Guake is open source and written in python.  Therefore, you can customize it as you wish with default editor, `gedit` of Linux distros by modifying its source file, usually located at `/usr/lib/guake/guake.py`.
-```sh
-sudo gedit /usr/lib/guake/guake.py
-```
 [BACK TO TOP](#table-of-contents)
 
 
