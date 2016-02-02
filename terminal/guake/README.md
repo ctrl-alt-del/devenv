@@ -10,19 +10,19 @@ Guake
 ```sh
 sudo apt-get install guake
 ```
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
 ### Guake on Fedora
 ```sh
 sudo yum install guake
 ```
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
 ## Guake Configuration
-Guake is open source and written in python.  Therefore, you can customize it as you wish with default editor, `gedit` of Linux distros by modifying its source file, usually located at `/usr/lib/guake/guake.py`.
+Guake is an open source project and written in python.  Therefore, you can customize it as you according to your needs.  Its source file is usually located at `/usr/lib/guake/guake.py`.  You need `sudo` permission to edit the file.  Editor can be anything from `vi` to `gedit`.
 ```sh
 sudo gedit /usr/lib/guake/guake.py
 ```
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
