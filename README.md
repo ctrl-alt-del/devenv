@@ -12,7 +12,6 @@ This document and bash scripts will be updated piece by piece and I will try my 
 |Tools                       | [Windows 7](#windows)          | [Mac 10.9.+](#mac)        | [Ubuntu 14.04](#ubuntu)     | [Fedora 20](#fedora)        |
 |:-------------------------- | :----------------------------: | :-----------------------: | :-------------------------: | :-------------------------: |
 |[Preps](#configuration)     | [-->](#configure-windows)      | N/A                       | N/A                         | N/A                         |
-|[iTerm2](#iterm2)           | N/A                            | [-->](#iterm2)            | N/A                         | N/A                         |
 |[Homebrew](#homebrew)       | N/A                            | [-->](#homebrew)          | N/A                         | N/A                         |
 |[Sublime](#sublime)         | [-->](#sublime-on-windows)     | [-->](#sublime-on-mac)    | [-->](#sublime-on-ubuntu)   | [-->](#sublime-on-fedora)   |
 |[Wget](#wget)               | [   ](#wget-on-windows)        | [   ](#wget-on-mac)       | [-->](#wget-on-ubuntu)      | [-->](#wget-on-fedora)      |
@@ -157,15 +156,6 @@ For Ubuntu, Fedora, and all other Unix/Linux base operating system users, you ca
 See [Ubuntu](#terminal-on-ubuntu)
 
 [BACK TO TOP](#table-of-contents)
-
-
-
-## iTerm2
-[**iTerm2**](http://iterm2.com) is essential a terminal armed with more features.  You can download it [here](https://iterm2.com/downloads/stable/iTerm2_v2_0.zip).
-
-Once download is completed, unzip the package and double click `.app` file to install it.
-
-[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
 
