@@ -8,21 +8,21 @@ Terminal
 * [**Fedora**](#terminal-on-fedora)
 
 ### Terminal on Windows
-We are just going to use the Git Bash that comes with [Git](#git-on-windows).
+We are just going to use the Git Bash that comes with [Git](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/git#git-on-windows).
 
-Alternatively, you can try [Cygwin](#cygwin) or [Chocolatey](#Chocolatey).
+Alternatively, you can try [Cygwin](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/cygwin) or [Chocolatey](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/chocolatey).
 
 [BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
 ### Terminal on Mac
-You can either use the system default terminal, or you can also use [iTerm2](#iterm2), which is an enhanced terminal for Mac.
+You can either use the system default terminal, or you can also use [iTerm2](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/iterm2), which is an enhanced terminal for Mac.
 
 [BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
 ### Terminal on Ubuntu
-For Ubuntu, Fedora, and all other Unix/Linux base operating system users, you can either use the system default terminal, or some other terminal applications, such as [Tilda](#tilda) or [Guake](#guake).
+For Ubuntu, Fedora, and all other Unix/Linux base operating system users, you can either use the system default terminal, or some other terminal applications, such as [Tilda](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/tilda) or [Guake](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/guake).
 
 [BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
