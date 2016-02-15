@@ -12,7 +12,6 @@ This document and bash scripts will be updated piece by piece and I will try my 
 |Tools                       | [Windows 7](#windows)          | [Mac 10.9.+](#mac)        | [Ubuntu 14.04](#ubuntu)     | [Fedora 20](#fedora)        |
 |:-------------------------- | :----------------------------: | :-----------------------: | :-------------------------: | :-------------------------: |
 |[Preps](#configuration)     | [-->](#configure-windows)      | N/A                       | N/A                         | N/A                         |
-|[Homebrew](#homebrew)       | N/A                            | [-->](#homebrew)          | N/A                         | N/A                         |
 |[Sublime](#sublime)         | [-->](#sublime-on-windows)     | [-->](#sublime-on-mac)    | [-->](#sublime-on-ubuntu)   | [-->](#sublime-on-fedora)   |
 |[Wget](#wget)               | [   ](#wget-on-windows)        | [   ](#wget-on-mac)       | [-->](#wget-on-ubuntu)      | [-->](#wget-on-fedora)      |
 |[Curl](#curl)               | [-->](#curl-on-windows)        | [-->](#curl-on-mac)       | [-->](#curl-on-ubuntu)      | [   ](#curl-on-fedora)      |
@@ -1104,17 +1103,6 @@ sudo yum install kernel-devel dkms binutils gcc make patch libgomp glibc-headers
 Once the libraries are installed, you can install VirtualBox:
 ```sh
 sudo yum install VirtualBox-4.3.x86_64
-```
-[BACK TO TOP](#table-of-contents)
-
-
-
-## Homebrew
-[**Homebrew**](http://brew.sh) is a package manager for Mac.
-
-To install homebrew, simply open your terminal and running:
-```sh
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 [BACK TO TOP](#table-of-contents)
 

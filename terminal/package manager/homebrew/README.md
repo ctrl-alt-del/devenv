@@ -4,6 +4,6 @@ Homebrew
 
 Since Mac comes with Ruby by default, you can install Homebrew by running:
 ```sh
-ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 [BACK TO TOP](#table-of-contents)
