@@ -10,7 +10,7 @@ Terminal
 ### Terminal on Windows
 We are just going to use the Git Bash that comes with [Git](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/git#git-on-windows).
 
-Alternatively, you can try [Cygwin](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/cygwin) or [Chocolatey](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/chocolatey).
+Alternatively, you can try [Cygwin](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/package%20manager/cygwin) or [Chocolatey](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/package%20manager/chocolatey).
 
 [BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 

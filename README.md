@@ -578,7 +578,7 @@ You may also add `%GRADLE_HOME%` to your environment variable with value equals 
 
 
 ### Gradle on Mac
-To install gradle on Mac, the simplest way would be to install it through [Homebrew](#homebrew)
+To install gradle on Mac, the simplest way would be to install it through [Homebrew](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/package%20manager/homebrew)
 
 Once you have Homebrew, you can install Gradle by running:
 ```sh
