@@ -25,7 +25,7 @@ gradle -v # should see version number
 
 You may also add `%GRADLE_HOME%` to your environment variable with value equals to `C:\usr\bin\gradle`.
 
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
 ### Gradle on Mac
@@ -40,7 +40,7 @@ Once installation is done, you can verify it by running:
 ```sh
 gradle -v
 ```
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
 ### Gradle on Ubuntu
@@ -63,7 +63,7 @@ Lastly, install the version you want:
 ```sh
 sudo apt-get install gradle-<__version_number__> # e.g. sudo apt-get install gradle-1.12
 ```
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
 ### Gradle on Fedora
@@ -80,7 +80,7 @@ The easiest way is to create a symbolic link for Gradle on `/usr/bin`; since `/u
 ```sh
 sudo ln -s /opt/gradle-1.12/bin/gradle /usr/bin/gradle
 ```
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
 #### Add to `~/.bash_profile`
@@ -101,7 +101,7 @@ export PATH=$GRADLE_HOME:$PATH
 
 Once you are done adding those lines, save and exist the editor and you are good to go.  Just do `source ~/.bash_profile` before you need to use Gradle.
 
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
 #### Add to `~/.bashrc`
@@ -124,7 +124,7 @@ sudo mv gradle-1.12 /opt
 sudo rm gradle-1.12-bin.zip
 sudo ln -s /opt/gradle-1.12/bin/gradle /usr/bin/gradle
 ```
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
 #### Gradle Configuration on Android
