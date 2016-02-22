@@ -1,6 +1,6 @@
 Android Development Tools (ADT)
 ===============================
-[**ADT**](http://developer.android.com/tools/help/adt.html) stands for Android Development Toolkit.
+[**Android Development Tools (ADT)**](http://developer.android.com/tools/help/adt.html) is a plugin for android development on eclipse.
 
 Once Eclipse is installed, open it and navigate to its Help -> Install New Software.
 
@@ -13,4 +13,4 @@ It may take a while for eclipse to get the plugin information, but once the avai
 ### Empty src folder on creating new project
 This [issue](http://stackoverflow.com/questions/22215499/src-folder-empty-on-creating-new-android-project) can be resolved by replacing the `http` with `https` on the ADT installation url.
 
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)

@@ -39,7 +39,7 @@ open SDK\ Manager.exe
 
 Select the packages listed in [here](#android-sdk) to install.
 
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
 ### SDK on Mac
@@ -68,7 +68,7 @@ You need the following package from the SDK:
 
 Select those package and click on the "install packages" button on the bottom right, and then follow the instruction to complete the installation.
 
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
 ### SDK on Ubuntu
@@ -81,7 +81,7 @@ If you are in Linux 64 bit OS, you may also need to install the 32 bit shared li
 ```sh
 sudo apt-get install libc6:i386 libstdc++6:i386 zlib1g:i386
 ```
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
 ### SDK on Fedora
@@ -92,4 +92,4 @@ If you are in Linux 64 bit OS, you may also need to install the 32 bit shared li
 ```sh
 sudo yum install glibc.i686 glibc-devel.i686 libstdc++.i686 zlib-devel.i686 ncurses-devel.i686 libX11-devel.i686 libXrender.i686 libXrandr.i686
 ```
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
