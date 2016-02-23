@@ -22,8 +22,6 @@ This document and bash scripts will be updated piece by piece and I will try my 
 |[LAMP](#lamp)               | N/A                            | N/A                       | [-->](#lamp-on-ubuntu)      | [-->](#lamp-on-fedora)      |
 |[Chef](#chef)               | [   ](       )                 | [-->](#chef-on-mac)       | [   ](               )      | [   ](               )      |
 |[Vagrant](#Vagrant)         | [-->](#vagrant-on-windows)     | [-->](#vagrant-on-mac)    | [-->](#vagrant-on-ubuntu)   | [-->](#vagrant-on-fedora)   |
-|[Android SDK](#android-sdk) | [-->](#sdk-on-windows)         | [-->](#android-sdk)       | [-->](#sdk-on-ubuntu)       | [-->](#sdk)                 |
-|[ADT](#adt)                 | [-->](#adt)                    | [-->](#adt)               | [-->](#adt)                 | [-->](#adt)                 |
 |[VirtualBox](#virtualbox)   | [   ](#virtualbox-on-windows)  | [   ](#virtualbox-on-mac) | [-->](#virtualbox-on-ubuntu)| [-->](#virtualbox-on-fedora)|
 |[iPython](#ipython)         | [   ](#ipython-on-windows)     | [-->](#ipython-on-mac)    | [-->](#ipython-on-ubuntu)   | [-->](#ipython-on-fedora)   |
 |[Bower](#bower)             | [   ](#bower-on-windows)       | [-->](#bower-on-mac)      | [-->](#bower-on-ubuntu)     | [-->](#bower-on-fedora)     |
@@ -695,24 +693,6 @@ Visit [Vagrant's download page](https://www.vagrantup.com/downloads.html) and do
 ```sh
 rpm -U vagrant*
 ```
-[BACK TO TOP](#table-of-contents)
-
-
-
-## ADT
-[**ADT**](http://developer.android.com/tools/help/adt.html) stands for Android Development Toolkit.
-
-Once Eclipse is installed, open it and navigate to its Help -> Install New Software.
-
-On the wizard of Install New Software, click on the add button and paste `https://dl-ssl.google.com/android/eclipse/` to `location` and put `Android Development Toolkit plugin` on `name`, then press OK.
-
-Back to the wizard, click on the drop down list of `Work with`  and select the url item that you just added.
-
-It may take a while for eclipse to get the plugin information, but once the available plugin is displayed, click `Select All` under the displaying section, and then `Next` on the bottom right.  Then follow the instruction to install and plugin and restart Eclipse once the installation is done.
-
-### Empty src folder on creating new project
-This [issue](http://stackoverflow.com/questions/22215499/src-folder-empty-on-creating-new-android-project) can be resolved by replacing the `http` with `https` on the ADT installation url.
-
 [BACK TO TOP](#table-of-contents)
 
 
