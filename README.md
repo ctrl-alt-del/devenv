@@ -24,7 +24,6 @@ This document and bash scripts will be updated piece by piece and I will try my 
 |[Vagrant](#Vagrant)         | [-->](#vagrant-on-windows)     | [-->](#vagrant-on-mac)    | [-->](#vagrant-on-ubuntu)   | [-->](#vagrant-on-fedora)   |
 |[VirtualBox](#virtualbox)   | [   ](#virtualbox-on-windows)  | [   ](#virtualbox-on-mac) | [-->](#virtualbox-on-ubuntu)| [-->](#virtualbox-on-fedora)|
 |[iPython](#ipython)         | [   ](#ipython-on-windows)     | [-->](#ipython-on-mac)    | [-->](#ipython-on-ubuntu)   | [-->](#ipython-on-fedora)   |
-|[Bower](#bower)             | [   ](#bower-on-windows)       | [-->](#bower-on-mac)      | [-->](#bower-on-ubuntu)     | [-->](#bower-on-fedora)     |
 |[Tree](#tree)               | [-->](#tree-on-windows)        | [-->](#tree-on-mac)       | [-->](#tree-on-ubuntu)      | [-->](#tree-on-fedora)      |
 
 
@@ -879,33 +878,6 @@ sudo pip install ipython
 
 ### iPython on Fedora
 Follow the same instruction as [Ubuntu](#ipython-on-ubuntu)
-
-[BACK TO TOP](#table-of-contents)
-
-
-
-## Bower
-[**Bower**](http://bower.io) is a package manager for the web.  You need [npm](#npm) in order to install `bower`.
-
-* [**Mac**](#bower-on-mac)
-* [**Ubuntu**](#bower-on-ubuntu)
-* [**Fedora**](#bower-on-fedora)
-
-### Bower on Mac
-```sh
-npm install -g bower
-```
-[BACK TO TOP](#table-of-contents)
-
-
-### Bower on Ubuntu
-Follow the same instruction as [Mac](#bower-on-mac).
-
-[BACK TO TOP](#table-of-contents)
-
-
-### Bower on Fedora
-Follow the same instruction as [Mac](#bower-on-mac).
 
 [BACK TO TOP](#table-of-contents)
 
