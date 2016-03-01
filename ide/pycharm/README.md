@@ -2,10 +2,10 @@ PyCharm
 =======
 [**PyCharm**](http://www.jetbrains.com/pycharm) is an IDE based on IntelliJ IDEA for Python development.
 
-* [**Windows**](pycharm-on-windows)
-* [**Mac**](pycharm-on-mac)
-* [**Ubuntu**](pycharm-on-ubuntu)
-* [**Fedora**](pycharm-on-fedora)
+* [**Windows**](#pycharm-on-windows)
+* [**Mac**](#pycharm-on-mac)
+* [**Ubuntu**](#pycharm-on-ubuntu)
+* [**Fedora**](#pycharm-on-fedora)
 
 ### PyCharm on Windows
 Download [PyCharm](http://www.jetbrains.com/pycharm/download)

@@ -65,7 +65,7 @@ This document and bash scripts will be updated piece by piece and I will try my 
 ## Configuration
 
 ### Configure Windows
-It is a good idea to centralize all your packages in one folder.  Not only does it help to better organize your packages, having a dedicated folder for your packages also makes navigating with command line easier.  In this instruction for Windows, all packages will be put or installed under `~/Applications`, a.k.a `%USERPROFILE%\APplications`.  Please create the folder if it is not existed, and of course, feel free to name your own directory.
+It is a good idea to centralize all your packages in one folder.  Not only does it help to better organize your packages, having a dedicated folder for your packages also makes navigating with command line easier.  In this instruction for Windows, all packages will be put or installed under `~/Applications`, a.k.a `%USERPROFILE%\Applications`.  Please create the folder if it is not existed, and of course, feel free to name your own directory.
 
 If you are familiar with Window's PowerShell, you can create the folder by opening PowerShell and run:
 ```sh
