@@ -2,9 +2,9 @@ Godep
 =====
 [**Godep**](https://github.com/tools/godep) is an dependency management tool in [Go](#go).
 
-It helps avoid dependency issues and it is especially helpful while deploying a Go project to production.
+It manages dependency and avoid related issues; it is very helpful especially while deploying a Go project to production.
 
-To install Godep, you need to install `go` first, then you can get `godep` by:
+To install `godep`, you need to install `go` first; once you have `go`, you can get `godep` by:
 ```sh
 go get github.com/tools/godep
 ```
