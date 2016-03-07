@@ -10,13 +10,25 @@ Atom
 ## Atom on Windows
 To install, just download the install package from homepage and double click to install it.
 
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
+
+
 
 ## Atom on Mac
 
 
 
 ## Atom on Ubuntu
+If your system is 64 bit, you can install atom by simply download, unzip and move the unzipped file to `/opt`.
 
+### 32 bit
+Atom no longer offer 32 bit binary out of box, but you can install the 32 bit version by using the `ppa` package of `webupd8team`.
+```sh
+sudo add-apt-repository ppa:webupd8team/atom
+sudo apt-get update
+sudo apt-get install atom
+```
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
 
