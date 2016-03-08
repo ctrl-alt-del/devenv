@@ -28,6 +28,8 @@ sudo add-apt-repository ppa:webupd8team/atom
 sudo apt-get update
 sudo apt-get install atom
 ```
+
+You may need to have [NodeJS](https://github.com/ctrl-alt-del/devenv/tree/master/language/javascript/nodejs) installed in order to install `atom` using the `ppa` package.
 [BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
