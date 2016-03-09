@@ -69,7 +69,8 @@ It is a good idea to centralize all your packages in one folder.  Not only does 
 
 If you are familiar with Window's PowerShell, you can create the folder by opening PowerShell and run:
 ```sh
-mkdir -p ~/Applications
+cd %USERPROFILE%
+mkdir Applications
 ```
 [BACK TO TOP](#table-of-contents)
 

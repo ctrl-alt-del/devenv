@@ -5,8 +5,6 @@ Go
 * [**Windows**](#go-on-windows)
 * [**Mac**](#go-on-mac)
 * [**Ubuntu**](#go-on-ubuntu)
-* [**Godep**](#godep)
-
 
 
 ### Go on Windows
