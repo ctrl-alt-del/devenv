@@ -1,6 +1,6 @@
 Node Packaged Modules (npm)
 ===========================
-[npm](https://www.npmjs.com) is a package manager for [Node.js](https://github.com/ctrl-alt-del/devenv/tree/master/language/javascript/nodejs)
+[npm](https://www.npmjs.com) is a package manager for [NodeJS](https://github.com/ctrl-alt-del/devenv/tree/master/language/javascript/nodejs)
 
 * [**Ubuntu**](#npm-on-ubuntu)
 * [**Fedora**](#npm-on-fedora)

@@ -38,10 +38,15 @@ This document and bash scripts will be updated piece by piece and I will try my 
 
 ## Language
 * [Go](https://github.com/ctrl-alt-del/devenv/tree/master/language/go)
+	* [BeeGo](https://github.com/ctrl-alt-del/devenv/tree/master/language/go/beego)
+	* [godep](https://github.com/ctrl-alt-del/devenv/tree/master/language/go/godep)
 * [Java](https://github.com/ctrl-alt-del/devenv/tree/master/language/java)
 * [JavaScript](https://github.com/ctrl-alt-del/devenv/tree/master/language/javascript)
+	* [bower](https://github.com/ctrl-alt-del/devenv/tree/master/language/javascript/bower)
+	* [jQuery](https://github.com/ctrl-alt-del/devenv/tree/master/language/javascript/jquery)
 	* [NodeJS](https://github.com/ctrl-alt-del/devenv/tree/master/language/javascript/nodejs)
 		* [CoffeeScript](https://github.com/ctrl-alt-del/devenv/tree/master/language/javascript/nodejs/coffeescript)
+		* [Express](https://github.com/ctrl-alt-del/devenv/tree/master/language/javascript/nodejs/express)
 		* [nodemon](https://github.com/ctrl-alt-del/devenv/tree/master/language/javascript/nodejs/coffeescript/nodemon)
 		* [npm](https://github.com/ctrl-alt-del/devenv/tree/master/language/javascript/nodejs/npm)
 		* [Sail.js](https://github.com/ctrl-alt-del/devenv/tree/master/language/javascript/nodejs/sailjs)
