@@ -40,7 +40,7 @@ if there is error saying php is not found on sh.exe, restart the git bash and ru
 
 
 ### PHP on Mac
-PHP is bundled with Mac.
+PHP is bundled with Mac by default.
 
 [BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
