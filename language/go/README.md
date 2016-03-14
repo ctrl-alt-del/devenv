@@ -5,16 +5,17 @@ Go
 * [**Windows**](#go-on-windows)
 * [**Mac**](#go-on-mac)
 * [**Ubuntu**](#go-on-ubuntu)
+* [**Fedora**](#go-on-fedora)
 
 
 ### Go on Windows
-Visit [Go's download page](https://golang.org/dl) and download the latest `.msi` file, which is in bold.
+Visit [Go's download page](https://golang.org/dl) and download the latest `.msi` file.
 
-Once download is completed, double click the file and follow its instruction to install.  Note that you need to remove any old version of **Go**.
+Once download is completed, double click the `.msi` file and follow its wizard to install.  Note that you need to remove any old version of **Go** before installing the new version of Go.
 
 If you are using git bash, follow the instruction for [Ubuntu](#go-on-ubuntu) to set the `PATH` variables.
 
-You may also edit the environment variables of windows to enable the `go` commands on `cmd` or PowerShell.
+You may also edit the environment variables of Windows to enable the `go` commands on `cmd` or `PowerShell`.
 
 [BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
