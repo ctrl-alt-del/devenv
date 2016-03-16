@@ -4,6 +4,8 @@ Composer
 
 * [**Windows**](#composer-on-windows)
 * [**Mac**](#composer-on-mac)
+* [**Ubuntu**](#composer-on-ubuntu)
+* [**Fedora**](#composer-on-fedora)
 
 
 ### Composer on Windows
@@ -19,8 +21,24 @@ However, you can also install it manually on git bash following the same instruc
 ```sh
 curl -sS https://getcomposer.org/installer | php
 ```
-move the `composer.phar` to somewhere in your `PATH`, such as `/usr/bin` so that it can be easily accessed.
+move the `composer.phar` to somewhere in your `$PATH`, such as `/usr/bin` so that it can be easily accessed.
+
+You can trim off the `.phar` while you move it.
 ```sh
-sudo mv composer.phar /usr/bin
+sudo mv composer.phar /usr/bin/composer
 ```
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
+
+
+
+### Composer on Ubuntu
+Follow the same instruction for [Mac](composer-on-mac)
+
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
+
+
+
+### Composer on Fedora
+Follow the same instruction for [Mac](composer-on-mac)
+
 [BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
