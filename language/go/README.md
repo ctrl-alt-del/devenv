@@ -58,10 +58,10 @@ export PATH=$PATH:$GOROOT:$GOROOT_BIN:$GOPATH:$GOBIN
 ```
 
 To append `$GOROOT` and `$GOPATH` to your `$PATH`, you can choose either of the following approaches:
-1. The easiest being adding the above code to your `~/.bash_profile` and do `source ~/.bash_profile` when you need it.  
-2. You can add the code to your `~/.bashrc` so that Go will be loaded whenever you open up terminal.
-3. If you use `zsh` shell, you can add the code to your `~/.zshrc` so that Go will be loaded whenever you open up your zsh shell terminal.
-4. You can add the code to `~/.profile` so that Go will be loaded whenever you sign in to you computer.
+1. The easiest and most conservative approach is to create the `~/.bash_profile` and add the code in above into it; you can do `source ~/.bash_profile` when you need the configurations.  
+2. You can add the code in above to your `~/.bashrc` so that `go` will be loaded whenever you open up terminal.
+3. If you use `zsh` shell, you can add the code to your `~/.zshrc` so that `go` will be loaded whenever you open up your zsh shell terminal.
+4. You can add the code in above to `~/.profile` so that Go will be loaded whenever you sign in to you computer.
 
 Alternatively, you can install Go from its source.  To do so, visit [Go's source install page](https://golang.org/doc/install/source) and follow instruction there to install.
 
