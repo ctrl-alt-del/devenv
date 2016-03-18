@@ -1,6 +1,6 @@
 Composer
 ========
-[**Composer**](https://getcomposer.org) is a dependency management tool in PHP.
+[**Composer**](https://getcomposer.org) is a dependency management tool in PHP applications.
 
 * [**Windows**](#composer-on-windows)
 * [**Mac**](#composer-on-mac)

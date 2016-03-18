@@ -1,7 +1,6 @@
 Java
 ====
-
-Both Java 7 and 8 are available today.  This instruction will focus on Java 7, but the processes are similar to Java 8.
+Both Java 7 and 8 are available today.  This instruction will focus on how to install Java 7, but the processes should be similar for installing Java 8.
 
 * [**Windows**](#java-on-windows)
 * [**Mac**](#java-on-mac)
