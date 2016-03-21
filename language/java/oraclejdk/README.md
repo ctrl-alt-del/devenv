@@ -1,5 +1,5 @@
-Open JDK
-========
+Oracle JDK
+==========
 
 * [**Ubuntu**](#java-on-ubuntu)
 * [**Fedora**](#java-on-fedora)
@@ -34,7 +34,7 @@ sudo apt-get autoremove
 
 
 
-### Java on Fedora
+### Oracle JDK on Fedora
 To install Oracle Java for Ubuntu, download the `tar.gz` file, move it to `/opt` folder, unzip it, create a symbolic link between the unzipped folder and one of the PATH, such as `usr/bin`.
 ```sh
 cd /opt
