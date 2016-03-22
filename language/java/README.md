@@ -46,16 +46,16 @@ java -version
 [BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
-### Java on Ubuntu
-#### Oracle JDK
 
-#### Open JDK
+### Java on Ubuntu
+* [Oracle JDK](https://github.com/ctrl-alt-del/devenv/tree/master/language/java/oraclejdk#oracle-jdk-on-ubuntu)
+* [Open JDK](https://github.com/ctrl-alt-del/devenv/tree/master/language/java/oraclejdk#open-jdk-on-ubuntu)
 
 [BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
 ### Java on Fedora
-#### Oracle JDK
+* [Oracle JDK](https://github.com/ctrl-alt-del/devenv/tree/master/language/java/oraclejdk#oracle-jdk-on-fedora)
+* [Open JDK](https://github.com/ctrl-alt-del/devenv/tree/master/language/java/oraclejdk#open-jdk-on-fedora)
 
-#### Open JDK
 [BACK TO TOP](https://github.com/ctrl-alt-del/devenv)

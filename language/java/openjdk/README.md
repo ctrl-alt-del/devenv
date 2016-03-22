@@ -1,8 +1,8 @@
 Open JDK
 ========
 
-* [**Ubuntu**](#java-on-ubuntu)
-* [**Fedora**](#java-on-fedora)
+* [**Ubuntu**](#open-jdk-on-ubuntu)
+* [**Fedora**](#open-jdk-on-fedora)
 
 
 ### Open JDK on Ubuntu

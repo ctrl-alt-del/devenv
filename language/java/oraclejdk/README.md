@@ -1,8 +1,8 @@
 Oracle JDK
 ==========
 
-* [**Ubuntu**](#java-on-ubuntu)
-* [**Fedora**](#java-on-fedora)
+* [**Ubuntu**](#oracle-jdk-on-ubuntu)
+* [**Fedora**](#oracle-jdk-on-fedora)
 
 
 ### Oracle JDK on Ubuntu
