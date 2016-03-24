@@ -28,6 +28,13 @@ laravel new <project_name> # <project_name> is a variable
 
 
 ## Laravel on Ubuntu
+Follow the same instructions as [Mac](#laravel-on-mac).
+
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
+
 
 
 ## Laravel on Fedora
+Follow the same instructions as [Mac](#laravel-on-mac).
+
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
