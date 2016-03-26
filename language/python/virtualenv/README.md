@@ -10,6 +10,14 @@ virtualenv
 ### virtualenv on Windows
 
 ### virtualenv on Mac
+You can install `virtualenv` globally if you already have installed `pip` globally.
+```sh
+sudo pip install virtualenv
+```
+
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
+
+
 
 ### virtualenv on Ubuntu
 
