@@ -15,10 +15,20 @@ You can install `virtualenv` globally if you already have installed `pip` global
 sudo pip install virtualenv
 ```
 
+Detail instructions of alternative install methods can be found in [here](https://virtualenv.pypa.io/en/latest/installation.html).
+
 [BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
 
 ### virtualenv on Ubuntu
+Follow the same instruction as [Mac](virtualenv-on-mac).
+
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
+
+
 
 ### virtualenv on Fedora
+Follow the same instruction as [Mac](virtualenv-on-mac).
+
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
