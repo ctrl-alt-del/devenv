@@ -2,7 +2,7 @@ Cheatsheet for Python
 =====================
 
 ### Syntax
-* Duck Typing/ Dynamica Typing
+* Duck Typing a.k.a Dynamic Typing
 * Significant Space
 * Significant Indentation
 
@@ -10,14 +10,14 @@ Cheatsheet for Python
 
 #### Tuple
 data type only possible with duck typing language.
-```pythonthon
+```python
 t = 12, "abc", 34534
 ```
 
 
 #### List
 List is as close as array as in other language.
-```pythonthon
+```python
 l = ['abc', 12, "cde"]
 ```
 
@@ -95,7 +95,7 @@ def myFunction():
 You can also use `epydoc` to create nice looking documentation like java doc
 
 #### Access the documentation
-```pyhton
+```python
 myfunction.__doc__
 myFunction?
 ```
@@ -104,7 +104,7 @@ myFunction?
 ### List Comprehensions
 Action to each item on the list, similar to .each in ruby.
 ```python
-[item.strip() for (item in list) if (condtion)]
+[item.strip() for (item in list) if (condition)]
 ```
 
 
