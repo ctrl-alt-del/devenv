@@ -2,7 +2,7 @@ Cheatsheet for PHP
 ==================
 
 # API stub using plain PHP files
-I thought about creatig a quick and easy way to `fake` a rest API style stub using plain php files so that I can easily perform some testing on a vanilla LAMP stack virtual machine's `/var/www/html` folder.
+I thought about creating a quick and easy way to `fake` a rest API style stub using plain php files so that I can easily perform some testing on a vanilla LAMP stack virtual machine's `/var/www/html` folder.
 
 There are some tasks needed to be done to get this idea working:
 * [Recognize HTTP request type](#recognize-http-request-type)
@@ -16,7 +16,7 @@ $method = $_SERVER['REQUEST_METHOD'];
 ```
 
 ### Parse path info
-To get the parameters of a url, I cut the url with `/` and put all items into an array excpet the first one.
+To get the parameters of a url, I cut the url with `/` and put all items into an array except the first one.
 ```php
 $params = explode( "/", substr( @$_SERVER['PATH_INFO'], 1 ) );
 ```
