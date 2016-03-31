@@ -36,6 +36,14 @@ This document and bash scripts will be updated piece by piece and I will try my 
 * [Setup Android dev environment](#setup-android-dev-enviroment)
 * [Flash Issue on older PC](#flash-issue-on-older-pc)
 
+## Integrated Development Environment (IDE)
+* [Android Studio](https://github.com/ctrl-alt-del/devenv/tree/master/ide/android%20studio)
+* [eclipse](https://github.com/ctrl-alt-del/devenv/tree/master/ide/eclipse)
+* [IntelliJ](https://github.com/ctrl-alt-del/devenv/tree/master/ide/intellij)
+* [PyCharm](https://github.com/ctrl-alt-del/devenv/tree/master/ide/pycharm)
+
+
+
 ## Language
 * [Go](https://github.com/ctrl-alt-del/devenv/tree/master/language/go)
 	* [BeeGo](https://github.com/ctrl-alt-del/devenv/tree/master/language/go/beego)
