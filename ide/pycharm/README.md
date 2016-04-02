@@ -14,7 +14,7 @@ Once download is completed, double click the `.exe` file and follow the instruct
 
 It is recommended to install `Pycharm` under the `~/Applications` directory.
 
-[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv#integrated-development-environment-ide)
 
 
 ### PyCharm on Mac
@@ -22,7 +22,7 @@ Download [PyCharm](http://www.jetbrains.com/pycharm/download)
 
 Once download is completed, double click the `.dmg` file and follow the instruction to install.
 
-[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv#integrated-development-environment-ide)
 
 
 ### PyCharm on Ubuntu
@@ -58,10 +58,10 @@ Name[en]=PyCharm
 
 echo "$content" >> /usr/share/applications/pycharm.desktop;
 ```
-[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv#integrated-development-environment-ide)
 
 
 ### PyCharm on Fedora
 Follow the same instruction as [Ubuntu](#pycharm-on-ubuntu).
 
-[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv#integrated-development-environment-ide)

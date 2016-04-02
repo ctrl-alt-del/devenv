@@ -21,7 +21,7 @@ Note that Android Studio requires access to public internet in order to download
 
 Note that Android Virtual Machine (AVD) requires [Intel Hardware Accelerated Execution Manager (Intel HAXM)](https://software.intel.com/en-us/android/articles/intel-hardware-accelerated-execution-manager), which you can get it from Android SDK Manager under `/Extras/Intel x86 Emulator Accelerator (HAXM installer).  The installer should install the Intel HAXM automatically, but it requires manual installation in some occasion.  To install Intel HAXM manually on windows, simply navigate to `<SDK_Directory>\extras\intel\Hardware_Accelerated_Execution_Manager` and execute the `intelhaxm-android.exe` file.
 
-[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv#integrated-development-environment-ide)
 
 
 ## Android Studio on Mac
@@ -31,7 +31,7 @@ Once download is done, unzip it and then move the `.app` file to Application fol
 
 The newer version of Android Studio for Mac no long comes with Android SDK, therefore, you need to download the SDK separately from [here](#sdk-on-mac).
 
-[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv#integrated-development-environment-ide)
 
 
 ## Android Studio on Ubuntu
@@ -94,7 +94,6 @@ You can solve this issue by installing some 32 bit support libraries:
 ```sh
 sudo apt-get install lib32z1 lib32z1-dev lib32stdc++6
 ```
-[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
 
@@ -106,10 +105,10 @@ The only option for users with 32 bit system would be to use the ver. 23.0.1, wh
 
 This issue has been asked and confirmed on [here](https://code.google.com/p/android/issues/detail?id=196866).
 
-[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv#integrated-development-environment-ide)
 
 
 ## Android Studio on Fedora
 Follow the same instruction of [Ubuntu](#android-studio-on-ubuntu).
 
-[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv#integrated-development-environment-ide)
