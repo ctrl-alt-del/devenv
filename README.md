@@ -36,6 +36,14 @@ This document and bash scripts will be updated piece by piece and I will try my 
 * [Setup Android dev environment](#setup-android-dev-enviroment)
 * [Flash Issue on older PC](#flash-issue-on-older-pc)
 
+## Database
+* [MySQL](https://github.com/ctrl-alt-del/devenv/tree/master/database/mysql)
+* [PostgreSQL](https://github.com/ctrl-alt-del/devenv/tree/master/database/postgresql)
+* [Redis](https://github.com/ctrl-alt-del/devenv/tree/master/database/redis)
+* [SQLite](https://github.com/ctrl-alt-del/devenv/tree/master/database/sqlite)
+
+
+
 ## Integrated Development Environment (IDE)
 * [Android Studio](https://github.com/ctrl-alt-del/devenv/tree/master/ide/android%20studio)
 * [eclipse](https://github.com/ctrl-alt-del/devenv/tree/master/ide/eclipse)
@@ -72,11 +80,10 @@ This document and bash scripts will be updated piece by piece and I will try my 
 * [Rust](https://github.com/ctrl-alt-del/devenv/tree/master/language/rust)
 * [Scala](https://github.com/ctrl-alt-del/devenv/tree/master/language/scala)
 
-## Database
-* [MySQL](https://github.com/ctrl-alt-del/devenv/tree/master/database/mysql)
-* [PostgreSQL](https://github.com/ctrl-alt-del/devenv/tree/master/database/postgresql)
-* [Redis](https://github.com/ctrl-alt-del/devenv/tree/master/database/redis)
-* [SQLite](https://github.com/ctrl-alt-del/devenv/tree/master/database/sqlite)
+
+
+## Operating System (OS)
+* [Fedora](https://github.com/ctrl-alt-del/devenv/tree/master/os/fedora)
 
 
 ## Configuration
