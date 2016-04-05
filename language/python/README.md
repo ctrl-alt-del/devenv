@@ -31,6 +31,15 @@ if there is error saying python is not found on sh.exe, restart the git bash and
 
 In order to make `python` available across `cmd.exe` and `PowerShell.exe`, we need to add the root directory of Python and its `\Scripts` folder as environment variables.
 
+#### Known Issue
+1. Type `python` on git-bash to enter python shell will halt the terminal
+It is a known issue for newer version of git-bash, which uses `MinGW64`.
+
+To bypass this issue, simply declare the interactive flag, `-i` while entering python shell.
+```sh
+python -i
+```
+
 [BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
