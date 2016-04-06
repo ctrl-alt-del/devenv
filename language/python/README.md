@@ -39,7 +39,6 @@ To bypass this issue, simply declare the interactive flag, `-i` while entering p
 ```sh
 python -i
 ```
-
 [BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
