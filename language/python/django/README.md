@@ -9,9 +9,13 @@ You need to have [Python](#python) installed before you install Django, and you 
 * [**Fedora**](#django-on-fedora)
 
 ### Django on Mac
+To install `django` on global root level
 ```sh
 sudo pip install django
 ```
+
+In practice, it is recommend to version you `django` by running it under `virtualenv`
+
 [BACK TO TOP](#table-of-contents)
 
 

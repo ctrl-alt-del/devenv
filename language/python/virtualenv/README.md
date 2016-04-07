@@ -8,6 +8,11 @@ virtualenv
 * [**Fedora**](#virtualenv-on-fedora)
 
 ### virtualenv on Windows
+Follow the same instruction as [Mac](virtualenv-on-mac).
+
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
+
+
 
 ### virtualenv on Mac
 You can install `virtualenv` globally if you already have installed `pip` globally.
