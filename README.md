@@ -253,59 +253,6 @@ sudo ln -s /opt/wget /usr/bin/wget
 
 
 
-## Django
-[**Django**](https://www.djangoproject.com) is a Python Web Framework.
-
-You need to have [Python](#python) installed before you install Django, and you also need to remove older version of Django if you have one of those installed.
-
-* [**Mac**](#django-on-mac)
-* [**Ubuntu**](#django-on-ubuntu)
-* [**Fedora**](#django-on-fedora)
-
-### Django on Mac
-```sh
-sudo pip install django
-```
-[BACK TO TOP](#table-of-contents)
-
-
-### Django on Ubuntu
-Follow the same instruction as [Mac](#django-on-mac).
-[BACK TO TOP](#table-of-contents)
-
-
-### Django on Fedora
-Follow the same instruction as [Mac](#django-on-mac).
-[BACK TO TOP](#table-of-contents)
-
-
-
-## Laravel
-[**Laravel**](http://laravel.com) is a PHP framework for web application development.
-
-* [**Windows**](#laravel-on-windows)
-* [**Mac**](#laravel-on-mac)
-
-### Laravel on Windows
-```sh
-composer create-project laravel/laravel {directory} 5.0 --prefer-dist
-```
-[BACK TO TOP](#table-of-contents)
-
-
-### Laravel on Mac
-```sh
-composer global require "laravel/installer=~1.1"
-```
-[BACK TO TOP](#table-of-contents)
-
-
-### Known Issues
-* Not able to build project on remote server
-remote server has limited resources and may not be capable of crawling through remote hosted repositories to search for the latest dependencies, therefore, you need to commit and push your `composer.lock` file as well.  This file contains the exact locations of the dependencies that your project needs.
-[BACK TO TOP](#table-of-contents)
-
-
 
 ## OpenSSL
 
@@ -543,46 +490,6 @@ sudo yum install kernel-devel dkms binutils gcc make patch libgomp glibc-headers
 Once the libraries are installed, you can install VirtualBox:
 ```sh
 sudo yum install VirtualBox-4.3.x86_64
-```
-[BACK TO TOP](#table-of-contents)
-
-
-
-## SmartGit
-[SmartGit](http://www.syntevo.com/smartgithg) is an open source GUI for Git.
-
-* [**Ubuntu**](#smartgit-on-ubuntu)
-* [**Fedora**](#smartgit-on-fedora)
-
-### SmartGit on Ubuntu
-You can install SmartGit through PPA or do so manually.
-
-#### Install Through PPA
-To add the SmartGit PPA, run:
-```sh
-sudo add-apt-repository ppa:eugenesan/ppa
-sudo apt-get update
-```
-
-Once the PPA is added and updated, you can install SmartGit by running:
-```sh
-sudo apt-get install smartgithg
-```
-[BACK TO TOP](#table-of-contents)
-
-
-#### Install Through `deb` Package Manager
-```sh
-cd ~/Downloads
-wget http://www.syntevo.com/downloads/smartgit/smartgit-6_5_8.deb
-sudo dpkg -i smartgit-6_5_8.deb
-```
-[BACK TO TOP](#table-of-contents)
-
-
-### SmartGit on Fedora
-```sh
-sudo yum install smartgithg
 ```
 [BACK TO TOP](#table-of-contents)
 
