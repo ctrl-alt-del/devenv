@@ -545,35 +545,6 @@ sudo yum install httpd mysql php php-mysql
 
 
 
-## iPython
-[**iPython**](http://ipython.org) An enhanced Interactive Python.  To install `ipython`, you will need to have [`pip`](#pip)
-
-* [**Mac**](#ipython-on-mac)
-* [**Ubuntu**](#ipython-on-ubuntu)
-* [**Fedora**](#ipython-on-fedora)
-
-### iPython on Mac
-```sh
-sudo pip install ipython gnureadline
-```
-`gnureadline` is strongly recommended because `readline` will not behave well without it.
-
-[BACK TO TOP](#table-of-contents)
-
-
-### iPython on Ubuntu
-```sh
-sudo pip install ipython
-```
-[BACK TO TOP](#table-of-contents)
-
-
-### iPython on Fedora
-Follow the same instruction as [Ubuntu](#ipython-on-ubuntu)
-
-[BACK TO TOP](#table-of-contents)
-
-
 
 ## Tree
 [**Tree**](http://mama.indstate.edu/users/ice/tree) is a recursive directory listing tool with nice indentation and color codes.
@@ -583,7 +554,7 @@ Follow the same instruction as [Ubuntu](#ipython-on-ubuntu)
 * [**Ubuntu**](#tree-on-ubuntu)
 * [**Fedora**](#tree-on-fedora)
 
-### Tree on Mac
+### Tree on Windows
 `tree` is a built-in command for Windows.
 
 [BACK TO TOP](#table-of-contents)
