@@ -82,6 +82,20 @@ else:
 def myFunction (arg1, arg2='default2', arg3='default3'):
 ```
 
+#### Private Method
+```python
+def __myFunction (arg1, arg2='default2', arg3='default3'):
+```
+
+
+#### Static Method
+```python
+@staticmethod
+def myFunction (arg1, arg2='default2', arg3='default3'):
+```
+
+
+
 ### Documentation
 ```python
 def myFunction():
