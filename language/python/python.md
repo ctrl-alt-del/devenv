@@ -50,30 +50,38 @@ a, b = 0, 1
 #### Switching Variables
 ```python
 a, b = b, a
+# ==> a = 1
+# ==> b = 0
 ```
 
 ### raw_input
 ```python
-raw_input # take the user input.
+raw_input("Message to user:") # take the user input while displaying message.
 ```
 
 ### for loop
 Different conditions used to define the loop:
 
 Loop through each item on the list:
-`for item in list`
+```python
+for item in list:
+```
 
 Loop through each item on the list using index:
-`for index in range(len(list))`
+```python
+for index in range(len(list)):
+```
 
 Loop through a specific range of items on the list:
-`for index in range(n, m)`
+```python
+for index in range(n, m):
+```
 
 ```python
 for some_condition:
-  // do something inside loop
+  # do something inside loop
 else:
-  // execute when the loop is exhausted
+  # execute when the loop is exhausted
 ```
 
 
