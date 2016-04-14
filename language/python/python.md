@@ -150,7 +150,7 @@ r: read
 w: write
 a: append
 
-f = open(file_dest) // default is read
+f = open(file_dest) # default is read
 f = open(file_dest, 'r')
 f.read()
 f.close()
@@ -164,11 +164,11 @@ Serialization of data
 ### Exception Handler
 ```python
 try:
-  // Some code
-expect excpetionType:
-  // Some handler
+  # Some code
+expect Error: # e.g. ValueError, TypeError
+  # Some handler
 else:
-  // Other unexpected conditions
+  # Other unexpected conditions
 ```
 
 **Raising Exception**
@@ -185,7 +185,7 @@ class parentClass:
 ```python
 class newClass(parentClass):
   def __init__(self):
-    Animal.__init__(self, ...)
+    parentClass.__init__(self, ...)
 ```
 
 #### multiple inheritance
