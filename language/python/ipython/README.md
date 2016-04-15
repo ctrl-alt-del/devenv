@@ -2,9 +2,21 @@ iPython
 =======
 [**iPython**](http://ipython.org) An enhanced Interactive Python.  To install `ipython`, you will need to have [`pip`](#pip)
 
+* [**Windows**](#ipython-on-windows)
 * [**Mac**](#ipython-on-mac)
 * [**Ubuntu**](#ipython-on-ubuntu)
 * [**Fedora**](#ipython-on-fedora)
+
+### iPython on Windows
+Open you git-bash, assuming you have `pip` installed
+```sh
+pip install ipython pyreadline
+```
+`pyreadline` is needed for `ipython` to properly display on Windows.
+
+[BACK TO TOP](#table-of-contents)
+
+
 
 ### iPython on Mac
 ```sh
@@ -15,11 +27,13 @@ sudo pip install ipython gnureadline
 [BACK TO TOP](#table-of-contents)
 
 
+
 ### iPython on Ubuntu
 ```sh
 sudo pip install ipython
 ```
 [BACK TO TOP](#table-of-contents)
+
 
 
 ### iPython on Fedora
