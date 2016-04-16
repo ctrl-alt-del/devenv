@@ -1,6 +1,6 @@
 iPython
 =======
-[**iPython**](http://ipython.org) An enhanced Interactive Python.  To install `ipython`, you will need to have [`pip`](#pip)
+[**iPython**](http://ipython.org) An enhanced Interactive Python.  To install `ipython`, you will need to have [`pip`](https://github.com/ctrl-alt-del/devenv/tree/master/language/python/pip)
 
 * [**Windows**](#ipython-on-windows)
 * [**Mac**](#ipython-on-mac)

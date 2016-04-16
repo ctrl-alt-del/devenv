@@ -1,6 +1,6 @@
 virtualenv
 ==========
-[**virtualenv**](https://virtualenv.pypa.io) creates isolated python environment.
+[**virtualenv**](https://virtualenv.pypa.io) creates isolated python environment.  To install `virtualenv`, you will need to have [`pip`](https://github.com/ctrl-alt-del/devenv/tree/master/language/python/pip)
 
 * [**Windows**](#virtualenv-on-windows)
 * [**Mac**](#virtualenv-on-mac)
