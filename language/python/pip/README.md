@@ -30,7 +30,8 @@ pip -V
 
 ### `pip` on Ubuntu
 ```sh
-sudo apt-get install python-pip
+sudo apt-get install python-pip python-dev build-essential
+sudo pip install --upgrade pip
 ```
 [BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
