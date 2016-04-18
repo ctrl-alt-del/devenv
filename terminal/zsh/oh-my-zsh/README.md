@@ -26,6 +26,11 @@ Once you have installed the prerequisites, you can:
 wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
 chsh -s `which zsh`
 ```
+
+Alternatively, you can install using `curl`:
+```sh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```
 [BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
