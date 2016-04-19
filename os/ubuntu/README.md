@@ -9,6 +9,7 @@ Note: Contents and behaviors were tested on both 12.04 and 14.04.
 * Gnome Shell
 * Places Drawer on Files
 * [Magick Rotation](#magick-rotation)
+* [configure-trackpoint](#configure-trackpoint)
 
 ## TouchPad Issue
 Ubuntu may experience issues for some (older) Synaptic TouchPads, such as tapping is way too sensitive, drag to drop is not responsive, scrolling is lagging and etc.
@@ -104,4 +105,29 @@ Once verified the installation is successfully completed.  Remove the unnecessar
 ```sh
 sudo apt-get remove yum
 sudo apt-get autoremove
+```
+
+## configure-trackpoint
+`configure-trackpoint` is available as `deb:i386` or `rpm:amd64`.
+
+To install `deb` on Ubuntu, you need to have `dpkg`
+```sh
+sudo apt-get install dpkg
+```
+
+You will also need to have some prerequisites for the `configure-trackpoint` package.
+```sh
+sudo apt-get install sysfsutils libsysfs2
+```
+
+### 64 bit
+There are only `rpm` version of configure-trackpoint for 64 bit system; therefore, you will need to manually convert it to `deb`.
+
+First download the `rpm:amd64` from [here](ftp://rpmfind.net/linux/RPM/mandriva/2011/x86_64/media/contrib/release/configure-trackpoint-0.6-5mdv2011.0.x86_64.html)
+
+Once the `configure-trackpoint-0.6-5mdv2011.0.x86_64.rpm` is downloaded, you can then convert it into `deb` package by:
+```sh
+sudo apt-get install alien dpkg-dev debhelper build-essential
+sudo alien configure-trackpoint-0.6-5mdv2011.0.x86_64.rpm
+sudo dpkg -i configure-trackpoint-0.6-6_amd64.deb
 ```
