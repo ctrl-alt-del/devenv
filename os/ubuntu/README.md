@@ -108,7 +108,7 @@ sudo apt-get autoremove
 ```
 
 ## configure-trackpoint
-`configure-trackpoint` is available as `deb:i386` or `rpm:amd64`.
+[`configure-trackpoint`](http://tpctl.sourceforge.net/configure-trackpoint.html) is a Thinkpad track point configuration tool on Linux system.  `configure-trackpoint` is available as `deb:i386` or `rpm:amd64`.
 
 To install `deb` on Ubuntu, you need to have `dpkg`
 ```sh
@@ -119,6 +119,16 @@ You will also need to have some prerequisites for the `configure-trackpoint` pac
 ```sh
 sudo apt-get install sysfsutils libsysfs2
 ```
+
+### 32 bit
+You can download the `deb:i386` from [here](https://sourceforge.net/projects/tpctl).
+
+Once package is downloaded:
+```sh
+sudo dpkg -i package_name.deb
+```
+
+
 
 ### 64 bit
 There are only `rpm` version of configure-trackpoint for 64 bit system; therefore, you will need to manually convert it to `deb`.
