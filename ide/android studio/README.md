@@ -92,7 +92,8 @@ There are some known issues for ADB in Ubuntu:
 
 You can solve this issue by installing some 32 bit support libraries:
 ```sh
-sudo apt-get install lib32z1 lib32z1-dev lib32stdc++6
+sudo apt-get install lib32stdc++6
+sudo apt-get install lib32z1 lib32z1-dev #optional, depending on system
 ```
 
 
