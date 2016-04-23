@@ -112,4 +112,9 @@ This issue has been asked and confirmed on [here](https://code.google.com/p/andr
 ## Android Studio on Fedora
 Follow the same instruction of [Ubuntu](#android-studio-on-ubuntu).
 
+Similarly as Ubuntu, you may run into 32 bit library compatibility issue, and you can solve this issue by installing some 32 bit support libraries:
+```sh
+sudo yum install zlib.i686 ncurses-libs.i686 bzip2-libs.i686
+```
+
 [BACK TO TOP](https://github.com/ctrl-alt-del/devenv#integrated-development-environment-ide)
