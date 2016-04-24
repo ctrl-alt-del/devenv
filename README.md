@@ -84,6 +84,10 @@ This document and bash scripts will be updated piece by piece and I will try my 
 
 ## Operating System (OS)
 * [Fedora](https://github.com/ctrl-alt-del/devenv/tree/master/os/fedora)
+* [LXLE](https://github.com/ctrl-alt-del/devenv/tree/master/os/lxle)
+* [Mac](https://github.com/ctrl-alt-del/devenv/tree/master/os/mac)
+* [Ubuntu](https://github.com/ctrl-alt-del/devenv/tree/master/os/ubuntu)
+* [Windows](https://github.com/ctrl-alt-del/devenv/tree/master/os/windows)
 
 
 ## Configuration
