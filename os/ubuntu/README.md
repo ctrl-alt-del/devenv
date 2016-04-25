@@ -5,21 +5,21 @@ Ubuntu
 Note: Contents and behaviors were tested on both 12.04 and 14.04.
 
 * [TouchPad Issue](#touchpad-issue)
+  * [Enable vertical two finger scroll](#enable-vertical-two-finger-scroll)
+  * [Enable two finger tapping as right click](#enable-two-finger-tapping-as-right-click)
+  * [configure-trackpoint](#configure-trackpoint)
 * [Graphic Card Issue](#graphic-card-issue)
 * Gnome Shell
 * Places Drawer on Files
 * [Magick Rotation](#magick-rotation)
-* [configure-trackpoint](#configure-trackpoint)
+
 
 ## TouchPad Issue
 Ubuntu may experience issues for some (older) Synaptic TouchPads, such as tapping is way too sensitive, drag to drop is not responsive, scrolling is lagging and etc.
 
 The easiest fix for those issues is to use `synclient`, which is available since Ubuntu 12.04, to configure the touchpad.
 
-* [Enable vertical two finger scroll](#enable-vertical-two-finger-scroll)
-* [Enable two finger tapping as right click](#enable-two-finger-tapping-as-right-click)
-
-### Enable vertical two finger scroll
+### Enable vertical two finger scroll](#enable-vertical-two-finger-scroll)
 Two finger scrolling is disabled by default.  Depending on the version of your touch pad, you can enable two finger scroll either though:
 1. `settings` -> `mouse` -> `touchpad` -> `enable two finger scroll`
 2. open terminal and type in `synclient VertTwoFingerScroll=1`
@@ -36,6 +36,42 @@ xinput --set-prop --type=int --format=8 "SynPS/2 Synaptics TouchPad" "Synaptics 
 ### Enable two finger tapping as right click
 ```sh
 synclient TapButton2=3
+```
+
+
+### configure-trackpoint
+[`configure-trackpoint`](http://tpctl.sourceforge.net/configure-trackpoint.html) is a Thinkpad track point configuration tool on Linux system.  `configure-trackpoint` is available as `deb:i386` or `rpm:amd64`.
+
+To install `deb` on Ubuntu, you need to have `dpkg`
+```sh
+sudo apt-get install dpkg
+```
+
+You will also need to have some prerequisites for the `configure-trackpoint` package.
+```sh
+sudo apt-get install sysfsutils libsysfs2
+```
+
+#### 32 bit
+You can download the `deb:i386` from [here](https://sourceforge.net/projects/tpctl).
+
+Once package is downloaded:
+```sh
+sudo dpkg -i package_name.deb
+```
+
+
+
+#### 64 bit
+There are only `rpm` version of configure-trackpoint for 64 bit system; therefore, you will need to manually convert it to `deb`.
+
+First download the `rpm:amd64` from [here](ftp://rpmfind.net/linux/RPM/mandriva/2011/x86_64/media/contrib/release/configure-trackpoint-0.6-5mdv2011.0.x86_64.html)
+
+Once the `configure-trackpoint-0.6-5mdv2011.0.x86_64.rpm` is downloaded, you can then convert it into `deb` package by:
+```sh
+sudo apt-get install alien dpkg-dev debhelper build-essential
+sudo alien configure-trackpoint-0.6-5mdv2011.0.x86_64.rpm
+sudo dpkg -i configure-trackpoint-0.6-6_amd64.deb
 ```
 
 
@@ -105,39 +141,4 @@ Once verified the installation is successfully completed.  Remove the unnecessar
 ```sh
 sudo apt-get remove yum
 sudo apt-get autoremove
-```
-
-## configure-trackpoint
-[`configure-trackpoint`](http://tpctl.sourceforge.net/configure-trackpoint.html) is a Thinkpad track point configuration tool on Linux system.  `configure-trackpoint` is available as `deb:i386` or `rpm:amd64`.
-
-To install `deb` on Ubuntu, you need to have `dpkg`
-```sh
-sudo apt-get install dpkg
-```
-
-You will also need to have some prerequisites for the `configure-trackpoint` package.
-```sh
-sudo apt-get install sysfsutils libsysfs2
-```
-
-### 32 bit
-You can download the `deb:i386` from [here](https://sourceforge.net/projects/tpctl).
-
-Once package is downloaded:
-```sh
-sudo dpkg -i package_name.deb
-```
-
-
-
-### 64 bit
-There are only `rpm` version of configure-trackpoint for 64 bit system; therefore, you will need to manually convert it to `deb`.
-
-First download the `rpm:amd64` from [here](ftp://rpmfind.net/linux/RPM/mandriva/2011/x86_64/media/contrib/release/configure-trackpoint-0.6-5mdv2011.0.x86_64.html)
-
-Once the `configure-trackpoint-0.6-5mdv2011.0.x86_64.rpm` is downloaded, you can then convert it into `deb` package by:
-```sh
-sudo apt-get install alien dpkg-dev debhelper build-essential
-sudo alien configure-trackpoint-0.6-5mdv2011.0.x86_64.rpm
-sudo dpkg -i configure-trackpoint-0.6-6_amd64.deb
 ```
