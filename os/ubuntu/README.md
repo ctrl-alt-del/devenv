@@ -75,6 +75,23 @@ sudo dpkg -i configure-trackpoint-0.6-6_amd64.deb
 ```
 
 
+#### Manual Approach
+Use `vi` or any other text editor to open `/etc/tmpfiles.d/tpoint.conf` with root permission.
+```sh
+sudo vi /etc/tmpfiles.d/tpoint.conf
+```
+
+Then paste the following code into it:
+```sh
+w /sys/devices/platform/i8042/serio1/speed - - - - 200
+w /sys/devices/platform/i8042/serio1/sensitivity - - - - 210
+w /sys/devices/platform/i8042/serio1/inertia - - - - 6
+w /sys/devices/platform/i8042/serio1/press_to_select - - - - 0
+```
+You can adjust the value according to your needs; once done, save the file, logout and login back into the system to activate the changes.
+
+
+
 ## Graphic Card Issue
 Ubuntu may have compatibility issue with some older graphic cards, especially the **Nvidia** ones.
 
