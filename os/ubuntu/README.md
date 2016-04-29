@@ -83,8 +83,8 @@ sudo vi /etc/tmpfiles.d/tpoint.conf
 
 Then paste the following code into it:
 ```sh
-w /sys/devices/platform/i8042/serio1/speed - - - - 200
-w /sys/devices/platform/i8042/serio1/sensitivity - - - - 210
+w /sys/devices/platform/i8042/serio1/speed - - - - 200 # [0, 255]
+w /sys/devices/platform/i8042/serio1/sensitivity - - - - 210 # [0, 255]
 w /sys/devices/platform/i8042/serio1/inertia - - - - 6
 w /sys/devices/platform/i8042/serio1/press_to_select - - - - 0
 ```

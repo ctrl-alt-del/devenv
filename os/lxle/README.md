@@ -28,3 +28,5 @@ sudo apt-get install zsh
 sudo apt-get install guake
 sudo apt-get install curl
 ```
+
+Since LXLE is based off Ubuntu, you can rely on [Ubunut's info](https://github.com/ctrl-alt-del/devenv/tree/master/os/ubuntu) in most cases.
