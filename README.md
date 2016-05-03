@@ -86,6 +86,24 @@ This document and bash scripts will be updated piece by piece and I will try my 
 
 
 
+## Terminal
+* [bash]()
+* [git]()
+* [guake]()
+* [iterm2]()
+* [package manager]()
+	* [Chocolatey]()
+* [tilda]()
+* [zsh]()
+
+
+## Virtualization
+* [Chef]()
+* [Vagrant]()
+* [VirtualBox]()
+
+
+
 ## Wget
 [**Wget**](http://www.gnu.org/software/wget) is a free, open-source, command-line tool that downloads content from internet
 
