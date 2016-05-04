@@ -76,3 +76,12 @@ git config --global alias.co checkout
 git config --global alias.cm !git add -A && git commit -m
 ```
 [BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
+
+
+
+#### Change default editor
+The default editor is `nano` or `vi` depending on you operating system.  You can modified it by:
+```sh
+git config --global core.editor <editor_name> # <editor_name> being "nano", "vim" and etc. 
+```
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
