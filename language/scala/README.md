@@ -25,8 +25,8 @@ brew install sbt
 
 ### Scala on Ubuntu
 ```sh
-wget http://www.scala-lang.org/files/archive/scala-2.11.7.deb
-sudo dpkg -i scala-2.11.7.deb
+wget http://www.scala-lang.org/files/archive/scala-2.11.8.deb
+sudo dpkg -i scala-2.11.8.deb
 sudo apt-get update
 sudo apt-get install scala
 echo "deb http://dl.bintray.com/sbt/debian /" | sudo tee -a /etc/apt/sources.list.d/sbt.list
