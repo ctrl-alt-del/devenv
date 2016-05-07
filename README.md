@@ -17,7 +17,6 @@ This document and bash scripts will be updated piece by piece and I will try my 
 |[OpenSSL](#openssl)         | [   ](       )                 | [   ](            )       | [-->](#openssl-on-ubuntu)   | [   ](               )      |
 |[WAMP](#wamp)               | [-->](#wamp)                   | N/A                       | N/A                         | N/A                         |
 |[MAMP](#mamp)               | N/A                            | [-->](#mamp)              | N/A                         | N/A                         |
-|[LAMP](#lamp)               | N/A                            | N/A                       | [-->](#lamp-on-ubuntu)      | [-->](#lamp-on-fedora)      |
 |[Tree](#tree)               | [-->](#tree-on-windows)        | [-->](#tree-on-mac)       | [-->](#tree-on-ubuntu)      | [-->](#tree-on-fedora)      |
 
 
@@ -264,37 +263,6 @@ Once download is done, double click the `.pkg` file to install.
 
 [BACK TO TOP](#table-of-contents)
 
-## LAMP
-[**LAMP**]() stands for Linux-Apache-MySQL-PHP.
-
-* [**Ubuntu**](#lamp-on-ubuntu)
-* [**Fedora**](#lamp-on-fedora)
-
-### LAMP on Ubuntu
-Install LAMP stack in Fedora is pretty simple.
-```sh
-sudo apt-get update
-sudo apt-get install apache2
-sudo apt-get install mysql-server libapache2-mod-auth-mysql php5-mysql
-sudo apt-get install php5 libapache2-mod-php5 php5-mcrypt
-```
-
-[BACK TO TOP](#table-of-contents)
-
-
-### LAMP on Fedora
-Install LAMP stack in Fedora is pretty straightforward.
-```sh
-yum update
-sudo yum install httpd
-sudo yum install mysql mysql-server
-sudo yum install php php-mysql
-```
-You are done! LAMP stack is now installed into your Fedora.
-
-[BACK TO TOP](#table-of-contents)
-
-
 
 
 ## git-cola
@@ -315,36 +283,6 @@ sudo apt-get install git-cola
 sudo yum install git-cola
 ```
 [BACK TO TOP](#table-of-contents)
-
-
-
-## LAMP
-LAMP referes to a software bundle including Linux Apache MySQL PHP. You can learn more about it on its [server guide](https://help.ubuntu.com/14.04/serverguide/lamp-overview.html) or [wiki](https://help.ubuntu.com/community/ApacheMySQLPHP).
-
-* [**Ubuntu**](#lamp-on-ubuntu)
-* [**Fedora**](#lamp-on-fedora)
-
-### LAMP on Ubuntu
-You can install LAMP in Ubuntu by running:
-```sh
-sudo tasksel install lamp-server
-```
-
-Or alternatively:
-```sh
-sudo apt-get update
-sudo apt-get install lamp-server^
-```
-[BACK TO TOP](#table-of-contents)
-
-
-### LAMP on Fedora
-```sh
-sudo yum update
-sudo yum install httpd mysql php php-mysql
-```
-[BACK TO TOP](#table-of-contents)
-
 
 
 
