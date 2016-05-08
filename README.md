@@ -16,7 +16,6 @@ This document and bash scripts will be updated piece by piece and I will try my 
 |[devkit](#devkit)           | [-->](#devkit)                 | N/A                       | N/A                         | N/A                         |
 |[OpenSSL](#openssl)         | [   ](       )                 | [   ](            )       | [-->](#openssl-on-ubuntu)   | [   ](               )      |
 |[WAMP](#wamp)               | [-->](#wamp)                   | N/A                       | N/A                         | N/A                         |
-|[MAMP](#mamp)               | N/A                            | [-->](#mamp)              | N/A                         | N/A                         |
 |[Tree](#tree)               | [-->](#tree-on-windows)        | [-->](#tree-on-mac)       | [-->](#tree-on-ubuntu)      | [-->](#tree-on-fedora)      |
 
 
@@ -252,14 +251,6 @@ sudo apt-get upgrade openssl
 Choose the appropriate Thread Safe zip to download, either `x86` or `x64` based on your operation system.
 
 Install the downloaded file to /c/usr/bin/wamp, or whatever directory you chose. Keep installation configurations default.
-
-[BACK TO TOP](#table-of-contents)
-
-
-## MAMP
-[**MAMP**](http://www.mamp.info/en/downloads) stands for Mac-Apache-MySQL-PHP.
-
-Once download is done, double click the `.pkg` file to install.
 
 [BACK TO TOP](#table-of-contents)
 
