@@ -15,7 +15,6 @@ This document and bash scripts will be updated piece by piece and I will try my 
 |[Curl](#curl)               | [-->](#curl-on-windows)        | [-->](#curl-on-mac)       | [-->](#curl-on-ubuntu)      | [   ](#curl-on-fedora)      |
 |[devkit](#devkit)           | [-->](#devkit)                 | N/A                       | N/A                         | N/A                         |
 |[OpenSSL](#openssl)         | [   ](       )                 | [   ](            )       | [-->](#openssl-on-ubuntu)   | [   ](               )      |
-|[WAMP](#wamp)               | [-->](#wamp)                   | N/A                       | N/A                         | N/A                         |
 |[Tree](#tree)               | [-->](#tree-on-windows)        | [-->](#tree-on-mac)       | [-->](#tree-on-ubuntu)      | [-->](#tree-on-fedora)      |
 
 
@@ -241,17 +240,6 @@ You can upgrade OpenSSL by running:
 ```sh
 sudo apt-get upgrade openssl
 ```
-[BACK TO TOP](#table-of-contents)
-
-
-
-## WAMP
-[**WAMP**](http://www.wampserver.com/en) stands for Windows-Apache-MySQL-PHP; it is a stack emulating server behaviors for web application development.
-
-Choose the appropriate Thread Safe zip to download, either `x86` or `x64` based on your operation system.
-
-Install the downloaded file to /c/usr/bin/wamp, or whatever directory you chose. Keep installation configurations default.
-
 [BACK TO TOP](#table-of-contents)
 
 
