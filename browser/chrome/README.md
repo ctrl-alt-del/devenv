@@ -8,6 +8,12 @@ Alternatively, you can visit the [Chrome web store page](https://chrome.google.c
 
 [BACK TO TOP](#table-of-contents)
 
+* [**EditThisCookie**](#editthiscookie)
+* [**REST Console**](#rest-console)
+* [**Postman**](#postman)
+* [**JSON View**](#json-view)
+* [**ScriptSafe**](#scriptsafe)
+
 
 ### EditThisCookie
 [**EditThisCookie**](https://chrome.google.com/webstore/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg) is a cookie manager that allow developer to modify cookies of a page in real for development and testing purpose.

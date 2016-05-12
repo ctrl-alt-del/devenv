@@ -20,10 +20,6 @@ This document and bash scripts will be updated piece by piece and I will try my 
 
 * [General Setup](#general-setup)
 * [Setup .bash_profile](#setup-bash_profile)
-* [Chrome](#chrome)
-* [EditThisCookie](#editthiscookie)
-* [REST Console](#rest-console)
-* [JSON View](#json-view)
 * [Setup Android dev environment](#setup-android-dev-enviroment)
 * [Flash Issue on older PC](#flash-issue-on-older-pc)
 
@@ -83,14 +79,14 @@ This document and bash scripts will be updated piece by piece and I will try my 
 
 
 ## Terminal
-* [bash]()
-* [git]()
-* [guake]()
-* [iterm2]()
-* [package manager]()
-	* [Chocolatey]()
-* [tilda]()
-* [zsh]()
+* [bash](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/bash)
+* [git](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/git)
+* [guake](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/guake)
+* [iterm2](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/iterm2)
+* [package manager](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/package%20manager)
+	* [Chocolatey](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/package%20manager/chocolatey)
+* [tilda](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/tilda)
+* [zsh](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/zsh)
 
 
 ## Virtualization
