@@ -70,6 +70,9 @@ alias gpumeminfo='grep -i --color memory /var/log/Xorg.0.log'
 
 ## keep the Ruby console program (irb) minimal
 alias irb='irb --simple-prompt'
+
+## count file in current directory
+alias count-file='ls -F | grep -v / | wc -l'
 ## ==================== ##
 
 ";
