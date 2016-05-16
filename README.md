@@ -21,7 +21,6 @@ This document and bash scripts will be updated piece by piece and I will try my 
 * [General Setup](#general-setup)
 * [Setup .bash_profile](#setup-bash_profile)
 * [Setup Android dev environment](#setup-android-dev-enviroment)
-* [Flash Issue on older PC](#flash-issue-on-older-pc)
 
 ## Database
 * [MySQL](https://github.com/ctrl-alt-del/devenv/tree/master/database/mysql)
@@ -353,10 +352,3 @@ If you prefer to create the .bash_profile file manually, you can do so by runnin
 After the .bash_profile is created, restart the git bash to let the changes take effect.
 
 [BACK TO TOP](#table-of-contents)
-
-
-
-## Flash Issue on older PC
-Newer Flash (version 11 and after) requires SSE2 feature in the CPU, which Intel first introduced on its Pentium 4.  However, AMD and other manufacturers only include such feature on their 64-bit chips.  Therefore, older computers with Pentium 3 or AMD 32-bit chips won't be able to get newer version of Flash to work.
-
-The alternatives would be either using the [Chromium](https://www.chromium.org), or installing Flash 10 plugins.
