@@ -52,16 +52,16 @@ To create the `GoPath` folder if it is not yet existed, you can do so by executi
 ```sh
 export GOROOT=/usr/local/go
 export GOROOT_BIN="$GOROOT/bin"
-export GOPATH="$HOME/GoPath"
+export GOPATH="$HOME/GoPath" # GOPATH is the folder of your go repositories going to sit
 export GOBIN="$GOPATH/bin"
 export PATH=$PATH:$GOROOT:$GOROOT_BIN:$GOPATH:$GOBIN
 ```
 
-To append `$GOROOT` and `$GOPATH` to your `$PATH`, you can choose either of the following approaches:
-1. The easiest and most conservative approach is to create the `~/.bash_profile` and add the code in above into it; you can do `source ~/.bash_profile` when you need the configurations.  
-2. You can add the code in above to your `~/.bashrc` so that `go` will be loaded whenever you open up terminal.
-3. If you use `zsh` shell, you can add the code to your `~/.zshrc` so that `go` will be loaded whenever you open up your zsh shell terminal.
-4. You can add the code in above to `~/.profile` so that Go will be loaded whenever you sign in to you computer.
+To append `$GOROOT`, `$GOROOT_BIN`, `$GOPATH` and `$GOBIN` to your `$PATH`, you can choose either of the following approaches:
+1. The easiest and most conservative approach is to create the `~/.bash_profile` and append the code to it; you can do `source ~/.bash_profile` whenever you need the configurations.  
+2. You can append the code to your `~/.bashrc` so that `go` will be loaded whenever you open up terminal.
+3. If you use `zsh` shell, you can append the code to your `~/.zshrc` so that `go` will be loaded whenever you open up your zsh shell terminal.
+4. You can append the code to `~/.profile` so that Go will be loaded whenever you sign in to you computer.
 
 Alternatively, you can install Go from its source.  To do so, visit [Go's source install page](https://golang.org/doc/install/source) and follow instruction there to install.
 
