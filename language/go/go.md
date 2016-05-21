@@ -45,7 +45,7 @@ This cheatsheet is based on the official document, [Effective Go](https://golang
 
 
 ### MixedCaps
-0. use Capitialized Camel Case `MixedCaps` or Camel Case `mixedCaps` to write multiword names.
+0. use Capitalized Camel Case `MixedCaps` or Camel Case `mixedCaps` to write multiword names.
 
 
 

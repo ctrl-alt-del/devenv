@@ -61,7 +61,7 @@ brew install python
 
 
 ### Python on Ubuntu
-Install Python can be very easy with the help from the DeadSnakes PPA:
+Python should've been installed to Ubuntu by default.  In case you prefer another version of python, you can install it with the help of the DeadSnakes PPA:
 ```sh
 sudo add-apt-repository ppa:fkrull/deadsnakes
 sudo apt-get update
