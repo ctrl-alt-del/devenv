@@ -43,6 +43,8 @@ This document and bash scripts will be updated piece by piece and I will try my 
 	* [BeeGo](https://github.com/ctrl-alt-del/devenv/tree/master/language/go/beego)
 	* [godep](https://github.com/ctrl-alt-del/devenv/tree/master/language/go/godep)
 * [Java](https://github.com/ctrl-alt-del/devenv/tree/master/language/java)
+	* [OpenJDK](https://github.com/ctrl-alt-del/devenv/tree/master/language/java/openjdk)
+	* [OracleJDK](https://github.com/ctrl-alt-del/devenv/tree/master/language/java/oraclejdk)
 * [JavaScript](https://github.com/ctrl-alt-del/devenv/tree/master/language/javascript)
 	* [bower](https://github.com/ctrl-alt-del/devenv/tree/master/language/javascript/bower)
 	* [jQuery](https://github.com/ctrl-alt-del/devenv/tree/master/language/javascript/jquery)
@@ -56,6 +58,8 @@ This document and bash scripts will be updated piece by piece and I will try my 
 	* [composer](https://github.com/ctrl-alt-del/devenv/tree/master/language/php/composer)
 	* [Laravel](https://github.com/ctrl-alt-del/devenv/tree/master/language/php/laravel)
 * [Python](https://github.com/ctrl-alt-del/devenv/tree/master/language/python)
+	* [django](https://github.com/ctrl-alt-del/devenv/tree/master/language/python/django)
+	* [ipython](https://github.com/ctrl-alt-del/devenv/tree/master/language/python/ipython)
 	* [matplotlib](https://github.com/ctrl-alt-del/devenv/tree/master/language/python/matplotlib)
 	* [numpy](https://github.com/ctrl-alt-del/devenv/tree/master/language/python/numpy)
 	* [pip](https://github.com/ctrl-alt-del/devenv/tree/master/language/python/pip)
@@ -93,14 +97,9 @@ This document and bash scripts will be updated piece by piece and I will try my 
 	* [pacman](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/package%20manager/pacman)
 	* [yum](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/package%20manager/yum)
 * [tilda](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/tilda)
+* [tree](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/tree)
 * [zsh](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/zsh)
 	* [oh-my-zsh](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/zsh/oh-my-zsh)
-
-
-## Virtualization
-* [Chef]()
-* [Vagrant]()
-* [VirtualBox]()
 
 
 
