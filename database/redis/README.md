@@ -16,8 +16,8 @@ brew install redis
 ### Redis on Ubuntu
 You need to download and install redis manually on Ubuntu.
 ```sh
-wget http://download.redis.io/releases/redis-stable.tar.gz
-tar xzf redis-stable.tar.gz
+wget http://download.redis.io/redis-stable.tar.gz
+tar xvzf redis-stable.tar.gz
 cd redis-stable
 make
 ```
@@ -28,6 +28,10 @@ cd ..
 rm -rf redis-stable
 rm redis-stable.tar.gz
 ```
+
+#### Install Redis on Production Environment
+Please refer to the official document [here](http://redis.io/topics/quickstart#installing-redis-more-properly) to install redis for production environment.
+
 [BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
