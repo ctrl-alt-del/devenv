@@ -10,6 +10,8 @@ Bluetooth
 sudo vi /etc/rc.local # open /etc/rc.local with modify permission
 ```
 
-append `rfkill block bluetooth` to the end of the file, right above the line of `exit 0`
+append `rfkill block bluetooth` to the end of the file, right above the line of `exit 0`.
 
-restart system
+When done, save and exit the file the file.  The change will take effect when you restart your operating system.
+
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
