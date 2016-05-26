@@ -22,6 +22,18 @@ This document and bash scripts will be updated piece by piece and I will try my 
 * [Setup .bash_profile](#setup-bash_profile)
 * [Setup Android dev environment](#setup-android-dev-enviroment)
 
+## Cheatsheet
+* [AngularJS](https://github.com/ctrl-alt-del/devenv/blob/master/cheatsheet/angularjs.md)
+* [bash](https://github.com/ctrl-alt-del/devenv/blob/master/cheatsheet/bash.md)
+* [Hacker Rank](https://github.com/ctrl-alt-del/devenv/blob/master/cheatsheet/hackerrank.md)
+* [Overview](https://github.com/ctrl-alt-del/devenv/blob/master/cheatsheet/overview.md)
+* [Redis](https://github.com/ctrl-alt-del/devenv/blob/master/cheatsheet/redis.md)
+* [Regular Expression](https://github.com/ctrl-alt-del/devenv/blob/master/cheatsheet/regular_expression.md)
+* [Sorting Algorithms](https://github.com/ctrl-alt-del/devenv/blob/master/cheatsheet/sorting_algorithms.md)
+* [Unit Testing](https://github.com/ctrl-alt-del/devenv/blob/master/cheatsheet/unit_testing.md)
+
+
+
 ## Database
 * [MySQL](https://github.com/ctrl-alt-del/devenv/tree/master/database/mysql)
 * [PostgreSQL](https://github.com/ctrl-alt-del/devenv/tree/master/database/postgresql)

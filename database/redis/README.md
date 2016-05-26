@@ -1,6 +1,6 @@
 Redis
 =====
-[Redis](http://redis.io/) is an open source, in memory data structure store, or also known as key-value cache.
+[Redis](http://redis.io) is an open source, in memory data structure store, or also known as key-value cache.
 
 * [**Mac**](#redis-on-mac)
 * [**Ubuntu**](#redis-on-ubuntu)
