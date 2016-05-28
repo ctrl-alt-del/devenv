@@ -28,5 +28,3 @@ Note that you may need `sudo` permission to perform the following tasks.
 
 * `-h`: human readable
 * `-c`: grand total value
-
-

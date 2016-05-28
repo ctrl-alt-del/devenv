@@ -23,8 +23,8 @@ This document and bash scripts will be updated piece by piece and I will try my 
 * [Setup Android dev environment](#setup-android-dev-enviroment)
 
 ## Cheatsheet
-* [AngularJS](https://github.com/ctrl-alt-del/devenv/blob/master/cheatsheet/angularjs.md)
-* [bash](https://github.com/ctrl-alt-del/devenv/blob/master/cheatsheet/bash.md)
+* [AngularJS](https://github.com/ctrl-alt-del/devenv/blob/master/cheatsheet/angularjs)
+* [bash](https://github.com/ctrl-alt-del/devenv/blob/master/cheatsheet/bash)
 * [Hacker Rank](https://github.com/ctrl-alt-del/devenv/blob/master/cheatsheet/hackerrank.md)
 * [Overview](https://github.com/ctrl-alt-del/devenv/blob/master/cheatsheet/overview.md)
 * [Redis](https://github.com/ctrl-alt-del/devenv/blob/master/cheatsheet/redis.md)
