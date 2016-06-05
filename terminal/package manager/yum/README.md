@@ -14,3 +14,8 @@ Once the `.tar.gz` file is downloaded, unzip it.
 Navigate into the unzipped folder and execute the configuration file, `./configure`
 
 Afterwards, make the configuration, `make` and then install the make file, `make install`.
+
+#### Additional Configuration
+For RedHat and some other variant of Linux distros, you may need to perform additional configuration manually.
+
+Please see details in [here](https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/6/html/Deployment_Guide/sec-Configuring_Yum_and_Yum_Repositories.html).
