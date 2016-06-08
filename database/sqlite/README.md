@@ -5,6 +5,7 @@ SQLite
 * [**Windows**](#sqlite-on-windows)
 * [**Mac**](#sqlite-on-mac)
 * [**Ubuntu**](#sqlite-on-ubuntu)
+* [**Fedora**](#sqlite-on-fedora)
 
 ### SQLite on Windows
 Download the latest SQLite for Windows from [here](http://www.sqlite.org/download.html)
@@ -47,5 +48,12 @@ brew install sqlite3
 ### SQLite on Ubuntu
 ```sh
 sudo apt-get install sqlite3 libsqlite3-dev
+```
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
+
+
+### SQLite on Fedora
+```sh
+yum install -y sqlite sqlite-devel
 ```
 [BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
