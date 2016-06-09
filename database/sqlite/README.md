@@ -53,7 +53,13 @@ sudo apt-get install sqlite3 libsqlite3-dev
 
 
 ### SQLite on Fedora
+Install SQLite using `yum`
 ```sh
 yum install -y sqlite sqlite-devel
+```
+
+Install SQLite using `dnf`
+```sh
+sudo dnf install sqlite
 ```
 [BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
