@@ -1,6 +1,5 @@
 package manager
 ===============
-
 [**Package Manager**](https://en.wikipedia.org/wiki/Package_manager) is a set of tools that simplifies the steps of installing software into operating system in a consistent manner.
 
 * [apt](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/package%20manager/apt)
