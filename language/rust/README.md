@@ -1,13 +1,13 @@
 Rust
 ====
-[**Rust**](http://www.rust-lang.org) is an open source system programming language developed by Mozilla.
+[**Rust**](http://www.rust-lang.org) is an open source system programming language developed by Mozilla.  Rust is still under active development, so each release may be quite different.  The latest version is [1.9](https://blog.rust-lang.org/2016/05/26/Rust-1.9.html).
 
 * [**Mac**](#rust-on-mac)
 * [**Ubuntu**](#rust-on-ubuntu)
 * [**Fedora**](#rust-on-fedora)
 
 ### Rust on Mac
-Visit its [home page](http://www.rust-lang.org) and download either the [32 bit](https://static.rust-lang.org/dist/rust-1.2.0-i686-apple-darwin.pkg) or [64 bit](https://static.rust-lang.org/dist/rust-1.2.0-x86_64-apple-darwin.pkg) install package.
+Visit its [home page](http://www.rust-lang.org) and download either the [32 bit](https://static.rust-lang.org/dist/rust-1.9.0-i686-apple-darwin.pkg) or [64 bit](https://static.rust-lang.org/dist/rust-1.9.0-x86_64-apple-darwin.pkg) install package.
 
 After download is done, just double click it to install.
 
