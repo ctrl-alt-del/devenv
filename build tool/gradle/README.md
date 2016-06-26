@@ -6,7 +6,7 @@ Gradle
 * [**Mac**](#gradle-on-mac)
 * [**Ubuntu**](#gradle-on-ubuntu)
 * [**Fedora**](#gradle-on-fedora)
-* -[**Gradle Configuration on Android**](#gradle-configuration-on-android)-
+* [~~**Gradle Configuration on Android**~~](#gradle-configuration-on-android)
 
 ### Gradle on Windows
 To install Gradle on Windows, you can download its zip file from [here](http://www.gradle.org/downloads) and unzip it to `/c/usr/bin/gradle` or whatever folder you like.
@@ -128,7 +128,7 @@ sudo ln -s /opt/gradle-1.12/bin/gradle /usr/bin/gradle
 [BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
-### -Gradle Configuration on Android-
+### ~~Gradle Configuration on Android~~
 While creating project or importing project on newer version of Android Studio, the system will automatically put the files in proper place.
 
 ##### Required Plugin

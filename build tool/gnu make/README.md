@@ -1,2 +1,2 @@
-GNU Make
-========
+GNU Make (gmake)
+================
