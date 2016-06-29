@@ -8,6 +8,7 @@ package manager
 * [cygwin](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/package%20manager/cywin)
 * [dnf](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/package%20manager/dnf)
 * [dpkg](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/package%20manager/dpkg)
+* [gdebi](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/package%20manager/gdebi)
 * [homebrew](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/package%20manager/homebrew)
 * [macport](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/package%20manager/macport)
 * [pacman](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/package%20manager/pacman)

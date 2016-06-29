@@ -131,14 +131,14 @@ sudo ln -s /opt/gradle-1.12/bin/gradle /usr/bin/gradle
 ### ~~Gradle Configuration on Android~~
 While creating project or importing project on newer version of Android Studio, the system will automatically put the files in proper place.
 
-##### Required Plugin
+#### Required Plugin
 Declare as Android project and use appropriate plugin:
 ```gradle
 apply plugin: 'com.android.application'
 ```
 
 
-##### Add remote repository
+#### Add remote repository
 Added maven central as the source of missing repositories
 ```gradle
 buildscript {
@@ -149,7 +149,7 @@ buildscript {
 ```
 
 
-##### Include `/libs/*.jar` files
+#### Include `/libs/*.jar` files
 To include downloaded jar files in your build:
 ```gradle
 dependencies {
@@ -158,7 +158,7 @@ dependencies {
 ```
 
 
-##### Match Folder Structure with Gradle Default Paths
+#### Match Folder Structure with Gradle Default Paths
 ```gradle
 sourceSets {
 	main {
@@ -175,7 +175,7 @@ sourceSets {
 ```
 
 
-##### Enable Multi-dex
+#### Enable Multi-dex
 Multi-dex is needed if there is more than 65535 lines of compile methods
 ```gradle
 android {
@@ -186,7 +186,7 @@ android {
 ```
 
 
-##### Limit Max dex Memory
+#### Limit Max dex Memory
 Set incremental dex to true and limit the max dex memory to reduce build time in Android Studio.
 ```gradle
 android {
@@ -198,7 +198,7 @@ android {
 ```
 
 
-##### Define Build Type
+#### Define Build Type
 You may apply different configurations for debug and release version of your app:
 ```gradle
 buildTypes {
@@ -211,7 +211,7 @@ buildTypes {
 ```
 
 
-##### Define Build Configuration Field
+#### Define Build Configuration Field
 Build configuration fields can be defined and used for different build types:
 
 ```gradle
