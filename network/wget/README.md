@@ -2,15 +2,18 @@ wget
 ====
 
 * [**Mac**](#wget-on-mac)
+* [**Ubuntu**](#wget-on-ubuntu)
+* [**Fedora**](#wget-on-fedora)
 
-### Wget on Mac
+## wget on Mac
 ```sh
 brew install wget
 ```
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
-### Wget on Ubuntu
+
+## wget on Ubuntu
 It takes some effort to install `wget` on Ubuntu, you need to first download the `tar.gz` file of `wget` from [here](http://ftp.gnu.org/gnu/wget/wget-1.16.tar.gz), and then unzip it `tar -xvf wget-1.16.tar.gz`.  Once folder is unzipped, go into it and build the `make` file.
 
 ```sh
@@ -24,4 +27,9 @@ make
 sudo make install
 sudo ln -s /opt/wget /usr/bin/wget
 ```
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
+
+## wget on Fedora
+Follow the same instruction as [Ubuntu](#wget-on-ubuntu).
+
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
