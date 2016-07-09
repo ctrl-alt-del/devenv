@@ -161,27 +161,6 @@ sudo apt-get upgrade openssl
 
 
 
-## Openswan
-Open source IPsec implementation for Linux.
-
-* [**Ubuntu**](#openswan-on-ubuntu)
-* [**Fedora**](#openswan-on-fedora)
-
-### Openswan on Ubuntu
-```sh
-sudo apt-get install openswan
-```
-[BACK TO TOP](#table-of-contents)
-
-
-### Openswan on Fedora
-```sh
-sudo yum install openswan
-```
-[BACK TO TOP](#table-of-contents)
-
-
-
 # General Setup
 
 ## Setup .bash_profile
