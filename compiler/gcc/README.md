@@ -4,6 +4,7 @@ GNU Complier Collection, or [GCC](https://gcc.gnu.org) is a collection of librar
 
 * [**Windows**](#gcc-on-windows)
 * [**Ubuntu**](#gcc-on-ubuntu)
+* [**Fedora**](#gcc-on-fedora)
 
 ## GCC on Windows
 `gcc` is a tricky part for Windows users.  Often times, only the binaries are provided along with other projects, such as [Cygwin](http://sourceware.org/cygwin), [MinGW](http://www.mingw.org) or [mingw-w64](http://mingw-w64.org).
@@ -27,5 +28,13 @@ xcode-select --install
 ```
 sudo apt-get update
 sudo apt-get install build-essential
+```
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
+
+
+
+## GCC on Fedora
+```
+sudo yum instal gcc
 ```
 [BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
