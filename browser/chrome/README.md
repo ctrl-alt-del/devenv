@@ -41,13 +41,6 @@ Starting from version 3.0.0, Postman becomes an Chrome App, you can get it from 
 [BACK TO TOP](#table-of-contents)
 
 
-### JSON View
-[**JSON View**](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc) is a tool that parses JSON into a more human readable format.
-
-To install the extension, just click on the blue `+ Free` button the top right corner.
-
-[BACK TO TOP](#table-of-contents)
-
 
 ### ScriptSafe
 [**ScriptSafe**](https://chrome.google.com/webstore/detail/scriptsafe/oiigbmnaadbkfbmpbfijlflahbdbdgdf?hl=en) is an Chrome extension that disables WebRTC.
