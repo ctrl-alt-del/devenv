@@ -25,6 +25,7 @@ xcode-select --install
 
 
 ## GCC on Ubuntu
+`gcc` can be installed individually on Ubuntu, but it is recommended that you utilize the `build-essential` package; since you need `gcc`, it is natural that you may also need some other related libraries as well.
 ```
 sudo apt-get update
 sudo apt-get install build-essential
