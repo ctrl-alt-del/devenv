@@ -6,7 +6,7 @@ Once Chrome is installed, you can start installing extensions by navigating to `
 
 Alternatively, you can visit the [Chrome web store page](https://chrome.google.com/webstore/category/extensions) to get the extensions.
 
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 * [**EditThisCookie**](#editthiscookie)
 * [**REST Console**](#rest-console)
@@ -20,7 +20,7 @@ Alternatively, you can visit the [Chrome web store page](https://chrome.google.c
 
 To install the extension, just click on the blue `+ Free` button the top right corner.
 
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
 ### REST Console
@@ -28,7 +28,7 @@ To install the extension, just click on the blue `+ Free` button the top right c
 
 To install the extension, just click on the blue `+ Free` button the top right corner.
 
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
 ### Postman
@@ -38,11 +38,11 @@ To install the extension, just click on the blue `+ Free` button the top right c
 
 Starting from version 3.0.0, Postman becomes an Chrome App, you can get it from [here](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop).
 
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
 
 ### ScriptSafe
 [**ScriptSafe**](https://chrome.google.com/webstore/detail/scriptsafe/oiigbmnaadbkfbmpbfijlflahbdbdgdf?hl=en) is an Chrome extension that disables WebRTC.
 
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
