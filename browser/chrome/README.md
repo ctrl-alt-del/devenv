@@ -9,20 +9,11 @@ Alternatively, you can visit the [Chrome web store page](https://chrome.google.c
 [BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 * [**EditThisCookie**](#editthiscookie)
-* [**REST Console**](#rest-console)
 * [**ScriptSafe**](#scriptsafe)
 
 
 ### EditThisCookie
 [**EditThisCookie**](https://chrome.google.com/webstore/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg) is a cookie manager that allow developer to modify cookies of a page in real for development and testing purpose.
-
-To install the extension, just click on the blue `+ Free` button the top right corner.
-
-[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
-
-
-### REST Console
-[**REST Console**](https://chrome.google.com/webstore/detail/rest-console/cokgbflfommojglbmbpenpphppikmonn) is an tool for testing HTTP requests on APIs.  It allows user to quickly test a url.
 
 To install the extension, just click on the blue `+ Free` button the top right corner.
 
