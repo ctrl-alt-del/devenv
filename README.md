@@ -159,6 +159,22 @@ sudo apt-get upgrade openssl
 [BACK TO TOP](#table-of-contents)
 
 
+# Network Issues
+
+## Exclamation mark (!) right next to network icon
+This issue occurs when your network is not able to connect to Google.
+
+The easiest way to bypass/solve this issue is to use `adb` and set the `captive_portal_server` manually.
+```
+adb shell "settings put global captive_portal_server <host_name>" # e.g. g.cn, google.cn
+```
+
+To reset the variable, simply do:
+```
+adb shell "settings delete global captive_portal_server"
+```
+[BACK TO TOP](#table-of-contents)
+
 
 
 # General Setup
