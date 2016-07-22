@@ -4,7 +4,7 @@ Ubuntu
 # Customization
 Note: Contents and behaviors were tested on both 12.04 and 14.04.
 
-* [TouchPad Issue](#touchpad-issue)
+* [TouchPad Issues](#touchpad-issues)
   * [Enable vertical two finger scroll](#enable-vertical-two-finger-scroll)
   * [Enable two finger tapping as right click](#enable-two-finger-tapping-as-right-click)
   * [configure-trackpoint](#configure-trackpoint)
@@ -14,7 +14,7 @@ Note: Contents and behaviors were tested on both 12.04 and 14.04.
 * [Magick Rotation](#magick-rotation)
 
 
-## TouchPad Issue
+## TouchPad Issues
 Ubuntu may experience issues for some (older) Synaptic TouchPads, such as tapping is way too sensitive, drag to drop is not responsive, scrolling is lagging and etc.
 
 The easiest fix for those issues is to use `synclient`, which is available since Ubuntu 12.04, to configure the touchpad.
