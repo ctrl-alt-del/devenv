@@ -1,6 +1,12 @@
 Windows
 =======
 
+* [Configure Windows](#configure-windows)
+* [Run as Administrator](#run-as-administrator)
+* [Environment Variables](#environment-variables)
+* [Configure Windows](#configure-windows)
+
+
 ### Configure Windows
 It is a good idea to centralize all your packages in one folder.  Not only does it help to better organize your packages, having a dedicated folder for your packages also makes navigating with command line easier.  In this instruction for Windows, all packages will be put or installed under `~/Applications`, a.k.a `%USERPROFILE%\Applications`.  Please create the folder if it is not existed, and of course, feel free to name your own directory.
 
@@ -9,13 +15,13 @@ If you are familiar with Window's PowerShell, you can create the folder by openi
 cd %USERPROFILE%
 mkdir Applications
 ```
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](#windows)
 
 
 ### Run as Administrator
 For Windows's default command prompt or PowerShell, you will sometimes need the administrative permission to perform some tasks.  To run as administrator, right click on the `cmd.exe` or `powershell.exe` and select `Run as Administrator` option from the list.
 
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](#windows)
 
 
 ### Environment Variables
@@ -43,4 +49,4 @@ Or you can just list the particular Env by executing: (replacing <variable_name>
 ```powershell
 $Env:<variable_name>
 ```
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](#windows)
