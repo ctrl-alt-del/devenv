@@ -11,8 +11,6 @@ This document and bash scripts will be updated piece by piece and I will try my 
 
 |Tools                       | [Windows 7](#windows)          | [Mac 10.9.+](#mac)        | [Ubuntu 14.04](#ubuntu)     | [Fedora 20](#fedora)        |
 |:-------------------------- | :----------------------------: | :-----------------------: | :-------------------------: | :-------------------------: |
-|[Wget](#wget)               | [   ](#wget-on-windows)        | [   ](#wget-on-mac)       | [-->](#wget-on-ubuntu)      | [-->](#wget-on-fedora)      |
-|[Curl](#curl)               | [-->](#curl-on-windows)        | [-->](#curl-on-mac)       | [-->](#curl-on-ubuntu)      | [   ](#curl-on-fedora)      |
 |[OpenSSL](#openssl)         | [   ](       )                 | [   ](            )       | [-->](#openssl-on-ubuntu)   | [   ](               )      |
 |[Tree](#tree)               | [-->](#tree-on-windows)        | [-->](#tree-on-mac)       | [-->](#tree-on-ubuntu)      | [-->](#tree-on-fedora)      |
 
@@ -81,6 +79,13 @@ This document and bash scripts will be updated piece by piece and I will try my 
 	* [rspec](https://github.com/ctrl-alt-del/devenv/tree/master/language/ruby/rspec)
 * [Rust](https://github.com/ctrl-alt-del/devenv/tree/master/language/rust)
 * [Scala](https://github.com/ctrl-alt-del/devenv/tree/master/language/scala)
+
+
+
+## Network
+* [curl](https://github.com/ctrl-alt-del/devenv/tree/master/network/curl)
+* [openswan](https://github.com/ctrl-alt-del/devenv/tree/master/network/openswan)
+* [wget](https://github.com/ctrl-alt-del/devenv/tree/master/network/wget)
 
 
 
