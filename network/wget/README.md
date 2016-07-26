@@ -1,5 +1,6 @@
 wget
 ====
+[**wget**](http://www.gnu.org/software/wget) is a free, open-source, command-line tool that downloads content from internet
 
 * [**Mac**](#wget-on-mac)
 * [**Ubuntu**](#wget-on-ubuntu)
@@ -9,7 +10,7 @@ wget
 ```sh
 brew install wget
 ```
-[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
+[BACK TO TOP](#wget)
 
 
 
@@ -27,9 +28,19 @@ make
 sudo make install
 sudo ln -s /opt/wget /usr/bin/wget
 ```
-[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
+
+In newer version of Ubuntu, you may be able to install `wget` by simply running:
+```sh
+sudo apt-get update
+sudo apt-get install wget
+```
+[BACK TO TOP](#wget)
 
 ## wget on Fedora
 Follow the same instruction as [Ubuntu](#wget-on-ubuntu).
 
-[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
+Or, for newer version of Fedora, you can try:
+```sh
+sudo yum install wget
+```
+[BACK TO TOP](#wget)

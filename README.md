@@ -111,36 +111,6 @@ This document and bash scripts will be updated piece by piece and I will try my 
 
 
 
-## Wget
-[**Wget**](http://www.gnu.org/software/wget) is a free, open-source, command-line tool that downloads content from internet
-
-* [**Mac**](#wget-on-mac)
-* [**Ubuntu**](#wget-on-ubuntu)
-* [**Fedora**](#wget-on-fedora)
-
-### Wget on Mac
-```sh
-brew install wget
-```
-[BACK TO TOP](#table-of-contents)
-
-
-### Wget on Ubuntu
-```sh
-sudo apt-get update
-sudo apt-get install wget
-```
-[BACK TO TOP](#table-of-contents)
-
-
-### Wget on Fedora
-```sh
-sudo yum install wget
-```
-[BACK TO TOP](#table-of-contents)
-
-
-
 
 ## OpenSSL
 
