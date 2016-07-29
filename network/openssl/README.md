@@ -5,6 +5,12 @@ OpenSSL
 * [**Ubuntu**](#openssl-on-ubuntu)
 
 ### OpenSSL on Mac
+`openssl` is installed to Mac by default, you can verify this by opening terminal and typing:
+```sh
+openssl version
+```
+
+If `openssl` is not installed by default, you can install it through `brew`:
 ```sh
 brew install openssl
 ```
