@@ -4,7 +4,7 @@ Hacker Rank
 * [Algorithms](#algorithms)
   * [Strings](#strings)
     * [Funny String](#funny-string)
-    * [Pangrams](#pangrams)
+    * [Pangram](#pangram)
     * [Alternating Characters](#alternating-characters)
     * [Anagram](#anagram)
     * [Two Strings](#two-strings)
@@ -51,7 +51,7 @@ public static boolean isFunnyString(String str) {
 
 
 
-#### Pangrams
+#### Pangram
 ```java
 public static boolean isPangram(String str) {
     if (str == null) {
