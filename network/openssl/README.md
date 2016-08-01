@@ -1,5 +1,6 @@
 OpenSSL
 =======
+[**OpenSSL**](https://www.openssl.org/) is an open source project that provides terminal tools for the Transport Layer Security (TLS) and Secure Sockets Layer (SSL) protocols.
 
 * [**Mac**](#openssl-on-mac)
 * [**Ubuntu**](#openssl-on-ubuntu)
