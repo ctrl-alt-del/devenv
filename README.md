@@ -23,12 +23,11 @@ This document and bash scripts will be updated piece by piece and I will try my 
 ## Cheatsheet
 * [AngularJS](https://github.com/ctrl-alt-del/devenv/blob/master/cheatsheet/angularjs)
 * [bash](https://github.com/ctrl-alt-del/devenv/blob/master/cheatsheet/bash)
-* [Hacker Rank](https://github.com/ctrl-alt-del/devenv/blob/master/cheatsheet/hackerrank.md)
-* [Overview](https://github.com/ctrl-alt-del/devenv/blob/master/cheatsheet/overview.md)
-* [Redis](https://github.com/ctrl-alt-del/devenv/blob/master/cheatsheet/redis.md)
-* [Regular Expression](https://github.com/ctrl-alt-del/devenv/blob/master/cheatsheet/regular_expression.md)
-* [Sorting Algorithms](https://github.com/ctrl-alt-del/devenv/blob/master/cheatsheet/sorting_algorithms.md)
-* [Unit Testing](https://github.com/ctrl-alt-del/devenv/blob/master/cheatsheet/unit_testing.md)
+* [Hacker Rank](https://github.com/ctrl-alt-del/devenv/blob/master/cheatsheet/hacker-rank)
+* [Redis](https://github.com/ctrl-alt-del/devenv/blob/master/cheatsheet/redis)
+* [Regular Expression](https://github.com/ctrl-alt-del/devenv/blob/master/cheatsheet/regular-expression)
+* [Sorting Algorithms](https://github.com/ctrl-alt-del/devenv/blob/master/cheatsheet/sorting-algorithms)
+* [Unit Testing](https://github.com/ctrl-alt-del/devenv/blob/master/cheatsheet/unit-testing)
 
 
 

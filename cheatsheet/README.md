@@ -13,6 +13,7 @@ Here is an overview of some basic skills that a software engineer may need in hi
 		* [SourceTree](#sourcetree)
 		* [Github](#github)
 		* [Bitbucket](#bitbucket)
+		* [GitLab](#gitlab)
 * [Programming Language](#programming-language)
 * [Database](#database)
 	* [SQL](#sql)
