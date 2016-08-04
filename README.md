@@ -11,7 +11,6 @@ This document and bash scripts will be updated piece by piece and I will try my 
 
 |Tools                       | [Windows 7](#windows)          | [Mac 10.9.+](#mac)        | [Ubuntu 14.04](#ubuntu)     | [Fedora 20](#fedora)        |
 |:-------------------------- | :----------------------------: | :-----------------------: | :-------------------------: | :-------------------------: |
-|[OpenSSL](#openssl)         | [   ](       )                 | [   ](            )       | [-->](#openssl-on-ubuntu)   | [   ](               )      |
 |[Tree](#tree)               | [-->](#tree-on-windows)        | [-->](#tree-on-mac)       | [-->](#tree-on-ubuntu)      | [-->](#tree-on-fedora)      |
 
 
@@ -31,11 +30,22 @@ This document and bash scripts will be updated piece by piece and I will try my 
 
 
 
+## Compiler
+* [gcc](https://github.com/ctrl-alt-del/devenv/blob/master/compiler/gcc)
+
+
+
 ## Database
 * [MySQL](https://github.com/ctrl-alt-del/devenv/tree/master/database/mysql)
 * [PostgreSQL](https://github.com/ctrl-alt-del/devenv/tree/master/database/postgresql)
 * [Redis](https://github.com/ctrl-alt-del/devenv/tree/master/database/redis)
 * [SQLite](https://github.com/ctrl-alt-del/devenv/tree/master/database/sqlite)
+
+
+
+## Editor
+* [atom](https://github.com/ctrl-alt-del/devenv/tree/master/editor/atom)
+* [sublime](https://github.com/ctrl-alt-del/devenv/tree/master/editor/sublime)
 
 
 
@@ -48,6 +58,7 @@ This document and bash scripts will be updated piece by piece and I will try my 
 
 
 ## Language
+* [elm](https://github.com/ctrl-alt-del/devenv/tree/master/language/elm)
 * [Go](https://github.com/ctrl-alt-del/devenv/tree/master/language/go)
 	* [BeeGo](https://github.com/ctrl-alt-del/devenv/tree/master/language/go/beego)
 	* [godep](https://github.com/ctrl-alt-del/devenv/tree/master/language/go/godep)
