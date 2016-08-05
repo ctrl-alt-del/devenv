@@ -93,3 +93,9 @@ If you are in Linux 64 bit OS, you may also need to install the 32 bit shared li
 sudo yum install glibc.i686 glibc-devel.i686 libstdc++.i686 zlib-devel.i686 ncurses-devel.i686 libX11-devel.i686 libXrender.i686 libXrandr.i686
 ```
 [BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
+
+
+## Source not shown issue
+You downloaded the source and refresh the `.class` file, but it doesn't turn itself to `.java` file and you still cannot see it source code.
+
+This is a known issue for Android Studio, the way to resolve it is to go to Android SDK and edit the sdk location to re-trigger the sdk initiation process, then it will load the downloaded source code zip files.  Once the process is completed, you will now be able to see the source code.
