@@ -1,5 +1,8 @@
 Eclipse
 =======
+
+NOTE THAT ADT IS DEPRECATED, SEE [ANDROID STUDIO](https://github.com/ctrl-alt-del/devenv/tree/master/ide/android-studio)
+
 [**Eclipse**](http://www.eclipse.org) is an integrated development environment (IDE).
 
 Although Google recommends [Android Studio](#android-studio) for Android development, you can still use eclipse as your IDE if you prefer to.  I use one of its variant called [Eclipse IDE for Java Developers](http://www.eclipse.org/downloads/packages/eclipse-ide-java-developers/lunasr2) because it is relatively smaller than other variants.  You can to use its [standard package](http://www.eclipse.org/downloads/packages/eclipse-standard-44/lunar) or other variants as well.

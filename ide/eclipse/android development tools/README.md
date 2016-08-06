@@ -1,5 +1,8 @@
 Android Development Tools (ADT)
 ===============================
+
+NOTE THAT ADT IS DEPRECATED, SEE [ANDROID STUDIO](https://github.com/ctrl-alt-del/devenv/tree/master/ide/android-studio)
+
 [**Android Development Tools (ADT)**](http://developer.android.com/tools/help/adt.html) is a plugin for android development on eclipse.
 
 Once Eclipse is installed, open it and navigate to its Help -> Install New Software.
