@@ -36,6 +36,7 @@ This document and bash scripts will be updated piece by piece and I will try my 
 
 
 ## Database
+* [Kyoto Tycoon](https://github.com/ctrl-alt-del/devenv/tree/master/database/kyoto-tycoon)
 * [MySQL](https://github.com/ctrl-alt-del/devenv/tree/master/database/mysql)
 * [PostgreSQL](https://github.com/ctrl-alt-del/devenv/tree/master/database/postgresql)
 * [Redis](https://github.com/ctrl-alt-del/devenv/tree/master/database/redis)
@@ -50,7 +51,8 @@ This document and bash scripts will be updated piece by piece and I will try my 
 
 
 ## Integrated Development Environment (IDE)
-* [Android Studio](https://github.com/ctrl-alt-del/devenv/tree/master/ide/android%20studio)
+* [Android Studio](https://github.com/ctrl-alt-del/devenv/tree/master/ide/android-studio)
+	* [Android SDK](https://github.com/ctrl-alt-del/devenv/tree/master/ide/android-studio/android-sdk)
 * [eclipse](https://github.com/ctrl-alt-del/devenv/tree/master/ide/eclipse)
 * [IntelliJ](https://github.com/ctrl-alt-del/devenv/tree/master/ide/intellij)
 * [PyCharm](https://github.com/ctrl-alt-del/devenv/tree/master/ide/pycharm)
