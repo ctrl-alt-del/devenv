@@ -9,6 +9,14 @@ This document and bash scripts will be updated piece by piece and I will try my 
 
 # Table of Contents
 
+## Cache
+* [Memcached](https://github.com/ctrl-alt-del/devenv/blob/master/cache/memcached)
+* [Redis](https://github.com/ctrl-alt-del/devenv/blob/master/cache/redis)
+* [Varnish](https://github.com/ctrl-alt-del/devenv/blob/master/cache/varnish)
+
+
+
+
 ## Cheatsheet
 * [AngularJS](https://github.com/ctrl-alt-del/devenv/blob/master/cheatsheet/angularjs)
 * [bash](https://github.com/ctrl-alt-del/devenv/blob/master/cheatsheet/bash)
@@ -115,3 +123,13 @@ This document and bash scripts will be updated piece by piece and I will try my 
 
 ## Utility
 * [bash_profile](https://github.com/ctrl-alt-del/devenv/tree/master/util/bash_profile)
+
+
+
+## Virtualization
+* [chef](https://github.com/ctrl-alt-del/devenv/tree/master/virtualization/chef)
+* [docker](https://github.com/ctrl-alt-del/devenv/tree/master/virtualization/docker)
+* [LAMP](https://github.com/ctrl-alt-del/devenv/tree/master/virtualization/lamp)
+* [MAMP](https://github.com/ctrl-alt-del/devenv/tree/master/virtualization/mamp)
+* [vagrant](https://github.com/ctrl-alt-del/devenv/tree/master/virtualization/vagrant)
+* [VirtualBox](https://github.com/ctrl-alt-del/devenv/tree/master/virtualization/virtualbox)
