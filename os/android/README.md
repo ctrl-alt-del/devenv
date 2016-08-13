@@ -6,16 +6,18 @@ android
 
 
 # Network Issues
-
 ## `captive_portal_server` is blocked
-The behavior of this issue are:
-
+### Behaviors
 1. there is a exclamation mark (!) right next to the network icon
 
 2. network won't automatically switch to saved WiFi even when it is available
 
+### Cause
 This issue occurs when your network is not able to connect to Google, or Google is walled.
 
+
+### Solutions
+#### For Mac and Linux users
 The easiest way to bypass/solve this issue is to use `adb` and set the `captive_portal_server` under `global` manually.
 
 The `<host_name>` needs to be a domain with `/generate_204` sub-domain returning HTTP 204.
@@ -27,7 +29,9 @@ To determine if a given domain is capable of being a `<host_name>`, utilize `cur
 ```
 curl -I http://www.g.cn/generate_204
 ```
-For Windows user, you need to have run it on unix-like bash, such as git-bash.
+
+#### For Windows users
+You need to have run it on unix-like bash, such as git-bash.
 
 It is capable of being the `<host_name>` if it returns something like this:
 ```
@@ -39,4 +43,4 @@ To reset the variable, simply remove the variable by doing:
 ```
 adb shell "settings delete global captive_portal_server"
 ```
-[BACK TO TOP](#table-of-contents)
+[BACK TO TOP](#android)
