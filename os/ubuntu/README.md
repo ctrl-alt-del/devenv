@@ -12,6 +12,8 @@ Note: Contents and behaviors were tested on both 12.04 and 14.04.
 * Gnome Shell
 * Places Drawer on Files
 * [Magick Rotation](#magick-rotation)
+* [Bluetooth Issues](#bluetooth-issues)
+  * [Disable bluetooth on start](#disable-bluetooth-on-start)
 
 
 ## TouchPad Issues
@@ -159,3 +161,10 @@ Once verified the installation is successfully completed.  Remove the unnecessar
 sudo apt-get remove yum
 sudo apt-get autoremove
 ```
+
+
+
+
+## Bluetooth Issues
+### Disable bluetooth on start
+See [here](https://github.com/ctrl-alt-del/devenv/tree/master/bluetooth#disable-bluetooth-on-start).
