@@ -113,7 +113,7 @@ This document and bash scripts will be updated piece by piece and I will try my 
 * [git](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/git)
 * [guake](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/guake)
 * [iterm2](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/iterm2)
-* [package manager](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/package%20manager)
+* [package manager](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/package-manager)
 * [tilda](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/tilda)
 * [tree](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/tree)
 * [zsh](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/zsh)
