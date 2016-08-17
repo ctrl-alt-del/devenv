@@ -6,3 +6,9 @@ smartmontools
 ```sh
 sudo apt-get install smartmontools
 ```
+
+To check the statistics of a hard drive with `smartmontools`:
+```sh
+sudo smartctl --all /dev/sda
+```
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
