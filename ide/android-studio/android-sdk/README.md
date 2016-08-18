@@ -1,5 +1,11 @@
 Android SDK
 ===========
+**Latest Update**
+
+Google recommends developer to use [Android Studio](https://github.com/ctrl-alt-del/devenv/tree/master/ide/android-studio) to develop Android applications, which comes and manages the sdk internally.
+
+
+
 You can get Android SDK from its [developer page](http://developer.android.com/sdk/index.html) under **Get SDK for an existing IDE**.
 
 Once the compressed file is downloaded, unzip it and place it in the same folder of eclipse, or whatever folder you like.
