@@ -114,6 +114,7 @@ This document and bash scripts will be updated piece by piece and I will try my 
 * [guake](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/guake)
 * [iterm2](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/iterm2)
 * [package manager](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/package-manager)
+* [smartmontools](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/smartmontools)
 * [tilda](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/tilda)
 * [tree](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/tree)
 * [zsh](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/zsh)
