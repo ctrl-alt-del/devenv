@@ -8,6 +8,7 @@ Alternatively, you can visit the [Chrome web store page](https://chrome.google.c
 
 [BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
+* [**JSON View**](https://github.com/ctrl-alt-del/devenv/tree/master/browser/chrome/json-view)
 * [**EditThisCookie**](#editthiscookie)
 * [**ScriptSafe**](#scriptsafe)
 
