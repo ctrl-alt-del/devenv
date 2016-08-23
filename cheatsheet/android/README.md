@@ -13,7 +13,11 @@ Cheatsheet for Android
 ### Race Condition
 
 ### Deadlock
+Objects cross referencing each other on different thread or activity.
+
 
 ### Activity Life Cycle
 
+
 ### UI Thread Access
+The user interface can only be accessed on main thread.

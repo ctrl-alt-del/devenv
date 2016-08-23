@@ -4,4 +4,4 @@ json view
 
 To install the extension, just click on the blue `+ Free` button the top right corner.
 
-[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv/tree/master/browser/chrome)
