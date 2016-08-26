@@ -7,20 +7,5 @@ Once Chrome is installed, you can start installing extensions by navigating to `
 Alternatively, you can visit the [Chrome web store page](https://chrome.google.com/webstore/category/extensions) to get the extensions.
 
 * [**JSON View**](https://github.com/ctrl-alt-del/devenv/tree/master/browser/chrome/json-view)
-* [**EditThisCookie**](#editthiscookie)
-* [**ScriptSafe**](#scriptsafe)
-
-
-### EditThisCookie
-[**EditThisCookie**](https://chrome.google.com/webstore/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg) is a cookie manager that allow developer to modify cookies of a page in real for development and testing purpose.
-
-To install the extension, just click on the blue `+ Free` button the top right corner.
-
-[BACK TO TOP](#chrome)
-
-
-
-### ScriptSafe
-[**ScriptSafe**](https://chrome.google.com/webstore/detail/scriptsafe/oiigbmnaadbkfbmpbfijlflahbdbdgdf?hl=en) is an Chrome extension that disables WebRTC.
-
-[BACK TO TOP](#chrome)
+* [**EditThisCookie**](https://github.com/ctrl-alt-del/devenv/tree/master/browser/chrome/edit-this-cookie)
+* [**ScriptSafe**](https://github.com/ctrl-alt-del/devenv/tree/master/browser/chrome/script-safe)
