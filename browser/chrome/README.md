@@ -6,6 +6,9 @@ Once Chrome is installed, you can start installing extensions by navigating to `
 
 Alternatively, you can visit the [Chrome web store page](https://chrome.google.com/webstore/category/extensions) to get the extensions.
 
-* [**JSON View**](https://github.com/ctrl-alt-del/devenv/tree/master/browser/chrome/json-view)
 * [**EditThisCookie**](https://github.com/ctrl-alt-del/devenv/tree/master/browser/chrome/edit-this-cookie)
+* [**JSON Formatter**](https://github.com/ctrl-alt-del/devenv/tree/master/browser/chrome/json-formatter)
+* [**JSON View**](https://github.com/ctrl-alt-del/devenv/tree/master/browser/chrome/json-view)
+* [**Postman**](https://github.com/ctrl-alt-del/devenv/tree/master/browser/chrome/postman)
+* [**REST Console**](https://github.com/ctrl-alt-del/devenv/tree/master/browser/chrome/rest-console)
 * [**ScriptSafe**](https://github.com/ctrl-alt-del/devenv/tree/master/browser/chrome/script-safe)
