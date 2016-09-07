@@ -14,6 +14,7 @@ Note: Contents and behaviors were tested on both 12.04 and 14.04.
 * [Magick Rotation](#magick-rotation)
 * [Bluetooth Issues](#bluetooth-issues)
   * [Disable bluetooth on start](#disable-bluetooth-on-start)
+* [Unicode Font Issue](#unicode-font-issue)
 
 
 ## TouchPad Issues
@@ -168,3 +169,9 @@ sudo apt-get autoremove
 ## Bluetooth Issues
 ### Disable bluetooth on start
 See [here](https://github.com/ctrl-alt-del/devenv/tree/master/bluetooth#disable-bluetooth-on-start).
+
+
+
+
+## Unicode Font Issue
+Sometimes, you may see some characters being shown as boxes containing some numbers; those numbers are actually the hexadecimal Unicode numbers, which usually indicate that the system cannot render the characters because the system lacks of some fonts.
