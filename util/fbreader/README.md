@@ -6,7 +6,12 @@ FBReader
   * [Sepia-Wheat](#sepia-wheat)
 
 ## Color Theme
+The user interface configuration file is stored under `~/.FBReader/ui.xml`.
+
+Users can modify the `xml` file to configure the interface.
+
 ### Sepia Wheat
+To set the page with Sepia text and Wheat background:
 ```xml
 <?xml version="1.0" encoding="UTF-8">
 <config>
