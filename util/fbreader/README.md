@@ -1,9 +1,22 @@
 FBReader
 ========
-[FBReader]() is a e-book reader that supports almost all open source format.
+[FBReader](https://fbreader.org) is a cross platform e-book reader that supports almost all open source format.
+
+* [**Windows**](#fbreader-on-windows)
+* [**Mac**](#fbreader-on-mac)
+* [**Ubuntu**](#fbreader-on-ubuntu)
 
 * [Color Theme](#color-theme)
   * [Sepia-Wheat](#sepia-wheat)
+
+## FBReader on Windows
+
+
+## FBReader on Mac
+
+
+## FBReader on Ubuntu
+
 
 ## Color Theme
 The user interface configuration file is stored under `~/.FBReader/ui.xml`.
