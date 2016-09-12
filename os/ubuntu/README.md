@@ -56,7 +56,7 @@ sudo apt-get install sysfsutils libsysfs2
 ```
 
 #### 32 bit
-You can download the `deb:i386` from [here](https://sourceforge.net/projects/tpctl).
+You can download the `deb:i386` from [here](https://sourceforge.net/projects/tpctl/files/configure-trackpoint/).
 
 Once package is downloaded:
 ```sh
