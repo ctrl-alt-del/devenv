@@ -68,14 +68,15 @@ sudo dpkg -i package_name.deb
 #### 64 bit
 There are only `rpm` version of configure-trackpoint for 64 bit system; therefore, you will need to manually convert it to `deb`.
 
-First download the `rpm:amd64` from [here](ftp://rpmfind.net/linux/RPM/mandriva/2011/x86_64/media/contrib/release/configure-trackpoint-0.6-5mdv2011.0.x86_64.html)
+First download the `rpm:amd64` from [here](https://sourceforge.net/projects/tpctl/files/configure-trackpoint/0.7/configure-trackpoint-0.7-0.zin.fc9.src.rpm/download)
 
-Once the `configure-trackpoint-0.6-5mdv2011.0.x86_64.rpm` is downloaded, you can then convert it into `deb` package by:
+Once the `configure-trackpoint-0.7-0.zin.fc9.src.rpm` is downloaded, you can then convert it into `deb` package by:
 ```sh
 sudo apt-get install alien dpkg-dev debhelper build-essential
-sudo alien configure-trackpoint-0.6-5mdv2011.0.x86_64.rpm
-sudo dpkg -i configure-trackpoint-0.6-6_amd64.deb
+sudo alien configure-trackpoint-0.7-0.zin.fc9.src.rpm
 ```
+
+You can then install the created `.deb` file.
 
 
 #### Manual Approach
