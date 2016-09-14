@@ -45,17 +45,12 @@ synclient TapButton2=3
 ### configure-trackpoint
 [`configure-trackpoint`](http://tpctl.sourceforge.net/configure-trackpoint.html) is a Thinkpad track point configuration tool on Linux system.  `configure-trackpoint` is available as `deb:i386` or `rpm:amd64`.
 
-To install `deb` on Ubuntu, you need to have `dpkg`
+You will also need to have some prerequisites for installing `configure-trackpoint` package on a 32 bit Debian base system.
 ```sh
-sudo apt-get install dpkg
+sudo apt-get install dpkg sysfsutils libsysfs2
 ```
 
-You will also need to have some prerequisites for the `configure-trackpoint` package.
-```sh
-sudo apt-get install sysfsutils libsysfs2
-```
-
-#### 32 bit
+#### Install `configure-trackpoint` on 32 bit system
 You can download the `deb:i386` from [here](https://sourceforge.net/projects/tpctl/files/configure-trackpoint/).
 
 Once package is downloaded:
@@ -65,7 +60,7 @@ sudo dpkg -i package_name.deb
 
 
 
-#### 64 bit
+#### Install `configure-trackpoint` on 64 bit system
 There are only `rpm` version of configure-trackpoint for 64 bit system; therefore, you will need to manually convert it to `deb`.
 
 First download the `rpm:amd64` from [here](https://sourceforge.net/projects/tpctl/files/configure-trackpoint/0.7/configure-trackpoint-0.7-0.zin.fc9.src.rpm/download)
@@ -79,7 +74,8 @@ sudo alien configure-trackpoint-0.7-0.zin.fc9.src.rpm
 You can then install the created `.deb` file.
 
 
-#### Manual Approach
+
+#### Configure `configure-trackpoint`
 Use `vi` or any other text editor to open `/etc/tmpfiles.d/tpoint.conf` with root permission.
 ```sh
 sudo vi /etc/tmpfiles.d/tpoint.conf
@@ -93,6 +89,7 @@ w /sys/devices/platform/i8042/serio1/inertia - - - - 6
 w /sys/devices/platform/i8042/serio1/press_to_select - - - - 0
 ```
 You can adjust the value according to your needs; once done, save the file, logout and login back into the system to activate the changes.
+
 
 
 
