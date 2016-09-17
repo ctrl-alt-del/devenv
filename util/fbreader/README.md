@@ -23,6 +23,8 @@ The user interface configuration file is stored under `~/.FBReader/ui.xml`.
 
 Users can modify the `xml` file to configure the interface.
 
+The color used in the `ui.xml` are the decimal representation of a color.
+
 ### Sepia Wheat
 To set the page with Sepia text and Wheat background:
 ```xml
@@ -36,3 +38,4 @@ To set the page with Sepia text and Wheat background:
   </group>
 </config>
 ```
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv/tree/master/util)
