@@ -16,6 +16,13 @@ FBReader
 
 
 ## FBReader on Ubuntu
+Download the either the `deb:i386` or `deb:amd64` from [here](https://fbreader.org/desktop/debian/pool/main/f/fbreader).
+
+Then install it
+```sh
+sudo dpkg -i <package_name>
+```
+
 
 
 ## Color Theme
