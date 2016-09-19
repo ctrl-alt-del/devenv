@@ -30,12 +30,21 @@ The user interface configuration file is stored under `~/.FBReader/ui.xml`.
 
 Users can modify the `xml` file to configure the interface.
 
+If the file is not existed, create it by:
+```sh
+sudo touch -p ~/.FBReader/ui.xml
+```
+
 The color used in the `ui.xml` are the decimal representation of a color.
+
+Remember also add the `xml` header to the `ui.xml` file
+```
+<?xml version="1.0" encoding="UTF-8">
+```
 
 ### Sepia Wheat
 To set the page with Sepia text and Wheat background:
 ```xml
-<?xml version="1.0" encoding="UTF-8">
 <config>
   <group name="Color">
     <!------- Wheat ----->
