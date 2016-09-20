@@ -90,6 +90,7 @@ w /sys/devices/platform/i8042/serio1/press_to_select - - - - 0
 ```
 You can adjust the value according to your needs; once done, save the file, logout and login back into the system to activate the changes.
 
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv/tree/master/os/ubuntu)
 
 
 
@@ -130,6 +131,8 @@ sudo shutdown -r 0
 ```
 
 If both the `nvidia-325` and `nvidia-319` don't work, the `nvidia-304` will likely work.
+
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv/tree/master/os/ubuntu)
 
 
 
