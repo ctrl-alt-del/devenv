@@ -133,7 +133,12 @@ This document and bash scripts will be updated piece by piece and I will try my 
 
 
 ## Utility
+* [alien](https://github.com/ctrl-alt-del/devenv/tree/master/util/alien)
+* [apktool](https://github.com/ctrl-alt-del/devenv/tree/master/util/apktool)
 * [bash_profile](https://github.com/ctrl-alt-del/devenv/tree/master/util/bash_profile)
+* [fbreader](https://github.com/ctrl-alt-del/devenv/tree/master/util/fbreader)
+* [hdparm](https://github.com/ctrl-alt-del/devenv/tree/master/util/hdparm)
+* [synclient](https://github.com/ctrl-alt-del/devenv/tree/master/util/synclient)
 
 
 
