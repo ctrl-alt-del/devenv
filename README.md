@@ -136,8 +136,11 @@ This document and bash scripts will be updated piece by piece and I will try my 
 * [alien](https://github.com/ctrl-alt-del/devenv/tree/master/util/alien)
 * [apktool](https://github.com/ctrl-alt-del/devenv/tree/master/util/apktool)
 * [bash_profile](https://github.com/ctrl-alt-del/devenv/tree/master/util/bash_profile)
+* [bashrc](https://github.com/ctrl-alt-del/devenv/tree/master/util/bashrc)
 * [fbreader](https://github.com/ctrl-alt-del/devenv/tree/master/util/fbreader)
+* [gemrc](https://github.com/ctrl-alt-del/devenv/tree/master/util/gemrc)
 * [hdparm](https://github.com/ctrl-alt-del/devenv/tree/master/util/hdparm)
+* [profile](https://github.com/ctrl-alt-del/devenv/tree/master/util/profile)
 * [synclient](https://github.com/ctrl-alt-del/devenv/tree/master/util/synclient)
 
 
