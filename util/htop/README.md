@@ -2,8 +2,18 @@ htop
 ====
 [**htop**](https://hisham.hm/htop) is an interactive process viewer for Unix.
 
+* [**Mac**](#htop-on-mac)
 * [**Ubuntu**](#htop-on-ubuntu)
 * [**Fedora**](#htop-on-fedora)
+
+## htop on Mac
+```sh
+brew install htop
+```
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv/tree/master/util)
+
+
+
 
 ## htop on Ubuntu
 ```sh
