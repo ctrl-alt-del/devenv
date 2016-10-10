@@ -11,14 +11,13 @@ According to its [README file](https://github.com/robbyrussell/oh-my-zsh#via-cur
 ```sh
 curl -L http://install.ohmyz.sh | sh
 ```
-[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv/tree/master/terminal)
 
 
 ### Oh-My-Zsh on Ubuntu
 You need [Git](#git-on-ubuntu) and [Zsh](#zsh-on-ubuntu) as the prerequisites.
 ```sh
-sudo apt-get install git
-sudo apt-get install zsh
+sudo apt-get install git zsh wget
 ```
 
 Once you have installed the prerequisites, you can:
@@ -31,16 +30,15 @@ Alternatively, you can install using `curl`:
 ```sh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
-[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv/tree/master/terminal)
 
 
 ### Oh-My-Zsh on Fedora
 You need [Git](#git-on-fedora) and [Zsh](#zsh-on-fedora) as the prerequisites.
 ```sh
-sudo yum install git
-sudo yum install zsh
+sudo yum install git zsh wget
 ```
 
 Then follow the same instruction as [Ubuntu](#oh-my-zsh-on-ubuntu).
 
-[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv/tree/master/terminal)
