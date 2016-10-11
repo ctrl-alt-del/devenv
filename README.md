@@ -126,7 +126,6 @@ This document and bash scripts will be updated piece by piece and I will try my 
 * [package manager](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/package-manager)
 * [smartmontools](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/smartmontools)
 * [tilda](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/tilda)
-* [tree](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/tree)
 * [zsh](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/zsh)
 	* [oh-my-zsh](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/zsh/oh-my-zsh)
 
@@ -142,6 +141,7 @@ This document and bash scripts will be updated piece by piece and I will try my 
 * [hdparm](https://github.com/ctrl-alt-del/devenv/tree/master/util/hdparm)
 * [profile](https://github.com/ctrl-alt-del/devenv/tree/master/util/profile)
 * [synclient](https://github.com/ctrl-alt-del/devenv/tree/master/util/synclient)
+* [tree](https://github.com/ctrl-alt-del/devenv/tree/master/util/tree)
 
 
 
