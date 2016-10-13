@@ -2,7 +2,17 @@ smartmontools
 =============
 [**smartmontools**](https://help.ubuntu.com/community/Smartmontools) is a set of terminal tools that test hard drives and read their SMART info.
 
+* [**Windows**](#smartmontools-on-windows)
 * [**Ubuntu**](#smartmontools-on-ubuntu)
+
+## `smartmontools` on Ubuntu
+Download the latest `.exe` installer from [here](https://sourceforge.net/projects/smartmontools/files/smartmontools).
+
+Once file is downloaded, double click it and follow the instruction to install.
+
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
+
+
 
 ## `smartmontools` on Ubuntu
 ```sh
