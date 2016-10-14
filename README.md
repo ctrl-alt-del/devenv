@@ -124,7 +124,6 @@ This document and bash scripts will be updated piece by piece and I will try my 
 * [guake](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/guake)
 * [iterm2](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/iterm2)
 * [package manager](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/package-manager)
-* [smartmontools](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/smartmontools)
 * [tilda](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/tilda)
 * [zsh](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/zsh)
 	* [oh-my-zsh](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/zsh/oh-my-zsh)
@@ -140,6 +139,7 @@ This document and bash scripts will be updated piece by piece and I will try my 
 * [gemrc](https://github.com/ctrl-alt-del/devenv/tree/master/util/gemrc)
 * [hdparm](https://github.com/ctrl-alt-del/devenv/tree/master/util/hdparm)
 * [profile](https://github.com/ctrl-alt-del/devenv/tree/master/util/profile)
+* [smartmontools](https://github.com/ctrl-alt-del/devenv/tree/master/util/smartmontools)
 * [synclient](https://github.com/ctrl-alt-del/devenv/tree/master/util/synclient)
 * [tree](https://github.com/ctrl-alt-del/devenv/tree/master/util/tree)
 

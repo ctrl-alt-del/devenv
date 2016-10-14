@@ -10,7 +10,7 @@ Download the latest `.exe` installer from [here](https://sourceforge.net/project
 
 Once file is downloaded, double click it and follow the instruction to install.
 
-[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv/tree/master/util)
 
 
 
@@ -23,4 +23,4 @@ To check the statistics of a hard drive with `smartmontools`:
 ```sh
 sudo smartctl --all /dev/sda
 ```
-[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv/tree/master/util)
