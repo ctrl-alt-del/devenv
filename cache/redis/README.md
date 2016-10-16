@@ -20,6 +20,11 @@ brew install redis
 ```sh
 sudo apt-get install redis
 ```
+
+You can edit your configuration on: `/etc/redis/redis.conf`.
+
+You can find the directory that Redis will use to dump persistent data on: `/var/lib/redis`.
+
 [BACK TO TOP](https://github.com/ctrl-alt-del/devenv/tree/master/cache)
 
 
