@@ -25,4 +25,4 @@ sudo apt-get install update-manager
 sudo apt-get install curl
 ```
 
-Since LXLE is based off Ubuntu, you can rely on [Ubunut's info](https://github.com/ctrl-alt-del/devenv/tree/master/os/ubuntu) in most cases.
+Since LXLE is based off Ubuntu LTS, you can rely on the [Ubuntu documentation](https://github.com/ctrl-alt-del/devenv/tree/master/os/ubuntu) in most cases.

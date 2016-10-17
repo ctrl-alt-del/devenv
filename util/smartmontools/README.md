@@ -5,10 +5,10 @@ smartmontools
 * [**Windows**](#smartmontools-on-windows)
 * [**Ubuntu**](#smartmontools-on-ubuntu)
 
-## `smartmontools` on Ubuntu
+## `smartmontools` on Windows
 Download the latest `.exe` installer from [here](https://sourceforge.net/projects/smartmontools/files/smartmontools).
 
-Once file is downloaded, double click it and follow the instruction to install.
+Once file is downloaded, double click the `.exe` file and follow its instruction to install.
 
 [BACK TO TOP](https://github.com/ctrl-alt-del/devenv/tree/master/util)
 
