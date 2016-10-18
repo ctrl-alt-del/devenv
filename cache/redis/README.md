@@ -25,6 +25,10 @@ You can edit your configuration on: `/etc/redis/redis.conf`.
 
 You can find the directory that Redis will use to dump persistent data on: `/var/lib/redis`.
 
+If `/var/lib/redis` is not the default persistent data dumping directory, you can set it to be the default by modifying `/etc/redis/redis.conf` with this line:
+```sh
+dir /var/lib/redis
+```
 [BACK TO TOP](https://github.com/ctrl-alt-del/devenv/tree/master/cache)
 
 
