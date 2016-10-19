@@ -95,9 +95,11 @@ You can adjust the value according to your needs; once done, save the file, logo
 
 
 ## Graphic Card Issue
-Ubuntu may have compatibility issue with some older graphic cards, especially the **Nvidia** ones.
+**Note that this issue is no longer observed on Ubuntu 16.04***
 
-Depending on specific chip of your graphic card, you will need either the `nvidia-304`, `nvidia-319`, `nvidia-325` or `nvidia-current` driver updates.
+Ubuntu 15.10 and prior may have compatibility issue with some older graphic cards, especially the **Nvidia** ones.
+
+Depending on the specific chip of your graphic card, you will need to install either the `nvidia-304`, `nvidia-319`, `nvidia-325` or `nvidia-current` driver to properly display content on your machine.
 
 Some common behaviors for graphic card related issues are:
 0. screen freezes or black out after login to a user
