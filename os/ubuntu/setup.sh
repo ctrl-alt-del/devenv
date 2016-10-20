@@ -2,60 +2,24 @@
 echo '==============='
 echo 'Setup starts...'
 echo '<<< Upgrading Ubuntu...'
-sudo apt-get update
-sudo apt-get safe-upgrade
-echo '>>> Ubuntu has been successfully upgraded!'
-echo ' '
-
-echo '<<< Installing Guake...'
-sudo apt-get install guake 2>/dev/null 
-echo '>>> Guake has been successfully installed!'
-echo ' '
-
-echo '<<< Installing vim...'
-sudo apt-get install vim 2>/dev/null 
-echo '>>> vim has been successfully installed!'
-echo ' '
-
-echo '<<< Installing/Upgrading Git...'
-sudo apt-get install git 2>/dev/null 
-echo '>>> Git has been successfully installed/upgraded!'
-echo ' '
-
-echo '<<< Installing oh-my-zsh...'
-sudo apt-get install zsh 2>/dev/null 
-wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
-sudo chsh -s /usr/bin/zsh
-echo '>>> oh-my-zsh has been successfully installed!'
-echo ' '
-
-# install oh-my-zsh
-# config oh-my-zsh chsh -s 'which zsh'
-
-echo '<<< Installing Sublime...'
+sudo add-apt-repository ppa:webupd8team/atom
 sudo add-apt-repository ppa:webupd8team/sublime-text-2
-sudo apt-get update
-sudo apt-get install sublime-text 2>/dev/null 
-echo '>>> Sublime has been successfully installed!'
-echo ' '
-
-echo '<<< Installing/Upgrading OpenSSL...'
-sudo apt-get upgrade openssl
-echo '>>> OpenSSL has been successfully installed/upgraded!'
-
-echo '<<< Installing Oracle Java 7...'
-sudo apt-get install python-software-properties 2>/dev/null 
 sudo add-apt-repository ppa:webupd8team/java
 sudo apt-get update
-sudo apt-get install oracle-java7-installer 2>/dev/null 
-echo '>>> Oracle Java 7 has been successfully installed!'
+sudo apt-get safe-upgrade
+echo ' '
+
+echo '<<< Installing Tools...'
+sudo apt-get install git zsh guake vim htop tree sublime-text atom openssl oracle-java8-installer 2>/dev/null
+wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
+echo ' '
 
 echo '<<< Installing Node.js...'
-sudo apt-get install nodejs nodejs-dev npm 2>/dev/null 
+sudo apt-get install nodejs nodejs-dev npm 2>/dev/null
 echo '>>> Node.js has been successfully installed!'
 
 echo '<<< Installing Curl...'
-sudo apt-get install curl 2>/dev/null 
+sudo apt-get install curl 2>/dev/null
 echo '>>> Curl has been successfully installed!'
 
 echo '<<< Setting up ~/.bash_profile...'
@@ -94,11 +58,11 @@ sudo rm setup_synclient.sh
 echo '>>> synclient has been successfully configured!'
 
 echo '<<< Installing dkms...'
-sudo apt-get install dkms 2>/dev/null 
+sudo apt-get install dkms 2>/dev/null
 echo '>>> dkms has been successfully installed!'
 
 echo '<<< Installing gitg...'
-sudo apt-get install gitg 2>/dev/null 
+sudo apt-get install gitg 2>/dev/null
 echo '>>> gitg has been successfully installed!'
 
 echo '<<< Installing pip...'
@@ -109,6 +73,5 @@ rm get-pip.py
 echo '>>> pip has been successfully installed!'
 
 echo '<<< Installing Django...'
-sudo pip install django 2>/dev/null 
+sudo pip install django 2>/dev/null
 echo '>>> Django has been successfully installed!'
-
