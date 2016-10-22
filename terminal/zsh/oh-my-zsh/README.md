@@ -15,7 +15,7 @@ curl -L http://install.ohmyz.sh | sh
 
 
 ### Oh-My-Zsh on Ubuntu
-You need [Git](#git-on-ubuntu) and [Zsh](#zsh-on-ubuntu) as the prerequisites.
+You need [Git](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/git), [Zsh](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/zsh) and [wget](https://github.com/ctrl-alt-del/devenv/tree/master/network/wget) as the prerequisites.
 ```sh
 sudo apt-get install git zsh wget
 ```
