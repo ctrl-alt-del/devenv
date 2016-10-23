@@ -20,15 +20,19 @@ You need [Git](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/git),
 sudo apt-get install git zsh wget
 ```
 
-Once you have installed the prerequisites, you can:
+Once you have installed the prerequisites, you can grab `oh-my-zsh` using `wget`:
 ```sh
 wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
-chsh -s `which zsh`
 ```
 
-Alternatively, you can install using `curl`:
+Or, you can do so using `curl` instead:
 ```sh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```
+
+Once `oh-my-zsh` is downloaded into your home directory, you can set it as your default bash using:
+```sh
+chsh -s `which zsh`
 ```
 [BACK TO TOP](https://github.com/ctrl-alt-del/devenv/tree/master/terminal)
 
