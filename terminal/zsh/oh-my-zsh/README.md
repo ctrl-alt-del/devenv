@@ -2,12 +2,20 @@ oh-my-zsh
 =========
 [**Oh-My-Zsh**](http://ohmyz.sh) is an framework for managing your ZSH configuration.  You can learn more about it on its [git repository](https://github.com/robbyrussell/oh-my-zsh)
 
+* [**Windows**](#oh-my-zsh-on-windows)
 * [**Mac**](#oh-my-zsh-on-mac)
 * [**Ubuntu**](#oh-my-zsh-on-ubuntu)
 * [**Fedora**](#oh-my-zsh-on-fedora)
 
+### Oh-My-Zsh on Windows
+**This is a get around to mimic oh-my-zsh, it neither zsh, nor the real oh-my-zsh**
+You need to first install git-bash, then set its theme to [this](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/git/git-bash)
+
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv/tree/master/terminal)
+
+
 ### Oh-My-Zsh on Mac
-According to its [README file](https://github.com/robbyrussell/oh-my-zsh#via-curl), installing oh-my-zsh on Mac can be done by executing this line into your terminal.
+According to its own [instruction](https://github.com/robbyrussell/oh-my-zsh#via-curl), installing oh-my-zsh on Mac can be done by executing this line into your terminal.
 ```sh
 curl -L http://install.ohmyz.sh | sh
 ```
@@ -38,7 +46,7 @@ chsh -s `which zsh`
 
 
 ### Oh-My-Zsh on Fedora
-You need [Git](#git-on-fedora) and [Zsh](#zsh-on-fedora) as the prerequisites.
+You need [Git](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/git), [Zsh](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/zsh) and [wget](https://github.com/ctrl-alt-del/devenv/tree/master/network/wget) as the prerequisites.
 ```sh
 sudo yum install git zsh wget
 ```
