@@ -8,8 +8,9 @@ oh-my-zsh
 * [**Fedora**](#oh-my-zsh-on-fedora)
 
 ### Oh-My-Zsh on Windows
-**This is a get around to mimic oh-my-zsh, it neither zsh, nor the real oh-my-zsh**
-You need to first install git-bash, then set its theme to [this](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/git/git-bash)
+Windows is a tricky case for using zsh and oh-my-zsh.  The easiest way is to install emulator of Unix-like command line terminal, such as Cygwin or Chocolatey.
+
+Other than that, the only "alternative" I have found so far is to use [git-bash](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/git/git-bash) and mimic it with a oh-my-zsh theme.
 
 [BACK TO TOP](https://github.com/ctrl-alt-del/devenv/tree/master/terminal)
 
