@@ -110,6 +110,7 @@ This document and bash scripts will be updated piece by piece and I will try my 
 
 
 ## Operating System (OS)
+* [Android](https://github.com/ctrl-alt-del/devenv/tree/master/os/android)
 * [Fedora](https://github.com/ctrl-alt-del/devenv/tree/master/os/fedora)
 * [LXLE](https://github.com/ctrl-alt-del/devenv/tree/master/os/lxle)
 * [Mac](https://github.com/ctrl-alt-del/devenv/tree/master/os/mac)
@@ -138,6 +139,7 @@ This document and bash scripts will be updated piece by piece and I will try my 
 * [fbreader](https://github.com/ctrl-alt-del/devenv/tree/master/util/fbreader)
 * [gemrc](https://github.com/ctrl-alt-del/devenv/tree/master/util/gemrc)
 * [hdparm](https://github.com/ctrl-alt-del/devenv/tree/master/util/hdparm)
+* [htop](https://github.com/ctrl-alt-del/devenv/tree/master/util/htop)
 * [profile](https://github.com/ctrl-alt-del/devenv/tree/master/util/profile)
 * [smartmontools](https://github.com/ctrl-alt-del/devenv/tree/master/util/smartmontools)
 * [synclient](https://github.com/ctrl-alt-del/devenv/tree/master/util/synclient)
@@ -152,3 +154,4 @@ This document and bash scripts will be updated piece by piece and I will try my 
 * [MAMP](https://github.com/ctrl-alt-del/devenv/tree/master/virtualization/mamp)
 * [vagrant](https://github.com/ctrl-alt-del/devenv/tree/master/virtualization/vagrant)
 * [VirtualBox](https://github.com/ctrl-alt-del/devenv/tree/master/virtualization/virtualbox)
+* [WAMP](https://github.com/ctrl-alt-del/devenv/tree/master/virtualization/wamp)
