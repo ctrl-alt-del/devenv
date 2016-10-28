@@ -12,6 +12,8 @@ Redis
 ```sh
 brew install redis
 ```
+You can update the configuration on: `/usr/local/etc/redis.conf`
+
 [BACK TO TOP](https://github.com/ctrl-alt-del/devenv/tree/master/cache)
 
 

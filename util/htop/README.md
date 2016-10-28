@@ -22,6 +22,9 @@ You can update the configuration on: `~/.htoprc`
 ```sh
 sudo apt-get install htop
 ```
+
+You can update the configuration on: `~/.config/htop/htoprc`
+
 [BACK TO TOP](https://github.com/ctrl-alt-del/devenv/tree/master/util)
 
 
