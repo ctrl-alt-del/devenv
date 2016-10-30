@@ -4,6 +4,7 @@ smartmontools
 
 * [**Windows**](#smartmontools-on-windows)
 * [**Ubuntu**](#smartmontools-on-ubuntu)
+* [**Ubuntu**](#smartmontools-on-fedora)
 
 ## `smartmontools` on Windows
 Download the latest `.exe` installer from [here](https://sourceforge.net/projects/smartmontools/files/smartmontools).
@@ -22,5 +23,13 @@ sudo apt-get install smartmontools
 To check the statistics of a hard drive with `smartmontools`:
 ```sh
 sudo smartctl --all /dev/sda
+```
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv/tree/master/util)
+
+
+
+## `smartmontools` on Fedora
+```sh
+sudo yum install smartmontools
 ```
 [BACK TO TOP](https://github.com/ctrl-alt-del/devenv/tree/master/util)
