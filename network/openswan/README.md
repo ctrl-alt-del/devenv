@@ -10,7 +10,7 @@ Openswan
 sudo apt-get update
 sudo apt-get install openswan
 ```
-[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv/tree/master/network)
 
 
 
@@ -18,4 +18,4 @@ sudo apt-get install openswan
 ```sh
 sudo yum install openswan
 ```
-[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv/tree/master/network)
