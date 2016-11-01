@@ -29,7 +29,7 @@ curl --version
 
 If curl does not come with your Mac somehow, you can follow the same instruction of [Windows](#curl-on-windows) to manually install it on your Mac.
 
-Or you can install it through [Homebrew](#homebrew) by running:
+Or you can install it through [Homebrew](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/package-manager/homebrew) by running:
 ```sh
 brew install curl
 ```

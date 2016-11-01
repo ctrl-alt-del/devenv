@@ -1,6 +1,6 @@
 Openswan
 ========
-[Openswan]() is an open source IPsec implementation for Linux.
+[Openswan](https://www.openswan.org) is an open source IPsec implementation for Linux.
 
 * [**Ubuntu**](#openswan-on-ubuntu)
 * [**Fedora**](#openswan-on-fedora)
