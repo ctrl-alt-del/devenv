@@ -10,7 +10,7 @@ Curl comes with Mac and some distros of Linux by default.  For Windows, it shoul
 * [**Fedora**](#curl-on-fedora)
 
 ### Curl on Windows
-Visit [Curl](http://curl.haxx.se/download.html) to download the latest version of [`curl-[version].zip`](http://curl.haxx.se/download/curl-7.43.0.zip).
+Visit [Curl's archive page](http://curl.haxx.se/download.html) to download the latest version of [`curl-[version].zip`](http://curl.haxx.se/download/curl-7.50.3.zip).
 
 Once it is downloaded, unzip it to `/c/usr/bin/curl`, or whatever directory your chose.
 
@@ -18,11 +18,11 @@ Run git bash as administrator, then create a symbolic link by running:
 ```sh
 ln -s /c/usr/bin/curl/curl.exe /usr/bin/curl.exe
 ```
-[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv/tree/master/network)
 
 
 ### Curl on Mac
-Mac should have Curl by default.  You can verify your curl version by opening your terminal and running:
+Mac should have `curl` by default.  You can verify your curl version by opening your terminal and running:
 ```sh
 curl --version
 ```
@@ -33,18 +33,18 @@ Or you can install it through [Homebrew](https://github.com/ctrl-alt-del/devenv/
 ```sh
 brew install curl
 ```
-[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv/tree/master/network)
 
 
 ### Curl on Ubuntu
 ```sh
 sudo apt-get install curl
 ```
-[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv/tree/master/network)
 
 
 ### Curl on Fedora
 ```sh
 sudo yum install curl
 ```
-[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv/tree/master/network)
