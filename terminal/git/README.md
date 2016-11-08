@@ -6,7 +6,10 @@ git
 * [**Mac**](#git-on-mac)
 * [**Ubuntu**](#git-on-ubuntu)
 * [**Fedora**](#git-on-fedora)
-* [**Configuration**](#git-configuration)
+* [**Configuration**](#configuration)
+  * [**Shortcuts**](#shortcuts)
+  * [**Change default editor**](#change-default-editor)
+  * [**Count remote branches**](#count-remote-branches)
 
 ### Git on Windows
 Since Git contains many convenient built-in functions as well as a useful bash shell, it is recommended to be installed first in setting up the dev environment on Windows.
@@ -67,7 +70,9 @@ sudo yum upgrade git
 [BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
-### Git Configuration
+### Configuration
+
+#### Shortcuts
 Once Git is installed, you can check about its version using `git -v`.
 
 There are some shortcuts are very convenient as well, you can set them up with following:
