@@ -25,7 +25,7 @@ To resolve it, you can execute the follow lines in your bash:
 touch ~/.bash_profile
 echo "PROMPT_COMMAND='history -a'" >> "~/.bash_profile"
 ```
-[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv/tree/master/terminal)
 
 
 ### Git on Mac
@@ -40,7 +40,7 @@ Or you can install it through [Homebrew](https://github.com/ctrl-alt-del/devenv#
 ```sh
 brew install git
 ```
-[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv/tree/master/terminal)
 
 
 ### Git on Ubuntu
@@ -54,7 +54,7 @@ To upgrade to the latest version of Git, you can do so by running:
 ```sh
 sudo apt-get upgrade git
 ```
-[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv/tree/master/terminal)
 
 
 ### Git on Fedora
@@ -67,7 +67,7 @@ To upgrade git on Fedora:
 ```sh
 sudo yum upgrade git
 ```
-[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv/tree/master/terminal)
 
 
 ### Configuration
@@ -80,7 +80,7 @@ There are some shortcuts are very convenient as well, you can set them up with f
 git config --global alias.co checkout
 git config --global alias.cm !git add -A && git commit -m
 ```
-[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv/tree/master/terminal)
 
 
 
@@ -89,7 +89,7 @@ The default editor is `nano` or `vi` depending on you operating system.  You can
 ```sh
 git config --global core.editor <editor_name> # <editor_name> being "nano", "vim" and etc.
 ```
-[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv/tree/master/terminal)
 
 
 
@@ -97,4 +97,4 @@ git config --global core.editor <editor_name> # <editor_name> being "nano", "vim
 ```sh
 git branch -r | wc -l
 ```
-[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv/tree/master/terminal)
