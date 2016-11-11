@@ -34,10 +34,13 @@ This document and bash scripts will be updated piece by piece and I will try my 
 
 
 
-## Cheatsheet
+## [Cheatsheet](https://github.com/ctrl-alt-del/devenv/blob/master/cheatsheet)
+* [Android](https://github.com/ctrl-alt-del/devenv/blob/master/cheatsheet/android)
 * [AngularJS](https://github.com/ctrl-alt-del/devenv/blob/master/cheatsheet/angularjs)
 * [bash](https://github.com/ctrl-alt-del/devenv/blob/master/cheatsheet/bash)
+* [Go](https://github.com/ctrl-alt-del/devenv/blob/master/cheatsheet/go)
 * [Hacker Rank](https://github.com/ctrl-alt-del/devenv/blob/master/cheatsheet/hacker-rank)
+* [PHP](https://github.com/ctrl-alt-del/devenv/blob/master/cheatsheet/php)
 * [Redis](https://github.com/ctrl-alt-del/devenv/blob/master/cheatsheet/redis)
 * [Regular Expression](https://github.com/ctrl-alt-del/devenv/blob/master/cheatsheet/regular-expression)
 * [Sorting Algorithms](https://github.com/ctrl-alt-del/devenv/blob/master/cheatsheet/sorting-algorithms)
