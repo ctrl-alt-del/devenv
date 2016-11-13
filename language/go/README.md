@@ -17,7 +17,7 @@ If you are using git bash, follow the instruction for [Ubuntu](#go-on-ubuntu) to
 
 You may also edit the environment variables of Windows to enable the `go` commands on `cmd` or `PowerShell`.
 
-[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv/tree/master/language)
 
 
 
@@ -28,7 +28,7 @@ Once download is completed, double click the `.pkg` file and follow the instruct
 
 Once installation is done, follow the same instruction for [Ubuntu](go-on-ubuntu) to update the `$PATH` on Mac.
 
-[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv/tree/master/language)
 
 
 
@@ -65,14 +65,14 @@ To append `$GOROOT`, `$GOROOT_BIN`, `$GOPATH` and `$GOBIN` to your `$PATH`, you 
 
 Alternatively, you can install Go from its source.  To do so, visit [Go's source install page](https://golang.org/doc/install/source) and follow instruction there to install.
 
-[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv/tree/master/language)
 
 
 
 ### Go on Fedora
 Follow the same instruction as [Ubuntu](#go-on-ubuntu).
 
-[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv/tree/master/language)
 
 
 
