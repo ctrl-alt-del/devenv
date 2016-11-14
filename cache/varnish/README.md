@@ -4,3 +4,8 @@ Varnish
 
 * [**Ubuntu**](#varnish-on-ubuntu)
 * [**Ubuntu**](#varnish-on-fedora)
+
+## Varnish on Ubuntu
+```sh
+sudo apt-get install varnish
+```
