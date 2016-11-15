@@ -9,3 +9,8 @@ Varnish
 ```sh
 sudo apt-get install varnish
 ```
+
+configuration files:
+`/etc/default/varnish` and `/etc/varnish/default.vcl`
+
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv/tree/master/cache)
