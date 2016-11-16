@@ -17,11 +17,11 @@ To install CoffeeScript, you can do so by running:
 ```sh
 npm install -g coffee-script
 ```
-[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv/tree/master/language/javascript/nodejs)
 
 
 ### CoffeeScript on Ubuntu
 ```sh
-sudo npm install -g coffee-script
+sudo npm install coffee-script
 ```
-[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv/tree/master/language/javascript/nodejs)
