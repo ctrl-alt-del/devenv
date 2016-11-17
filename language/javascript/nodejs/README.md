@@ -1,6 +1,6 @@
 Node.js
 =======
-Node.js is an platform for Javascript.  To install Node.js, download the install file from its [homepage](http://nodejs.org/download).
+Node.js is a platform for Javascript.  You can download its installation file from its [homepage](http://nodejs.org/download).
 
 Once download is done, double click the file and follow the instruction to install it into your computer.
 
@@ -20,7 +20,7 @@ npm -v
 ### Node.js on Windows
 Download [Node.js Windows Installer](https://nodejs.org/download) and install it.
 
-[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv/tree/master/language/javascript)
 
 
 ### Node.js on Mac
@@ -28,14 +28,14 @@ Alternatively, you can install Node.js through [Homebrew](#homebrew).
 ```sh
 brew install node
 ```
-[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv/tree/master/language/javascript)
 
 
 ## Node.js on Ubuntu
 ```sh
 sudo apt-get install nodejs
 ```
-[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv/tree/master/language/javascript)
 
 If you want to have the latest version of Node.js, you can install it through [Chris Lea's PPA](https://chrislea.com/2013/03/15/upgrading-from-node-js-0-8-x-to-0-10-0-from-my-ppa).  You can do so by running:
 ```sh
@@ -44,7 +44,7 @@ sudo add-apt-repository ppa:chris-lea/node.js
 sudo apt-get update
 sudo apt-get install nodejs
 ```
-[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv/tree/master/language/javascript)
 
 
 ### Node.js on Fedora
