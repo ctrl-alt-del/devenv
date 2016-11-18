@@ -39,7 +39,6 @@ sudo npm -g install sails
 
 
 ### Sail.js on Fedora
-```sh
-sudo npm -g install sails
-```
+Same as [Ubuntu](sailjs-on-ubuntu).
+
 [BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
