@@ -11,7 +11,7 @@ Once installation is done, open a terminal window and verify it by running:
 ```sh
 nodemon -v
 ```
-[here](https://github.com/ctrl-alt-del/devenv/tree/master/language/javascript/nodejs)
+[here](https://github.com/ctrl-alt-del/devenv/tree/master/language/javascript)
 
 
 
@@ -27,22 +27,22 @@ Right click on `cmd.exe`, `PowerShell.exe`, or `git-bash.exe` and select `Run as
 
 Once the terminal is opened, re-run the script listed in above.
 
-[here](https://github.com/ctrl-alt-del/devenv/tree/master/language/javascript/nodejs)
+[here](https://github.com/ctrl-alt-del/devenv/tree/master/language/javascript)
 
 
 ### Nodemon on Mac
 Simply append `sudo` in front of the script listed in above.
 
-[here](https://github.com/ctrl-alt-del/devenv/tree/master/language/javascript/nodejs)
+[here](https://github.com/ctrl-alt-del/devenv/tree/master/language/javascript)
 
 
 ### Nodemon on Ubuntu
 Same as [Mac](#nodemon-on-mac)
 
-[here](https://github.com/ctrl-alt-del/devenv/tree/master/language/javascript/nodejs)
+[here](https://github.com/ctrl-alt-del/devenv/tree/master/language/javascript)
 
 
 ### Nodemon on Fedora
 Same as [Mac](#nodemon-on-mac)
 
-[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
+[here](https://github.com/ctrl-alt-del/devenv/tree/master/language/javascript)
