@@ -21,24 +21,24 @@ Given that you have `node` and `npm` properly install, you can install Sail.js w
 ```sh
 npm -g install sails
 ```
-[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv/tree/master/language/javascript/nodejs)
 
 
 ### Sail.js on Mac
 ```sh
 npm -g install sails
 ```
-[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv/tree/master/language/javascript/nodejs)
 
 
 ### Sail.js on Ubuntu
 ```sh
 sudo npm -g install sails
 ```
-[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv/tree/master/language/javascript/nodejs)
 
 
 ### Sail.js on Fedora
 Same as [Ubuntu](sailjs-on-ubuntu).
 
-[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv/tree/master/language/javascript/nodejs)
