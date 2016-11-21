@@ -8,7 +8,7 @@ Both Java 7 and 8 are available today.  This instruction will focus on how to in
 * [**Fedora**](#java-on-fedora)
 
 ### Java on Windows
-Download the latest Java for Windows from [Oracle](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html).
+Visit [Oracle Page](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html) for the latest Java 7 JDK installation file on Windows.
 
 Choose the appropriate Thread Safe zip to download, either [Windows x86](http://download.oracle.com/otn-pub/java/jdk/7u79-b15/jdk-7u79-windows-i586.exe) or [Windows x64](http://download.oracle.com/otn-pub/java/jdk/7u79-b15/jdk-7u79-windows-x64.exe) based on your operation system.
 
@@ -29,7 +29,7 @@ if there is error saying java is not found on sh.exe, restart the git bash and r
 
 Alternatively, you can also add `~/Applications/Java` as `%JAVA_HOME%` on the Windows environment variables list.
 
-[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv/tree/master/language)
 
 
 ### Java on Mac
@@ -43,7 +43,7 @@ Once the installation is done, you can verify your Java version by running the f
 ```sh
 java -version
 ```
-[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv/tree/master/language)
 
 
 
@@ -51,11 +51,11 @@ java -version
 * [Oracle JDK](https://github.com/ctrl-alt-del/devenv/tree/master/language/java/oraclejdk#oracle-jdk-on-ubuntu)
 * [Open JDK](https://github.com/ctrl-alt-del/devenv/tree/master/language/java/oraclejdk#open-jdk-on-ubuntu)
 
-[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv/tree/master/language)
 
 
 ### Java on Fedora
 * [Oracle JDK](https://github.com/ctrl-alt-del/devenv/tree/master/language/java/oraclejdk#oracle-jdk-on-fedora)
 * [Open JDK](https://github.com/ctrl-alt-del/devenv/tree/master/language/java/oraclejdk#open-jdk-on-fedora)
 
-[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv/tree/master/language)
