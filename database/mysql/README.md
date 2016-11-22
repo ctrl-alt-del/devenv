@@ -7,22 +7,22 @@ MySQL
 * [**Fedora**](#mysql-on-fedora)
 
 ### MySQL on Mac
-If you use [Homebrew](#homebrew) as your package manager, installing MySQL is very simple.
+You can install MySQL through [Homebrew](https://github.com/ctrl-alt-del/devenv/blob/master/terminal/package-manager/homebrew):
 ```sh
 brew install mysql
 ```
-[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv/tree/master/database)
 
 
 ### MySQL on Ubuntu
 ```sh
 sudo apt-get install mysql-server
 ```
-[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv/tree/master/database)
 
 
 ### MySQL on Fedora
 ```sh
 sudo yum install mysql mysql-server
 ```
-[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv/tree/master/database)
