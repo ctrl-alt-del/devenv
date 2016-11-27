@@ -1,6 +1,13 @@
 Cheatsheet for JavaScript
 =========================
 
+## Syntax
+* use semicolon to break statements
+* enclose code using `<script></script>` tag
+* reference separate file using `<script src="path/to/file.js"></script>`
+
+
+
 ## Variable
 ### Name
 * must be case-sensitive
