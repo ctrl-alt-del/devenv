@@ -9,6 +9,10 @@ Cheatsheet for JavaScript
 
 
 ## Variable
+* use `var` to declare a mutable variable
+* use `let` to declare a block-scope variable
+* use `const` to declare a immutable variable
+
 ### Name
 * must be case-sensitive
 * must be unique
@@ -17,6 +21,6 @@ Cheatsheet for JavaScript
 
 
 ### Value
-* empty/undefined when created
+* empty/undefined when created with `var`, always good to initialize the variable
 * duck typing
 * mutable
