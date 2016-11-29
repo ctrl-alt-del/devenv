@@ -24,3 +24,13 @@ Cheatsheet for JavaScript
 * empty/undefined when created with `var`, always good to initialize the variable
 * duck typing
 * mutable
+
+
+
+## Arithmetics
+* `-`: opposite
+* `+`: sum
+* `-`: difference
+* `*`: multiplication
+* `/`: division
+* `%`: modulus
