@@ -12,6 +12,7 @@ Cheatsheet for JavaScript
 * use `var` to declare a mutable variable
 * use `let` to declare a block-scope variable
 * use `const` to declare a immutable variable
+* use `''` to declare string
 
 ### Name
 * must be case-sensitive
@@ -34,3 +35,9 @@ Cheatsheet for JavaScript
 * `*`: multiplication
 * `/`: division
 * `%`: modulus
+
+
+
+## String Operations
+* `+`: concatenation
+* `+=`: append
