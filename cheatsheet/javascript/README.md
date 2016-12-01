@@ -28,7 +28,8 @@ Cheatsheet for JavaScript
 
 
 
-## Arithmetics
+## Operations
+### Arithmetics
 * `-`: opposite
 * `+`: sum
 * `-`: difference
@@ -37,7 +38,13 @@ Cheatsheet for JavaScript
 * `%`: modulus
 
 
-
-## String Operations
+### Strings
 * `+`: concatenation
 * `+=`: append
+
+
+
+## Scope
+* global: visible everywhere
+* local: visible within function
+* block: visible within block or expression
