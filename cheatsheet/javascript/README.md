@@ -13,6 +13,7 @@ Cheatsheet for JavaScript
 * use `let` to declare a block-scope variable
 * use `const` to declare a immutable variable
 * use `''` to declare string
+* `0`, `''`, undefined, `null` and `false` are equivalent to `false`, otherwise `true`
 
 ### Name
 * must be case-sensitive
@@ -41,6 +42,18 @@ Cheatsheet for JavaScript
 ### Strings
 * `+`: concatenation
 * `+=`: append
+
+
+### Booleans
+* `==`: equal
+* `===`: equal AND same type, a.k.a identical
+* `!=`: not equal
+* `!==`: not equal OR same type, a.k.a not identical
+* `<`: less than
+* `>`: greater than
+* `<=`: less than OR equal to
+* `>`: greater than OR equal to
+
 
 
 
