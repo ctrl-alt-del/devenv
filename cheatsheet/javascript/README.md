@@ -66,3 +66,12 @@ Cheatsheet for JavaScript
 * global: visible everywhere
 * local: visible within function
 * block: visible within block or expression
+
+
+
+## Array
+* act as ordered list
+* mutable
+* allow different type
+* counting starts with `0`
+* access and assign through `[]`
