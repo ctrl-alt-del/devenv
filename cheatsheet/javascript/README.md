@@ -75,3 +75,8 @@ Cheatsheet for JavaScript
 * allow different type
 * counting starts with `0`
 * access and assign through `[]`
+
+
+
+## Object
+* access and assign through `.` or `[]`
