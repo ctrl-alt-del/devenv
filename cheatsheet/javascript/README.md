@@ -80,3 +80,13 @@ Cheatsheet for JavaScript
 
 ## Object
 * access and assign through `.` or `[]`
+* can hold methods
+
+### Built-in Objects
+* Array
+* Boolean
+* Number
+* String
+* RegExp
+* Date
+* Math
