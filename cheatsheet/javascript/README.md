@@ -90,3 +90,8 @@ Cheatsheet for JavaScript
 * RegExp
 * Date
 * Math
+
+
+
+## Event
+JavaScript create `event` object when user interact with web page, and [here](http://www.w3schools.com/jsref/dom_obj_event.asp) is the complete list of `event` objects.
