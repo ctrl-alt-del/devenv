@@ -40,6 +40,7 @@ This document and bash scripts will be updated piece by piece and I will try my 
 * [bash](https://github.com/ctrl-alt-del/devenv/blob/master/cheatsheet/bash)
 * [Go](https://github.com/ctrl-alt-del/devenv/blob/master/cheatsheet/go)
 * [Hacker Rank](https://github.com/ctrl-alt-del/devenv/blob/master/cheatsheet/hacker-rank)
+* [JavaScript](https://github.com/ctrl-alt-del/devenv/blob/master/cheatsheet/javascript)
 * [PHP](https://github.com/ctrl-alt-del/devenv/blob/master/cheatsheet/php)
 * [Redis](https://github.com/ctrl-alt-del/devenv/blob/master/cheatsheet/redis)
 * [Regular Expression](https://github.com/ctrl-alt-del/devenv/blob/master/cheatsheet/regular-expression)
