@@ -140,4 +140,5 @@ This cheatsheet is based on the official document, [Effective Go](https://golang
 
 ### Slices
 0. it wraps arrays to give a more general, powerful, and convenient interface to sequences of data
-0. most array programming in Go is done with slices rather than simple arrays
+0. most array programming in Go is done with slices rather than simple arrays except for array with explicit dimension
+0. slices hold references to an underlying array (e.g. pointer base)
