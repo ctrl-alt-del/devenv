@@ -3,7 +3,7 @@ Cheatsheet for AngularJS
 
 ## Definition
 #### Javascript
-Javascript is a dynamic programming language; mostly being used in web applications.
+[JavaScript](https://github.com/ctrl-alt-del/devenv/tree/master/language/javascript) is a dynamic programming language; mostly being used in web applications.
 
 #### AngularJS
 AngularJS is a Javascript framework specifically design for building [**Single Page Application**](#single-page-application).
