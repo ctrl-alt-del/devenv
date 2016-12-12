@@ -5,12 +5,12 @@ jQuery
 * [**Windows**](#jquery-on-windows)
 * [**Mac**](#jquery-on-mac)
 * [**Ubuntu**](#jquery-on-ubuntu)
-* [**Fedora**](#jquery-on-ubuntu)
+* [**Fedora**](#jquery-on-fedora)
 
 ### jQuery on Windows
 You can download the compressed or uncompressed copies of jQuery files from [here](http://jquery.com/download), and then include them in your file.
 
-[here](https://github.com/ctrl-alt-del/devenv/tree/master/language/javascript)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv/tree/master/language/javascript)
 
 
 
@@ -19,18 +19,18 @@ You need [`bower`](https://github.com/ctrl-alt-del/devenv/tree/master/language/j
 ```sh
 bower install jquery
 ```
-[here](https://github.com/ctrl-alt-del/devenv/tree/master/language/javascript)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv/tree/master/language/javascript)
 
 
 
 ### jQuery on Ubuntu
 Follow the same instruction as [Mac](#jquery-on-mac).
 
-[here](https://github.com/ctrl-alt-del/devenv/tree/master/language/javascript)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv/tree/master/language/javascript)
 
 
 
 ### jQuery on Fedora
 Follow the same instruction as [Mac](#jquery-on-mac).
 
-[here](https://github.com/ctrl-alt-del/devenv/tree/master/language/javascript)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv/tree/master/language/javascript)

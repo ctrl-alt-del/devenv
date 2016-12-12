@@ -31,6 +31,9 @@ If `/var/lib/redis` is not the default persistent data dumping directory, you ca
 ```sh
 dir /var/lib/redis
 ```
+
+If you want the latest version of redis, you need to build it from source code.
+
 [BACK TO TOP](https://github.com/ctrl-alt-del/devenv/tree/master/cache)
 
 
