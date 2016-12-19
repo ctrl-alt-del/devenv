@@ -14,14 +14,14 @@ npm install -g create-react-app
 
 
 
-### jQuery on Ubuntu
+### React on Ubuntu
 Follow the same instruction as [Mac](#react-on-mac).
 
 [BACK TO TOP](https://github.com/ctrl-alt-del/devenv/tree/master/language/javascript)
 
 
 
-### jQuery on Fedora
+### React on Fedora
 Follow the same instruction as [Mac](#react-on-mac).
 
 [BACK TO TOP](https://github.com/ctrl-alt-del/devenv/tree/master/language/javascript)
