@@ -7,11 +7,11 @@ Zsh
 * [**Fedora**](#zsh-on-fedora)
 
 #### Zsh on Mac
-You need to have [Homebrew]() as prerequisites
+You need to have [Homebrew](https://github.com/ctrl-alt-del/devenv/blob/master/terminal/package-manager/homebrew) as prerequisites
 ```sh
 brew install zsh
 ```
-[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv/blob/master/terminal)
 
 
 #### Zsh on Ubuntu
@@ -19,11 +19,11 @@ brew install zsh
 sudo apt-get update
 sudo apt-get install zsh
 ```
-[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv/blob/master/terminal)
 
 
 #### Zsh on Fedora
 ```sh
 sudo yum install zsh
 ```
-[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv/blob/master/terminal)
