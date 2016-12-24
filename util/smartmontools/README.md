@@ -1,10 +1,10 @@
 smartmontools
 =============
-[**smartmontools**](https://help.ubuntu.com/community/Smartmontools) is a set of terminal tools that test hard drives and read their SMART info.
+[**smartmontools**](https://help.ubuntu.com/community/Smartmontools) is a set of terminal tools that test hard drives and read their SMART info.  There is also an GUI version of the tool, and it is introduced in [here](http://gsmartcontrol.sourceforge.net/home).
 
 * [**Windows**](#smartmontools-on-windows)
 * [**Ubuntu**](#smartmontools-on-ubuntu)
-* [**Ubuntu**](#smartmontools-on-fedora)
+* [**Fedora**](#smartmontools-on-fedora)
 
 ## `smartmontools` on Windows
 Download the latest `.exe` installer from [here](https://sourceforge.net/projects/smartmontools/files/smartmontools).
