@@ -1,6 +1,6 @@
 Android Studio
 ==============
-[**Android Studio**](https://developer.android.com/sdk/index.html) is a Integrated Development Environment based on IntelliJ IDEA for Android development.
+[**Android Studio**](https://developer.android.com/studio/index.html) is a Integrated Development Environment based on IntelliJ IDEA for Android development.
 
 Note that the latest version of Android Studio requires Gradle 2.2 and above; therefore, please make sure you have it installed.  You can also follow the instruction of installing Gradle in [here](#gradle).
 
@@ -13,7 +13,7 @@ Also, Android development requires [Java](#java),  please follow its instruction
 * [**Fedora**](#android-studio-on-fedora)
 
 ## Android Studio on Windows
-Download Android Studio from its [home page](https://developer.android.com/sdk/installing/studio.html)
+Download Android Studio from its [home page](https://developer.android.com/studio/index.html)
 
 Once download is done, follow the instruction to install Android Studio and SDK.
 
@@ -25,7 +25,7 @@ Note that Android Virtual Machine (AVD) requires [Intel Hardware Accelerated Exe
 
 
 ## Android Studio on Mac
-Download Android Studio from its home page [here](https://developer.android.com/sdk/installing/studio.html)
+Download Android Studio from its home page [here](https://developer.android.com/studio/index.html)
 
 Once download is done, unzip it and then move the `.app` file to Application folder.
 
@@ -37,10 +37,10 @@ The newer version of Android Studio for Mac no long comes with Android SDK, ther
 ## Android Studio on Ubuntu
 Download and install:
 ```sh
-wget https://dl.google.com/dl/android/studio/ide-zips/1.3.0.10/android-studio-ide-141.2117773-linux.zip
-unzip android-studio-ide-141.2117773-linux.zip
+wget https://dl.google.com/dl/android/studio/ide-zips/2.2.3.0/android-studio-ide-145.3537739-linux.zip
+unzip android-studio-ide-145.3537739-linux.zip
 sudo mv android-studio /opt/android-studio
-sudo mv -f android-studio-ide-141.2117773-linux.zip ~/Downloads/
+sudo mv -f android-studio-ide-145.3537739-linux.zip ~/Downloads/
 sudo ln -s /opt/android-studio/bin/studio.sh /usr/bin/aso
 ```
 
