@@ -154,10 +154,12 @@ This document and bash scripts will be updated piece by piece and I will try my 
 * [gemrc](https://github.com/ctrl-alt-del/devenv/tree/master/util/gemrc)
 * [hdparm](https://github.com/ctrl-alt-del/devenv/tree/master/util/hdparm)
 * [htop](https://github.com/ctrl-alt-del/devenv/tree/master/util/htop)
+* [killall](https://github.com/ctrl-alt-del/devenv/tree/master/util/killall)
 * [profile](https://github.com/ctrl-alt-del/devenv/tree/master/util/profile)
 * [smartmontools](https://github.com/ctrl-alt-del/devenv/tree/master/util/smartmontools)
 * [synclient](https://github.com/ctrl-alt-del/devenv/tree/master/util/synclient)
 * [tree](https://github.com/ctrl-alt-del/devenv/tree/master/util/tree)
+* [xkill](https://github.com/ctrl-alt-del/devenv/tree/master/util/xkill)
 
 
 
