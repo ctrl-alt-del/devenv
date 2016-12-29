@@ -19,10 +19,10 @@ To install, just download the install package from homepage and double click to 
 
 
 ## Atom on Ubuntu
-If your system is 64 bit, you can install atom by simply download, unzip and move the unzipped file to `/opt`.
+~~If your system is 64 bit, you can install atom by simply download, unzip and move the unzipped file to `/opt`.~~
 
-### 32 bit
-Atom no longer offer 32 bit binary out of box, but you can install the 32 bit version by using the `ppa` package of `webupd8team`.
+~~### 32 bit~~
+~~Atom no longer offer 32 bit binary out of box, but~~ you can install the 32 bit **and 64 bit** version by using the `ppa` package of `webupd8team`.
 ```sh
 sudo add-apt-repository ppa:webupd8team/atom
 sudo apt-get update
