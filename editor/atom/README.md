@@ -15,6 +15,7 @@ To install, just download the install package from homepage and double click to 
 
 
 ## Atom on Mac
+Download the `.zip` file from [homepage](https://atom.io/download/mac), then unzip it and drag the `.dmg` file to your `Applications` folder.
 
 
 
