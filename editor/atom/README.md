@@ -10,12 +10,14 @@ Atom
 ## Atom on Windows
 To install, just download the install package from homepage and double click to install it.
 
-[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv/blob/master/editor)
 
 
 
 ## Atom on Mac
 Download the `.zip` file from [homepage](https://atom.io/download/mac), then unzip it and drag the `.dmg` file to your `Applications` folder.
+
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv/blob/master/editor)
 
 
 
@@ -31,8 +33,14 @@ sudo apt-get install atom
 ```
 
 You may need to have [NodeJS](https://github.com/ctrl-alt-del/devenv/tree/master/language/javascript/nodejs) installed in order to install `atom` using the `ppa` package.
-[BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
+
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv/blob/master/editor)
 
 
 
 ## Atom on Fedora
+Download the `.rpm` file from [homepage](https://atom.io/download/rpm).
+```sh
+sudo dnf install ~/Downloads/atom.x86_64.rpm
+```
+[BACK TO TOP](https://github.com/ctrl-alt-del/devenv/blob/master/editor)
