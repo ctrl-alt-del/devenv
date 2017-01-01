@@ -24,8 +24,8 @@ Download the `.zip` file from [homepage](https://atom.io/download/mac), then unz
 ## Atom on Ubuntu
 ~~If your system is 64 bit, you can install atom by simply download, unzip and move the unzipped file to `/opt`.~~
 
-~~### 32 bit~~
-~~Atom no longer offer 32 bit binary out of box, but~~ you can install the 32 bit **and 64 bit** version by using the `ppa` package of `webupd8team`.
+### ~~32 bit~~
+~~Atom no longer offer 32 bit binary out of box, but~~ you can **now** install the 32 bit **and 64 bit** version by using the `ppa` package of `webupd8team`.
 ```sh
 sudo add-apt-repository ppa:webupd8team/atom
 sudo apt-get update
@@ -43,4 +43,8 @@ Download the `.rpm` file from [homepage](https://atom.io/download/rpm).
 ```sh
 sudo dnf install ~/Downloads/atom.x86_64.rpm
 ```
+
+### 32 bit
+For 32 bit Fedora users, you will have to build atom from source code.
+
 [BACK TO TOP](https://github.com/ctrl-alt-del/devenv/blob/master/editor)
