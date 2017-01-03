@@ -24,6 +24,16 @@ To check the statistics of a hard drive with `smartmontools`:
 ```sh
 sudo smartctl --all /dev/sda
 ```
+
+Check overall health:
+```sh
+sudo smartctl -H /dev/sda1
+```
+
+Get disk information:
+```sh
+sudo smartctl -i /dev/sda1
+```
 [BACK TO TOP](https://github.com/ctrl-alt-del/devenv/tree/master/util)
 
 
