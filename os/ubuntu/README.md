@@ -73,6 +73,10 @@ sudo alien configure-trackpoint-0.7-0.zin.fc9.src.rpm
 
 You can then install the created `.deb` file.
 
+In case of missing `libgnome` libraries, you can install them by:
+```sh
+sudo apt-get -f install
+```
 
 
 #### Configure `configure-trackpoint`
