@@ -4,6 +4,7 @@ Ubuntu
 # Customization
 Note: Contents and behaviors were tested on both 12.04 and 14.04.
 
+* [Directories](#directories)
 * [TouchPad Issues](#touchpad-issues)
   * [Enable vertical two finger scroll](#enable-vertical-two-finger-scroll)
   * [Enable two finger tapping as right click](#enable-two-finger-tapping-as-right-click)
@@ -15,6 +16,12 @@ Note: Contents and behaviors were tested on both 12.04 and 14.04.
 * [Bluetooth Issues](#bluetooth-issues)
   * [Disable bluetooth on start](#disable-bluetooth-on-start)
 * [Unicode Font Issue](#unicode-font-issue)
+
+
+## Directories
+* `/`: the root directory
+*  `/bin`: binary applications
+*  `/sbin`: binary applications, administrative actions, usually require root permission
 
 
 ## TouchPad Issues
