@@ -20,8 +20,15 @@ Note: Contents and behaviors were tested on both 12.04 and 14.04.
 
 ## Directories
 * `/`: the root directory
-*  `/bin`: binary applications
-*  `/sbin`: binary applications, administrative actions, usually require root permission
+*  `/bin`: binary system applications
+*  `/sbin`: binary administrative system applications that require root permission
+*  `/usr`: binary applications specific to user
+*  `/opt`: applications installed outside of system repository
+*  `/etc`: systemwide configuration files
+*  `/root`: home directory of the root user
+*  `/home`: personal files of user
+*  `/lib`: systemwide libraries
+
 
 
 ## TouchPad Issues
