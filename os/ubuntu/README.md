@@ -19,6 +19,7 @@ Note: Contents and behaviors were tested on both 12.04 and 14.04.
 
 
 ## Directories
+File structure of Linux system
 * `/`: the root directory
 *  `/bin`: binary system applications
 *  `/sbin`: binary administrative system applications that require root permission
@@ -28,6 +29,8 @@ Note: Contents and behaviors were tested on both 12.04 and 14.04.
 *  `/root`: home directory of the root user
 *  `/home`: personal files of user
 *  `/lib`: systemwide libraries
+*  `/tmp`: temporary files
+
 
 
 
