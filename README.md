@@ -139,6 +139,7 @@ This document and bash scripts will be updated piece by piece and I will try my 
 * [guake](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/guake)
 * [iterm2](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/iterm2)
 * [package manager](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/package-manager)
+* [Terminator](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/terminator)
 * [tilda](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/tilda)
 * [zsh](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/zsh)
 	* [oh-my-zsh](https://github.com/ctrl-alt-del/devenv/tree/master/terminal/zsh/oh-my-zsh)
