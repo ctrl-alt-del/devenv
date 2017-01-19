@@ -22,14 +22,17 @@ Note: Contents and behaviors were tested on both 12.04 and 14.04.
 File structure of Linux system
 * `/`: the root directory
 *  `/bin`: binary system applications
-*  `/sbin`: binary administrative system applications that require root permission
-*  `/usr`: binary applications specific to user
-*  `/opt`: applications installed outside of system repository
+*  `/dev`:
 *  `/etc`: systemwide configuration files
-*  `/root`: home directory of the root user
 *  `/home`: personal files of user
 *  `/lib`: systemwide libraries
+*  `/opt`: applications installed outside of system repository
+*  `/root`: home directory of the root user
+*  `/sbin`: binary administrative system applications that require root permission
 *  `/tmp`: temporary files
+*  `/usr`: binary applications specific to user
+*  `/var`:
+
 
 
 
