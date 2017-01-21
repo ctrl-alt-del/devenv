@@ -33,9 +33,9 @@ Follow the steps to reach the interface of Env:
 <br>
 Right click `My Computer` -> click `Properties` -> click `Environment Variables`
 
-Whenever a new application is installed and you want to access it through terminal, you can press `New` under the `System variables` section to add the application's path as an environment variable.
+Whenever you want to access a newly installed application through terminal, you can press `New` under the `System variables` section to add the destination of the application as an environment variable.
 
-For `Variable name`, the convention is to use the upper case of the application's name and then concatenate it with `_HOME` (e.g. Python would be `PYTHON_HOME`).
+For `Variable name`, the convention is to use all upper case of the concatenation of application name and `_HOME` (e.g. Python would be `PYTHON_HOME`).
 
 For `Variable value`, just enter the full path of the application.
 
