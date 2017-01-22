@@ -296,13 +296,13 @@ public static void main(String[] args) {
     mPool.put("8", "tuv");
     mPool.put("9", "wxyz");
     String phoneNumber = "123456789";
-    List<String> combinations = getNumber2Strings(phoneNumber, mPool);
+    List<String> combinations = toStringsVer1(phoneNumber, mPool);
     for (String opt : combinations) {
         System.out.println(opt);
     }
 }
 
-public static List<String> getNumber2Strings(String str, HashMap<String, String> mPool) {
+public static List<String> toStringsVer1(String str, HashMap<String, String> mPool) {
     if (str.length() == 0) return Collections.emptyList();
 
     List<String> results = new ArrayList<>();
@@ -323,6 +323,31 @@ public static List<String> getNumber2Strings(String str, HashMap<String, String>
         }
     }
     return results;
+}
+```
+
+Alternative
+```java
+public static List<String> toStringsVer2(char[] arr, int position) {
+    List<String> list = new ArrayList<>();
+    if (position > arr.length - 1) {
+        return Collections.emptyList();
+    }
+
+    final char[] letters = map.get(arr[position]).toCharArray();
+    if (position == arr.length - 1) {
+        for (char c : letters) {
+            list.add(c + "");
+        }
+        return list;
+    }
+
+    for (char c : letters) {
+        for (String tail : toStringsVer2(arr, position + 1)) {
+            list.add(c + tail);
+        }
+    }
+    return list;
 }
 ```
 
