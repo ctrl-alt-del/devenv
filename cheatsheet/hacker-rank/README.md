@@ -328,7 +328,7 @@ public static List<String> toStringsVer1(String str, HashMap<String, String> mPo
 
 Alternative
 ```java
-public static List<String> toStringsVer2(char[] arr, int position) {
+public static List<String> toStringsVer2(char[] arr, int position, Map<Character, String> map) {
     List<String> list = new ArrayList<>();
     if (position > arr.length - 1) {
         return Collections.emptyList();
@@ -343,7 +343,7 @@ public static List<String> toStringsVer2(char[] arr, int position) {
     }
 
     for (char c : letters) {
-        for (String tail : toStringsVer2(arr, position + 1)) {
+        for (String tail : toStringsVer2(arr, position + 1, map)) {
             list.add(c + tail);
         }
     }
