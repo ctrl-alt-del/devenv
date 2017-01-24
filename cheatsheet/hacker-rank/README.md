@@ -260,14 +260,8 @@ public static void findMinMaxLexiString(List<String> strs) {
 }
 
 public static boolean isLexiSmaller(String str1, String str2) {
-    int shorterStringLength;
-    if (str1.length() < str2.length()) {
-        shorterStringLength = str1.length();
-    } else {
-        shorterStringLength = str2.length();
-    }
-
-    for (int i = 0; i < shorterStringLength; i++) {
+    final int len = str1.length() < str2.length() ? str1.length() : str2.length();
+    for (int i = 0; i < len; i++) {
         if (str1.charAt(i) < str2.charAt(i)) {
             return true;
         } else if (str1.charAt(i) > str2.charAt(i)) {
