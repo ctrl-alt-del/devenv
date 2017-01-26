@@ -390,3 +390,20 @@ public static getDiagonalDiff(int[] arr) {
   return Math.abs(fsum - ssum);
 }
 ```
+
+
+
+### Staircase
+```java
+public static void createStaircase(int n) {
+    char[] arr = new char[n];
+    for (int i = 0; i < n; i++) {
+        arr[i] = ' ';
+    }
+
+    for (int i = n - 1; i >= 0; i--) {
+        arr[i] = '#';
+        System.out.println(new String(arr));
+    }
+}
+```
