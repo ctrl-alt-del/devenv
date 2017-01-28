@@ -410,7 +410,7 @@ public static void createStaircase(int n) {
 
 ### Count Modified SOS Message
 ```java
-public static int getModifiedCount(String str) {}
+public static int getModifiedCount(String str) {
   final char[] arr = str.toCharArray();
   int count = 0;
   for (int i = 0; i < arr.length; i = i + 3) {
@@ -431,5 +431,28 @@ public static int getModifiedCount(String str) {}
       }
   }
   return count;
+}
+```
+
+
+### Making Anagrams
+how many characters need to be remove to make two strings anagrams.
+```java
+public static int getAnagramRemovalCount(String str) {
+  int[] arr = new int[26];
+  for (char c : str1.toCharArray()) {
+      arr[c - 'a'] = arr[c - 'a'] + 1;
+  }
+
+  for (char c : str2.toCharArray()) {
+      arr[c - 'a'] = arr[c - 'a'] - 1;
+  }
+
+  int count = 0;
+  for (int i : arr) {
+      if (i != 0) {
+          count = count + Math.abs(i);
+      }
+  }
 }
 ```
