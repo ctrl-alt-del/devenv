@@ -512,3 +512,25 @@ public static String getWireCondition(int n) {
     return "Not Weird";
 }
 ```
+
+
+
+### Find Min Max
+```java
+public static String findMinMax(long[] arr) {
+    long min = Long.MAX_VALUE;
+    long max = Long.MIN_VALUE;
+    long sum = 0;
+    for (long each : arr) {
+        if (each >= max) {
+            max = each;
+        }
+
+        if (each <= min) {
+            min = each;
+        }
+        sum += each;
+    }
+    return (sum - max) + " " + (sum - min);
+}
+```
