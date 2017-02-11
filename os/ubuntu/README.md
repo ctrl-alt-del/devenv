@@ -202,3 +202,15 @@ See [here](https://github.com/ctrl-alt-del/devenv/tree/master/bluetooth#disable-
 
 ## Unicode Font Issue
 Sometimes, you may see some characters being shown as boxes containing some numbers; those numbers are actually the hexadecimal Unicode numbers, which usually indicate that the system cannot render the characters because the system lacks of some fonts.
+
+
+
+
+## Enable Canonical Partner repository
+open `/etc/apt/sources.list` and uncomment this two lines:
+```sh
+# deb http://archive.canonical.com/ubuntu maverick partner
+# deb-src http://archive.canonical.com/ubuntu maverick partner
+```
+
+Once changes are made, save the file and then run `sudo apt-get update`
