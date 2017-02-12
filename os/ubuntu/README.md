@@ -16,6 +16,8 @@ Note: Contents and behaviors were tested on both 12.04 and 14.04.
 * [Bluetooth Issues](#bluetooth-issues)
   * [Disable bluetooth on start](#disable-bluetooth-on-start)
 * [Unicode Font Issue](#unicode-font-issue)
+* [Enable Canonical Partner repository](#enable-canonical-partner-repository)
+
 
 
 ## Directories
