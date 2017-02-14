@@ -17,6 +17,7 @@ Note: Contents and behaviors were tested on both 12.04 and 14.04.
   * [Disable bluetooth on start](#disable-bluetooth-on-start)
 * [Unicode Font Issue](#unicode-font-issue)
 * [Enable Canonical Partner repository](#enable-canonical-partner-repository)
+* [Custom Keybinding](#custom-keybinding)
 
 
 
@@ -216,3 +217,33 @@ open `/etc/apt/sources.list` and uncomment this two lines:
 ```
 
 Once changes are made, save the file and then run `sudo apt-get update`
+
+
+
+## Custom Keybinding
+open `.config/openbox/lxde-rc.xml` using your editor with root permission, and add the following lines:
+```xml
+<keybind key="alt-F12">
+  <action name="Execute">
+    <execute>pactl set-sink-mute 0 0</execute>
+  </action>
+  <action name="Execute">
+    <command>amixer -q sset Master 2%+</command>
+  </action>
+</keybind>
+<keybind key="alt-F11">
+  <action name="Execute">
+    <execute>pactl set-sink-mute 0 0</execute>
+  </action>
+  <action name="Execute">
+    <command>amixer -q sset Master 2%-</command>
+  </action>
+</keybind>
+<keybind key="alt-F10">
+  <action name="Execute">
+    <command>pactl set-sink-mute 0 toggle</command>
+  </action>
+</keybind>
+```
+
+Note that the `key` feild represent the key combination that you want to bind.
