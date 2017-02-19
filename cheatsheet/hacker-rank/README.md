@@ -3,9 +3,9 @@ Hacker Rank
 
 * [Algorithms](#algorithms)
   * [Strings](#strings)
+    * [Alternating Characters](#alternating-characters)
     * [Funny String](#funny-string)
     * [Pangram](#pangram)
-    * [Alternating Characters](#alternating-characters)
     * [Anagram](#anagram)
     * [Two Strings](#two-strings)
 * [Java](#java)
@@ -21,38 +21,6 @@ Hacker Rank
 
 
 ## Algorithms
-#### Anagram
-```java
-public static int getAnagramChangeCount(String str) {
-    if (str == null) {
-        return false;
-    }
-
-    int l = str.length();
-    if (l % 2 != 0) {
-        return -1;
-    }
-
-    int count = 0;
-    int[] charCounts = new int[26];
-    for (int i = 0; i < l / 2; i++) {
-        charCounts[str.charAt(i) - 'a']++;
-    }
-    for (int i = l / 2; i < l; i++) {
-        charCounts[str.charAt(i) - 'a']--;
-    }
-
-    for (int i = 0; i < 26; i++) {
-        if (charCounts[i] > 0) {
-            count = count + charCounts[i];
-        }
-    }
-    return count;
-}
-```
-
-
-
 #### Two Strings
 The goal is to determine if there is a substring that appears in both give strings.
 
