@@ -1,6 +1,7 @@
 Sherlock and Valid String
 =========================
 A "valid" string `str` is a string such that for all distinct characters in `str` each such character occurs the same number of times in `str`.
+
 ```java
 public static String isValidStringForSherlock(String str) {
   final int[] record = new int[26];
