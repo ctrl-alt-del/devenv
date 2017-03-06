@@ -7,11 +7,11 @@ public static getDiagonalDiff(int[] arr) {
   long ssum = 0;
   final total = arr.length;
   for(int i = 0; i < total; i = i + n + 1){
-      fsum += arr[i];
+    fsum += arr[i];
   }
 
   for(int i = n-1; i < total - n + 1; i = i + n - 1){
-      ssum += arr[i];
+    ssum += arr[i];
   }
   return Math.abs(fsum - ssum);
 }
