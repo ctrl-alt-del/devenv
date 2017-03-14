@@ -22,10 +22,18 @@ this should create a .bash_profile file if it is not existed and inject the shor
 [BACK TO TOP](#table-of-contents)
 
 
-## Manual Way
+### Manual Way
 If you prefer to create the .bash_profile file manually, you can do so by running:
 `touch -pv ~/.bash_profile` on your terminal, if will create the file if it hasn't been created.  Afterwards, you can open it by running: `sudo vi ~/.bash_profile`and then add the scripts to it.  I use `vi` in this case, but you are free to use whatever editor you like, such as `vim`, `nano`, `gedit`, `subl`, `atom` and etc.
 
 After the .bash_profile is created, restart the git bash to let the changes take effect.
 
 [BACK TO TOP](#table-of-contents)
+
+
+
+## Shortcut for external drive
+If you setup you external drive with the same file structure as the internal drive, you can setup the shortcut to reach the `~` folder on the external drive as following:
+```
+alias sd='cd /Volumes/Data`printf ~`' # You can change 'sd' to anything else per your preference
+```
