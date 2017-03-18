@@ -50,7 +50,7 @@ python --version
 ```
 It should show you the version of your currently installed Python.
 
-If Python does not come with your Mac somehow or you want to have a newer version of Python, (e.g. Python 3.x rather than Python 2.7.x), you can download and follow the installation instruction on [Python's website](https://www.python.org/downloads).
+If for any reason, you want to use Python other than the one came with Mac; you can do so by downloading a copy of your interest from [Python's website](https://www.python.org/downloads).
 
 Or you can install the latest version of Python through Homebrew by running:
 ```sh
