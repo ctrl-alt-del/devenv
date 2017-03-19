@@ -56,6 +56,11 @@ Or you can install the latest version of Python through Homebrew by running:
 ```sh
 brew install python
 ```
+
+If you install python via `brew`, you also need to override the `PATH` system variable to tell Mac to use the `python` that you just installed via `brew`.  To do so, you can run the following line:
+```
+export PATH="/usr/local/Cellar:/usr/local/bin:$PATH" >> ~/.bashrc
+```
 [BACK TO TOP](https://github.com/ctrl-alt-del/devenv)
 
 
