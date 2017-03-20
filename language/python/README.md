@@ -1,10 +1,15 @@
 Python
 ======
 
+* [**Anaconda**](#anaconda)
 * [**Windows**](#python-on-windows)
 * [**Mac**](#python-on-mac)
 * [**Ubuntu**](#python-on-ubuntu)
 * [**Fedora**](#python-on-fedora)
+
+## Anaconda
+You can also install `python` and manage its libraries via Anaconda
+
 
 ### Python on Windows
 There are Python 2.x and Python 3.x available.  This instruction will focus on 2.x, but similar steps can be easily applied to 3.x as well.
