@@ -1,6 +1,10 @@
 devenv
 ======
 
+> **AI agents**: start at [AGENTS.md](AGENTS.md).
+> **Structured knowledge**: browse [knowledge/](knowledge/).
+> **Project memory**: see [MEMORY.md](MEMORY.md).
+
 ### About
 I use both Mac and Windows regularly and sometimes Ubuntu as well.  Although I mostly use Mac as my coding machine, I am very interested in coding on my Windows machine as well.  After some researches as well as trials and errors, I am able to setup the dev environment on my Windows machine and I am pretty happy with it so far.  I think it may be a good idea to share the setup process with the community, and hopefully it can save other people some time :).
 
