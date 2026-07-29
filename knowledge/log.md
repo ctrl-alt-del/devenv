@@ -1,6 +1,11 @@
 # Knowledge Log
 
 ## 2026-07-29
+* **Ingest**: Ingested raw/2026-07-25/macos-app-launch-diagnosis.md (Rosetta, quarantine, code signing)
+* **New**: Created troubleshooting/macos-app-launch-issues.md (3 root causes, 5 rosetta facts, 4 patterns, 5 pitfalls)
+* **Update**: Seeded 9 MEMORY.md entries from Rosetta, quarantine, and code signing learnings
+
+## 2026-07-29
 * **Fix**: Trimmed index.md to only list existing concepts (was showing phantom pages)
 * **Fix**: Added AI agent pointer to README.md for human discoverability
 * **Init**: Created concepts/, cheatsheets/, troubleshooting/ directories with index placeholders

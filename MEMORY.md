@@ -105,3 +105,156 @@ branch. The current official install command uses bash instead of ruby
 and the `HEAD` branch. When ingesting setup guides, always verify
 Homebrew install commands match the current documentation at brew.sh.
 ```
+
+```yaml
+---
+type: gotcha
+title: Rosetta 2 is not installed by default on Apple Silicon
+confidence: 1.0
+tags: [macos, apple-silicon, rosetta, diagnostics]
+source: raw/2026-07-25/macos-app-launch-diagnosis.md
+last_verified: 2026-07-29
+times_referenced: 0
+---
+`/usr/libexec/rosetta/` files ship with macOS but the kernel translation
+mechanism must be formally installed via `softwareupdate --install-rosetta`.
+Without this, x86_64 binaries fail with "Bad CPU type in executable".
+GUI apps trigger automatic Rosetta install; CLI commands do not.
+```
+
+```yaml
+---
+type: gotcha
+title: "arch -x86_64 /bin/echo test" is the ONLY authoritative Rosetta check
+confidence: 1.0
+tags: [macos, apple-silicon, rosetta, diagnostics]
+source: raw/2026-07-25/macos-app-launch-diagnosis.md
+last_verified: 2026-07-29
+times_referenced: 0
+---
+File system checks for `/usr/libexec/rosetta/` are misleading — those files
+ship with macOS even without Rosetta installed. Only `arch -x86_64 /bin/echo test`
+verifies kernel-level Rosetta registration. Do not trust filesystem presence.
+```
+
+```yaml
+---
+type: fact
+title: oahd is demand-launched, not a persistent daemon
+confidence: 1.0
+tags: [macos, apple-silicon, rosetta, oahd]
+source: raw/2026-07-25/macos-app-launch-diagnosis.md
+last_verified: 2026-07-29
+times_referenced: 0
+---
+`pgrep -l oahd` returns empty after Rosetta install — this is NORMAL.
+`oahd` starts when the first x86_64 process spawns and stops after an
+idle timeout. Run `pgrep -l oahd` immediately after running any x86_64
+binary to see it. Do not panic when the daemon is absent after install.
+```
+
+```yaml
+---
+type: gotcha
+title: GUI apps auto-trigger Rosetta install; CLI commands do not
+confidence: 1.0
+tags: [macos, apple-silicon, rosetta, gui, cli]
+source: raw/2026-07-25/macos-app-launch-diagnosis.md
+last_verified: 2026-07-29
+times_referenced: 0
+---
+When Finder launches an x86_64 app, macOS automatically triggers Rosetta
+installation. CLI commands (`arch -x86_64`, `posix_spawnp`) fail silently
+with "Bad CPU type" if Rosetta is not installed. Never trust "it works
+from the GUI" as proof that Rosetta is installed system-wide.
+```
+
+```yaml
+---
+type: gotcha
+title: "softwareupdate --install-rosetta hangs without piped input"
+confidence: 1.0
+tags: [macos, apple-silicon, rosetta, automation]
+source: raw/2026-07-25/macos-app-launch-diagnosis.md
+last_verified: 2026-07-29
+times_referenced: 0
+---
+The Rosetta license prompt ("Type A and press return to agree:") is
+invisible when piping. In scripts and automation, always use:
+`echo "A" | softwareupdate --install-rosetta`
+```
+
+```yaml
+---
+type: gotcha
+title: DMG extraction quarantines files BEYOND the .app bundle
+confidence: 1.0
+tags: [macos, quarantine, dmg, xattr, gatekeeper]
+source: raw/2026-07-25/macos-app-launch-diagnosis.md
+last_verified: 2026-07-29
+times_referenced: 0
+---
+`xattr -dr com.apple.quarantine` on the .app is NOT sufficient. DMG
+extraction quarantines EVERY extracted file individually, including data
+directories. This is the most commonly missed issue because the error
+message ("library load disallowed by system policy") looks identical to
+a code signing problem. Always check data directories separately:
+`find <data-dir> -xattrname com.apple.quarantine | wc -l`
+```
+
+```yaml
+---
+type: gotcha
+title: Quarantine and code signing errors produce IDENTICAL error messages
+confidence: 1.0
+tags: [macos, quarantine, code-signing, amfi, diagnostics]
+source: raw/2026-07-25/macos-app-launch-diagnosis.md
+last_verified: 2026-07-29
+times_referenced: 0
+---
+"library load disallowed by system policy" can be caused by quarantine
+xattr OR ad-hoc code signatures. The only way to distinguish them is to
+check the quarantine count: `find <data-dir> -xattrname com.apple.quarantine | wc -l`.
+If the count is >0, fix quarantine first before touching signatures.
+```
+
+```yaml
+---
+type: decision
+title: Fix order is non-negotiable — Rosetta → quarantine → signatures → warm-cache
+confidence: 1.0
+tags: [macos, debugging, ordering, quarantine, code-signing, rosetta]
+source: raw/2026-07-25/macos-app-launch-diagnosis.md
+last_verified: 2026-07-29
+times_referenced: 0
+---
+The correct fix order for Apple Silicon app launch issues:
+1. Install Rosetta (nothing runs without it)
+2. Remove quarantine xattr
+3. Remove ad-hoc code signatures
+4. Run a warm-cache loop for 60-90 seconds
+
+Any other order causes re-blocking. If you strip signatures first, then
+remove quarantine, the system silently re-applies ad-hoc signatures,
+re-breaking the app. Quarantine removal must always precede signature
+removal.
+```
+
+```yaml
+---
+type: pattern
+title: PyInstaller apps need all three checks on Apple Silicon
+confidence: 1.0
+tags: [macos, pyinstaller, apple-silicon, mixed-architecture, diagnostics]
+source: raw/2026-07-25/macos-app-launch-diagnosis.md
+last_verified: 2026-07-29
+times_referenced: 0
+---
+Any PyInstaller-bundled Python app on Apple Silicon should be triaged for:
+1. Mixed architecture — `file <binary>` showing x86_64 portion on arm64
+2. Quarantine xattr count — DMG source means every .so/.dylib may be flagged
+3. Ad-hoc code signatures — `codesign -dv` showing adhoc on bundled libs
+
+All three must pass for the app to launch without Rosetta delays or AMFI
+blocking. The triage order matters: architecture → quarantine → signatures.
+```
