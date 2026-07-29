@@ -1,5 +1,4 @@
 # Troubleshooting
 
-Known issues, gotchas, and fixes discovered during development environment
-setup across platforms. Entries are promoted from `MEMORY.md` entries
-tagged as `gotcha` or `troubleshooting`.
+* [macOS App Launch Issues](macos-app-launch-issues.md) — Diagnose and fix slow or broken
+  app launches on Apple Silicon caused by Rosetta, quarantine xattr, and ad-hoc code signing.
