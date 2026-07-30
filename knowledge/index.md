@@ -9,11 +9,21 @@ Developer environment setup and maintenance knowledge across platforms and tools
 ## Platforms
 
 * [macOS](platforms/macos.md) — macOS development environment setup
+* [Ubuntu](platforms/ubuntu.md) — Ubuntu development environment with modern CLI toolkit
 
 ## Tools
 
 * [Homebrew](tools/homebrew.md) — macOS package manager
 * [Git](tools/git.md) — Distributed version control
+* [Shell Toolkit](tools/shell-toolkit.md) — Modern CLI replacements for grep, find, cat, ls, cd, man, git diff
+
+## Concepts
+
+* [Shell Configuration](concepts/shell-configuration.md) — Organizing bash config across multiple files
+
+## Cheatsheets
+
+* [Ubuntu Dev Velocity](cheatsheets/ubuntu-dev-velocity.md) — Quick reference for CLI tools, aliases, and functions
 
 ## Troubleshooting
 

@@ -1,4 +1,3 @@
 # Cheatsheets
 
-Quick reference pages with commands, syntax tables, and examples.
-Created via `/ingest` from raw source files in `cheatsheet/`.
+* [Ubuntu Dev Velocity](ubuntu-dev-velocity.md) — Quick reference for modern CLI tools, bash aliases, and shell functions on Ubuntu.

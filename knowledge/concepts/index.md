@@ -1,4 +1,3 @@
 # Concepts
 
-Cross-cutting abstractions that span multiple tools and platforms.
-Concepts will be created via `/ingest` as raw sources are processed.
+* [Shell Configuration](shell-configuration.md) — Organizing bash config across multiple files with conditional loading, managed config blocks, and cleanup-on-edit.
