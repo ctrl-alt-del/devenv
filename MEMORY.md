@@ -242,6 +242,96 @@ removal.
 
 ```yaml
 ---
+type: gotcha
+title: Debian/Ubuntu renames some CLI tool binaries
+confidence: 1.0
+tags: [ubuntu, debian, apt, package-management, cli-tools]
+source: raw/2026-07-30/dev-velocity-lessons.md
+last_verified: 2026-07-30
+times_referenced: 0
+---
+bat installs as `batcat` (conflicts with bacula-console), fd-find installs
+as `fdfind` (conflicts with another `fd`), and the `tldr` command comes from
+the `tealdeer` package (not `tldr`). Always add fallback aliases:
+`alias bat='batcat'`, `alias fd='fdfind'`. Do not trust that the package
+name matches the binary name.
+```
+
+```yaml
+---
+type: gotcha
+title: Sudo requires a TTY; cannot run from automated tools
+confidence: 0.95
+tags: [ubuntu, sudo, automation, apt]
+source: raw/2026-07-30/dev-velocity-lessons.md
+last_verified: 2026-07-30
+times_referenced: 0
+---
+Password-protected sudo commands (like `sudo apt install`) fail with
+"A terminal is required to authenticate" when run from automated tools
+or scripts. Automated workflows must either: split the command so the
+user runs sudo manually, use passwordless sudo, or detect the environment
+and skip sudo steps.
+```
+
+```yaml
+---
+type: pattern
+title: Always verify binary presence after package installation
+confidence: 1.0
+tags: [ubuntu, verification, debugging, apt, package-management]
+source: raw/2026-07-30/dev-velocity-lessons.md
+last_verified: 2026-07-30
+times_referenced: 0
+---
+After installing packages, verify each binary is actually available with
+`which <binary> && <binary> --version`. Do not trust that `apt install`
+succeeded for every package just because the command didn't error —
+package names can differ from binary names (e.g., `tldr` vs `tealdeer`),
+and individual packages can fail silently within a batch install.
+```
+
+```yaml
+---
+type: pattern
+title: Separate bash config into .bash_aliases and .bash_functions
+confidence: 0.95
+tags: [bash, shell, configuration, dotfiles, organization]
+source: raw/2026-07-30/dev-velocity-lessons.md
+last_verified: 2026-07-30
+times_referenced: 0
+---
+Keep aliases in `~/.bash_aliases` and functions in `~/.bash_functions`.
+Source both from `~/.bashrc` with conditional guards (`[ -f file ] && . file`).
+Benefits: each file can be version-controlled independently; disabling
+or debugging a category only requires renaming one file; `.bash_aliases`
+is natively supported by bash. This pattern is portable across distros.
+```
+
+```yaml
+---
+type: pattern
+title: Conditional loading protects against missing tools in shell config
+confidence: 1.0
+tags: [bash, shell, dotfiles, portability, defensive-configuration]
+source: raw/2026-07-30/dev-velocity-lessons.md
+last_verified: 2026-07-30
+times_referenced: 0
+---
+Wrap tool-dependent aliases and functions in `if command -v <tool>` guards:
+```bash
+if command -v eza &> /dev/null; then
+  alias ll='eza -l'
+else
+  alias ll='ls -l'
+fi
+```
+This ensures shell config works even before tools are installed, making
+dotfiles portable across machines and resilient to partial setups.
+```
+
+```yaml
+---
 type: pattern
 title: PyInstaller apps need all three checks on Apple Silicon
 confidence: 1.0
