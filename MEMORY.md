@@ -348,3 +348,103 @@ Any PyInstaller-bundled Python app on Apple Silicon should be triaged for:
 All three must pass for the app to launch without Rosetta delays or AMFI
 blocking. The triage order matters: architecture → quarantine → signatures.
 ```
+
+```yaml
+---
+type: gotcha
+title: GUI proxy running does not mean CLI tools can reach the internet
+confidence: 1.0
+tags: [proxy, network, cli, environment-variables, curl, git]
+source: raw/2026-08-04/proxy-debug-lessons.md
+last_verified: 2026-08-04
+times_referenced: 0
+---
+CLI tools never auto-detect a running proxy daemon. A proxy client can work
+fine in the GUI while `curl`, `wget`, and `git` all time out (curl returns
+`000`) because `HTTP_PROXY` / `HTTPS_PROXY` / `ALL_PROXY` are unset. Always
+check `env | grep -i proxy` before assuming the proxy is broken.
+```
+
+```yaml
+---
+type: gotcha
+title: SOCKS5 inbound port is not an HTTP proxy port
+confidence: 1.0
+tags: [proxy, network, socks5, http, ports]
+source: raw/2026-08-04/proxy-debug-lessons.md
+last_verified: 2026-08-04
+times_referenced: 0
+---
+A proxy client's default inbound is often SOCKS5 (e.g., 10808), not HTTP.
+Tools that only support HTTP proxies need `socks5://` URL syntax or a separate
+HTTP inbound (e.g., 10809). Don't assume the HTTP port exists, and don't
+hardcode ports without checking the client's inbound configuration.
+```
+
+```yaml
+---
+type: gotcha
+title: Interactive-shell guard in .bashrc skips proxy exports in scripts and CI
+confidence: 0.95
+tags: [bash, bashrc, proxy, non-interactive-shell, environment]
+source: raw/2026-08-04/proxy-debug-lessons.md
+last_verified: 2026-08-04
+times_referenced: 0
+---
+Many `.bashrc` files start with `case $- in *i*) ;; *) return;; esac`, which
+exits the file immediately in non-interactive shells. Proxy exports placed in
+`.bashrc` therefore never reach scripts, cron, or CI. Put them in `~/.profile`
+or `/etc/environment` for non-interactive coverage, or prefix each command.
+```
+
+```yaml
+---
+type: gotcha
+title: SDP attention materializes the full attention matrix on CPU
+confidence: 1.0
+tags: [ai, stable-diffusion, webui, attention, oom, vae, cpu, memory]
+source: raw/2026-08-03/sdp-attention-oom-fix.md
+last_verified: 2026-08-03
+times_referenced: 0
+---
+`torch.backends.cuda.sdp_kernel` is CUDA-only — it has no effect on CPU. Under
+`--opt-sdp-no-mem-attention`, high-resolution VAE encoding materializes the full
+quadratic attention matrix (4096×3072 → 196K tokens → ~154 GB in float32) and
+crashes with `Cannot allocate memory`. Fix: estimate `tokens²` memory before
+SDP and fall back to chunked sub-quadratic attention when it exceeds ~50% of
+available RAM.
+```
+
+```yaml
+---
+type: pattern
+title: Resize input images before img2img for CPU speedup
+confidence: 1.0
+tags: [ai, stable-diffusion, webui, cpu, performance, img2img]
+source: raw/2026-08-03/sd-webui-cpu-learning-roadmap.md
+last_verified: 2026-08-03
+times_referenced: 0
+---
+The VAE operates at 1/8 resolution, so a 4096×3072 source is 196K attention
+tokens while 1024× is only 12K tokens. Downscaling inputs before img2img is the
+single biggest CPU speedup (3–10×): resize input first, then upscale the output
+via the Extras tab. Complement with tiled VAE encoding.
+```
+
+```yaml
+---
+type: decision
+title: Migrate to the most complete maintained extension, not the newest
+confidence: 0.9
+tags: [ai, stable-diffusion, webui, extension, migration, maintenance]
+source: raw/2026-08-03/roop-to-reactor-migration.md
+last_verified: 2026-08-03
+times_referenced: 0
+---
+When a WebUI extension is archived, evaluate the successor landscape on
+archived status, last push, stars, forks, and open issues — then choose the most
+complete, tested, compatible candidate, not the most recently pushed. A dormant
+feature-complete extension can beat a new buggy one. Migrate with: backup shared
+model, remove old extension, pin dependency versions, move model to the new
+path, verify with an import check, and keep a documented rollback.
+```

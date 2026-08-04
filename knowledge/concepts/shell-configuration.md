@@ -128,6 +128,7 @@ serve() {
 # Related
 
 - [Ubuntu](/platforms/ubuntu.md) — Ubuntu developer environment setup
+- [CLI Tools Ignore a Running Proxy](/troubleshooting/cli-ignores-running-proxy.md) — where proxy exports belong and the interactive-shell guard
 - Source: [../../raw/2026-07-30/dev-velocity-setup.md](../../raw/2026-07-30/dev-velocity-setup.md)
 - Source: [../../raw/2026-07-30/dev-velocity-lessons.md](../../raw/2026-07-30/dev-velocity-lessons.md)
 
