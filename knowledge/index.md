@@ -16,9 +16,11 @@ Developer environment setup and maintenance knowledge across platforms and tools
 * [Homebrew](tools/homebrew.md) — macOS package manager
 * [Git](tools/git.md) — Distributed version control
 * [Shell Toolkit](tools/shell-toolkit.md) — Modern CLI replacements for grep, find, cat, ls, cd, man, git diff
+* [Stable Diffusion WebUI](tools/sd-webui.md) — CPU-only optimization, tuning, extensions, and settings
 
 ## Concepts
 
+* [SD WebUI Extension Migration](concepts/sd-webui-extension-migration.md) — Evaluating and migrating between WebUI extensions (roop → ReActor worked example)
 * [Shell Configuration](concepts/shell-configuration.md) — Organizing bash config across multiple files
 
 ## Cheatsheets
@@ -28,6 +30,7 @@ Developer environment setup and maintenance knowledge across platforms and tools
 ## Troubleshooting
 
 * [CLI Tools Ignore a Running Proxy](troubleshooting/cli-ignores-running-proxy.md) — Missing proxy env vars cause CLI timeouts; SOCKS vs HTTP ports
+* [SD WebUI SDP Attention OOM](troubleshooting/sd-webui-sdp-attention-oom.md) — High-res VAE encoding OOM on CPU; memory-aware chunked attention fallback
 * [macOS App Launch Issues](troubleshooting/macos-app-launch-issues.md) — Rosetta, quarantine, and code signing on Apple Silicon
 
 ## More to Come

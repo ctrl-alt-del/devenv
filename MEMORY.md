@@ -396,3 +396,55 @@ exits the file immediately in non-interactive shells. Proxy exports placed in
 `.bashrc` therefore never reach scripts, cron, or CI. Put them in `~/.profile`
 or `/etc/environment` for non-interactive coverage, or prefix each command.
 ```
+
+```yaml
+---
+type: gotcha
+title: SDP attention materializes the full attention matrix on CPU
+confidence: 1.0
+tags: [ai, stable-diffusion, webui, attention, oom, vae, cpu, memory]
+source: raw/2026-08-03/sdp-attention-oom-fix.md
+last_verified: 2026-08-03
+times_referenced: 0
+---
+`torch.backends.cuda.sdp_kernel` is CUDA-only — it has no effect on CPU. Under
+`--opt-sdp-no-mem-attention`, high-resolution VAE encoding materializes the full
+quadratic attention matrix (4096×3072 → 196K tokens → ~154 GB in float32) and
+crashes with `Cannot allocate memory`. Fix: estimate `tokens²` memory before
+SDP and fall back to chunked sub-quadratic attention when it exceeds ~50% of
+available RAM.
+```
+
+```yaml
+---
+type: pattern
+title: Resize input images before img2img for CPU speedup
+confidence: 1.0
+tags: [ai, stable-diffusion, webui, cpu, performance, img2img]
+source: raw/2026-08-03/sd-webui-cpu-learning-roadmap.md
+last_verified: 2026-08-03
+times_referenced: 0
+---
+The VAE operates at 1/8 resolution, so a 4096×3072 source is 196K attention
+tokens while 1024× is only 12K tokens. Downscaling inputs before img2img is the
+single biggest CPU speedup (3–10×): resize input first, then upscale the output
+via the Extras tab. Complement with tiled VAE encoding.
+```
+
+```yaml
+---
+type: decision
+title: Migrate to the most complete maintained extension, not the newest
+confidence: 0.9
+tags: [ai, stable-diffusion, webui, extension, migration, maintenance]
+source: raw/2026-08-03/roop-to-reactor-migration.md
+last_verified: 2026-08-03
+times_referenced: 0
+---
+When a WebUI extension is archived, evaluate the successor landscape on
+archived status, last push, stars, forks, and open issues — then choose the most
+complete, tested, compatible candidate, not the most recently pushed. A dormant
+feature-complete extension can beat a new buggy one. Migrate with: backup shared
+model, remove old extension, pin dependency versions, move model to the new
+path, verify with an import check, and keep a documented rollback.
+```

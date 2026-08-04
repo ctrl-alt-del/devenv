@@ -6,6 +6,13 @@
 * **Update**: Updated 2 index files (root, troubleshooting) with the new entry
 * **Update**: Cross-linked concepts/shell-configuration.md to the proxy troubleshooting page
 * **Update**: Added 3 MEMORY.md entries (GUI proxy ≠ CLI proxy, SOCKS5 port ≠ HTTP port, interactive-shell guard in .bashrc)
+* **Ingest**: Ingested raw/2026-08-03/sd-webui-cpu-learning-roadmap.md, raw/2026-08-03/roop-to-reactor-migration.md, raw/2026-08-03/sdp-attention-oom-fix.md (CPU-only Stable Diffusion WebUI: optimizations, tuning, extension migration, SDP OOM fix)
+* **New**: Created tools/sd-webui.md — CPU-only SD WebUI optimizations, tuning, extensions, key numbers
+* **New**: Created troubleshooting/sd-webui-sdp-attention-oom.md — quadratic attention-matrix OOM on high-res VAE encoding, memory-aware chunked fallback
+* **New**: Created concepts/sd-webui-extension-migration.md — landscape evaluation + migration workflow, roop → ReActor SFW worked example
+* **Update**: Updated 4 index files (root, tools, concepts, troubleshooting) with new entries
+* **Update**: Cross-linked the three new pages to each other
+* **Update**: Added 3 MEMORY.md entries (SDP OOM on CPU, resize-before-img2img, archived-extension migration)
 
 ## 2026-07-30
 * **Ingest**: Ingested raw/2026-07-30/dev-velocity-setup.md and raw/2026-07-30/dev-velocity-lessons.md (Ubuntu developer velocity: CLI tools, bash config, aliases, functions)
