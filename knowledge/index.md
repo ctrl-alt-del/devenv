@@ -27,6 +27,7 @@ Developer environment setup and maintenance knowledge across platforms and tools
 
 ## Troubleshooting
 
+* [CLI Tools Ignore a Running Proxy](troubleshooting/cli-ignores-running-proxy.md) — Missing proxy env vars cause CLI timeouts; SOCKS vs HTTP ports
 * [macOS App Launch Issues](troubleshooting/macos-app-launch-issues.md) — Rosetta, quarantine, and code signing on Apple Silicon
 
 ## More to Come

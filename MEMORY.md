@@ -348,3 +348,51 @@ Any PyInstaller-bundled Python app on Apple Silicon should be triaged for:
 All three must pass for the app to launch without Rosetta delays or AMFI
 blocking. The triage order matters: architecture → quarantine → signatures.
 ```
+
+```yaml
+---
+type: gotcha
+title: GUI proxy running does not mean CLI tools can reach the internet
+confidence: 1.0
+tags: [proxy, network, cli, environment-variables, curl, git]
+source: raw/2026-08-04/proxy-debug-lessons.md
+last_verified: 2026-08-04
+times_referenced: 0
+---
+CLI tools never auto-detect a running proxy daemon. A proxy client can work
+fine in the GUI while `curl`, `wget`, and `git` all time out (curl returns
+`000`) because `HTTP_PROXY` / `HTTPS_PROXY` / `ALL_PROXY` are unset. Always
+check `env | grep -i proxy` before assuming the proxy is broken.
+```
+
+```yaml
+---
+type: gotcha
+title: SOCKS5 inbound port is not an HTTP proxy port
+confidence: 1.0
+tags: [proxy, network, socks5, http, ports]
+source: raw/2026-08-04/proxy-debug-lessons.md
+last_verified: 2026-08-04
+times_referenced: 0
+---
+A proxy client's default inbound is often SOCKS5 (e.g., 10808), not HTTP.
+Tools that only support HTTP proxies need `socks5://` URL syntax or a separate
+HTTP inbound (e.g., 10809). Don't assume the HTTP port exists, and don't
+hardcode ports without checking the client's inbound configuration.
+```
+
+```yaml
+---
+type: gotcha
+title: Interactive-shell guard in .bashrc skips proxy exports in scripts and CI
+confidence: 0.95
+tags: [bash, bashrc, proxy, non-interactive-shell, environment]
+source: raw/2026-08-04/proxy-debug-lessons.md
+last_verified: 2026-08-04
+times_referenced: 0
+---
+Many `.bashrc` files start with `case $- in *i*) ;; *) return;; esac`, which
+exits the file immediately in non-interactive shells. Proxy exports placed in
+`.bashrc` therefore never reach scripts, cron, or CI. Put them in `~/.profile`
+or `/etc/environment` for non-interactive coverage, or prefix each command.
+```

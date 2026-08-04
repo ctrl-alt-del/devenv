@@ -1,5 +1,12 @@
 # Knowledge Log
 
+## 2026-08-04
+* **Ingest**: Ingested raw/2026-08-04/proxy-debug-lessons.md (CLI tools ignore a running proxy: missing env vars, SOCKS vs HTTP ports, shell file placement)
+* **New**: Created troubleshooting/cli-ignores-running-proxy.md — diagnosis checklist, root cause, fix locations, pitfalls
+* **Update**: Updated 2 index files (root, troubleshooting) with the new entry
+* **Update**: Cross-linked concepts/shell-configuration.md to the proxy troubleshooting page
+* **Update**: Added 3 MEMORY.md entries (GUI proxy ≠ CLI proxy, SOCKS5 port ≠ HTTP port, interactive-shell guard in .bashrc)
+
 ## 2026-07-30
 * **Ingest**: Ingested raw/2026-07-30/dev-velocity-setup.md and raw/2026-07-30/dev-velocity-lessons.md (Ubuntu developer velocity: CLI tools, bash config, aliases, functions)
 * **New**: Created platforms/ubuntu.md — Ubuntu 26.04 dev environment setup with modern CLI toolkit
