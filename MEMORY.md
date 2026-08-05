@@ -467,6 +467,23 @@ Changes take effect with `source ~/.zshrc` (alias: `reload`) or a new terminal.
 
 ```yaml
 ---
+type: gotcha
+title: torch.einsum silently falls back to CPU on MPS with NO warning
+confidence: 1.0
+tags: [ai, stable-diffusion, macos, apple-silicon, mps, torch, attention]
+source: raw/2026-08-05/stable-diffusion-webui-macos-lessons.md
+last_verified: 2026-08-05
+times_referenced: 0
+---
+torch.einsum on MPS silently moves data MPS→CPU→MPS for every call with no
+warning or error. For attention layers called hundreds of times per step,
+this causes 1000x+ slowdown. Avoid all attention optimizers that use einsum
+internally: V1, Doggettx, InvokeAI. Let the WebUI auto-select sub-quadratic
+(priority 1000 on MPS) or use SDP variants.
+```
+
+```yaml
+---
 type: pattern
 title: Git single-letter alias convention for terminal speed
 confidence: 0.95
@@ -480,4 +497,122 @@ Single-letter git aliases reduce typing friction for common operations:
 `gundo`=reset --soft HEAD~1, `gclean`=delete merged branches.
 Combine commands in functions: `gfs() { git fetch && git status; }`.
 This pattern is universal across repos and machines.
+```
+
+```yaml
+---
+type: gotcha
+title: Stale VIRTUAL_ENV env var breaks venv detection in webui.sh
+confidence: 1.0
+tags: [ai, stable-diffusion, macos, venv, python, environment-variables]
+source: raw/2026-08-05/stable-diffusion-webui-macos-lessons.md
+last_verified: 2026-08-05
+times_referenced: 0
+---
+When VIRTUAL_ENV is already set (e.g., from a stale .venv activation after
+renaming the dir), webui.sh skips venv detection entirely. It does NOT update
+python_cmd and falls back to system Python which cannot pip install (PEP 668).
+Fix: always run with VIRTUAL_ENV= ./webui.sh to ensure the env var is unset.
+```
+
+```yaml
+---
+type: gotcha
+title: uv venv has no pip module — python -m pip always crashes
+confidence: 1.0
+tags: [ai, python, uv, venv, pip, packaging]
+source: raw/2026-08-05/stable-diffusion-webui-macos-lessons.md
+last_verified: 2026-08-05
+times_referenced: 0
+---
+uv-created venvs do NOT include pip. Any code calling python -m pip will crash
+with ModuleNotFoundError. This is critical for tools like stable-diffusion-webui
+whose launch_utils.py:run_pip() calls python -m pip. Avoid by ensuring all
+version pins pass requirements_met() checks, or install pip explicitly:
+uv pip install pip --python venv/bin/python
+```
+
+```yaml
+---
+type: gotcha
+title: "packaging.version: parse('0.15') != parse('0.15.0')"
+confidence: 1.0
+tags: [python, packaging, version, semantic-versioning, dependency-management]
+source: raw/2026-08-05/stable-diffusion-webui-macos-lessons.md
+last_verified: 2026-08-05
+times_referenced: 0
+---
+Python's packaging.version.parse handles segment count strictly:
+parse("0.15") has release=(0, 15). parse("0.15.0") has release=(0, 15, 0).
+They are NOT equal. This causes exact-match version checks to fail silently
+in tools that compare installed vs pinned versions. Always pin the exact
+number of version segments: use 0.15.0 not 0.15.
+```
+
+```yaml
+---
+type: gotcha
+title: "command -v only searches PATH — relative paths silently fail"
+confidence: 1.0
+tags: [bash, shell, scripting, path, portability]
+source: raw/2026-08-05/stable-diffusion-webui-macos-lessons.md
+last_verified: 2026-08-05
+times_referenced: 0
+---
+`command -v` only searches PATH directories, not relative paths. Setting
+`python_cmd="venv/bin/python"` silently fails because command -v returns empty
+for relative paths. Must use absolute path: `$(dirname "$0")/venv/bin/python`.
+This is especially dangerous when webui.sh sources webui-user.sh — $0 stays
+as webui.sh, so dirname "$0" gives the correct project root.
+```
+
+```yaml
+---
+type: gotcha
+title: Extension installers run on EVERY startup, not just first install
+confidence: 1.0
+tags: [ai, stable-diffusion, webui, extensions, reliability]
+source: raw/2026-08-05/stable-diffusion-webui-macos-lessons.md
+last_verified: 2026-08-05
+times_referenced: 0
+---
+stable-diffusion-webui's launch_utils.py:run_extensions_installers() runs
+every extension's install.py on every launch. Any download timeout, pip
+install failure, or missing model in an extension's install.py blocks the
+entire startup. urllib.request.urlopen() with no timeout hangs indefinitely
+when HuggingFace is unreachable. Always add timeout=30 and try/except to
+extension installers.
+```
+
+```yaml
+---
+type: gotcha
+title: Git credential.helper=osxkeychain fails in non-interactive shells on macOS
+confidence: 0.90
+tags: [macos, git, homebrew, keychain, non-interactive-shell]
+source: raw/2026-08-05/stable-diffusion-webui-macos-lessons.md
+last_verified: 2026-08-05
+times_referenced: 0
+---
+Homebrew's git config sets credential.helper=osxkeychain. This tries to
+access the macOS Keychain, failing in non-interactive shells with
+"Device not configured". For public repo cloning in scripts, bypass with
+GIT_ASKPASS=true git clone <url> <dir>.
+```
+
+```yaml
+---
+type: gotcha
+title: os.path.exists on empty directory returns True — silent download skip
+confidence: 1.0
+tags: [python, filesystem, download, os-path, defensive-programming]
+source: raw/2026-08-05/stable-diffusion-webui-macos-lessons.md
+last_verified: 2026-08-05
+times_referenced: 0
+---
+Download-on-first-run patterns that check os.path.exists(dir) will silently
+skip if an empty directory was created by a prior failed run (os.makedirs
+succeeded but download crashed). At inference time, the missing files crash.
+Always check for a specific expected file:
+os.path.exists(os.path.join(dir, "expected_file.ext")) instead of os.path.exists(dir).
 ```

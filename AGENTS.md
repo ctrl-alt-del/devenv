@@ -1,9 +1,10 @@
 This is a developer environment knowledge repository following the
 Open Knowledge Format (OKF) v0.1.
 
-Two knowledge layers operate in parallel:
+Three knowledge layers operate in parallel:
+- `raw/` — immutable source documents organized by date (`YYYY-MM-DD/`), treated as source of truth; never modified
 - `knowledge/` — structured OKF bundle with typed concepts, cross-links, and YAML frontmatter
-- Raw source files — the existing README-based directory tree treated as immutable sources
+- `MEMORY.md` + `memory/` — accumulated insights (gotchas, patterns, decisions, facts) with confidence scores; auto-collected by `scripts/memory-collect.sh` via post-commit hook and nightly cron
 
 ## Available operations
 

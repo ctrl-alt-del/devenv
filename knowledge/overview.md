@@ -1,36 +1,41 @@
 ---
 type: Overview
 title: Developer Environment Knowledge Base
-description: Curated knowledge for setting up and maintaining development environments across macOS, Windows, Ubuntu, and Fedora.
-tags: [meta, documentation, developer-tools]
-timestamp: 2026-07-24T00:00:00Z
+description: Curated knowledge for setting up and maintaining development environments, AI/ML tools, and platform diagnostics across macOS, Windows, and Ubuntu.
+tags: [meta, documentation, developer-tools, ai, macos, troubleshooting]
+timestamp: 2026-08-05T00:00:00Z
 ---
 
 # Overview
 
 This knowledge base captures setup guides, tool configurations, shell customizations,
-and troubleshooting patterns for developer environments across multiple operating systems.
+AI/ML tool configuration, network diagnostics, and platform-specific troubleshooting
+across multiple operating systems.
 
 ## Scope
 
 - **Platforms**: macOS, Windows, Ubuntu, Fedora, LXLE, Android
 - **Languages**: Java, Python, JavaScript/Node.js, Ruby, Go, Rust, Scala, PHP, C#, Elm
-- **Tools**: Package managers, build tools, editors, IDEs, terminals, browsers, databases, caches
+- **Tools**: Package managers, build tools, editors, IDEs, terminals, browsers, databases, caches, AI/ML tools
+- **Networking**: Proxy configuration, CLI network debugging, SOCKS vs HTTP ports
+- **Platform Diagnostics**: Apple Silicon Rosetta, quarantine xattr, code signing, MPS attention
 - **Depth**: Installation steps, configuration patterns, known issues, cross-platform differences
 
 ## Architecture
 
 Three layers following the OKF v0.1 specification:
 
-1. **Raw sources** (`./` directory tree) — Immutable README files and setup scripts
-   organized by technology domain. These are the source of truth; never modified.
+1. **Raw sources** (`raw/YYYY-MM-DD/`) — Immutable source documents organized by
+   ingestion date. These are the source of truth; never modified. Original README files
+   and scripts in the repository root remain untouched.
 
 2. **Knowledge bundle** (`knowledge/`) — LLM-maintained OKF concepts with typed
    frontmatter and cross-links. Concepts compile knowledge from raw sources into
    structured, searchable pages.
 
 3. **Memory** (`MEMORY.md` + `memory/`) — Accumulated insights: gotchas, patterns,
-   decisions, facts. Evolves through automated collection and manual `/learn` triggers.
+   decisions, facts. Auto-collected by `scripts/memory-collect.sh` via post-commit
+   hook and nightly cron. Evolved through manual `/learn` and `/evolve` triggers.
 
 ## Audience
 

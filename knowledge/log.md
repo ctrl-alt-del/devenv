@@ -1,5 +1,13 @@
 # Knowledge Log
 
+## 2026-08-05
+* **Update**: Updated AGENTS.md (two → three layers, added raw/ date convention and memory collection)
+* **Update**: Updated knowledge/overview.md (expanded scope with AI/ML, networking, platform diagnostics;
+  updated architecture for raw/YYYY-MM-DD/ convention and auto-collected memory)
+* **Ingest**: Ingested raw/2026-08-05/stable-diffusion-webui-macos-lessons.md (SD WebUI on macOS: attention optimizers, uv venv, ReActor, git+proxy fixes)
+* **New**: Created tools/sd-webui-macos.md — Apple Silicon config, MPS attention priority, uv pip patterns, 6 fixes, 10 gotchas
+* **Update**: Added 8 MEMORY.md entries (torch.einsum MPS fallback, VIRTUAL_ENV trap, uv venv no pip, version segment mismatch, command -v PATH requirement, extension installer startup runs, git keychain, os.path.exists empty dir)
+
 ## 2026-08-04
 * **Ingest**: Ingested raw/2026-07-24/terminal-aliases.md (Zsh aliases, git shortcuts, navigation, productivity)
 * **New**: Created tools/zsh.md — Zsh + Oh My Zsh setup, alias patterns, custom directory, reloading
