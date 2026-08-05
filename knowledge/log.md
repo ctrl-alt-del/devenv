@@ -1,6 +1,9 @@
 # Knowledge Log
 
 ## 2026-08-04
+* **Ingest**: Ingested raw/2026-07-24/terminal-aliases.md (Zsh aliases, git shortcuts, navigation, productivity)
+* **New**: Created tools/zsh.md — Zsh + Oh My Zsh setup, alias patterns, custom directory, reloading
+* **Update**: Added 2 MEMORY.md entries (Oh My Zsh custom directory pattern, git single-letter alias convention)
 * **Ingest**: Ingested raw/2026-08-04/proxy-debug-lessons.md (CLI tools ignore a running proxy: missing env vars, SOCKS vs HTTP ports, shell file placement)
 * **New**: Created troubleshooting/cli-ignores-running-proxy.md — diagnosis checklist, root cause, fix locations, pitfalls
 * **Update**: Updated 2 index files (root, troubleshooting) with the new entry

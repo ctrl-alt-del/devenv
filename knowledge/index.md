@@ -15,6 +15,7 @@ Developer environment setup and maintenance knowledge across platforms and tools
 
 * [Homebrew](tools/homebrew.md) — macOS package manager
 * [Git](tools/git.md) — Distributed version control
+* [Zsh + Oh My Zsh](tools/zsh.md) — Shell customization, aliases, and Oh My Zsh framework
 * [Shell Toolkit](tools/shell-toolkit.md) — Modern CLI replacements for grep, find, cat, ls, cd, man, git diff
 * [Stable Diffusion WebUI](tools/sd-webui.md) — CPU-only optimization, tuning, extensions, and settings
 

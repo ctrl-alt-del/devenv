@@ -448,3 +448,36 @@ feature-complete extension can beat a new buggy one. Migrate with: backup shared
 model, remove old extension, pin dependency versions, move model to the new
 path, verify with an import check, and keep a documented rollback.
 ```
+
+```yaml
+---
+type: pattern
+title: Organize shell aliases in Oh My Zsh custom directory for auto-sourcing
+confidence: 1.0
+tags: [zsh, oh-my-zsh, shell, configuration, aliases]
+source: raw/2026-07-24/terminal-aliases.md
+last_verified: 2026-07-29
+times_referenced: 0
+---
+Place aliases in `~/.oh-my-zsh/custom/aliases.zsh` rather than directly in
+`~/.zshrc`. Oh My Zsh auto-sources every file in the `custom/` directory,
+keeping config organized by category (aliases.zsh, functions.zsh, exports.zsh).
+Changes take effect with `source ~/.zshrc` (alias: `reload`) or a new terminal.
+```
+
+```yaml
+---
+type: pattern
+title: Git single-letter alias convention for terminal speed
+confidence: 0.95
+tags: [git, zsh, shell, productivity, aliases]
+source: raw/2026-07-24/terminal-aliases.md
+last_verified: 2026-07-29
+times_referenced: 0
+---
+Single-letter git aliases reduce typing friction for common operations:
+`g`=git, `gs`=status, `ga`=add, `gap`=add -p, `gd`=diff, `gl`=pull,
+`gundo`=reset --soft HEAD~1, `gclean`=delete merged branches.
+Combine commands in functions: `gfs() { git fetch && git status; }`.
+This pattern is universal across repos and machines.
+```
