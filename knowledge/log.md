@@ -1,5 +1,17 @@
 # Knowledge Log
 
+## 2026-08-07
+* **Ingest**: Ingested raw/2026-08-07/sd-webui-macos-lessons-learned.md (SD WebUI macOS recap: --no-half-vae, MPS convolution_overrideable VAE crash, benchmarks, gotchas)
+* **Ingest**: Ingested raw/2026-08-07/faceswap-performance-tuning-lessons.md (ReActor CoreML providers, insightface 1.0.1 API change, ReActor/FaceFusion benchmarks, ecosystem status)
+* **Update**: Updated tools/sd-webui-macos.md (--no-half-vae in webui-user.sh, Fix 7 MPS VAE crash, 2 new gotchas, cross-links, second source)
+* **New**: Created tools/reactor.md — CoreML provider patch (5.4x), insightface drift, models, ecosystem status
+* **New**: Created tools/facefusion.md — operational quirks, performance profile, when to use
+* **New**: Created troubleshooting/mps-convolution-overrideable.md — root cause, both fixes, what does NOT work
+* **Update**: Updated concepts/sd-webui-extension-migration.md (ecosystem update: original repo disabled, FaceFusion successor, identity-generation paradigm)
+* **Update**: Updated 3 index files (root, tools, troubleshooting) with new entries
+* **Update**: Added 9 MEMORY.md entries (MPS conv overrideable, ReActor providers, insightface in-place, provider enumeration, per-face ArcFace, ecosystem fact, FaceFusion quirks x2, device+dtype check)
+* **Update**: Updated AGENTS.md (knowledge scope section) and knowledge/overview.md (scope + timestamp)
+
 ## 2026-08-05
 * **Update**: Updated AGENTS.md (two → three layers, added raw/ date convention and memory collection)
 * **Update**: Updated knowledge/overview.md (expanded scope with AI/ML, networking, platform diagnostics;

@@ -6,6 +6,14 @@ Three knowledge layers operate in parallel:
 - `knowledge/` — structured OKF bundle with typed concepts, cross-links, and YAML frontmatter
 - `MEMORY.md` + `memory/` — accumulated insights (gotchas, patterns, decisions, facts) with confidence scores; auto-collected by `scripts/memory-collect.sh` via post-commit hook and nightly cron
 
+## Knowledge scope
+
+The knowledge base covers developer environment setup across platforms (macOS,
+Ubuntu), languages, and tools — including AI/ML tooling (Stable Diffusion WebUI,
+ReActor, FaceFusion), networking (proxy configuration, CLI network debugging), and
+platform diagnostics (Apple Silicon Rosetta, quarantine, code signing, MPS
+attention/VAE issues).
+
 ## Available operations
 
 | Command | Purpose |
