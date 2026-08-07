@@ -616,3 +616,156 @@ succeeded but download crashed). At inference time, the missing files crash.
 Always check for a specific expected file:
 os.path.exists(os.path.join(dir, "expected_file.ext")) instead of os.path.exists(dir).
 ```
+
+```yaml
+---
+type: gotcha
+title: "convolution_overrideable is unimplemented on MPS in torch 2.3.1"
+confidence: 1.0
+tags: [ai, stable-diffusion, macos, apple-silicon, mps, torch, vae, img2img]
+source: raw/2026-08-07/sd-webui-macos-lessons-learned.md
+last_verified: 2026-08-07
+times_referenced: 0
+---
+torch.ops.aten.convolution_overrideable raises NotImplementedError on the MPS
+backend — normal F.conv2d dispatches to _mps_convolution instead, but fp16 VAE +
+manual_cast(fp16) + LoRA global patch chains can transiently route convs through
+the overrideable path (race during the model-load window; 503 vs 200 intermittent
+API responses). Fix: --no-half-vae (fp32 VAE) or move the VAE to CPU around the
+decode in code. PYTORCH_ENABLE_MPS_FALLBACK=1 does NOT cover this path — always
+verify with a minimal repro.
+```
+
+```yaml
+---
+type: gotcha
+title: ReActor hardcodes CPU/CUDA providers — CoreML sits unused on Apple Silicon
+confidence: 1.0
+tags: [ai, stable-diffusion, reactor, onnxruntime, coreml, macos, apple-silicon, performance]
+source: raw/2026-08-07/faceswap-performance-tuning-lessons.md
+last_verified: 2026-08-07
+times_referenced: 0
+---
+reactor_swapper.py sets PROVIDERS to CUDA or CPU only, so a CoreML-enabled
+onnxruntime build is never used. Resolve providers dynamically
+(ort.get_available_providers() → CoreMLExecutionProvider on darwin/arm64):
+swap inference went 0.669s → 0.123s (5.4x) with detection at 1.2x. First-run
+CoreML model compilation ~3.4s, cached afterward.
+```
+
+```yaml
+---
+type: gotcha
+title: insightface 1.0.1 INSwapper.get() no longer mutates the image in place
+confidence: 1.0
+tags: [ai, insightface, face-swap, python, api, version-drift]
+source: raw/2026-08-07/faceswap-performance-tuning-lessons.md
+last_verified: 2026-08-07
+times_referenced: 0
+---
+In insightface 0.7.3, INSwapper.get(img) mutated img and returned the same
+object; in 1.0.1 it returns a new array. Loops that ignore the return value and
+reuse the original image silently keep only the last face swap. Verify with
+`out is inp` → False and np.array_equal(inp, original) → True. ReActor's own
+loop (result = swapped_image) accumulates correctly.
+```
+
+```yaml
+---
+type: pattern
+title: Enumerate available execution providers before tuning performance
+confidence: 1.0
+tags: [ai, onnxruntime, coreml, performance, debugging, benchmarking]
+source: raw/2026-08-07/faceswap-performance-tuning-lessons.md
+last_verified: 2026-08-07
+times_referenced: 0
+---
+Before tuning anything, enumerate the runtime's available execution providers
+(ort.get_available_providers()) and check which one the code path actually uses.
+"It works" ≠ "it uses the fast backend" — a hardcoded provider list can leave a
+GPU/ANE accelerator idle while inference runs on CPU.
+```
+
+```yaml
+---
+type: pattern
+title: Benchmark face swaps on multi-face images with per-face ArcFace metrics
+confidence: 1.0
+tags: [ai, face-swap, benchmarking, metrics, arcface, testing]
+source: raw/2026-08-07/faceswap-performance-tuning-lessons.md
+last_verified: 2026-08-07
+times_referenced: 0
+---
+Single-face tests mask ordering/accumulation bugs in swap loops. Use images with
+multiple faces and check identity per face. Per-face ArcFace cosine similarity
+(target vs source embedding) is an objective quality proxy: ~0.8+ = strong
+identity preservation, ~0.1 = unswapped.
+```
+
+```yaml
+---
+type: fact
+title: "ReActor ecosystem: original repo disabled, SFW stalled, FaceFusion active"
+confidence: 1.0
+tags: [ai, stable-diffusion, reactor, facefusion, ecosystem, face-swap]
+source: raw/2026-08-07/faceswap-performance-tuning-lessons.md
+last_verified: 2026-08-07
+times_referenced: 0
+---
+Gourieff/sd-webui-reactor was disabled by GitHub Staff (TOS); the SFW fork has
+been stalled since Jan 2025; roop is archived; roop_unleashed was removed;
+Future-Roop has low activity. FaceFusion is the actively developed successor.
+InstantID/PuLID/PhotoMaker/IP-Adapter FaceID are identity GENERATION, not latent
+swapping — not drop-in replacements. Keep ReActor for in-pipeline images,
+FaceFusion for video/lip-sync.
+```
+
+```yaml
+---
+type: gotcha
+title: FaceFusion swapper default and output-extension rules surprise
+confidence: 1.0
+tags: [ai, facefusion, face-swap, cli, configuration]
+source: raw/2026-08-07/faceswap-performance-tuning-lessons.md
+last_verified: 2026-08-07
+times_referenced: 0
+---
+FaceFusion's default swapper is hyperswap_1a_256, NOT inswapper_128 — pass
+--face-swapper-model inswapper_128 for comparable results. Output extension must
+match the target extension (same_file_extension check) or it exits with a
+confusing "match the target and output extension!" message. It also requires
+ffmpeg on PATH even for image jobs and downloads ~1GB of models on first run.
+```
+
+```yaml
+---
+type: gotcha
+title: FaceFusion validates every .onnx against a .hash file (zlib crc32)
+confidence: 0.95
+tags: [ai, facefusion, models, validation, hashing]
+source: raw/2026-08-07/faceswap-performance-tuning-lessons.md
+last_verified: 2026-08-07
+times_referenced: 0
+---
+FaceFusion installs validate every .onnx against a sibling .hash file using zlib
+crc32 with 8 hex chars. Verify downloaded models this way before use. Its
+per-image pipeline costs ~3.5s on CPU (~10x ReActor's steady-state cost) and its
+plain onnxruntime lacks CoreML — installing onnxruntime-silicon in its venv would
+close the gap.
+```
+
+```yaml
+---
+type: gotcha
+title: ".to(dtype) converts dtype only — verify device AND dtype when tracing errors"
+confidence: 1.0
+tags: [pytorch, macos, mps, vae, debugging, device-mismatch]
+source: raw/2026-08-07/faceswap-performance-tuning-lessons.md
+last_verified: 2026-08-07
+times_referenced: 0
+---
+In webui, VAE decode is routinely forced to target_device=devices.cpu while the
+model's own device can still be MPS, and model.to(dtype) changes dtype only.
+When tracing device-mismatch errors, check both the tensor device and dtype
+explicitly before assuming which one is wrong.
+```

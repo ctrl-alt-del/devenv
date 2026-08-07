@@ -2,8 +2,8 @@
 type: Concept
 title: SD WebUI Extension Migration
 description: Evaluating a WebUI extension landscape and migrating from an archived extension to a maintained successor, using the roop → ReActor SFW face-swap migration as a worked example.
-tags: [ai, stable-diffusion, webui, extension, migration, face-swap, reactor, roop]
-timestamp: 2026-08-03T00:00:00Z
+tags: [ai, stable-diffusion, webui, extension, migration, face-swap, reactor, roop, facefusion]
+timestamp: 2026-08-07T00:00:00Z
 ---
 
 # Overview
@@ -75,11 +75,30 @@ order = restore→upscale** (better than roop's upscale→restore).
    a path move, not a re-download.
 3. **Dormant ≠ abandoned** — a feature-complete extension that stopped receiving commits can still be
    the best choice over a recently-pushed but buggy/unproven one.
+4. **"Disabled by GitHub Staff" is a hard stop** — beyond archived, a repo can be disabled by GitHub
+   Staff (TOS). Treat it like archived status with no way back: the code still exists but the
+   canonical repo is gone.
+
+# Ecosystem Update (Aug 2026)
+
+- The original `Gourieff/sd-webui-reactor` repo is **disabled by GitHub Staff** (TOS);
+  the SFW fork chosen in the worked example is still the best in-pipeline option even
+  though it has been stalled since Jan 2025.
+- roop is archived; `roop_unleashed` was removed; a continuation (Future-Roop) has low activity.
+- **FaceFusion** is the actively developed successor (images + video, CoreML support) —
+  see [FaceFusion](/tools/facefusion.md). It is ~10x slower per image than a CoreML-patched
+  [ReActor](/tools/reactor.md); it earns its place for video/lip-sync work.
+- Newer generative identity methods (InstantID, PuLID, PhotoMaker, IP-Adapter FaceID)
+  are a **different paradigm** — identity *generation* rather than latent swapping —
+  slower and VRAM-hungrier, not drop-in replacements for face-swap extensions.
 
 # Related
 
 - [Stable Diffusion WebUI](/tools/sd-webui.md) — the tool this pattern applies to
+- [ReActor](/tools/reactor.md) — the chosen successor, with CoreML tuning and ecosystem status
+- [FaceFusion](/tools/facefusion.md) — the active video/lip-sync successor
 - Source: [../../raw/2026-08-03/roop-to-reactor-migration.md](../../raw/2026-08-03/roop-to-reactor-migration.md)
+- Source: [../../raw/2026-08-07/faceswap-performance-tuning-lessons.md](../../raw/2026-08-07/faceswap-performance-tuning-lessons.md)
 
 # Citations
 

@@ -1,9 +1,9 @@
 ---
 type: Tool
 title: Stable Diffusion WebUI — macOS Apple Silicon Setup
-description: Complete macOS configuration for stable-diffusion-webui on Apple Silicon with MPS, including attention optimization, uv venv, ReActor extension, and common fixes.
-tags: [ai, stable-diffusion, webui, macos, apple-silicon, mps, uvic, attention, reactor, torch]
-timestamp: 2026-08-05T00:00:00Z
+description: Complete macOS configuration for stable-diffusion-webui on Apple Silicon with MPS, including attention optimization, uv venv, ReActor extension, MPS VAE crash fixes, and common gotchas.
+tags: [ai, stable-diffusion, webui, macos, apple-silicon, mps, uvic, attention, reactor, torch, vae]
+timestamp: 2026-08-07T00:00:00Z
 ---
 
 # Overview
@@ -29,8 +29,9 @@ cannot install packages (PEP 668 externally-managed Python).
 
 # --opt-split-attention-v1 REMOVED (uses torch.einsum, 1000x slower on MPS)
 # --no-half REMOVED (MPS has native fp16 support, 2x faster)
+# --no-half-vae ADDED (MPS fp16 VAE crashes with convolution_overrideable, see Fix 7)
 # --skip-python-version-check ADDED (suppresses 3.10 warning on 3.12+)
-export COMMANDLINE_ARGS="--skip-torch-cuda-test --skip-python-version-check --use-cpu interrogate"
+export COMMANDLINE_ARGS="--skip-torch-cuda-test --skip-python-version-check --use-cpu interrogate --no-half-vae"
 
 # Kill broken proxy
 export http_proxy=""
@@ -152,6 +153,23 @@ For public repos returning 404/403:
 GIT_ASKPASS=true git clone <url> <dir>
 ```
 
+## Fix 7: MPS `convolution_overrideable` VAE Crash
+
+Intermittent `NotImplementedError: convolution_overrideable not implemented` during
+img2img VAE encode/decode on MPS. In torch 2.3.1, `torch.ops.aten.convolution_overrideable`
+is **not implemented for the MPS backend** — the crash occurs when a conv is routed
+through the overrideable path (a state that the fp16 VAE + `manual_cast(fp16)` wrapper +
+LoRA global patch chain can transiently produce, especially during the model-load window).
+Normal `F.conv2d` on MPS dispatches to `_mps_convolution` and works.
+
+**Fix (applied):** `--no-half-vae` — VAE runs in fp32 and MPS never hits the broken
+fp16 conv path. Also avoid generating during the model-load window (watch for
+`Model loaded in X.Xs`).
+
+**Alternative fix:** move the VAE to CPU around the decode in code
+(see [MPS convolution_overrideable](/troubleshooting/mps-convolution-overrideable.md)
+and [ReActor](/tools/reactor.md) for the full analysis).
+
 # Gotchas
 
 1. **uv venv has no pip** — `python -m pip` crashes. All installs must use `uv pip --python venv/bin/python`.
@@ -164,6 +182,8 @@ GIT_ASKPASS=true git clone <url> <dir>
 8. **Extension installers run EVERY startup** — Any download/pip failure blocks launch.
 9. **HuggingFace timeouts** — `urlopen()` with no timeout hangs 75-180s. Always add `timeout=30`.
 10. **Tokenizers Rust compilation** — Old tokenizers need RUSTFLAGS to compile on new Rust toolchains.
+11. **`convolution_overrideable` on MPS (torch 2.3.1)** — fp16 VAE convs can route to the unimplemented overrideable path under race conditions; use `--no-half-vae` (see Fix 7).
+12. **Requests during model load** — img2img API requests in the model-load window intermittently return 503 (empty body) vs 200; wait for `Model loaded in X.Xs`.
 
 # Safe-to-Ignore Warnings
 
@@ -176,9 +196,13 @@ GIT_ASKPASS=true git clone <url> <dir>
 # Related
 
 - [Stable Diffusion WebUI](/tools/sd-webui.md) — CPU-only optimization and general tuning
+- [ReActor](/tools/reactor.md) — Face swap extension: CoreML providers, insightface drift, ecosystem status
+- [FaceFusion](/tools/facefusion.md) — Video/lip-sync successor with CoreML support
+- [MPS convolution_overrideable](/troubleshooting/mps-convolution-overrideable.md) — img2img VAE crash root cause and both fixes
 - [SD WebUI SDP Attention OOM](/troubleshooting/sd-webui-sdp-attention-oom.md) — High-res VAE encoding OOM fix
 - [SD WebUI Extension Migration](/concepts/sd-webui-extension-migration.md) — Extension evaluation and migration
 - Source: [../../../raw/2026-08-05/stable-diffusion-webui-macos-lessons.md](../../raw/2026-08-05/stable-diffusion-webui-macos-lessons.md)
+- Source: [../../../raw/2026-08-07/sd-webui-macos-lessons-learned.md](../../raw/2026-08-07/sd-webui-macos-lessons-learned.md)
 
 # Citations
 

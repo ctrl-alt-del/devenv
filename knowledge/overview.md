@@ -3,7 +3,7 @@ type: Overview
 title: Developer Environment Knowledge Base
 description: Curated knowledge for setting up and maintaining development environments, AI/ML tools, and platform diagnostics across macOS, Windows, and Ubuntu.
 tags: [meta, documentation, developer-tools, ai, macos, troubleshooting]
-timestamp: 2026-08-05T00:00:00Z
+timestamp: 2026-08-07T00:00:00Z
 ---
 
 # Overview
@@ -18,7 +18,8 @@ across multiple operating systems.
 - **Languages**: Java, Python, JavaScript/Node.js, Ruby, Go, Rust, Scala, PHP, C#, Elm
 - **Tools**: Package managers, build tools, editors, IDEs, terminals, browsers, databases, caches, AI/ML tools
 - **Networking**: Proxy configuration, CLI network debugging, SOCKS vs HTTP ports
-- **Platform Diagnostics**: Apple Silicon Rosetta, quarantine xattr, code signing, MPS attention
+- **Platform Diagnostics**: Apple Silicon Rosetta, quarantine xattr, code signing, MPS attention/VAE issues
+- **AI/ML Tooling**: Stable Diffusion WebUI (CPU + Apple Silicon), ReActor, FaceFusion, face-swap performance
 - **Depth**: Installation steps, configuration patterns, known issues, cross-platform differences
 
 ## Architecture
